@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GW_IF_CommonSingle.label>Lit impérial simple</GW_IF_CommonSingle.label>
+  <GW_IF_CommonDouble.label>Lit impérial double</GW_IF_CommonDouble.label>
+  <GW_IF_PrisonerSingle.label>Lit de prisonnier</GW_IF_PrisonerSingle.label>
+  <GW_IF_RoyalSingle.label>Lit simple noble</GW_IF_RoyalSingle.label>
+  <GW_IF_RoyalDouble.label>Lit double noble</GW_IF_RoyalDouble.label>
+</LanguageData>

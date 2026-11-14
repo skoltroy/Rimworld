@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GW_GeneRestrictedEquipment_All>Au moins un gène requis est manquant.</GW_GeneRestrictedEquipment_All>
+  <GW_GeneRestrictedEquipment_AnyOne>Aucun des gènes requis n'est présent.</GW_GeneRestrictedEquipment_AnyOne>
+  <GW_GeneRestrictedEquipment_One>Le gène {0} est absent.</GW_GeneRestrictedEquipment_One>
+  <GW_GeneRestrictedEquipment_None>Le gène {0} est présent.</GW_GeneRestrictedEquipment_None>
+  <GW_XenoRestrictedEquipment_AnyOne>Aucun des xénotypes requis n'est présent.</GW_XenoRestrictedEquipment_AnyOne>
+  <GW_XenoRestrictedEquipment_One>Le pion n'est pas un(e) {0}.</GW_XenoRestrictedEquipment_One>
+  <GW_XenoRestrictedEquipment_None>Le pion est un(e) {0}.</GW_XenoRestrictedEquipment_None>
+  <GW_GenesNotFound>Des gènes sont requis pour équiper cet objet.</GW_GenesNotFound>
+  <GW_HediffRestrictedEquipment_All>Au moins une condition requise est manquante.</GW_HediffRestrictedEquipment_All>
+  <GW_HediffRestrictedEquipment_AnyOne>Aucune des conditions requises n'est présente.</GW_HediffRestrictedEquipment_AnyOne>
+  <GW_HediffRestrictedEquipment_One>La condition {0} est absente.</GW_HediffRestrictedEquipment_One>
+  <GW_HediffRestrictedEquipment_None>La condition {0} est présente.</GW_HediffRestrictedEquipment_None>
+</LanguageData>

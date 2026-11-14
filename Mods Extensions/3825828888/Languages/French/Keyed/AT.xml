@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AT_AutoManned>Les tourelles à servant tirent seules</AT_AutoManned>
+  <AT_AutoManned_Desc>Vos tourelles qui ont normalement besoin d'un colon (de n'importe quel mod) tirent automatiquement, comme une mini-tourelle. Vous pouvez toujours choisir une cible à la main.</AT_AutoManned_Desc>
+  <AT_AutoMortars>Les mortiers tirent seuls</AT_AutoMortars>
+  <AT_AutoMortars_Desc>Vos mortiers et autres armes à obus tirent automatiquement sur les ennemis tant qu'un obus est chargé.</AT_AutoMortars_Desc>
+  <AT_MortarSafety>Les mortiers ne tirent pas près de vos gens</AT_MortarSafety>
+  <AT_MortarSafety_Desc>Un mortier automatique ignore les cibles où l'obus pourrait tomber sur vos colons, animaux ou invités.</AT_MortarSafety_Desc>
+  <AT_SafetyExtra>Distance de sécurité supplémentaire : {0} cases</AT_SafetyExtra>
+  <AT_LoadShells>Les colons chargent les obus (travail Transport)</AT_LoadShells>
+  <AT_LoadShells_Desc>Les transporteurs apportent des obus de n'importe où sur la carte aux mortiers automatiques vides. Le filtre d'obus du mortier est respecté.</AT_LoadShells_Desc>
+  <AT_AnyMetal>Les tourelles se réarment avec n'importe quel métal</AT_AnyMetal>
+  <AT_AnyMetal_Desc>Les tourelles qui se réarment avec de l'acier (ou un autre métal unique) acceptent n'importe quel métal : acier, plastacier, or, uranium et métaux des mods.</AT_AnyMetal_Desc>
+  <AT_AllowSilver>…argent compris</AT_AllowSilver>
+  <AT_Restart>Les réglages des matériaux et des tourelles murales s'appliquent après un redémarrage du jeu.</AT_Restart>
+  <AT_NoShell>Aucun obus disponible</AT_NoShell>
+  <AT_FriendlyFire>Tirs amis des tourelles</AT_FriendlyFire>
+  <AT_FriendlyFire_Desc>Désactivé : les balles de tes tourelles passent à côté de tes colons, invités et alliés, et les explosions de leurs obus ne les blessent pas. Activé = comme dans le jeu.</AT_FriendlyFire_Desc>
+  <AT_FuelWood>Recharger les tourelles avec du bois</AT_FuelWood>
+  <AT_FuelWood_Desc>Les tourelles rechargées en métal acceptent aussi le bois.</AT_FuelWood_Desc>
+  <AT_FuelStone>Recharger les tourelles avec des blocs de pierre</AT_FuelStone>
+  <AT_FuelStone_Desc>Les tourelles rechargées en métal acceptent aussi les blocs de pierre.</AT_FuelStone_Desc>
+  <AT_WallTurrets>Tourelles dans les murs</AT_WallTurrets>
+  <AT_WallTurrets_Desc>Les tourelles choisies reçoivent une seconde version « … (dans le mur) » dans le menu Sécurité. Elle se construit directement sur un mur ou un mur de roche lissé, remplace ce morceau de mur et sert elle-même de mur : elle bloque le passage, soutient le toit et garde la pièce fermée. Les tourelles normales restent inchangées.</AT_WallTurrets_Desc>
+  <AT_WallRecommended>Sélection recommandée</AT_WallRecommended>
+  <AT_WallNone>Aucune tourelle trouvée.</AT_WallNone>
+  <AT_WallLabel>{0} (dans le mur)</AT_WallLabel>
+  <AT_WallDescExtra>Se construit sur un mur : remplace le morceau de mur, bloque le passage et soutient le toit comme un mur. Si elle est détruite, il reste un trou dans le mur.</AT_WallDescExtra>
+  <AT_SecShooting>Tir</AT_SecShooting>
+  <AT_SecMaterials>Munitions et matériaux</AT_SecMaterials>
+  <AT_WallEnable>Autoriser les tourelles dans les murs</AT_WallEnable>
+  <AT_WallAll>Tout sélectionner</AT_WallAll>
+  <AT_WallClear>Tout désélectionner</AT_WallClear>
+  <AT_WallCount>{0} sur {1} sélectionnées</AT_WallCount>
+  <AT_WallSearch>Recherche :</AT_WallSearch>
+  <AT_WallRecDone>Sélection recommandée rétablie – {0} petites tourelles sélectionnées.</AT_WallRecDone>
+  <AT_WallAllDone>Les {0} tourelles sont sélectionnées.</AT_WallAllDone>
+  <AT_WallClearDone>Sélection effacée.</AT_WallClearDone>
+  <AT_RestartNeeded>⚠ Redémarrez le jeu pour appliquer les changements des tourelles murales.</AT_RestartNeeded>
+  <AT_WallRecTip>Recommandé : petite tourelle jusqu'à 2×2</AT_WallRecTip>
+  <AT_SmartShells>Choix intelligent des obus</AT_SmartShells>
+  <AT_SmartShells_Desc>Les mortiers automatiques ne gaspillent pas d'obus : IEM seulement sur les mécanoïdes et les ennemis à bouclier, incendiaires pas sur les mécanoïdes, mousse anti-feu seulement sur les incendies dans la zone de base (jamais sur les ennemis). Les porteurs apportent des obus IEM quand la plupart des ennemis sont des mécanoïdes, sinon des obus explosifs – si le filtre du mortier les autorise.</AT_SmartShells_Desc>
+  <AT_NoHitBuildings>Les tourelles ne touchent pas nos bâtiments</AT_NoHitBuildings>
+  <AT_NoHitBuildings_Desc>Activé : les balles de tes tourelles passent à côté de tes propres bâtiments (murs, sacs de sable, portes…) sauf si tu les vises, et les explosions de leurs obus ne les endommagent pas. Les bâtiments ennemis sont touchés normalement. Désactivé = comme dans le jeu.</AT_NoHitBuildings_Desc>
+  <AT_WallOutward>Les tourelles murales tirent seulement vers l'extérieur</AT_WallOutward>
+  <AT_WallOutward_Desc>Une tourelle dans un mur ne tire que sur les cibles du côté extérieur de son mur (à l'opposé de la pièce). Si aucun côté n'est clairement dehors (mur entre deux pièces), elle tire partout.</AT_WallOutward_Desc>
+  <AT_TabTurrets>Tourelles</AT_TabTurrets>
+  <AT_TurretsDesc>Toutes les tourelles, mortiers et canons – vanilla et des mods. Ceux qui sont cochés tirent seuls. Décochés : les tourelles et mortiers servis ont de nouveau besoin d'un colon, les tourelles automatiques ne tirent pas tant que vous ne choisissez pas de cible.</AT_TurretsDesc>
+  <AT_TurretsNone>Aucune tourelle ici n'a besoin d'un colon.</AT_TurretsNone>
+  <AT_TurretsCount>{0} sur {1} tirent seuls</AT_TurretsCount>
+  <AT_FuelEdit>Matériaux…</AT_FuelEdit>
+  <AT_FuelPerTurret>Les matériaux de chaque tourelle – aussi celles qui ont besoin de leurs propres munitions ou carburant d'un mod. Cliquez sur « Matériaux… » et cochez ce qui peut aussi servir à les recharger. Effet immédiat.</AT_FuelPerTurret>
+  <AT_FuelNone>Aucune tourelle ici ne se recharge.</AT_FuelNone>
+  <AT_FuelTakes>prend : {0}</AT_FuelTakes>
+  <AT_FuelOriginal>Prend de base : {0}. Cochez ce qui peut aussi servir à la recharger :</AT_FuelOriginal>
+  <AT_FuelOrig>d'origine</AT_FuelOrig>
+  <AT_FuelGroup0>Métaux</AT_FuelGroup0>
+  <AT_FuelGroup1>Bois</AT_FuelGroup1>
+  <AT_FuelGroup2>Blocs de pierre</AT_FuelGroup2>
+  <AT_FuelGroup3>Munitions et obus</AT_FuelGroup3>
+  <AT_FuelGroup4>Autres ressources</AT_FuelGroup4>
+  <AT_KindManned>servie</AT_KindManned>
+  <AT_KindMortar>mortier servi</AT_KindMortar>
+  <AT_KindAuto>automatique</AT_KindAuto>
+  <AT_KindMortarAuto>mortier</AT_KindMortarAuto>
+  <AT_GizmoAutoLoad>Chargement auto des obus</AT_GizmoAutoLoad>
+  <AT_GizmoAutoLoad_Desc>Les porteurs apportent eux-mêmes des obus à ce mortier. Désactivez pour le charger seulement à la main.</AT_GizmoAutoLoad_Desc>
+  <AT_GizmoAmmo>Munitions : {0}</AT_GizmoAmmo>
+  <AT_GizmoAmmo_Desc>Choisissez le seul obus ou matériau utilisé pour charger ou recharger cette tourelle – rien d'autre n'est apporté. « Tout ce qui est permis » utilise tout ce que la tourelle accepte.</AT_GizmoAmmo_Desc>
+  <AT_AmmoAny>tout ce qui est permis</AT_AmmoAny>
+  <AT_SpecialOnlyPicked>Obus spéciaux seulement si choisis</AT_SpecialOnlyPicked>
+  <AT_SpecialOnlyPicked_Desc>Les porteurs n'apportent les obus IEM, incendiaires, extincteurs et autres obus spéciaux qu'à un mortier réglé dessus avec son bouton « Munitions » ; sinon ils apportent des obus explosifs.</AT_SpecialOnlyPicked_Desc>
+  <AT_AmmoAlsoMetal>Les tourelles à munitions propres prennent aussi du métal</AT_AmmoAlsoMetal>
+  <AT_AmmoAlsoMetal_Desc>Les tourelles qui ont besoin de leurs propres munitions ou carburant (souvent de mods) peuvent aussi être rechargées avec de l'acier ou un autre métal – elles ne restent jamais inactives faute de munitions.</AT_AmmoAlsoMetal_Desc>
+  <AT_FreeAmmo>Les tourelles n'ont pas besoin de munitions</AT_FreeAmmo>
+  <AT_FreeAmmo_Desc>Vos tourelles comptent toujours comme chargées et n'utilisent ni munitions ni carburant. Utile quand une tourelle de mod demande des munitions que vous ne pouvez pas fabriquer. Les mortiers, l'artillerie et les canons de campagne ont aussi toujours un obus chargé.</AT_FreeAmmo_Desc>
+  <AT_VfesAuto>Tire toute seule (Auto Turrets) – aucun colon nécessaire.</AT_VfesAuto>
+  <AT_VfesSend>Personne ne la sert – le colon libre le plus proche capable de combattre y va tout de suite.</AT_VfesSend>
+  <AT_VfesNobody>Personne ne peut servir l'artillerie.</AT_VfesNobody>
+  <AT_VfesGoes>{0} va servir l'artillerie.</AT_VfesGoes>
+  <AT_ShellsFromMaterial>Charger mortiers et artillerie avec du matériau au lieu d'obus</AT_ShellsFromMaterial>
+  <AT_ShellsFromMaterial_Desc>Les porteurs apportent de l'acier (ou un autre métal) aux mortiers, à l'artillerie et aux canons de campagne, et la pièce est chargée avec l'obus choisi, sinon un obus explosif. Les obus ne sont plus nécessaires. Le mortier automatique de VFE recharge aussi ses obus avec du matériau.</AT_ShellsFromMaterial_Desc>
+  <AT_ShellCost>Matériau par obus : {0}</AT_ShellCost>
+  <AT_NoMaterial>Pas assez de matériau ({0} métal par obus)</AT_NoMaterial>
+  <AT_StunRunaways>Les tourelles paralysantes arrêtent prisonniers et esclaves en fuite</AT_StunRunaways>
+  <AT_StunRunaways_Desc>Vos tourelles paralysantes (non létales) tirent aussi sur vos prisonniers et esclaves qui s'évadent, se rebellent, fuient ou deviennent fous furieux. Les tourelles létales les laissent toujours tranquilles.</AT_StunRunaways_Desc>
+  <AT_StunGiveUp>Les fugitifs paralysés abandonnent</AT_StunGiveUp>
+  <AT_StunGiveUp_Desc>Un prisonnier en évasion ou un esclave rebelle paralysé ou mis à terre par votre tourelle abandonne : les gardiens le ramènent en cellule, un esclave retourne au travail.</AT_StunGiveUp_Desc>
+  <AT_GaveUpPrisoner>{0} a été paralysé et a abandonné l'évasion.</AT_GaveUpPrisoner>
+  <AT_GaveUpSlave>{0} a été paralysé et a abandonné la révolte.</AT_GaveUpSlave>
+  <AT_ShellHit>Impact sur {0} : {1} / {2}</AT_ShellHit>
+  <AT_ShellDestroyed>Votre artillerie a détruit {0}. Les gens de {1} ont quitté les ruines.</AT_ShellDestroyed>
+  <AT_ShellDestroyedLabel>Base détruite par l'artillerie</AT_ShellDestroyedLabel>
+  <AT_ShellAppliedLabel>Base bombardée</AT_ShellAppliedLabel>
+  <AT_ShellApplied>Votre artillerie a touché {0} {1} fois avant votre arrivée – les obus sont tombés maintenant.</AT_ShellApplied>
+  <AT_ShellStart>L'artillerie bombarde {0} – encore environ {1} impacts pour la détruire.</AT_ShellStart>
+  <AT_ShellLabel>Bombardée : {0} / {1} impacts</AT_ShellLabel>
+  <AT_ShellSettlements>L'artillerie bombarde les bases hostiles sans carte</AT_ShellSettlements>
+  <AT_ShellSettlements_Desc>L'artillerie mondiale de VFE Security peut tirer sur une base hostile jamais visitée. Chaque impact compte : en attaquant, les impacts tombent d'abord (moins de défenseurs), et assez d'impacts détruisent la base.</AT_ShellSettlements_Desc>
+  <AT_ShellHitsN>Impacts pour détruire une base : {0} (moins pour les tribus, plus pour les spatiaux)</AT_ShellHitsN>
+  <AT_ShellNotHostile>{0} ({1}) n'est pas hostile – l'artillerie ne bombarde que les bases et camps hostiles (ou une carte ouverte).</AT_ShellNotHostile>
+  <AT_ShellNoTarget>Rien à bombarder ici. Choisissez une base ou un camp hostile (pas besoin de l'explorer) ou une carte ouverte.</AT_ShellNoTarget>
+  <AT_ShellSiteDestroyed>{0} ({1}) a été détruit par l'artillerie.</AT_ShellSiteDestroyed>
+  <AT_QC_This>Tourelle on/off</AT_QC_This>
+  <AT_QC_This_Desc>Éteint cette tourelle (elle ne tire plus, même sur une cible forcée) ou la rallume.</AT_QC_This_Desc>
+  <AT_QC_All>Toutes les tourelles…</AT_QC_All>
+  <AT_QC_All_Desc>Éteindre ou allumer toutes tes tourelles de cette carte, ou toutes les régler sur létal ou étourdir seulement.</AT_QC_All_Desc>
+  <AT_QC_ModeLethal>Tir : létal</AT_QC_ModeLethal>
+  <AT_QC_ModeStun>Tir : étourdir seulement</AT_QC_ModeStun>
+  <AT_QC_Mode_Desc>Létal : tirs normaux. Étourdir seulement : chaque impact ne fait qu'étourdir (aucune blessure) et la tourelle ignore les cibles déjà étourdies ou à terre. Pas pour les armes explosives (mortiers, roquettes).</AT_QC_Mode_Desc>
+  <AT_QC_SetLethal>Cette tourelle : létal</AT_QC_SetLethal>
+  <AT_QC_SetStun>Cette tourelle : étourdir seulement</AT_QC_SetStun>
+  <AT_QC_AllLethal>Toutes les tourelles : létal</AT_QC_AllLethal>
+  <AT_QC_AllStun>Toutes les tourelles : étourdir seulement</AT_QC_AllStun>
+  <AT_QC_Explosive>Les armes explosives (mortiers, roquettes, obus) ne peuvent pas seulement étourdir.</AT_QC_Explosive>
+  <AT_QC_AllOff>Éteindre toutes les tourelles</AT_QC_AllOff>
+  <AT_QC_AllOn>Allumer toutes les tourelles</AT_QC_AllOn>
+  <AT_QC_AllOffMsg>{0} tourelles éteintes.</AT_QC_AllOffMsg>
+  <AT_QC_AllOnMsg>{0} tourelles allumées.</AT_QC_AllOnMsg>
+  <AT_QC_AllStunMsg>{0} tourelles réglées sur étourdir seulement.</AT_QC_AllStunMsg>
+  <AT_QC_AllLethalMsg>{0} tourelles réglées sur létal.</AT_QC_AllLethalMsg>
+  <AT_QC_SkippedExplosive>{0} tourelles explosives restent létales.</AT_QC_SkippedExplosive>
+  <AT_QC_Global_Tip>Tes tourelles : tout éteindre ou allumer, létal ou étourdir seulement.</AT_QC_Global_Tip>
+  <AT_QC_SetGizmos>Boutons rapides des tourelles</AT_QC_SetGizmos>
+  <AT_QC_SetGizmos_Desc>Boutons on/off et létal/étourdir sur chacune de tes tourelles.</AT_QC_SetGizmos_Desc>
+  <AT_QC_SetGlobal>Bouton des tourelles en bas à droite</AT_QC_SetGlobal>
+  <AT_QC_SetGlobal_Desc>Un petit bouton à côté des réglages de jeu (en bas à droite) pour éteindre/allumer toutes les tourelles ou passer létal/étourdir.</AT_QC_SetGlobal_Desc>
+  <!-- 1.4.0 ammo types -->
+  <AT_AM_Tab>Types de munitions</AT_AM_Tab>
+  <AT_AM_Enable>Types de munitions des tourelles</AT_AM_Enable>
+  <AT_AM_Enable_Desc>Chacune de vos tourelles (aussi celles des mods et les mortiers) reçoit un bouton de type de munition : perforante, à pointe creuse, incendiaire, IEM, étourdissante, toxique ; les mortiers aussi fumigène et mousse anti-feu. Une tourelle peut utiliser un type pour lequel elle n'a normalement pas de munitions.</AT_AM_Enable_Desc>
+  <AT_AM_FromStorage>Munitions spéciales depuis le stock</AT_AM_FromStorage>
+  <AT_AM_FromStorage_Desc>Désactivé (défaut) : les munitions spéciales ne se fabriquent ni ne se transportent – la tourelle se recharge seule. Activé : les mortiers ont besoin de vrais obus du stock comme avant.</AT_AM_FromStorage_Desc>
+  <AT_AM_ApPen>Pénétration ×{0}</AT_AM_ApPen>
+  <AT_AM_HpDmg>Dégâts ×{0}</AT_AM_HpDmg>
+  <AT_AM_IncIgnite>Chance d'enflammer : {0}</AT_AM_IncIgnite>
+  <AT_AM_EmpPow>Puissance IEM ×{0}</AT_AM_EmpPow>
+  <AT_AM_ToxSev>Toxicité par tir : {0}</AT_AM_ToxSev>
+  <AT_AM_KShells>Obus fumigènes et anti-feu (mortiers)</AT_AM_KShells>
+  <AT_AM_KShells_Desc>Les mortiers et l'artillerie peuvent aussi tirer fumigène ou mousse anti-feu.</AT_AM_KShells_Desc>
+  <AT_AM_Gizmo>Munition : {0}</AT_AM_Gizmo>
+  <AT_AM_Gizmo_Desc>Choisissez la munition de cette tourelle. Les tourelles à balles changent l'effet de l'impact ; mortiers et artillerie chargent l'obus correspondant. Les munitions spéciales sont gratuites sauf si 'Munitions spéciales depuis le stock' est activé.</AT_AM_Gizmo_Desc>
+  <AT_AM_K_Normal>Normale</AT_AM_K_Normal>
+  <AT_AM_K_Normal_Desc>Munition par défaut de l'arme, rien ne change.</AT_AM_K_Normal_Desc>
+  <AT_AM_K_ArmorPiercing>Perforante</AT_AM_K_ArmorPiercing>
+  <AT_AM_K_ArmorPiercing_Desc>Pénétration bien plus élevée, dégâts ×0,8. Bonne contre les blindés et mécanoïdes.</AT_AM_K_ArmorPiercing_Desc>
+  <AT_AM_K_HollowPoint>Pointe creuse</AT_AM_K_HollowPoint>
+  <AT_AM_K_HollowPoint_Desc>Plus de dégâts, moitié de pénétration. Bonne contre les cibles sans armure et les animaux.</AT_AM_K_HollowPoint_Desc>
+  <AT_AM_K_Incendiary>Incendiaire</AT_AM_K_Incendiary>
+  <AT_AM_K_Incendiary_Desc>Ajoute des brûlures et une chance d'enflammer. Mortiers : obus incendiaire.</AT_AM_K_Incendiary_Desc>
+  <AT_AM_K_EMP>IEM</AT_AM_K_EMP>
+  <AT_AM_K_EMP_Desc>Faibles dégâts plus IEM : étourdit mécanoïdes et tourelles, brise les boucliers. Mortiers : obus IEM.</AT_AM_K_EMP_Desc>
+  <AT_AM_K_Stun>Étourdissante</AT_AM_K_Stun>
+  <AT_AM_K_Stun_Desc>Aucune blessure – les tirs étourdissent seulement. Ignore les cibles à terre ou étourdies. Tourelles à balles uniquement.</AT_AM_K_Stun_Desc>
+  <AT_AM_K_Toxic>Toxique</AT_AM_K_Toxic>
+  <AT_AM_K_Toxic_Desc>Moins de dégâts, ajoute de la toxicité aux cibles vivantes. Mortiers : obus toxique (Biotech).</AT_AM_K_Toxic_Desc>
+  <AT_AM_K_Smoke>Fumigène</AT_AM_K_Smoke>
+  <AT_AM_K_Smoke_Desc>Mortiers uniquement : obus fumigène qui bloque les tirs ennemis.</AT_AM_K_Smoke_Desc>
+  <AT_AM_K_Firefoam>Mousse anti-feu</AT_AM_K_Firefoam>
+  <AT_AM_K_Firefoam_Desc>Mortiers uniquement : obus de mousse qui éteint les incendies.</AT_AM_K_Firefoam_Desc>
+  <AT_AM_ApplySame>Pareil pour tous : {0}</AT_AM_ApplySame>
+  <AT_AM_ApplyAll>Pareil pour toutes les tourelles</AT_AM_ApplyAll>
+  <AT_AM_AllMenu>Type de munition pour toutes les tourelles…</AT_AM_AllMenu>
+  <AT_AM_AllKind>Toutes les tourelles : {0}</AT_AM_AllKind>
+  <AT_AM_SetMsg>Munition réglée pour {0} tourelles : {1}.</AT_AM_SetMsg>
+  <AT_AM_Skipped>{0} tourelles ne peuvent pas l'utiliser et restent inchangées.</AT_AM_Skipped>
+  <AT_AM_OffInSettings>désactivé dans les options</AT_AM_OffInSettings>
+  <AT_AM_NotForShells>pas pour les obus</AT_AM_NotForShells>
+  <AT_AM_NotForRockets>les roquettes ne changent pas</AT_AM_NotForRockets>
+  <AT_AM_NoShellDef>obus indisponible</AT_AM_NoShellDef>
+  <AT_AM_OnlyShells>mortiers uniquement</AT_AM_OnlyShells>
+  <AT_SpareGround>Les tourelles ne détruisent pas les objets ni les corps</AT_SpareGround>
+  <AT_SpareGround_Desc>Activé : les balles et les explosions d'obus de tes tourelles épargnent les objets et les cadavres au sol – le butin n'est pas réduit en miettes et les corps ne sont pas réduits en bouillie jusqu'à disparaître. Les personnages et les bâtiments sont touchés comme d'habitude. Désactivé = comme dans le jeu.</AT_SpareGround_Desc>
+</LanguageData>

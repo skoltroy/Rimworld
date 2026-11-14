@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VEF_GeneralTitle>Général</VEF_GeneralTitle>
+  <CSGTitle>Génération personnalisée de structures :</CSGTitle>
+  <CSGLog>Activer le journal de débogage de la génération des structures : </CSGLog>
+  <VEF_TPTitle>Modifications activables</VEF_TPTitle>
+  <NeedRestart>Toutes les modifications nécessitent un redémarrage pour être appliquées</NeedRestart>
+  <XPatchFound>{0} modifications détectées</XPatchFound>
+  <VEF.WeatherDamages>Dégâts météorologiques</VEF.WeatherDamages>
+  <VEF.EnableWeatherDamage>{0}</VEF.EnableWeatherDamage>
+  <FDTitle>Découverte des factions</FDTitle>
+  <NeedToBeInGame>Vous devez d'abord charger une sauvegarde</NeedToBeInGame>
+  <AskForPopUp>Ajouter une ou plusieurs factions</AskForPopUp>
+  <AskForPopUpExplained>Cliquez ici pour indiquer, pour chaque faction, si vous souhaitez l'ajouter à votre partie</AskForPopUpExplained>
+  <CanAddXFaction>{0} faction(s) peuvent être ajoutées à votre sauvegarde actuelle</CanAddXFaction>
+  <VEF.DisableModSourceReport>Désactiver les rapports sur l'origine des mods</VEF.DisableModSourceReport>
+  <VEF.Shields.Search>Rechercher : </VEF.Shields.Search>
+  <VEF.Shields.ResetModSettingsToDefault>Rétablir les paramètres par défaut du mod</VEF.Shields.ResetModSettingsToDefault>
+  <VEF.Shields.ExplanationTitle>Définir quelles armes peuvent être utilisées avec des boucliers.</VEF.Shields.ExplanationTitle>
+  <VEF.Shields.ShowMeleeWeapons>Afficher les armes de mêlée</VEF.Shields.ShowMeleeWeapons>
+  <VEF.Shields.ShowRangeWeapons>Afficher les armes à distance</VEF.Shields.ShowRangeWeapons>
+  <VEF_DisableTextureCaching>Désactiver la mise en cache des textures</VEF_DisableTextureCaching>
+  <VEF_EnablePipeSystemNoStorageAlert>Activer l'alerte d'absence de stockage du système de tuyauterie</VEF_EnablePipeSystemNoStorageAlert>
+  <VEF_FactionDiscovery>Découverte des factions</VEF_FactionDiscovery>
+  <VEF_CustomStructureGeneration>Génération personnalisée de structures :</VEF_CustomStructureGeneration>
+  <VEF_TextureVariations>Variantes de textures :</VEF_TextureVariations>
+  <VEF_VerboseLogging>Journalisation détaillée</VEF_VerboseLogging>
+  <VEF_UnforbidMinedOres>Autoriser les minerais extraits</VEF_UnforbidMinedOres>
+  <VEF_Never>Jamais</VEF_Never>
+  <VEF_HomeArea>Zone de base</VEF_HomeArea>
+  <VEF_Always>Toujours</VEF_Always>
+  <VEF_NeverDesc>Ne jamais autoriser les minerais extraits (comportement du jeu de base pour les pions non humains, comme les animaux et les méchas)</VEF_NeverDesc>
+  <VEF_HomeAreaDesc>Les minerais extraits par les pions ne sont autorisés que s'ils se trouvent dans la zone de base</VEF_HomeAreaDesc>
+  <VEF_AlwaysDesc>Les minerais extraits par les pions sont toujours autorisés</VEF_AlwaysDesc>
+</LanguageData>

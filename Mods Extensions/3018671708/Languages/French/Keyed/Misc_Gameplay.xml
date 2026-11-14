@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GW_StudySTCFragments>Étudier les fragments STC</GW_StudySTCFragments>
+  <GW_StudySTCFragmentsDescription>Étudiez des fragments STC pour débloquer des technologies perdues.</GW_StudySTCFragmentsDescription>
+  <GW_STCFragmentsRequired>Fragments STC</GW_STCFragmentsRequired>
+  <GW_Progress>Progression</GW_Progress>
+  <GW_DurationLeft>Temps restant : {0}</GW_DurationLeft>
+  <GW_StudyingPaused>Assemblage en pause</GW_StudyingPaused>
+  <GW_DiscoveringProject>Projet découvert : </GW_DiscoveringProject>
+  <GW_StudyFragmentsDialogTitle>Étudier des fragments STC pour découvrir des projets de recherche pour vos colons</GW_StudyFragmentsDialogTitle>
+  <GW_Projects>Projets :</GW_Projects>
+  <GW_DiscoveredResearchDetails>Détails des recherches découvertes :</GW_DiscoveredResearchDetails>
+  <GW_StartStudy>Étudier les recherches</GW_StartStudy>
+  <GW_StudyCompleteMessage>{0} a étudié des fragments oubliés de technologie impériale et découvert qu'ils contiennent les plans de {1}.\n\nVotre colonie peut désormais tenter de décoder ces plans pour retrouver ce qui a été perdu.\n\n\n\n\nLe projet de recherche {1} est maintenant disponible sur une table de recherche (si les autres prérequis sont remplis).</GW_StudyCompleteMessage>
+  <GW_NewResearchDiscovered>Nouvelle recherche découverte</GW_NewResearchDiscovered>
+</LanguageData>

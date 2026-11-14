@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HeavyReinforcedWall.label>mur lourd renforcé</HeavyReinforcedWall.label>
+  <HeavyReinforcedWall.description>Un mur lourd infranchissable, renforcé pour résister à toutes les formes de dégâts et aux explosions directes. Peut soutenir un toit.</HeavyReinforcedWall.description>
+  <HeavyReinforcedEmbrasure.label>meurtrière lourde renforcée</HeavyReinforcedEmbrasure.label>
+  <HeavyReinforcedEmbrasure.description>Un mur lourd infranchissable doté d'une ouverture de tir tactique, renforcé pour résister à toutes les formes de dégâts et aux explosions directes. Peut soutenir un toit.</HeavyReinforcedEmbrasure.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GW_Ruler_ValdorSpearXpDrain.label>Lance de Valdor</GW_Ruler_ValdorSpearXpDrain.label>
+  <GW_Ruler_ValdorSpearXpDrain.description>La lance apollonienne révèle la vérité à ce pion : lorsqu'il tue un ennemi, il s'approprie une partie de ses compétences.</GW_Ruler_ValdorSpearXpDrain.description>
+  <GW_Ruler_EmperorAura.label>Lumière sacrée</GW_Ruler_EmperorAura.label>
+  <GW_Ruler_EmperorAura.description>Ce pion a été couronné Empereur. Son éclat inspire les autres à combattre de toutes leurs forces.</GW_Ruler_EmperorAura.description>
+  <GW_Ruler_InspiredByHolyLight.label>Inspiré par la lumière sacrée</GW_Ruler_InspiredByHolyLight.label>
+  <GW_Ruler_InspiredByHolyLight.description>La lumière sacrée inspire ce pion et le pousse à accomplir de plus grands exploits au combat.</GW_Ruler_InspiredByHolyLight.description>
+</LanguageData>

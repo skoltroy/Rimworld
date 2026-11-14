@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GeologicalLandforms.LandformManager.LandformUpgrade>Certaines formes de relief que vous avez modifiées disposent de nouvelles versions. Voulez-vous utiliser les nouvelles versions ou conserver les anciennes formes modifiées ?\n\nFormes de relief concernées :</GeologicalLandforms.LandformManager.LandformUpgrade>
+  <GeologicalLandforms.LandformManager.LandformUpgradeYes>Remplacer par les nouvelles données</GeologicalLandforms.LandformManager.LandformUpgradeYes>
+  <GeologicalLandforms.LandformManager.LandformUpgradeNo>Conserver les anciennes données</GeologicalLandforms.LandformManager.LandformUpgradeNo>
+
+  <GeologicalLandforms.WorldMap.Landform>Forme de relief</GeologicalLandforms.WorldMap.Landform>
+  <GeologicalLandforms.WorldMap.BorderingBiomes>Biomes limitrophes</GeologicalLandforms.WorldMap.BorderingBiomes>
+  <GeologicalLandforms.WorldMap.SelectLandform>Sélectionner une forme de relief</GeologicalLandforms.WorldMap.SelectLandform>
+
+  <GeologicalLandforms.WorldParams.Mountains>Montagnes</GeologicalLandforms.WorldParams.Mountains>
+  <GeologicalLandforms.WorldParams.CaveSystems>Systèmes de cavernes</GeologicalLandforms.WorldParams.CaveSystems>
+
+  <GeologicalLandforms.Rot4.0>nord</GeologicalLandforms.Rot4.0>
+  <GeologicalLandforms.Rot4.1>est</GeologicalLandforms.Rot4.1>
+  <GeologicalLandforms.Rot4.2>sud</GeologicalLandforms.Rot4.2>
+  <GeologicalLandforms.Rot4.3>ouest</GeologicalLandforms.Rot4.3>
+  <GeologicalLandforms.Rot4.Double.0>nord-est</GeologicalLandforms.Rot4.Double.0>
+  <GeologicalLandforms.Rot4.Double.1>sud-est</GeologicalLandforms.Rot4.Double.1>
+  <GeologicalLandforms.Rot4.Double.2>sud-ouest</GeologicalLandforms.Rot4.Double.2>
+  <GeologicalLandforms.Rot4.Double.3>nord-ouest</GeologicalLandforms.Rot4.Double.3>
+
+  <GeologicalLandforms.Landform.Corner>(angle)</GeologicalLandforms.Landform.Corner>
+
+  <GeologicalLandforms.Integration.PrepareLanding.Title>Geological Landforms</GeologicalLandforms.Integration.PrepareLanding.Title>
+
+  <GeologicalLandforms.Integration.MapDesigner.RiverCardOverride>Remplacer les rivières et les côtes de Geological Landforms</GeologicalLandforms.Integration.MapDesigner.RiverCardOverride>
+
+</LanguageData>

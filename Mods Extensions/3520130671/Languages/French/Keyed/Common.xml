@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NiceBillTabEnabledMod>Mod activé</NiceBillTabEnabledMod>
+  <FlatDamage>Dégâts</FlatDamage>
+  <FlatDamageTooltip>Dégâts d'un tir ou d'une attaque</FlatDamageTooltip>
+  <DamageDPS>Dégâts (DPS)</DamageDPS>
+  <DamageDPSTooltip>Les dégâts par seconde (DPS) représentent les dégâts moyens infligés par une arme en une seconde de combat. Cette valeur tient compte de la préparation de l'attaque, des dégâts infligés et de la cadence de tir ou d'attaque.</DamageDPSTooltip>
+  <WeaponFireRate>Cadence de tir</WeaponFireRate>
+  <WeaponFireRateTooltip>La cadence de tir indique le nombre de tirs par seconde, en tenant compte du temps de recharge et des délais entre les tirs d'une rafale.\n\n{0} / ({1} + {2}) = {3}</WeaponFireRateTooltip>
+  <WeaponTotalBurstTime>Durée totale de la rafale</WeaponTotalBurstTime>
+  <ShotPerSecondShort>tir/s</ShotPerSecondShort>
+  <CooldownReload>Temps de recharge</CooldownReload>
+  <SecondShort>s</SecondShort>
+  <WeaponAttackSpeed>Vitesse d'attaque</WeaponAttackSpeed>
+  <WeaponAttackSpeedTooltip>La vitesse d'attaque correspond au temps nécessaire pour effectuer une attaque.</WeaponAttackSpeedTooltip>
+  <WeaponAccuracy>Précision</WeaponAccuracy>
+  <WeaponAccuracyTouch>contact</WeaponAccuracyTouch>
+  <WeaponAccuracyShort>courte</WeaponAccuracyShort>
+  <WeaponAccuracyMedium>moyenne</WeaponAccuracyMedium>
+  <WeaponAccuracyLong>longue</WeaponAccuracyLong>
+  <NotCovers>Ne couvre pas</NotCovers>
+  <PasteBillHere>Coller la facture ici</PasteBillHere>
+  <BillButton_Make>Fabriquer</BillButton_Make>
+  <BillButton_Cook>Cuisiner</BillButton_Cook>
+  <BillButton_Gestate>Gestation</BillButton_Gestate>
+  <NoOneCanDoThisWork>Personne ne peut effectuer ce travail</NoOneCanDoThisWork>
+  <BillFilterTip>Filtrer les factures par nom. Vous pouvez aussi filtrer par catégorie en saisissant {0}, suivi du nom de la catégorie ou d'une partie de celui-ci.</BillFilterTip>
+  <ApparelLayerFilterTip>Utilisez {0} pour filtrer par couche de vêtement.</ApparelLayerFilterTip>
+  <ModFilterTip>Utilisez {0} pour filtrer par mod ou DLC.</ModFilterTip>
+  <BillAvailableCategories>Catégories disponibles</BillAvailableCategories>
+  <DefaultRecipeList>Liste de recettes étendue</DefaultRecipeList>
+  <CompactRecipeList>Liste de recettes compacte</CompactRecipeList>
+  <CategorizedRecipeList>Liste de recettes par catégorie</CategorizedRecipeList>
+  <PreviewRecipeIngredients>Aperçu des ingrédients de la recette</PreviewRecipeIngredients>
+  <CompareBarsWithColors>Comparer les barres avec des couleurs</CompareBarsWithColors>
+  <CompareRecipesFail>Impossible de comparer les recettes</CompareRecipesFail>
+  <SelectMaterial>Sélectionner un matériau</SelectMaterial>
+  <StatMaximize>Maximiser {0}</StatMaximize>
+  <MaximizeFromColonyMaterials>À partir des matériaux de la colonie</MaximizeFromColonyMaterials>
+  <MaximizeFromAnyMaterial>À partir de n'importe quel matériau</MaximizeFromAnyMaterial>
+  <CompareWhenSelectMaterial>Comparer lors du choix d'un matériau</CompareWhenSelectMaterial>
+  <SearchBetterMaterialFail>Impossible de trouver un meilleur matériau</SearchBetterMaterialFail>
+  <GlowingYellowHintEnabled>Indice jaune lumineux activé</GlowingYellowHintEnabled>
+  <UseSpecialSymbolToFilterByCategory>Utilisez le symbole spécial {0} pour filtrer par catégorie</UseSpecialSymbolToFilterByCategory>
+  <CEmmShort>mm</CEmmShort>
+  <OpenInfoDialog>Ouvrir les informations</OpenInfoDialog>
+  <FindOnMap>Localiser sur la carte</FindOnMap>
+  <CreateTaskOnAvailableWorkbench>Mettre en file d'attente à un établi disponible</CreateTaskOnAvailableWorkbench>
+  <NoExistOnCurrentMap>L'objet demandé n'existe pas sur cette carte</NoExistOnCurrentMap>
+  <SelectThisAmmo>Calculer avec ces munitions</SelectThisAmmo>
+  <UseNonLinearBars>Utiliser des barres non linéaires</UseNonLinearBars>
+  <ShowFlatDamageForRanged>Afficher les dégâts d'un tir pour les armes à distance</ShowFlatDamageForRanged>
+  <ShowFlatDamageForMelee>Afficher les dégâts d'un coup pour les armes de mêlée</ShowFlatDamageForMelee>
+  <ArmorRatingSharpSimple>Armure - Tranchant</ArmorRatingSharpSimple>
+  <ArmorRatingBluntSimple>Armure - Contondant</ArmorRatingBluntSimple>
+  <BillTabHeight>Hauteur de l'onglet ({0})</BillTabHeight>
+  <BillTabListingExtraWidth>Largeur supplémentaire de la liste de l'onglet ({0})</BillTabListingExtraWidth>
+  <AddDetailsButtonToBillQueue>Ajouter le bouton « Détails… » à la file des factures</AddDetailsButtonToBillQueue>
+  <StoppingPowerShort>Pouvoir d'arrêt</StoppingPowerShort>
+  <ShowStatInfoUniversal>Afficher « {0} »</ShowStatInfoUniversal>
+  <SettingsCommonTab>Général</SettingsCommonTab>
+  <SettingsItemTab>Objets</SettingsItemTab>
+  <SettingsExperimentalTab>Expérimental</SettingsExperimentalTab>
+  <EnableScrollUpWhenBillAdded>Faire défiler vers le haut à l'ajout d'une facture</EnableScrollUpWhenBillAdded>
+  <EnableClassicSuspendButton>Activer le bouton classique de suspension</EnableClassicSuspendButton>
+  <ShowBarTicks>Afficher les graduations des barres</ShowBarTicks>
+  <ReplaceInfinityTextToSymbol>Remplacer le texte « infini » par un symbole</ReplaceInfinityTextToSymbol>
+  <EnableAutoBillNaming>Activer le nommage automatique des factures</EnableAutoBillNaming>
+  <EnableColorlessMode>Activer le mode sans couleur</EnableColorlessMode>
+</LanguageData>

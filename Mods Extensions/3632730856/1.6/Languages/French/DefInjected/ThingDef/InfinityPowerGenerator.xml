@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Hanamogera_Infinity_Power_Generator.label>Générateur d'énergie infini</Hanamogera_Infinity_Power_Generator.label>
+  <Hanamogera_Infinity_Power_Generator.description>Un générateur compact qui produit un flux constant d'énergie à partir d'une source inconnue et autonome.\nAucun carburant, pas de soleil ni de vent : une énergie pure et inépuisable.</Hanamogera_Infinity_Power_Generator.description>
+  <Hanamogera_Infinity_Power_Generator_Advanced.label>Générateur d'énergie infini avancé</Hanamogera_Infinity_Power_Generator_Advanced.label>
+  <Hanamogera_Infinity_Power_Generator_Advanced.description>Une version améliorée du générateur d'énergie infini, optimisée pour fournir environ deux fois plus de puissance.\nSa structure reste presque inchangée, mais des systèmes de contrôle internes perfectionnés assurent une production élevée et stable.</Hanamogera_Infinity_Power_Generator_Advanced.description>
+  <Hanamogera_Infinity_Power_Generator_Overcharged.label>Générateur d'énergie infini surchargé</Hanamogera_Infinity_Power_Generator_Overcharged.label>
+  <Hanamogera_Infinity_Power_Generator_Overcharged.description>Une version renforcée conçue pour pousser le générateur d'énergie infini au-delà de ses limites habituelles.\nElle fournit près de quatre fois la puissance standard, mais peut produire de légères vibrations ou des bruits inhabituels lors d'une utilisation prolongée.</Hanamogera_Infinity_Power_Generator_Overcharged.description>
+</LanguageData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ChooseBodypartWindowMain>Sélectionner l'organe à prélever</ChooseBodypartWindowMain>
+  <ChooseBodypartWindowDesc>Choisissez l'organe à prélever. Si celui-ci peut être préservé, sa valeur marchande sera affichée dans la liste.</ChooseBodypartWindowDesc>
+  <ChooseBodypartWindowSel>Cliquez pour confirmer le prélèvement de cette partie du corps.</ChooseBodypartWindowSel>
+  <NeatMode>Changer le mode de travail</NeatMode>
+  <NeatModeDesc>Changer le mode de fonctionnement de la machine d'anatomie.\nLe mode personnalisé permet de choisir librement le nombre d'organes à retirer.\nLe prélèvement complet retire tous les organes pouvant l'être.\nLe prélèvement complet avec dépeçage retire tous les organes, puis dépèce les restes de la créature.\nLe mode d'extraction génétique prélève tous les gènes de la créature, qui les perd définitivement.</NeatModeDesc>
+  <BodyCuterWorkMode>Mode de travail :</BodyCuterWorkMode>
+  <BodyCuterGeneCuter>Extraction génétique</BodyCuterGeneCuter>
+  <BodyCuterSelfSelect>Personnalisé</BodyCuterSelfSelect>
+  <hedifffromwhatbody>Situé dans</hedifffromwhatbody>
+  <BodyCuterAllCat>Prélèvement complet</BodyCuterAllCat>
+  <BodyCuterAllCutAndButcher>Prélèvement complet et dépeçage</BodyCuterAllCutAndButcher>
+  <BodyCuterNoPowerEjectedMessage>{PAWN_labelShort} a été éjecté de la machine d'anatomie à la suite d'une coupure de courant.</BodyCuterNoPowerEjectedMessage>
+  <ExtractingOrganFrom>Prélèvement des organes/gènes de {PAWN_nameDef}.</ExtractingOrganFrom>
+  <BodyCuterComplete>Les organes/gènes de {PAWN_nameDef} ont été prélevés.</BodyCuterComplete>
+  <CanCutOrganAmount>Organes disponibles :</CanCutOrganAmount>
+  <InsertPersonBodyCuterDesc>Placer une personne dans la machine d'anatomie. Ses organes seront prélevés et les parties préservées seront emballées.\n\nLe prélèvement d'organes est douloureux et entraîne la perte définitive de l'organe. Le prélèvement de certains organes vitaux est mortel.</InsertPersonBodyCuterDesc>
+  <InsertPersonBodyCuterSuperDesc>Placer une personne dans la machine d'anatomie. Ses organes seront prélevés et les parties préservées seront emballées.\n\nDans ce mode, vous pouvez sélectionner n'importe quelle créature, y compris les ennemis actifs ou les animaux sauvages.</InsertPersonBodyCuterSuperDesc>
+  <BodyCuterOnlyOne>En raison d'anomalies de rendu, un seul dissecteur peut être présent sur chaque carte.</BodyCuterOnlyOne>
+</LanguageData>

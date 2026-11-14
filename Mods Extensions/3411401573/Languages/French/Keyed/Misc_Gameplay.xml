@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VQE_InstallWoodFiredGenetron>installer le cœur ARC à bois</VQE_InstallWoodFiredGenetron>
+  <VQE_InstallWoodFiredGenetronDesc>Installer des fours alimentés au bois qui augmentent fortement la puissance du cœur ARC, mais obligent le générateur à consommer du bois.</VQE_InstallWoodFiredGenetronDesc>
+  <VQE_InstallWoodFiredGenetronDescExpanded>\n\nL'ARC doit fonctionner sans interruption pendant {0} (durée actuelle : {1})</VQE_InstallWoodFiredGenetronDescExpanded>
+  <VQE_InstallWoodFueledGenetron>installer un alimentateur automatique</VQE_InstallWoodFueledGenetron>
+  <VQE_InstallWoodFueledGenetronDesc>Installer un système d'alimentation automatique en combustible pour maintenir le four à son rendement optimal et réduire la fréquence des ravitaillements.</VQE_InstallWoodFueledGenetronDesc>
+  <VQE_InstallWoodFueledGenetronDescExpanded>\n\nL'ARC doit brûler {0} de combustible (quantité brûlée actuellement : {1})</VQE_InstallWoodFueledGenetronDescExpanded>
+  <VQE_InstallWoodPoweredGenetron>installer des circulateurs d'énergie</VQE_InstallWoodPoweredGenetron>
+  <VQE_InstallWoodPoweredGenetronDesc>Installer des circulateurs d'énergie qui redirigent la chaleur excédentaire vers le cœur ARC, augmentant sa puissance avec une légère hausse de la consommation de combustible.</VQE_InstallWoodPoweredGenetronDesc>
+  <VQE_InstallWoodPoweredGenetronDescExpanded>\n\nL'ARC doit brûler {0} de combustible (quantité brûlée actuellement : {1})</VQE_InstallWoodPoweredGenetronDescExpanded>
+  <VQE_InstallWoodBlastingGenetron>installer des cylindres de combustion réglables</VQE_InstallWoodBlastingGenetron>
+  <VQE_InstallWoodBlastingGenetronDesc>Installer de grands cylindres internes réglables permettant de modifier la vitesse de combustion du cœur et d'adapter la puissance produite aux besoins de la colonie.</VQE_InstallWoodBlastingGenetronDesc>
+  <VQE_InstallWoodBlastingGenetronDescExpanded>\n\nL'ARC doit fonctionner sans interruption pendant {0} (durée actuelle : {1})</VQE_InstallWoodBlastingGenetronDescExpanded>
+  <VQE_InstallChemfuelPoweredGenetron>installer un cœur ARC au chemfuel</VQE_InstallChemfuelPoweredGenetron>
+  <VQE_InstallChemfuelPoweredGenetronDesc>Installer des moteurs au chemfuel qui alimentent le cœur ARC et produisent une grande quantité d'énergie. Les moteurs nécessitent un entretien régulier ; en cas de panne, des composants ARC devront être remplacés.</VQE_InstallChemfuelPoweredGenetronDesc>
+  <VQE_InstallChemfuelPoweredGenetronDescExpanded>\n\nL'ARC doit fonctionner à 200 % avec le réglage de l'ARC sans interruption pendant {0} jours (durée actuelle : {1})</VQE_InstallChemfuelPoweredGenetronDescExpanded>
+  <VQE_InstallChemfuelPoweredGenetronDescNoResearch>\n\nNécessite la recherche Raffinage de biocarburant.</VQE_InstallChemfuelPoweredGenetronDescNoResearch>
+  <VQE_InstallChemfuelBoostedGenetron>installer une chambre d'hypercombustion</VQE_InstallChemfuelBoostedGenetron>
+  <VQE_InstallChemfuelBoostedGenetronDesc>Installer une chambre d'hypercombustion qui surchauffe la combustion afin d'extraire un maximum d'énergie de chaque unité de combustible.</VQE_InstallChemfuelBoostedGenetronDesc>
+  <VQE_InstallChemfuelBoostedGenetronDescExpanded>\n\nLa surpuissance de l'ARC doit être active pendant {0} jours (durée actuelle : {1})</VQE_InstallChemfuelBoostedGenetronDescExpanded>
+  <VQE_InstallChemfuelChargedGenetron>installer un modulateur adaptatif de combustible</VQE_InstallChemfuelChargedGenetron>
+  <VQE_InstallChemfuelChargedGenetronDesc>Installer un modulateur adaptatif qui ajuste dynamiquement le débit de combustible aux besoins énergétiques et en optimise l'utilisation. Il prolonge le fonctionnement et améliore le rendement sans réduire la production d'énergie.</VQE_InstallChemfuelChargedGenetronDesc>
+  <VQE_InstallChemfuelChargedGenetronDescExpanded>\n\nLa surtension doit être activée {0} fois (activations actuelles : {1})</VQE_InstallChemfuelChargedGenetronDescExpanded>
+  <VQE_InstallChemfuelFortifiedGenetron>installer un stabilisateur d'allumage</VQE_InstallChemfuelFortifiedGenetron>
+  <VQE_InstallChemfuelFortifiedGenetronDesc>Installer un dispositif de stabilisation de l'allumage pour assurer une combustion régulière, maintenir une puissance optimale et réduire les variations de consommation. Cette amélioration accroît la fiabilité et le rendement du générateur. Le stabilisateur peut être calibré pour augmenter durablement la puissance.</VQE_InstallChemfuelFortifiedGenetronDesc>
+  <VQE_InstallChemfuelFortifiedGenetronDescExpanded>\n\nL'ARC doit brûler {0} de combustible (quantité brûlée actuellement : {1})</VQE_InstallChemfuelFortifiedGenetronDescExpanded>
+  <VQE_InstallGeothermalGenetron>installer un cœur ARC géothermique</VQE_InstallGeothermalGenetron>
+  <VQE_InstallGeothermalGenetronDesc>Remplacer le cœur ARC afin qu'il utilise uniquement la vapeur produite par une cheminée géothermique. La puissance diminuera considérablement, mais le combustible ne sera plus nécessaire. Le cœur géothermique exige un entretien régulier, qui peut être effectué par n'importe qui, pas seulement par les spécialistes ARC.</VQE_InstallGeothermalGenetronDesc>
+  <VQE_InstallGeothermalGenetronDescNoResearch>\n\nNécessite la recherche Énergie géothermique.</VQE_InstallGeothermalGenetronDescNoResearch>
+  <VQE_InstallGeothermalGenetronDescNoStudied>\n\nUn colon doit étudier un ancien ARC géothermique quelque part dans le monde.</VQE_InstallGeothermalGenetronDescNoStudied>
+  <VQE_InstallSteamPoweredGenetron>installer un amplificateur de cheminée</VQE_InstallSteamPoweredGenetron>
+  <VQE_InstallSteamPoweredGenetronDesc>Installer un amplificateur thermique qui augmente le débit de vapeur des cheminées géothermiques et la puissance de l'ARC lors des pics de demande énergétique.</VQE_InstallSteamPoweredGenetronDesc>
+  <VQE_InstallSteamPoweredGenetronDescExpanded>\n\nL'ARC doit fonctionner sans interruption pendant {0} (durée actuelle : {1})</VQE_InstallSteamPoweredGenetronDescExpanded>
+  <VQE_InstallThermalVentGenetron>installer des limiteurs de pression</VQE_InstallThermalVentGenetron>
+  <VQE_InstallThermalVentGenetronDesc>Installer des limiteurs de pression pour empêcher l'ARC d'atteindre un seuil de rupture critique, tout en augmentant sa puissance.</VQE_InstallThermalVentGenetronDesc>
+  <VQE_InstallThermalVentGenetronDescExpanded>\n\nL'impulsion de vapeur doit être activée {0} fois (activations actuelles : {1})</VQE_InstallThermalVentGenetronDescExpanded>
+  <VQE_InstallHeatPoweredGenetron>installer des régulateurs de débit</VQE_InstallHeatPoweredGenetron>
+  <VQE_InstallHeatPoweredGenetronDesc>Installer des régulateurs internes de débit de vapeur pour assurer un rendement constant et limiter l'usure des composants. Ils permettent aussi au générateur de fonctionner pendant une éruption solaire.</VQE_InstallHeatPoweredGenetronDesc>
+  <VQE_InstallHeatPoweredGenetronDescExpanded>\n\nL'ARC doit fonctionner sans interruption pendant {0} (durée actuelle : {1})</VQE_InstallHeatPoweredGenetronDescExpanded>
+  <VQE_InstallUraniumPoweredGenetron>installer un cœur ARC à l'uranium</VQE_InstallUraniumPoweredGenetron>
+  <VQE_InstallUraniumPoweredGenetronDesc>Installer un grand réacteur nucléaire à la place de l'ancien cœur ARC, utilisant de l'uranium pour produire d'énormes quantités d'énergie. L'ARC ne pourra plus fonctionner sans combustible et s'arrêtera s'il vient à manquer d'uranium. L'entretien et l'approvisionnement en uranium seront essentiels pour éviter des conséquences désastreuses.</VQE_InstallUraniumPoweredGenetronDesc>
+  <VQE_InstallUraniumPoweredGenetronDescNoResearch>\n\nNécessite la recherche Réacteur de vaisseau spatial.</VQE_InstallUraniumPoweredGenetronDescNoResearch>
+  <VQE_InstallUraniumPoweredGenetronDescNoStudied>\n\nUn colon doit étudier une carcasse d'ARC nucléaire quelque part dans le monde.</VQE_InstallUraniumPoweredGenetronDescNoStudied>
+  <VQE_InstallNuclearGenetron>installer une chambre d'enrichissement de l'uranium</VQE_InstallNuclearGenetron>
+  <VQE_InstallNuclearGenetronDesc>Installer une chambre qui ralentit la désintégration de l'uranium afin qu'il produise de l'énergie plus longtemps.</VQE_InstallNuclearGenetronDesc>
+  <VQE_InstallNuclearGenetronDescExpanded>\n\nL'ARC à l'uranium doit être redémarré. Pour cela, il doit brûler tout l'uranium et s'arrêter faute de combustible.</VQE_InstallNuclearGenetronDescExpanded>
+  <VQE_InstallIsotopicGenetron>installer un blindage antiradiation</VQE_InstallIsotopicGenetron>
+  <VQE_InstallIsotopicGenetronDesc>Installer un blindage avancé pour réduire l'exposition aux radiations dans les environs et protéger les colons lorsque le réacteur fonctionne en mode dangereux.</VQE_InstallIsotopicGenetronDesc>
+  <VQE_InstallIsotopicGenetronDescExpanded>\n\nL'ARC doit brûler {0} d'uranium (quantité brûlée actuellement : {1})</VQE_InstallIsotopicGenetronDescExpanded>
+  <VQE_InstallAtomicGenetron>installer des systèmes d'arrêt d'urgence</VQE_InstallAtomicGenetron>
+  <VQE_InstallAtomicGenetronDesc>Installer un système qui arrête immédiatement le réacteur en cas de danger afin d'éviter une panne catastrophique et de laisser le temps de le réparer. Des dispositifs de sécurité supplémentaires permettent à quiconque d'entretenir l'ARC atomique, pas seulement aux personnes ayant étudié les anciens modèles.</VQE_InstallAtomicGenetronDesc>
+  <VQE_InstallAtomicGenetronDescExpanded>\n\nL'ARC doit fonctionner sans interruption en mode dangereux pendant {0} (durée actuelle : {1})</VQE_InstallAtomicGenetronDescExpanded>
+  <VQE_DowngradeGenetron>Rétrograder vers {0}</VQE_DowngradeGenetron>
+  <VQE_DowngradeGenetronDesc>Rétrograder l'ARC à une étape antérieure de sa construction.</VQE_DowngradeGenetronDesc>
+  <VQE_DowngradeGenetronDialog>Attention : l'ARC sera rétrogradé vers {0}. Tous les matériaux utilisés pour l'améliorer jusqu'à son niveau actuel seront perdus. Voulez-vous continuer ?</VQE_DowngradeGenetronDialog>
+  <VQE_DowngradeGenetronMeltdown>Impossible de rétrograder l'ARC pendant une fusion du cœur.</VQE_DowngradeGenetronMeltdown>
+  <VQE_GenetronOverdrive>Surpuissance de l'ARC</VQE_GenetronOverdrive>
+  <VQE_GenetronOverdriveDesc>Activer temporairement le mode surpuissance {0} de l'ARC. Il consommera rapidement du combustible pour produire beaucoup plus d'énergie. Si le combustible vient à manquer pendant la surpuissance, le générateur tombera en panne et devra être remis à neuf avec des composants ARC.</VQE_GenetronOverdriveDesc>
+  <VQE_GenetronOverdriveDescExtended>\n\nLa surpuissance a un temps de recharge de {0}. Elle sera de nouveau disponible dans {1}</VQE_GenetronOverdriveDescExtended>
+  <VQE_GenetronTuning>Réglage de l'ARC</VQE_GenetronTuning>
+  <VQE_GenetronTuningDesc>Modifier la consommation de combustible pour augmenter ou réduire la puissance produite par l'ARC.</VQE_GenetronTuningDesc>
+  <VQE_GenetronTuningSet>régler la puissance de l'ARC à : {0} %</VQE_GenetronTuningSet>
+  <VQE_GenetronTuningProjected>Puissance prévue : {0} Wd</VQE_GenetronTuningProjected>
+  <VQE_FuelConsumptionProjected>Consommation prévue : {0} par jour</VQE_FuelConsumptionProjected>
+  <VQE_GenetronFineTuning>Réglage fin de l'ARC</VQE_GenetronFineTuning>
+  <VQE_GenetronFineTuningDesc>Modifier la consommation de combustible pour ajuster la puissance produite par l'ARC et régler l'usure nécessaire à l'entretien du générateur.</VQE_GenetronFineTuningDesc>
+  <VQE_SetGenetronWear>régler l'usure de l'ARC à : {0} %</VQE_SetGenetronWear>
+  <VQE_PowerSurge>Surtension</VQE_PowerSurge>
+  <VQE_PowerSurgeDesc>Vaporiser instantanément la moitié du combustible restant dans l'ARC pour créer une poussée d'énergie et recharger les batteries, au prix d'une réduction de 25 % de l'entretien de l'ARC. La surtension désactive temporairement les appareils électroniques proches.</VQE_PowerSurgeDesc>
+  <VQE_PowerSurgeDescExtended>\n\nLa surtension a un temps de recharge de {0}. Elle sera de nouveau disponible dans {1}</VQE_PowerSurgeDescExtended>
+  <VQE_PowerSurgeDescNoMaintenance>Impossible d'activer la surtension : l'entretien de l'ARC est trop faible (moins de 30 %).</VQE_PowerSurgeDescNoMaintenance>
+  <VQE_CalibrateEfficiency>Calibrer le rendement</VQE_CalibrateEfficiency>
+  <VQE_CalibrateEfficiencyDesc>Faire fonctionner l'ARC à faible puissance pour calibrer son rendement. La consommation de combustible ne change pas pendant le calibrage, mais la puissance produite augmente définitivement de 1 % une fois l'opération terminée.</VQE_CalibrateEfficiencyDesc>
+  <VQE_CalibrateEfficiencyDescExtended>\n\nLe calibrage du rendement a un temps de recharge de {0}. Il sera de nouveau disponible dans {1}</VQE_CalibrateEfficiencyDescExtended>
+  <VQE_GenetronSteamTuning>Réglage de la pression</VQE_GenetronSteamTuning>
+  <VQE_GenetronSteamTuningDesc>Modifier la pression de l'ARC pour agir sur l'usure des composants et la puissance produite.</VQE_GenetronSteamTuningDesc>
+  <VQE_GenetronPressureLabel>Pression de l'ARC</VQE_GenetronPressureLabel>
+  <VQE_GenetronSteamTuningMaintenance>régler la perte d'entretien quotidienne à : {0} %</VQE_GenetronSteamTuningMaintenance>
+  <VQE_SteamBoost>Impulsion de vapeur</VQE_SteamBoost>
+  <VQE_SteamBoostDesc>Activer temporairement les pompes à vapeur internes pour augmenter le débit et la puissance de l'ARC pendant 5 jours. Les amplificateurs de cheminée devront ensuite refroidir avant de pouvoir être réutilisés.</VQE_SteamBoostDesc>
+  <VQE_SteamBoostDescExtended>\n\nL'impulsion de vapeur a un temps de recharge de {0}. Elle sera de nouveau disponible dans {1}</VQE_SteamBoostDescExtended>
+  <VQE_CalibrateComponents>Calibrer les composants</VQE_CalibrateComponents>
+  <VQE_CalibrateComponentsDesc>Provoquer une panne contrôlée de l'ARC afin de remettre à neuf une partie du cœur, d'en améliorer le fonctionnement interne et d'accroître de 10 % la durée de vie des composants.</VQE_CalibrateComponentsDesc>
+  <VQE_CalibrateComponentsDescExtended>\n\nLe calibrage des composants a un temps de recharge de {0}. Il sera de nouveau disponible dans {1}</VQE_CalibrateComponentsDescExtended>
+  <VQE_RestartGenetron>Redémarrer l'ARC</VQE_RestartGenetron>
+  <VQE_RestartGenetronDesc>Redémarrer l'ARC nucléaire arrêté faute d'uranium. Il doit contenir au moins {0} d'uranium pour pouvoir redémarrer.</VQE_RestartGenetronDesc>
+  <VQE_RestartGenetronDescExtended>\n\nCe réacteur ne contient pas assez d'uranium pour redémarrer.</VQE_RestartGenetronDescExtended>
+  <VQE_RestartGenetronDescNotNeeded>\n\nLe générateur fonctionne normalement et n'a pas besoin d'être redémarré.</VQE_RestartGenetronDescNotNeeded>
+  <VQE_CalibrateFuelRods>Calibrer les barres de combustible</VQE_CalibrateFuelRods>
+  <VQE_CalibrateFuelRodsDesc>Arrêter temporairement le réacteur pour calibrer sa consommation de combustible et prolonger la production d'énergie de chaque unité d'uranium. Chaque calibrage réduit de 10 % la consommation restante.</VQE_CalibrateFuelRodsDesc>
+  <VQE_CalibrateFuelRodsDescExtended>\n\nLe calibrage des barres de combustible a un temps de recharge de {0}. Il sera de nouveau disponible dans {1}</VQE_CalibrateFuelRodsDescExtended>
+  <VQE_SafeMode>Mode sécurisé</VQE_SafeMode>
+  <VQE_SafeModeDesc>L'ARC fonctionne en mode sécurisé. La combustion de l'uranium affecte l'entretien du cœur, mais aucune radiation ne s'en échappe. Activer cette capacité fait passer l'ARC en mode dangereux.</VQE_SafeModeDesc>
+  <VQE_HazardMode>Mode dangereux</VQE_HazardMode>
+  <VQE_HazardModeDesc>L'ARC fonctionne en mode dangereux. La combustion de l'uranium émet une quantité nocive de radiations et provoque une accumulation de toxines chez les personnes à proximité qui ne portent pas d'équipement de protection. Le rayon dépend de la quantité d'uranium dans l'ARC. L'entretien de l'ARC ne diminue pas. Activer cette capacité fait repasser l'ARC en mode sécurisé.</VQE_HazardModeDesc>
+  <VQE_SafeModeInfo>Fonctionne en mode sécurisé.</VQE_SafeModeInfo>
+  <VQE_HazardModeInfo>Fonctionne en mode dangereux.</VQE_HazardModeInfo>
+  <VQE_EmergencyShutDown>Arrêt d'urgence</VQE_EmergencyShutDown>
+  <VQE_EmergencyShutDownDesc>Arrêter l'ARC. Il cessera de brûler de l'uranium, ce qui mettra fin à la perte d'entretien. Il ne produira plus d'énergie tant qu'il n'aura pas été redémarré.</VQE_EmergencyShutDownDesc>
+  <VQE_EmergencyShutDownDescExtended>\n\nLe réacteur est maintenant arrêté.</VQE_EmergencyShutDownDescExtended>
+  <VQE_Alert_LowMaintenance>Entretien de l'ARC faible</VQE_Alert_LowMaintenance>
+  <VQE_Alert_LowMaintenance_Desc>L'ARC doit être entretenu. Sans entretien, il subira une panne critique.</VQE_Alert_LowMaintenance_Desc>
+  <VQE_Alert_CriticalMaintenance>Entretien de l'ARC critique</VQE_Alert_CriticalMaintenance>
+  <VQE_Alert_CriticalMaintenance_Desc>L'ARC doit être entretenu d'urgence. Sans entretien, il subira une panne critique.</VQE_Alert_CriticalMaintenance_Desc>
+  <VQE_Alert_LowUranium>Réserve d'uranium de l'ARC faible</VQE_Alert_LowUranium>
+  <VQE_Alert_LowUranium_Desc>L'ARC est sur le point de manquer d'uranium. Il sera désactivé jusqu'à ce que les procédures de redémarrage soient effectuées.</VQE_Alert_LowUranium_Desc>
+  <VQE_NeedsStudy>{0} n'a pas étudié un ancien ARC.</VQE_NeedsStudy>
+  <VQE_NeedsStudyGeothermal>{0} n'a pas étudié un ancien ARC géothermique.</VQE_NeedsStudyGeothermal>
+  <VQE_NeedsStudyNuclear>{0} n'a pas étudié une carcasse d'ARC nucléaire.</VQE_NeedsStudyNuclear>
+  <VQE_NeedsStudyGeneric>Ce colon ne peut pas réparer les pannes critiques, car il n'a pas étudié un ancien ARC.</VQE_NeedsStudyGeneric>
+  <VQE_Overdrive>Surpuissance du réacteur</VQE_Overdrive>
+  <VQE_CriticalBreakdown>Panne critique</VQE_CriticalBreakdown>
+  <VQE_CurrentMaintenance>Entretien de l'ARC : {0}</VQE_CurrentMaintenance>
+  <VQE_LowPowerMode>Mode basse puissance. Temps restant : {0}.</VQE_LowPowerMode>
+  <VQE_ShutDownForCalibrations>Arrêt pour calibrage. Temps restant : {0}.</VQE_ShutDownForCalibrations>
+  <VQE_FuelRateAtTheMoment>Consommation actuelle : {0} par jour</VQE_FuelRateAtTheMoment>
+  <VQE_ReactorShutdown>Réacteur arrêté</VQE_ReactorShutdown>
+  <VQE_SetTargetUraniumLevel>Définir le niveau d'uranium souhaité</VQE_SetTargetUraniumLevel>
+  <VQE_SetTargetUraniumLevelTo>Définir le niveau d'uranium souhaité à {0}</VQE_SetTargetUraniumLevelTo>
+  <VQE_SetTargetUraniumLevelDesc>Définir le niveau d'uranium souhaité dans l'ARC. Les colons tenteront de remplir l'ARC jusqu'à ce niveau.</VQE_SetTargetUraniumLevelDesc>
+  <VQE_NuclearPowerOutput>Puissance produite : {0} W</VQE_NuclearPowerOutput>
+  <VQE_NuclearFuelConsumption>Consommation quotidienne de combustible : {0}</VQE_NuclearFuelConsumption>
+  <VQE_GenetronMaintenanceTooltip>Entretien de l'ARC\nL'ARC doit être entretenu par des colons. Si son niveau d'entretien atteint 0 %, il tombera en panne.</VQE_GenetronMaintenanceTooltip>
+  <VQE_TraitorLabel>Traître {PAWN_nameDef} !</VQE_TraitorLabel>
+  <VQE_TraitorLetter>{PAWN_nameDef}, connu pour avoir créé l'ARC, s'est retourné contre la colonie. {PAWN_pronoun} reconnaît vouloir saboter l'ARC, convaincu que la colonie commet une grave erreur en dépendant d'une seule source d'énergie.\n\n{PAWN_nameDef} affirme que confier la survie de tous à une seule machine mène au désastre. Incapable de convaincre les autres par la raison, {PAWN_pronoun} a décidé d'agir.\n\nVous pouvez capturer {PAWN_objective}, le tuer ou le bannir. Empêcher le sabotage reste toutefois la priorité absolue. Ne laissez pas {PAWN_nameDef} atteindre l'ARC.</VQE_TraitorLetter>
+  <VQE_MaintenanceImpact>Entretien de l'ARC sur la carte</VQE_MaintenanceImpact>
+  <VQE_NoTechnology>Ne s'équipera pas : l'idéologie l'interdit</VQE_NoTechnology>
+  <VQE_AbilityNeedsComponent>Cette capacité doit cibler un composant avancé.</VQE_AbilityNeedsComponent>
+  <VQE_StudyAncientGenetron>Étudier {0}</VQE_StudyAncientGenetron>
+  <VQE_StudyAncientGenetronDesc>Étudier {0} pour découvrir comment en construire un exemplaire fonctionnel dans votre colonie.</VQE_StudyAncientGenetronDesc>
+  <VQE_StudyAncientGenetronDescExtended>\n\nCe/cette {0} a déjà été étudié(e) ou est en cours d'étude.</VQE_StudyAncientGenetronDescExtended>
+  <VQE_FactionBecameHostileTimed>Vous êtes resté trop longtemps dans le village. Les membres de {FACTION_name} vous attaquent !</VQE_FactionBecameHostileTimed>
+  <VQE_ThingWithInventorName>{1} de {0}</VQE_ThingWithInventorName>
+  <VQE_HasStudied>{0} a étudié en détail {1}</VQE_HasStudied>
+  <VQE_PawnAlreadyStudied>{0} a déjà étudié cette structure</VQE_PawnAlreadyStudied>
+  <VQE_TraitorSchism>Schisme de traître ({0})</VQE_TraitorSchism>
+  <VQE_TraitorSchismDesc>Le créateur de l'ARC s'est révélé être un traître : {0} a propagé ses croyances et convaincu d'autres personnes d'adopter une idéologie rejetant la technologie. Elles ont fondé une nouvelle idéologie : {1}. Ses adeptes affirment que dépendre de l'ARC est imprudent et condamnera la colonie. De plus en plus nombreux, ils considèrent maintenant l'ARC comme une menace et des rumeurs de sabotage circulent. Sans intervention, ce mouvement pourrait dégénérer en conflit et mettre en péril la survie de votre colonie.\n\nLes colons suivants ont adopté {1} : {2}\n\nLes adeptes de {1} refuseront d'effectuer des recherches. Ils seront mécontents s'ils portent des vêtements ou des armes de niveau technologique industriel ou supérieur, et s'en prendront aux objets technologiques lors de leurs crises. Ils chercheront en priorité à détruire le générateur ARC et n'apprécieront pas les personnes qui savent en construire un.\n\nVous pouvez exiler ces colons ou les convertir à leur ancienne idéologie.</VQE_TraitorSchismDesc>
+  <VQE_InventorJoinsDesc>Le {PAWN_title} nommé {PAWN_nameDef} est sorti d'un caisson de cryptosommeil et rejoint la colonie.\n\n{PAWN_nameFull}, le brillant esprit à l'origine du générateur ARC, apporte une grande expérience et un savoir considérable. Sur cette planète, {PAWN_nameDef} a conçu sans relâche d'innombrables prototypes d'ARC, dont beaucoup ont été abandonnés ou détruits par des catastrophes. Malgré ces échecs, {PAWN_nameDef} possède une expertise inégalée dans la construction, la réparation, l'entretien et l'amélioration de tous les types connus de générateurs ARC, y compris les modèles nucléaires et géothermiques avancés. {PAWN_nameDef} peut également tenter de récupérer des composants ARC critiques à partir de composants avancés, une compétence précieuse pour construire ou améliorer le générateur ARC de votre colonie.</VQE_InventorJoinsDesc>
+  <VQEG_DisableNeedForSteamVent>Désactiver l'obligation de construire un ARC près d'une cheminée de vapeur</VQEG_DisableNeedForSteamVent>
+  <VQEG_DisableNeedForSteamVentTooltip>Par défaut, une cheminée de vapeur doit se trouver sur la carte pour construire votre ARC. Activez cette option pour pouvoir le construire n'importe où, par exemple sur un vaisseau-grav.</VQEG_DisableNeedForSteamVentTooltip>
+  <VQEG_ARCTimersMultiplier>Multiplicateur de durée des améliorations ARC (une valeur basse accélère la progression)</VQEG_ARCTimersMultiplier>
+  <VQEG_ARCTimersMultiplierTooltip>Pour améliorer l'ARC, le joueur doit attendre plusieurs durées définies avant de pouvoir passer à l'étape suivante (par exemple, « l'ARC doit fonctionner dans ce mode pendant X jours »). Ce paramètre multiplie ces durées. Une valeur basse accélère la progression ; une valeur élevée la ralentit.</VQEG_ARCTimersMultiplierTooltip>
+  <VQEG_ARCFuelMultiplier>Multiplicateur de combustible des améliorations ARC (une valeur basse réduit la quantité requise)</VQEG_ARCFuelMultiplier>
+  <VQEG_ARCFuelMultiplierTooltip>Certaines améliorations exigent de brûler une quantité déterminée de combustible (par exemple, « l'ARC doit brûler X bois »). Ce paramètre multiplie cette quantité. Une valeur basse réduit le combustible requis ; une valeur élevée l'augmente.</VQEG_ARCFuelMultiplierTooltip>
+  <VQEG_ARCOutputMultiplier>Multiplicateur de puissance de l'ARC</VQEG_ARCOutputMultiplier>
+  <VQEG_ARCOutputMultiplierTooltip>Multiplie la quantité d'énergie produite par les réacteurs ARC.</VQEG_ARCOutputMultiplierTooltip>
+  <VQEG_Reset>Réinitialiser</VQEG_Reset>
+</LanguageData>

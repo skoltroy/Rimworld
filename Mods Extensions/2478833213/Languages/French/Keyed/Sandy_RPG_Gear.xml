@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SandyMassCarried>Masse portée</SandyMassCarried>
+  <SandyMassValue>{0} / {1} kg</SandyMassValue>
+  <Sandy_ViewList>Montrer la liste</Sandy_ViewList>
+  <RPG_Inventory_Width>Onglet Équipement - Largeur</RPG_Inventory_Width>
+  <RPG_Inventory_Height>Onglet Équipement - Hauteur</RPG_Inventory_Height>
+  <RPG_Style_Inventory_Title>Inventaire style RPG</RPG_Style_Inventory_Title>
+  <RPG_Style_Inventory_ArmorHarmony>Défense magique</RPG_Style_Inventory_ArmorHarmony>
+  <RPG_Display_All_Slots_Label>Afficher tous les emplacements</RPG_Display_All_Slots_Label>
+  <RPG_Display_All_Slots_Note>Afficher tous les emplacements pris en charge, même s'ils ne peuvent pas être utilisés</RPG_Display_All_Slots_Note>
+  <Primary_Weapon>Arme principale</Primary_Weapon>
+  <Secondary_Weapon>Arme secondaire</Secondary_Weapon>
+  <RPG_AutoFitWidth_Button_Label>Ajuster la largeur (au plus proche)</RPG_AutoFitWidth_Button_Label>
+  <RPG_AutoFitWidth_Tight_Button_Label>Ajuster la largeur (serré)</RPG_AutoFitWidth_Tight_Button_Label>
+  <RPG_AutoFitWidth_Wide_Button_Label>Ajuster la largeur (large)</RPG_AutoFitWidth_Wide_Button_Label>
+  <RPG_Dispaly_Temp_On_The_Same_Line_Label>Afficher les températures confortables sur la même ligne</RPG_Dispaly_Temp_On_The_Same_Line_Label>
+  <RPG_Dispaly_Temp_On_The_Same_Line_Note></RPG_Dispaly_Temp_On_The_Same_Line_Note>
+  <Sandy_SimplifiedView>Vue simplifiée</Sandy_SimplifiedView>
+  <RPG_Display_Apparel_Healthbar_Label>Afficher la barre de durabilité des vêtements</RPG_Display_Apparel_Healthbar_Label>
+  <RPG_Display_Apparel_Healthbar_Note>À la place de l'arrière-plan indiquant l'état</RPG_Display_Apparel_Healthbar_Note>
+  <RPG_Colors_Changing>Modification de {0}</RPG_Colors_Changing>
+  <RPG_Colors_Apply>Appliquer</RPG_Colors_Apply>
+  <RPG_Colors_Red>Rouge : </RPG_Colors_Red>
+  <RPG_Colors_Green>Vert : </RPG_Colors_Green>
+  <RPG_Colors_Blue>Bleu : </RPG_Colors_Blue>
+  <RPG_Colors_Preview>Aperçu : </RPG_Colors_Preview>
+  <RPG_Colors_Button_Label>Modifier</RPG_Colors_Button_Label>
+  <RPG_Color_Codes_Label>Utiliser un code couleur</RPG_Color_Codes_Label>
+  <RPG_Color_Codes_Note></RPG_Color_Codes_Note>
+  <RPG_Display_Background_Label>Afficher les arrière-plans des emplacements</RPG_Display_Background_Label>
+  <RPG_Display_Background_Note></RPG_Display_Background_Note>
+  <RPG_Display_Static_Slot_Background_Label>Afficher les arrière-plans par défaut des emplacements</RPG_Display_Static_Slot_Background_Label>
+  <RPG_Display_Static_Slot_Background_Note></RPG_Display_Static_Slot_Background_Note>
+  <RPG_Frame2_Label>Utiliser des bordures épaisses</RPG_Frame2_Label>
+  <RPG_Frame2_Note></RPG_Frame2_Note>
+  <Sandy_Head>Couvre-Chef</Sandy_Head>
+  <Sandy_TorsoMiddle>Torse (Milieu)</Sandy_TorsoMiddle>
+  <Sandy_TorsoOnSkin>Torse (Sur Peau)</Sandy_TorsoOnSkin>
+  <Sandy_TorsoShell>Torse (Veste)</Sandy_TorsoShell>
+  <Sandy_Belt>Ceinture</Sandy_Belt>
+  <Sandy_Pants>Jambe (Sur Peau)</Sandy_Pants>
+
+</LanguageData>

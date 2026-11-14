@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CheatReactor.label>Réacteur de triche</CheatReactor.label>
+  <CheatReactor.description>Ce puissant réacteur produit cinq fois plus d'électricité qu'un générateur ordinaire. C'est un atout précieux pour toute colonie ayant besoin d'une énorme réserve d'énergie.</CheatReactor.description>
+  <CheatReactor_Blueprint.label>Réacteur de triche (plan)</CheatReactor_Blueprint.label>
+  <CheatReactor_Frame.label>Réacteur de triche (structure)</CheatReactor_Frame.label>
+  <CheatReactor_Frame.description>Ce puissant réacteur produit cinq fois plus d'électricité qu'un générateur ordinaire. C'est un atout précieux pour toute colonie ayant besoin d'une énorme réserve d'énergie.</CheatReactor_Frame.description>
+</LanguageData>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <UB_Deployment_Hint>Les filtres de catégories et de mods sources s'appliquent ensemble au déploiement. Remplacez les éléments et vérifiez le résultat final.</UB_Deployment_Hint>
+  <UB_Deployment_AutoRepair>Réparer les objets manquants</UB_Deployment_AutoRepair>
+  <UB_Deployment_ApplyStyles>Appliquer les styles actuels</UB_Deployment_ApplyStyles>
+  <UB_Deployment_Order>Ordre : données d'origine → paramètres du joueur → réparation facultative → styles facultatifs</UB_Deployment_Order>
+  <UB_Deployment_Statistics>Sélection : {0} / {1} ; {2} types d'objets restent manquants et seront ignorés.</UB_Deployment_Statistics>
+  <UB_Deployment_BlueprintData>Données du plan / source inconnue</UB_Deployment_BlueprintData>
+  <UB_Deployment_Result>Final : {0}</UB_Deployment_Result>
+  <UB_Deployment_Excluded>Exclu</UB_Deployment_Excluded>
+  <UB_Deployment_Keep>Conserver le contenu d'origine</UB_Deployment_Keep>
+  <UB_Deployment_Missing>Manquant ; ignoré lors du déploiement</UB_Deployment_Missing>
+  <UB_Deployment_Reset>Réinitialiser</UB_Deployment_Reset>
+  <UB_Deployment_Unavailable>La prise en charge requise pour l'importation des personnages ou des configurations n'est pas disponible.</UB_Deployment_Unavailable>
+  <UB_Deployment_PreviewError>Impossible de générer l'aperçu du déploiement : {0}</UB_Deployment_PreviewError>
+  <UB_Deployment_LegacyPawn>Cette ancienne entrée de personnage ne comporte pas de métadonnées de catégorie personnage/animal et figure dans la catégorie des personnages.</UB_Deployment_LegacyPawn>
+  <UB_Deployment_AutoRepairTip>Essayez de restaurer les bâtiments et terrains manquants, y compris les portes et murs de remplacement. Les remplacements manuels valides sont conservés ; les objets non résolus sont ignorés. Si cette option est désactivée, le résultat est reconstruit à partir des données d'origine.</UB_Deployment_AutoRepairTip>
+  <UB_Deployment_StylesTip>Appliquez les styles sélectionnés aux résultats de l'étape précédente. Les styles sont appliqués en dernier et peuvent modifier les objets ou matériaux sélectionnés manuellement. Vérifiez le résultat final de chaque entrée.</UB_Deployment_StylesTip>
+  <UB_Deployment_MergeTip>Effacer uniquement les empreintes des bâtiments et des terrains constructibles, importer les terrains constructibles et conserver les autres terrains naturels. Les objets, plantes et saletés ne sont importés que dans les cellules de placement des bâtiments. Si cette option est désactivée, la zone de l'instantané est effacée et le contenu sélectionné est restauré.</UB_Deployment_MergeTip>
+  <UB_Deployment_OrderTip>Chaque modification reconstruit le résultat à partir du plan d'origine et ne concerne que ce déploiement. Les entrées exclues ne peuvent pas être restaurées par la réparation ou les styles. Les styles peuvent remplacer les objets et matériaux précédents ; la deuxième ligne indique le résultat final.</UB_Deployment_OrderTip>
+  <UB_Deployment_CountHeader>Sélectionné / total</UB_Deployment_CountHeader>
+  <UB_Deployment_CountTip>Le nombre de gauche correspond au contenu sélectionné ; celui de droite au total du plan d'origine. Les objets comptent les unités individuelles ; les terrains, les cellules par couche. Les couches et zones de toit peuvent se chevaucher. La quantité sélectionnée ne garantit pas la réussite du déploiement : les objets manquants peuvent être ignorés. Les entrées sont classées par quantité totale décroissante.</UB_Deployment_CountTip>
+  <UB_Deployment_ColorLegend>Noms : &lt;color=#8FDE8F&gt;présent / mod activé&lt;/color&gt; · &lt;color=#FF6666&gt;manquant / mod désactivé&lt;/color&gt; · &lt;color=#FFFF00&gt;sélection partielle / mod exclu&lt;/color&gt; · Gris : désélectionné</UB_Deployment_ColorLegend>
+  <UB_Deployment_StateTip>Les noms d'objets indiquent si leurs définitions d'origine existent dans la partie actuelle. Le nom d'origine reste rouge même après une réparation réussie. Les mods sont vérifiés dans la liste des mods actifs ; les mods installés mais désactivés sont rouges. Les mods activés apparaissent d'abord, puis les autres par quantité décroissante de contenu d'origine. Les entrées de chaque mod sont également classées par quantité décroissante.</UB_Deployment_StateTip>
+  <UB_Deployment_SelectionTip>La case parente indique les sous-entrées disponibles sur cette page : cochée signifie toutes, tiret jaune certaines, croix aucune. Cliquez sur une coche ou un tiret pour tout désélectionner, ou sur une croix pour tout sélectionner. La sélection par glissement est prise en charge. Les filtres de catégorie et de mod s'appliquent ensemble.</UB_Deployment_SelectionTip>
+  <UB_Deployment_CategoryTip>Développez pour sélectionner ou remplacer des entrées individuelles. Cette catégorie reste soumise au filtre de mod : sélectionner toutes les catégories n'annule pas l'exclusion d'un mod. Les entrées nécessitant une prise en charge d'importation indisponible ne peuvent pas être sélectionnées.</UB_Deployment_CategoryTip>
+  <UB_Deployment_ModGateTip>Exclure ce mod empêche le déploiement de ses entrées, même si leurs catégories sont sélectionnées. La case parente sélectionne ou désélectionne les entrées de ce mod ; leurs catégories doivent également être activées. Les groupes suivent les sources du plan d'origine et ne changent pas après un remplacement.</UB_Deployment_ModGateTip>
+  <UB_Deployment_ModEnabled>Activé dans la partie actuelle</UB_Deployment_ModEnabled>
+  <UB_Deployment_ModDisabled>Désactivé ou non installé</UB_Deployment_ModDisabled>
+  <UB_Deployment_ModStatusTip>Vert signifie que le mod est chargé dans cette session ; rouge signifie qu'il ne l'est pas. Les mods installés mais désactivés sont également rouges. Leurs entrées manquantes peuvent toujours être remplacées ou réparées manuellement.</UB_Deployment_ModStatusTip>
+  <UB_Deployment_UnknownModTip>Ces entrées contiennent des paramètres de plan ou ne comportent pas de métadonnées de source. L'état d'activation de leur mod source est inconnu ; elles apparaissent donc en gris.</UB_Deployment_UnknownModTip>
+  <UB_Deployment_EntryPresentTip>L'entrée d'origine existe. Les filtres de catégorie et de mod déterminent toujours son inclusion. La deuxième ligne indique l'objet final du déploiement.</UB_Deployment_EntryPresentTip>
+  <UB_Deployment_EntryMissingTip>La définition d'origine est indisponible, peut-être parce que son mod est désactivé ou non installé. Sélectionnez un remplacement ou activez la réparation, puis vérifiez l'objet final sur la deuxième ligne.</UB_Deployment_EntryMissingTip>
+  <UB_Deployment_ModExcludedTip>Cette entrée est exclue par le filtre de mod et ne sera pas déployée. Sélectionner sa catégorie ne peut pas annuler cette exclusion ; réactivez-la d'abord dans la page des mods.</UB_Deployment_ModExcludedTip>
+  <UB_Deployment_ReplaceTip>Choisissez un remplacement pour toutes les entrées qui utilisent cet objet d'origine dans ce déploiement. Le fichier du plan ne sera pas modifié. Les styles appliqués ensuite peuvent modifier ce choix.</UB_Deployment_ReplaceTip>
+  <UB_Deployment_MaterialTip>Choisissez un matériau compatible pour l'objet indiqué. Les styles activés peuvent remplacer ce matériau. La deuxième ligne indique le matériau final.</UB_Deployment_MaterialTip>
+  <UB_Deployment_ResetTip>Effacez le remplacement manuel et le matériau de cette entrée pour utiliser le contenu d'origine. Les options de réparation et de style actuelles restent appliquées.</UB_Deployment_ResetTip>
+  <UB_Deployment_SelectAllTip>Sélectionner tout sur cette page uniquement. Les catégories restent soumises aux exclusions de mods ; les mods sélectionnés nécessitent toujours des catégories activées. Les entrées indisponibles restent désélectionnées.</UB_Deployment_SelectAllTip>
+  <UB_Deployment_SelectNoneTip>Désélectionner cette page sans supprimer les règles de remplacement. La re-sélection des entrées conserve leurs remplacements configurés.</UB_Deployment_SelectNoneTip>
+  <UB_Deployment_CancelTip>Fermer cet aperçu et abandonner les paramètres de déploiement sans modifier le fichier du plan.</UB_Deployment_CancelTip>
+  <UB_Deployment_DeployTip>Déployer le contenu sélectionné en utilisant ses résultats finaux. Les objets manquants sont ignorés. Le déploiement est bloqué si l'aperçu échoue ou s'il ne reste aucun contenu déployable.</UB_Deployment_DeployTip>
+  <UB_Deployment_Empty>Il ne reste aucun contenu déployable. Conservez au moins une entrée valide.</UB_Deployment_Empty>
+  <UB_Deployment_BuildRoofArea>Construire la zone de toit</UB_Deployment_BuildRoofArea>
+  <UB_Deployment_NoRoofArea>Supprimer la zone de toit</UB_Deployment_NoRoofArea>
+  <UB_Deployment_CopyNameTip>Copier le nom complet du mod de cette ligne dans le presse-papiers pour le rechercher.</UB_Deployment_CopyNameTip>
+  <UB_Deployment_ReplacementIgnoreLimitsTip>Afficher tous les objets ou terrains déployables candidats, sans limites de correspondance de taille ou de couleur de terrain. Les filtres de mod, d'étiquette et de recherche restent appliqués. Des tailles différentes modifient les cellules occupées ; vérifiez l'aperçu final du déploiement.</UB_Deployment_ReplacementIgnoreLimitsTip>
+  <UB_Deployment_ReplacementTagsTip>Utilise les étiquettes fonctionnelles de l'éditeur de styles, notamment portes, murs, lits, établis et stockage. Le contenu sans étiquette fonctionnelle apparaît sous « Autre ». Les quantités suivent les filtres actuels de mod, de recherche et de correspondance.</UB_Deployment_ReplacementTagsTip>
+  <UB_Deployment_FilterPlacementContent>Filtrer le contenu à placer</UB_Deployment_FilterPlacementContent>
+  <UB_Deployment_FilterPlacementContentTip>En mode Dieu, ouvrir l'aperçu du déploiement de l'instantané lors du placement, même si la zone fait moins de 5 000 cellules. Filtrez et remplacez le contenu par catégorie et par mod, et choisissez la réparation et le style automatiques.</UB_Deployment_FilterPlacementContentTip>
+</LanguageData>

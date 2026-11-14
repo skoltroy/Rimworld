@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFE_ChoosePropCategory>Choisir une catégorie de décor :</VFE_ChoosePropCategory>
+  <VFE_GoBack>Retour</VFE_GoBack>
+  <VFE_PrefabSearch>Rechercher</VFE_PrefabSearch>
+  <VFE_NoSilver>Pas assez d'argent dans les réserves. Il faut au moins {0} argent pour construire ce décor.</VFE_NoSilver>
+  <VFE_PropCostMultiplier>Multiplicateur du coût des décors</VFE_PropCostMultiplier>
+  <VFE_PropCostMultiplierDesc>Le coût des éléments préfabriqués achetés avec de l'argent dépend de leur taille, de leurs points de vie et de leur couverture. Ce curseur permet d'ajuster leur coût. La valeur 0 supprime tout coût en argent.</VFE_PropCostMultiplierDesc>
+  <VFE_SilverReturnMultiplier>Multiplicateur du remboursement en argent</VFE_SilverReturnMultiplier>
+  <VFE_SilverReturnMultiplierDesc>Lorsqu'un décor est détruit, son coût d'achat est remboursé en argent. Par défaut, le remboursement est de 100 %, mais ce réglage permet de le réduire.</VFE_SilverReturnMultiplierDesc>
+  <VFE_Reset>Réinitialiser</VFE_Reset>
+  <VPE_NeedsMats>Construit</VPE_NeedsMats>
+  <VPE_NeedsMatsDesc>Ce décor nécessite des matériaux de construction plutôt que de l'argent, et doit être construit par les colons.</VPE_NeedsMatsDesc>
+  <VFEPD_BuildProps>construire des décors</VFEPD_BuildProps>
+  <VFEPD_BuildPropsDesc>Ouvre un menu permettant de construire des décors contre de l'argent.</VFEPD_BuildPropsDesc>
+  <VFEPD_ResearchNeeded>Ne peut pas être construit avant que la colonie ait étudié {0}.</VFEPD_ResearchNeeded>
+  <VFEPD_MakeCopy>Créer une copie</VFEPD_MakeCopy>
+  <VFEPD_MakeCopyDesc>Créer une copie de ce décor. Il faut disposer dans les réserves de la somme nécessaire à son achat.</VFEPD_MakeCopyDesc>
+</LanguageData>

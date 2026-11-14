@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GW_SM_CodexAstartes.label>Codex Astartes</GW_SM_CodexAstartes.label>
+  <GW_SM_CodexAstartes.description>Étudiez le Codex Astartes, la doctrine de l'Adeptus Astartes rédigée par le primarque Roboute Guilliman. La plupart des chapitres suivent son organisation et ses tactiques, mais d'autres ont leurs propres méthodes.</GW_SM_CodexAstartes.description>
+  <GW_SM_AstartesFabrication.label>Fabrication Astartes</GW_SM_AstartesFabrication.label>
+  <GW_SM_AstartesFabrication.description>Apprenez les bases de la fabrication d'équipement Space Marine et produisez des armures adaptées aux Scouts.</GW_SM_AstartesFabrication.description>
+  <GW_SM_AstartesBasicShields.label>Boucliers Astartes</GW_SM_AstartesBasicShields.label>
+  <GW_SM_AstartesBasicShields.description>Produisez des boucliers portatifs de protection adaptés aux Space Marines.</GW_SM_AstartesBasicShields.description>
+  <GW_SM_Jump_Packs.label>Réacteurs dorsaux</GW_SM_Jump_Packs.label>
+  <GW_SM_Jump_Packs.description>Fabriquez des réacteurs dorsaux, des propulseurs portés sur le dos et utilisés par les Space Marines pour les assauts aéroportés.</GW_SM_Jump_Packs.description>
+  <GW_SM_AstartesLight.label>Armures légères Astartes</GW_SM_AstartesLight.label>
+  <GW_SM_AstartesLight.description>Créez des armures énergétiques Space Marine légères de modèle Mk X Phobos, ainsi que l'armure modifiée des Reivers.</GW_SM_AstartesLight.description>
+  <GW_SM_AstartesHeavy.label>Armures lourdes Astartes</GW_SM_AstartesHeavy.label>
+  <GW_SM_AstartesHeavy.description>Fabriquez les armures énergétiques Space Marine les plus lourdes : le modèle Mk X Gravis et la rare armure Terminator.</GW_SM_AstartesHeavy.description>
+  <GW_SM_AstartesMedium.label>Armures intermédiaires Astartes</GW_SM_AstartesMedium.label>
+  <GW_SM_AstartesMedium.description>Produisez les armures énergétiques Space Marine standard : modèles Mk IV Maximus, Mk VI Corvus, Mk VII Aquila et Mk X Tacticus.</GW_SM_AstartesMedium.description>
+  <GW_SM_DarkAngels.label>Chevaliers de Caliban</GW_SM_DarkAngels.label>
+  <GW_SM_DarkAngels.description>Reproduisez l'armure des mystérieux Dark Angels.</GW_SM_DarkAngels.description>
+  <GW_SM_NightLord.label>Enfants de la nuit</GW_SM_NightLord.label>
+  <GW_SM_NightLord.description>Reproduisez l'armure des terrifiants Night Lords.</GW_SM_NightLord.description>
+  <GW_SM_Salamander.label>Salamandres</GW_SM_Salamander.label>
+  <GW_SM_Salamander.description>Reproduisez l'armure des Salamandres, forgée dans le feu.</GW_SM_Salamander.description>
+  <GW_SM_Ultarmarines.label>Armure d'Ultramar</GW_SM_Ultarmarines.label>
+  <GW_SM_Ultarmarines.description>Reproduisez l'armure des disciplinés Ultramarines.</GW_SM_Ultarmarines.description>
+</LanguageData>

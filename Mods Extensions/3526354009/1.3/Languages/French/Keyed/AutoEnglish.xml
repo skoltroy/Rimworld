@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<TD.ToggleBlueprintOverRock>Placer des plans sur le rocher de la montagne</TD.ToggleBlueprintOverRock>
+	<TD.ReplaceDesc>Remplacez un objet, par ex. remplacer un mur de bois par de la pierre</TD.ReplaceDesc>
+	<TD.SettingsCornerBuildableDesc>Cela peut parfois causer des problèmes de chemin étranges - désactivez-le pour peut-être résoudre ce problème.</TD.SettingsCornerBuildableDesc>
+	<TD.SettingsNoNormalCoolers>Cachez le refroidisseur normal et l&apos;évent dans le menu de construction</TD.SettingsNoNormalCoolers>
+	<TD.IncapableOfSmoothing>incapable de lisser</TD.IncapableOfSmoothing>
+	<TD.SettingsNoOverwallCoolers>Cachez ces glacières murales super astucieuses dans le menu de construction</TD.SettingsNoOverwallCoolers>
+	<TD.ReplaceStuff>Remplacer des objets</TD.ReplaceStuff>
+	<TD.SettingsCornerBuildable>Les tuiles d&apos;angle sont constructibles et exploitables de l&apos;intérieur</TD.SettingsCornerBuildable>
+	<TD.Replace>Remplacer</TD.Replace>
+	<TD.FailedStuffBeingReplaced>objets en cours de remplacement</TD.FailedStuffBeingReplaced>
+	<TD.ReplacingTag> (Replacer)</TD.ReplacingTag>
+	<TD.SettingsPreferredBridge>Ordre de préférence des ponts à placer si nécessaire :</TD.SettingsPreferredBridge>
+	<TD.SettingsBridgeResources>(Priorité aux ponts pour lesquels vous avez les ressources nécessaires ; ensuite, l’ordre de cette liste — faites glisser pour réorganiser.)</TD.SettingsBridgeResources>
+	<TD.ReplacementAlreadyInProgess>Remplacement déjà en cours.</TD.ReplacementAlreadyInProgess>
+</LanguageData>

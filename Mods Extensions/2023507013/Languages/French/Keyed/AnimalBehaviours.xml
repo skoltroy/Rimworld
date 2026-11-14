@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NocturnalAnimals.BodyClock>Rythme biologique</NocturnalAnimals.BodyClock>
+  <NocturnalAnimals.BodyClock_Description>Détermine quand l'animal dort et quand il est éveillé.\n\nLes animaux diurnes dorment la nuit et sont éveillés le jour, tandis que les animaux nocturnes dorment le jour et sont éveillés la nuit. Les animaux crépusculaires sont surtout actifs au crépuscule.</NocturnalAnimals.BodyClock_Description>
+  <NocturnalAnimals.BodyClock_Diurnal>Diurne</NocturnalAnimals.BodyClock_Diurnal>
+  <NocturnalAnimals.BodyClock_Nocturnal>Nocturne</NocturnalAnimals.BodyClock_Nocturnal>
+  <NocturnalAnimals.BodyClock_Crepuscular>Crépusculaire</NocturnalAnimals.BodyClock_Crepuscular>
+  <VEF_AsexualHatched>{0} s'est reproduit de façon asexuée.</VEF_AsexualHatched>
+  <VEF_AsexualCloning>{0} s'est cloné.</VEF_AsexualCloning>
+  <VEF_AsexualHatchedEgg>{0} a sporulé.</VEF_AsexualHatchedEgg>
+  <VEF_NotTameable>Cette créature ne peut pas être apprivoisée</VEF_NotTameable>
+  <VEF_TimeToMetamorphosis>Temps avant la métamorphose : {0}</VEF_TimeToMetamorphosis>
+  <VEF_WarningEggExplodes>Attention : cet œuf explose à l'éclosion !</VEF_WarningEggExplodes>
+  <VEF_TimeToDie>Expiration de l'animal dans : {0}</VEF_TimeToDie>
+  <VEF_DisableAnimal>Désactiver {0}</VEF_DisableAnimal>
+  <VEF_StomachContents>Créatures avalées entières : {0}. </VEF_StomachContents>
+  <VEF_DigestionTime>Sera digéré dans {0}</VEF_DigestionTime>
+  <VEF_TerrainsNeedsDiggable>Le terrain doit pouvoir être creusé pour faire cela</VEF_TerrainsNeedsDiggable>
+  <VEF_WhileCaravaning>En caravane, produit {0} {1} toutes les : </VEF_WhileCaravaning>
+  <VEF_AnimalProductYieldFactorDetails>La production de base de produits animaux spéciaux pour cet animal est de {0} {1}. Avec son facteur de rendement, elle sera de {2} {1}.</VEF_AnimalProductYieldFactorDetails>
+  <VEF_AnimalProductYieldFactorDetails_Random>La production de base de produits animaux spéciaux pour cet animal est de {0} parmi une sélection d'objets aléatoires ou dépendant du terrain. Avec son facteur de rendement, elle sera de {1} unités.</VEF_AnimalProductYieldFactorDetails_Random>
+  <VEF_AnimalProductIntervalFactorDetails>L'intervalle de base entre les produits animaux spéciaux de cet animal est de {0} jours. Avec son facteur d'intervalle, il sera de {1} jours. Cette valeur est limitée à un minimum d'un jour.</VEF_AnimalProductIntervalFactorDetails>
+  <VCE_AffectsAllAnimalMods>Ces options de comportement animal affectent tous les mods d'animaux utilisant le code de Vanilla Expanded Framework</VCE_AffectsAllAnimalMods>
+  <VCE_CorpseDecayingEffectOption>Autoriser les mécanismes de décomposition des cadavres (par exemple, l'effet des limaces hélixiennes)</VCE_CorpseDecayingEffectOption>
+  <VCE_DigWhenHungryOption>Autoriser le creusement lorsque l'animal a faim (par exemple, les Frostmites qui déterrent des cadavres)</VCE_DigWhenHungryOption>
+  <VCE_DigPeriodicallyOption>Autoriser les animaux à creuser périodiquement pour trouver des objets</VCE_DigPeriodicallyOption>
+  <VCE_AnimalParticlesOption>Autoriser les particules animales (gaz et saleté)</VCE_AnimalParticlesOption>
+  <VCE_AsexualReproductionOption>Autoriser la reproduction asexuée</VCE_AsexualReproductionOption>
+  <VFE_AsexualReproductionDisabled>Reproduction asexuée désactivée dans les options du mod</VFE_AsexualReproductionDisabled>
+  <VCE_BlinkMechanicsOption>Autoriser les mécanismes de clignement (par exemple, les Skiphounds)</VCE_BlinkMechanicsOption>
+  <VCE_BuildPeriodicallyOption>Autoriser les animaux à construire des choses (par exemple, les castors qui construisent des barrages)</VCE_BuildPeriodicallyOption>
+  <VCE_ChargeBatteriesOption>Autoriser les animaux à recharger les batteries proches ou à ravitailler</VCE_ChargeBatteriesOption>
+  <VCE_ExplodingEggsOption>Autoriser les œufs qui explosent (comme ceux des dragons)</VCE_ExplodingEggsOption>
+  <VCE_HoveringOption>Autoriser le vol stationnaire des animaux, sans tenir compte des coûts de déplacement du terrain ni de la marche sur l'eau</VCE_HoveringOption>
+  <VCE_GraphicChangingOption>Autoriser les animaux à changer d'apparence (par exemple, le yak caméléon)</VCE_GraphicChangingOption>
+  <VCE_EffecterOption>Autoriser les animaux à provoquer des blessures, des états mentaux ou des pensées</VCE_EffecterOption>
+  <VCE_RegenerationOption>Autoriser la régénération de santé, active et passive</VCE_RegenerationOption>
+  <VCE_ResurrectionOption>Autoriser les animaux à ressusciter automatiquement (par exemple, le hibou-phénix)</VCE_ResurrectionOption>
+  <VCE_UntameableOption>Autoriser certains animaux à être indomptables</VCE_UntameableOption>
+  <VEF_AnimalsSearch>Rechercher :</VEF_AnimalsSearch>
+  <VEF_BillRequiresMass>Nécessite une masse totale de {0} kg</VEF_BillRequiresMass>
+</LanguageData>

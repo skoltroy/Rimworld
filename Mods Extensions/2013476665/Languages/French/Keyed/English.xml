@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RWC_TooClose>Trop près d'autres structures ! Certaines directions peuvent être obstruées.</RWC_TooClose>
+  <RWC_Obstructed>\nDirections obstruées : {0}</RWC_Obstructed>
+  <RWC_Direction>Direction</RWC_Direction>
+  <RWC_ActiveDesc>Détermine si ce côté est actif et prêt à détoner.</RWC_ActiveDesc>
+  <RWC_SafetyDesc>Active ou désactive la sécurité. Lorsqu'elle est activée, la charge ne détonne pas si une structure du joueur se trouve dans son rayon.\nLorsqu'elle est désactivée, elle détonne quoi qu'il arrive.</RWC_SafetyDesc>
+  <RWC_ObstructedDesc>Active ou désactive l'affichage des obstacles. Lorsqu'il est activé, des X rouges apparaissent sur les structures situées dans le rayon de cette direction. Sinon, cet affichage est masqué.</RWC_ObstructedDesc>
+</LanguageData>

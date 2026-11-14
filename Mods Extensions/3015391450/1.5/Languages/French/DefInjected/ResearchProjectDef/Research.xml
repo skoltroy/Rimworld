@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GW_AM_TacticaImperium.label>Tactica Imperium</GW_AM_TacticaImperium.label>
+  <GW_AM_TacticaImperium.description>Étudiez la Tactica Imperium, le manuel le plus réputé de l'Astra Militarum. Malgré sa longueur et ses contradictions, il reste très utile aux jeunes officiers, aux sous-officiers aguerris et aux nouvelles recrues.</GW_AM_TacticaImperium.description>
+  <GW_AM_MilitariumArmor.label>Armure du Militarum</GW_AM_MilitariumArmor.label>
+  <GW_AM_MilitariumArmor.description>Produisez les armes et armures standardisées inspirées des troupes de choc cadiennes, utilisées par de nombreux régiments de la Garde impériale.</GW_AM_MilitariumArmor.description>
+  <GW_AM_RegimentsOfRenown.label>Régiments de renom</GW_AM_RegimentsOfRenown.label>
+  <GW_AM_RegimentsOfRenown.description>Découvrez certains des régiments les plus uniques et spécialisés de l'Astra Militarum.</GW_AM_RegimentsOfRenown.description>
+  <GW_LuciferBlack.label>Gardes Noirs de Lucifer</GW_LuciferBlack.label>
+  <GW_LuciferBlack.description>Produisez l'armure et les armes des Gardes Noirs de Lucifer, la garde prétorienne de Terra.</GW_LuciferBlack.description>
+  <GW_Tanith1st.label>Premier et unique de Tanith</GW_Tanith1st.label>
+  <GW_Tanith1st.description>Produisez l'armure et les armes du Premier et unique de Tanith, un régiment de tireurs d'élite sans planète d'origine, déterminé à s'en trouver une.</GW_Tanith1st.description>
+  <GW_AM_AbhumanIntegration.label>Intégration des abhumains</GW_AM_AbhumanIntegration.label>
+  <GW_AM_AbhumanIntegration.description>Étudiez les abhumains de la Garde impériale, des mutations humaines stables.</GW_AM_AbhumanIntegration.description>
+  <GW_AM_CadianShockTroops.label>Troupes d'élite Kasrkin</GW_AM_CadianShockTroops.label>
+  <GW_AM_CadianShockTroops.description>Produisez l'armure et les armes des Kasrkin, l'élite honorée des troupes de choc cadiennes, égale aux Tempestus Scions.</GW_AM_CadianShockTroops.description>
+  <GW_AM_Catachan.label>Fantassins de jungle de Catachan</GW_AM_Catachan.label>
+  <GW_AM_Catachan.description>Produisez l'armure et les armes des fantassins de jungle de Catachan, des guérilleros d'un monde hostile habitués aux jungles les plus meurtrières de la galaxie.</GW_AM_Catachan.description>
+  <GW_AM_DeathKorpsOfKrieg.label>Korps de la Mort de Krieg</GW_AM_DeathKorpsOfKrieg.label>
+  <GW_AM_DeathKorpsOfKrieg.description>Produisez l'armure et les armes du Korps de la Mort de Krieg, des spécialistes des sièges austères et stoïques qui expient la honte de leur planète au combat.</GW_AM_DeathKorpsOfKrieg.description>
+  <GW_AM_ElysianDropTroopers.label>Troupes aéroportées d'Elysia</GW_AM_ElysianDropTroopers.label>
+  <GW_AM_ElysianDropTroopers.description>Produisez l'armure et les armes des troupes aéroportées d'Elysia, une infanterie intrépide qui fond du ciel.</GW_AM_ElysianDropTroopers.description>
+  <GW_AM_Mordian.label>Garde de Fer mordienne</GW_AM_Mordian.label>
+  <GW_AM_Mordian.description>Produisez l'armure et les armes de la Garde de Fer mordienne, une infanterie disciplinée qui écrase ses ennemis sous des salves de tirs laser.</GW_AM_Mordian.description>
+  <GW_AM_OfficersOfAM.label>Officiers de l'Astra Militarum</GW_AM_OfficersOfAM.label>
+  <GW_AM_OfficersOfAM.description>Produisez des armes et armures dignes des officiers de la Garde impériale : le redoutable commissaire et le prêtre charismatique.</GW_AM_OfficersOfAM.description>
+  <GW_AM_OgrynIntegration.label>Intégration des Ogryns</GW_AM_OgrynIntegration.label>
+  <GW_AM_OgrynIntegration.description>Produisez l'équipement des Ogryns, de grands abhumains peu intelligents ayant évolué sur une planète-prison froide à forte gravité.</GW_AM_OgrynIntegration.description>
+  <GW_AM_SteelLegion.label>Légion d'acier d'Armageddon</GW_AM_SteelLegion.label>
+  <GW_AM_SteelLegion.description>Produisez l'armure et les armes de la Légion d'acier d'Armageddon, des spécialistes des chars associés à une infanterie mécanisée.</GW_AM_SteelLegion.description>
+  <GW_AM_TallarnDesertRaiders.label>Raiders du désert de Tallarn</GW_AM_TallarnDesertRaiders.label>
+  <GW_AM_TallarnDesertRaiders.description>Produisez l'armure et les armes des Raiders du désert de Tallarn, une infanterie mécanisée rapide spécialisée dans les attaques éclair.</GW_AM_TallarnDesertRaiders.description>
+  <GW_AM_TempestusScions.label>Tempestus Scions</GW_AM_TempestusScions.label>
+  <GW_AM_TempestusScions.description>Produisez l'armure et les armes des Tempestus Scions, des soldats d'élite des forces spéciales, précis et efficaces sous une pression extrême.</GW_AM_TempestusScions.description>
+  <GW_AM_Valhallan.label>Guerriers des glaces de Valhalla</GW_AM_Valhallan.label>
+  <GW_AM_Valhallan.description>Produisez l'armure et les armes des guerriers des glaces de Valhalla, des spécialistes de la défense en climat froid réputés pour tenir leurs positions contre vents et marées.</GW_AM_Valhallan.description>
+  <GW_AM_VostoyanFirstborn.label>Premiers-nés de Vostroya</GW_AM_VostoyanFirstborn.label>
+  <GW_AM_VostoyanFirstborn.description>Produisez l'armure et les armes des Premiers-nés de Vostroya, un régiment prestigieux et discipliné composé des premiers enfants de chaque famille de Vostroya.</GW_AM_VostoyanFirstborn.description>
+</LanguageData>

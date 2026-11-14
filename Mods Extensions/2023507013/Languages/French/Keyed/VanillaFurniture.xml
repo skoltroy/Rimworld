@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFE_ChunkToMine>Extraire {0}</VFE_ChunkToMine>
+  <VFE_ChunkRandomMine>Extraire des blocs au hasard</VFE_ChunkRandomMine>
+  <VFE_ChooseMine>Choisir le type de bloc à extraire</VFE_ChooseMine>
+  <VFE_ChooseMineDesc>Choisir le type de bloc à extraire. Vous pouvez choisir parmi les roches de la carte ou sélectionner une extraction aléatoire.</VFE_ChooseMineDesc>
+  <VFE_RandomRock>Bloc aléatoire</VFE_RandomRock>
+  <VFE_PleaseSelectOutput>Choisir le produit de la machine</VFE_PleaseSelectOutput>
+  <VFE_NeedsWater>Ce bâtiment doit être placé sur l'eau</VFE_NeedsWater>
+  <VFE_NeedsSand>Ce bâtiment doit être placé sur du sable</VFE_NeedsSand>
+  <VFE_ChangeGraphic>Apparence aléatoire</VFE_ChangeGraphic>
+  <VFE_ChangeGraphicDesc>Modifier aléatoirement l'apparence de ce bâtiment parmi les variantes disponibles</VFE_ChangeGraphicDesc>
+  <VFE_ChooseGraphic>Choisir l'apparence</VFE_ChooseGraphic>
+  <VFE_ChooseGraphicDesc>Choisir l'apparence de ce bâtiment dans un menu présentant toutes les options disponibles</VFE_ChooseGraphicDesc>
+  <VFE_NoGraphics>Ce bâtiment ne propose pas d'autres apparences aléatoires. Un moddeur a ajouté cette classe de composant au bâtiment sans fournir d'apparences alternatives, ce qui est étrange.</VFE_NoGraphics>
+  <VFE_HideRandomizeButton>Masquer les boutons « Apparence aléatoire » et « Choisir l'apparence »</VFE_HideRandomizeButton>
+  <VFE_RandomBuildingsDontStartRandom>Ne pas attribuer une apparence aléatoire au démarrage aux bâtiments à apparence aléatoire</VFE_RandomBuildingsDontStartRandom>
+  <VFE.SwitchLightColor>Changer la couleur de la lumière</VFE.SwitchLightColor>
+  <VFE.SwitchLightColorDesc>Modifier la couleur actuelle de la lumière.</VFE.SwitchLightColorDesc>
+  <VFE.ChangeColorTo>Passer à la couleur {0}</VFE.ChangeColorTo>
+  <VFE.ColorSwitchPowerOff>L'alimentation est coupée. Impossible de changer la couleur.</VFE.ColorSwitchPowerOff>
+</LanguageData>

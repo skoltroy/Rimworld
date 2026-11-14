@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ASF_Basket.label>Panier à provisions</ASF_Basket.label>
+  <ASF_Basket.description>Un petit grenier pour stocker des aliments crus et des végétaux.</ASF_Basket.description>
+  <ASF_BigShelf.label>Grande étagère</ASF_BigShelf.label>
+  <ASF_BigShelf.description>Une étagère pour ranger toutes sortes d'objets, des obus d'artillerie aux œuvres d'art, des bras bioniques aux briques, des chaises aux cadavres. Elle ne pose pas de questions, elle se contente de tout stocker. Les objets entreposés ne se détériorent pas, même à l'extérieur. Cette étagère contient deux fois plus qu'une étagère ordinaire.</ASF_BigShelf.description>
+  <ASF_BigSShelf.label>Grande étagère simple</ASF_BigSShelf.label>
+  <ASF_BigSShelf.description>Une étagère pour ranger toutes sortes d'objets, des obus d'artillerie aux œuvres d'art, des bras bioniques aux briques, des chaises aux cadavres. Elle ne pose pas de questions, elle se contente de tout stocker. Les objets entreposés ne se détériorent pas, même à l'extérieur. Cette étagère contient deux fois plus qu'une étagère ordinaire.</ASF_BigSShelf.description>
+  <ASF_ClothingRack.label>Portant à vêtements</ASF_ClothingRack.label>
+  <ASF_ClothingRack.description>Un portant couvert pour ranger les vêtements et les garder facilement accessibles, tout en maintenant la pièce en ordre.</ASF_ClothingRack.description>
+  <ASF_FabricHamper.label>Paniers en tissu</ASF_FabricHamper.label>
+  <ASF_FabricHamper.description>Un ensemble de paniers en tissu. Leurs différentes poches permettent de ranger facilement une grande quantité de petits objets variés.\n\nSi vous voulez vraiment ranger du tissu dans des sacs, consultez les paramètres du mod !</ASF_FabricHamper.description>
+  <ASF_Hayloft.label>Grenier à foin</ASF_Hayloft.label>
+  <ASF_Hayloft.description>Un grenier à foin est un espace situé au-dessus d'une grange, d'une écurie ou d'une étable, traditionnellement utilisé pour stocker le foin et d'autres fourrages. Avant l'arrivée des machines agricoles industrielles, on ne pouvait pas soulever facilement les énormes bottes de foin.\n\nÀ moins d'utiliser des mods agricoles particuliers, vos colons produisent probablement leur foin à la main, un travail lent et épuisant. La plupart des travaux agricoles sont pénibles, et vos colons ne peuvent même pas embaucher de travailleurs saisonniers dans les autres colonies. Respectez les agriculteurs : ils travaillent bien plus dur que vous ! Ce sont des gens formidables qui produisent de la bonne nourriture.\n\nCette structure sert à stocker le foin, l'ensilage et divers végétaux à l'abri des sols humides. Il est probablement préférable de la construire sous un toit (très haut).</ASF_Hayloft.description>
+  <ASF_MeatHook.label>Portique à viande</ASF_MeatHook.label>
+  <ASF_MeatHook.description>Une haute structure métallique munie de plusieurs crochets suspendus à des chaînes. Une simple manivelle permet de hisser des objets en l'air. Elle sert à stocker les cadavres des animaux que vous avez tués avant de les découper et de les manger. Quel monstre.\n\nNotez que vous ne pouvez placer qu'un nombre limité de cadavres géants dans un même espace, même en les empilant. La structure ne peut supporter qu'un certain poids.</ASF_MeatHook.description>
+  <ASF_MedCab.label>Armoire à pharmacie</ASF_MedCab.label>
+  <ASF_MedCab.description>Un ensemble d'armoires et d'étagères pour stocker des médicaments et des drogues. Conseil : gardez un œil sur les enfants.</ASF_MedCab.description>
+  <ASF_Pallet.label>Palette</ASF_Pallet.label>
+  <ASF_Pallet.description>Une palette plate pour entreposer des objets. Elle ne les protège pas des intempéries. Parfois difficile à gérer, mais néanmoins utile.</ASF_Pallet.description>
+  <ASF_Safe.label>Coffre-fort</ASF_Safe.label>
+  <ASF_Safe.description>Une boîte solide et verrouillable pour mettre vos objets de valeur à l'abri du vol et du feu.\n\nRemarque : la protection contre le feu n'est pas encore implémentée.</ASF_Safe.description>
+  <ASF_Skip.label>Benne</ASF_Skip.label>
+  <ASF_Skip.description>Une grande benne métallique pour jeter les objets lourds. Elle n'est pas couverte et reste exposée aux intempéries.\n\nRemarque : jeter de grandes quantités d'acier sans précaution complique sa récupération. Le mod représente cela par un temps de stockage plus long pour les grandes piles. Imaginez que vos pions doivent grimper dedans et tout empiler pour que les chiens puissent le ramasser facilement.</ASF_Skip.description>
+  <ASF_TrayRack.label>Étagère à plateaux-repas</ASF_TrayRack.label>
+  <ASF_TrayRack.description>Une étagère haute où les porteurs déposent les repas et les friandises pour les stocker.</ASF_TrayRack.description>
+  <ASF_VeryBigShelf.label>Étagère haute</ASF_VeryBigShelf.label>
+  <ASF_VeryBigShelf.description>Une haute étagère couverte pour ranger toutes sortes d'objets, des obus d'artillerie aux œuvres d'art, des bras bioniques aux briques, des chaises aux cadavres. Les pions accèdent aux étagères supérieures grâce à une petite échelle roulante (non représentée pour l'instant). On peut y stocker beaucoup de choses, mais ranger de nombreuses petites bouteilles tout en haut prend du temps. Les objets entreposés ne se détériorent pas, même à l'extérieur.\n\nRemarque : choisissez vous-même ce que vous y rangez. Les grandes sculptures n'y tiennent probablement pas vraiment. Mais si c'est ce que vous voulez y mettre, faites comme bon vous semble !</ASF_VeryBigShelf.description>
+  <ASF_VeryBigSShelf.label>Étagère simple haute</ASF_VeryBigSShelf.label>
+  <ASF_VeryBigSShelf.description>Une haute étagère couverte pour ranger toutes sortes d'objets, des obus d'artillerie aux œuvres d'art, des bras bioniques aux briques, des chaises aux cadavres. Les pions accèdent aux étagères supérieures grâce à une petite échelle roulante (non représentée pour l'instant). On peut y stocker beaucoup de choses, mais ranger de nombreuses petites bouteilles tout en haut prend du temps. Les objets entreposés ne se détériorent pas, même à l'extérieur.\n\nRemarque : choisissez vous-même ce que vous y rangez. Les grandes sculptures n'y tiennent probablement pas vraiment. Mais si c'est ce que vous voulez y mettre, faites comme bon vous semble !</ASF_VeryBigSShelf.description>
+  <ASF_WeaponsCabinet.label>Armoire à armes</ASF_WeaponsCabinet.label>
+  <ASF_WeaponsCabinet.description>Une armoire robuste pour ranger plusieurs armes. Les objets entreposés ne se détériorent pas, même à l'extérieur.</ASF_WeaponsCabinet.description>
+  <ASF_WeaponsLocker.label>Casier à armes</ASF_WeaponsLocker.label>
+  <ASF_WeaponsLocker.description>Un casier métallique de grande capacité pour ranger plusieurs armes en toute sécurité. Les objets entreposés ne se détériorent pas, même à l'extérieur.</ASF_WeaponsLocker.description>
+</LanguageData>

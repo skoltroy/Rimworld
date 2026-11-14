@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RandomPlus.RandomEditor.Header>Éditeur aléatoire</RandomPlus.RandomEditor.Header>
+  <RandomPlus.RandomEditor.ResetAllButton>Tout réinitialiser</RandomPlus.RandomEditor.ResetAllButton>
+  <RandomPlus.RandomEditor.SaveLoadButton>Sauvegarder/Charger</RandomPlus.RandomEditor.SaveLoadButton>
+  <RandomPlus.SaveLoadDialog.SaveButton>Sauvegarder</RandomPlus.SaveLoadDialog.SaveButton>
+  <RandomPlus.SaveLoadDialog.OverwriteButton>Remplacer</RandomPlus.SaveLoadDialog.OverwriteButton>
+  <RandomPlus.SaveLoadDialog.LoadButton>Charger</RandomPlus.SaveLoadDialog.LoadButton>
+  <RandomPlus.SaveLoadDialog.DeleteButton>Supprimer</RandomPlus.SaveLoadDialog.DeleteButton>
+  <RandomPlus.FilterButton>Filtrer</RandomPlus.FilterButton>
+  <RandomPlus.RerollLabel>Relances : </RandomPlus.RerollLabel>
+  <RandomPlus.PanelSkills.Header>Niveau de compétence minimal</RandomPlus.PanelSkills.Header>
+  <RandomPlus.PanelSkills.PassionSlider>Plage de passions : {0} - {1}</RandomPlus.PanelSkills.PassionSlider>
+  <RandomPlus.PanelSkills.SkillSlider>Plage de compétences : {0} - {1}</RandomPlus.PanelSkills.SkillSlider>
+  <RandomPlus.PanelSkills.CountOnlyHighestAttack>Ne compter que l'attaque la plus élevée :</RandomPlus.PanelSkills.CountOnlyHighestAttack>
+  <RandomPlus.PanelSkills.CountOnlyPassion>Ne compter que les compétences avec passion :</RandomPlus.PanelSkills.CountOnlyPassion>
+  <RandomPlus.PanelTraits.Header>Filtrer les traits</RandomPlus.PanelTraits.Header>
+  <RandomPlus.PanelTraits.NoTraits>Aucun trait</RandomPlus.PanelTraits.NoTraits>
+  <RandomPlus.PanelTraits.AddDialog.AddButton>Ajouter</RandomPlus.PanelTraits.AddDialog.AddButton>
+  <RandomPlus.PanelTraits.PoolLabel>Traits requis dans le groupe : </RandomPlus.PanelTraits.PoolLabel>
+  <RandomPlus.PanelTraits.FilterType.Required> (Requis)</RandomPlus.PanelTraits.FilterType.Required>
+  <RandomPlus.PanelTraits.FilterType.Pool> (Groupe)</RandomPlus.PanelTraits.FilterType.Pool>
+  <RandomPlus.PanelTraits.FilterType.Excluded> (Exclu)</RandomPlus.PanelTraits.FilterType.Excluded>
+  <RandomPlus.PanelTraits.Disabled>(Désactivé)</RandomPlus.PanelTraits.Disabled>
+  <RandomPlus.PanelOthers.Header>Autres options</RandomPlus.PanelOthers.Header>
+  <RandomPlus.PanelOthers.RerollAlgorithmLabel>Algorithme de relance :</RandomPlus.PanelOthers.RerollAlgorithmLabel>
+  <RandomPlus.PanelOthers.RerollAlgorithmOptionValues.Normal>Normal</RandomPlus.PanelOthers.RerollAlgorithmOptionValues.Normal>
+  <RandomPlus.PanelOthers.RerollAlgorithmOptionValues.Fast>Rapide (bêta)</RandomPlus.PanelOthers.RerollAlgorithmOptionValues.Fast>
+  <RandomPlus.PanelOthers.RerollLimitLabel>Limite de relances :</RandomPlus.PanelOthers.RerollLimitLabel>
+  <RandomPlus.PanelOthers.GenderLabel>Filtre de sexe :</RandomPlus.PanelOthers.GenderLabel>
+  <RandomPlus.PanelOthers.HealthOptionLabel>État de santé :</RandomPlus.PanelOthers.HealthOptionLabel>
+  <RandomPlus.PanelOthers.HealthOptions.AllowAll>Tout autoriser</RandomPlus.PanelOthers.HealthOptions.AllowAll>
+  <RandomPlus.PanelOthers.HealthOptions.OnlyStartConditions>Conditions de départ uniquement</RandomPlus.PanelOthers.HealthOptions.OnlyStartConditions>
+  <RandomPlus.PanelOthers.HealthOptions.NoPain>Sans douleur</RandomPlus.PanelOthers.HealthOptions.NoPain>
+  <RandomPlus.PanelOthers.HealthOptions.NoAddiction>Sans dépendance</RandomPlus.PanelOthers.HealthOptions.NoAddiction>
+  <RandomPlus.PanelOthers.HealthOptions.AllowNone>Tout interdire</RandomPlus.PanelOthers.HealthOptions.AllowNone>
+  <RandomPlus.PanelOthers.HealthOptions.OnlyPositiveImplants>Implants positifs uniquement</RandomPlus.PanelOthers.HealthOptions.OnlyPositiveImplants>
+  <RandomPlus.PanelOthers.IncapableOptionLabel>Incapacités :</RandomPlus.PanelOthers.IncapableOptionLabel>
+  <RandomPlus.PanelOthers.IncapableOptions.AllowAll>Tout autoriser</RandomPlus.PanelOthers.IncapableOptions.AllowAll>
+  <RandomPlus.PanelOthers.IncapableOptions.NoDumbLabor>Pas de travail non qualifié</RandomPlus.PanelOthers.IncapableOptions.NoDumbLabor>
+  <RandomPlus.PanelOthers.IncapableOptions.AllowNone>Tout interdire</RandomPlus.PanelOthers.IncapableOptions.AllowNone>
+  <RandomPlus.PanelOthers.AgeLabel>Âge : {0} - {1}</RandomPlus.PanelOthers.AgeLabel>
+  <RandomPlus.Debug.QuickStartButton>Test[RandomPlus]</RandomPlus.Debug.QuickStartButton>
+  <RandomPlus.Dialog.Close>Fermer</RandomPlus.Dialog.Close>
+</LanguageData>

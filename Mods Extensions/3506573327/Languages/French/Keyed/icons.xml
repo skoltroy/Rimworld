@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Marker_Animal>Animal</Marker_Animal>
+  <Marker_Armor>Armure</Marker_Armor>
+  <Marker_Art>Art</Marker_Art>
+  <Marker_Axe>Hache</Marker_Axe>
+  <Marker_Bomb>Bombe</Marker_Bomb>
+  <Marker_Bomb2>Bombe médiévale</Marker_Bomb2>
+  <Marker_Boost>Bonus</Marker_Boost>
+  <Marker_Bow>Arc</Marker_Bow>
+  <Marker_Shooter>Tireur</Marker_Shooter>
+  <Marker_Sniper>Tireur d'élite</Marker_Sniper>
+  <Marker_Grenadier>Grenadier</Marker_Grenadier>
+  <Marker_Demolitionist>Lance-missiles</Marker_Demolitionist>
+  <Marker_Chill>Froid</Marker_Chill>
+  <Marker_Chip>Puce</Marker_Chip>
+  <Marker_Clean>Nettoyage</Marker_Clean>
+  <Marker_Cold>Gel</Marker_Cold>
+  <Marker_Craft>Artisanat</Marker_Craft>
+  <Marker_Dead>Danger</Marker_Dead>
+  <Marker_Disease>Maladie</Marker_Disease>
+  <Marker_Drop>Largage</Marker_Drop>
+  <Marker_Energy>Énergie</Marker_Energy>
+  <Marker_Fight>Combat</Marker_Fight>
+  <Marker_Focus>Concentration</Marker_Focus>
+  <Marker_Food>Nourriture</Marker_Food>
+  <Marker_Gear>Équipement</Marker_Gear>
+  <Marker_GoJuice>Go-Juice</Marker_GoJuice>
+  <Marker_Hammer>Marteau</Marker_Hammer>
+  <Marker_Haul>Transport</Marker_Haul>
+  <Marker_Hided>Masqué</Marker_Hided>
+  <Marker_Hot>Chaleur</Marker_Hot>
+  <Marker_Kill>Élimination</Marker_Kill>
+  <Marker_King>Roi</Marker_King>
+  <Marker_Lamp>Lampe</Marker_Lamp>
+  <Marker_Lead>Chef</Marker_Lead>
+  <Marker_Leaf>Nature</Marker_Leaf>
+  <Marker_Like>Cœur</Marker_Like>
+  <Marker_Machinegun>Mitrailleuse</Marker_Machinegun>
+  <Marker_Meat>Viande</Marker_Meat>
+  <Marker_Med>Médecine</Marker_Med>
+  <Marker_Melee>Combattant au corps à corps</Marker_Melee>
+  <Marker_Miner>Mineur</Marker_Miner>
+  <Marker_No>Non</Marker_No>
+  <Marker_Person>Personne</Marker_Person>
+  <Marker_Pickaxe>Pioche</Marker_Pickaxe>
+  <Marker_Pill>Pilule</Marker_Pill>
+  <Marker_Pistol>Pistolet</Marker_Pistol>
+  <Marker_Potion>Potion</Marker_Potion>
+  <Marker_Prisoner>Prisonnier</Marker_Prisoner>
+  <Marker_Range>Combattant à distance</Marker_Range>
+  <Marker_Science>Science</Marker_Science>
+  <Marker_Social>Social</Marker_Social>
+  <Marker_Star>Étoile</Marker_Star>
+  <Marker_Stun>Étourdissement</Marker_Stun>
+  <Marker_Unknown>Inconnu</Marker_Unknown>
+  <Marker_Vase>Vase</Marker_Vase>
+  <Marker_Wait>En attente</Marker_Wait>
+  <Marker_Weak>Affaiblissement</Marker_Weak>
+  <Marker_Worker>Ouvrier</Marker_Worker>
+  <Marker_Toxins>Toxines</Marker_Toxins>
+  <Marker_Alcohol>Alcool</Marker_Alcohol>
+  <Marker_Familiar>Familier</Marker_Familiar>
+  <Marker_Protected>Protégé</Marker_Protected>
+  <Marker_AnomalyScience>Science de l'Anomalie</Marker_AnomalyScience>
+  <Marker_Psy>Psionique</Marker_Psy>
+  <Marker_Meditation>Méditation</Marker_Meditation>
+  <Marker_Smoke>Fumée</Marker_Smoke>
+  <Marker_Night>Nuit</Marker_Night>
+  <Marker_Sun>Jour</Marker_Sun>
+  <Marker_Syringe>Seringue</Marker_Syringe>
+  <Marker_Augmented>Implants</Marker_Augmented>
+  <Marker_Arm>Force</Marker_Arm>
+  <Marker_ArmPlus>Bionique</Marker_ArmPlus>
+  <Marker_Trade>Commerce</Marker_Trade>
+  <Marker_Warning>Danger</Marker_Warning>
+  <Marker_Chef>Cuisinier</Marker_Chef>
+  <Marker_Flame>Feu</Marker_Flame>
+  <Marker_DNA>ADN</Marker_DNA>
+</LanguageData>

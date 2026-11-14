@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Allow_area_success>{0} objets autorisés.</Allow_area_success>
+	<Allow_area_failure>Aucun objets interdits trouvés.</Allow_area_failure>
+
+	<Forbid_area_success>{0} objets interdits.</Forbid_area_success>
+	<Forbid_area_failure>Aucun objets non-interdits trouvés.</Forbid_area_failure>
+	
+	<Allow_all_success>{0} objets autorisés sur l'ensemble de la carte.</Allow_all_success>
+	<Allow_all_failure>Aucun objets interdits trouvés.</Allow_all_failure>
+	
+	<Mass_Select_success>Sélectionner {0} {1} à travers la carte.</Mass_Select_success>
+
+	<setting_showTool_label>Afficher l'outil: {0}</setting_showTool_label>
+	<setting_showTool_desc>Si activé, cet outil de selection apparaitra dans le menu Architecte.</setting_showTool_desc>
+	<setting_globalHotkeys_label>Utiliser les racourccis clavier généraux</setting_globalHotkeys_label>
+	<setting_globalHotkeys_desc>Si activé, les outils pourront être activés depuis n'importe quel menu en appuyant sur la touche assignée.\nVoir Options &gt; Configuration Clavier pour changer les touches.</setting_globalHotkeys_desc>
+	
+	<MassSelect_nowSelecting>Sélectionner uniquement : {0}</MassSelect_nowSelecting>
+	<MassSelect_anything>Tout</MassSelect_anything>
+	<MassSelect_numMoreTypes>({0} en plus)</MassSelect_numMoreTypes>
+	<MassSelect_targetHover>Sélectionner tous les : {0}</MassSelect_targetHover>
+	<MassSelect_needTarget>Vous devez sélectionner un objet ou être vivant</MassSelect_needTarget>	
+	
+  <setting_selectionLimit_label>Limite du nombre d’objets sélectionnés</setting_selectionLimit_label>
+  <setting_selectionLimit_desc>Limite le nombre d’objets pouvant être sélectionnés simultanément avec l’outil « Sélectionner les objets similaires ». Une valeur trop élevée peut ralentir le jeu lors de la sélection.</setting_selectionLimit_desc>
+  <setting_contextWatermark_label>Filigrane du menu contextuel</setting_contextWatermark_label>
+  <setting_contextWatermark_desc>Affiche un filigrane Allow Tool dans les menus contextuels des outils lorsque cette option est activée.</setting_contextWatermark_desc>
+  <setting_contextOverlay_label>Icône au clic droit sur les outils</setting_contextOverlay_label>
+  <setting_contextOverlay_desc>Affiche une petite icône sur les outils de désignation qui possèdent un menu contextuel.</setting_contextOverlay_desc>
+  <setting_extendedContextHotkey_label>Raccourci étendu « Action contextuelle »</setting_extendedContextHotkey_label>
+  <setting_extendedContextHotkey_desc>Si aucun outil n’est sélectionné, le raccourci « Action contextuelle » déclenche l’action contextuelle du premier outil visible lorsque des objets sont sélectionnés.</setting_extendedContextHotkey_desc>
+  <setting_reverseDesignatorPick_label>Choisir l’outil depuis les objets sélectionnés</setting_reverseDesignatorPick_label>
+  <setting_reverseDesignatorPick_desc>Maintenez Maj et cliquez sur un outil alors que des objets sont sélectionnés pour choisir cet outil au lieu de l’activer sur ces objets.</setting_reverseDesignatorPick_desc>
+  <setting_finishOffUnforbids_label>Autoriser les objets après l’achèvement</setting_finishOffUnforbids_label>
+  <setting_finishOffUnforbids_desc>Lorsque cette option est activée, les corps et objets déposés après l’achèvement d’une créature sont automatiquement autorisés au transport.</setting_finishOffUnforbids_desc>
+  <setting_providerPrefix>Activer : {0}</setting_providerPrefix>
+  <setting_provider_desc>Lorsque cette option est activée, ajoute au menu contextuel de l’outil une commande lui permettant d’agir sur toute la carte.</setting_provider_desc>
+  <setting_showToggles_btn>▼ Afficher les paramètres ▼</setting_showToggles_btn>
+  <setting_showToolToggles_label>Activer ou désactiver les outils</setting_showToolToggles_label>
+  <setting_showProviderToggles_label>Activer ou désactiver les menus contextuels</setting_showProviderToggles_label>
+  <setting_showReverseToggles_label>Outils appliqués aux objets sélectionnés</setting_showReverseToggles_label>
+  <setting_reverseDesignator_desc>Lorsque cette option est activée, cet outil apparaît lorsque des objets compatibles sont sélectionnés.</setting_reverseDesignator_desc>
+  <setting_haulUrgentlyWorktype_label>Afficher le type de travail « Transport urgent »</setting_haulUrgentlyWorktype_label>
+  <setting_haulUrgentlyWorktype_desc>Lorsque cette option est activée, le type de travail de l’outil « Transport urgent » apparaît dans l’onglet Travail.\nLe jeu doit être redémarré pour que ce paramètre prenne effet.</setting_haulUrgentlyWorktype_desc>
+  <setting_finishOffWorktype_label>Afficher le type de travail « Achever »</setting_finishOffWorktype_label>
+  <setting_finishOffWorktype_desc>Lorsque cette option est activée, le type de travail de l’outil « Achever » apparaît dans l’onglet Travail.\nLe jeu doit être redémarré pour que ce paramètre prenne effet.</setting_finishOffWorktype_desc>
+  <setting_finishOffSkill_label>Compétence requise pour achever</setting_finishOffSkill_label>
+  <setting_finishOffSkill_desc>L’outil « Achever » nécessite un pion possédant un niveau suffisamment élevé en combat au corps à corps.</setting_finishOffSkill_desc>
+  <setting_replaceIcons_label>Remplacer les icônes Interdire/Autoriser</setting_replaceIcons_label>
+  <setting_replaceIcons_desc>Remplace les icônes des outils Interdire et Autoriser par des icônes plus claires.</setting_replaceIcons_desc>
+  <setting_partyHunt_label>Outil de chasse des combattants</setting_partyHunt_label>
+  <setting_partyHunt_desc>Lorsque cette option est activée, le bouton « Chasser » apparaît pour les colons enrôlés.</setting_partyHunt_desc>
+  <setting_partyHuntFinish_label>Achever les animaux à terre</setting_partyHuntFinish_label>
+  <setting_partyHuntDesignated_label>Animaux désignés pour la chasse uniquement</setting_partyHuntDesignated_label>
+  <setting_partyHuntUnforbid_label>Autoriser les proies</setting_partyHuntUnforbid_label>
+  <setting_storageSpaceAlert_label>Alerte d’espace de stockage</setting_storageSpaceAlert_label>
+  <setting_storageSpaceAlert_desc>Une alerte s’affiche lorsque des objets marqués pour un transport urgent ne disposent d’aucun espace de stockage.</setting_storageSpaceAlert_desc>
+  <SelectSimilar_cursor_needConstraint>Cliquez pour choisir un objet</SelectSimilar_cursor_needConstraint>
+  <SelectSimilar_cursor_nowSelecting>Faites glisser pour sélectionner uniquement : {0}</SelectSimilar_cursor_nowSelecting>
+  <SelectSimilar_cursor_limit>Limite de sélection atteinte</SelectSimilar_cursor_limit>
+  <SelectSimilar_numMoreTypes>({0} de plus)</SelectSimilar_numMoreTypes>
+  <Haul_urgently_success>{0} objets seront transportés en urgence.</Haul_urgently_success>
+  <Haul_urgently_failure>Aucun objet nécessitant un transport urgent n’a été trouvé.</Haul_urgently_failure>
+  <Harvest_fully_grown_success>{0} plantes arrivées à maturité ont été marquées pour la récolte.</Harvest_fully_grown_success>
+  <Harvest_fully_grown_failure>Aucune nouvelle plante ou aucun nouvel arbre arrivé à maturité n’a été trouvé.</Harvest_fully_grown_failure>
+  <StripMine_win_horizontalSpacing>Espacement horizontal</StripMine_win_horizontalSpacing>
+  <StripMine_win_verticalSpacing>Espacement vertical</StripMine_win_verticalSpacing>
+  <StripMine_win_showWindow>Afficher cette fenêtre</StripMine_win_showWindow>
+  <StripMine_win_showWindow_tip>Désactivez cette option pour réutiliser automatiquement ces paramètres la prochaine fois.\nMaintenez Maj pour afficher à nouveau cette fenêtre.</StripMine_win_showWindow_tip>
+  <StripMine_win_variableOffset>Décalage variable de la grille</StripMine_win_variableOffset>
+  <StripMine_win_variableOffset_tip>Lorsque cette option est activée, la grille part du point de départ de la sélection. Sinon, les lignes de la grille passent toujours par les mêmes cellules, quel que soit le point de départ de la sélection.</StripMine_win_variableOffset_tip>
+  <StripMine_cursor_autoApply>Appliquer immédiatement</StripMine_cursor_autoApply>
+  <Alert_noStorage_label>Aucun espace de stockage</Alert_noStorage_label>
+  <Alert_noStorage_desc>Les objets marqués pour un transport urgent ne peuvent pas être stockés :\n{0}\n\nAnnulez la désignation ou libérez de l’espace de stockage.\nPeut être désactivé dans Options &gt; Paramètres des mods.</Alert_noStorage_desc>
+  <Finish_off_skillRequired>Nécessite un colon avec un niveau de combat au corps à corps de {0} ou plus.</Finish_off_skillRequired>
+  <Finish_off_pawnSkillRequired>niveau de combat au corps à corps requis : {0}</Finish_off_pawnSkillRequired>
+  <Finish_off_success>{0} cibles ont été marquées.</Finish_off_success>
+  <Finish_off_failure>Aucune créature à terre valide n’a été trouvée.</Finish_off_failure>
+  <Finish_off_floatMenu>Achever {0}</Finish_off_floatMenu>
+  <Finish_off_floatMenu_reason_friendly>allié, maintenir Maj</Finish_off_floatMenu_reason_friendly>
+  <Designator_context_similar>Sélectionner les objets similaires sur la carte</Designator_context_similar>
+  <Designator_context_similar_succ>{0} objets similaires sélectionnés sur la carte.</Designator_context_similar_succ>
+  <Designator_context_similar_part>{0} objets similaires les plus proches sélectionnés sur {1} sur la carte.</Designator_context_similar_part>
+  <Designator_context_similar_fail>Vous devez sélectionner un objet pour sélectionner les objets similaires.</Designator_context_similar_fail>
+  <Designator_context_similar_visible>Sélectionner les objets similaires dans la zone visible</Designator_context_similar_visible>
+  <Designator_context_similar_visible_succ>{0} objets similaires visibles sélectionnés.</Designator_context_similar_visible_succ>
+  <Designator_context_similar_visible_part>{0} objets similaires visibles les plus proches sélectionnés sur {1}.</Designator_context_similar_visible_part>
+  <Designator_context_similar_home>Sélectionner les objets similaires dans la zone habitée</Designator_context_similar_home>
+  <Designator_context_similar_home_succ>{0} objets similaires sélectionnés dans la zone habitée.</Designator_context_similar_home_succ>
+  <Designator_context_similar_home_part>{0} objets similaires les plus proches sélectionnés sur {1} dans la zone habitée.</Designator_context_similar_home_part>
+  <Designator_context_urgent>Transporter tous les objets en urgence</Designator_context_urgent>
+  <Designator_context_urgent_visible>Transporter les objets visibles en urgence</Designator_context_urgent_visible>
+  <Designator_context_urgent_all>Transporter en urgence tous les objets de la carte</Designator_context_urgent_all>
+  <Designator_context_urgent_succ>{0} objets marqués pour un transport urgent.</Designator_context_urgent_succ>
+  <Designator_context_urgent_visible_succ>{0} objets visibles marqués pour un transport urgent.</Designator_context_urgent_visible_succ>
+  <Designator_context_urgent_fail>Aucun nouvel objet à transporter n’a été trouvé.</Designator_context_urgent_fail>
+  <Designator_context_strip>Dépouiller tous les ennemis</Designator_context_strip>
+  <Designator_context_strip_succ>{0} corps désignés pour être dépouillés.</Designator_context_strip_succ>
+  <Designator_context_strip_fail>Aucun corps à dépouiller n’a été trouvé.</Designator_context_strip_fail>
+  <Designator_context_harvest>Récolter toutes les plantes</Designator_context_harvest>
+  <Designator_context_harvest_home>Récolter les plantes dans la zone habitée</Designator_context_harvest_home>
+  <Designator_context_harvest_succ>{0} plantes désignées pour la récolte.</Designator_context_harvest_succ>
+  <Designator_context_harvest_fail>Aucune nouvelle plante à récolter n’a été trouvée.</Designator_context_harvest_fail>
+  <Designator_context_haul>Tout transporter</Designator_context_haul>
+  <Designator_context_haul_succ>{0} nouveaux objets désignés pour le transport.</Designator_context_haul_succ>
+  <Designator_context_haul_fail>Aucun nouvel objet à transporter n’a été trouvé.</Designator_context_haul_fail>
+  <Designator_context_chop>Couper tout le bois</Designator_context_chop>
+  <Designator_context_chop_home>Couper tout le bois dans la zone habitée</Designator_context_chop_home>
+  <Designator_context_chop_succ>{0} nouveaux arbres désignés pour la coupe.</Designator_context_chop_succ>
+  <Designator_context_chop_fail>Aucun nouvel arbre pouvant être récolté n’a été trouvé dans la zone.</Designator_context_chop_fail>
+  <Designator_context_hunt>Chasser tous les animaux</Designator_context_hunt>
+  <Designator_context_hunt_succ>{0} nouveaux animaux désignés pour la chasse.</Designator_context_hunt_succ>
+  <Designator_context_hunt_fail>Aucun nouvel animal chassable dans la zone pour le moment.</Designator_context_hunt_fail>
+  <Designator_context_mine>Miner les filons connectés</Designator_context_mine>
+  <Designator_context_mine_succ>{0} cases de minerai supplémentaires désignées pour l’extraction.</Designator_context_mine_succ>
+  <Designator_context_mine_fail>Désignez au moins une case de minerai à extraire pour utiliser cette commande.</Designator_context_mine_fail>
+  <Designator_context_mine_selectStripMine>Sélectionner l’outil « Mine en bandes »</Designator_context_mine_selectStripMine>
+  <Designator_context_cancel_build>Annuler tous les plans de construction</Designator_context_cancel_build>
+  <Designator_context_cancel_build_succ>{0} plans de construction supprimés.</Designator_context_cancel_build_succ>
+  <Designator_context_cancel_build_fail>Aucun plan de construction à supprimer.</Designator_context_cancel_build_fail>
+  <Designator_context_cancel_desig>Annuler tous les ordres de la carte</Designator_context_cancel_desig>
+  <Designator_context_cancel_desig_msg>{0} ordres annulés sur des objets et {1} sur le terrain.</Designator_context_cancel_desig_msg>
+  <Designator_context_cancel_selected>Annuler tous les ordres de ce type</Designator_context_cancel_selected>
+  <Designator_context_cancel_selected_succ>{0} ordres de ce type annulés sur {1} objets.</Designator_context_cancel_selected_succ>
+  <Designator_context_cancel_selected_fail>Sélectionnez un objet ayant un ordre pour annuler tous les ordres de ce type.</Designator_context_cancel_selected_fail>
+  <Designator_context_finish>Achever toutes les créatures à terre</Designator_context_finish>
+  <Designator_context_finish_succ>{0} créatures seront achevées.</Designator_context_finish_succ>
+  <Designator_context_finish_allies>{0} créatures seront achevées, alliés compris.</Designator_context_finish_allies>
+  <Designator_context_finish_fail>Aucune cible à terre valide n’a été trouvée.</Designator_context_finish_fail>
+  <Designator_context_cut>Couper toutes les plantes atteintes de mildiou</Designator_context_cut>
+  <Designator_context_cut_succ>{0} plantes atteintes de mildiou désignées pour être coupées.</Designator_context_cut_succ>
+  <Designator_context_cut_fail>Aucune nouvelle plante atteinte de mildiou à couper n’a été trouvée.</Designator_context_cut_fail>
+  <Designator_context_harvest_fullgrown>Récolter les plantes arrivées à maturité sur la carte</Designator_context_harvest_fullgrown>
+  <Designator_context_harvest_home_fullgrown>Récolter les plantes arrivées à maturité dans la zone habitée</Designator_context_harvest_home_fullgrown>
+  <Designator_context_harvest_fullgrown_succ>{0} plantes arrivées à maturité désignées pour la récolte.</Designator_context_harvest_fullgrown_succ>
+  <Designator_context_harvest_fullgrown_fail>Aucune nouvelle plante arrivée à maturité à récolter n’a été trouvée.</Designator_context_harvest_fullgrown_fail>
+  <Designator_context_allow_visible>Autoriser tous les objets visibles</Designator_context_allow_visible>
+  <Designator_context_allow_visible_succ>{0} objets visibles autorisés.</Designator_context_allow_visible_succ>
+  <Designator_context_allow_visible_fail>Aucun objet interdit visible à autoriser.</Designator_context_allow_visible_fail>
+  <Designator_context_forbid_visible>Interdire tous les objets visibles</Designator_context_forbid_visible>
+  <Designator_context_forbid_visible_succ>{0} objets visibles interdits.</Designator_context_forbid_visible_succ>
+  <Designator_context_forbid_visible_fail>Aucun objet autorisé visible à interdire.</Designator_context_forbid_visible_fail>
+  <PartyHuntToggle_label>Chasse des combattants</PartyHuntToggle_label>
+  <PartyHuntToggle_desc>Lorsque cette option est activée, les colons enrôlés tirent automatiquement sur les animaux sauvages passifs. Faites un clic droit pour modifier les paramètres.\nAjouté par le mod Allow Tool.</PartyHuntToggle_desc>
+</LanguageData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRE_TabAnimalGenes>Gènes</VRE_TabAnimalGenes>
+  <VRE_AnimalGenes>Gènes animaux</VRE_AnimalGenes>
+  <VRE_FamilyTag>Famille génétique</VRE_FamilyTag>
+  <VRE_AnimalGenesFeratypeDesc>Les gènes associés à ce phénotype.</VRE_AnimalGenesFeratypeDesc>
+  <VRE_Feratype>Phénotype</VRE_Feratype>
+  <VRE_AnimalGenesDesc>Gènes présents chez cet animal</VRE_AnimalGenesDesc>
+  <VRE_StatsReport_Genes>Gènes animaux pertinents</VRE_StatsReport_Genes>
+  <VRE_MoreInfoInInfoScreen>Plus d'informations sont disponibles dans l'écran d'information de ce phénotype.</VRE_MoreInfoInInfoScreen>
+  <VRE_AnimalIllness>MTB des maladies animales</VRE_AnimalIllness>
+  <VRE_AnimalTantrum>MTB des crises animales</VRE_AnimalTantrum>
+  <VRE_Trainability>Dressabilité définie sur</VRE_Trainability>
+  <VRE_Stability>Stabilité</VRE_Stability>
+  <VRE_StabilityDesc>La stabilité représente la complexité du code génétique d'un animal et influe sur la prévisibilité de l'héritage des gènes.\n\nUne stabilité élevée garantit généralement que la progéniture hérite de gènes proches de la moyenne de ses parents. Une faible stabilité augmente le risque que ses traits s'éloignent de ceux de ses parents et se rapprochent de la médiane naturelle.</VRE_StabilityDesc>
+  <VRE_Days>jours</VRE_Days>
+  <VRE_LifespanFactor>Longévité</VRE_LifespanFactor>
+  <VRE_LifespanFactorDesc>Facteur de longévité de cet animal selon sa stabilité génétique</VRE_LifespanFactorDesc>
+  <VRE_FeratypeFamily>famille de phénotypes</VRE_FeratypeFamily>
+  <VRE_FeratypeFamilyDesc>Ce phénotype appartient à la famille de phénotypes {0} :\n\n{1}</VRE_FeratypeFamilyDesc>
+  <VRE_AllowedPartners>Partenaires compatibles</VRE_AllowedPartners>
+  <VRE_AllowedPartnersDesc>Liste de tous les phénotypes de la famille {0} avec lesquels cet animal peut se reproduire.</VRE_AllowedPartnersDesc>
+  <VRE_NotPregnant>Cet animal n'est pas gestant</VRE_NotPregnant>
+  <VRE_StillbornLabel>Mort-né : {0}</VRE_StillbornLabel>
+  <VRE_StillbornDesc>Votre {0}, {1}, a donné naissance à un petit mort-né.</VRE_StillbornDesc>
+  <VRE_SpecializedGene>Gène spécialisé</VRE_SpecializedGene>
+  <VRE_SpecializedGeneDesc>Ce gène n'est transmis qu'à la progéniture dont le phénotype contient un gène de cette famille.</VRE_SpecializedGeneDesc>
+  <VRE_PreventSlaughter>Empêcher l'abattage</VRE_PreventSlaughter>
+  <VRE_PreventSlaughterDesc>Empêche que cet animal soit abattu par la désignation d'abattage ou le système d'abattage automatique.</VRE_PreventSlaughterDesc>
+</LanguageData>

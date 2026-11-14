@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<sbz_WideHangerShelf.label>penderie</sbz_WideHangerShelf.label>
+	<sbz_NarrowTallDisplayShelf.description>Une étagère haute et étroite pouvant contenir jusqu’à 6 piles d’objets divers.</sbz_NarrowTallDisplayShelf.description>
+	<sbz_DisplayCabinet.description>Une vitrine pouvant contenir jusqu’à 8 piles d’objets divers.</sbz_DisplayCabinet.description>
+	<sbz_OpenShelf.description>Une étagère ouverte pouvant contenir jusqu’à 12 piles d’objets divers.</sbz_OpenShelf.description>
+	<sbz_WeaponRack.description>Un râtelier pouvant présenter jusqu’à 6 armes.</sbz_WeaponRack.description>
+	<sbz_TallCrate.description>Une grande caisse pouvant contenir jusqu’à 24 piles d’objets divers.</sbz_TallCrate.description>
+	<sbz_RoundPedestal.description>Un socle rond permettant d’exposer un seul objet. Les colons peuvent l’admirer comme une œuvre d’art.</sbz_RoundPedestal.description>
+	<sbz_MiniPallet.label>mini-palette</sbz_MiniPallet.label>
+	<sbz_TallDisplayShelf.description>Une étagère haute pouvant contenir jusqu’à 12 piles d’objets divers.</sbz_TallDisplayShelf.description>
+	<sbz_WideHangerShelf.description>Une penderie pouvant accueillir jusqu’à 8 vêtements.</sbz_WideHangerShelf.description>
+	<sbz_HangerShelf.description>Une penderie étroite pouvant accueillir jusqu’à 4 vêtements.</sbz_HangerShelf.description>
+	<sbz_SmallDisplayShelf.label>petite étagère de présentation</sbz_SmallDisplayShelf.label>
+	<sbz_HorizontalWeaponRack.label>râtelier horizontal</sbz_HorizontalWeaponRack.label>
+	<sbz_RoundPedestal.label>socle rond</sbz_RoundPedestal.label>
+	<sbz_CorpseSpot.label>zone de dépôt des cadavres</sbz_CorpseSpot.label>
+	<sbz_Safe.description>Un coffre-fort pouvant contenir jusqu’à 6 piles d’objets divers.</sbz_Safe.description>
+	<sbz_NarrowDisplayCabinet.description>Une vitrine étroite pouvant contenir jusqu’à 4 piles d’objets divers.</sbz_NarrowDisplayCabinet.description>
+	<sbz_HangerShelf.label>penderie étroite</sbz_HangerShelf.label>
+	<sbz_Drum.description>Un tonneau pouvant contenir jusqu’à 6 piles d’objets divers.</sbz_Drum.description>
+	<sbz_SmallCrate.label>petite caisse</sbz_SmallCrate.label>
+	<sbz_TwoTierDisplayShelf.label>étagère de présentation à deux niveaux</sbz_TwoTierDisplayShelf.label>
+	<sbz_CorpseSpot.description>Un emplacement où entasser jusqu’à 12 cadavres.</sbz_CorpseSpot.description>
+	<sbz_MeatHook.description>Un crochet à viande pouvant suspendre jusqu’à 12 piles de cadavres ou de viande.</sbz_MeatHook.description>
+	<sbz_TwoTierDisplayShelf.description>Une étagère de présentation à deux niveaux pouvant contenir jusqu’à 12 piles d’objets divers.</sbz_TwoTierDisplayShelf.description>
+	<sbz_TextileRack.label>présentoir à textiles</sbz_TextileRack.label>
+	<sbz_TextileRack.description>Un présentoir à textiles pouvant contenir jusqu’à 6 piles de textiles divers.</sbz_TextileRack.description>
+	<sbz_DisplayTable.description>Une vitrine permettant d’exposer un seul objet. Les colons peuvent l’admirer comme une œuvre d’art.</sbz_DisplayTable.description>
+	<sbz_WeaponRack.label>râtelier d’armes</sbz_WeaponRack.label>
+	<sbz_MidCrate.label>caisse</sbz_MidCrate.label>
+	<sbz_Crate.description>Une grande caisse pouvant contenir jusqu’à 24 piles d’objets divers.</sbz_Crate.description>
+	<sbz_NarrowTallDisplayShelf.label>étagère haute étroite</sbz_NarrowTallDisplayShelf.label>
+	<sbz_DisplayShelf.label>étagère de présentation</sbz_DisplayShelf.label>
+	<sbz_Safe.label>coffre-fort</sbz_Safe.label>
+	<sbz_HalfPallet.label>demi-palette</sbz_HalfPallet.label>
+	<sbz_OpenShelf.label>étagère ouverte</sbz_OpenShelf.label>
+	<sbz_MiniPallet.description>Une mini-palette pouvant contenir jusqu’à 6 piles d’objets divers.</sbz_MiniPallet.description>
+	<sbz_VerticalWeaponRack.description>Un râtelier vertical pouvant présenter jusqu’à 12 armes.</sbz_VerticalWeaponRack.description>
+	<sbz_Drum.label>tonneau</sbz_Drum.label>
+	<sbz_VerticalWeaponRack.label>râtelier vertical</sbz_VerticalWeaponRack.label>
+	<sbz_SmallCrate.description>Une petite caisse pouvant contenir jusqu’à 6 piles d’objets divers.</sbz_SmallCrate.description>
+	<sbz_SmallDisplayShelf.description>Une petite étagère de présentation pouvant contenir jusqu’à 3 piles d’objets divers.</sbz_SmallDisplayShelf.description>
+	<sbz_MeatHook.label>crochet à viande</sbz_MeatHook.label>
+	<sbz_HorizontalWeaponRack.description>Un râtelier horizontal pouvant présenter jusqu’à 12 armes.</sbz_HorizontalWeaponRack.description>
+	<sbz_DisplayTable.label>vitrine</sbz_DisplayTable.label>
+	<sbz_TallCrate.label>grande caisse haute</sbz_TallCrate.label>
+	<sbz_HalfPallet.description>Une demi-palette pouvant contenir jusqu’à 12 piles d’objets divers.</sbz_HalfPallet.description>
+	<sbz_DisplayShelf.description>Une étagère de présentation pouvant contenir jusqu’à 6 piles d’objets divers.</sbz_DisplayShelf.description>
+	<sbz_DisplayCabinet.label>vitrine</sbz_DisplayCabinet.label>
+	<sbz_Pallet.description>Une palette pouvant contenir jusqu’à 24 piles d’objets divers.</sbz_Pallet.description>
+	<sbz_Pallet.label>palette</sbz_Pallet.label>
+	<sbz_MidCrate.description>Une caisse pouvant contenir jusqu’à 12 piles d’objets divers.</sbz_MidCrate.description>
+	<sbz_TallDisplayShelf.label>étagère haute</sbz_TallDisplayShelf.label>
+	<sbz_NarrowDisplayCabinet.label>vitrine étroite</sbz_NarrowDisplayCabinet.label>
+	<sbz_Crate.label>grande caisse</sbz_Crate.label>
+</LanguageData>

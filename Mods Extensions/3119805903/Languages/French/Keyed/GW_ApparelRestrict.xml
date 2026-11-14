@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GW_CannotWearApparel>Impossible de porter {0} : {1}</GW_CannotWearApparel>
+  <GW_PowerArmorRequiresFibrovestOrGene>doit porter une veste en fibres ou posséder un gène compatible</GW_PowerArmorRequiresFibrovestOrGene>
+  <GW_PowerArmorAttachmentRequiresTorso>doit d'abord équiper une armure assistée</GW_PowerArmorAttachmentRequiresTorso>
+  <GW_PowerArmorAttachmentRequiresMatchingSet>nécessite une armure assistée assortie</GW_PowerArmorAttachmentRequiresMatchingSet>
+  <GW_ShoulderRequiresPowerArmor>doit d'abord équiper une armure assistée</GW_ShoulderRequiresPowerArmor>
+  <GW_ShoulderRequiresPowerArmorTier>nécessite une armure assistée de niveau {0} ou supérieur</GW_ShoulderRequiresPowerArmorTier>
+  <GW_ShoulderRequiresPowerArmorTags>armure assistée incompatible avec cet accessoire</GW_ShoulderRequiresPowerArmorTags>
+  <GW_ShoulderRequiresMatchingArmorSet>nécessite un ensemble d'armure assorti</GW_ShoulderRequiresMatchingArmorSet>
+</LanguageData>

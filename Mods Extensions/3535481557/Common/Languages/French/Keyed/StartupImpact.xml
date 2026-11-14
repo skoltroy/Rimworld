@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LoadingProgress.StartupImpact.ModConstructor>Exécution du constructeur du mod</LoadingProgress.StartupImpact.ModConstructor>
+  <LoadingProgress.StartupImpact.LoadDefs>Chargement des defs</LoadingProgress.StartupImpact.LoadDefs>
+  <LoadingProgress.StartupImpact.CombineXml>Fusion du XML en un document unique</LoadingProgress.StartupImpact.CombineXml>
+  <LoadingProgress.StartupImpact.TKeySystemParse>Analyse du système de clés de traduction</LoadingProgress.StartupImpact.TKeySystemParse>
+  <LoadingProgress.StartupImpact.LoadedModManagerParseAndProcessXML>Analyse et traitement du XML</LoadingProgress.StartupImpact.LoadedModManagerParseAndProcessXML>
+  <LoadingProgress.StartupImpact.ErrorCheckPatches>Vérification des erreurs dans les patchs</LoadingProgress.StartupImpact.ErrorCheckPatches>
+  <LoadingProgress.StartupImpact.LoadPatches>Chargement des patchs</LoadingProgress.StartupImpact.LoadPatches>
+  <LoadingProgress.StartupImpact.ApplyPatches>Application des patchs</LoadingProgress.StartupImpact.ApplyPatches>
+  <LoadingProgress.StartupImpact.RegisterXmlInheritance>Enregistrement de l'héritage XML</LoadingProgress.StartupImpact.RegisterXmlInheritance>
+  <LoadingProgress.StartupImpact.ResolveXmlInheritance>Résolution de l'héritage XML</LoadingProgress.StartupImpact.ResolveXmlInheritance>
+  <LoadingProgress.StartupImpact.ClearCachedPatches>Effacement des patchs mis en cache</LoadingProgress.StartupImpact.ClearCachedPatches>
+  <LoadingProgress.StartupImpact.ClearCachedXmlInheritance>Effacement de l'héritage XML mis en cache</LoadingProgress.StartupImpact.ClearCachedXmlInheritance>
+  <LoadingProgress.StartupImpact.LanguageDatabaseInitAllMetadata>Chargement des métadonnées linguistiques</LoadingProgress.StartupImpact.LanguageDatabaseInitAllMetadata>
+  <LoadingProgress.StartupImpact.DefDatabaseAddAllInMods>Copie des defs de tous les mods dans les bases de données globales</LoadingProgress.StartupImpact.DefDatabaseAddAllInMods>
+  <LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.NonImplied>Résolution des références croisées entre les defs non implicites</LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.NonImplied>
+  <LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Early>Réassociation précoce des DefOf</LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Early>
+  <LoadingProgress.StartupImpact.TKeySystemBuildMappings>Création des correspondances du système de clés de traduction</LoadingProgress.StartupImpact.TKeySystemBuildMappings>
+  <LoadingProgress.StartupImpact.BackStoryTranslationUtilityLoadAndInjectBackstoryData>Chargement et injection des anciennes traductions des histoires personnelles</LoadingProgress.StartupImpact.BackStoryTranslationUtilityLoadAndInjectBackstoryData>
+  <LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AudioClips>Chargement des clips audio</LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AudioClips>
+  <LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Textures>Chargement des textures</LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Textures>
+  <LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Strings>Chargement des chaînes</LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Strings>
+  <LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AssetBundles>Chargement des lots d'éléments</LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AssetBundles>
+  <LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataBeforeImpliedDefs>Injection des données de la langue sélectionnée dans les données du jeu (étape précoce)</LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataBeforeImpliedDefs>
+  <LoadingProgress.StartupImpact.ColoredTextResetStaticData>Exécution des opérations globales (étape précoce)</LoadingProgress.StartupImpact.ColoredTextResetStaticData>
+  <LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPreResolve>Génération des defs implicites (avant résolution)</LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPreResolve>
+  <LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.Implied>Résolution des références croisées entre les defs implicites</LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.Implied>
+  <LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Final>Réassociation finale des DefOf</LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Final>
+  <LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPre>Autres associations de defs, réinitialisations et opérations globales (avant résolution)</LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPre>
+  <LoadingProgress.StartupImpact.ResolveReferences>Résolution des références</LoadingProgress.StartupImpact.ResolveReferences>
+  <LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPostResolve>Génération des defs implicites (après résolution)</LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPostResolve>
+  <LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPost>Autres associations de defs, réinitialisations et opérations globales (après résolution)</LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPost>
+  <LoadingProgress.StartupImpact.ErrorCheckAllDefs>Vérification des erreurs dans toutes les defs</LoadingProgress.StartupImpact.ErrorCheckAllDefs>
+  <LoadingProgress.StartupImpact.KeyPrefsInit>Chargement des préférences clavier</LoadingProgress.StartupImpact.KeyPrefsInit>
+  <LoadingProgress.StartupImpact.ShortHashGiverGiveAllShortHashes>Attribution des hachages courts</LoadingProgress.StartupImpact.ShortHashGiverGiveAllShortHashes>
+  <LoadingProgress.StartupImpact.ExecuteToExecuteWhenFinished>Exécution de la tâche d'initialisation différée {0}</LoadingProgress.StartupImpact.ExecuteToExecuteWhenFinished>
+  <LoadingProgress.StartupImpact.ExecuteToExecuteWhenFinished.Grouped>Exécution des tâches d'initialisation différées</LoadingProgress.StartupImpact.ExecuteToExecuteWhenFinished.Grouped>
+  <LoadingProgress.StartupImpact.SolidBioDatabaseLoadAllBios>Chargement de toutes les biographies</LoadingProgress.StartupImpact.SolidBioDatabaseLoadAllBios>
+  <LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataAfterImpliedDefs>Injection des données de la langue sélectionnée dans les données du jeu</LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataAfterImpliedDefs>
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAll>Exécution des constructeurs statiques</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAll>
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPass>Étape des constructeurs statiques pour les hooks des autres mods</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPass>
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPassWithUntimedHooks>Étape des constructeurs statiques pour les hooks des autres mods, y compris ceux non chronométrés séparément : {0}</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPassWithUntimedHooks>
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook>Hook pendant l'étape des constructeurs statiques : {0}</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook>
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook.Grouped>Hooks pendant l'étape des constructeurs statiques</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook.Grouped>
+  <LoadingProgress.StartupImpact.HarmonyHook>Hooks Harmony sur {0}</LoadingProgress.StartupImpact.HarmonyHook>
+  <LoadingProgress.StartupImpact.HarmonyHook.Grouped>Hooks Harmony</LoadingProgress.StartupImpact.HarmonyHook.Grouped>
+  <LoadingProgress.StartupImpact.ReplacedBy>{0} (remplacé par {1})</LoadingProgress.StartupImpact.ReplacedBy>
+  <LoadingProgress.StartupImpact.ReportProbablyMissingAttributes>Recherche des attributs StaticConstructorOnStartup manquants (mode développement)</LoadingProgress.StartupImpact.ReportProbablyMissingAttributes>
+  <LoadingProgress.StartupImpact.FloatMenuMakerMapInit>Initialisation de la carte du menu contextuel</LoadingProgress.StartupImpact.FloatMenuMakerMapInit>
+  <LoadingProgress.StartupImpact.GlobalTextureAtlasManagerBakeStaticAtlases>Création des atlas de textures</LoadingProgress.StartupImpact.GlobalTextureAtlasManagerBakeStaticAtlases>
+  <LoadingProgress.StartupImpact.AbstractFilesystemClearAllCache>Effacement du cache du système de fichiers</LoadingProgress.StartupImpact.AbstractFilesystemClearAllCache>
+  <LoadingProgress.StartupImpact.GarbageCollection>Ramasse-miettes et déchargement des éléments</LoadingProgress.StartupImpact.GarbageCollection>
+  <LoadingProgress.StartupImpact.Total.EarlyLaunch>Démarrage initial du jeu</LoadingProgress.StartupImpact.Total.EarlyLaunch>
+  <LoadingProgress.StartupImpact.Total.EarlyLaunch.Tip>De la mise en route du jeu au début du chronométrage par Loading Progress : démarrage du moteur, lecture de la liste des mods, chargement de leur code et exécution des constructeurs des mods chargés avant Loading Progress.</LoadingProgress.StartupImpact.Total.EarlyLaunch.Tip>
+  <LoadingProgress.StartupImpact.Total.Mods>Mods</LoadingProgress.StartupImpact.Total.Mods>
+  <LoadingProgress.StartupImpact.Total.ModsHidden>Mods masqués</LoadingProgress.StartupImpact.Total.ModsHidden>
+  <LoadingProgress.StartupImpact.Total.BaseGame>Éléments non directement liés aux mods</LoadingProgress.StartupImpact.Total.BaseGame>
+  <LoadingProgress.StartupImpact.Total.Others>Autres</LoadingProgress.StartupImpact.Total.Others>
+  <LoadingProgress.StartupImpact.Remaining.ByStage>Temps restant par étape de chargement, de la plus longue à la plus courte :</LoadingProgress.StartupImpact.Remaining.ByStage>
+  <LoadingProgress.StartupImpact.Remaining.AfterLoading>Après le chargement, jusqu'à ce que le menu principal soit utilisable</LoadingProgress.StartupImpact.Remaining.AfterLoading>
+  <LoadingProgress.StartupImpact.Remaining.CallAllHookTiming>Configuration et retrait du chronométrage des hooks de l'étape des constructeurs statiques</LoadingProgress.StartupImpact.Remaining.CallAllHookTiming>
+  <LoadingProgress.StartupImpact.Remaining.SecondPass>{0} (deuxième passage)</LoadingProgress.StartupImpact.Remaining.SecondPass>
+  <LoadingProgress.StartupImpact.StartupRemaining>Temps restant : {0}</LoadingProgress.StartupImpact.StartupRemaining>
+  <LoadingProgress.StartupImpact.PostLoadLongEvent>Après le chargement : {0}</LoadingProgress.StartupImpact.PostLoadLongEvent>
+  <LoadingProgress.StartupImpact.PostLoadLongEvent.Grouped>Après le chargement</LoadingProgress.StartupImpact.PostLoadLongEvent.Grouped>
+  <LoadingProgress.StartupImpact.Seconds>{0} s</LoadingProgress.StartupImpact.Seconds>
+  <LoadingProgress.StartupImpact.Milliseconds>{0} ms</LoadingProgress.StartupImpact.Milliseconds>
+  <LoadingProgress.StartupImpact.StartupTime>Durée du démarrage : {0}</LoadingProgress.StartupImpact.StartupTime>
+  <LoadingProgress.StartupImpact.ShowingSaved>Session enregistrée du {0}</LoadingProgress.StartupImpact.ShowingSaved>
+  <LoadingProgress.StartupImpact.SessionStats>{0} defs analysées, {1} opérations de patch appliquées, {2} mods chargés</LoadingProgress.StartupImpact.SessionStats>
+  <LoadingProgress.StartupImpact.StartupMods>Impact des mods sur le démarrage : {0}</LoadingProgress.StartupImpact.StartupMods>
+  <LoadingProgress.StartupImpact.StartupNonmods>Éléments non directement liés aux mods : {0}</LoadingProgress.StartupImpact.StartupNonmods>
+  <LoadingProgress.StartupImpact.Nonmods.BySteps>Éléments non directement liés aux mods, étapes les plus longues en premier :</LoadingProgress.StartupImpact.Nonmods.BySteps>
+  <LoadingProgress.StartupImpact.Section.OnOtherThreads>{0} sur d'autres threads</LoadingProgress.StartupImpact.Section.OnOtherThreads>
+  <LoadingProgress.StartupImpact.Section.Tip>Cliquez pour ouvrir ou fermer cette section.</LoadingProgress.StartupImpact.Section.Tip>
+  <LoadingProgress.StartupImpact.OnOtherThreads.Tip>Sur les autres threads, durée cumulée</LoadingProgress.StartupImpact.OnOtherThreads.Tip>
+  <LoadingProgress.StartupImpact.Breakdown.More>Et {0} de plus</LoadingProgress.StartupImpact.Breakdown.More>
+  <LoadingProgress.StartupImpact.LogarithmicScale>Utiliser une échelle logarithmique</LoadingProgress.StartupImpact.LogarithmicScale>
+  <LoadingProgress.StartupImpact.LogarithmicScale.Tip>Lorsque cette option est activée, l'impact sur le démarrage est représenté sur une échelle logarithmique. Les grands écarts sont ainsi comprimés et plus faciles à comparer. Utilisez le curseur Détail qui apparaît à côté pour régler l'intensité de la compression.</LoadingProgress.StartupImpact.LogarithmicScale.Tip>
+  <LoadingProgress.StartupImpact.ScaleDetail>Détail : {0}</LoadingProgress.StartupImpact.ScaleDetail>
+  <LoadingProgress.StartupImpact.ScaleDetail.Tip>Les impacts inférieurs à cette durée restent proches de leurs proportions réelles ; ceux qui la dépassent sont davantage comprimés afin qu'un mod très lent n'écrase pas le reste de la barre. Réduisez cette valeur pour mieux distinguer les petits écarts entre mods rapides ; augmentez-la pour conserver une plus grande proportionnalité des impacts élevés.</LoadingProgress.StartupImpact.ScaleDetail.Tip>
+  <LoadingProgress.StartupImpact.ToggleModVisibility.Tip>Afficher ou masquer l'impact de ce mod sur les performances du démarrage. Si ce mod a actuellement l'impact le plus élevé, il ne servira plus de référence pour les autres ; le mod suivant dans le classement sera utilisé.</LoadingProgress.StartupImpact.ToggleModVisibility.Tip>
+  <LoadingProgress.StartupImpact.FilterMods>Filtrer :</LoadingProgress.StartupImpact.FilterMods>
+  <LoadingProgress.StartupImpact.FilterMods.Placeholder>Filtrer par nom de mod ou identifiant de package</LoadingProgress.StartupImpact.FilterMods.Placeholder>
+  <LoadingProgress.StartupImpact.ColumnName>Mod</LoadingProgress.StartupImpact.ColumnName>
+  <LoadingProgress.StartupImpact.ColumnImpact>Impact</LoadingProgress.StartupImpact.ColumnImpact>
+  <LoadingProgress.StartupImpact.ColumnPhase>Étape de chargement</LoadingProgress.StartupImpact.ColumnPhase>
+  <LoadingProgress.StartupImpact.GroupByMod>Regrouper : par mod</LoadingProgress.StartupImpact.GroupByMod>
+  <LoadingProgress.StartupImpact.GroupByPhase>Regrouper : par étape de chargement</LoadingProgress.StartupImpact.GroupByPhase>
+  <LoadingProgress.StartupImpact.Grouping.Tip>Choisir entre l'impact de chaque mod et le temps total passé par tous les mods dans chaque étape de chargement.</LoadingProgress.StartupImpact.Grouping.Tip>
+  <LoadingProgress.StartupImpact.ExportHtml>Exporter en HTML</LoadingProgress.StartupImpact.ExportHtml>
+  <LoadingProgress.StartupImpact.ExportHtml.Tip>Exporter les données d'impact au démarrage de cette session sous forme de rapport HTML autonome, consultable dans un navigateur ou partageable sans que le jeu soit en cours d'exécution.</LoadingProgress.StartupImpact.ExportHtml.Tip>
+  <LoadingProgress.StartupImpact.Exported>Exportation réussie</LoadingProgress.StartupImpact.Exported>
+  <LoadingProgress.StartupImpact.Exported.Tip>Enregistré dans {0}</LoadingProgress.StartupImpact.Exported.Tip>
+  <LoadingProgress.StartupImpact.ExportFailed>Échec de l'exportation : {0}</LoadingProgress.StartupImpact.ExportFailed>
+  <LoadingProgress.StartupImpact.Saved>Enregistrement réussi</LoadingProgress.StartupImpact.Saved>
+  <LoadingProgress.StartupImpact.SaveFailed>Échec de l'enregistrement : {0}</LoadingProgress.StartupImpact.SaveFailed>
+  <LoadingProgress.StartupImpact.DisabledAtStartup>Le suivi de l'impact du chargement était désactivé au démarrage du jeu ; aucune donnée n'est disponible pour cette session.</LoadingProgress.StartupImpact.DisabledAtStartup>
+  <LoadingProgress.StartupImpact.EnableTracking>Activer le suivi de l'impact du chargement au démarrage</LoadingProgress.StartupImpact.EnableTracking>
+  <LoadingProgress.StartupImpact.EnableTrackingHint>Activez le suivi ci-dessous pour l'utiliser au prochain démarrage du jeu.</LoadingProgress.StartupImpact.EnableTrackingHint>
+  <LoadingProgress.StartupImpact.WillTrackNextStartup>Le suivi est activé ; les données seront enregistrées au prochain démarrage du jeu.</LoadingProgress.StartupImpact.WillTrackNextStartup>
+  <LoadingProgress.StartupImpact.HtmlReport.Title>Rapport d'impact au démarrage</LoadingProgress.StartupImpact.HtmlReport.Title>
+  <LoadingProgress.StartupImpact.HtmlReport.Footer>Généré par Loading Progress le {0}.</LoadingProgress.StartupImpact.HtmlReport.Footer>
+  <LoadingProgress.StartupImpact.History.Title>Historique de l'impact au démarrage</LoadingProgress.StartupImpact.History.Title>
+  <LoadingProgress.StartupImpact.History.Column.When>Date</LoadingProgress.StartupImpact.History.Column.When>
+  <LoadingProgress.StartupImpact.History.Column.Load>Durée</LoadingProgress.StartupImpact.History.Column.Load>
+  <LoadingProgress.StartupImpact.History.Column.Mods>Mods</LoadingProgress.StartupImpact.History.Column.Mods>
+  <LoadingProgress.StartupImpact.History.Column.List>Liste</LoadingProgress.StartupImpact.History.Column.List>
+  <LoadingProgress.StartupImpact.History.Column.Notes>Notes</LoadingProgress.StartupImpact.History.Column.Notes>
+  <LoadingProgress.StartupImpact.History.Group.Pinned>Épinglées</LoadingProgress.StartupImpact.History.Group.Pinned>
+  <LoadingProgress.StartupImpact.History.Group.Recent>Récentes</LoadingProgress.StartupImpact.History.Group.Recent>
+  <LoadingProgress.StartupImpact.History.Group.Baseline>Référence</LoadingProgress.StartupImpact.History.Group.Baseline>
+  <LoadingProgress.StartupImpact.History.Empty.Pinned>Aucune session épinglée. Une session épinglée est conservée même lorsqu'elle dépasse la limite.</LoadingProgress.StartupImpact.History.Empty.Pinned>
+  <LoadingProgress.StartupImpact.History.Empty.Recent>Aucune session enregistrée pour le moment.</LoadingProgress.StartupImpact.History.Empty.Recent>
+  <LoadingProgress.StartupImpact.History.Empty.Baseline>Aucune référence choisie. Une référence est conservée quelle que soit la limite définie.</LoadingProgress.StartupImpact.History.Empty.Baseline>
+  <LoadingProgress.StartupImpact.History.ChooseBaseline>Choisir une référence</LoadingProgress.StartupImpact.History.ChooseBaseline>
+  <LoadingProgress.StartupImpact.History.Pin>Épingler</LoadingProgress.StartupImpact.History.Pin>
+  <LoadingProgress.StartupImpact.History.Unpin>Désépingler</LoadingProgress.StartupImpact.History.Unpin>
+  <LoadingProgress.StartupImpact.History.ClearBaseline>Effacer</LoadingProgress.StartupImpact.History.ClearBaseline>
+  <LoadingProgress.StartupImpact.History.SetBaseline>Définir comme référence</LoadingProgress.StartupImpact.History.SetBaseline>
+  <LoadingProgress.StartupImpact.History.Load>Charger</LoadingProgress.StartupImpact.History.Load>
+  <LoadingProgress.StartupImpact.History.Delete>Supprimer</LoadingProgress.StartupImpact.History.Delete>
+  <LoadingProgress.StartupImpact.History.NoLoadTime>aucune</LoadingProgress.StartupImpact.History.NoLoadTime>
+  <LoadingProgress.StartupImpact.History.NoBreakdown>Ce démarrage n'est jamais arrivé à terme ; aucun détail par mod n'est disponible.</LoadingProgress.StartupImpact.History.NoBreakdown>
+  <LoadingProgress.StartupImpact.History.Note.Unfinished>Inachevé</LoadingProgress.StartupImpact.History.Note.Unfinished>
+  <LoadingProgress.StartupImpact.History.Note.UnfinishedAt>Arrêt à l'étape {0}</LoadingProgress.StartupImpact.History.Note.UnfinishedAt>
+  <LoadingProgress.StartupImpact.History.Note.UnfinishedAfterLoading>Arrêt après le chargement, avant que le menu principal soit utilisable</LoadingProgress.StartupImpact.History.Note.UnfinishedAfterLoading>
+  <LoadingProgress.StartupImpact.History.Note.DifferentList>Liste de mods différente, comparaison impossible</LoadingProgress.StartupImpact.History.Note.DifferentList>
+  <LoadingProgress.StartupImpact.History.Note.ToEndOfLoading>Chronométrage arrêté avant le menu principal</LoadingProgress.StartupImpact.History.Note.ToEndOfLoading>
+  <LoadingProgress.StartupImpact.History.Status.Pinned>Session épinglée.</LoadingProgress.StartupImpact.History.Status.Pinned>
+  <LoadingProgress.StartupImpact.History.Status.Unpinned>Session désépinglée.</LoadingProgress.StartupImpact.History.Status.Unpinned>
+  <LoadingProgress.StartupImpact.History.Status.BaselineSet>Référence définie.</LoadingProgress.StartupImpact.History.Status.BaselineSet>
+  <LoadingProgress.StartupImpact.History.Status.BaselineCleared>Référence effacée. Aucune session n'a ce rôle tant que vous n'en choisissez pas une autre.</LoadingProgress.StartupImpact.History.Status.BaselineCleared>
+  <LoadingProgress.StartupImpact.History.Status.Deleted>Session supprimée.</LoadingProgress.StartupImpact.History.Status.Deleted>
+  <LoadingProgress.StartupImpact.History.Status.Loaded>Affichage de la session du {0}.</LoadingProgress.StartupImpact.History.Status.Loaded>
+  <LoadingProgress.StartupImpact.History.Status.LoadFailed>Impossible de lire les données de cette session.</LoadingProgress.StartupImpact.History.Status.LoadFailed>
+  <LoadingProgress.StartupImpact.History.Summary>{0} enregistrées, jusqu'à {1} conservées</LoadingProgress.StartupImpact.History.Summary>
+  <LoadingProgress.StartupImpact.History.Confirm.Delete>Supprimer la session enregistrée du {0} ?</LoadingProgress.StartupImpact.History.Confirm.Delete>
+  <LoadingProgress.StartupImpact.History>Historique</LoadingProgress.StartupImpact.History>
+  <LoadingProgress.StartupImpact.History.Confirm.Baseline>Cette session sert de référence. La supprimer ne laissera aucune référence tant que vous n'en aurez pas choisi une autre.</LoadingProgress.StartupImpact.History.Confirm.Baseline>
+  <LoadingProgress.StartupImpact.Compare.Button>Comparer</LoadingProgress.StartupImpact.Compare.Button>
+  <LoadingProgress.StartupImpact.Compare.With>Comparer avec…</LoadingProgress.StartupImpact.Compare.With>
+  <LoadingProgress.StartupImpact.Compare.NothingToCompare>Aucune autre session enregistrée ne contient de détail permettant une comparaison.</LoadingProgress.StartupImpact.Compare.NothingToCompare>
+  <LoadingProgress.StartupImpact.Compare.Title>Comparer les démarrages</LoadingProgress.StartupImpact.Compare.Title>
+  <LoadingProgress.StartupImpact.Compare.Reference>Référence</LoadingProgress.StartupImpact.Compare.Reference>
+  <LoadingProgress.StartupImpact.Compare.Compared>Comparée</LoadingProgress.StartupImpact.Compare.Compared>
+  <LoadingProgress.StartupImpact.Compare.Change>Écart</LoadingProgress.StartupImpact.Compare.Change>
+  <LoadingProgress.StartupImpact.Compare.Swap>Inverser</LoadingProgress.StartupImpact.Compare.Swap>
+  <LoadingProgress.StartupImpact.Compare.Swap.Tip>Inverser la session de référence et la session comparée.</LoadingProgress.StartupImpact.Compare.Swap.Tip>
+  <LoadingProgress.StartupImpact.Compare.BaselineSession>{0} (référence)</LoadingProgress.StartupImpact.Compare.BaselineSession>
+  <LoadingProgress.StartupImpact.Compare.Headline>Durée de chargement : {0} → {1} ({2})</LoadingProgress.StartupImpact.Compare.Headline>
+  <LoadingProgress.StartupImpact.Compare.Tab.Overview>Vue d'ensemble</LoadingProgress.StartupImpact.Compare.Tab.Overview>
+  <LoadingProgress.StartupImpact.Compare.Tab.Stages>Étapes</LoadingProgress.StartupImpact.Compare.Tab.Stages>
+  <LoadingProgress.StartupImpact.Compare.Tab.Mods>Mods</LoadingProgress.StartupImpact.Compare.Tab.Mods>
+  <LoadingProgress.StartupImpact.Compare.Tab.Steps>Opérations</LoadingProgress.StartupImpact.Compare.Tab.Steps>
+  <LoadingProgress.StartupImpact.Compare.LoadingTime>Durée de chargement</LoadingProgress.StartupImpact.Compare.LoadingTime>
+  <LoadingProgress.StartupImpact.Compare.StartupTime>Durée du démarrage</LoadingProgress.StartupImpact.Compare.StartupTime>
+  <LoadingProgress.StartupImpact.Compare.TimeToMenu>Temps avant l'affichage du menu principal</LoadingProgress.StartupImpact.Compare.TimeToMenu>
+  <LoadingProgress.StartupImpact.Compare.ModsLoaded>Mods chargés</LoadingProgress.StartupImpact.Compare.ModsLoaded>
+  <LoadingProgress.StartupImpact.Compare.DefsParsed>Defs analysées</LoadingProgress.StartupImpact.Compare.DefsParsed>
+  <LoadingProgress.StartupImpact.Compare.PatchOperations>Opérations de patch appliquées</LoadingProgress.StartupImpact.Compare.PatchOperations>
+  <LoadingProgress.StartupImpact.Compare.ModList>Liste des mods</LoadingProgress.StartupImpact.Compare.ModList>
+  <LoadingProgress.StartupImpact.Compare.AddedMods>Mods présents uniquement dans la session comparée</LoadingProgress.StartupImpact.Compare.AddedMods>
+  <LoadingProgress.StartupImpact.Compare.RemovedMods>Mods présents uniquement dans la session de référence</LoadingProgress.StartupImpact.Compare.RemovedMods>
+  <LoadingProgress.StartupImpact.Compare.ModOrder>Ordre de chargement des mods</LoadingProgress.StartupImpact.Compare.ModOrder>
+  <LoadingProgress.StartupImpact.Compare.HarmonyHooks>Patchs Harmony chronométrés séparément</LoadingProgress.StartupImpact.Compare.HarmonyHooks>
+  <LoadingProgress.StartupImpact.Compare.Same>identique</LoadingProgress.StartupImpact.Compare.Same>
+  <LoadingProgress.StartupImpact.Compare.Different>différent</LoadingProgress.StartupImpact.Compare.Different>
+  <LoadingProgress.StartupImpact.Compare.Changed>modifié</LoadingProgress.StartupImpact.Compare.Changed>
+  <LoadingProgress.StartupImpact.Compare.On>activé</LoadingProgress.StartupImpact.Compare.On>
+  <LoadingProgress.StartupImpact.Compare.Off>désactivé</LoadingProgress.StartupImpact.Compare.Off>
+  <LoadingProgress.StartupImpact.Compare.Unknown>inconnu</LoadingProgress.StartupImpact.Compare.Unknown>
+  <LoadingProgress.StartupImpact.Compare.NotLoaded>non chargé</LoadingProgress.StartupImpact.Compare.NotLoaded>
+  <LoadingProgress.StartupImpact.Compare.Noisy>variable</LoadingProgress.StartupImpact.Compare.Noisy>
+  <LoadingProgress.StartupImpact.Compare.Noisy.Tip>Cette valeur varie souvent d'un lancement à l'autre même si rien n'a changé ; cet écart peut donc être dû au bruit de mesure.</LoadingProgress.StartupImpact.Compare.Noisy.Tip>
+  <LoadingProgress.StartupImpact.Compare.Noisy.ModTip>La plupart des écarts de ce mod concernent des étapes qui varient beaucoup entre les lancements même si rien n'a changé ; ils peuvent donc être dus au bruit de mesure.</LoadingProgress.StartupImpact.Compare.Noisy.ModTip>
+  <LoadingProgress.StartupImpact.Compare.ModDetails>Écarts les plus importants :</LoadingProgress.StartupImpact.Compare.ModDetails>
+  <LoadingProgress.StartupImpact.Compare.Summary.Stages>Les étapes constituent la durée de chargement et ne dépendent pas de la répartition du temps entre les mods. Leurs écarts totalisent {0}.</LoadingProgress.StartupImpact.Compare.Summary.Stages>
+  <LoadingProgress.StartupImpact.Compare.Summary.Mods>Durée attribuée à chaque mod. Un réglage modifiant l'attribution du temps peut déplacer du temps d'un mod à un autre ; utilisez ces données pour expliquer l'écart d'une étape, pas comme résultat isolé.</LoadingProgress.StartupImpact.Compare.Summary.Mods>
+  <LoadingProgress.StartupImpact.Compare.Summary.Steps>Durée de chaque opération, pour le jeu de base et tous les mods. Un réglage modifiant l'attribution du temps peut le déplacer d'une opération à une autre ; utilisez ces données pour expliquer l'écart d'une étape, pas comme résultat isolé.</LoadingProgress.StartupImpact.Compare.Summary.Steps>
+  <LoadingProgress.StartupImpact.Compare.NoiseHint>Les durées varient d'un lancement à l'autre, parfois de plusieurs secondes. Un écart est probablement réel uniquement s'il apparaît à chaque comparaison avec et sans le changement.</LoadingProgress.StartupImpact.Compare.NoiseHint>
+  <LoadingProgress.StartupImpact.Compare.Issue.DifferentModList>Ces sessions ont été lancées avec des listes de mods différentes ; leurs durées ne sont pas directement comparables.</LoadingProgress.StartupImpact.Compare.Issue.DifferentModList>
+  <LoadingProgress.StartupImpact.Compare.Issue.ModOrderChanged>Les mods ont été chargés dans un ordre différent.</LoadingProgress.StartupImpact.Compare.Issue.ModOrderChanged>
+  <LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingDiffers>Le réglage « Chronométrer séparément les patchs Harmony des autres mods » diffère entre ces sessions. Il déplace le temps des opérations concernées vers les mods propriétaires des patchs ; les écarts par mod et par opération peuvent donc être des déplacements plutôt que des coûts.</LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingDiffers>
+  <LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingUnknown>Au moins une de ces sessions a été enregistrée avant que Loading Progress ne note si les patchs Harmony étaient chronométrés séparément.</LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingUnknown>
+  <LoadingProgress.StartupImpact.Compare.Issue.NotBothTimedToMenu>Une seule de ces sessions a été chronométrée jusqu'au menu principal ; les durées couvrent donc des périodes différentes. Comparez plutôt leurs durées de chargement.</LoadingProgress.StartupImpact.Compare.Issue.NotBothTimedToMenu>
+</LanguageData>

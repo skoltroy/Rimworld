@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MeditationFocusPerBreedingCabin>Foyer de méditation par cabines d'élevage</MeditationFocusPerBreedingCabin>
+  <MeditationFocusBreedingCabin>Foyer de méditation : cabine d'élevage</MeditationFocusBreedingCabin>
+  <MeditationFocusPerStarchCabin>Foyer de méditation par cabines d'amidon</MeditationFocusPerStarchCabin>
+  <MeditationFocusStarchCabin>Foyer de méditation : cabine de synthèse d'amidon</MeditationFocusStarchCabin>
+  <ShipWallEnhanced>Murs de vaisseau améliorés</ShipWallEnhanced>
+  <SW_PowerOutputSettings>Réglages de production d'énergie</SW_PowerOutputSettings>
+  <SW_ColdNnclearGeneratorPowerOutput>Production du générateur nucléaire à fusion froide</SW_ColdNnclearGeneratorPowerOutput>
+  <SW_GravcorePowerCellPowerOutput>Production de la cellule électrique à gravicœur</SW_GravcorePowerCellPowerOutput>
+  <SW_MiniSolarPanelPowerOutput>Production du mini-panneau solaire</SW_MiniSolarPanelPowerOutput>
+  <SW_ChemfuelGeneratorPowerOutput>Production du générateur à chemfuel</SW_ChemfuelGeneratorPowerOutput>
+  <SW_BuildingSetting>Réglages des bâtiments</SW_BuildingSetting>
+  <BuildingSettingsMayNeedRestartGameToWork>Certains réglages des bâtiments nécessitent un redémarrage du jeu pour prendre effet.</BuildingSettingsMayNeedRestartGameToWork>
+  <SW_EnableTurretExplosives>Activer l'explosion des tourelles</SW_EnableTurretExplosives>
+  <SW_Turret_IfDisabledDesc>Si cette option est désactivée, les tourelles montées n'exploseront pas.</SW_Turret_IfDisabledDesc>
+  <SW_EnableFuelBar>Afficher la jauge de carburant de la cabine (nécessite Vanilla Chemfuel Expanded)</SW_EnableFuelBar>
+  <SW_FuelBarDesc>Détermine si la jauge de capacité du conduit de carburant est affichée.
+Désactivez cette option pour masquer la jauge sans affecter le fonctionnement.
+Un redémarrage du jeu est nécessaire pour appliquer cette modification.</SW_FuelBarDesc>
+  <SW_EnableWallLink>Relier les cabines murales aux murs du jeu de base</SW_EnableWallLink>
+  <SW_WallLinkDesc>Lorsque cette option est activée, les murs du jeu de base considèrent les cabines de Murs de vaisseau améliorés comme faisant partie du mur et raccordent leurs graphismes sans interruption.
+Cette option s'applique immédiatement aux bâtiments déjà construits.</SW_WallLinkDesc>
+  <SW_ModDependencySection>Dépendances aux mods</SW_ModDependencySection>
+  <SW_ModDependencyDesc>Les mods suivants ne sont pas indispensables, mais ajoutent des fonctionnalités ou des bâtiments.</SW_ModDependencyDesc>
+  <SW_ModDependencyRecommand>Fortement recommandé :</SW_ModDependencyRecommand>
+  <SW_ModDependencyOptional>Facultatif :</SW_ModDependencyOptional>
+  <SW_ModPresent>Chargé</SW_ModPresent>
+  <SW_ModMissing>Non activé</SW_ModMissing>
+  <SW_VGECompatHint>Lorsque cette option est activée, les cabines de carburant et de bouclier peuvent être reliées aux moteurs gravitationnels de VGE.</SW_VGECompatHint>
+  <SW_VGECompatHintTip>Lorsque Vanilla Gravship Expanded est activé, la cabine de réservoir de carburant et la cabine de générateur de bouclier de Murs de vaisseau améliorés peuvent être reliées aux moteurs gravitationnels de VGE (comme les moteurs gravitationnels de saut et les moteurs gravitationnels lourds) et fonctionner comme avec le moteur gravitationnel du jeu de base.</SW_VGECompatHintTip>
+  <SW_RestoreDefaults>Rétablir les valeurs par défaut</SW_RestoreDefaults>
+  <SW_RestoreDefaultsDesc>Cliquez pour réinitialiser tous les réglages.</SW_RestoreDefaultsDesc>
+  <SW_ProductionTabLabel>Production</SW_ProductionTabLabel>
+  <SW_CustomProductionTitle>Production personnalisée : {0}</SW_CustomProductionTitle>
+  <SW_ProductLabel>Produit : {0}</SW_ProductLabel>
+  <SW_PowerConsumption>Consommation électrique estimée : {0} W</SW_PowerConsumption>
+  <SW_YieldMultiplier>Multiplicateur de rendement : {0} %</SW_YieldMultiplier>
+  <SW_SpeedMultiplier>Multiplicateur de vitesse : {0} %</SW_SpeedMultiplier>
+  <SW_FuelConsumptionExpected>Carburant estimé : {0}/jour</SW_FuelConsumptionExpected>
+  <SW_PausedNoPower>Production suspendue (pas d'électricité)</SW_PausedNoPower>
+  <SW_PausedNoFuel>Production suspendue (pas de carburant)</SW_PausedNoFuel>
+  <SW_CurrentPower>Consommation électrique actuelle : {0} W</SW_CurrentPower>
+  <SW_ProducingNow>Production de {0} en cours...</SW_ProducingNow>
+  <SW_ProductionPrefix>Production :</SW_ProductionPrefix>
+  <SW_ProductInfo>{0} x{1}</SW_ProductInfo>
+  <SW_TimeLeft>Prochaine production dans : {0} ({1} %)</SW_TimeLeft>
+  <SW_FuelConsumption>Consommation de carburant par jour : {0}</SW_FuelConsumption>
+  <SW_OutputAmountWithTime>Production estimée : {0} /{1}</SW_OutputAmountWithTime>
+  <SW_ConfirmButton>Confirmer</SW_ConfirmButton>
+  <SW_ConfirmButtonDesc>Applique à ce bâtiment les réglages actuels des curseurs.
+La production en cours sera immédiatement interrompue.</SW_ConfirmButtonDesc>
+  <SW_ResetButton>Réinitialiser</SW_ResetButton>
+  <SW_ResetButtonDesc>Rétablit les réglages de production à 100 %.
+N'affecte pas la production en cours.</SW_ResetButtonDesc>
+  <SW_CopySettingsDesc>Copier les réglages actuels des curseurs, y compris ceux en cours.</SW_CopySettingsDesc>
+  <SW_PasteSettingsDesc>Coller les réglages copiés et les appliquer à ce bâtiment.</SW_PasteSettingsDesc>
+  <SW_PasteSettingsUnavailableDesc>Aucun réglage copié.</SW_PasteSettingsUnavailableDesc>
+  <AdaptiveStorage_HighTempMode>Mode haute température : consommation supplémentaire de {0} W</AdaptiveStorage_HighTempMode>
+  <AdaptiveStorage_AtMaxPower>Consommation électrique maximale atteinte</AdaptiveStorage_AtMaxPower>
+  <AdaptiveStorage_LowTempMode>Mode basse température économe en énergie</AdaptiveStorage_LowTempMode>
+  <SW_BatteryChargeBarToggle>Toujours afficher la jauge de charge</SW_BatteryChargeBarToggle>
+  <SW_BatteryChargeBarToggleDesc>Lorsque cette option est activée, la jauge de charge de la batterie est toujours visible.\nLorsqu'elle est désactivée, elle n'apparaît que lorsque la batterie est sélectionnée ou survolée.</SW_BatteryChargeBarToggleDesc>
+</LanguageData>

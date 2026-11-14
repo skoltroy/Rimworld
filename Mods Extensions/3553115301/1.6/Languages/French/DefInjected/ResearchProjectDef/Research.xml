@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RDA_Core.label>Technologie fondamentale de la RDA</RDA_Core.label>
+  <RDA_Core.description>Technologie fondamentale.</RDA_Core.description>
+  <RDA_Simple_Guns.label>Armes légères de la RDA</RDA_Simple_Guns.label>
+  <RDA_Simple_Guns.description>Fabriquer des armes simples pour la faction RDA.</RDA_Simple_Guns.description>
+  <RDA_Medium_Guns.label>Armes moyennes de la RDA</RDA_Medium_Guns.label>
+  <RDA_Medium_Guns.description>Armement standard de la RDA, capable d'éliminer les ennemis avec grande efficacité.</RDA_Medium_Guns.description>
+  <RDA_Heavy_Guns.label>Armes lourdes de la RDA</RDA_Heavy_Guns.label>
+  <RDA_Heavy_Guns.description>Les armes lourdes sont indispensables pour diverses tâches : tirs de suppression, nettoyage de zones et destruction de cibles lourdement blindées.</RDA_Heavy_Guns.description>
+  <RDA_Light_Armor.label>Armure légère de la RDA</RDA_Light_Armor.label>
+  <RDA_Light_Armor.description>Armure légère des soldats standards de la RDA.</RDA_Light_Armor.description>
+  <RDA_Medium_Armor.label>Armure intermédiaire de la RDA</RDA_Medium_Armor.label>
+  <RDA_Medium_Armor.description>Armure intermédiaire attribuée aux unités spéciales pour les opérations de combat et aux soldats de haut rang.</RDA_Medium_Armor.description>
+  <RDA_Heavy_Armor.label>Armure lourde de la RDA</RDA_Heavy_Armor.label>
+  <RDA_Heavy_Armor.description>Armure lourde rare et coûteuse, réservée aux employés de confiance de haut rang ou aux membres des unités commandos.</RDA_Heavy_Armor.description>
+</LanguageData>

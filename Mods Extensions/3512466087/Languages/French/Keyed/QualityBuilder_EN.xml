@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <QualityBuilder>QualityBuilder</QualityBuilder>
+  <QualityBuilderCommand.Label>Constructeur de qualité</QualityBuilderCommand.Label>
+  <QualityBuilderOn.Label>Activer le constructeur de qualité</QualityBuilderOn.Label>
+  <QualityBuilderOn.Desc>Qualité actuelle : {0}. Désigner les constructions pour les ouvriers qualifiés.</QualityBuilderOn.Desc>
+  <QualityBuilder.Already></QualityBuilder.Already>
+  <QualityBuilderOff.Label>Désactiver le constructeur de qualité</QualityBuilderOff.Label>
+  <QualityBuilderOff.Desc>Qualité actuelle : {0}. Retirer les désignations réservées aux ouvriers qualifiés.</QualityBuilderOff.Desc>
+  <QualityBuilder.Nothing></QualityBuilder.Nothing>
+  <QualityBuilder.SelectedSettings>Paramètres sélectionnés</QualityBuilder.SelectedSettings>
+  <QualityBuilder.SelectedSettingsHint>Cliquez pour choisir entre ces paramètres par défaut et ceux propres à la carte actuelle.</QualityBuilder.SelectedSettingsHint>
+  <QualityBuilder.CurrentMap>Carte actuelle</QualityBuilder.CurrentMap>
+  <QualityBuilder.Global>Paramètres par défaut</QualityBuilder.Global>
+  <QualityBuilder.EnableByDefault>Activer QualityBuilder par défaut</QualityBuilder.EnableByDefault>
+  <QualityBuilder.IgnoreAtSkill>Ignorer QualityBuilder au niveau de compétence {0}</QualityBuilder.IgnoreAtSkill>
+  <QualityBuilder.MinSkill>Les constructions de qualité exigent une compétence de construction de {0} (meilleur constructeur : {1})</QualityBuilder.MinSkill>
+  <QualityBuilder.MinSkillDiff>Autoriser les constructeurs à avoir jusqu'à {0} niveaux de compétence de moins que le meilleur constructeur</QualityBuilder.MinSkillDiff>
+  <QualityBuilder.MinQuality>Qualité minimale par défaut</QualityBuilder.MinQuality>
+  <QualityBuilder.OverrideBestBuilder>Remplacer le meilleur constructeur par</QualityBuilder.OverrideBestBuilder>
+  <QualityBuilder.UseMapSettings>Utiliser ces paramètres pour la carte (sinon, utiliser les paramètres par défaut)</QualityBuilder.UseMapSettings>
+  <QualityBuilder.MaxRebuildAttempts>Abandonner après {0} tentatives de reconstruction échouées (∞ = ne jamais abandonner)</QualityBuilder.MaxRebuildAttempts>
+  <QualityBuilder.RebuildGaveUp>QualityBuilder a abandonné {0} après {1} tentatives de reconstruction (dernière qualité : {2}). Le bâtiment a été conservé. Vous pouvez modifier cette limite dans les paramètres du mod.</QualityBuilder.RebuildGaveUp>
+  <QualityBuilder.ExcludeMechs>Les méchanoïdes ne construisent jamais avec compétence</QualityBuilder.ExcludeMechs>
+  <QualityBuilder.ExcludeMechsTooltip>Les méchanoïdes ne sont pas pris en compte pour calculer la compétence du meilleur constructeur et ne peuvent pas prendre les constructions désignées par qualité. Les ordres prioritaires forcés manuellement restent valides. Pratique pour entraîner la compétence Construction de vos colons plutôt que de laisser les méchanoïdes s'en charger.</QualityBuilder.ExcludeMechsTooltip>
+  <QualityBuilder.DefaultSettingsActive>Paramètres par défaut actifs</QualityBuilder.DefaultSettingsActive>
+  <QualityBuilder.DefaultSettingsInactive>Paramètres par défaut inactifs</QualityBuilder.DefaultSettingsInactive>
+  <QualityBuilder.DefaultSettingsActiveNote>Cette carte utilise les paramètres par défaut ci-dessous. Cochez « Utiliser ces paramètres pour la carte » dans l'onglet Carte actuelle pour lui attribuer des paramètres indépendants.</QualityBuilder.DefaultSettingsActiveNote>
+  <QualityBuilder.DefaultSettingsInactiveNote>Cette carte utilise ses propres paramètres ; les modifications des paramètres par défaut ne l'affectent pas. Décochez « Utiliser ces paramètres pour la carte » pour revenir aux paramètres communs.</QualityBuilder.DefaultSettingsInactiveNote>
+  <QualityBuilder.DefaultSettingsNoMapNote>Aucune colonie n'est chargée : seuls les paramètres par défaut sont disponibles. Une fois une colonie chargée, chaque carte peut utiliser ses propres paramètres.</QualityBuilder.DefaultSettingsNoMapNote>
+  <QualityBuilder.GizmoOnBlueprintsOnly>Afficher la commande de qualité uniquement sur les plans et les structures en construction</QualityBuilder.GizmoOnBlueprintsOnly>
+  <QualityBuilder.GizmoOnBlueprintsOnlyTooltip>Masque la commande QualityBuilder et son menu de qualité au clic droit sur les bâtiments terminés, rétablissant le comportement antérieur à leur finition. Les plans et structures en cours ne sont pas concernés. Les désignations existantes et les cycles de reconstruction restent actifs.</QualityBuilder.GizmoOnBlueprintsOnlyTooltip>
+</LanguageData>

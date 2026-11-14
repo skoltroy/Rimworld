@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<USH_GE_CarryToBiocoder>Apporter {0} à la chambre de biocodage</USH_GE_CarryToBiocoder>
+	<USH_GE_Forming>Formation en cours</USH_GE_Forming>
+	<USH_GE_WaitingForMaintenance>En attente d&apos;une maintenance manuelle</USH_GE_WaitingForMaintenance>
+	<USH_GE_NoBiocoder>Aucune chambre de biocodage disponible.</USH_GE_NoBiocoder>
+	<USH_GE_DischargeTimeLeft>Temps restant avant décharge : {0}</USH_GE_DischargeTimeLeft>
+	<USH_GE_PowerNeed>Énergie stockée requise : </USH_GE_PowerNeed>
+	<USH_GE_MissingIntegrator>Implant intégrateur de télépad manquant</USH_GE_MissingIntegrator>
+	<USH_GE_NoPowerStoredShort>Il manque {0} W d’énergie stockée</USH_GE_NoPowerStoredShort>
+	<USH_GE_CantIntercept>Interception impossible : {0}</USH_GE_CantIntercept>
+	<USH_GE_EmptyBiocoder>Source de bioprint vivant manquante</USH_GE_EmptyBiocoder>
+	<USH_GE_Reconstructing>Reconstruction terminée dans : {0} s</USH_GE_Reconstructing>
+	<USH_GE_CurrentFormingCycle>Cycle de formation actuel</USH_GE_CurrentFormingCycle>
+	<USH_GE_CommandSetForTargeterTypeDesc>Détermine si le ciblage utilise le bombardement ou le rayon d&apos;énergie.</USH_GE_CommandSetForTargeterTypeDesc>
+	<USH_GE_TooClose>Trop près du télépad</USH_GE_TooClose>
+	<USH_GE_WillDraw>Consommera {0} W d&apos;énergie stockée pour former {1}</USH_GE_WillDraw>
+	<USH_GE_ResPerformed>Recherche effectuée : {0}</USH_GE_ResPerformed>
+	<USH_GE_NoPowerStored>Impossible de commencer la formation de {0} : nécessite {1} W d’énergie stockée</USH_GE_NoPowerStored>
+	<USH_GE_SolarFlareInterceptedText>Les banques installées (×{0}) ont intercepté l&apos;éruption solaire et déchargeront progressivement l&apos;énergie accumulée dans le réseau.</USH_GE_SolarFlareInterceptedText>
+	<USH_GE_FormTimeTotal>Temps de formation restant : {0}</USH_GE_FormTimeTotal>
+	<USH_GE_CommandSetForPowerBeamLabel>Utiliser l&apos;attaque par rayon d&apos;énergie</USH_GE_CommandSetForPowerBeamLabel>
+	<USH_GE_SolarFlareInterceptedLabel>Éruption solaire interceptée</USH_GE_SolarFlareInterceptedLabel>
+	<USH_GE_FormingCycles>Cycles de formation</USH_GE_FormingCycles>
+	<USH_GE_CommandBiocoderEjectDesc>Réveiller l&apos;hôte de bioprint contenu dans la chambre et l&apos;éjecter.</USH_GE_CommandBiocoderEjectDesc>
+	<USH_GE_RemainingFormingCycles>Cycles de formation restants</USH_GE_RemainingFormingCycles>
+	<USH_GE_WaitingForCompletion>En attente d&apos;une finalisation manuelle</USH_GE_WaitingForCompletion>
+	<USH_GE_CommandSetForBombardmentLabel>Utiliser l&apos;attaque de bombardement</USH_GE_CommandSetForBombardmentLabel>
+	<USH_GE_EnterBiocoder>Entrer dans la chambre de biocodage</USH_GE_EnterBiocoder>
+	<USH_GE_CannotCarryToBiocoder>Impossible d&apos;apporter à la chambre de biocodage</USH_GE_CannotCarryToBiocoder>
+	<USH_GE_CommandBiocoderEjectFailEmpty>La chambre est vide.</USH_GE_CommandBiocoderEjectFailEmpty>
+	<USH_GE_FormingDuration>Durée totale de formation</USH_GE_FormingDuration>
+	<USH_GE_CommandBiocoderEject>Éjecter le contenu de la chambre</USH_GE_CommandBiocoderEject>
+	<USH_GE_PrisonerNotDowned>Le prisonnier n’est pas à terre</USH_GE_PrisonerNotDowned>
+	<USH_GE_SkinSettingLabel>Désactiver le changement de couleur réelle de la peau par les remplacements</USH_GE_SkinSettingLabel>
+	<USH_GE_DesensitizeCost>Médicament nécessaire par utilisation : {0}</USH_GE_DesensitizeCost>
+	<USH_GE_SkinSettingTooltip>Si cette option est activée, la couleur de la peau ne changera pas après l’opération.</USH_GE_SkinSettingTooltip>
+	<USH_GE_SkinSettingExplanation>Si cette option est désactivée, les remplacements de peau modifieront la couleur de peau du pion selon celle de la ressource de remplacement.\nSi vous l’activez, cela n’affectera pas les implants déjà installés. Il faudra opérer de nouveau le pion pour lui rendre sa couleur de peau par défaut.</USH_GE_SkinSettingExplanation>
+</LanguageData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFEA.AbilityDisableReasonCooldown>{0} est en recharge pendant {1}</VFEA.AbilityDisableReasonCooldown>
+  <VFEA.AbilityDisableReasonGeneral>{0} ne remplit pas les conditions requises</VFEA.AbilityDisableReasonGeneral>
+  <VFEA.AbilityStatsPower>Puissance</VFEA.AbilityStatsPower>
+  <VFEA.AbilityStatsDuration>Durée</VFEA.AbilityStatsDuration>
+  <VFEA.TargetMustBeHostile>La cible doit être hostile</VFEA.TargetMustBeHostile>
+  <VFEA.MinRadius>Rayon minimal</VFEA.MinRadius>
+  <VFEA.RClickToAuto>Clic droit pour activer le lancement automatique.</VFEA.RClickToAuto>
+  <VFEA.RClickToNoAuto>Clic droit pour désactiver le lancement automatique.</VFEA.RClickToNoAuto>
+  <VEF_DisableCorpseDecaying>Désactiver la décomposition des cadavres</VEF_DisableCorpseDecaying>
+  <VEF_DisableCorpseDecayingDesc>Désactive la capacité permanente de cet animal à décomposer les cadavres.</VEF_DisableCorpseDecayingDesc>
+  <VEF_EnableCorpseDecaying>Activer la décomposition des cadavres</VEF_EnableCorpseDecaying>
+  <VEF_EnableCorpseDecayingDesc>Active la capacité permanente de cet animal à décomposer les cadavres.</VEF_EnableCorpseDecayingDesc>
+  <VEF_DisableDigging>Désactiver le creusement pour trouver de la nourriture</VEF_DisableDigging>
+  <VEF_DisableDiggingDesc>Désactive la capacité de cet animal à creuser le terrain pour trouver de la nourriture.</VEF_DisableDiggingDesc>
+  <VEF_EnableDigging>Activer le creusement pour trouver de la nourriture</VEF_EnableDigging>
+  <VEF_EnableDiggingDesc>Active la capacité de cet animal à creuser le terrain pour trouver de la nourriture.</VEF_EnableDiggingDesc>
+  <VEF_DisableGas>Désactiver la production de gaz</VEF_DisableGas>
+  <VEF_DisableGasDesc>Désactive la capacité de cet animal à produire du gaz.</VEF_DisableGasDesc>
+  <VEF_EnableGas>Activer la production de gaz</VEF_EnableGas>
+  <VEF_EnableGasDesc>Active la capacité de cet animal à produire du gaz.</VEF_EnableGasDesc>
+</LanguageData>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PipeSystem_Consumption>Consommation de {0}</PipeSystem_Consumption>
+  <PipeSystem_ConsumptionExplained>Quantité de {0} que ce bâtiment prélève par jour sur le réseau de {1}.</PipeSystem_ConsumptionExplained>
+  <PipeSystem_IdleConsumption>Consommation de {0} au repos</PipeSystem_IdleConsumption>
+  <PipeSystem_IdleConsumptionExplained>Quantité de {0} que ce bâtiment prélève sur le réseau de {1} lorsqu'il est au repos.</PipeSystem_IdleConsumptionExplained>
+  <PipeSystem_Production>Production de {0}</PipeSystem_Production>
+  <PipeSystem_ProductionExplained>Quantité de {0} que ce bâtiment produit par jour pour le réseau de {1}.</PipeSystem_ProductionExplained>
+  <PipeSystem_DeconstructLabel>Démolir les tuyaux de {0}</PipeSystem_DeconstructLabel>
+  <PipeSystem_DeconstructDesc>Ne démolir que les tuyaux appartenant au réseau de {0}.</PipeSystem_DeconstructDesc>
+  <PipeSystem_ResourceOutput>Sortie de {0} :</PipeSystem_ResourceOutput>
+  <PipeSystem_ResourceNeeded>{0} nécessaire :</PipeSystem_ResourceNeeded>
+  <PipeSystem_ResourceStored>{0} stocké :</PipeSystem_ResourceStored>
+  <PipeSystem_NotConnected>Non connecté à {0}.</PipeSystem_NotConnected>
+  <PipeSystem_ExcessStored>Excédent net / stocké dans le réseau de {0} : {1} {3}/j / {2} {3}</PipeSystem_ExcessStored>
+  <PipeSystem_Stored>Stocké dans le réseau de {0} :</PipeSystem_Stored>
+  <PipeSystem_ValveClosed>Vanne fermée.</PipeSystem_ValveClosed>
+  <PipeSystem_ValveOpened>Vanne ouverte.</PipeSystem_ValveOpened>
+  <PipeSystem_AugmentStack>+1</PipeSystem_AugmentStack>
+  <PipeSystem_AugmentStackDesc>Augmenter de 1 la taille maximale de la pile en sortie.</PipeSystem_AugmentStackDesc>
+  <PipeSystem_AugmentStackB>+10</PipeSystem_AugmentStackB>
+  <PipeSystem_AugmentStackDescB>Augmenter de 10 la taille maximale de la pile en sortie.</PipeSystem_AugmentStackDescB>
+  <PipeSystem_DecreaseStack>-1</PipeSystem_DecreaseStack>
+  <PipeSystem_DecreaseStackDesc>Réduire de 1 la taille maximale de la pile en sortie.</PipeSystem_DecreaseStackDesc>
+  <PipeSystem_DecreaseStackB>-10</PipeSystem_DecreaseStackB>
+  <PipeSystem_DecreaseStackDescB>Réduire de 10 la taille maximale de la pile en sortie.</PipeSystem_DecreaseStackDescB>
+  <PipeSystem_AmountOut>Quantité maximale stockée ici : {0}</PipeSystem_AmountOut>
+  <PipeSystem_ProcessorBuffer>Réserve : {0}</PipeSystem_ProcessorBuffer>
+  <PipeSystem_Producing>Production de {0} {1}. Progression du cycle : {2}.</PipeSystem_Producing>
+  <PipeSystem_Produce>Produire {0} {1} à partir de {2} {3}.</PipeSystem_Produce>
+  <PipeSystem_ChooseResult>Choisir le résultat</PipeSystem_ChooseResult>
+  <PipeSystem_ChooseResultDesc>Choisir le résultat du traitement.</PipeSystem_ChooseResultDesc>
+  <PipeSystem_ProduceLabel>Produire {0} {1} avec :</PipeSystem_ProduceLabel>
+  <PipeSystem_TransferContent>Transférer le contenu du stockage</PipeSystem_TransferContent>
+  <PipeSystem_TransferContentDesc>Transférer le contenu vers d'autres stockages disponibles.</PipeSystem_TransferContentDesc>
+  <PipeSystem_MarkedToTransferContent>Transfert du contenu vers d'autres stockages disponibles...</PipeSystem_MarkedToTransferContent>
+  <PipeSystem_NothingToRefill>Aucun objet à réapprovisionner pour {0}</PipeSystem_NothingToRefill>
+  <PipeSystem_AllowManualRefill>Autoriser le réapprovisionnement manuel</PipeSystem_AllowManualRefill>
+  <PipeSystem_AllowManualRefillDesc>Autoriser les pions à réapprovisionner directement le stockage</PipeSystem_AllowManualRefillDesc>
+  <PipeSystem_CantExtract>Extraction impossible : les réservoirs sont pleins</PipeSystem_CantExtract>
+  <PipeSystem_CantPlaceHere>{0} ne peut être placé que sur un gisement de {1}. Utilisez un scanner à pénétration de sol pour repérer les gisements.</PipeSystem_CantPlaceHere>
+  <PipeSystem_ResourceLeft>Quantité restante dans le gisement : {0}.</PipeSystem_ResourceLeft>
+  <PipeSystem_NoStorageInNet>Aucun stockage connecté</PipeSystem_NoStorageInNet>
+  <PipeSystem_NoStorageInNetDesc>Les réseaux suivants ne sont connectés à aucun bâtiment de stockage alors qu'ils en nécessitent un :</PipeSystem_NoStorageInNetDesc>
+  <PipeSystem_StorageContentRotted>Le contenu de {0} a pourri à cause d'une panne de courant.</PipeSystem_StorageContentRotted>
+  <PipeSystem_ContentWillRot>Le contenu de {0} pourrira à cause d'une panne de courant.</PipeSystem_ContentWillRot>
+  <PipeSystem_NothingToPickUp>Rien à récupérer</PipeSystem_NothingToPickUp>
+  <PipeSystem_MakeProcess>Fabriquer {0}</PipeSystem_MakeProcess>
+  <PipeSystem_OutputToNet>{0} vers le réseau</PipeSystem_OutputToNet>
+  <PipeSystem_OrNet>ou réseau de {0}</PipeSystem_OrNet>
+  <PipeSystem_XFromNet>{0} depuis le réseau</PipeSystem_XFromNet>
+  <PipeSystem_Processes>Processus</PipeSystem_Processes>
+  <PipeSystem_AddProcess>Ajouter un processus</PipeSystem_AddProcess>
+  <PipeSystem_CancelCurrentProcess>Annuler le processus en cours</PipeSystem_CancelCurrentProcess>
+  <PipeSystem_OutputOnGround>Peut déposer la sortie au sol</PipeSystem_OutputOnGround>
+  <PipeSystem_NoProcess>Aucun processus en cours</PipeSystem_NoProcess>
+  <PipeSystem_NoProcessAvailable>Aucun processus disponible</PipeSystem_NoProcessAvailable>
+  <PipeSystem_Product>Produit</PipeSystem_Product>
+  <PipeSystem_ProgressInInfobox>{0} : {1}</PipeSystem_ProgressInInfobox>
+  <PipeSystem_MissingInputIngredients>Intrants manquants : {0}</PipeSystem_MissingInputIngredients>
+  <PipeSystem_CopyProcesses>Copier les processus</PipeSystem_CopyProcesses>
+  <PipeSystem_PasteProcesses>Coller les processus</PipeSystem_PasteProcesses>
+  <PipeSystem_PasteAllRecipes>Coller tous les processus</PipeSystem_PasteAllRecipes>
+  <PipeSystem_PasteAllRecipes_Desc>Coller tous les processus copiés dans ce processeur. Vous pouvez en sélectionner plusieurs ; les processus seront collés dans chacun d'eux.</PipeSystem_PasteAllRecipes_Desc>
+  <PipeSystem_ExtractAtCurrentQuality>Extraire à la qualité actuelle</PipeSystem_ExtractAtCurrentQuality>
+  <PipeSystem_ExtractAtCurrentQuality_Desc>Extraire le produit à sa qualité actuelle.</PipeSystem_ExtractAtCurrentQuality_Desc>
+  <PipeSystem_QualitySelector>Choisir la qualité à laquelle ce processus doit s'arrêter</PipeSystem_QualitySelector>
+  <PipeSystem_ProcessNeedsAwfulAtLeast>Le processus doit progresser au moins jusqu'au délai de qualité « Affreuse », soit {0}</PipeSystem_ProcessNeedsAwfulAtLeast>
+  <PipeSystem_CurrentQuality>Qualité actuelle : {0}</PipeSystem_CurrentQuality>
+  <PipeSystem_CurrentNotReachedAwful>Le processus n'a pas encore atteint la qualité « Affreuse »</PipeSystem_CurrentNotReachedAwful>
+  <PipeSystem_ExtractingAtCurrent>Extraction du produit à sa qualité actuelle</PipeSystem_ExtractingAtCurrent>
+  <PipeSystem_OutputFactoryHopperIncorrect>Trémie de sortie de l'usine absente ou incapable d'accepter l'objet en raison de sa configuration de stockage.</PipeSystem_OutputFactoryHopperIncorrect>
+  <PipeSystem_OutputFactoryHopperFull>Trémie de sortie de l'usine trop pleine (maximum : {0} unités)</PipeSystem_OutputFactoryHopperFull>
+  <PipeSystem_NotInRoomExplanation>Ce processeur ne se trouve pas dans une pièce considérée comme {0} et subira un malus de {1} à sa vitesse de travail. Cette valeur sera recalculée au démarrage d'un processus.</PipeSystem_NotInRoomExplanation>
+  <PipeSystem_WorkSpeed>vitesse de travail</PipeSystem_WorkSpeed>
+  <PipeSystem_InterruptedByGillRot>Reproduction des poissons impossible à cause de la pourriture des branchies</PipeSystem_InterruptedByGillRot>
+</LanguageData>

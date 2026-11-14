@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ShipWallMountMiniSolarPanel.label>mini-panneau solaire mural</ShipWallMountMiniSolarPanel.label>
+  <ShipWallMountMiniSolarPanel.description>Un panneau solaire compact conçu pour être fixé aux murs extérieurs, idéal pour les coques de vaisseau.
+
+Doit être placé à l'extérieur pour produire de l'énergie.
+
+Sa petite taille limite sa production d'énergie solaire, mais une disposition dense permet de l'augmenter.
+
+Cet appareil peut être fixé à la plupart des murs ou des cabines si nécessaire. Certains types de bâtiments peuvent toutefois être vulnérables aux explosions ou aux incendies.</ShipWallMountMiniSolarPanel.description>
+  <ShipWallMountBatteryUnit.label>petite batterie murale</ShipWallMountBatteryUnit.label>
+  <ShipWallMountBatteryUnit.description>Une batterie murale compacte qui s'intègre aux murs pour économiser de l'espace à l'intérieur du vaisseau.
+
+Cet appareil peut être fixé à la plupart des murs ou des cabines si nécessaire. Certains types de bâtiments peuvent toutefois être vulnérables aux explosions ou aux incendies.</ShipWallMountBatteryUnit.description>
+  <ShipWallMountMiniTurret.label>mini-tourelle murale</ShipWallMountMiniTurret.label>
+  <ShipWallMountMiniTurret.description>Une mini-tourelle automatique murale, idéale pour les coques de vaisseau.
+
+Elle fonctionne à peu près comme une mini-tourelle classique.
+
+Cet appareil peut être fixé à la plupart des murs ou des cabines si nécessaire. Certains types de bâtiments peuvent toutefois être vulnérables aux explosions ou aux incendies.</ShipWallMountMiniTurret.description>
+  <SW_MiniTurretGun.label>canon de mini-tourelle</SW_MiniTurretGun.label>
+  <SW_MiniTurretGun.description>Un simple canon automatique conçu pour être monté sur une tourelle.</SW_MiniTurretGun.description>
+</LanguageData>

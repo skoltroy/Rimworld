@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <USH_GE_Reconstructing>Reconstruction terminée dans : {0} s</USH_GE_Reconstructing>
+  <USH_GE_ResPerformed>Recherche effectuée : {0}</USH_GE_ResPerformed>
+  <USH_GE_FuelCost>{0} requis par utilisation : {1}</USH_GE_FuelCost>
+  <USH_GE_CurrentFormingCycle>Cycle de formation actuel</USH_GE_CurrentFormingCycle>
+  <USH_GE_RemainingFormingCycles>Cycles de formation restants</USH_GE_RemainingFormingCycles>
+  <USH_GE_FormingCycles>Cycles de formation</USH_GE_FormingCycles>
+  <USH_GE_WillDraw>Consommera {0} W d'énergie stockée pour former {1}</USH_GE_WillDraw>
+  <USH_GE_NoPowerStored>Nécessite {0} W d'énergie stockée (disponible : {2} W) pour {1}</USH_GE_NoPowerStored>
+  <USH_GE_NoPowerStoredShort>Nécessite {0} W d'énergie stockée (disponible : {1} W)</USH_GE_NoPowerStoredShort>
+  <USH_GE_NoFacility>Installation active {0} manquante</USH_GE_NoFacility>
+  <USH_GE_FormTimeTotal>Temps de formation restant : {0}</USH_GE_FormTimeTotal>
+  <USH_GE_PowerNeed>Énergie stockée requise : </USH_GE_PowerNeed>
+  <USH_GE_FormingDuration>Durée totale de formation</USH_GE_FormingDuration>
+  <USH_GE_CommandAutoUsage>Activer/désactiver l'utilisation automatique</USH_GE_CommandAutoUsage>
+  <USH_GE_CommandAutoUsageDesc>Lorsque cette option est activée, le médecin met automatiquement la machine en marche après avoir terminé les soins d'un patient.</USH_GE_CommandAutoUsageDesc>
+  <USH_GE_NoRoom>Aucune pièce attribuée.</USH_GE_NoRoom>
+  <USH_GE_RoomTooBig>La superficie de la pièce dépasse {0}.</USH_GE_RoomTooBig>
+  <USH_GE_RoomUnroofed>La pièce n'est pas entièrement couverte d'un toit.</USH_GE_RoomUnroofed>
+  <USH_GE_NoAnesthesia>Aucun pion anesthésié à proximité.</USH_GE_NoAnesthesia>
+  <USH_GE_WaitingForMaintenance>En attente d'une maintenance manuelle</USH_GE_WaitingForMaintenance>
+  <USH_GE_WaitingForCompletion>En attente d'une finalisation manuelle</USH_GE_WaitingForCompletion>
+  <USH_GE_Forming>Formation en cours</USH_GE_Forming>
+  <USH_GE_GatheredIngredients>Ingrédients rassemblés</USH_GE_GatheredIngredients>
+  <USH_GE_StoredPower>Énergie stockée : {0} / {1} (sera consommée au démarrage)</USH_GE_StoredPower>
+  <USH_GE_CommandSetForBombardmentLabel>Utiliser l'attaque de bombardement</USH_GE_CommandSetForBombardmentLabel>
+  <USH_GE_CommandSetForPowerBeamLabel>Utiliser l'attaque par rayon d'énergie</USH_GE_CommandSetForPowerBeamLabel>
+  <USH_GE_CommandSetForTargeterTypeDesc>Détermine si le ciblage utilise le bombardement ou le rayon d'énergie.</USH_GE_CommandSetForTargeterTypeDesc>
+  <USH_GE_EmptyBiocoder>Source de bioprint vivant manquante</USH_GE_EmptyBiocoder>
+  <USH_GE_CantIntercept>Interception impossible : {0}</USH_GE_CantIntercept>
+  <USH_GE_DischargeTimeLeft>Temps restant avant décharge : {0}</USH_GE_DischargeTimeLeft>
+  <USH_GE_SolarFlareInterceptedLabel>Éruption solaire interceptée</USH_GE_SolarFlareInterceptedLabel>
+  <USH_GE_SolarFlareInterceptedText>Les banques installées (×{0}) ont intercepté l'éruption solaire et déchargeront progressivement l'énergie accumulée dans le réseau.</USH_GE_SolarFlareInterceptedText>
+  <USH_GE_EnterBiocoder>Entrer dans la chambre de biocodage</USH_GE_EnterBiocoder>
+  <USH_GE_CarryToBiocoder>Apporter {0} à la chambre de biocodage</USH_GE_CarryToBiocoder>
+  <USH_GE_CannotCarryToBiocoder>Impossible d'apporter à la chambre de biocodage</USH_GE_CannotCarryToBiocoder>
+  <USH_GE_NoBiocoder>Aucune chambre de biocodage disponible.</USH_GE_NoBiocoder>
+  <USH_GE_CommandBiocoderEject>Éjecter le contenu de la chambre</USH_GE_CommandBiocoderEject>
+  <USH_GE_CommandBiocoderEjectDesc>Réveiller l'hôte de bioprint contenu dans la chambre et l'éjecter.</USH_GE_CommandBiocoderEjectDesc>
+  <USH_GE_CommandBiocoderEjectFailEmpty>La chambre est vide.</USH_GE_CommandBiocoderEjectFailEmpty>
+  <USH_GE_UseMemoryCellEmpty>Utiliser {0}</USH_GE_UseMemoryCellEmpty>
+  <USH_GE_CannotExtract>Extraction impossible</USH_GE_CannotExtract>
+  <USH_GE_NoEmotion>Aucune émotion</USH_GE_NoEmotion>
+  <USH_GE_NoMemories>Aucun souvenir</USH_GE_NoMemories>
+  <USH_GE_RecentExtraction>Affaibli par une extraction récente</USH_GE_RecentExtraction>
+  <USH_GE_WillExtract>Extraction prévue</USH_GE_WillExtract>
+  <USH_GE_CommandChoosePawnToExtract>Choisir la cible de l'extraction</USH_GE_CommandChoosePawnToExtract>
+  <USH_GE_OrderTeleportHere>Téléporter la cible</USH_GE_OrderTeleportHere>
+  <USH_GE_OrderTeleportHereDesc>Choisir une cible à téléporter ici</USH_GE_OrderTeleportHereDesc>
+  <USH_GE_OrderTeleportAll>Téléporter tout le monde ici</USH_GE_OrderTeleportAll>
+  <USH_GE_OrderTeleportAllDesc>Téléporter ici tous les pions sous votre contrôle équipés d'un implant intégrateur de télépad.\n\nPour vous téléporter :\n{0}</USH_GE_OrderTeleportAllDesc>
+  <USH_GE_OrderTeleportPlanet>Téléporter une cible distante</USH_GE_OrderTeleportPlanet>
+  <USH_GE_OrderTeleportPlanetDesc>Téléporter ici une cible sélectionnée sur une autre carte et équipée d'un implant intégrateur de télépad.\n\nLa téléportation à longue distance plonge les êtres non mécaniques dans un coma de télépad dont la durée dépend de la distance.</USH_GE_OrderTeleportPlanetDesc>
+  <USH_GE_CannotTeleport>Téléportation impossible</USH_GE_CannotTeleport>
+  <USH_GE_TooClose>Trop près du télépad</USH_GE_TooClose>
+  <USH_GE_MissingIntegrator>Implant intégrateur de télépad manquant</USH_GE_MissingIntegrator>
+  <USH_GE_NoTeleportablePawns>Aucune cible téléportable</USH_GE_NoTeleportablePawns>
+  <USH_GE_CommandChoosePawnToTeleport>Choisir la cible à téléporter</USH_GE_CommandChoosePawnToTeleport>
+  <USH_GE_TeleportReason>Provoqué par un changement soudain de position.</USH_GE_TeleportReason>
+  <USH_GE_NauseaMsg>Le changement soudain de position a donné la nausée du télépad à {PAWN}.</USH_GE_NauseaMsg>
+  <USH_GE_ComaMsg>Durée du coma : {0}</USH_GE_ComaMsg>
+  <USH_GE_InsertMemoryCell>Insérer {0} dans le conteneur de cellules</USH_GE_InsertMemoryCell>
+  <USH_GE_CannotInsert>Insertion impossible</USH_GE_CannotInsert>
+  <USH_GE_ContainerFull>Conteneur plein</USH_GE_ContainerFull>
+  <USH_GE_CommandChooseContainer>Choisir un conteneur</USH_GE_CommandChooseContainer>
+  <USH_GE_ExpireRate>Vitesse d'expiration</USH_GE_ExpireRate>
+  <USH_GE_ExpiresIn>Expire dans</USH_GE_ExpiresIn>
+  <USH_GE_Expired>{0} a expiré.</USH_GE_Expired>
+  <USH_GE_InstalledMods>Modificateurs installés</USH_GE_InstalledMods>
+  <USH_GE_MaxInstalledMods>Nombre maximal de modificateurs de ce type atteint</USH_GE_MaxInstalledMods>
+  <USH_GE_CommandEraseMemory>Effacer la mémoire</USH_GE_CommandEraseMemory>
+  <USH_GE_CommandEraseMemoryDesc>Détruire la mémoire stockée et tous ses modificateurs pour permettre une nouvelle extraction.</USH_GE_CommandEraseMemoryDesc>
+  <USH_GE_CommandMemoryContainerEject>Éjecter la cellule contenue</USH_GE_CommandMemoryContainerEject>
+  <USH_GE_CommandMemoryContainerEjectDesc>Retirer la cellule mémoire du conteneur interne et la déposer à proximité.</USH_GE_CommandMemoryContainerEjectDesc>
+  <USH_GE_CommandMemoryContainerEjectFailEmpty>Le conteneur est vide.</USH_GE_CommandMemoryContainerEjectFailEmpty>
+  <USH_GE_CommandUpgradeEject>Éjecter la lentille d'amélioration</USH_GE_CommandUpgradeEject>
+  <USH_GE_CommandUpgradeEjectDesc>Retirer les instructions de la lentille du revêtement de mécanites et les placer dans une alvéole au sol.</USH_GE_CommandUpgradeEjectDesc>
+  <USH_GE_CommandUpgradeEjectFailEmpty>Aucune lentille d'amélioration.</USH_GE_CommandUpgradeEjectFailEmpty>
+  <USH_GE_LetterLabelADPShortCircuit>Bzzzt…</USH_GE_LetterLabelADPShortCircuit>
+  <USH_GE_ADPShortCircuit>Une simulation en surcharge dans {0} a provoqué une décharge d'énergie avec des effets d'ADP.</USH_GE_ADPShortCircuit>
+  <USH_GE_ADPShortCircuitStartedFire>Une simulation en surcharge dans {0} a provoqué une décharge d'énergie avec des effets d'ADP et déclenché un incendie.</USH_GE_ADPShortCircuitStartedFire>
+  <USH_GE_ADPShortCircuitDischargedEnergy>Toute l'énergie ({0} Wd) des batteries connectées a été libérée dans une explosion électrique.</USH_GE_ADPShortCircuitDischargedEnergy>
+  <USH_GE_ADPShortCircuitWasLarge>Cette grande quantité d'énergie a provoqué une explosion d'ADP considérable.</USH_GE_ADPShortCircuitWasLarge>
+  <USH_GE_LetterLabelOverclockIncident>Fssss…</USH_GE_LetterLabelOverclockIncident>
+  <USH_GE_OverclockIncident>Un mouvement agressif de mécanites dans {0} a fait surchauffer l'arme et libérer des produits chimiques inflammables.</USH_GE_OverclockIncident>
+  <USH_GE_OverclockIncidentShort>{0} s'est déstabilisé et a explosé</USH_GE_OverclockIncidentShort>
+  <USH_GE_Overclocked>Surcadencé</USH_GE_Overclocked>
+  <USH_GE_Overclock>Surcadencer</USH_GE_Overclock>
+  <USH_GE_OverclockDesc>Surcadencé par un revêtement de mécanites avancées conçu pour améliorer le rendement des composants internes de l'arme.\n\nLes armes dotées de ce mécanisme puissant mais instable peuvent s'enflammer spontanément, sauf si elles sont stabilisées par des améliorations ou utilisées par un pion ininflammable.\n\nLe surcadençage accorde les statistiques suivantes :</USH_GE_OverclockDesc>
+  <USH_GE_GammaSerumFail>Le sérum gamma n'a pas convaincu {PAWN}. Le processus continue.</USH_GE_GammaSerumFail>
+  <USH_GE_GammaSerumFailHarm>Le sérum gamma n'a pas convaincu {PAWN} et lui a causé de légers dommages cérébraux. Le processus continue.</USH_GE_GammaSerumFailHarm>
+  <USH_GE_GammaSerumFailFinal>Le sérum gamma injecté à {PAWN} a cessé d'agir sans succès.</USH_GE_GammaSerumFailFinal>
+  <USH_GE_GammaSerumSuccess>Résultat du sérum gamma</USH_GE_GammaSerumSuccess>
+  <USH_GE_GammaSerumSuccessDesc>Le sérum gamma a réussi à briser la volonté de {PAWN}, qui acceptera désormais tout ce qu'on lui dira.</USH_GE_GammaSerumSuccessDesc>
+  <USH_GE_CommandChooseFirearm>Choisir une arme à feu surcadencée</USH_GE_CommandChooseFirearm>
+  <USH_GE_NotOverclockable>Ne peut pas être surcadencé</USH_GE_NotOverclockable>
+  <USH_GE_CannotInstall>Installation impossible</USH_GE_CannotInstall>
+  <USH_GE_InstallUpgrade>Installer {0} sur l'arme à feu</USH_GE_InstallUpgrade>
+  <USH_GE_SlotTaken>Emplacement d'amélioration occupé</USH_GE_SlotTaken>
+  <USH_GE_NotOverclocked>Non surcadencé</USH_GE_NotOverclocked>
+  <USH_GE_UpgradeSlot>Emplacement d'amélioration</USH_GE_UpgradeSlot>
+  <USH_GE_Empty>Vide</USH_GE_Empty>
+  <USH_GE_SocketEmptyDesc>Emplacement d'amélioration vide permettant d'ajouter des instructions au revêtement de mécanites.</USH_GE_SocketEmptyDesc>
+  <USH_GE_NeutroamineJobString>Extraction de neutroamine à partir de {0}</USH_GE_NeutroamineJobString>
+  <USH_GE_NeutroamineRecipeLabel>Extraire x{1} neutroamine de {0}</USH_GE_NeutroamineRecipeLabel>
+  <USH_GE_NeutroamineRecipeDesc>Extraire (neutroamine ×{0}) à partir de ({2} ×{1})</USH_GE_NeutroamineRecipeDesc>
+  <USH_GE__BurstShotSpeedMultiplier>Multiplicateur de cadence de tir</USH_GE__BurstShotSpeedMultiplier>
+  <USH_GE__BurstShotSpeedMultiplierDesc>Multiplicateur appliqué au délai entre les tirs de cette arme.</USH_GE__BurstShotSpeedMultiplierDesc>
+  <USH_GE_ModsTab>Modifications</USH_GE_ModsTab>
+  <USH_GE_MoodMultipliers>Multiplicateurs d'humeur</USH_GE_MoodMultipliers>
+  <USH_GE_PositiveMem>Souvenir positif</USH_GE_PositiveMem>
+  <USH_GE_NegativeEnjoyer>Amateur de souvenirs négatifs</USH_GE_NegativeEnjoyer>
+  <USH_GE_MemPylon>Pylône mémoriel</USH_GE_MemPylon>
+  <USH_GE_FormingMultiplierSetting>Multiplicateur de durée de formation</USH_GE_FormingMultiplierSetting>
+  <USH_GE_FormingMultiplierSettingDesc>La durée totale de formation dans le fabricant de glittertech sera multipliée par {0}.</USH_GE_FormingMultiplierSettingDesc>
+  <USH_GE_PositiveMultiplierSetting>Multiplicateur d'humeur des cellules positives</USH_GE_PositiveMultiplierSetting>
+  <USH_GE_PositiveMultiplierSettingDesc>Le modificateur d'humeur de base des souvenirs positifs clonés sera multiplié par {0}.</USH_GE_PositiveMultiplierSettingDesc>
+  <USH_GE_NegativeMultiplierSetting>Multiplicateur d'humeur des cellules négatives</USH_GE_NegativeMultiplierSetting>
+  <USH_GE_NegativeMultiplierSettingDesc>Le modificateur d'humeur de base des souvenirs négatifs clonés sera multiplié par {0}.</USH_GE_NegativeMultiplierSettingDesc>
+  <USH_GE_PylonMultiplierSetting>Multiplicateur d'humeur du pylône mémoriel</USH_GE_PylonMultiplierSetting>
+  <USH_GE_PylonMultiplierSettingDesc>Le modificateur d'humeur des pensées liées au pylône mémoriel sera multiplié par {0}.</USH_GE_PylonMultiplierSettingDesc>
+  <USH_GE_SkinSetting>Désactiver le changement de couleur de peau</USH_GE_SkinSetting>
+  <USH_GE_SkinSettingDesc>Si cette option est désactivée, les remplacements de peau modifient la couleur de peau du pion selon celle de la ressource de remplacement.\nSi vous l’activez, cela n’affectera pas les implants déjà installés. Il faudra opérer de nouveau le pion pour lui rendre sa couleur de peau par défaut.</USH_GE_SkinSettingDesc>
+  <USH_GE_NeutroamineSetting>Ingrédients doublés pour l'extraction de neutroamine</USH_GE_NeutroamineSetting>
+  <USH_GE_NeutroamineSettingDesc>Lorsque cette option est activée, les recettes d'extraction nécessitent deux fois plus d'ingrédients. Utilisez-la si l'extracteur est trop puissant pour votre partie. Un redémarrage du jeu est nécessaire.</USH_GE_NeutroamineSettingDesc>
+  <USH_GE_ResetSettings>Rétablir les options par défaut</USH_GE_ResetSettings>
+  <USH_GE_LetterLabelGlittershipChunk>Débris de Glitterworld</USH_GE_LetterLabelGlittershipChunk>
+  <USH_GE_LetterGlittershipChunk>Un mystérieux fragment de débris de Glitterworld s'est écrasé à proximité.\n\nLa perturbation importante du champ énergétique alentour provoquera de fréquents éclairs.\n\nDétruisez-le pour en extraire de précieuses ressources. Mais prenez garde : il se défendra probablement.</USH_GE_LetterGlittershipChunk>
+</LanguageData>

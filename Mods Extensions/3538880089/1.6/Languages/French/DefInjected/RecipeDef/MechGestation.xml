@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EM_Mechanoid_Mech_Servitor_Blaster.label>Engendrer un destroyer kataphron (canon à éclairs)</EM_Mechanoid_Mech_Servitor_Blaster.label>
+  <EM_Mechanoid_Mech_Servitor_Blaster.description>Engendrer un destroyer kataphron équipé d'un canon à éclairs.</EM_Mechanoid_Mech_Servitor_Blaster.description>
+  <EM_Mechanoid_Mech_Servitor_Minigun.label>Engendrer un destroyer kataphron (mitrailleuse)</EM_Mechanoid_Mech_Servitor_Minigun.label>
+  <EM_Mechanoid_Mech_Servitor_Minigun.description>Engendrer un destroyer kataphron équipé d'une mitrailleuse.</EM_Mechanoid_Mech_Servitor_Minigun.description>
+  <EM_Mechanoid_Mech_Servitor_Flamer.label>Engendrer un destroyer kataphron (lance-flammes)</EM_Mechanoid_Mech_Servitor_Flamer.label>
+  <EM_Mechanoid_Mech_Servitor_Flamer.description>Engendrer un destroyer kataphron équipé d'un lance-flammes.</EM_Mechanoid_Mech_Servitor_Flamer.description>
+  <EM_Mechanoid_Mech_Servitor_Breacher.label>Engendrer un briseur kataphron</EM_Mechanoid_Mech_Servitor_Breacher.label>
+  <EM_Mechanoid_Mech_Servitor_Breacher.description>Engendrer un briseur kataphron.</EM_Mechanoid_Mech_Servitor_Breacher.description>
+  <Mech_EM_Mechanoid_ServoSkull_Hauling.label>Engendrer un crâne monotâche (transport)</Mech_EM_Mechanoid_ServoSkull_Hauling.label>
+  <Mech_EM_Mechanoid_ServoSkull_Hauling.description>Engendrer un crâne monotâche spécialisé dans le transport.</Mech_EM_Mechanoid_ServoSkull_Hauling.description>
+</LanguageData>

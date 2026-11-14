@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RE.MustPlaceHeaterWithFreeSpaces>Le côté chaud de la cheminée doit être dégagé.</RE.MustPlaceHeaterWithFreeSpaces>
+  <RE.SetTerrainEdgesLabel>Définir les bordures du terrain</RE.SetTerrainEdgesLabel>
+  <RE.SetTerrainEdgesDesc>Le terrain de cette zone sera affiché avec des bordures personnalisées.</RE.SetTerrainEdgesDesc>
+  <RE.ResetTerrainEdgesLabel>Réinitialiser les bordures du terrain</RE.ResetTerrainEdgesLabel>
+  <RE.ResetTerrainEdgesDesc>Réinitialiser la zone des bordures personnalisées du terrain.</RE.ResetTerrainEdgesDesc>
+  <RE.TerrainEdgeTypeHard>Nettes</RE.TerrainEdgeTypeHard>
+  <RE.TerrainEdgeTypeFade>Fondu</RE.TerrainEdgeTypeFade>
+  <RE.TerrainEdgeTypeFadeRough>Fondu (irrégulier)</RE.TerrainEdgeTypeFadeRough>
+  <RE.WallArmorMustBePlacedOnWall>L'armure murale doit être construite sur un mur existant.</RE.WallArmorMustBePlacedOnWall>
+  <RE.EnableDiagonal>Activer {0} en diagonale</RE.EnableDiagonal>
+</LanguageData>
