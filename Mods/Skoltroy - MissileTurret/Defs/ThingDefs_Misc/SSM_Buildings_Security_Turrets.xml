@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RNTurret_SSM</defName>
+    <label>SSM turret</label>
+    <description>A surface-to-surface missile (SSM) or ground-to-ground missile (GGM) is a missile designed to be launched from the ground or the sea and strike targets on land or at sea. A self-loading, automatic turret. It can hit targets at any distance, over walls, but can be quite unreliable with it's failure to recognise hostiles at times especially those under the cover of smoke.</description>
+    <thingClass>Building_TurretGun</thingClass>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Security/SSM_Turret/RNSAM_Stand</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+      <drawOffset>(0,0,-0.16)</drawOffset>
+      <damageData>
+        <rect>(0.3,0.3,1.4,1.4)</rect>
+      </damageData>
+      <shadowData>
+        <offset>(-0.13,-0.87,-0.1)</offset>
+        <volume>(0.5,0.4,1.05)</volume>
+      </shadowData>
+    </graphicData>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <receivesSignals>true</receivesSignals>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+	<colorPerStuff>
+      <li>
+        <stuff>Steel</stuff>
+        <color>(224, 224, 224)</color>
+      </li>
+    </colorPerStuff>
+    <killedLeavings>
+      <ChunkSlagSteel>2</ChunkSlagSteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </killedLeavings>
+    <tickerType>Normal</tickerType>
+	<designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>7.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>2500</basePowerConsumption>
+		    </li>
+    </comps>
+		<statBases>
+			<MaxHitPoints>5000</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+			<WorkToBuild>500</WorkToBuild>
+			<Mass>250</Mass>
+			<Beauty>+60</Beauty>
+		</statBases>
+    <damageMultipliers>
+      <li>
+        <damageDef>Flame</damageDef>
+        <multiplier>0.75</multiplier>
+      </li>
+    </damageMultipliers>
+    <building>
+			<buildingTags>
+				<li>RNArtillery</li>
+			</buildingTags>
+      <combatPower>5000</combatPower>
+      <turretGunDef>RNArtillery_SSMTurret</turretGunDef>
+      <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>4.0</turretBurstCooldownTime>
+      <turretInitialCooldownTime>3.0</turretInitialCooldownTime>
+    </building>
+    <uiIconPath>UI/Icons/SSMGun_MenuIcon</uiIconPath>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_TurretTop</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>GunTurrets</li>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>RNArtillery_SSMTurret</defName>
+    <label>SSM Turret</label>
+    <graphicData>
+      <texPath>Things/Building/Security/SSM_Turret/RNSAM_Top</texPath>
+	<drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <weaponTags>
+      <li>RNArtillery_BaseDestroyer</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>RNBullet_SSM</defaultProjectile>
+        <forcedMissRadius>0.9</forcedMissRadius>
+        <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+        <warmupTime>4</warmupTime>
+        <minRange>30</minRange>
+        <range>5000</range>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>RNShotSSM_Launch</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <requireLineOfSight>false</requireLineOfSight>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  
+  <!-- faint -->
+
+	<!-- ================= Bomb mortar ================= -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>RNBullet_SSM</defName>
+		<label>SSM turret missile</label>
+		<graphicData>
+			<!--<texPath>Things/Projectile/ShellHighExplosive</texPath>-->
+			<texPath>Things/Projectile/SAM_Projectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>8000</damageAmountBase>
+			<speed>120</speed>
+			<explosionRadius>3</explosionRadius>
+			<flyOverhead>true</flyOverhead>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>SSM_Explosion</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+		</projectile>
+	</ThingDef>
+	
+
+</Defs>
