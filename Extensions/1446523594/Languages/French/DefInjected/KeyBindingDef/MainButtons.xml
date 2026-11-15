@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MintMenus_BuildMenu.label>Menu de construction Mint</MintMenus_BuildMenu.label>
+  <MintMenus_MintResearch.label>Menu de recherche Mint</MintMenus_MintResearch.label>
+  <MintMenus_MintWheel.label>Roue Mint</MintMenus_MintWheel.label>
+  <MintMenus_MintBillMenu.label>Menu des factures Mint</MintMenus_MintBillMenu.label>
+  <MintMenus_PinningHide.label>Masquer l'affichage des ressources (sauf les ressources épinglées)</MintMenus_PinningHide.label>
+  <MintMenus_MintGearMenu.label>Menu d'équipement Mint</MintMenus_MintGearMenu.label>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <kathanon.SearchableMenus.ThresholdTitle>Nombre minimal d'options</kathanon.SearchableMenus.ThresholdTitle>
+  <kathanon.SearchableMenus.ThresholdDesc>Ajoute un champ de recherche aux menus ayant au moins ce nombre d'options.</kathanon.SearchableMenus.ThresholdDesc>
+  <kathanon.SearchableMenus.RecursiveTitle>Inclure les sous-menus</kathanon.SearchableMenus.RecursiveTitle>
+  <kathanon.SearchableMenus.RecursiveDesc>Lorsque cette option est activée, les sous-menus sont inclus dans le menu principal pour la recherche et le calcul du nombre minimal d'options.</kathanon.SearchableMenus.RecursiveDesc>
+</LanguageData>

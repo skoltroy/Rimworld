@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MQM_SettingsCategory>Menu de quêtes moderne</MQM_SettingsCategory>
+  <MQM_WindowScale>Échelle de la fenêtre : {0}</MQM_WindowScale>
+  <MQM_WindowScaleDesc>Réduit uniformément l'ensemble de l'onglet. À 100 %, la fenêtre s'adapte automatiquement à l'écran.</MQM_WindowScaleDesc>
+  <MQM_LockLayout>Verrouiller la disposition des panneaux</MQM_LockLayout>
+  <MQM_LockLayoutTip>Empêche de déplacer, redimensionner ou réduire les panneaux par inadvertance.</MQM_LockLayoutTip>
+  <MQM_HideBroken>Masquer les quêtes défectueuses ou générées partiellement</MQM_HideBroken>
+  <MQM_HideBrokenTip>Exclut les quêtes dont la description n'a pas pu être générée (affichant « ERR:... » ou un texte vide). Désactivée par défaut : toutes les quêtes répertoriées par le jeu restent visibles.</MQM_HideBrokenTip>
+  <MQM_ResetLayout>Rétablir la disposition par défaut</MQM_ResetLayout>
+  <MQM_Quests>Quêtes</MQM_Quests>
+  <MQM_Counts>{0} disponibles, {1} actives, {2} archivées</MQM_Counts>
+  <MQM_PanelQuestList>Liste des quêtes</MQM_PanelQuestList>
+  <MQM_PanelQuestDetails>Détails de la quête</MQM_PanelQuestDetails>
+  <MQM_PanelRewards>Récompenses</MQM_PanelRewards>
+  <MQM_PanelAllRewards>Toutes les récompenses disponibles</MQM_PanelAllRewards>
+  <MQM_PanelPinned>Épinglées</MQM_PanelPinned>
+  <MQM_TabAvailable>Disponibles</MQM_TabAvailable>
+  <MQM_TabActive>Actives</MQM_TabActive>
+  <MQM_TabHistorical>Archivées</MQM_TabHistorical>
+  <MQM_Prefs>Options</MQM_Prefs>
+  <MQM_ClearAll>Tout retirer</MQM_ClearAll>
+  <MQM_ClearAllTip>Désépingler toutes les quêtes</MQM_ClearAllTip>
+  <MQM_RestorePanel>Restaurer le panneau</MQM_RestorePanel>
+  <MQM_MinimisePanel>Réduire le panneau</MQM_MinimisePanel>
+  <MQM_Close>Fermer</MQM_Close>
+  <MQM_SwitchToVanilla>Basculer vers la fenêtre de quêtes du jeu de base</MQM_SwitchToVanilla>
+  <MQM_SwitchToModern>Basculer vers le Menu de quêtes moderne</MQM_SwitchToModern>
+  <MQM_LockLocked>Disposition verrouillée. Clic gauche pour déverrouiller.</MQM_LockLocked>
+  <MQM_LockUnlocked>Disposition déverrouillée. Clic gauche pour verrouiller.</MQM_LockUnlocked>
+  <MQM_LockResetHint>Clic droit pour rétablir la disposition par défaut.</MQM_LockResetHint>
+  <MQM_ModeFloating>Fenêtre flottante. Cliquez pour l'ancrer à la barre de menu.</MQM_ModeFloating>
+  <MQM_ModeDocked>Mode ancré à la barre de menu. Cliquez pour ouvrir une fenêtre redimensionnable.</MQM_ModeDocked>
+  <MQM_Pin>Épingler</MQM_Pin>
+  <MQM_Unpin>Désépingler</MQM_Unpin>
+  <MQM_PinQuest>Épingler la quête</MQM_PinQuest>
+  <MQM_UnpinQuest>Désépingler la quête</MQM_UnpinQuest>
+  <MQM_DismissQuest>Ignorer la quête</MQM_DismissQuest>
+  <MQM_ResumeQuest>Reprendre la quête</MQM_ResumeQuest>
+  <MQM_PinSelectFirst>Épingler la quête (sélectionnez d'abord une quête)</MQM_PinSelectFirst>
+  <MQM_DismissSelectFirst>Ignorer la quête (sélectionnez d'abord une quête)</MQM_DismissSelectFirst>
+  <MQM_QuestDismissedResume>Quête ignorée. Cliquez pour la reprendre.</MQM_QuestDismissedResume>
+  <MQM_AcceptSelectFirst>Accepter la quête (sélectionnez d'abord une quête)</MQM_AcceptSelectFirst>
+  <MQM_AcceptAlready>Accepter la quête (déjà acceptée ou terminée)</MQM_AcceptAlready>
+  <MQM_AcceptViaRewardTip>Cette quête propose plusieurs récompenses. Acceptez-la avec un bouton « Accepter pour : » dans le panneau Récompenses.</MQM_AcceptViaRewardTip>
+  <MQM_AcceptViaReward>Accepter en choisissant une récompense dans le panneau Récompenses.</MQM_AcceptViaReward>
+  <MQM_SearchHint>Rechercher des quêtes...</MQM_SearchHint>
+  <MQM_OptionOf>(option {0} sur {1})</MQM_OptionOf>
+  <MQM_Goodwill>bonne volonté : {0}</MQM_Goodwill>
+  <MQM_ClickToOpen>Cliquez pour ouvrir cette quête</MQM_ClickToOpen>
+  <MQM_NoQuestSelected>(aucune quête sélectionnée)</MQM_NoQuestSelected>
+  <MQM_NoQuests>(aucune quête)</MQM_NoQuests>
+  <MQM_NoPinned>(aucune quête épinglée ; cliquez sur l'icône d'épingle d'une quête)</MQM_NoPinned>
+  <MQM_NoRewardChoices>(aucune récompense proposée)</MQM_NoRewardChoices>
+  <MQM_BrowserHint>Sélectionnez une quête à gauche ou cliquez sur une récompense pour ouvrir sa quête.</MQM_BrowserHint>
+  <MQM_NoSelectableRewards>(cette quête ne propose aucune récompense sélectionnable)</MQM_NoSelectableRewards>
+  <MQM_OutcomeCompleted>Quête accomplie</MQM_OutcomeCompleted>
+  <MQM_OutcomeFailed>Quête échouée</MQM_OutcomeFailed>
+  <MQM_OutcomeEnded>Quête terminée</MQM_OutcomeEnded>
+  <MQM_FlagDismissed>ignorée</MQM_FlagDismissed>
+  <MQM_FlagSuccess>réussie</MQM_FlagSuccess>
+  <MQM_FlagFailed>échouée</MQM_FlagFailed>
+  <MQM_FlagEnded>terminée</MQM_FlagEnded>
+  <MQM_ExpiresIn>Expire dans {0}</MQM_ExpiresIn>
+  <MQM_FinishedAgo>Terminée depuis {0}</MQM_FinishedAgo>
+  <MQM_AcceptedAgo>Acceptée depuis {0}</MQM_AcceptedAgo>
+  <MQM_DevShowHidden>DEV : afficher les quêtes masquées ({0})</MQM_DevShowHidden>
+  <MQM_DevOn>ACTIVÉ</MQM_DevOn>
+  <MQM_DevOff>DÉSACTIVÉ</MQM_DevOff>
+  <MQM_DevAcceptInstant>DEV : accepter immédiatement la quête sélectionnée (récompense et colon choisi au hasard)</MQM_DevAcceptInstant>
+  <MQM_DevGenerate>DEV : générer une quête...</MQM_DevGenerate>
+  <MQM_DevDelete>DEV : supprimer la quête sélectionnée</MQM_DevDelete>
+  <MQM_DevGenerated>DEV : quête « {0} » générée</MQM_DevGenerated>
+  <MQM_SnipRelicOne>Nous détenons {0}</MQM_SnipRelicOne>
+  <MQM_SnipRelicTheir>leur relique</MQM_SnipRelicTheir>
+  <MQM_SnipRelicMany>Nous détenons {0} de leurs reliques</MQM_SnipRelicMany>
+  <MQM_SnipMoveOne>{0} en déplacement</MQM_SnipMoveOne>
+  <MQM_SnipMoveMany>{0} groupes en déplacement</MQM_SnipMoveMany>
+  <MQM_SnipQuestAlso>Également : {0}</MQM_SnipQuestAlso>
+  <MQM_SnipTitleOne>{0} : {1}</MQM_SnipTitleOne>
+  <MQM_SnipTitleMany>Leurs titres sont détenus par {0} colons</MQM_SnipTitleMany>
+  <MQM_SnipRelicGrudge>Détenir la relique idéologique d'une autre faction suscite sa rancune : hostilité et raids de récupération.</MQM_SnipRelicGrudge>
+  <MQM_SnipClickView>Cliquez pour afficher.</MQM_SnipClickView>
+  <MQM_TagRelic>Relique</MQM_TagRelic>
+  <MQM_TagMovement>Déplacement</MQM_TagMovement>
+  <MQM_TagQuest>Quête</MQM_TagQuest>
+  <MQM_TagEvent>Événement</MQM_TagEvent>
+  <MQM_TagTitle>Titre</MQM_TagTitle>
+  <MQM_TagTitles>Titres</MQM_TagTitles>
+</LanguageData>
