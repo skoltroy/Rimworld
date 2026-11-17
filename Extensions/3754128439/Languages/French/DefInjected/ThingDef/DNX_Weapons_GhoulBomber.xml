@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_HAD09Ghoul_Incoming.label>HAD-09 « Ghoul »</DNX_HAD09Ghoul_Incoming.label>
+  <DNX_HAD09Ghoul_Incoming.description>Le HAD-09 « Ghoul » est un bombardier sans pilote à haute altitude conçu pour les frappes en profondeur et la destruction de cibles prioritaires. Il effectue des passes d’attaque rapides avec des micro-missiles de précision ou une bombe aérienne de classe 500 kg, puis regagne un espace aérien éloigné pour être réapprovisionné, entretenu et recevoir un nouvel itinéraire.</DNX_HAD09Ghoul_Incoming.description>
+  <DNX_HAD09Ghoul_Leaving.label>HAD-09 « Ghoul »</DNX_HAD09Ghoul_Leaving.label>
+  <DNX_HAD09Ghoul_Leaving.description>Le HAD-09 « Ghoul » est un bombardier sans pilote à haute altitude conçu pour les frappes en profondeur et la destruction de cibles prioritaires. Il effectue des passes d’attaque rapides avec des micro-missiles de précision ou une bombe aérienne de classe 500 kg, puis regagne un espace aérien éloigné pour être réapprovisionné, entretenu et recevoir un nouvel itinéraire.</DNX_HAD09Ghoul_Leaving.description>
+  <DNX_Projectile_HAD09_500kgBomb.label>Bombe de 500 kg du HAD-09</DNX_Projectile_HAD09_500kgBomb.label>
+  <DNX_Projectile_HAD09MicroBomb.label>Micro-missile de précision du HAD-09</DNX_Projectile_HAD09MicroBomb.label>
+  <DNX_Projectile_HunterKillerArmorPiercingMissile.label>Missile perforant Hunter-Killer</DNX_Projectile_HunterKillerArmorPiercingMissile.label>
+  <DNX_Projectile_HunterKillerCannonShell.label>Obus de canon Hunter-Killer</DNX_Projectile_HunterKillerCannonShell.label>
+  <DNX_Projectile_HunterKillerEntryRocket.label>Roquette d’insertion Hunter-Killer</DNX_Projectile_HunterKillerEntryRocket.label>
+  <DNX_Projectile_HunterKillerHeavyMissile.label>Missile lourd Hunter-Killer</DNX_Projectile_HunterKillerHeavyMissile.label>
+</LanguageData>

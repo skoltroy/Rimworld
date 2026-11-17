@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+    <DebugAction_DoIncident>Déclencher un incident...</DebugAction_DoIncident>
+    <DebugAction_DoIncidentX10>Déclencher un incident ×10...</DebugAction_DoIncidentX10>
+    <DebugAction_DoIncidentPointed>Déclencher un incident avec des points...</DebugAction_DoIncidentPointed>
+</LanguageData>

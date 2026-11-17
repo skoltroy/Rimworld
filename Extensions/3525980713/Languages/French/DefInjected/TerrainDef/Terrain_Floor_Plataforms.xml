@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Space.label>espace</Space.label>
+  <Space.description>Le vide spatial : on ne peut ni marcher ni construire dessus... à moins d'y installer des plateformes orbitales.</Space.description>
+  <OrbitalPlatform.label>plateforme orbitale</OrbitalPlatform.label>
+  <OrbitalPlatform.description>Une surface orbitale solide où l'on peut se déplacer dans l'espace. On peut y construire toutes sortes de structures.</OrbitalPlatform.description>
+  <MechanoidPlatform.label>plateforme mécanoïde</MechanoidPlatform.label>
+  <MechanoidPlatform.description>Une surface orbitale mécanoïde solide où l'on peut se déplacer dans l'espace. On peut y construire toutes sortes de structures.</MechanoidPlatform.description>
+</LanguageData>

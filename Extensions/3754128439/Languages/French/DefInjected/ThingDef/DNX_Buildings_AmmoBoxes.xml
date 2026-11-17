@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_GunLaunchedMissileAmmoBox.label>Boîte de munitions pour missiles tirés par canon</DNX_GunLaunchedMissileAmmoBox.label>
+  <DNX_GunLaunchedMissileAmmoBox.description>Une caisse d’alimentation spécialisée en missiles pour les tourelles Hammer de 120 mm. Lorsqu’elles sont reliées, les tourelles Hammer proches remplacent leurs obus standard de 120 mm par des missiles guidés tirés par canon tant que cette caisse contient des munitions.</DNX_GunLaunchedMissileAmmoBox.description>
+  <DNX_HighSpeedBeltFeeder.label>Alimentateur à bande haute vitesse</DNX_HighSpeedBeltFeeder.label>
+  <DNX_HighSpeedBeltFeeder.description>Un alimentateur compact pour les tourelles composites Gyrfalcon-M de 20 mm. Il se relie aux tourelles proches, leur fournit des munitions de 20 mm et peut alterner entre des bandes perforantes, à charge et explosives.</DNX_HighSpeedBeltFeeder.description>
+  <DNX_GunLaunchedMissileAmmoBox.comps.CompRefuelable.fuelGizmoLabel>Missiles tirés par canon</DNX_GunLaunchedMissileAmmoBox.comps.CompRefuelable.fuelGizmoLabel>
+  <DNX_GunLaunchedMissileAmmoBox.comps.CompRefuelable.fuelLabel>Missiles tirés par canon</DNX_GunLaunchedMissileAmmoBox.comps.CompRefuelable.fuelLabel>
+  <DNX_GunLaunchedMissileAmmoBox.comps.CompRefuelable.outOfFuelMessage>Plus de missiles tirés par canon.</DNX_GunLaunchedMissileAmmoBox.comps.CompRefuelable.outOfFuelMessage>
+  <DNX_HighSpeedBeltFeeder.comps.CompRefuelable.fuelGizmoLabel>Munitions à bande de 20 mm</DNX_HighSpeedBeltFeeder.comps.CompRefuelable.fuelGizmoLabel>
+  <DNX_HighSpeedBeltFeeder.comps.CompRefuelable.fuelLabel>Munitions à bande de 20 mm</DNX_HighSpeedBeltFeeder.comps.CompRefuelable.fuelLabel>
+  <DNX_HighSpeedBeltFeeder.comps.CompRefuelable.outOfFuelMessage>Munitions à bande de 20 mm épuisées.</DNX_HighSpeedBeltFeeder.comps.CompRefuelable.outOfFuelMessage>
+</LanguageData>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+    <DebugAction_MakeColonyFull>Créer une colonie (complète)</DebugAction_MakeColonyFull>
+    <DebugAction_MakeColonyAnimals>Créer une colonie (animaux)</DebugAction_MakeColonyAnimals>
+    <DebugAction_TestForceDownedx100>Tester la mise à terre forcée x100</DebugAction_TestForceDownedx100>
+    <DebugAction_TestForceKillx100>Tester le meurtre forcé x100</DebugAction_TestForceKillx100>
+    <DebugAction_TestSurgeryFailCatastrophicx100>Tester l'échec chirurgical catastrophique x100</DebugAction_TestSurgeryFailCatastrophicx100>
+    <DebugAction_TestSurgeryFailRidiculousx100>Tester l'échec chirurgical ridicule x100</DebugAction_TestSurgeryFailRidiculousx100>
+    <DebugAction_TestGeneratePawnx1000>Tester la génération de personnage x1000</DebugAction_TestGeneratePawnx1000>
+    <DebugAction_GeneratePawnsOfAllShapes>Générer des pions de toutes les morphologies</DebugAction_GeneratePawnsOfAllShapes>
+    <DebugAction_CheckRegionListers>Vérifier les RegionListers</DebugAction_CheckRegionListers>
+    <DebugAction_TestTimeToDown>Tester le temps avant la mise à terre</DebugAction_TestTimeToDown>
+    <DebugAction_BattleRoyaleAllPawnKinds>Battle Royale, tous les PawnKinds</DebugAction_BattleRoyaleAllPawnKinds>
+    <DebugAction_BattleRoyaleHumanlikes>Battle Royale, humanoïdes</DebugAction_BattleRoyaleHumanlikes>
+    <DebugAction_BattleRoyaleByDamagetype>Battle Royale par type de dégâts</DebugAction_BattleRoyaleByDamagetype>
+</LanguageData>

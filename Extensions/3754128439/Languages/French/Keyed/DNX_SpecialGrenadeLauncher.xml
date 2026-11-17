@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_LaunchShowerSmokeGrenade>Lancer une grenade fumigène en tir plongeant</DNX_LaunchShowerSmokeGrenade>
+  <DNX_LaunchShowerSmokeGrenadeDesc>Choisissez manuellement un point d’impact et lancez une grenade fumigène en tir plongeant.</DNX_LaunchShowerSmokeGrenadeDesc>
+  <DNX_LaunchShowerEMPGrenade>Lancer une grenade IEM en tir plongeant</DNX_LaunchShowerEMPGrenade>
+  <DNX_LaunchShowerEMPGrenadeDesc>Choisissez manuellement un point d’impact et lancez une grenade IEM en tir plongeant.</DNX_LaunchShowerEMPGrenadeDesc>
+  <DNX_LaunchShowerStunGrenade>Lancer une grenade étourdissante en tir plongeant</DNX_LaunchShowerStunGrenade>
+  <DNX_LaunchShowerStunGrenadeDesc>Choisissez manuellement un point d’impact et lancez une grenade étourdissante en tir plongeant ; les cibles proches de l’explosion seront brièvement étourdies.</DNX_LaunchShowerStunGrenadeDesc>
+  <DNX_NoSpecialGrenadeConfigured>Aucune grenade spéciale n’est configurée.</DNX_NoSpecialGrenadeConfigured>
+  <DNX_SpecialGrenadeCoolingDown>La grenade spéciale recharge : {0}</DNX_SpecialGrenadeCoolingDown>
+  <DNX_GrenadeReserveInsufficient>Réserve de grenades insuffisante.</DNX_GrenadeReserveInsufficient>
+</LanguageData>

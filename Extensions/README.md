@@ -7,6 +7,25 @@ Ce dossier contient des extensions pour des mods RimWorld publiés sur Steam :
 
 | Date | ID | Dossier | Mod | Version déclarée / versions de RimWorld | Travail effectué |
 |---|---:|---|---|---|---|
+| 17/11/2026 | 1662119905 | `1662119905` | Dubs Mint Minimap | 1.3.821 (RW 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7) | Audit complet des ressources et Defs : les deux valeurs identiques à l’anglais (« Hostiles », « Silhouette ») sont correctes en français ; ressources préservées. |
+| 16/11/2026 | 1677616980 | `1677616980` | Bionic icons | Non déclarée (RW 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6) | Audit des ressources et Defs : aucune chaîne de jeu localisable ; aucune ressource FR créée. |
+| 16/11/2026 | 2009463077 | `2009463077` | Harmony | 3.0.1.0 (RW 1.2, 1.3, 1.4, 1.5, 1.6, 1.7) | Audit des ressources chargées : aucune chaîne de jeu à traduire. |
+| 17/11/2026 | 2142743468 | `2142743468` | Dev In Your Language | Non déclarée (RW 1.1, 1.2, 1.3, 1.4, 1.5, 1.6) | Audit complet de 2 758 clés/56 fichiers ; traduction des 7 candidats exacts, dont `DrawMapRooms` (« Afficher les pièces de la carte ») malgré la coquille source « Drap map rooms » ; chaînes substituées corrigées dans 24 fichiers, export validé. |
+| 16/11/2026 | 2202185773 | `2202185773` | Smarter Construction | Non déclarée (RW 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7) | Audit des Defs chargées : aucune chaîne de jeu localisable ; aucune ressource FR créée. |
+| 16/11/2026 | 2581693737 | `2581693737` | [NL] Facial Animation - Experimentals | Non déclarée (RW 1.3, 1.4, 1.5, 1.6, 1.7) | Audit des ressources et Defs chargées : aucune chaîne de jeu à traduire. |
+| 16/11/2026 | 2865361569 | `2865361569` | Clean Textures | Non déclarée (RW 1.3, 1.4, 1.5, 1.6) | Audit : mod de textures ; aucune ressource linguistique ou chaîne de Def à traduire. |
+| 16/11/2026 | 2888638004 | `2888638004` | Clean Textures Background | Non déclarée (RW 1.3, 1.4, 1.5, 1.6) | Audit : mod de fond d’écran ; aucune ressource linguistique ou chaîne de Def à traduire. |
+| 16/11/2026 | 2980467701 | `2980467701` | Turret Vanilla Retexture and Restyle | Non déclarée (RW 1.4, 1.5, 1.6, 1.7) | Audit : mod de textures ; aucune ressource linguistique ou chaîne de Def à traduire. |
+| 16/11/2026 | 3366505975 | `3366505975` | Food Texture Variety - Babies | Non déclarée (RW 1.5, 1.6, 1.7) | Audit des ressources et Defs chargées : aucune chaîne de jeu à traduire. |
+| 16/11/2026 | 3366513037 | `3366513037` | Food Texture Variety - Replacement | Non déclarée (RW 1.5, 1.6, 1.7) | Audit des ressources et Defs chargées : aucune chaîne de jeu à traduire. |
+| 17/11/2026 | 3403563363 | `3403563363` | Replace Context Menu | 1.2.9 (RW 1.5, 1.6) | Audit complet des 78 clés sur RW 1.5–1.6 ; traductions préservées, aucun candidat exact à corriger. |
+| 16/11/2026 | 3426432471 | `3426432471` | Animal Use Dispenser | Non déclarée (RW 1.5, 1.6, 1.7) | Audit des ressources et Defs chargées : aucune chaîne de jeu à traduire. |
+| 16/11/2026 | 3453364177 | `3453364177` | Rustic Meal Retexture | Non déclarée (RW 1.4, 1.5, 1.6, 1.7) | Audit : mod de textures ; aucune ressource linguistique ou chaîne de Def à traduire. |
+| 16/11/2026 | 3525980713 | `3525980713` | Orbital Platforms | Non déclarée (RW 1.6) | Audit : 8 traductions DefInjected déjà présentes dans le mod ; conservées et exportées sans modification. |
+| 16/11/2026 | 3545135569 | `3545135569` | Taste of Vanilla - Bean Turrets | Non déclarée (RW 1.5, 1.6, 1.7) | Audit : mod de textures ; aucune ressource linguistique ou chaîne de Def à traduire. |
+| 17/11/2026 | 3697920753 | `3697920753` | Architect Menu Optimizer | Non déclarée (RW 1.6, 1.7) | Audit complet des 44 clés ; « Pagination » est un terme français valide et reste inchangé. |
+| 17/11/2026 | 3754128439 | `3754128439` | Defensive Network | Non déclarée (RW 1.5, 1.6) | Audit complet : 239 clés chinoises traduites, 42 champs DefInjected ajoutés et 2 descriptions complétées depuis le chinois ; 45 entrées vérifiées via commentaires EN/Defs. 20 labels internes « Mote » exclus de l’interface. XML/tokens et export SHA-256 vérifiés. |
+| 17/11/2026 | 974066449 | `974066449` | WeaponStats | Non déclarée (RW 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6) | Audit complet des 47 clés ; « Hostiles », « Grenades », « DPS » et le champ vide sont des valeurs françaises/techniques valides. |
 | Non documentée | 735106432 | `735106432` | EdB Prepare Carefully | Non déclarée (RW 1.1, 1.2, 1.3, 1.4, 1.5, 1.6) | Extension existante ; détail historique non consigné. |
 | Non documentée | 761421485 | `761421485` | Allow Tool | Non déclarée (RW 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6) | Extension existante ; détail historique non consigné. |
 | Non documentée | 818773962 | `818773962` | HugsLib | Non déclarée (RW 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6) | Extension existante ; détail historique non consigné. |

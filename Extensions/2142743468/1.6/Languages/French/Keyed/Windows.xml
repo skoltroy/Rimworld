@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+    <GearTab_AddToInventory>Donner un objet...</GearTab_AddToInventory>
+    <GearTab_DamageRandomApparel>Endommager un vêtement aléatoire</GearTab_DamageRandomApparel>
+    <GearTab_SetPrimary>Définir l'équipement principal...</GearTab_SetPrimary>
+    <GearTab_Wear>Donner un vêtement...</GearTab_Wear>
+    <HealthTab_AddHediff>Ajouter une affection...</HealthTab_AddHediff>
+    <HealthTab_DebugTooltip>Info-bulle de débogage</HealthTab_DebugTooltip>
+    <HealthTab_DebugTooltipDesc>Survolez les affections dans la fenêtre de santé pour afficher des informations de débogage supplémentaires.</HealthTab_DebugTooltipDesc>
+    <HealthTab_ShowHidden>Afficher les affections masquées</HealthTab_ShowHidden>
+</LanguageData>

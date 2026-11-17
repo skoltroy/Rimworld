@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_OperateFireControlConsole.label>utiliser la console de contrôle de tir globale</DNX_OperateFireControlConsole.label>
+  <DNX_OperateFireControlConsole.gerund>utilise la console de contrôle de tir globale</DNX_OperateFireControlConsole.gerund>
+  <DNX_OperateFireControlConsole.verb>utiliser</DNX_OperateFireControlConsole.verb>
+  <DNX_RefuelSecondaryRefuelable.label>réarmer les systèmes de tourelle secondaires</DNX_RefuelSecondaryRefuelable.label>
+  <DNX_RefuelSecondaryRefuelable.gerund>réarme les systèmes de tourelle secondaires</DNX_RefuelSecondaryRefuelable.gerund>
+  <DNX_RefuelSecondaryRefuelable.verb>réarmer</DNX_RefuelSecondaryRefuelable.verb>
+</LanguageData>

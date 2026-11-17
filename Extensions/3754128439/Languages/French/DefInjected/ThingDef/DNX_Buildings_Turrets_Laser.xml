@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_PrismLaserPointDefenseSystem.label>Système laser de défense rapprochée Prism</DNX_PrismLaserPointDefenseSystem.label>
+  <DNX_PrismLaserPointDefenseSystem.description>Un dispositif expérimental de défense laser rapprochée qui libère l’énergie de ses condensateurs par un émetteur prismatique pour intercepter les projectiles explosifs hostiles et perturber les capsules de largage ennemies entrantes. &lt;color=yellow&gt;Le système de défense rapprochée Prism peut détruire projectiles et drones, y compris les capsules de largage ennemies en descente, avec une probabilité de réussite assez élevée et un temps de recharge extrêmement court. Chaque interception consomme l’énergie des réseaux de condensateurs, et les limites des faisceaux à haute énergie réduisent fortement sa portée défensive.&lt;/color&gt;</DNX_PrismLaserPointDefenseSystem.description>
+  <DNX_PrismLaserPointDefenseSystem.comps.CompPrismLaserPointDefense.gizmoDescription>Active ou désactive l’interception automatique par laser des projectiles explosifs ennemis.</DNX_PrismLaserPointDefenseSystem.comps.CompPrismLaserPointDefense.gizmoDescription>
+  <DNX_PrismLaserPointDefenseSystem.comps.CompPrismLaserPointDefense.gizmoLabelOff>Défense rapprochée Prism : désactivée</DNX_PrismLaserPointDefenseSystem.comps.CompPrismLaserPointDefense.gizmoLabelOff>
+  <DNX_PrismLaserPointDefenseSystem.comps.CompPrismLaserPointDefense.gizmoLabelOn>Défense rapprochée Prism : activée</DNX_PrismLaserPointDefenseSystem.comps.CompPrismLaserPointDefense.gizmoLabelOn>
+  <DNX_PrismLaserPointDefenseSystem.comps.CompPrismLaserPointDefense.inspectLabel>Défense rapprochée Prism</DNX_PrismLaserPointDefenseSystem.comps.CompPrismLaserPointDefense.inspectLabel>
+  <DNX_SustainedLaserEmitter.label>Canon laser bimode M-33 « Maxwell »</DNX_SustainedLaserEmitter.label>
+  <DNX_SustainedLaserEmitter.description>Le M-33 « Maxwell » est une grande arme à énergie dirigée de forte puissance, capable de basculer entre les modes d’irradiation continue et de décharge de pointe selon les conditions du champ de bataille. L’irradiation continue brûle progressivement les boucliers énergétiques, mais reste peu efficace contre les mécanoïdes ; en mode de décharge de pointe, la tourelle libère l’énergie stockée en une seule impulsion pour frapper une cible avec une intensité extrême.</DNX_SustainedLaserEmitter.description>
+  <DNX_Turret_LaserChargeEmitter.label>Émetteur laser à charge</DNX_Turret_LaserChargeEmitter.label>
+  <DNX_Turret_LaserChargeEmitter.description>Une tourelle laser défensive expérimentale qui projette un faisceau de charge visible avant d’embraser une zone cible compacte.</DNX_Turret_LaserChargeEmitter.description>
+</LanguageData>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+    <DebugMenu_Logs>Ouvre le journal de débogage.</DebugMenu_Logs>
+    <DebugMenu_TweakValues>Ouvre le menu TweakValues.\n\nCela permet de modifier les valeurs internes.</DebugMenu_TweakValues>
+    <DebugMenu_ViewSettings>Ouvre les paramètres d'affichage.\n\nCela permet de voir les visuels de débogage spéciaux.</DebugMenu_ViewSettings>
+    <DebugMenu_DebugActions>Ouvre le menu des actions de débogage.\n\nCela permet de faire apparaître des objets et de forcer divers événements.</DebugMenu_DebugActions>
+    <DebugMenu_DebugLogging>Ouvre le menu de journalisation de débogage.</DebugMenu_DebugLogging>
+    <DebugMenu_Inspector>Ouvre l'inspecteur.\n\nCela permet d'inspecter ce qui se passe dans le jeu, jusqu'aux variables individuelles.</DebugMenu_Inspector>
+    <DebugMenu_GodMode>Active ou désactive le mode Dieu.\n\nQuand le mode Dieu est activé, vous pouvez construire instantanément, gratuitement, et déconstruire des objets qui ne vous appartiennent pas.</DebugMenu_GodMode>
+    <DebugMenu_DevPalette>Activer/désactiver la palette de développement.\n\nPermet de configurer une palette d'actions de débogage pour y accéder facilement.</DebugMenu_DevPalette>
+    <DebugMenu_PauseOnError>Met le jeu en pause lorsqu'une erreur est enregistrée.</DebugMenu_PauseOnError>
+</LanguageData>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+    <DebugAction_outputTranslationSource>écrire les fichiers source de traduction</DebugAction_outputTranslationSource>
+    <DevL10N.TranslationOutput.Writing>écriture des fichiers source de traduction</DevL10N.TranslationOutput.Writing>
+    <DevL10N.TranslationOutput.SavedTo>Sortie de traduction enregistrée dans {0}.</DevL10N.TranslationOutput.SavedTo>
+    <DevL10N.TranslationOutput.ExtraItemsFromLanguage>(éléments supplémentaires : {0})</DevL10N.TranslationOutput.ExtraItemsFromLanguage>
+    <DevL10N.TranslationOutput.RemovedItemsFromLanguage>(éléments inutilisés supprimés : {0})</DevL10N.TranslationOutput.RemovedItemsFromLanguage>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_Apparel_HunterDronePack.label>Sac de drone Hunter</DNX_Apparel_HunterDronePack.label>
+  <DNX_Apparel_HunterDronePack.description>Un sac de déploiement tactique compact contenant des drones de combat Hunter prêts à l’emploi. Son porteur peut lancer directement sur le champ de bataille des drones à usage unique.</DNX_Apparel_HunterDronePack.description>
+  <DNX_Apparel_HunterDronePack.comps.CompApparelReloadable.chargeNoun>drone préparé</DNX_Apparel_HunterDronePack.comps.CompApparelReloadable.chargeNoun>
+  <DNX_Apparel_HunterDronePack.comps.CompApparelReloadable.cooldownGerund>en cours de refroidissement</DNX_Apparel_HunterDronePack.comps.CompApparelReloadable.cooldownGerund>
+</LanguageData>

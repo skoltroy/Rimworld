@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_ActivePackDronesInspect>Drones actifs dans le sac : {0} / {1}</DNX_ActivePackDronesInspect>
+  <DNX_AlreadyReturning>Déjà en route pour le retour.</DNX_AlreadyReturning>
+  <DNX_AssignDronePatrolZone>Définir une zone de patrouille pour les drones</DNX_AssignDronePatrolZone>
+  <DNX_AssignDronePatrolZoneDesc>Définit une zone de commandement des drones d’un rayon de {0} cases. Les drones de combat Hunter actifs s’y rendent, la patrouillent et attaquent en priorité les menaces qui s’y trouvent.</DNX_AssignDronePatrolZoneDesc>
+  <DNX_AutoDeployDesc>Déploie automatiquement les drones prêts lorsqu’un ennemi est détecté à moins de {0} cases.</DNX_AutoDeployDesc>
+  <DNX_AutoDeployOff>Déploiement automatique : désactivé</DNX_AutoDeployOff>
+  <DNX_AutoDeployOn>Déploiement automatique : activé</DNX_AutoDeployOn>
+  <DNX_AutoResupplyDesc>Lance automatiquement des drones de réparation lorsqu’une tâche d’entretien de tourelle est active à proximité.</DNX_AutoResupplyDesc>
+  <DNX_AutoResupplyOff>Ravitaillement automatique : désactivé</DNX_AutoResupplyOff>
+  <DNX_AutoResupplyOn>Ravitaillement automatique : activé</DNX_AutoResupplyOn>
+  <DNX_DeployHunterDrone>Déployer un drone Hunter</DNX_DeployHunterDrone>
+  <DNX_DeployHunterDroneDockDesc>Lance manuellement un drone de combat Hunter stocké.</DNX_DeployHunterDroneDockDesc>
+  <DNX_DeployHunterDronePackDesc>Lance un drone de combat Hunter à usage unique depuis ce sac. Le drone adopte la faction de son porteur et ne peut pas retourner à sa plateforme.</DNX_DeployHunterDronePackDesc>
+  <DNX_DeployTinkerDrone>Déployer un drone réparateur</DNX_DeployTinkerDrone>
+  <DNX_DeployTinkerDroneDesc>Lance un drone réparateur qui réapprovisionne en munitions et répare les tourelles à proximité.</DNX_DeployTinkerDroneDesc>
+  <DNX_DroneAlreadyDeployed>Le drone est déjà déployé.</DNX_DroneAlreadyDeployed>
+  <DNX_DroneCommandPointAssigned>Point de commandement des drones défini. {0} drone(s) synchronisé(s).</DNX_DroneCommandPointAssigned>
+  <DNX_DroneCommandPointInspect>Point de commandement des drones : {0}</DNX_DroneCommandPointInspect>
+  <DNX_DroneLaunchCooldown>Temps de recharge du lancement des drones : {0}</DNX_DroneLaunchCooldown>
+  <DNX_DroneRearmDesc>Permet aux drones réparateurs de cette plateforme de réapprovisionner les tourelles en munitions.</DNX_DroneRearmDesc>
+  <DNX_DroneRearmOff>Réapprovisionnement en munitions par drone : désactivé</DNX_DroneRearmOff>
+  <DNX_DroneRearmOn>Réapprovisionnement en munitions par drone : activé</DNX_DroneRearmOn>
+  <DNX_DroneRepairDesc>Permet aux drones réparateurs de cette plateforme de réparer les tourelles endommagées.</DNX_DroneRepairDesc>
+  <DNX_DroneRepairOff>Réparation par drone : désactivée</DNX_DroneRepairOff>
+  <DNX_DroneRepairOn>Réparation par drone : activée</DNX_DroneRepairOn>
+  <DNX_Drop500kgBomb>Larguer une bombe de 500 kg</DNX_Drop500kgBomb>
+  <DNX_Drop500kgBombDesc>Choisissez un point d’impact. Le HAD-09 « Ghoul » décollera, survolera la zone et larguera une lourde bombe perforante à large rayon d’explosion et à chute lente.</DNX_Drop500kgBombDesc>
+  <DNX_DEVResetHAD09Cooldown>Développement : réinitialiser le délai du HAD-09</DNX_DEVResetHAD09Cooldown>
+  <DNX_DEVResetHAD09CooldownDesc>Réinitialise immédiatement le délai de lancement du HAD-09.</DNX_DEVResetHAD09CooldownDesc>
+  <DNX_HAD09CooldownInspect>Délai du HAD-09 : {0}</DNX_HAD09CooldownInspect>
+  <DNX_HAD09CoolingDown>Le HAD-09 récupère : {0}</DNX_HAD09CoolingDown>
+  <DNX_HarassModeDesc>Ordonne aux drones de cette station d’attaquer en priorité les ennemis qui ne sont pas déjà ciblés par d’autres drones DNX.</DNX_HarassModeDesc>
+  <DNX_HarassModeOff>Mode de harcèlement : désactivé</DNX_HarassModeOff>
+  <DNX_HarassModeOn>Mode de harcèlement : activé</DNX_HarassModeOn>
+  <DNX_HoverVehicleTurretsRepaired>Les tourelles du véhicule à sustentation ont été réparées.</DNX_HoverVehicleTurretsRepaired>
+  <DNX_LandHere>Atterrir ici</DNX_LandHere>
+  <DNX_LandHereDesc>Fait immédiatement atterrir le véhicule à sustentation à sa position actuelle et le remet à l’état inactif.</DNX_LandHereDesc>
+  <DNX_LandwhaleFullMapSearchDesc>Lorsqu’elle est activée, la Baleine terrestre balaie lentement toute la carte à la recherche d’ennemis valides et les poursuit.</DNX_LandwhaleFullMapSearchDesc>
+  <DNX_LandwhaleFullMapSearchOff>Recherche sur toute la carte : désactivée</DNX_LandwhaleFullMapSearchOff>
+  <DNX_LandwhaleFullMapSearchOn>Recherche sur toute la carte : activée</DNX_LandwhaleFullMapSearchOn>
+  <DNX_LaunchHAD09Strike>Lancer une frappe du HAD-09</DNX_LaunchHAD09Strike>
+  <DNX_LaunchHAD09StrikeDesc>Choisissez une zone. Le HAD-09 « Ghoul » décollera et effectuera un bombardement précis contre les ennemis qui s’y trouvent, puis retournera à son hangar.</DNX_LaunchHAD09StrikeDesc>
+  <DNX_MaximumActiveDrones>Le nombre maximal de drones actifs est atteint.</DNX_MaximumActiveDrones>
+  <DNX_MiningDroneExtractingInspect>Drone minier : extraction de {0} ({1})</DNX_MiningDroneExtractingInspect>
+  <DNX_MiningDroneSearchingInspect>Drone minier : recherche de ressources profondes dans la zone explorée</DNX_MiningDroneSearchingInspect>
+  <DNX_MoveHoverVehicle>Déplacer le véhicule à sustentation</DNX_MoveHoverVehicle>
+  <DNX_MoveHoverVehicleDesc>Choisissez la destination vers laquelle le véhicule à sustentation doit se déplacer.</DNX_MoveHoverVehicleDesc>
+  <DNX_NeedSteelAndComponents>Il faut {0} unités d’acier et {1} composants.</DNX_NeedSteelAndComponents>
+  <DNX_NoDeployedDrone>Aucun drone déployé.</DNX_NoDeployedDrone>
+  <DNX_NoDestroyedHoverVehicleTurretsToRepair>Aucune tourelle détruite du véhicule à sustentation à réparer.</DNX_NoDestroyedHoverVehicleTurretsToRepair>
+  <DNX_NoDestroyedTurrets>Aucune tourelle détruite.</DNX_NoDestroyedTurrets>
+  <DNX_NoDroneDef>Définition de drone manquante.</DNX_NoDroneDef>
+  <DNX_No500kgBombProjectileDef>Définition du projectile de la bombe de 500 kg manquante.</DNX_No500kgBombProjectileDef>
+  <DNX_NoBombProjectileDef>Définition du projectile de la bombe manquante.</DNX_NoBombProjectileDef>
+  <DNX_NoHAD09Extension>Extension du HAD-09 manquante.</DNX_NoHAD09Extension>
+  <DNX_NoLaunchPointRecorded>Aucun point de décollage enregistré.</DNX_NoLaunchPointRecorded>
+  <DNX_NoLaunchSkyfallerDef>Définition de l’objet volant de décollage manquante.</DNX_NoLaunchSkyfallerDef>
+  <DNX_NoPower>Aucune alimentation électrique.</DNX_NoPower>
+  <DNX_NoPreparedHAD09>Aucun HAD-09 préparé.</DNX_NoPreparedHAD09>
+  <DNX_NoPreparedDrone>Aucun drone préparé.</DNX_NoPreparedDrone>
+  <DNX_NoReturnSkyfallerDef>Définition de l’objet volant de retour manquante.</DNX_NoReturnSkyfallerDef>
+  <DNX_NoStation>Aucune station.</DNX_NoStation>
+  <DNX_NotDeployed>Non déployé.</DNX_NotDeployed>
+  <DNX_NoWearer>Aucun porteur.</DNX_NoWearer>
+  <DNX_Offline>Hors ligne.</DNX_Offline>
+  <DNX_RecallDeployedDrone>Rappeler le drone déployé</DNX_RecallDeployedDrone>
+  <DNX_RecallDeployedDroneDesc>Ordonne au drone Hunter actuellement déployé de retourner à cette plateforme.</DNX_RecallDeployedDroneDesc>
+  <DNX_RecallDeployedTinkerDroneDesc>Ordonne au drone réparateur déployé de retourner à cette station.</DNX_RecallDeployedTinkerDroneDesc>
+  <DNX_RecallDrone>Rappeler le drone</DNX_RecallDrone>
+  <DNX_RecallDroneDesc>Ordonne à ce drone de retourner à sa station de déploiement.</DNX_RecallDroneDesc>
+  <DNX_RecallThisTinkerDroneDesc>Ordonne à ce drone réparateur de retourner à sa station.</DNX_RecallThisTinkerDroneDesc>
+  <DNX_RecallTinkerDrone>Rappeler le drone réparateur</DNX_RecallTinkerDrone>
+  <DNX_RepairHoverVehicleTurrets>Réparer les tourelles du véhicule à sustentation</DNX_RepairHoverVehicleTurrets>
+  <DNX_RepairHoverVehicleTurretsDesc>Rétablit automatiquement les emplacements d’armes détruits du véhicule à sustentation. Chaque tourelle manquante coûte {0} unités d’acier et {1} composants.</DNX_RepairHoverVehicleTurretsDesc>
+  <DNX_ReturnAndLand>Revenir et atterrir</DNX_ReturnAndLand>
+  <DNX_ReturnAndLandDesc>Ordonne au véhicule à sustentation de retourner à son point de décollage et de reprendre son état inactif.</DNX_ReturnAndLandDesc>
+  <DNX_StartLandwhale>Démarrer la Baleine terrestre</DNX_StartLandwhale>
+  <DNX_StartLandwhaleDesc>Active la HFSV-40 « Baleine terrestre » inactive et la fait passer en mode de sustentation actif.</DNX_StartLandwhaleDesc>
+  <DNX_SwitchedOff>Éteint.</DNX_SwitchedOff>
+  <DNX_TinkerDroneRepairingVerb>en réparation</DNX_TinkerDroneRepairingVerb>
+  <DNX_TinkerDroneResupplyingVerb>en réapprovisionnement</DNX_TinkerDroneResupplyingVerb>
+  <DNX_TinkerDroneReturningInspect>Drone réparateur : retour en cours</DNX_TinkerDroneReturningInspect>
+  <DNX_TinkerDroneSearchingInspect>Drone réparateur : recherche en cours</DNX_TinkerDroneSearchingInspect>
+  <DNX_TinkerDroneWorkingInspect>Drone réparateur : {0}{1}</DNX_TinkerDroneWorkingInspect>
+  <DNX_WearerIncapacitated>Le porteur est incapable d’agir.</DNX_WearerIncapacitated>
+  <DNX_AimingExtensionConnectedInspect>Extension de visée : connectée (+{0} de portée)</DNX_AimingExtensionConnectedInspect>
+  <DNX_AimingExtensionNotConnectedInspect>Extension de visée : non connectée</DNX_AimingExtensionNotConnectedInspect>
+  <DNX_AimingExtensionOfflineInspect>Extension de visée : hors ligne</DNX_AimingExtensionOfflineInspect>
+  <DNX_AimingExtensionOnlineInspect>Extension de visée : en ligne (+{0} de portée, reliée à {1} tourelle(s))</DNX_AimingExtensionOnlineInspect>
+  <DNX_AssignFireControlOperator>Assigner un opérateur de conduite de tir</DNX_AssignFireControlOperator>
+  <DNX_AssignFireControlOperatorDesc>Assigne un colon à l’utilisation permanente de la console globale de conduite de tir.</DNX_AssignFireControlOperatorDesc>
+  <DNX_CannotOperateFireControlConsoleFloatMenu>Impossible d’utiliser la console globale de conduite de tir : {0}</DNX_CannotOperateFireControlConsoleFloatMenu>
+  <DNX_CannotReachOrReserveFireControlConsole>Impossible d’atteindre ou de réserver la console.</DNX_CannotReachOrReserveFireControlConsole>
+  <DNX_CapacitorArrayConnectedInspect>&lt;color=yellow&gt;Réseau de condensateurs connecté.&lt;/color&gt;</DNX_CapacitorArrayConnectedInspect>
+  <DNX_CapacitorArrayNotConnectedInspect>&lt;color=red&gt;Réseau de condensateurs non connecté.&lt;/color&gt;</DNX_CapacitorArrayNotConnectedInspect>
+  <DNX_ClearFireControlOperator>Retirer l’opérateur de conduite de tir</DNX_ClearFireControlOperator>
+  <DNX_ClearFireControlOperatorDesc>Retire l’opérateur de conduite de tir actuellement assigné.</DNX_ClearFireControlOperatorDesc>
+  <DNX_FireControlBonusConnected>Bonus de conduite de tir : connecté (+{0} de précision)</DNX_FireControlBonusConnected>
+  <DNX_FireControlBonusNotConnected>Bonus de conduite de tir : non connecté</DNX_FireControlBonusNotConnected>
+  <DNX_FireControlConsoleNotDeployed>La console de conduite de tir n’est pas déployée.</DNX_FireControlConsoleNotDeployed>
+  <DNX_FireControlConsoleOffline>La console de conduite de tir n’est pas alimentée ou est éteinte.</DNX_FireControlConsoleOffline>
+  <DNX_FireControlLinkActive>Liaison de conduite de tir : active</DNX_FireControlLinkActive>
+  <DNX_FireControlLinkInactive>Liaison de conduite de tir : inactive</DNX_FireControlLinkInactive>
+  <DNX_FireControlOperatorAssigned>Opérateur de conduite de tir : {0}</DNX_FireControlOperatorAssigned>
+  <DNX_FireControlOperatorIncapacitated>L’opérateur est incapable d’agir.</DNX_FireControlOperatorIncapacitated>
+  <DNX_FireControlRequiresManipulation>Une capacité de manipulation est requise.</DNX_FireControlRequiresManipulation>
+  <DNX_FireControlRequiresSight>La vision est requise.</DNX_FireControlRequiresSight>
+  <DNX_GlobalFireControlConsoleStatPart>Console globale de conduite de tir : +{0}</DNX_GlobalFireControlConsoleStatPart>
+  <DNX_GunLaunchedMissileBoxConnectedInspect>Boîte à missiles tirés par canon : connectée</DNX_GunLaunchedMissileBoxConnectedInspect>
+  <DNX_GunLaunchedMissileBoxNotConnectedInspect>Boîte à missiles tirés par canon : non connectée</DNX_GunLaunchedMissileBoxNotConnectedInspect>
+  <DNX_GunLaunchedMissileBoxOfflineInspect>Boîte à missiles tirés par canon : hors ligne</DNX_GunLaunchedMissileBoxOfflineInspect>
+  <DNX_GunLaunchedMissileBoxOnlineInspect>Boîte à missiles tirés par canon : en ligne (reliée à {0} tourelle(s))</DNX_GunLaunchedMissileBoxOnlineInspect>
+  <DNX_InvalidFireControlOperator>Opérateur invalide.</DNX_InvalidFireControlOperator>
+  <DNX_NoFireControlOperatorAssigned>Aucun opérateur de conduite de tir n’est assigné.</DNX_NoFireControlOperatorAssigned>
+  <DNX_OperateFireControlConsoleFloatMenu>Aller utiliser la console globale de conduite de tir</DNX_OperateFireControlConsoleFloatMenu>
+</LanguageData>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+    <DebugAction_ExecuteRaidWithPoints>Lancer un raid avec points...</DebugAction_ExecuteRaidWithPoints>
+    <DebugAction_ExecuteRaidWithFaction>Lancer un raid avec faction...</DebugAction_ExecuteRaidWithFaction>
+    <DebugAction_ExecuteRaidWithSpecifics>Lancer un raid avec des détails...</DebugAction_ExecuteRaidWithSpecifics>
+</LanguageData>

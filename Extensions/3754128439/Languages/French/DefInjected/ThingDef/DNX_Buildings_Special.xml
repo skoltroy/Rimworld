@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_DirectionalShieldGenerator.label>Générateur de bouclier directionnel</DNX_DirectionalShieldGenerator.label>
+  <DNX_DirectionalShieldGenerator.description>Un générateur expérimental de bouclier défensif à sens unique. Il projette vers l’avant un court mur de bouclier qui absorbe les projectiles entrants autres que ceux venant du dessus, jusqu’à l’épuisement de sa charge.</DNX_DirectionalShieldGenerator.description>
+  <DNX_EDD.label>EDD</DNX_EDD.label>
+  <DNX_EDD.description>EDD installé, qu’ils viennent !</DNX_EDD.description>
+  <DNX_MaintenanceArm.label>Bras de maintenance</DNX_MaintenanceArm.label>
+  <DNX_MaintenanceArm.description>Un bras de maintenance automatisé qui inspecte les bâtiments alliés proches, déploie un manipulateur de réparation pour restaurer progressivement les structures endommagées et projette de la mousse anti-incendie sur les flammes à portée de maintenance.</DNX_MaintenanceArm.description>
+  <DNX_SonicShockEmitter.label>Émetteur de choc sonique</DNX_SonicShockEmitter.label>
+  <DNX_SonicShockEmitter.description>Un dispositif défensif expérimental. Lorsqu’il est activé manuellement, il libère une onde de choc qui s’étend et étourdit brièvement les créatures à portée, puis tombe en panne jusqu’à sa réparation.</DNX_SonicShockEmitter.description>
+  <DNX_TacticalNuclearMissileSilo.label>Silo de missiles nucléaires tactiques</DNX_TacticalNuclearMissileSilo.label>
+  <DNX_TacticalNuclearMissileSilo.description>Une plateforme d’armes stratégique du réseau de défense, capable de lancer un missile nucléaire tactique en n’importe quel point de la carte actuelle.</DNX_TacticalNuclearMissileSilo.description>
+  <DNX_SonicShockEmitter.comps.CompSonicShockEmitter.commandDesc>Libère une onde de choc sonique de rayon 6, étourdissant pendant 5 secondes les pions à portée. Le dispositif tombe en panne après activation et doit être réparé avant réutilisation.</DNX_SonicShockEmitter.comps.CompSonicShockEmitter.commandDesc>
+  <DNX_SonicShockEmitter.comps.CompSonicShockEmitter.commandLabel>Activer l’impulsion de choc</DNX_SonicShockEmitter.comps.CompSonicShockEmitter.commandLabel>
+</LanguageData>

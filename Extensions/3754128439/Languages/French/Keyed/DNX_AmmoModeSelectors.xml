@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_20mmAPBeltLabel>Ceinture de munitions perforantes de 20 mm</DNX_20mmAPBeltLabel>
+  <DNX_20mmAPBeltDesc>Alimente les tourelles « Gyrfalcon-M » connectées en munitions perforantes standard de 20 mm.</DNX_20mmAPBeltDesc>
+  <DNX_20mmChargeBeltLabel>Ceinture de munitions à charge de 20 mm</DNX_20mmChargeBeltLabel>
+  <DNX_20mmChargeBeltDesc>Fournit des munitions de 20 mm à noyau énergétique, dotées d’une meilleure pénétration.</DNX_20mmChargeBeltDesc>
+  <DNX_20mmHEBeltLabel>Ceinture de munitions explosives de 20 mm</DNX_20mmHEBeltLabel>
+  <DNX_20mmHEBeltDesc>Fournit des munitions explosives de 20 mm à faible rayon d’explosion.</DNX_20mmHEBeltDesc>
+  <DNX_20mmBeltAmmoArmorPiercingShort>Perforantes</DNX_20mmBeltAmmoArmorPiercingShort>
+  <DNX_20mmBeltAmmoChargeShort>À charge</DNX_20mmBeltAmmoChargeShort>
+  <DNX_20mmBeltAmmoHighExplosiveShort>Explosifs</DNX_20mmBeltAmmoHighExplosiveShort>
+  <DNX_HighSpeedBeltFeederOnlineInspect>Distributeur de bandes à grande vitesse : en ligne ({0}, {1} connecté(s))</DNX_HighSpeedBeltFeederOnlineInspect>
+  <DNX_HighSpeedBeltFeederOfflineInspect>Distributeur de bandes à grande vitesse : hors ligne</DNX_HighSpeedBeltFeederOfflineInspect>
+  <DNX_HighSpeedBeltFeederConnectedInspect>Distributeur de bandes à grande vitesse : connecté ({0})</DNX_HighSpeedBeltFeederConnectedInspect>
+  <DNX_HighSpeedBeltFeederNotConnectedInspect>Distributeur de bandes à grande vitesse : non connecté</DNX_HighSpeedBeltFeederNotConnectedInspect>
+  <DNX_AmmoModeActiveLabel>{0} (actif)</DNX_AmmoModeActiveLabel>
+  <DNX_AmmoModeAlreadySelected>Ce type de munition est déjà sélectionné.</DNX_AmmoModeAlreadySelected>
+  <DNX_LongbowHEAmmoLabel>Roquette explosive Longbow</DNX_LongbowHEAmmoLabel>
+  <DNX_LongbowHEAmmoDesc>Charge une roquette explosive conçue pour infliger des dégâts sur une large zone.</DNX_LongbowHEAmmoDesc>
+  <DNX_LongbowAPAmmoLabel>Roquette perforante Longbow</DNX_LongbowAPAmmoLabel>
+  <DNX_LongbowAPAmmoDesc>Charge une roquette perforante à effet explosif concentré et fortement pénétrant.</DNX_LongbowAPAmmoDesc>
+  <DNX_LongbowIncAmmoLabel>Roquette incendiaire Longbow</DNX_LongbowIncAmmoLabel>
+  <DNX_LongbowIncAmmoDesc>Charge une roquette incendiaire conçue pour allumer des feux et interdire une zone.</DNX_LongbowIncAmmoDesc>
+  <DNX_LongbowAmmoInspect>Munitions Longbow : {0}</DNX_LongbowAmmoInspect>
+  <DNX_LongbowAmmoAPShort>Perforantes</DNX_LongbowAmmoAPShort>
+  <DNX_LongbowAmmoIncShort>Incendiaires</DNX_LongbowAmmoIncShort>
+  <DNX_LongbowAmmoHEShort>Explosifs</DNX_LongbowAmmoHEShort>
+</LanguageData>

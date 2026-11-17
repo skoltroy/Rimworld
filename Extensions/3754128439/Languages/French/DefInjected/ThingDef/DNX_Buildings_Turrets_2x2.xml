@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_TacticalMarkerTower.label>Tour de marquage tactique</DNX_TacticalMarkerTower.label>
+  <DNX_TacticalMarkerTower.description>Une tour de marquage de contrôle de tir qui verrouille les cibles hostiles, révèle les ennemis invisibles, expose leurs points faibles et augmente les chances de les toucher. Elle est particulièrement utile pour mettre en place des positions défensives en profondeur.</DNX_TacticalMarkerTower.description>
+  <DNX_Turret_AvengerTwinCannon.label>Tourelle à autocanons jumelés Avenger</DNX_Turret_AvengerTwinCannon.label>
+  <DNX_Turret_AvengerTwinCannon.description>L’Avenger est une tourelle jumelée expérimentale de moyen calibre à tir rapide, conçue comme un pilier fiable de la ligne défensive. Elle combine feu soutenu, adaptation aux cibles et puissance de suppression constante. Ses deux canons traitent rapidement les groupes d’infanterie, les machines légères et les blindés moyens. Lorsque son armement conventionnel ne suffit pas contre une menace majeure, la tourelle peut lancer deux missiles de réserve pour une frappe lourde ponctuelle. Leur nombre est toutefois limité et le réarmement est laborieux ; les bons artilleurs les gardent pour les cibles qui méritent vraiment une revanche.\n\n« L’Avenger ne garde jamais rancune », répétait le technicien chargé de son entretien.\nPuis il désignait les innombrables marques de destruction sur le flanc de la tourelle : « Mais son système de conduite de tir, lui, s’en souvient. »</DNX_Turret_AvengerTwinCannon.description>
+  <DNX_Turret_FlatheadRocketTurret.label>Tourelle lance-roquettes Flathead</DNX_Turret_FlatheadRocketTurret.label>
+  <DNX_Turret_FlatheadRocketTurret.description>Une tourelle lance-roquettes compacte de format 2×2 qui tire de courtes salves de roquettes explosives à trajectoire plongeante sur les cibles au-delà de sa courte portée.</DNX_Turret_FlatheadRocketTurret.description>
+  <DNX_Turret_GeminiGatling.label>Tourelle Gatling Gemini</DNX_Turret_GeminiGatling.label>
+  <DNX_Turret_GeminiGatling.description>Une tourelle Gatling jumelée qui déverse en peu de temps une dense rafale de munitions de calibre fusil.</DNX_Turret_GeminiGatling.description>
+  <DNX_Turret_SentinelHMGFour.label>Tourelle de mitrailleuse blindée Sentinel HMG-4</DNX_Turret_SentinelHMGFour.label>
+  <DNX_Turret_SentinelHMGFour.description>Une tourelle de mitrailleuse lourdement blindée, remarquablement résistante et capable d’assurer une suppression régulière à courte et moyenne portée.</DNX_Turret_SentinelHMGFour.description>
+  <DNX_Turret_ShowerGrenadeSupport.label>Système de soutien à grenades Averse</DNX_Turret_ShowerGrenadeSupport.label>
+  <DNX_Turret_ShowerGrenadeSupport.description>Une tourelle expérimentale de soutien à grenades jumelée qui tire des grenades explosives en cloche et peut lancer manuellement des grenades utilitaires fumigènes, IEM et incapacitantes.</DNX_Turret_ShowerGrenadeSupport.description>
+  <DNX_Turret_Vanguard20mmSuppressiveCannon.label>Canon de suppression Vanguard de 20 mm</DNX_Turret_Vanguard20mmSuppressiveCannon.label>
+  <DNX_Turret_Vanguard20mmSuppressiveCannon.description>Un canon de suppression de 20 mm doté d’un cycle d’efficacité croissante. Le tir soutenu accélère l’arme, mais une sollicitation excessive surchauffe le système et impose un bref arrêt.</DNX_Turret_Vanguard20mmSuppressiveCannon.description>
+  <DNX_Turret_WatcherLongRangePrecision.label>Tourelle de précision longue portée Watcher</DNX_Turret_WatcherLongRangePrecision.label>
+  <DNX_Turret_WatcherLongRangePrecision.description>Le Watcher est une tourelle expérimentale à projectiles intelligents, à la pointe de la technologie actuelle, conçue pour engager des cibles éloignées, de grande valeur et particulièrement menaçantes. Après un bref cycle d’analyse, elle tire rapidement trois projectiles intelligents de haute précision, délivrant une frappe ponctuelle rapide et concentrée. Même les cibles mobiles ou les ennemis à couvert peinent à échapper complètement à sa correction balistique. Le compromis est tout aussi évident : ses munitions spécialisées sont coûteuses et ses mécanismes de guidage complexes nécessitent des composants avancés pour l’entretien ; le Watcher est donc mal adapté au gaspillage de puissance de feu contre des ennemis ordinaires.\n\nLe service des achats a un jour demandé pourquoi chaque tir devait être une salve de trois projectiles.\nL’ingénieur a répondu : « Le premier confirme la prédiction, le deuxième corrige l’erreur et le troisième évite que les deux premiers aient l’air d’avoir été tirés pour rien. »\nAprès cela, le service des achats a demandé que tous les coûts unitaires des munitions soient retirés du rapport.</DNX_Turret_WatcherLongRangePrecision.description>
+  <DNX_Turret_AvengerTwinCannon.comps.CompManualMissileLauncher.commandDesc>Sélectionnez manuellement une cible et lancez un missile à trajectoire courbe.</DNX_Turret_AvengerTwinCannon.comps.CompManualMissileLauncher.commandDesc>
+  <DNX_Turret_AvengerTwinCannon.comps.CompManualMissileLauncher.commandLabel>Lancer un missile</DNX_Turret_AvengerTwinCannon.comps.CompManualMissileLauncher.commandLabel>
+  <DNX_Turret_AvengerTwinCannon.comps.CompManualMissileLauncher.refuelableFuelLabel>Réserve de missiles</DNX_Turret_AvengerTwinCannon.comps.CompManualMissileLauncher.refuelableFuelLabel>
+  <DNX_Turret_FlatheadRocketTurret.comps.CompRefuelable.fuelGizmoLabel>Roquettes Flathead</DNX_Turret_FlatheadRocketTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <DNX_Turret_FlatheadRocketTurret.comps.CompRefuelable.fuelLabel>Roquettes Flathead</DNX_Turret_FlatheadRocketTurret.comps.CompRefuelable.fuelLabel>
+  <DNX_Turret_FlatheadRocketTurret.comps.CompRefuelable.outOfFuelMessage>Roquettes Flathead épuisées</DNX_Turret_FlatheadRocketTurret.comps.CompRefuelable.outOfFuelMessage>
+  <DNX_Turret_GeminiGatling.comps.CompRefuelable.fuelGizmoLabel>Munitions Gatling</DNX_Turret_GeminiGatling.comps.CompRefuelable.fuelGizmoLabel>
+  <DNX_Turret_GeminiGatling.comps.CompRefuelable.fuelLabel>Munitions Gatling</DNX_Turret_GeminiGatling.comps.CompRefuelable.fuelLabel>
+  <DNX_Turret_GeminiGatling.comps.CompRefuelable.outOfFuelMessage>Munitions Gatling épuisées</DNX_Turret_GeminiGatling.comps.CompRefuelable.outOfFuelMessage>
+  <DNX_Turret_SentinelHMGFour.comps.CompRefuelable.fuelGizmoLabel>Munitions HMG</DNX_Turret_SentinelHMGFour.comps.CompRefuelable.fuelGizmoLabel>
+  <DNX_Turret_SentinelHMGFour.comps.CompRefuelable.fuelLabel>Munitions HMG</DNX_Turret_SentinelHMGFour.comps.CompRefuelable.fuelLabel>
+  <DNX_Turret_SentinelHMGFour.comps.CompRefuelable.outOfFuelMessage>Munitions HMG épuisées</DNX_Turret_SentinelHMGFour.comps.CompRefuelable.outOfFuelMessage>
+  <DNX_Turret_ShowerGrenadeSupport.comps.CompRefuelable.fuelGizmoLabel>Réserve de grenades</DNX_Turret_ShowerGrenadeSupport.comps.CompRefuelable.fuelGizmoLabel>
+  <DNX_Turret_ShowerGrenadeSupport.comps.CompRefuelable.fuelLabel>Réserve de grenades</DNX_Turret_ShowerGrenadeSupport.comps.CompRefuelable.fuelLabel>
+  <DNX_Turret_ShowerGrenadeSupport.comps.CompRefuelable.outOfFuelMessage>Réserve de grenades épuisée</DNX_Turret_ShowerGrenadeSupport.comps.CompRefuelable.outOfFuelMessage>
+  <DNX_Turret_ShowerGrenadeSupport.comps.CompSpecialGrenadeLauncher.refuelableFuelLabel>Réserve de grenades</DNX_Turret_ShowerGrenadeSupport.comps.CompSpecialGrenadeLauncher.refuelableFuelLabel>
+  <DNX_Turret_Vanguard20mmSuppressiveCannon.comps.CompRefuelable.fuelGizmoLabel>Munitions de suppression de 20 mm</DNX_Turret_Vanguard20mmSuppressiveCannon.comps.CompRefuelable.fuelGizmoLabel>
+  <DNX_Turret_Vanguard20mmSuppressiveCannon.comps.CompRefuelable.fuelLabel>Munitions de suppression de 20 mm</DNX_Turret_Vanguard20mmSuppressiveCannon.comps.CompRefuelable.fuelLabel>
+  <DNX_Turret_Vanguard20mmSuppressiveCannon.comps.CompRefuelable.outOfFuelMessage>Munitions de suppression de 20 mm épuisées</DNX_Turret_Vanguard20mmSuppressiveCannon.comps.CompRefuelable.outOfFuelMessage>
+  <DNX_Turret_WatcherLongRangePrecision.comps.CompRefuelable.fuelGizmoLabel>Munitions de précision Watcher</DNX_Turret_WatcherLongRangePrecision.comps.CompRefuelable.fuelGizmoLabel>
+  <DNX_Turret_WatcherLongRangePrecision.comps.CompRefuelable.fuelLabel>Munitions de précision Watcher</DNX_Turret_WatcherLongRangePrecision.comps.CompRefuelable.fuelLabel>
+  <DNX_Turret_WatcherLongRangePrecision.comps.CompRefuelable.outOfFuelMessage>Munitions de précision Watcher épuisées</DNX_Turret_WatcherLongRangePrecision.comps.CompRefuelable.outOfFuelMessage>
+  <DNX_Turret_AvengerTwinCannon.comps.CompRefuelable-0.fuelGizmoLabel>Munitions d’autocanon</DNX_Turret_AvengerTwinCannon.comps.CompRefuelable-0.fuelGizmoLabel>
+  <DNX_Turret_AvengerTwinCannon.comps.CompRefuelable-0.fuelLabel>Munitions d’autocanon</DNX_Turret_AvengerTwinCannon.comps.CompRefuelable-0.fuelLabel>
+  <DNX_Turret_AvengerTwinCannon.comps.CompRefuelable-0.outOfFuelMessage>Munitions d’autocanon épuisées</DNX_Turret_AvengerTwinCannon.comps.CompRefuelable-0.outOfFuelMessage>
+  <DNX_Turret_AvengerTwinCannon.comps.CompRefuelable-1.fuelGizmoLabel>Réserve de missiles</DNX_Turret_AvengerTwinCannon.comps.CompRefuelable-1.fuelGizmoLabel>
+  <DNX_Turret_AvengerTwinCannon.comps.CompRefuelable-1.fuelLabel>Réserve de missiles</DNX_Turret_AvengerTwinCannon.comps.CompRefuelable-1.fuelLabel>
+  <DNX_Turret_AvengerTwinCannon.comps.CompRefuelable-1.outOfFuelMessage>Réserve de missiles épuisée</DNX_Turret_AvengerTwinCannon.comps.CompRefuelable-1.outOfFuelMessage>
+</LanguageData>

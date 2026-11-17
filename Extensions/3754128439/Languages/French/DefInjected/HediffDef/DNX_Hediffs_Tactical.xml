@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_Suppressed.label>Sous le feu</DNX_Suppressed.label>
+  <DNX_Suppressed.description>Cette cible est clouée au sol par un tir de suppression à fragmentation, ce qui réduit sa coordination, sa vision et sa vitesse de déplacement.</DNX_Suppressed.description>
+  <DNX_TacticalSimulation.label>Simulation tactique</DNX_TacticalSimulation.label>
+  <DNX_TacticalSimulation.description>Cette personne a récemment participé à une simulation tactique, ce qui a amélioré sa discipline de tir, l’acquisition des cibles et la coordination de ses déplacements.</DNX_TacticalSimulation.description>
+  <DNX_WeakpointExposed.label>Point faible exposé</DNX_WeakpointExposed.label>
+  <DNX_WeakpointExposed.description>Cette cible a été verrouillée par une tour de marquage tactique, révélant ses points faibles structurels au réseau de défense.</DNX_WeakpointExposed.description>
+</LanguageData>

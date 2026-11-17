@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_AutoMissileOn>Missiles automatiques : activés</DNX_AutoMissileOn>
+  <DNX_AutoMissileOff>Missiles automatiques : désactivés</DNX_AutoMissileOff>
+  <DNX_AutoMissileDesc>Active ou désactive le lancement automatique de missiles contre les ennemis à portée.</DNX_AutoMissileDesc>
+  <DNX_MissileReserveInsufficient>Réserve de missiles insuffisante.</DNX_MissileReserveInsufficient>
+  <DNX_InvalidTarget>Cible invalide.</DNX_InvalidTarget>
+  <DNX_TargetOutsideMap>La cible est hors de la carte.</DNX_TargetOutsideMap>
+  <DNX_TargetOutOfRange>La cible est hors de portée.</DNX_TargetOutOfRange>
+  <DNX_TargetTooClose>La cible est trop proche.</DNX_TargetTooClose>
+  <DNX_NoProjectileConfigured>Aucun projectile n’est configuré.</DNX_NoProjectileConfigured>
+  <DNX_ManualMissileCooldownInspect>Temps de recharge du lancement de missiles : {0}</DNX_ManualMissileCooldownInspect>
+  <DNX_MissileLaunchCoolingDown>Lancement de missile en recharge : {0}</DNX_MissileLaunchCoolingDown>
+  <DNX_CannotRearmNoFuel>Impossible de réarmer {0} : aucun carburant.</DNX_CannotRearmNoFuel>
+  <DNX_CannotRearmNoPath>Impossible de réarmer {0} : aucun chemin accessible.</DNX_CannotRearmNoPath>
+  <DNX_RearmFuelLabel>Réarmer {0}</DNX_RearmFuelLabel>
+</LanguageData>

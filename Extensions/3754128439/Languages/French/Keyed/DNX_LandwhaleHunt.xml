@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_LandwhaleHunt_OfferTitle>Chasser la Baleine terrestre</DNX_LandwhaleHunt_OfferTitle>
+  <DNX_LandwhaleHunt_OfferText>{0} vous envoie un message urgent.\n\nUn HFSV-40 « Baleine terrestre » devenu incontrôlable est suivi à la trace. Cette plateforme lourde a déjà détruit plusieurs caravanes et au moins un avant-poste ; elle rôde maintenant près de votre colonie.\n\nIls ne disposent pas d’une puissance antiblindage suffisante pour la détruire, mais sont prêts à vous fournir ses coordonnées et à vous laisser récupérer l’épave. Si vous parvenez à neutraliser la Baleine terrestre, vous pourrez récupérer son épave.</DNX_LandwhaleHunt_OfferText>
+  <DNX_LandwhaleHunt_AcceptReward>Accepter : {0}</DNX_LandwhaleHunt_AcceptReward>
+  <DNX_LandwhaleHunt_Reject>Refuser</DNX_LandwhaleHunt_Reject>
+  <DNX_LandwhaleHunt_NoValidMap>Aucune carte valide n’est disponible pour la chasse à la Baleine terrestre.</DNX_LandwhaleHunt_NoValidMap>
+  <DNX_LandwhaleHunt_NoValidCoordinates>Impossible de trouver des coordonnées valides pour la Baleine terrestre.</DNX_LandwhaleHunt_NoValidCoordinates>
+  <DNX_LandwhaleHunt_AlreadyActive>Une chasse à la Baleine terrestre est déjà en cours sur cette carte.</DNX_LandwhaleHunt_AlreadyActive>
+  <DNX_LandwhaleHunt_PendingDescriptionPart>Accepter cette quête vous fournira les coordonnées de la Baleine terrestre et la fera entrer dans la région.</DNX_LandwhaleHunt_PendingDescriptionPart>
+  <DNX_LandwhaleHunt_ActiveDescriptionPart>Une HFSV-40 « Baleine terrestre » hostile est entrée dans la région. Neutralisez-la pour achever la chasse et récupérer son épave.</DNX_LandwhaleHunt_ActiveDescriptionPart>
+  <DNX_LandwhaleHunt_CoordinatesReceivedTitle>Coordonnées de la Baleine terrestre reçues</DNX_LandwhaleHunt_CoordinatesReceivedTitle>
+  <DNX_LandwhaleHunt_CoordinatesReceivedText>La Baleine terrestre incontrôlable est entrée dans la région. Son système de défense rapprochée embarqué tentera d’intercepter vos obus lourds, roquettes et autres munitions importantes. Quelques tirs de munitions lourdes de grande valeur risquent d’être interceptés ; essayez d’abord de saturer sa défense avec des explosifs bon marché et peu puissants ou d’autres tirs sacrifiables, puis profitez de la distraction ou du rechargement de ses intercepteurs pour lancer vos véritables munitions lourdes.\n\nLes modules d’armes de la Baleine terrestre peuvent être détruits séparément. Détruire son canon principal en priorité réduira considérablement la menace qu’elle représente. Neutralisez-la pour récupérer son épave.</DNX_LandwhaleHunt_CoordinatesReceivedText>
+  <DNX_LandwhaleHunt_CoordinatesReceivedAcceptedText>La Baleine terrestre incontrôlable est entrée dans la région. Son système de défense rapprochée embarqué tentera d’intercepter vos obus lourds, roquettes et autres munitions importantes. Quelques tirs de munitions lourdes de grande valeur risquent d’être interceptés ; essayez d’abord de saturer sa défense avec des explosifs bon marché et peu puissants ou d’autres tirs sacrifiables, puis profitez de la distraction ou du rechargement de ses intercepteurs pour lancer vos véritables munitions lourdes.\n\nLes modules d’armes de la Baleine terrestre peuvent être détruits séparément. Détruire son canon principal en priorité réduira considérablement la menace qu’elle représente. Neutralisez-la pour récupérer son épave.</DNX_LandwhaleHunt_CoordinatesReceivedAcceptedText>
+  <DNX_LandwhaleHunt_RewardDeliveredTitle>Récompense de la chasse à la Baleine terrestre livrée</DNX_LandwhaleHunt_RewardDeliveredTitle>
+  <DNX_LandwhaleHunt_RewardDeliveredText>La chasse à la Baleine terrestre est terminée.</DNX_LandwhaleHunt_RewardDeliveredText>
+  <DNX_LandwhaleHunt_CompletedTitle>Chasse à la Baleine terrestre terminée</DNX_LandwhaleHunt_CompletedTitle>
+  <DNX_LandwhaleHunt_CompletedText>La Baleine terrestre incontrôlable a été neutralisée. Vous pouvez récupérer son épave.</DNX_LandwhaleHunt_CompletedText>
+  <DNX_LandwhaleHunt_NeutralFactionLeader>Un dirigeant d’une faction neutre</DNX_LandwhaleHunt_NeutralFactionLeader>
+  <DNX_LandwhaleHunt_FactionLeaderWithName>{1}{0} de {2}</DNX_LandwhaleHunt_FactionLeaderWithName>
+  <DNX_LandwhaleHunt_FactionLeaderNoName>{0} de {1}</DNX_LandwhaleHunt_FactionLeaderNoName>
+  <DNX_LandwhaleHunt_RewardSilver>1 600 argent</DNX_LandwhaleHunt_RewardSilver>
+  <DNX_LandwhaleHunt_RewardComponents>15 composants et 6 composants avancés</DNX_LandwhaleHunt_RewardComponents>
+  <DNX_LandwhaleHunt_RewardMaterials>250 plasteel et 300 unités de chemfuel</DNX_LandwhaleHunt_RewardMaterials>
+</LanguageData>

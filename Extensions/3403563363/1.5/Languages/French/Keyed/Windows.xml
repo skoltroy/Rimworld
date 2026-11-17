@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<NCCM.InfoWindow.CostResource.Title>Matériaux</NCCM.InfoWindow.CostResource.Title>
+	<NCCM.InfoWindow.CostResource.CostCount>Coût : {0}</NCCM.InfoWindow.CostResource.CostCount>
+	<NCCM.InfoWindow.CostResource.CurrentCount>En stock : {0}</NCCM.InfoWindow.CostResource.CurrentCount>
+
+</LanguageData>

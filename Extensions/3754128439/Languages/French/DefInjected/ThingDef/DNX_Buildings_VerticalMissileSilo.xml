@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_VerticalMissileSilo.label>Silo vertical de missiles (WIP)</DNX_VerticalMissileSilo.label>
+  <DNX_VerticalMissileSilo.description>Un silo vertical de missiles expérimental et compact, conçu pour tester des missiles à attaque plongeante lancés à froid. Ce système est actuellement en phase de test.</DNX_VerticalMissileSilo.description>
+  <DNX_VerticalMissileSilo.comps.CompRefuelable.fuelGizmoLabel>Préparation du missile vertical</DNX_VerticalMissileSilo.comps.CompRefuelable.fuelGizmoLabel>
+  <DNX_VerticalMissileSilo.comps.CompRefuelable.fuelLabel>Préparation du missile vertical</DNX_VerticalMissileSilo.comps.CompRefuelable.fuelLabel>
+  <DNX_VerticalMissileSilo.comps.CompManualMissileLauncher.commandDesc>Sélectionnez manuellement une cible et lancez un missile à attaque plongeante lancé à froid. Consomme une charge de préparation de missile vertical.</DNX_VerticalMissileSilo.comps.CompManualMissileLauncher.commandDesc>
+  <DNX_VerticalMissileSilo.comps.CompManualMissileLauncher.commandLabel>Lancer un missile vertical</DNX_VerticalMissileSilo.comps.CompManualMissileLauncher.commandLabel>
+  <DNX_VerticalMissileSilo.comps.CompManualMissileLauncher.refuelableFuelLabel>Préparation du missile vertical</DNX_VerticalMissileSilo.comps.CompManualMissileLauncher.refuelableFuelLabel>
+</LanguageData>

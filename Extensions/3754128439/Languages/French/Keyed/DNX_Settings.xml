@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_SettingsCategory>Réseau de défense</DNX_SettingsCategory>
+  <DNX_Settings_MechanoidReconnaissanceEvent>Événement de reconnaissance mécanoïde</DNX_Settings_MechanoidReconnaissanceEvent>
+  <DNX_Settings_SuperSecretSetting>Paramètre super secret</DNX_Settings_SuperSecretSetting>
+  <DNX_Settings_NoConditionUplinkSupportLaunch>Lancer le soutien de liaison sans condition (ancienne liaison)</DNX_Settings_NoConditionUplinkSupportLaunch>
+  <DNX_Settings_ProjectileDamageMultiplier>Multiplicateur de dégâts des projectiles DNX</DNX_Settings_ProjectileDamageMultiplier>
+  <DNX_Settings_ProjectileDamageMultiplierNote>(Ne s’applique qu’aux armes DNX utilisant le système de projectiles.)</DNX_Settings_ProjectileDamageMultiplierNote>
+  <DNX_Settings_Enabled>Activé</DNX_Settings_Enabled>
+  <DNX_Settings_Disabled>Désactivé</DNX_Settings_Disabled>
+</LanguageData>

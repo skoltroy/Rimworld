@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+    <EnableDamage>Activer les dégâts</EnableDamage>
+    <EnablePlayerDamage>Activer les dégâts du joueur</EnablePlayerDamage>
+    <EnableRandomMentalStates>Activer les états mentaux aléatoires</EnableRandomMentalStates>
+    <EnableStoryteller>Activer le narrateur</EnableStoryteller>
+    <EnableRandomDiseases>Activer les maladies aléatoires</EnableRandomDiseases>
+    <DevPalette>Palette du développeur</DevPalette>
+    <NoAnimals>Pas d'animaux</NoAnimals>
+    <UnlimitedPower>Énergie illimitée</UnlimitedPower>
+    <PathThroughWalls>Traverser les murs</PathThroughWalls>
+    <InstantRecruit>Recrutement instantané</InstantRecruit>
+    <AlwaysSocialFight>Toujours bagarre sociale</AlwaysSocialFight>
+    <AlwaysDoLovin>Toujours faire l'amour</AlwaysDoLovin>
+    <DetectRegionListersBugs>Détecter les bogues RegionListers</DetectRegionListersBugs>
+    <InstantVisitorsGift>Cadeau instantané aux visiteurs</InstantVisitorsGift>
+    <LowFPS>Faible FPS</LowFPS>
+    <AllowUndraftedMechOrders>Autoriser les ordres aux mécanoïdes non mobilisés</AllowUndraftedMechOrders>
+    <EditableGlowerColors>Couleurs des lampes modifiables sans recherche</EditableGlowerColors>
+    <FastResearch>Recherche rapide</FastResearch>
+    <FastLearning>Apprentissage rapide</FastLearning>
+    <FastEcology>Écologie rapide</FastEcology>
+    <FastEcologyRegrowRateOnly>Écologie accélérée (vitesse de repousse uniquement)</FastEcologyRegrowRateOnly>
+    <FastCrafting>Fabrication rapide</FastCrafting>
+    <FastCaravans>Caravanes rapides</FastCaravans>
+    <FastMapUnpollution>Dépollution accélérée de la carte</FastMapUnpollution>
+    <ActivateAllBuildingDemands>Activer toutes les demandes de construction</ActivateAllBuildingDemands>
+    <ActivateAllIdeoRoles>Activer tous les rôles d'idéoligion</ActivateAllIdeoRoles>
+    <ShowLocomotionUrgency>Afficher LocomotionUrgency</ShowLocomotionUrgency>
+    <PlayRitualAmbience>Jouer l'ambiance sonore du rituel</PlayRitualAmbience>
+    <SimulateUsingSteamDeck>Simuler Steam Deck</SimulateUsingSteamDeck>
+    <LogRaidInfo>Journaliser les informations du raid</LogRaidInfo>
+    <LogTranslationLookupErrors>Journaliser les erreurs de recherche de traduction</LogTranslationLookupErrors>
+    <DrawFog>Afficher le brouillard</DrawFog>
+    <DrawSnow>Afficher la neige</DrawSnow>
+    <DrawTerrain>Afficher le terrain</DrawTerrain>
+    <DrawTerrainWater>Afficher l'eau</DrawTerrainWater>
+    <DrawThingsDynamic>Afficher les objets dynamiques</DrawThingsDynamic>
+    <DrawThingsPrinted>Afficher les objets imprimés</DrawThingsPrinted>
+    <DrawShadows>Afficher les ombres</DrawShadows>
+    <DrawLightingOverlay>Afficher la superposition d'éclairage</DrawLightingOverlay>
+    <DrawWorldOverlays>Afficher les superpositions du monde</DrawWorldOverlays>
+    <DrawGas>Afficher le gaz</DrawGas>
+    <DrawPaths>Afficher les chemins</DrawPaths>
+    <DrawCastPositionSearch>Afficher la recherche de position de sort</DrawCastPositionSearch>
+    <DrawDestSearch>Afficher la recherche de destination</DrawDestSearch>
+    <DrawStyleSearch>Afficher la recherche de style</DrawStyleSearch>
+    <DrawSectionEdges>Afficher les bords de section</DrawSectionEdges>
+    <DrawRiverDebug>Afficher le débogage des rivières</DrawRiverDebug>
+    <DrawPawnDebug>Afficher le débogage Pawn</DrawPawnDebug>
+    <DrawPawnRotatorTarget>Afficher la cible du rotateur Pawn</DrawPawnRotatorTarget>
+    <DrawRegions>Afficher les régions</DrawRegions>
+    <DrawRegionLinks>Afficher les liens de région</DrawRegionLinks>
+    <DrawRegionDirties>Mettre en évidence la mise à jour des régions</DrawRegionDirties>
+    <DrawRegionTraversal>Mettre en évidence le parcours des régions</DrawRegionTraversal>
+    <DrawRegionThings>Mettre en évidence les objets de la région</DrawRegionThings>
+    <DrawDistricts>Afficher les districts</DrawDistricts>
+    <DrawRooms>Afficher les pièces</DrawRooms>
+    <DrawPower>Afficher l'énergie</DrawPower>
+    <DrawPowerNetGrid>Afficher le PowerNetGrid</DrawPowerNetGrid>
+    <DrawOpportunisticJobs>Afficher les tâches opportunistes</DrawOpportunisticJobs>
+    <DrawTooltipEdges>Afficher les bords des info-bulles</DrawTooltipEdges>
+    <DrawRecordedNoise>Afficher le bruit enregistré</DrawRecordedNoise>
+    <DrawFoodSearchFromMouse>Afficher la recherche de nourriture depuis la souris</DrawFoodSearchFromMouse>
+    <DrawPreyInfo>Afficher les infos sur les proies</DrawPreyInfo>
+    <DrawGlow>Afficher la lueur</DrawGlow>
+    <DrawAvoidGrid>Afficher la grille d'évitement</DrawAvoidGrid>
+    <DrawBreachingGrid>Afficher la grille de brèche</DrawBreachingGrid>
+    <DrawBreachingNoise>Afficher le bruit de brèche</DrawBreachingNoise>
+    <DrawLords>Afficher les Lords</DrawLords>
+    <DrawDuties>Afficher les devoirs</DrawDuties>
+    <DrawShooting>Afficher les tirs</DrawShooting>
+    <DrawInfestationChance>Afficher la probabilité d'infestation</DrawInfestationChance>
+    <DrawStealDebug>Afficher le débogage du vol</DrawStealDebug>
+    <DrawDeepResources>Afficher les ressources profondes</DrawDeepResources>
+    <DrawAttackTargetScores>Afficher les scores des cibles d'attaque</DrawAttackTargetScores>
+    <DrawInteractionCells>Afficher les cellules d'interaction</DrawInteractionCells>
+    <DrawDoorsDebug>Afficher le débogage des portes</DrawDoorsDebug>
+    <DrawDestReservations>Afficher les réservations de destination</DrawDestReservations>
+    <DrawDamageRects>Afficher les rectangles de dégâts</DrawDamageRects>
+    <DrawDissolutionCells>Afficher les cellules de dissolution</DrawDissolutionCells>
+    <DrawUnpollutionCells>Afficher les cellules de dépollution</DrawUnpollutionCells>
+    <WriteGame>Inspecter la partie</WriteGame>
+    <WriteSteamItems>Inspecter les éléments Steam</WriteSteamItems>
+    <WriteConcepts>Inspecter les concepts</WriteConcepts>
+    <WriteReservations>Inspecter les réservations</WriteReservations>
+    <WritePathCosts>Inspecter le coût des chemins</WritePathCosts>
+    <WriteFertility>Inspecter la fertilité</WriteFertility>
+    <WriteLinkFlags>Inspecter les LinkFlags</WriteLinkFlags>
+    <WriteCover>Inspecter les abris</WriteCover>
+    <WriteCellContents>Inspecter le contenu de la case</WriteCellContents>
+    <WriteMusicManagerPlay>Inspecter la lecture du MusicManager</WriteMusicManagerPlay>
+    <WriteStoryteller>Inspecter le conteur</WriteStoryteller>
+    <WritePlayingSounds>Inspecter les sons en cours</WritePlayingSounds>
+    <WriteSoundEventsRecord>Inspecter le journal des événements sonores</WriteSoundEventsRecord>
+    <WriteMoteSaturation>Inspecter la saturation en motes</WriteMoteSaturation>
+    <WriteSnowDepth>Inspecter la profondeur de la neige</WriteSnowDepth>
+    <WriteEcosystem>Inspecter l'écosystème</WriteEcosystem>
+    <WriteRecentStrikes>Inspecter les frappes récentes</WriteRecentStrikes>
+    <WriteBeauty>Inspecter la beauté</WriteBeauty>
+    <WriteListRepairableBldgs>Inspecter les bâtiments réparables</WriteListRepairableBldgs>
+    <WriteListFilthInHomeArea>Inspecter la liste des saletés dans la zone habitée</WriteListFilthInHomeArea>
+    <WriteListHaulables>Inspecter la liste des objets transportables</WriteListHaulables>
+    <WriteListMergeables>Inspecter la liste des éléments fusionnables</WriteListMergeables>
+    <WriteTotalSnowDepth>Inspecter l'épaisseur totale de neige</WriteTotalSnowDepth>
+    <WriteCanReachColony>Inspecter l'accessibilité de la colonie</WriteCanReachColony>
+    <WriteMentalStateCalcs>Inspecter les calculs des états mentaux</WriteMentalStateCalcs>
+    <WriteWind>Inspecter le vent</WriteWind>
+    <WriteTerrain>Inspecter le terrain</WriteTerrain>
+    <WriteApparelScore>Inspecter le score vestimentaire</WriteApparelScore>
+    <WriteWorkSettings>Inspecter les paramètres de travail</WriteWorkSettings>
+    <WriteSkyManager>Inspecter le SkyManager</WriteSkyManager>
+    <WriteMemoryUsage>Inspecter l'utilisation de la mémoire</WriteMemoryUsage>
+    <WriteMapGameConditions>Inspecter les GameConditions de la carte</WriteMapGameConditions>
+    <WriteAttackTargets>Inspecter les cibles d'attaque</WriteAttackTargets>
+    <WriteRopesAndPens>Inspecter les cordes et les enclos</WriteRopesAndPens>
+    <WriteRoomRoles>Inspecter les rôles des pièces</WriteRoomRoles>
+    <LogIncapChance>Journaliser la chance d'incapacité (non utilisé)</LogIncapChance>
+    <LogInput>Journaliser les entrées</LogInput>
+    <LogApparelGeneration>Journaliser la génération des vêtements</LogApparelGeneration>
+    <LogLordToilTransitions>Journaliser les transitions de Lord's Toil</LogLordToilTransitions>
+    <LogGrammarResolution>Journaliser la résolution de la grammaire</LogGrammarResolution>
+    <LogCombatLogMouseover>Journaliser le survol du journal de combat</LogCombatLogMouseover>
+    <LogCauseOfDeath>Journaliser la cause du décès</LogCauseOfDeath>
+    <LogMapLoad>Journaliser le chargement de la carte</LogMapLoad>
+    <LogTutor>Journaliser le tuteur</LogTutor>
+    <LogSignals>Journaliser les signaux</LogSignals>
+    <LogWorldPawnGC>Journaliser WorldPawnGC</LogWorldPawnGC>
+    <LogTaleRecording>Journaliser l'enregistrement des histoires</LogTaleRecording>
+    <LogHourlyScreenshot>Journaliser les captures d'écran horaires</LogHourlyScreenshot>
+    <LogFilthSummary>Journaliser le résumé des saletés</LogFilthSummary>
+    <LogCarriedBetweenJobs>Journaliser le transport entre les tâches</LogCarriedBetweenJobs>
+    <LogComplexGenPoints>Journaliser les points de génération du complexe</LogComplexGenPoints>
+    <DebugApparelOptimize>Optimisation de l'habillement (débogage)</DebugApparelOptimize>
+    <ShowAllRoomStats>Afficher toutes les statistiques des pièces</ShowAllRoomStats>
+    <ShowFloatMenuWorkGivers>Afficher les WorkGivers du menu flottant</ShowFloatMenuWorkGivers>
+    <NeverForceNormalSpeed>Ne jamais imposer la vitesse normale</NeverForceNormalSpeed>
+    <ShowArchitectMenuOrder>Afficher l'ordre des boutons du menu d'architecte</ShowArchitectMenuOrder>
+</LanguageData>

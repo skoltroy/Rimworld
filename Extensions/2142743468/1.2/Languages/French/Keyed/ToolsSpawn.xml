@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+    <DebugAction_SpawnPawn>Faire apparaître un Pawn...</DebugAction_SpawnPawn>
+    <DebugAction_SpawnWeapon>Faire apparaître une arme...</DebugAction_SpawnWeapon>
+    <DebugAction_SpawnApparel>Faire apparaître un vêtement...</DebugAction_SpawnApparel>
+    <DebugAction_TryPlaceNearThing>Essayer de placer près d'un objet...</DebugAction_TryPlaceNearThing>
+    <DebugAction_TryPlaceNearStacksOf25>Essayer de placer près d'une pile de 25...</DebugAction_TryPlaceNearStacksOf25>
+    <DebugAction_TryPlaceNearStacksOf75>Essayer de placer près d'une pile de 75...</DebugAction_TryPlaceNearStacksOf75>
+    <DebugAction_TryPlaceDirectThing>Essayer de placer directement un objet...</DebugAction_TryPlaceDirectThing>
+    <DebugAction_TryPlaceDirectStackOf25>Essayer de placer directement une pile de 25...</DebugAction_TryPlaceDirectStackOf25>
+    <DebugAction_TryAddToInventory>Tenter d'ajouter à l'inventaire...</DebugAction_TryAddToInventory>
+    <DebugAction_SpawnThingWithWipeMode>Faire apparaître un objet avec WipeMode...</DebugAction_SpawnThingWithWipeMode>
+    <DebugAction_SetTerrain>Définir le terrain...</DebugAction_SetTerrain>
+    <DebugAction_SpawnMechCluster>Faire apparaître un cluster de mécanoïdes</DebugAction_SpawnMechCluster>
+    <DebugAction_MakeFilthx100>Créer de la saleté x100</DebugAction_MakeFilthx100>
+    <DebugAction_SpawnFactionLeader>Faire apparaître le chef de faction</DebugAction_SpawnFactionLeader>
+    <DebugAction_SpawnWorldPawn>Faire apparaître un Pawn du monde...</DebugAction_SpawnWorldPawn>
+    <DebugAction_SpawnThingSet>Faire apparaître un ThingSet...</DebugAction_SpawnThingSet>
+    <DebugAction_TriggerEffecter>Déclencher Effecter...</DebugAction_TriggerEffecter>
+    <DebugAction_SpawnShuttle>Faire apparaître une navette...</DebugAction_SpawnShuttle>
+    <DebugAction_SpawnRandomCaravan>Faire apparaître une caravane aléatoire</DebugAction_SpawnRandomCaravan>
+    <DebugAction_SpawnRandomFactionBase>Faire apparaître une base de faction aléatoire</DebugAction_SpawnRandomFactionBase>
+    <DebugAction_SpawnSite>Faire apparaître un site...</DebugAction_SpawnSite>
+    <DebugAction_DestroySite>Détruire le site</DebugAction_DestroySite>
+    <DebugAction_SpawnSiteWithPoints>Faire apparaître un site avec points...</DebugAction_SpawnSiteWithPoints>
+    <DebugAction_SpawnWorldObject>Faire apparaître un WorldObject...</DebugAction_SpawnWorldObject>
+    <DebugAction_ChangeCameraConfigWorld>Modifier la configuration de la caméra...</DebugAction_ChangeCameraConfigWorld>
+</LanguageData>

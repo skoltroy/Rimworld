@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_Turret_ConvergenceDeathRay.label>Tourelle à rayon mortel convergent</DNX_Turret_ConvergenceDeathRay.label>
+  <DNX_Turret_ConvergenceDeathRay.description>Une arme expérimentale à haute énergie qui fait converger trois faisceaux de focalisation rouges avant de tirer un rayon mortel blanc dévastateur sur la zone ciblée.</DNX_Turret_ConvergenceDeathRay.description>
+  <DNX_Turret_LittleTrainRGPrototype.label>Prototype RG « Petit Train »</DNX_Turret_LittleTrainRGPrototype.label>
+  <DNX_Turret_LittleTrainRGPrototype.description>Une tourelle expérimentale à rail qui tire un pénétrateur à haute énergie, transperçant les cibles hostiles en ligne droite et libérant une impulsion IEM au point d’impact.</DNX_Turret_LittleTrainRGPrototype.description>
+  <DNX_Turret_LittleTrainRGPrototype.comps.CompRefuelable.fuelGizmoLabel>Cellules de charge du railgun</DNX_Turret_LittleTrainRGPrototype.comps.CompRefuelable.fuelGizmoLabel>
+  <DNX_Turret_LittleTrainRGPrototype.comps.CompRefuelable.fuelLabel>Cellules de charge du railgun</DNX_Turret_LittleTrainRGPrototype.comps.CompRefuelable.fuelLabel>
+  <DNX_Turret_LittleTrainRGPrototype.comps.CompRefuelable.outOfFuelMessage>Cellules de charge du railgun épuisées</DNX_Turret_LittleTrainRGPrototype.comps.CompRefuelable.outOfFuelMessage>
+</LanguageData>
