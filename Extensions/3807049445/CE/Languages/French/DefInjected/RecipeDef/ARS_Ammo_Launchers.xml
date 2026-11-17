@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAmmo_ARS_43x30mm_HE.label>fabriquer 43x30mm HE grenades x100</MakeAmmo_ARS_43x30mm_HE.label>
+  <MakeAmmo_ARS_43x30mm_HE.description>Fabriquer 100 43x30mm HE grenades.</MakeAmmo_ARS_43x30mm_HE.description>
+  <MakeAmmo_ARS_43x30mm_Smoke.label>fabriquer grenades fumigènes 43x30mm x100</MakeAmmo_ARS_43x30mm_Smoke.label>
+  <MakeAmmo_ARS_43x30mm_Smoke.description>Fabriquer 100 grenades fumigènes 43x30mm.</MakeAmmo_ARS_43x30mm_Smoke.description>
+  <MakeAmmo_ARS_43x30mm_Flash.label>fabriquer grenades flash-bang 43x30mm x100</MakeAmmo_ARS_43x30mm_Flash.label>
+  <MakeAmmo_ARS_43x30mm_Flash.description>Fabriquer 100 grenades flash-bang 43x30mm.</MakeAmmo_ARS_43x30mm_Flash.description>
+  <MakeAmmo_ARS_70mmPG70_HEAT.label>fabriquer 70mm PG-70 (HEAT) roquette x5</MakeAmmo_ARS_70mmPG70_HEAT.label>
+  <MakeAmmo_ARS_70mmPG70_HEAT.description>Fabriquer 5 70mm PG-70 (HEAT) roquette.</MakeAmmo_ARS_70mmPG70_HEAT.description>
+  <MakeAmmo_ARS_80mmPG2_HEAT.label>fabriquer 80mm PG-2 (HEAT) roquette x5</MakeAmmo_ARS_80mmPG2_HEAT.label>
+  <MakeAmmo_ARS_80mmPG2_HEAT.description>Fabriquer 5 80mm PG-2 (HEAT) roquette.</MakeAmmo_ARS_80mmPG2_HEAT.description>
+  <MakeAmmo_ARS_58mmPG16_HEAT.label>fabriquer 58mm PG-16 (HEAT) roquette x5</MakeAmmo_ARS_58mmPG16_HEAT.label>
+  <MakeAmmo_ARS_58mmPG16_HEAT.description>Fabriquer 5 58mm PG-16 (HEAT) roquette.</MakeAmmo_ARS_58mmPG16_HEAT.description>
+  <MakeAmmo_ARS_110mmZMO49_Incendiary.label>fabriquer 110mm ZMO-49 (incendiaire) roquette x5</MakeAmmo_ARS_110mmZMO49_Incendiary.label>
+  <MakeAmmo_ARS_110mmZMO49_Incendiary.description>Fabriquer 5 110mm ZMO-49 (incendiaire) roquette.</MakeAmmo_ARS_110mmZMO49_Incendiary.description>
+</LanguageData>

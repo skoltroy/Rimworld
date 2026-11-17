@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ColdBath.stages.0.label>plongeon dans l'eau froide des bains</ColdBath.stages.0.label>
+  <HeatedPool.stages.0.description>Le bassin chauffé des bains était profondément relaxant.</HeatedPool.stages.0.description>
+  <HeatedPool.stages.0.label>bassin chauffé des bains</HeatedPool.stages.0.label>
+  <HotBath.stages.0.label>trempette dans l'eau chaude des bains</HotBath.stages.0.label>
+  <HotShower.stages.0.description>J'ai pris une vraie douche chaude dans les bains.</HotShower.stages.0.description>
+  <HotShower.stages.0.label>douche chaude des bains</HotShower.stages.0.label>
+</LanguageData>

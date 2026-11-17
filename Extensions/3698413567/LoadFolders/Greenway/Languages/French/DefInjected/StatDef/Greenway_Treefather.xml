@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PruningSpeed.description>La vitesse à laquelle un colon peut tailler le Père-Arbre, en maintenant la force de son lien et la production de dryades.</PruningSpeed.description>
+  <PruningSpeed.label>vitesse de taille du Père-Arbre</PruningSpeed.label>
+</LanguageData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VVE_Highwayman_Blueprint.description>Un transport de troupes blindé Corvega robuste, reconstruit en véhicule d’escorte armé. Il sacrifie le confort et l’efficacité au profit de la protection, de la puissance de feu et de déplacements fiables sur route.
+Il consomme toujours de l’essence à une vitesse alarmante, mais les caravanes des terres désolées continuent de le faire rouler : il est bon marché, rapide et assez agressif pour effrayer les pillards peu nombreux.
+&lt;color=#bb8f04&gt;Équipage :&lt;/color&gt; Conducteur x1, tireur x1, passager x1
+&lt;color=#bb8f04&gt;Carburant :&lt;/color&gt; Essence</VVE_Highwayman_Blueprint.description>
+  <VVE_Highwayman_Blueprint.label>Corvega APC</VVE_Highwayman_Blueprint.label>
+  <VVE_Prowler_Blueprint.description>Un buggy d’exploration Corvega dépouillé, conçu pour les terrains accidentés, les mauvaises routes et les escapades en solitaire loin des itinéraires sûrs.
+Bon marché, léger et utile sur les terrains difficiles, son châssis exposé en fait toutefois un mauvais choix pour tout véritable échange de tirs.
+&lt;color=#bb8f04&gt;Équipage :&lt;/color&gt; Conducteur x1
+&lt;color=#bb8f04&gt;Carburant :&lt;/color&gt; Essence</VVE_Prowler_Blueprint.description>
+  <VVE_Prowler_Blueprint.label>Corvega prowler</VVE_Prowler_Blueprint.label>
+  <VVE_Roadkill_Blueprint.description>Un char routier Corvega lourdement blindé, conçu pour miser sur la force brute, le blindage frontal et une résistance simple aux dangers des terres désolées.
+Lent, gourmand en carburant et pénible à entretenir, il reste utile aux caravanes qui s’attendent à ce que la route leur donne du fil à retordre.
+&lt;color=#bb8f04&gt;Équipage :&lt;/color&gt; Conducteur x1
+&lt;color=#bb8f04&gt;Carburant :&lt;/color&gt; Essence</VVE_Roadkill_Blueprint.description>
+  <VVE_Roadkill_Blueprint.label>Corvega roadkill</VVE_Roadkill_Blueprint.label>
+  <VVE_Roadrunner_Blueprint.description>Un grand véhicule cargo Corvega conçu pour transporter de lourdes charges sans renoncer à la vitesse ni à la tenue de route d’une automobile d’avant-guerre.
+Comparé aux anciennes voitures des terres désolées, il est plus économe, plus discret et bien mieux adapté au transport de marchandises sur de longues distances et sur des routes entretenues.
+&lt;color=#bb8f04&gt;Équipage :&lt;/color&gt; Conducteur x1, passager x1
+&lt;color=#bb8f04&gt;Carburant :&lt;/color&gt; Essence</VVE_Roadrunner_Blueprint.description>
+  <VVE_Roadrunner_Blueprint.label>Corvega roadrunner</VVE_Roadrunner_Blueprint.label>
+  <VVE_Traveller_Blueprint.description>Une voiture Chryslus légère d’avant-guerre, conçue pour voyager vite, transporter des marchandises et rester autant que possible sur des chaussées dégagées.
+Comme la plupart des automobiles ayant survécu dans les terres désolées, elle engloutit l’essence et supporte mal la boue, les collines et les terrains enneigés.
+&lt;color=#bb8f04&gt;Équipage :&lt;/color&gt; Conducteur x1, passager x1
+&lt;color=#bb8f04&gt;Carburant :&lt;/color&gt; Essence</VVE_Traveller_Blueprint.description>
+  <VVE_Traveller_Blueprint.label>Chryslus highwayman</VVE_Traveller_Blueprint.label>
+</LanguageData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AbandonedSettlement.description>Le signal du cœur de réacteur provient de quelque part dans cette colonie. Fouillez les bâtiments abandonnés pour récupérer le cœur.</AbandonedSettlement.description>
+  <AncientReactor.description>Un ancien réacteur est caché dans les ruines voisines. Le réacteur est fissuré et laisse fuir des retombées toxiques sur toute la région. Localisez-le et désactivez-le pour obtenir un cœur de réacteur et stopper les retombées.</AncientReactor.description>
+  <AncientStockpile.description>Vous avez détecté le signal d'un cœur de réacteur émanant d'un ancien stock souterrain. L'emplacement est marqué sur la carte du monde.
+Récupérez des cœurs de réacteur et de la saturnite pour agrandir votre Hellion.</AncientStockpile.description>
+  <CrashedMechanoidPlatform.description>Les restes d'une plateforme orbitale sont éparpillés à proximité. Attention, les débris contiennent des robots hostiles.
+Le signal du cœur de réacteur provient de quelque part sur le site de l'écrasement.</CrashedMechanoidPlatform.description>
+  <FrozenTerraformer.description>Vous avez détecté le signal d'un cœur de réacteur. Le cœur alimente un terraformeur ancien défaillant. Son emplacement est marqué sur la carte du monde.
+Le terraformeur refroidit la région voisine à des températures dangereusement basses. Préparez-vous au froid.
+Récupérez des cœurs de réacteur et de la saturnite pour agrandir votre Hellion.</FrozenTerraformer.description>
+  <GravshipWreckage.description>Le site d'écrasement d'un prototype de Hellion.</GravshipWreckage.description>
+  <GravshipWreckage.label>épave de Hellion</GravshipWreckage.label>
+  <InsectLair.description>Vous avez détecté le signal d'un cœur de réacteur émanant d'un réseau de cavernes au plus profond du sous-sol. L'entrée est marquée sur la carte du monde.
+Récupérez des cœurs de réacteur et de la saturnite pour améliorer votre Hellion.</InsectLair.description>
+  <MechanoidRelay.description>Le signal du cœur de réacteur provient d'un relais de communication robotique situé ici. Démontez-le pour acquérir le cœur de réacteur.</MechanoidRelay.description>
+  <OrbitalAncientPlatform.description>Vous avez détecté le signal d'un cœur de réacteur.
+Attention, les lieux orbitaux sont extrêmement dangereux. Assurez-vous que votre Hellion est entièrement fermé par des murs étanches et équipez vos colons de combinaisons spatiales. Planifiez votre voyage de retour, car vivre longtemps en orbite est très difficile.</OrbitalAncientPlatform.description>
+  <OrbitalMechanoidPlatform.description>Vous avez détecté le signal d'un cœur de réacteur sur cette plateforme. La présence robotique y est importante.
+Attention, les lieux orbitaux sont extrêmement dangereux. Assurez-vous que votre Hellion est entièrement fermé par des murs étanches et équipez vos colons de combinaisons spatiales. Planifiez votre voyage de retour, car vivre longtemps en orbite est très difficile.</OrbitalMechanoidPlatform.description>
+  <GravshipWreckage.mainPartAllThreatsLabel>Contient : moteur Hellion</GravshipWreckage.mainPartAllThreatsLabel>
+  <AbandonedSettlement.mainPartAllThreatsLabel>Contient : cœur de réacteur</AbandonedSettlement.mainPartAllThreatsLabel>
+  <MechanoidRelay.mainPartAllThreatsLabel>Contient : cœur de réacteur</MechanoidRelay.mainPartAllThreatsLabel>
+  <InsectLair.mainPartAllThreatsLabel>Contient : cœur de réacteur</InsectLair.mainPartAllThreatsLabel>
+  <AncientReactor.mainPartAllThreatsLabel>Contient : cœur de réacteur</AncientReactor.mainPartAllThreatsLabel>
+  <OrbitalMechanoidPlatform.mainPartAllThreatsLabel>Contient : cœur de réacteur</OrbitalMechanoidPlatform.mainPartAllThreatsLabel>
+  <AncientStockpile.mainPartAllThreatsLabel>Contient : cœur de réacteur</AncientStockpile.mainPartAllThreatsLabel>
+  <CrashedMechanoidPlatform.mainPartAllThreatsLabel>Contient : cœur de réacteur</CrashedMechanoidPlatform.mainPartAllThreatsLabel>
+  <OrbitalAncientPlatform.mainPartAllThreatsLabel>Contient : cœur de réacteur</OrbitalAncientPlatform.mainPartAllThreatsLabel>
+  <FrozenTerraformer.mainPartAllThreatsLabel>Contient : cœur de réacteur</FrozenTerraformer.mainPartAllThreatsLabel>
+</LanguageData>

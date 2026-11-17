@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GravshipLaunch.description>La qualité détermine la durée de refroidissement du moteur et la probabilité d'incident à l'atterrissage.</GravshipLaunch.description>
+  <GravshipLaunch.extraOutcomeDescriptions.0.description>À la qualité actuelle, le Hellion ne pourra pas redécoller pendant {0_time} après l'atterrissage.</GravshipLaunch.extraOutcomeDescriptions.0.description>
+  <GravshipLaunch.extraOutcomeDescriptions.1.description>De plus, il y a une probabilité de {0_percentage} d'incident mineur lors de l'atterrissage du Hellion.</GravshipLaunch.extraOutcomeDescriptions.1.description>
+  <GravshipLaunch.comps.2.label>nombre d'équipage</GravshipLaunch.comps.2.label>
+  <GravshipLaunch.comps.3.label>petits propulseurs VTOL</GravshipLaunch.comps.3.label>
+  <GravshipLaunch.comps.4.label>propulseurs VTOL lourds</GravshipLaunch.comps.4.label>
+  <GravshipLaunch.comps.5.label>noyau de navigation</GravshipLaunch.comps.5.label>
+</LanguageData>

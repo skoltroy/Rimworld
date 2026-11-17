@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StargateMod_MakeAdvancedStargate.label>fabriquer un skipgate avancé</StargateMod_MakeAdvancedStargate.label>
+  <StargateMod_MakeAdvancedStargate.description>Un dispositif complexe capable de se connecter au réseau de skipgates d'une planète. Il est assez robuste pour résister aux « courants » agressifs du réseau, ce qui rend plusieurs voyages possibles.\n\nAvertissement : il est conseillé de se mettre à distance de sécurité après avoir établi une connexion avec un autre skipgate.\n\nAvertissement : lors du retour, il est conseillé d'établir une nouvelle connexion ; entrer par une « sortie » peut faire que l'objet ou la personne soit déchiré violemment au niveau moléculaire par les courants du réseau de skipgates.</StargateMod_MakeAdvancedStargate.description>
+  <StargateMod_MakeAdvancedStargate.jobString>Fabrication d'un skipgate.</StargateMod_MakeAdvancedStargate.jobString>
+  <StargateMod_MakeOrlinStargate.label>fabriquer un skipgate de fortune</StargateMod_MakeOrlinStargate.label>
+  <StargateMod_MakeOrlinStargate.description>Un dispositif complexe capable de se connecter au réseau de skipgates d'une planète. Il est bien trop fragile et primitif pour supporter les « courants » du réseau : il a tendance à s'effondrer complètement après un seul voyage.\n\nAvertissement : il est conseillé de se mettre à distance de sécurité après avoir établi une connexion avec un autre skipgate.\n\nAvertissement : lors du retour, il est conseillé d'établir une nouvelle connexion ; entrer par une « sortie » peut faire que l'objet ou la personne soit déchiré violemment au niveau moléculaire par les courants du réseau de skipgates.</StargateMod_MakeOrlinStargate.description>
+  <StargateMod_MakeOrlinStargate.jobString>Improvisation d'un skipgate.</StargateMod_MakeOrlinStargate.jobString>
+</LanguageData>

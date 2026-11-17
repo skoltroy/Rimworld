@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <StoreMessageIncomeToday>Votre bazar a rapporté {0} aujourd'hui.</StoreMessageIncomeToday>
+  <TabRegisterStore>Bazar</TabRegisterStore>
+  <StoreDefaultName>bazar {0}</StoreDefaultName>
+  <StoreTooltipRename>Renommer ce bazar.</StoreTooltipRename>
+  <TabRegisterOpenedTooltip>Si cette case est cochée, les clients peuvent parcourir le bazar pendant un service de vente.</TabRegisterOpenedTooltip>
+  <TabRegisterActiveStaff>Personnel du bazar :</TabRegisterActiveStaff>
+  <TabRegisterCustomers>Clients :</TabRegisterCustomers>
+  <AlertNoRegister>Aucun comptoir de bazar</AlertNoRegister>
+  <AlertNoRegisterExplanation>Pour ouvrir votre bazar, il vous faut au moins une caisse. Elle peut être construite depuis l'onglet production.</AlertNoRegisterExplanation>
+  <AlertNoCashier>Aucun caissier au bazar</AlertNoCashier>
+  <AlertNoCashierExplanation>Pour faire fonctionner votre bazar, il vous faut au moins un service actif à une caisse et un caissier affecté.</AlertNoCashierExplanation>
+  <Storefront_StandBy.reportString>en attente de travail au bazar.</Storefront_StandBy.reportString>
+  <Storefront_Sell.reportString>vend TargetB à TargetA au bazar.</Storefront_Sell.reportString>
+  <Storefront_BrowseItems.reportString>parcourt le bazar.</Storefront_BrowseItems.reportString>
+  <Storefront_BuyItem.reportString>achète TargetA au bazar.</Storefront_BuyItem.reportString>
+</LanguageData>

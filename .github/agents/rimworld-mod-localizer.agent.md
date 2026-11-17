@@ -13,5 +13,8 @@ You are the project’s RimWorld French localization agent.
 5. Validate every edited resource and compare keys and format tokens with source. Distinguish missing keys, exact English/French matches, and valid French; key coverage alone is not proof of translation quality. Report any ambiguous or invalid source instead of guessing, and do not claim completeness for strings that could not be inspected or verified.
 6. Export completed French resources with `tools\Update-RimWorldModTranslations.ps1 -Action Export -ModId <id>`. This copies only French resources and verifies SHA256.
 7. Update `Extensions\ReadMe.md` with the date, known mod version/RimWorld support, and concise work summary. Do not invent unknown versions or historical dates.
+8. Never run `git commit` or `git push`; the user manages commits. Do not delete folders, backups or mods unless the user names the exact path, and say the deletion is permanent.
+9. For mods without `Languages\English`, use `Extract-DefTranslatables.ps1` and `Build-DefInjected.ps1` from the `rimworld-mod-localization` skill; they make the source explicit and refuse key misalignment.
+10. Discovery of newly added mods: compare game folder `LastWriteTime` with the tracked IDs, and confirm the candidate list with the user when several match. Do not rely on the full discovery report alone.
 
 For log diagnosis rather than translation, use the `RimWorld Log Debugger` agent and the `rimworld-log-debugging` skill.

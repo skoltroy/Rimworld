@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Ammo_ARS_44RF_FMJ.description>Une ancienne cartouche à percussion annulaire pour les fusils et carabines à répétition à levier de la guerre de Sécession.</Ammo_ARS_44RF_FMJ.description>
+  <Ammo_ARS_44RF_FMJ.label>.44 Rimfire (FMJ)</Ammo_ARS_44RF_FMJ.label>
+  <Bullet_ARS_44RF_FMJ.label>balle .44 Rimfire (FMJ)</Bullet_ARS_44RF_FMJ.label>
+  <Ammo_ARS_50RF_FMJ.description>Une grosse cartouche à percussion annulaire pour les carabines de cavalerie à culasse de la guerre de Sécession.</Ammo_ARS_50RF_FMJ.description>
+  <Ammo_ARS_50RF_FMJ.label>.50 Rimfire (FMJ)</Ammo_ARS_50RF_FMJ.label>
+  <Bullet_ARS_50RF_FMJ.label>balle .50 Rimfire (FMJ)</Bullet_ARS_50RF_FMJ.label>
+</LanguageData>

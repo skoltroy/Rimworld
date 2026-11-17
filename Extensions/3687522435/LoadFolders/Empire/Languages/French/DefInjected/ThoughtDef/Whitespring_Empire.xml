@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFEE_TerribleExhibit.stages.0.description>Je suis gêné que nous ayons accueilli une exposition d'art aussi terrible. Notre art ne sera plus jamais respecté dans l'Enclave Whitespring !</VFEE_TerribleExhibit.stages.0.description>
+  <VFEE_TheGreat.stages.0.description>Je suis le récipiendaire de la Grande Commendation.</VFEE_TheGreat.stages.0.description>
+  <VFEE_FirstOfName.stages.0.label>Premier de son nom : {OTHERPAWN_possessive}</VFEE_FirstOfName.stages.0.label>
+  <VFEE_FirstOfName.stages.0.description>{OTHERPAWN_name} est le premier de son nom.</VFEE_FirstOfName.stages.0.description>
+  <VFEE_TheGreat.stages.0.label>grand honneur</VFEE_TheGreat.stages.0.label>
+  <VFEE_Chosen.stages.0.label>élu</VFEE_Chosen.stages.0.label>
+  <VFEE_TerribleBall.stages.0.label>bal épouvantable</VFEE_TerribleBall.stages.0.label>
+  <VFEE_TerribleBall.stages.0.description>Je suis gêné d'avoir fait partie de ce naufrage. J'espère simplement que personne ne va en parler.</VFEE_TerribleBall.stages.0.description>
+  <VFEE_BoringBall.stages.0.label>bal ennuyeux</VFEE_BoringBall.stages.0.label>
+  <VFEE_BoringBall.stages.0.description>Je m'attendais à une grande fête. Ce que j'ai eu manquait sérieusement de panache.</VFEE_BoringBall.stages.0.description>
+  <VFEE_EnjoyableBall.stages.0.label>bal agréable</VFEE_EnjoyableBall.stages.0.label>
+  <VFEE_EnjoyableBall.stages.0.description>Je me suis beaucoup amusé à danser à ce bal !</VFEE_EnjoyableBall.stages.0.description>
+  <VFEE_AmazingBall.stages.0.label>bal admirable</VFEE_AmazingBall.stages.0.label>
+  <VFEE_AmazingBall.stages.0.description>J'ai passé un moment incroyable à ce bal. C'était tout ce que j'avais imaginé, et plus encore !</VFEE_AmazingBall.stages.0.description>
+  <VFEE_TerribleExhibit.stages.0.label>exposition épouvantable</VFEE_TerribleExhibit.stages.0.label>
+  <VFEE_BoringExhibit.stages.0.label>exposition ennuyeuse</VFEE_BoringExhibit.stages.0.label>
+  <VFEE_BoringExhibit.stages.0.description>Je m'attendais à des pièces bien plus intéressantes, et à une meilleure présentation.</VFEE_BoringExhibit.stages.0.description>
+  <VFEE_EnjoyableExhibit.stages.0.label>exposition agréable</VFEE_EnjoyableExhibit.stages.0.label>
+  <VFEE_EnjoyableExhibit.stages.0.description>C'était vraiment intéressant de voir notre collection exposée ainsi. Un très bon moment !</VFEE_EnjoyableExhibit.stages.0.description>
+  <VFEE_AmazingExhibit.stages.0.label>exposition admirable</VFEE_AmazingExhibit.stages.0.label>
+  <VFEE_AmazingExhibit.stages.0.description>Je n'en revenais pas qu'un art que j'ai vu tant de fois puisse encore être aussi fascinant, et les officiels en visite étaient tout aussi captivants.</VFEE_AmazingExhibit.stages.0.description>
+  <VFEE_TitleNoBallroom.stages.0.label>pas de salle de bal</VFEE_TitleNoBallroom.stages.0.label>
+  <VFEE_TitleNoBallroom.stages.0.description>Qu'est-ce qu'un haut responsable sans salle de bal ?</VFEE_TitleNoBallroom.stages.0.description>
+  <VFEE_TitleNoGallery.stages.0.label>pas de galerie</VFEE_TitleNoGallery.stages.0.label>
+  <VFEE_TitleNoGallery.stages.0.description>Qu'est-ce qu'un haut responsable sans véritable galerie ?</VFEE_TitleNoGallery.stages.0.description>
+  <VFEE_TitleBallroomRequirementsNotMet.stages.0.label>salle de bal indigne</VFEE_TitleBallroomRequirementsNotMet.stages.0.label>
+  <VFEE_TitleBallroomRequirementsNotMet.stages.0.description>Je suis {TITLE_indefinite} et je devrais avoir ces objets dans ma salle de bal :\n\n{0}</VFEE_TitleBallroomRequirementsNotMet.stages.0.description>
+  <VFEE_TitleGalleryRequirementsNotMet.stages.0.label>galerie indigne</VFEE_TitleGalleryRequirementsNotMet.stages.0.label>
+  <VFEE_TitleGalleryRequirementsNotMet.stages.0.description>Je suis {TITLE_indefinite} et je devrais avoir ces objets dans ma galerie :\n\n{0}</VFEE_TitleGalleryRequirementsNotMet.stages.0.description>
+  <VFEE_LackingNobleCourt.stages.0.label>cabinet insuffisant</VFEE_LackingNobleCourt.stages.0.label>
+  <VFEE_LackingNobleCourt.stages.0.description>Mon cabinet est insuffisant. Les exigences formelles de mon rang devraient toujours être respectées. Je m'attends à être entouré de : \n\n{0}</VFEE_LackingNobleCourt.stages.0.description>
+  <VFEE_BadVisit.stages.0.label>visite épouvantable</VFEE_BadVisit.stages.0.label>
+  <VFEE_BadVisit.stages.0.description>J'ai passé un moment épouvantable avec cet hôte.</VFEE_BadVisit.stages.0.description>
+</LanguageData>

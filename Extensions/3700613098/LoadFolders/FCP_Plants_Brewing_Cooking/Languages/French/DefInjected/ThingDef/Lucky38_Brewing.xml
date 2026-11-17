@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VBE_AmbrandyDistillery.description>Une distillerie dorée d'un artisanat très délicat, destinée à faire mûrir le moût de pungashine jusqu'à une forme buvable.</VBE_AmbrandyDistillery.description>
+  <VBE_AmbrandyDistillery.label>alambic à pungashine</VBE_AmbrandyDistillery.label>
+  <VBE_AmbrandyMush.description>Fruit de punga tranché et pressé, prêt à mûrir vers le pungashine.</VBE_AmbrandyMush.description>
+  <VBE_AmbrandyMush.label>pulpe de pungashine</VBE_AmbrandyMush.label>
+  <VBE_AmbrandyMust.description>Base de liqueur de punga entièrement mûrie, prête à être distillée en pungashine.</VBE_AmbrandyMust.description>
+  <VBE_AmbrandyMust.label>moût de pungashine</VBE_AmbrandyMust.label>
+  <VBE_Cigarettes.description>Un petit tube de papier roulé, légèrement bourré de chique de tabac du coyote. Il offre une brève euphorie, une légère stimulation et la même odeur de renfermé des friches qui fait revenir les fumeurs.</VBE_Cigarettes.description>
+  <VBE_Cigars.description>Un gros cigare roulé en chique de tabac du coyote et fini pour une fumée plus coûteuse et plus réfléchie. Il porte une rude amertume désertique sous sa présentation raffinée.</VBE_Cigars.description>
+  <VBE_EnergyDrink.description>Une bouteille pétillante et piquante de guarana, relevée d'amertume et d'un arrière-goût radioactif. Il frappe fort d'entrée et laisse un coup de barre qui attend de l'autre côté.</VBE_EnergyDrink.description>
+  <VBE_EnergyDrink.label>guarana</VBE_EnergyDrink.label>
+  <VBE_FineCocktail.description>Un bon cocktail atomique, mélangé avec précision à partir de plusieurs ingrédients.</VBE_FineCocktail.description>
+  <VBE_FineCocktail.label>bon cocktail atomique</VBE_FineCocktail.label>
+  <VBE_GourmetCocktail.description>Un miracle de mixologie où chaque verre, chaque garniture et chaque remuage ont été réglés pour obtenir un cocktail atomique gastronomique.</VBE_GourmetCocktail.description>
+  <VBE_GourmetCocktail.label>cocktail atomique gastronomique</VBE_GourmetCocktail.label>
+  <VBE_LavishCocktail.description>Un cocktail atomique somptueux, mélangé à partir d'une grande variété d'ingrédients et rafraîchi à la perfection avant d'être servi.</VBE_LavishCocktail.description>
+  <VBE_LavishCocktail.label>cocktail atomique somptueux</VBE_LavishCocktail.label>
+  <VBE_Plant_Tobacco.description>Un peuplement robuste de tabac du coyote, adapté au Mojave et aux autres climats secs des friches. Une fois séchées, les feuilles deviennent de la chique de tabac du coyote, pour fumer, rouler ou troquer.</VBE_Plant_Tobacco.description>
+  <VBE_Plant_Tobacco.label>tabac du coyote</VBE_Plant_Tobacco.label>
+  <VBE_RawCoffee.description>Des boîtes scellées sous vide de café instantané d'avant-guerre. Amer, qui se conserve et reste assez puissant pour soutenir chaque service du petit-déjeuner du Lucky 38.</VBE_RawCoffee.description>
+  <VBE_RawCoffee.label>café instantané</VBE_RawCoffee.label>
+  <VBE_RawTea.description>Des feuilles de thé d'avant-guerre séchées, conservées dans une boîte du garde-manger du Lucky 38. Elles se conservent bien et infusent encore une tasse tout à fait servable.</VBE_RawTea.description>
+  <VBE_RawTea.label>feuilles de thé séchées</VBE_RawTea.label>
+  <VBE_RawTobacco.description>Une bourse de chique de tabac du coyote séchée. Assez sèche pour fumer, rouler ou mélanger dans des assemblages plus riches, avec la morsure poussiéreuse qu'attendent les fumeurs des friches.</VBE_RawTobacco.description>
+  <VBE_RawTobacco.label>chique de tabac du coyote</VBE_RawTobacco.label>
+  <VBE_SimpleCocktail.description>Un cocktail atomique simple, mélangé rapidement à partir de deux ingrédients.</VBE_SimpleCocktail.description>
+  <VBE_SimpleCocktail.label>cocktail atomique simple</VBE_SimpleCocktail.label>
+  <VBE_Soda.description>Une bouteille sucrée et pétillante de salsepareille maison. Elle est plus rafraîchissante que nutritive, mais une bouteille bien fraîche reste un luxe d'avant-guerre.</VBE_Soda.description>
+  <VBE_Soda.label>salsepareille maison</VBE_Soda.label>
+  <VBE_SodaFountain.description>Une unité tout-en-un de mise en bouteille de salsepareille maison. Le sirop est mélangé, gazéifié, refroidi, puis distribué dans des bouteilles stérilisées pour le service.</VBE_SodaFountain.description>
+  <VBE_SodaFountain.label>fontaine de salsepareille maison</VBE_SodaFountain.label>
+  <VBE_SodaSyrup.description>Une base épaisse et intensément sucrée pour la salsepareille maison. Elle doit être coupée, gazéifiée et mise en bouteille avant d'être servie.</VBE_SodaSyrup.description>
+  <VBE_SodaSyrup.label>sirop de salsepareille maison</VBE_SodaSyrup.label>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <VQE_AncientLabComplex.questNameRules.rulesStrings.0>questName-&gt;Site secret de Vault-Tec</VQE_AncientLabComplex.questNameRules.rulesStrings.0>
+  <VQE_AncientLabComplex.questDescriptionRules.rulesStrings.0>questDescription(asker_factionLeader==True)-&gt;[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], a intercepté une diffusion d'urgence enfouie, portant des marques de sécurité de Vault-Tec et des références à un programme restreint d'amélioration humaine. Le signal semble provenir d'une installation oubliée, non loin de notre colonie.
+[asker_nameDef] pense que remonter le signal révélera l'emplacement d'un site secret caché de Vault-Tec. Les éclaireurs signalent un poste de contrôle en surface, en ruine, avec un accès de coffre exposé qui descend vers un complexe de recherche scellé.
+À l'intérieur doit se trouver le relais responsable de la transmission. Si nous l'interceptons sur place, nous pourrons peut-être retracer le reste du réseau. On dit aussi que l'installation contient du matériel de traitement FEV intact et du matériel génétique expérimental qui vaut la peine d'être récupéré.
+Le site semble abandonné, mais d'anciens systèmes de sécurité et des défaillances de confinement pourraient encore être actifs.</VQE_AncientLabComplex.questDescriptionRules.rulesStrings.0>
+  <VQE_AncientLabComplex.questDescriptionRules.rulesStrings.1>questDescription(askerIsNull==True)-&gt;Nous avons intercepté une diffusion d'urgence fragmentée, marquée des sceaux de sécurité de Vault-Tec et de références à un programme restreint d'amélioration humaine. Le signal semble provenir d'un site secret enfoui, lié aux essais FEV d'avant-guerre.
+Le site devrait encore contenir le relais responsable du message. L'intercepter sur place nous permettra peut-être de retracer le reste du réseau de sites secrets.
+Nous devons nous attendre à une expédition dangereuse. Ce qui reste à l'intérieur peut comprendre des systèmes de sécurité en sommeil, des sujets défaillants et un équipement assez précieux pour relancer le projet nous-mêmes.</VQE_AncientLabComplex.questDescriptionRules.rulesStrings.1>
+</LanguageData>

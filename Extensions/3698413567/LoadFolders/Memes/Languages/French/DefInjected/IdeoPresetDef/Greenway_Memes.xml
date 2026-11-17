@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VME_Human_Hive.label>l'Unité</VME_Human_Hive.label>
+  <VME_Human_Hive.description>La promesse du Maître survit : mutants et convertis se sont unis dans un seul but, une seule armée et un seul avenir, au-delà de la faiblesse de l'humanité divisée.</VME_Human_Hive.description>
+  <VME_Egalitarian_Republic.label>république civique de la RCN</VME_Egalitarian_Republic.label>
+  <VME_Egalitarian_Republic.description>La loi, la représentation, les droits civils et les institutions publiques peuvent refaire des friches une nation, à condition que la corruption et l'expansion ne consument pas la république.</VME_Egalitarian_Republic.description>
+  <VME_Exalted_Gerontocracy.label>conseil tribal des anciens</VME_Exalted_Gerontocracy.label>
+  <VME_Exalted_Gerontocracy.description>Les plus anciens survivants portent la mémoire de chaque famine, querelle et migration. Leur conseil veille sur la tradition et guide la tribu grâce à une expérience durement acquise.</VME_Exalted_Gerontocracy.description>
+  <VME_Factory_Drones.label>équipes des fonderies du Pitt</VME_Factory_Drones.label>
+  <VME_Factory_Drones.description>Les fourneaux ne s'arrêtent jamais. Le travail, la discipline et l'automatisation alimentent une cité industrielle où chaque ouvrier n'est qu'une pièce de plus de la machine.</VME_Factory_Drones.description>
+  <VME_Corporate_Overlords.label>ordre d'entreprise RobCo</VME_Corporate_Overlords.label>
+  <VME_Corporate_Overlords.description>L'autorité des dirigeants, le travail automatisé et le profit implacable ont survécu aux bombes. L'entreprise pourvoit, pourvu que chaque actif atteigne son quota.</VME_Corporate_Overlords.description>
+  <VME_GodKing_Radicals.label>Légion de César</VME_GodKing_Radicals.label>
+  <VME_GodKing_Radicals.description>La parole de César est la civilisation. La conquête, l'assimilation forcée et une loyauté absolue détruiront la faiblesse de l'ancien monde.</VME_GodKing_Radicals.description>
+  <VME_Cosmic_Cultists.label>Hubologues</VME_Cosmic_Cultists.label>
+  <VME_Cosmic_Cultists.description>En purifiant l'esprit et en alignant nos neurodynes sur les énergies cosmiques, nous nous préparons à un état supérieur parmi les étoiles.</VME_Cosmic_Cultists.description>
+  <VME_Flame_Seers.label>Confrérie lumineuse</VME_Flame_Seers.label>
+  <VME_Flame_Seers.description>La lumière sacrée révèle le chemin à travers les friches. La flamme repousse la corruption, et les plus brillants d'entre nous mèneront les fidèles au salut.</VME_Flame_Seers.description>
+  <VME_Dwarven_Artificers.label>maîtres-forgerons du Pitt</VME_Dwarven_Artificers.label>
+  <VME_Dwarven_Artificers.description>Au fond des murs noircis par la fumée, des équipes expertes transforment le minerai et la ferraille en armes, en armures et en machines qui font vivre la fonderie.</VME_Dwarven_Artificers.description>
+  <VME_Nordic_Matriarchy.label>matriarcat des pillards des friches</VME_Nordic_Matriarchy.label>
+  <VME_Nordic_Matriarchy.description>Des mères de guerre commandent les bandes, partagent le butin et jugent le courage. L'honneur se gagne lors des raids et se défend devant tout le clan.</VME_Nordic_Matriarchy.description>
+  <VME_Steamworld_Neerdowells.label>ville de ranch du Mojave</VME_Steamworld_Neerdowells.label>
+  <VME_Steamworld_Neerdowells.description>Éleveurs, convoyeurs, colons et forces de l'ordre locales font vivre une ville-frontière rude, entre le pays des pillards et les longues routes commerciales.</VME_Steamworld_Neerdowells.description>
+  <VME_Medieval_Monarchists.label>féodaux des friches</VME_Medieval_Monarchists.label>
+  <VME_Medieval_Monarchists.description>Les colonies doivent tribut et service à la forteresse qui les protège. Le rang, l'héritage et les hommes d'armes tiennent ensemble ce nouvel ordre rigoureux.</VME_Medieval_Monarchists.description>
+  <VME_Pleasure_Extremists.label>familles de New Reno</VME_Pleasure_Extremists.label>
+  <VME_Pleasure_Extremists.description>Casinos, drogues, vice et affaires de famille gouvernent la cité. Le plaisir est une monnaie, et chaque fête est une nouvelle occasion de conclure un marché.</VME_Pleasure_Extremists.description>
+  <VME_Eastern_Revivalists.label>ordre Shi</VME_Eastern_Revivalists.label>
+  <VME_Eastern_Revivalists.description>Les Shi préservent une discipline ancestrale tout en maîtrisant une science avancée. Anciens et guerriers recherchent l'harmonie entre tradition, machine, esprit et nature.</VME_Eastern_Revivalists.description>
+  <VME_Primitivistic_Nomads.label>caravanes du Grand Khan</VME_Primitivistic_Nomads.label>
+  <VME_Primitivistic_Nomads.description>Le clan vit sur la route, pillant quand il le faut et transportant drogues et marchandises entre des colonies lointaines. La force et la liberté appartiennent à la tribu.</VME_Primitivistic_Nomads.description>
+  <VME_Pestilent_Doomsayers.label>prophètes atomiques de l'apocalypse</VME_Pestilent_Doomsayers.label>
+  <VME_Pestilent_Doomsayers.description>Radiations, maladie, douleur et mutation sont des transformations sacrées. Les fidèles d'Atom accueillent ce que les autres redoutent et se préparent à la division finale.</VME_Pestilent_Doomsayers.description>
+  <VME_Mechanoid_Technocrat.label>collectif Calculateur</VME_Mechanoid_Technocrat.label>
+  <VME_Mechanoid_Technocrat.description>La faiblesse organique doit céder à la précision de l'intelligence des machines. La ferraille, l'acier et les esprits obéissants seront réunis dans un système unique et parfait.</VME_Mechanoid_Technocrat.description>
+  <VME_Ecological_Fascists.label>puristes des dryades</VME_Ecological_Fascists.label>
+  <VME_Ecological_Fascists.description>Le Père-Arbre et ses gardiens modifiés sont l'avenir du monde vivant. Ceux qui empoisonnent cet avenir doivent se soumettre ou être extirpés.</VME_Ecological_Fascists.description>
+  <VME_Insectoid_Psykers.label>colonie des AntAgonizers</VME_Insectoid_Psykers.label>
+  <VME_Insectoid_Psykers.description>Les humains ont brisé le monde en plaçant l'ambition personnelle au-dessus de la survie. Les fourmis géantes ont fait le contraire : chaque ouvrière, soldate et reine sert la colonie. Les fidèles d'AntAgonizer étudient leurs phéromones, entretiennent des nids contrôlés et organisent leur propre établissement comme une seule couvée disciplinée.</VME_Insectoid_Psykers.description>
+</LanguageData>

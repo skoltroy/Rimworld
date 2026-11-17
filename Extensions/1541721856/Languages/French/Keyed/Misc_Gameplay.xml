@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+
+	<!-- Misc -->
+	<AA_LetterLabelAlphaCargoPodCrash>Capsule de cargaison Alpha Animals</AA_LetterLabelAlphaCargoPodCrash>
+	<AA_AlphaCargoPodCrash>Vous détectez une capsule de cargaison qui s'écrase à proximité. Des animaux exotiques captifs semblent se trouver à l'intérieur.\n\nQui sait, vous trouverez peut-être quelque chose d'utile dans l'épave.</AA_AlphaCargoPodCrash>
+	<AA_AsexualHatched>{0} s'est reproduit de manière asexuée.</AA_AsexualHatched>
+	<AA_AsexualCloning>{0} s'est cloné lui-même.</AA_AsexualCloning>
+	<AA_AsexualHatchedEgg>{0} a sporulé.</AA_AsexualHatchedEgg>
+	<NocturnalAnimals.BodyClock>Horloge biologique</NocturnalAnimals.BodyClock>
+	<NocturnalAnimals.BodyClock_Description>Détermine quand l'animal dort et quand il est éveillé.\n\nLes animaux diurnes dorment la nuit et sont éveillés le jour, tandis que les animaux nocturnes dorment le jour et sont éveillés la nuit. Les animaux crépusculaires sont surtout actifs au crépuscule.</NocturnalAnimals.BodyClock_Description>
+
+	<NocturnalAnimals.BodyClock_Diurnal>Diurne</NocturnalAnimals.BodyClock_Diurnal>
+	<NocturnalAnimals.BodyClock_Nocturnal>Nocturne</NocturnalAnimals.BodyClock_Nocturnal>
+	<NocturnalAnimals.BodyClock_Crepuscular>Crépusculaire</NocturnalAnimals.BodyClock_Crepuscular>
+
+	<AA_TimeToMetamorphosis>Temps avant métamorphose : {0}</AA_TimeToMetamorphosis>
+
+	<AA_NotTameable>Cette créature ne peut pas être apprivoisée</AA_NotTameable>
+	<AA_GallatrossNotTameable>Le Gallatross moribond ne peut pas être apprivoisé ; il retourne rapidement à l'état sauvage, dans l'attente de sa mort</AA_GallatrossNotTameable>
+	<AA_MimeNotTameable>Le Mime refuse d'être apprivoisé</AA_MimeNotTameable>
+	<AA_ClutchmotherNotTameable>La mère-pondeuse est trop sauvage pour être gardée apprivoisée !</AA_ClutchmotherNotTameable>
+	<AA_StomachContents>{0} créature(s) avalée(s) entière(s). </AA_StomachContents>
+	<AA_DigestionTime>Sera digérée dans {0}</AA_DigestionTime>
+
+	<AA_DestroyFlamingoEggsLabel>Écraser l'œuf</AA_DestroyFlamingoEggsLabel>
+	<AA_DestroyFlamingoEggsDesc>Met en file un ordre de travail pour écraser cet œuf dès que possible</AA_DestroyFlamingoEggsDesc>
+	<AA_CancelDestroyFlamingoEggsLabel>Annuler l'écrasement de l'œuf</AA_CancelDestroyFlamingoEggsLabel>
+	<AA_CancelDestroyFlamingoEggsDesc>Annule un ordre de travail pour écraser cet œuf dès que possible</AA_CancelDestroyFlamingoEggsDesc>
+
+	<AA_HuskNotTameable>La Carcasse fongique n'existe que pour propager son infection fongique ; elle ne peut pas être apprivoisée</AA_HuskNotTameable>
+
+	<AA_Detonate>Faire exploser</AA_Detonate>
+	<AA_DetonateDesc>Force cet animal à exploser. Il mourra et provoquera une explosion.</AA_DetonateDesc>
+
+	<AA_AnimalDoingWeirdJob>L'animal est occupé à faire une tâche.</AA_AnimalDoingWeirdJob>
+
+	<AA_VFEI_CreatingCocoon>{0} pour créer un cocon</AA_VFEI_CreatingCocoon>
+
+	<AA_EcholocativeFeedbackReason>L'état catatonique a été causé par une rétroaction écholocative. Le son soudain et écrasant s'est révélé insupportable.</AA_EcholocativeFeedbackReason>
+
+
+	<!-- Incidents -->
+	<LetterLabelColossalAerofleetPasses>Aéroflotte colossale</LetterLabelColossalAerofleetPasses>
+	<LetterColossalAerofleetPasses>Une étrange créature flottante rebondit au loin et erre maladroitement à travers le paysage.\n\nUne petite horde de spécimens plus petits semble attirée par elle et la suit à faible distance.\n\nIls paraissent pour la plupart inoffensifs et quitteront probablement la zone une fois nourris.</LetterColossalAerofleetPasses>
+
+	<LetterLabelSkyAsteroid>Astéroïde étrange</LetterLabelSkyAsteroid>
+	<LetterSkyAsteroid>Un petit astéroïde étrange semble être entré dans l'atmosphère de cette planète. L'impact est imminent.</LetterSkyAsteroid>
+
+	<LetterLabelBumbledroneMigration>Migration de bumbledrones</LetterLabelBumbledroneMigration>
+	<LetterBumbledroneMigration>Un petit groupe de bumbledrones, mené par une reine bumbledrone, est entré dans cette zone.\n\nLes bumbledrones ne sont généralement pas agressifs, sauf s'ils se sentent menacés.\n\nIls quitteront probablement cette zone au bout d'un moment, à la recherche d'un endroit plus calme, car la colonie est trop bruyante pour eux.</LetterBumbledroneMigration>
+
+
+	<LetterLabelManhuntingArcticLion>Lion arctique à l'affût</LetterLabelManhuntingArcticLion>
+	<ManhuntingArcticLion>Un lion arctique traque l'un de vos colons depuis les ombres.\n\nIl sera presque invisible jusqu'à ce qu'il décide d'attaquer et qu'il soit blessé par vos colons. Les colons mis en garde à vue et les défenses automatiques pourront le détecter, il faut donc vous préparer rapidement !\n\nLes lions arctiques sont des créatures redoutables, génétiquement modifiées et conçues pour le combat en climat froid.</ManhuntingArcticLion>
+
+	<LetterLabelBlizzariskClutchMother>Mère-pondeuse Blizzarisk</LetterLabelBlizzariskClutchMother>
+	<BlizzariskClutchMother>Une énorme créature semblable à une araignée, appelée Blizzarisk et adaptée aux climats froids, erre sur ce territoire.\n\nCe Blizzarisk semble bien plus grand que la normale et porte sur son dos une couvée d'œufs. Cela promet un désastre s'il n'est pas traité rapidement.</BlizzariskClutchMother>
+
+	<LetterLabelDunealiskClutchMother>Mère-pondeuse Dunealisk</LetterLabelDunealiskClutchMother>
+	<DunealiskClutchMother>Une énorme créature semblable à une araignée, appelée Dunealisk et adaptée aux climats chauds, erre sur ce territoire.\n\nCe Dunealisk semble bien plus grand que la normale et porte sur son dos une couvée d'œufs. Cela promet un désastre s'il n'est pas traité rapidement.</DunealiskClutchMother>
+
+	<LetterLabelFeraliskClutchMother>Mère-pondeuse Feralisk</LetterLabelFeraliskClutchMother>
+	<FeraliskClutchMother>Une énorme créature semblable à une araignée, appelée Feralisk, erre sur ce territoire.\n\nCe Feralisk semble bien plus grand que la normale et porte sur son dos une couvée d'œufs. Cela promet un désastre s'il n'est pas traité rapidement.</FeraliskClutchMother>
+
+	<AA_LetterLabelAnimaliskEnters>Animalisk repéré</AA_LetterLabelAnimaliskEnters>
+	<AA_LetterAnimaliskEnters>Une énorme créature semblable à une araignée, dont l'exosquelette porte des runes arcaniques gravées, erre sur ce territoire.\n\nCette créature est un Animalisk, un insecte herbivore gigantesque qui dévore l'herbe et les arbres d'Anima.</AA_LetterAnimaliskEnters>
+
+	<LetterLabelSummitCrab>Crabe du sommet</LetterLabelSummitCrab>
+	<SummitCrab>Le sol tremble tandis qu'un bernard-l'hermite massif, vivant dans un énorme rocher, traîne son corps à travers cette région.\n\nLe gigantesque bouldermit n'est pas hostile, mais il est presque invulnérable aux tirs et ravagera tout sur son passage s'il n'est pas arrêté.</SummitCrab>
+
+	<LetterLabelCactipinePod>Étrange capsule de largage</LetterLabelCactipinePod>
+	<CactipineDropPod>L'air rugit du bruit caractéristique d'une capsule de largage lors de sa rentrée atmosphérique. Les scanners détectent des signes de vie à l'intérieur, mais ils sont VRAIMENT étranges : l'appareil ne parvient pas à déterminer s'il s'agit de vie animale ou végétale.</CactipineDropPod>
+
+	<LetterLabelGallatrossPasses>Le Gallatross erre</LetterLabelGallatrossPasses>
+	<LetterGallatrossPasses>Les légendes parlent d'une créature si énorme et si puissante que des tribus entières fuyaient à sa vue. Ces légendes ont été inspirées par le Gallatross, une créature immense à l'appétit vorace. Peut-être est-elle liée au Thrumbo insaisissable ? De telles questions sont sans doute impossibles à trancher.</LetterGallatrossPasses>
+
+	<LetterLabelBlackHiveAttack>Attaque de la Ruche Noire</LetterLabelBlackHiveAttack>
+	<LetterBlackHiveAttack>Les insectoïdes des Confins sont des organismes génétiquement modifiés, conçus pour combattre les invasions mécanoïdes. La Ruche Noire était la meilleure d'entre eux, conçue pour être bien plus agressive que la normale et capable d'assiéger des forteresses mécanoïdes imprenables. Les espèces d'insectoïdes existantes ont été améliorées et plusieurs nouvelles espèces ont été créées puis ajoutées à la Ruche pour accroître sa létalité.\n\nUn groupe d'insectoïdes de la Ruche Noire a creusé un tunnel jusqu'à cet endroit et attaquera votre base immédiatement.</LetterBlackHiveAttack>
+
+	<AA_LetterLabelMechanoidSappers>Saboteurs mécanoïdes</AA_LetterLabelMechanoidSappers>
+	<AA_LetterMechanoidSappers>Un assembleur mécanoïde ancien, jusque-là dissimulé, est apparu mystérieusement à proximité.\n\nUn essaim de mécanoïdes en jaillit et se prépare rapidement à attaquer.\n\nL'un de ces mécanoïdes est un Démolisseur dangereux : ils fonceront probablement droit sur les murs !</AA_LetterMechanoidSappers>
+
+	<AA_LetterLabelMatureFleshbeast>Dévoré entier</AA_LetterLabelMatureFleshbeast>
+	<AA_LetterMatureFleshbeast>Une créature grotesque a avalé {0} tout entier ! Si vous agissez vite, vous pourrez peut-être encore sauver {0_objective}.</AA_LetterMatureFleshbeast>
+
+	<AA_LetterLabelFungalHusk>Carcasses fongiques</AA_LetterLabelFungalHusk>
+	<AA_LetterFungalHusk>Des cadavres gonflés et titubants, animés par un terrible champignon transformé en arme, sont entrés sur ce territoire !\n\nN'ayez pas qu'ils attaquent vos colons, sinon ceux-ci seront frappés par une infection fongique à action rapide, capable de tuer vite si elle n'est pas soignée.</AA_LetterFungalHusk>
+
+	<AA_LetterLabelMime>Mime révélé</AA_LetterLabelMime>
+	<AA_LetterMime>{0} était un Mime depuis le début ! {0_possessive} faim extrême a été plus forte que {0_objective}, et {0_pronoun} va attaquer le reste des colons pour tenter de l'apaiser.</AA_LetterMime>
+
+	<AA_LetterLabelBehemothPasses>Béhémoth rare</AA_LetterLabelBehemothPasses>
+	<AA_LetterBehemothPasses>Un petit troupeau de béhémoths s'est égaré dans la zone.\n\nCes créatures gigantesques ont un appétit vorace et un souffle de feu très dangereux, capable probablement d'embraser une forêt entière.\n\nLes Délaissés les utilisent couramment comme bêtes de somme.</AA_LetterBehemothPasses>
+
+	<!-- Animal Products -->
+
+	<HyperweaveDesc>Production d'hyperfibre</HyperweaveDesc>
+	<AA_UraniumCrystalsDesc>Extraction de cristaux d'uranium</AA_UraniumCrystalsDesc>
+	<StoneChunkDesc>Extraction aléatoire de morceaux de pierre</StoneChunkDesc>
+	<StoneBlockDesc>Extraction aléatoire de blocs de pierre</StoneBlockDesc>
+	<MedicinalQuillDesc>Croissance de plume médicinale</MedicinalQuillDesc>
+	<DevilstrandDesc>Production de fil de diable</DevilstrandDesc>
+	<SynthreadDesc>Production de synfil</SynthreadDesc>
+	<AA_SeasonalWoolDesc>Production de laine caméléon</AA_SeasonalWoolDesc>
+	<BoomthreadDesc>Production de fil explosif</BoomthreadDesc>
+	<ChunkSlagSteelDesc>Extraction de morceaux d'acier</ChunkSlagSteelDesc>
+	<RawMushrooms>Croissance de champignons bruts</RawMushrooms>
+	<AA_MealNutrientPaste>Production de pâte nutritive</AA_MealNutrientPaste>
+	<AA_Wood>Temps pour « tailler » les arbres</AA_Wood>
+	<AA_MutantImplantsDesc>Temps pour extraire l'implant</AA_MutantImplantsDesc>
+	<AA_CinderSilkDesc>Production de soie de cendre</AA_CinderSilkDesc>
+	<AA_MothSilkDesc>Production de soie de phalène</AA_MothSilkDesc>
+	<AA_BlueGel>Production de gel bleu</AA_BlueGel>
+	<AA_Luciferium>Production de luciférium</AA_Luciferium>
+	<AA_RandomItems>Assemblage de ressources dans</AA_RandomItems>
+	<AA_HemogenPackDesc>Poche d'hémogène dans</AA_HemogenPackDesc>
+	<VFEI2_BlackInsectJelly>Satiété de gelée d'insecte noir :</VFEI2_BlackInsectJelly>
+
+
+
+
+	<!-- Mod Settings -->
+	<alternatePokemonGraphics>Utiliser les graphismes « mignons » alternatifs pour certains animaux, par Roidgy</alternatePokemonGraphics>
+	<alternatePokemonGraphics_Desc>Si cette option est active, certains animaux utiliseront la retexture de Roidgy. Les animaux suivants ont une retexture : Agaripawn, Agaripod, lion arctique, drake de décomposition, ave du désert, Gallatross, Gigantelope, coureur du sol, ver mammouth, Mégalouse, colosse mycoïde, colosse envahi, Radyak, lion des sables et Thermadon </alternatePokemonGraphics_Desc>
+	<allowVanillaAnimals>Autoriser les animaux du jeu de base (concerne uniquement les apparitions sauvages)</allowVanillaAnimals>
+	<allowBlackHive>Autoriser les raids de la Ruche Noire</allowBlackHive>
+	<allowStalkingLions>Autoriser les attaques de lions arctiques à l'affût</allowStalkingLions>
+	<allowCactipineDroppods>Autoriser l'événement des capsules de largage Cactipine</allowCactipineDroppods>
+	<allowSpiderClutchMothers>Autoriser l'événement des mères-pondeuses araignées</allowSpiderClutchMothers>
+	<allowAerofleet>Autoriser les migrations d'aéroflottes colossales</allowAerofleet>
+	<allowGallatross>Autoriser les migrations de Gallatross</allowGallatross>
+	<allowSummitCrab>Autoriser l'événement du crabe du sommet</allowSummitCrab>
+	<allowBehemoth>Autoriser l'événement de béhémoths errants</allowBehemoth>
+	<allowBumbledrones>Autoriser les migrations de la reine bumbledrone</allowBumbledrones>
+	<allowFrostmiteCorpses>Autoriser les acariens du gel à déterrer seuls les cadavres</allowFrostmiteCorpses>
+	<allowAsteroids>Autoriser l'impact d'astéroïdes à anguilles célestes d'Arcturus</allowAsteroids>
+	<allowAlphaMechanoids>Autoriser les mécanoïdes Alpha lors des raids, des groupes, etc.</allowAlphaMechanoids>
+	<allowMechanoidSappers>Autoriser l'événement des saboteurs mécanoïdes</allowMechanoidSappers>
+	<allowHelixienCorpseEffect>Autoriser l'effet Helixien (à désactiver en cas d'erreurs dues à d'autres mods)</allowHelixienCorpseEffect>
+	<removeAnimalParticles>Retirer les particules des animaux</removeAnimalParticles>
+	<allowAnimalisk>Autoriser l'Animalisk (Royauté uniquement, dans tous les cas)</allowAnimalisk>
+	<allowMime>Autoriser l'événement de l'arrivée d'un Mime errant</allowMime>
+	<allowFungalHusk>Autoriser l'événement d'attaque des carcasses fongiques</allowFungalHusk>
+	<AA_AlphaAnimalSpawnMultiplier>Multiplicateur de fréquence d'apparition des Alpha Animals</AA_AlphaAnimalSpawnMultiplier>
+	<AA_AlphaAnimalSpawnMultiplierTooltip>Ce multiplicateur modifie la fréquence d'apparition (commonalities) de TOUS les animaux de ce mod. Par exemple, avec 0,5, les animaux du mod apparaîtront deux fois moins souvent que par défaut (qui vaut 1). Avec 2, ils apparaîtront deux fois plus souvent, et ainsi de suite. Cela ne concerne que les apparitions sauvages.</AA_AlphaAnimalSpawnMultiplierTooltip>
+	<AA_Reset>Réinitialiser le multiplicateur</AA_Reset>
+
+
+	<!-- Mod Settings, animal toggles -->
+
+	<AA_DisableAnimal>Désactiver {0}</AA_DisableAnimal>
+
+
+	<!-- Animal Stats -->
+
+	<AA_PrimaryRole>Rôle principal</AA_PrimaryRole>
+	<AA_SecondaryRole>Rôle secondaire</AA_SecondaryRole>
+	<AA_RangedAttacks>Utilise des attaques à distance</AA_RangedAttacks>
+	<AA_Yes>Oui</AA_Yes>
+	<AA_No>Non</AA_No>
+	<AA_NoRanged>Cet animal n'a pas d'attaques à distance. Pour lui ordonner d'attaquer, il doit être entraîné à Garder et Attaquer, puis être assigné à suivre un maître lorsqu'il est en mode combat et/ou au travail. Le bouton « relâcher » de la barre de commandes du maître fera attaquer l'animal au corps à corps.</AA_NoRanged>
+	<AA_Ranged>Cet animal utilise des attaques à distance et n'emploiera les attaques au corps à corps que si l'ennemi se trouve à portée de mêlée. Pour lui ordonner d'attaquer, il doit être entraîné à Garder et Attaquer, puis être assigné à suivre un maître lorsqu'il est en mode combat et/ou au travail. Le bouton « relâcher » de la barre de commandes du maître fera chercher à l'animal une couverture appropriée et l'attaque à distance.</AA_Ranged>
+
+	<!-- Roles -->
+
+	<AA_Tank>Char d'assaut</AA_Tank>
+	<AA_Artillery>Artillerie</AA_Artillery>
+
+	<AA_ShockTroop>Troupe de choc</AA_ShockTroop>
+	<AA_DOTShockTroop>Troupe de choc à dégâts sur la durée</AA_DOTShockTroop>
+	<AA_ParalyzingShockTroop>Troupe de choc paralysante</AA_ParalyzingShockTroop>
+	<AA_InfectiousShockTroop>Troupe de choc infectieuse</AA_InfectiousShockTroop>
+	<AA_PoisonShockTroop>Troupe de choc empoisonneuse</AA_PoisonShockTroop>
+	<AA_FireyShockTroop>Troupe de choc incendiaire</AA_FireyShockTroop>
+	<AA_EMPShockTroop>Troupe de choc IEM</AA_EMPShockTroop>
+	<AA_RegeneratingShockTroop>Troupe de choc régénérante</AA_RegeneratingShockTroop>
+	<AA_AntiInsectoidShockTroop>Troupe de choc anti-insectoïdes</AA_AntiInsectoidShockTroop>
+
+	<AA_ParalizingRanged>Tireur paralysant</AA_ParalizingRanged>
+	<AA_DamageRanged>Tireur à distance</AA_DamageRanged>
+	<AA_DamageRangedPoison>Tireur à distance empoisonneur</AA_DamageRangedPoison>
+	<AA_DamageRangedElectric>Tireur à distance électrique</AA_DamageRangedElectric>
+	<AA_DamageRangedFire>Tireur à distance incendiaire</AA_DamageRangedFire>
+	<AA_DamageRangedDOT>Tireur à distance à dégâts sur la durée</AA_DamageRangedDOT>
+
+	<AA_Farm>Animal d'élevage</AA_Farm>
+	<AA_MountFast>Monture rapide</AA_MountFast>
+	<AA_MountArmoured>Monture blindée</AA_MountArmoured>
+	<AA_MountFastArmoured>Monture blindée et rapide</AA_MountFastArmoured>
+	<AA_Utility>Utilitaire</AA_Utility>
+	<AA_Boomer>Explosif</AA_Boomer>
+	<AA_Larva>Larve</AA_Larva>
+	<AA_PackAnimal>Animal de bât</AA_PackAnimal>
+	<AA_Pest>Nuisible</AA_Pest>
+	<AA_Pet>Animal de compagnie</AA_Pet>
+
+
+	<!-- Roles Descriptions -->
+
+	<AA_ArtilleryDesc>Cet animal attaquera avec des attaques à distance explosives très dangereuses.</AA_ArtilleryDesc>
+	<AA_VenomousTankDesc>Les animaux « char d'assaut » sont spécialisés dans le combat au corps à corps. Ils ont de forts dégâts d'attaque, une bonne résistance, beaucoup de points de vie ou d'autres capacités qui leur permettent de survivre en première ligne.\n\nCet animal possède aussi de puissantes attaques venimeuses.</AA_VenomousTankDesc>
+	<AA_ArmouredTankDesc>Les animaux « char d'assaut » sont spécialisés dans le combat au corps à corps. Ils ont de forts dégâts d'attaque, une bonne résistance, beaucoup de points de vie ou d'autres capacités qui leur permettent de survivre en première ligne.</AA_ArmouredTankDesc>
+
+	<AA_ShockTroopDesc>Les animaux « troupe de choc » sont spécialisés dans la grande vitesse et possèdent une capacité qui ajoute de l'utilité au combat au corps à corps. Ils ne sont pas forcément très résistants ni dotés de beaucoup de points de vie, mais, bien utilisés, ils peuvent avoir des effets dévastateurs.</AA_ShockTroopDesc>
+	<AA_EMPShockTroopDesc>Les animaux « troupe de choc » sont spécialisés dans la grande vitesse et possèdent une capacité qui ajoute de l'utilité au combat au corps à corps. Ils ne sont pas forcément très résistants ni dotés de beaucoup de points de vie, mais, bien utilisés, ils peuvent avoir des effets dévastateurs.\n\nCet animal possède une attaque IEM qui inflige des dégâts supplémentaires aux mécanoïdes.</AA_EMPShockTroopDesc>
+	<AA_RegeneratingShockTroopDesc>Les animaux « troupe de choc » sont spécialisés dans la grande vitesse et possèdent une capacité qui ajoute de l'utilité au combat au corps à corps. Ils ne sont pas forcément très résistants ni dotés de beaucoup de points de vie, mais, bien utilisés, ils peuvent avoir des effets dévastateurs.\n\nCet animal régénère ses points de vie, ce qui le rend plus résistant.</AA_RegeneratingShockTroopDesc>
+	<AA_ShockTroopDOTDesc>Les animaux « troupe de choc » sont spécialisés dans la grande vitesse et possèdent une capacité qui ajoute de l'utilité au combat au corps à corps. Ils ne sont pas forcément très résistants ni dotés de beaucoup de points de vie, mais, bien utilisés, ils peuvent avoir des effets dévastateurs.\n\nCet animal possède une attaque de mêlée qui inflige des dégâts sur la durée.</AA_ShockTroopDOTDesc>
+	<AA_PoisonShockTroopDesc>Les animaux « troupe de choc » sont spécialisés dans la grande vitesse et possèdent une capacité qui ajoute de l'utilité au combat au corps à corps. Ils ne sont pas forcément très résistants ni dotés de beaucoup de points de vie, mais, bien utilisés, ils peuvent avoir des effets dévastateurs.\n\nCet animal possède une attaque de mêlée qui provoque une accumulation de toxines.</AA_PoisonShockTroopDesc>
+	<AA_ParalyzingShockTroopDesc>Les animaux « troupe de choc » sont spécialisés dans la grande vitesse et possèdent une capacité qui ajoute de l'utilité au combat au corps à corps. Ils ne sont pas forcément très résistants ni dotés de beaucoup de points de vie, mais, bien utilisés, ils peuvent avoir des effets dévastateurs.\n\nCet animal possède aussi des attaques capables d'immobiliser les assaillants.</AA_ParalyzingShockTroopDesc>
+	<AA_FireyShockTroopDesc>Les animaux « troupe de choc » sont spécialisés dans la grande vitesse et possèdent une capacité qui ajoute de l'utilité au combat au corps à corps. Ils ne sont pas forcément très résistants ni dotés de beaucoup de points de vie, mais, bien utilisés, ils peuvent avoir des effets dévastateurs.\n\nCet animal possède aussi des attaques qui mettent les ennemis en feu.</AA_FireyShockTroopDesc>
+	<AA_InfectiousShockTroopDesc>Les animaux « troupe de choc » sont spécialisés dans la grande vitesse et possèdent une capacité qui ajoute de l'utilité au combat au corps à corps. Ils ne sont pas forcément très résistants ni dotés de beaucoup de points de vie, mais, bien utilisés, ils peuvent avoir des effets dévastateurs.\n\nCet animal possède aussi des attaques qui infectent beaucoup plus souvent que la normale.</AA_InfectiousShockTroopDesc>
+	<AA_AntiInsectoidShockTroopDesc>Les animaux « troupe de choc » sont spécialisés dans la grande vitesse et possèdent une capacité qui ajoute de l'utilité au combat au corps à corps. Ils ne sont pas forcément très résistants ni dotés de beaucoup de points de vie, mais, bien utilisés, ils peuvent avoir des effets dévastateurs.\n\nCet animal possède aussi des attaques déchirantes qui infligent des dégâts supplémentaires aux insectoïdes.</AA_AntiInsectoidShockTroopDesc>
+
+	<AA_DamageRangedDesc>Cet animal utilise des attaques à distance pour blesser les assaillants. Le mettre au corps à corps n'est peut-être pas le meilleur usage de ses capacités.</AA_DamageRangedDesc>
+	<AA_ParalyzingRangedDesc>Les animaux « tireur paralysant » utilisent des attaques à distance pour immobiliser les assaillants. Le mettre au corps à corps n'est peut-être pas le meilleur usage de ses capacités.</AA_ParalyzingRangedDesc>
+	<AA_DamageRangedFireDesc>Cet animal utilise des attaques à distance pour blesser les assaillants. Ces attaques mettent les ennemis en feu. Le mettre au corps à corps n'est peut-être pas le meilleur usage de ses capacités.</AA_DamageRangedFireDesc>
+	<AA_DamageRangedDOTDesc>Cet animal utilise des attaques à distance pour blesser les assaillants. Ces attaques infligent des dégâts sur la durée. Le mettre au corps à corps n'est peut-être pas le meilleur usage de ses capacités.</AA_DamageRangedDOTDesc>
+	<AA_DamageRangedPoisonDesc>Cet animal utilise des attaques à distance pour blesser les assaillants. Ces attaques infligent des dégâts toxiques. Le mettre au corps à corps n'est peut-être pas le meilleur usage de ses capacités.</AA_DamageRangedPoisonDesc>
+	<AA_DamageRangedElectricDesc>Cet animal utilise des attaques à distance pour blesser les assaillants. Ces attaques infligent des dégâts électriques, pouvant provoquer des crises cardiaques. Le mettre au corps à corps n'est peut-être pas le meilleur usage de ses capacités.</AA_DamageRangedElectricDesc>
+
+	<AA_FarmMilkDesc>C'est un animal d'élevage qui produit du lait.</AA_FarmMilkDesc>
+	<AA_FarmFoodDesc>C'est un animal d'élevage qui produit de la nourriture.</AA_FarmFoodDesc>
+	<AA_FarmWoolDesc>C'est un animal d'élevage qui produit de la laine / des textiles.</AA_FarmWoolDesc>
+	<AA_FarmChemfuelDesc>C'est un animal d'élevage qui produit du carburant chimique.</AA_FarmChemfuelDesc>
+	<AA_FarmWoolAndMilkDesc>C'est un animal d'élevage qui produit de la laine / des textiles et du lait.</AA_FarmWoolAndMilkDesc>
+	<AA_FarmWoolAndEggsDesc>C'est un animal d'élevage qui produit de la laine / des textiles et des œufs.</AA_FarmWoolAndEggsDesc>
+	<AA_FarmBuildingAndMilkDesc>C'est un animal d'élevage qui produit des matériaux de construction et du lait.</AA_FarmBuildingAndMilkDesc>
+	<AA_FarmBuildingDesc>C'est un animal d'élevage qui produit des matériaux de construction.</AA_FarmBuildingDesc>
+	<AA_FarmMedicineDesc>C'est un animal d'élevage qui produit des médicaments.</AA_FarmMedicineDesc>
+	<AA_FarmDrugsDesc>C'est un animal d'élevage qui produit des drogues.</AA_FarmDrugsDesc>
+	<AA_FarmImplantsDesc>C'est un animal d'élevage qui produit des implants.</AA_FarmImplantsDesc>
+	<AA_FarmRandomDesc>C'est un animal d'élevage qui produit des choses variées.</AA_FarmRandomDesc>
+	<AA_FarmBloodDesc>C'est un animal d'élevage qui produit des poches d'hémogène.</AA_FarmBloodDesc>
+
+	<AA_MountFastDesc>Cet animal peut être monté par les colons, ce qui lui donne un net gain de vitesse ; il peut aussi attaquer au corps à corps avec son cavalier. Gardez à l'esprit que toute cette interaction n'est disponible que si le mod Giddy Up! est installé. Et si ce n'est pas le cas, qu'attendez-vous ?</AA_MountFastDesc>
+	<AA_MountArmouredDesc>Cet animal peut être monté par les colons, ce qui lui donne un net bonus de défense grâce à son armure supplémentaire ; il peut aussi attaquer au corps à corps avec son cavalier. Gardez à l'esprit que toute cette interaction n'est disponible que si le mod Giddy Up! est installé. Et si ce n'est pas le cas, qu'attendez-vous ?</AA_MountArmouredDesc>
+	<AA_MountFastArmouredDesc>Cet animal peut être monté par les colons, ce qui lui donne un net gain de vitesse et un bonus de défense grâce à son armure supplémentaire ; il peut aussi attaquer au corps à corps avec son cavalier. Gardez à l'esprit que toute cette interaction n'est disponible que si le mod Giddy Up! est installé. Et si ce n'est pas le cas, qu'attendez-vous ?</AA_MountFastArmouredDesc>
+
+	<AA_UtilityMoodDesc>Cet animal n'est pas adapté au combat, car il est assez faible physiquement. Il améliorera toutefois l'humeur de vos colons, par des câlins ou d'autres capacités.</AA_UtilityMoodDesc>
+	<AA_UtilityWorkerDesc>Cet animal n'est pas adapté au combat, car il est assez faible physiquement. Il aidera toutefois vos colons pour certaines tâches (extraction, récolte, nettoyage, etc.), allégeant considérablement leur charge de travail.</AA_UtilityWorkerDesc>
+	<AA_UtilityBeautyDesc>Cet animal n'est pas adapté au combat, car il est assez faible physiquement. Il augmentera toutefois la beauté de votre colonie.</AA_UtilityBeautyDesc>
+	<AA_UtilityHealthDesc>Cet animal n'est pas adapté au combat, car il est assez faible physiquement. Il aidera toutefois la santé de vos colons, soit en soignant leurs blessures, soit en les renforçant d'une façon ou d'une autre.</AA_UtilityHealthDesc>
+	<AA_UtilityTemperatureDesc>Cet animal n'est pas adapté au combat, car il est assez faible physiquement. Il vous aidera toutefois à contrôler la chaleur de votre colonie.</AA_UtilityTemperatureDesc>
+	<AA_UtilityPowerDesc>Cet animal n'est pas adapté au combat, car il est assez faible physiquement. Il produira toutefois des objets utilisables pour construire des générateurs d'électricité.</AA_UtilityPowerDesc>
+	<AA_UtilityRecycling>Cet animal n'est pas adapté au combat, car il est assez faible physiquement. Il mangera des textiles, éliminant les objets indésirables pour réguler la richesse de votre colonie.</AA_UtilityRecycling>
+	<AA_UtilityRechargerDesc>Cet animal n'est pas adapté au combat, car il est assez faible physiquement. Il rechargera périodiquement les batteries à proximité.</AA_UtilityRechargerDesc>
+	<AA_BoomerDesc>Cet animal explose à sa mort.</AA_BoomerDesc>
+	<AA_LarvaDesc>Cet animal est une forme larvaire, peu adaptée au combat. Vous devriez bien le défendre si vous voulez qu'il se transforme en sa forme adulte.</AA_LarvaDesc>
+	<AA_PackAnimalDesc>C'est un animal de bât ; il peut transporter davantage de poids que la normale dans les caravanes.</AA_PackAnimalDesc>
+	<AA_PestDesc>Cet animal est généralement considéré comme un nuisible, et il n'est d'aucune utilité dans la colonie. Ses effets sont purement néfastes ou ses besoins dépassent son utilité. Vous trouverez peut-être malgré tout un usage de niche pour lui !</AA_PestDesc>
+	<AA_PetDesc>Cet animal est un animal de compagnie. N'est-il pas mignon ?</AA_PetDesc>
+
+	<!-- Psycasts -->
+
+	<AA_OnlyBlackHive>Cette capacité doit cibler un insecte de la Ruche Noire</AA_OnlyBlackHive>
+	<AA_OnlyOneHivePerMap>Une seule entrée de ruche peut être construite</AA_OnlyOneHivePerMap>
+	<AA_NoMoreLarvaeAllowed>Aucune nouvelle larve ne peut apparaître, car la colonie compte déjà 4 insectoïdes de la Ruche Noire ou plus</AA_NoMoreLarvaeAllowed>
+	<AA_LarvaeTimeSpawn>Temps avant l'apparition de nouvelles larves noires : {0}</AA_LarvaeTimeSpawn>
+	<AA_HiveInvalidPosition>Une entrée de ruche ne peut pas être construite ici</AA_HiveInvalidPosition>
+	<AA_CocoonInsectSpawnIn>Insecte émergeant dans : {0}</AA_CocoonInsectSpawnIn>
+	<AA_PlantConversionRadius>Rayon de conversion des plantes</AA_PlantConversionRadius>
+	<AA_RadiusExpandRate>Vitesse d'expansion</AA_RadiusExpandRate>
+	<AA_OnlyNumberAllowed>Seulement {0} autorisé(s) par carte</AA_OnlyNumberAllowed>
+	<AA_MeleeWeaponNeeded>Le lanceur nécessite une arme de mêlée</AA_MeleeWeaponNeeded>
+	<AA_PsychicSlice>Entaille psychique !</AA_PsychicSlice>
+	<AA_PsychicSliceFailed>Entaille psychique ratée</AA_PsychicSliceFailed>
+	<AA_ClawFrenzy>Frénésie des griffes !</AA_ClawFrenzy>
+	<AA_ClawFrenzyFailed>Frénésie des griffes ratée</AA_ClawFrenzyFailed>
+	<AA_DisablingStrike>Frappe incapacitante !</AA_DisablingStrike>
+	<AA_DisablingStrikeFailed>Frappe incapacitante ratée</AA_DisablingStrikeFailed>
+	<AA_Skewer>Embrochage !</AA_Skewer>
+	<AA_SkewerFailed>Embrochage raté</AA_SkewerFailed>
+	<AA_Charge>Charge !</AA_Charge>
+	<AA_ChargeFailed>Charge ratée</AA_ChargeFailed>
+	<AA_ChargeAndSkewer>Charge et embrochage !</AA_ChargeAndSkewer>
+	<AA_ChargeAndSkewerFailed>Charge et embrochage ratés</AA_ChargeAndSkewerFailed>
+	<AA_EMPBlow>Coup IEM !</AA_EMPBlow>
+	<AA_EMPBlowFailed>Coup IEM raté</AA_EMPBlowFailed>
+	<AA_SpinCut>Entaille tournoyante !</AA_SpinCut>
+	<AA_SpinCutFailed>Entaille tournoyante ratée</AA_SpinCutFailed>
+	<AA_LegSkip>Balayage !</AA_LegSkip>
+	<AA_LegSkipFailed>Balayage raté</AA_LegSkipFailed>
+	<AA_KO>K.O. !</AA_KO>
+	<AA_KOFailed>K.O. raté</AA_KOFailed>
+</LanguageData>

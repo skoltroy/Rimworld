@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AtmosphericHeater.description>Construisez des réacteurs domestiques Poseidon compacts qui brûlent de la bioferrite et diffusent d'énormes quantités de chaleur dans l'air environnant.</AtmosphericHeater.description>
+  <AtmosphericHeater.label>réacteur domestique Poseidon</AtmosphericHeater.label>
+  <BioferriteGenerator.description>Construisez des générateurs d'électricité qui brûlent de la bioferrite comme combustible. La bioferrite garde ici sa propre identité, mais le matériel qui l'entoure peut encore rappeler un projet Poseidon désespéré de la fin de l'ère.</BioferriteGenerator.description>
+</LanguageData>

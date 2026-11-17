@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WNG_PrecursorEngineer.label>ingénieur précurseur</WNG_PrecursorEngineer.label>
+  <WNG_PrecursorSoldier.label>soldat précurseur</WNG_PrecursorSoldier.label>
+  <WNG_PrecursorCommander.label>coordinateur précurseur</WNG_PrecursorCommander.label>
+  <WNG_HumanFormReplicator.label>réplicateur de forme humaine</WNG_HumanFormReplicator.label>
+  <WNG_HumanFormInfiltrator.label>voyageur de forme humaine</WNG_HumanFormInfiltrator.label>
+  <WNG_PlayerHumanFormReplicator.label>réplicateur de forme humaine du joueur</WNG_PlayerHumanFormReplicator.label>
+  <WNG_HumanFormCopy.label>copie de forme humaine reconstruite</WNG_HumanFormCopy.label>
+  <WNG_ReplicatorQueenChild.label>enfant réplicateur</WNG_ReplicatorQueenChild.label>
+  <WNG_IratusQueen.label>reine Iratus</WNG_IratusQueen.label>
+  <WNG_WhispersHybrid.label>hybride Whispers</WNG_WhispersHybrid.label>
+  <WNG_WhispersHybrid.description>Un hybride Michael précoce, incontrôlable, et Wraith inférieur. Il est définitivement aveugle, suit ses proies grâce à une ouïe et des vibrations accrues, exsude en continu du brouillard par ses branchies cervicales, maintient une réserve instable de Force vitale par l'alimentation partielle, et ne conserve qu'une télépathie Wraith atténuée.</WNG_WhispersHybrid.description>
+  <WNG_WraithHunter.label>chasseur wraith</WNG_WraithHunter.label>
+  <WNG_WraithHunter.description>Un chasseur Wraith mobile, utilisé pour le traque, la chasse et la capture. Le chasseur est un rôle de caste au sein du xénotype Wraith commun, et non une race distincte.</WNG_WraithHunter.description>
+  <WNG_WraithWarrior.label>guerrier wraith</WNG_WraithWarrior.label>
+  <WNG_WraithWarrior.description>Une caste de guerriers Wraiths de première ligne, destinée au combat direct et à la défense de la Ruche.</WNG_WraithWarrior.description>
+  <WNG_WraithCommander.label>commandant wraith</WNG_WraithCommander.label>
+  <WNG_WraithCommander.description>Une caste de combat et de commandement supérieure qui coordonne les forces Wraiths sans constituer une race biologique distincte.</WNG_WraithCommander.description>
+  <WNG_WraithKeeper.label>gardien wraith</WNG_WraithKeeper.label>
+  <WNG_WraithKeeper.description>Une caste de soignants supérieurs chargée des populations de Ruche en dormance, des réserves d'alimentation et des systèmes biologiques de longue durée.</WNG_WraithKeeper.description>
+  <WNG_WraithQueen.label>reine wraith</WNG_WraithQueen.label>
+  <WNG_WraithQueen.description>Une Reine Wraith : le centre reproductif et politique d'une lignée de Ruche. La Reine est une caste et un rôle d'autorité de la même identité biologique Wraith.</WNG_WraithQueen.description>
+  <WNG_PlayerWraithHunter.label>chasseur wraith</WNG_PlayerWraithHunter.label>
+  <WNG_PlayerWraithHunter.description>Un chasseur Wraith aligné sur le joueur. Il s'agit de la même caste de Chasseur et du même xénotype Wraith que WNG_WraithHunter ; ce PawnKind distinct existe seulement pour que les débuts du joueur puissent utiliser des histoires Wraith indépendantes sans transférer ces biographies aux chasseurs de Ruche PNJ.</WNG_PlayerWraithHunter.description>
+  <WNG_ReplicatorDrone.label>drone réplicateur</WNG_ReplicatorDrone.label>
+  <WNG_ReplicatorHunter.label>chasseur réplicateur</WNG_ReplicatorHunter.label>
+  <WNG_ReplicatorBulwark.label>rempart réplicateur</WNG_ReplicatorBulwark.label>
+  <WNG_ReplicatorTitan.label>titan réplicateur</WNG_ReplicatorTitan.label>
+  <WNG_ReplicatorSiegeMass.label>masse de siège réplicatrice</WNG_ReplicatorSiegeMass.label>
+  <WNG_ReplicatorController.label>contrôleur réplicateur</WNG_ReplicatorController.label>
+  <WNG_ReplicatorRepairer.label>réparateur réplicateur</WNG_ReplicatorRepairer.label>
+  <WNG_ReplicatorBurrower.label>foreur réplicateur</WNG_ReplicatorBurrower.label>
+  <WNG_ReplicatorArtillery.label>artillerie réplicatrice</WNG_ReplicatorArtillery.label>
+  <WNG_ChildsToy.label>réplicateur Jouet d'enfant</WNG_ChildsToy.label>
+  <WNG_IratusBug.label>insecte Iratus</WNG_IratusBug.label>
+</LanguageData>

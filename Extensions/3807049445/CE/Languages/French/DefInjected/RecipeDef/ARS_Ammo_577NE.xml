@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAmmo_ARS_577NitroExpress_FMJ.label>fabriquer cartouches .577 Nitro Express (FMJ) x200</MakeAmmo_ARS_577NitroExpress_FMJ.label>
+  <MakeAmmo_ARS_577NitroExpress_FMJ.description>Fabriquer 200 cartouches .577 Nitro Express (FMJ).</MakeAmmo_ARS_577NitroExpress_FMJ.description>
+  <MakeAmmo_ARS_577NitroExpress_AP.label>fabriquer cartouches .577 Nitro Express (AP) x200</MakeAmmo_ARS_577NitroExpress_AP.label>
+  <MakeAmmo_ARS_577NitroExpress_AP.description>Fabriquer 200 cartouches .577 Nitro Express (AP).</MakeAmmo_ARS_577NitroExpress_AP.description>
+  <MakeAmmo_ARS_577NitroExpress_Incendiary.label>fabriquer cartouches .577 Nitro Express (AP-I) x200</MakeAmmo_ARS_577NitroExpress_Incendiary.label>
+  <MakeAmmo_ARS_577NitroExpress_Incendiary.description>Fabriquer 200 cartouches .577 Nitro Express (AP-I).</MakeAmmo_ARS_577NitroExpress_Incendiary.description>
+  <MakeAmmo_ARS_577NitroExpress_HE.label>fabriquer cartouches .577 Nitro Express (AP-HE) x200</MakeAmmo_ARS_577NitroExpress_HE.label>
+  <MakeAmmo_ARS_577NitroExpress_HE.description>Fabriquer 200 cartouches .577 Nitro Express (AP-HE).</MakeAmmo_ARS_577NitroExpress_HE.description>
+</LanguageData>

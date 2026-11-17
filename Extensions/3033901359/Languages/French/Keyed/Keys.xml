@@ -5,7 +5,7 @@
     <ASF_MapFilled>Vous avez rempli la carte.</ASF_MapFilled>
     <ASF_SettingContentsTabSelection>Onglet de contenu à afficher sur les constructions de stockage adaptatif :</ASF_SettingContentsTabSelection>
     <ASF_MaxNumStacks>nombre maximum de piles par cellule</ASF_MaxNumStacks> <!-- identique à celui de LWM's https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage/blob/master/_Mod/LWM.DeepStorage/Languages/English/Keyed/LWM.DeepStorage.Keys.xml -->
-    <ASF_MaxNumStacksDesc>Le nombre maximum de piles pouvant être placées dans un seul espace. Les constructions de deux cellules auront une capacité de stockage doublée.\n\nNotez que d'autres facteurs peuvent réduire la capacité de stockage.</ASF_MaxNumStacksDesc>
+    <ASF_MaxNumStacksDesc>Le nombre maximum de piles pouvant être placées dans un seul espace. Les constructions de deux cellules auront une capacité de stockage doublée.\n\nNotez que d’autres facteurs peuvent réduire la capacité de stockage.</ASF_MaxNumStacksDesc>
 	<ASF_DropSpecificCount>Déposer une quantité précise</ASF_DropSpecificCount>
 	<ASF_HideLabelsZoomDescription>Concerne les étiquettes affichées sur la carte, comme [ quantité ] ou Objet xY. Lorsqu’elle est activée, ne les afficher qu’à un niveau de zoom rapproché.</ASF_HideLabelsZoomDescription>
 	<ASF_HideLabelsMouseOverDescription>Concerne les étiquettes affichées sur la carte, comme [ quantité ] ou Objet xY. Lorsqu’elle est activée, ne les afficher qu’au survol de la souris. Le mod Toggleable Overlays remplace ce réglage s’il est activé.</ASF_HideLabelsMouseOverDescription>

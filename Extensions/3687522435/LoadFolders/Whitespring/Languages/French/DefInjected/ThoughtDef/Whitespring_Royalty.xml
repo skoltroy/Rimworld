@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GrandioseBestowingCeremony.stages.0.description>L'investiture a été comme un avant-goût de la vraie grandeur, et un moment de participation à quelque chose de plus grand.</GrandioseBestowingCeremony.stages.0.description>
+  <GrandioseBestowingCeremony.stages.0.label>investiture grandiose</GrandioseBestowingCeremony.stages.0.label>
+  <HonorableBestowingCeremony.stages.0.description>L'investiture a apporté un sentiment de dignité et d'honneur aux participants.</HonorableBestowingCeremony.stages.0.description>
+  <HonorableBestowingCeremony.stages.0.label>investiture honorable</HonorableBestowingCeremony.stages.0.label>
+  <ReignedInThroneroom.stages.0.description>J'ai dû présider dans une suite présidentielle épouvantable. C'est une insulte délibérée de mes inférieurs.</ReignedInThroneroom.stages.0.description>
+  <ReignedInThroneroom.stages.0.label>suite présidentielle épouvantable</ReignedInThroneroom.stages.0.label>
+  <ReignedInThroneroom.stages.1.description>J'ai dû présider dans une suite présidentielle terne. Elle diminue clairement mon prestige.</ReignedInThroneroom.stages.1.description>
+  <ReignedInThroneroom.stages.1.label>suite présidentielle terne</ReignedInThroneroom.stages.1.label>
+  <ReignedInThroneroom.stages.2.description>J'ai dû présider dans une suite présidentielle médiocre. Elle n'exprime pas mon prestige.</ReignedInThroneroom.stages.2.description>
+  <ReignedInThroneroom.stages.2.label>suite présidentielle médiocre</ReignedInThroneroom.stages.2.label>
+  <ReignedInThroneroom.stages.6.description>J'ai présidé dans une suite présidentielle très impressionnante. Elle exprime un prestige notable.</ReignedInThroneroom.stages.6.description>
+  <ReignedInThroneroom.stages.6.label>suite présidentielle très impressionnante</ReignedInThroneroom.stages.6.label>
+  <ReignedInThroneroom.stages.7.description>J'ai présidé dans une suite présidentielle extrêmement impressionnante. Elle démontre efficacement mon prestige.</ReignedInThroneroom.stages.7.description>
+  <ReignedInThroneroom.stages.7.label>suite présidentielle extrêmement impressionnante</ReignedInThroneroom.stages.7.label>
+  <ReignedInThroneroom.stages.8.description>J'ai présidé dans une suite présidentielle incroyablement impressionnante. Le peuple sera stupéfait de ma grandeur.</ReignedInThroneroom.stages.8.description>
+  <ReignedInThroneroom.stages.8.label>suite présidentielle incroyablement impressionnante</ReignedInThroneroom.stages.8.label>
+  <ReignedInThroneroom.stages.9.description>J'ai présidé dans une suite présidentielle céleste. Elle est à la hauteur de ma grâce et de ma noblesse.</ReignedInThroneroom.stages.9.description>
+  <ReignedInThroneroom.stages.9.label>suite présidentielle merveilleusement impressionnante</ReignedInThroneroom.stages.9.label>
+  <TerribleBestowingCeremony.stages.0.description>L'investiture semblait à la fois mesquine et complaisante.</TerribleBestowingCeremony.stages.0.description>
+  <TerribleBestowingCeremony.stages.0.label>investiture épouvantable</TerribleBestowingCeremony.stages.0.label>
+  <UnimpressiveBestowingCeremony.stages.0.description>L'investiture paraissait mécanique et sans vie.</UnimpressiveBestowingCeremony.stages.0.description>
+  <UnimpressiveBestowingCeremony.stages.0.label>investiture peu impressionnante</UnimpressiveBestowingCeremony.stages.0.label>
+</LanguageData>

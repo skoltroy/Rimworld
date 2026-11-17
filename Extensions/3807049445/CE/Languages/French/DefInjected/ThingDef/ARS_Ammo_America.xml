@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Ammo_ARS_22WinAuto_FMJ.description>Une faible cartouche à percussion annulaire conçue pour la carabine semi-automatique Winchester Modèle 1903, un peu plus puissante qu&apos;une .22 Short.</Ammo_ARS_22WinAuto_FMJ.description>
+  <Ammo_ARS_22WinAuto_AP.description>Une faible cartouche à percussion annulaire conçue pour la carabine semi-automatique Winchester Modèle 1903, un peu plus puissante qu&apos;une .22 Short.</Ammo_ARS_22WinAuto_AP.description>
+  <Ammo_ARS_22WinAuto_HP.description>Une faible cartouche à percussion annulaire conçue pour la carabine semi-automatique Winchester Modèle 1903, un peu plus puissante qu&apos;une .22 Short.</Ammo_ARS_22WinAuto_HP.description>
+  <Ammo_ARS_22WinAuto_FMJ.label>.22 Winchester Auto (FMJ)</Ammo_ARS_22WinAuto_FMJ.label>
+  <Ammo_ARS_22WinAuto_AP.label>.22 Winchester Auto (AP)</Ammo_ARS_22WinAuto_AP.label>
+  <Ammo_ARS_22WinAuto_HP.label>.22 Winchester Auto (HP)</Ammo_ARS_22WinAuto_HP.label>
+  <Bullet_ARS_22WinAuto_FMJ.label>balle .22 Winchester Auto (FMJ)</Bullet_ARS_22WinAuto_FMJ.label>
+  <Bullet_ARS_22WinAuto_AP.label>balle .22 Winchester Auto (AP)</Bullet_ARS_22WinAuto_AP.label>
+  <Bullet_ARS_22WinAuto_HP.label>balle .22 Winchester Auto (HP)</Bullet_ARS_22WinAuto_HP.label>
+  <Ammo_ARS_3018Auto_FMJ.description>La cartouche .30 Pedersen du Pedersen Device, une cartouche courte et légère de calibre fusil, qui fonctionne en emprunt par recul simple.</Ammo_ARS_3018Auto_FMJ.description>
+  <Ammo_ARS_3018Auto_AP.description>La cartouche .30 Pedersen du Pedersen Device, une cartouche courte et légère de calibre fusil, qui fonctionne en emprunt par recul simple.</Ammo_ARS_3018Auto_AP.description>
+  <Ammo_ARS_3018Auto_HP.description>La cartouche .30 Pedersen du Pedersen Device, une cartouche courte et légère de calibre fusil, qui fonctionne en emprunt par recul simple.</Ammo_ARS_3018Auto_HP.description>
+  <Ammo_ARS_3018Auto_FMJ.label>.30-18 Auto (FMJ)</Ammo_ARS_3018Auto_FMJ.label>
+  <Ammo_ARS_3018Auto_AP.label>.30-18 Auto (AP)</Ammo_ARS_3018Auto_AP.label>
+  <Ammo_ARS_3018Auto_HP.label>.30-18 Auto (HP)</Ammo_ARS_3018Auto_HP.label>
+  <Bullet_ARS_3018Auto_FMJ.label>balle .30-18 Auto (FMJ)</Bullet_ARS_3018Auto_FMJ.label>
+  <Bullet_ARS_3018Auto_AP.label>balle .30-18 Auto (AP)</Bullet_ARS_3018Auto_AP.label>
+  <Bullet_ARS_3018Auto_HP.label>balle .30-18 Auto (HP)</Bullet_ARS_3018Auto_HP.label>
+  <Ammo_ARS_276Pedersen_FMJ.description>Une cartouche de fusil de 7 mm à pleine puissance, mise au point pour le premier fusil de service semi-automatique américain, remplacée plus tard par la .30-06.</Ammo_ARS_276Pedersen_FMJ.description>
+  <Ammo_ARS_276Pedersen_AP.description>Une cartouche de fusil de 7 mm à pleine puissance, mise au point pour le premier fusil de service semi-automatique américain, remplacée plus tard par la .30-06.</Ammo_ARS_276Pedersen_AP.description>
+  <Ammo_ARS_276Pedersen_HP.description>Une cartouche de fusil de 7 mm à pleine puissance, mise au point pour le premier fusil de service semi-automatique américain, remplacée plus tard par la .30-06.</Ammo_ARS_276Pedersen_HP.description>
+  <Ammo_ARS_276Pedersen_Incendiary.description>Une cartouche de fusil de 7 mm à pleine puissance, mise au point pour le premier fusil de service semi-automatique américain, remplacée plus tard par la .30-06.</Ammo_ARS_276Pedersen_Incendiary.description>
+  <Ammo_ARS_276Pedersen_HE.description>Une cartouche de fusil de 7 mm à pleine puissance, mise au point pour le premier fusil de service semi-automatique américain, remplacée plus tard par la .30-06.</Ammo_ARS_276Pedersen_HE.description>
+  <Ammo_ARS_276Pedersen_Sabot.description>Une cartouche de fusil de 7 mm à pleine puissance, mise au point pour le premier fusil de service semi-automatique américain, remplacée plus tard par la .30-06.</Ammo_ARS_276Pedersen_Sabot.description>
+  <Ammo_ARS_276Pedersen_FMJ.label>.276 Pedersen (FMJ)</Ammo_ARS_276Pedersen_FMJ.label>
+  <Ammo_ARS_276Pedersen_AP.label>.276 Pedersen (AP)</Ammo_ARS_276Pedersen_AP.label>
+  <Ammo_ARS_276Pedersen_HP.label>.276 Pedersen (HP)</Ammo_ARS_276Pedersen_HP.label>
+  <Ammo_ARS_276Pedersen_Incendiary.label>.276 Pedersen (AP-I)</Ammo_ARS_276Pedersen_Incendiary.label>
+  <Ammo_ARS_276Pedersen_HE.label>.276 Pedersen (AP-HE)</Ammo_ARS_276Pedersen_HE.label>
+  <Ammo_ARS_276Pedersen_Sabot.label>.276 Pedersen (Sabot)</Ammo_ARS_276Pedersen_Sabot.label>
+  <Bullet_ARS_276Pedersen_FMJ.label>cartouche .276 Pedersen (FMJ)</Bullet_ARS_276Pedersen_FMJ.label>
+  <Bullet_ARS_276Pedersen_AP.label>cartouche .276 Pedersen (AP)</Bullet_ARS_276Pedersen_AP.label>
+  <Bullet_ARS_276Pedersen_HP.label>cartouche .276 Pedersen (HP)</Bullet_ARS_276Pedersen_HP.label>
+  <Bullet_ARS_276Pedersen_Incendiary.label>balle .276 Pedersen (AP-I)</Bullet_ARS_276Pedersen_Incendiary.label>
+  <Bullet_ARS_276Pedersen_HE.label>balle .276 Pedersen (AP-HE)</Bullet_ARS_276Pedersen_HE.label>
+  <Bullet_ARS_276Pedersen_Sabot.label>balle .276 Pedersen (Sabot)</Bullet_ARS_276Pedersen_Sabot.label>
+  <Ammo_ARS_3040Krag_FMJ.description>La première cartouche de fusil sans fumée de l&apos;armée américaine, une cartouche à rebord pour les fusils et carabines Krag-Jørgensen.</Ammo_ARS_3040Krag_FMJ.description>
+  <Ammo_ARS_3040Krag_AP.description>La première cartouche de fusil sans fumée de l&apos;armée américaine, une cartouche à rebord pour les fusils et carabines Krag-Jørgensen.</Ammo_ARS_3040Krag_AP.description>
+  <Ammo_ARS_3040Krag_HP.description>La première cartouche de fusil sans fumée de l&apos;armée américaine, une cartouche à rebord pour les fusils et carabines Krag-Jørgensen.</Ammo_ARS_3040Krag_HP.description>
+  <Ammo_ARS_3040Krag_Incendiary.description>La première cartouche de fusil sans fumée de l&apos;armée américaine, une cartouche à rebord pour les fusils et carabines Krag-Jørgensen.</Ammo_ARS_3040Krag_Incendiary.description>
+  <Ammo_ARS_3040Krag_HE.description>La première cartouche de fusil sans fumée de l&apos;armée américaine, une cartouche à rebord pour les fusils et carabines Krag-Jørgensen.</Ammo_ARS_3040Krag_HE.description>
+  <Ammo_ARS_3040Krag_Sabot.description>La première cartouche de fusil sans fumée de l&apos;armée américaine, une cartouche à rebord pour les fusils et carabines Krag-Jørgensen.</Ammo_ARS_3040Krag_Sabot.description>
+  <Ammo_ARS_3040Krag_FMJ.label>.30-40 Krag (FMJ)</Ammo_ARS_3040Krag_FMJ.label>
+  <Ammo_ARS_3040Krag_AP.label>.30-40 Krag (AP)</Ammo_ARS_3040Krag_AP.label>
+  <Ammo_ARS_3040Krag_HP.label>.30-40 Krag (HP)</Ammo_ARS_3040Krag_HP.label>
+  <Ammo_ARS_3040Krag_Incendiary.label>.30-40 Krag (AP-I)</Ammo_ARS_3040Krag_Incendiary.label>
+  <Ammo_ARS_3040Krag_HE.label>.30-40 Krag (AP-HE)</Ammo_ARS_3040Krag_HE.label>
+  <Ammo_ARS_3040Krag_Sabot.label>.30-40 Krag (Sabot)</Ammo_ARS_3040Krag_Sabot.label>
+  <Bullet_ARS_3040Krag_FMJ.label>balle .30-40 Krag (FMJ)</Bullet_ARS_3040Krag_FMJ.label>
+  <Bullet_ARS_3040Krag_AP.label>balle .30-40 Krag (AP)</Bullet_ARS_3040Krag_AP.label>
+  <Bullet_ARS_3040Krag_HP.label>balle .30-40 Krag (HP)</Bullet_ARS_3040Krag_HP.label>
+  <Bullet_ARS_3040Krag_Incendiary.label>balle .30-40 Krag (AP-I)</Bullet_ARS_3040Krag_Incendiary.label>
+  <Bullet_ARS_3040Krag_HE.label>balle .30-40 Krag (AP-HE)</Bullet_ARS_3040Krag_HE.label>
+  <Bullet_ARS_3040Krag_Sabot.label>balle .30-40 Krag (Sabot)</Bullet_ARS_3040Krag_Sabot.label>
+  <Ammo_ARS_303Savage_FMJ.description>Une cartouche de carabine de chasse sans rebord du Savage Modèle 99, proche de la .30-30 mais un peu plus puissante.</Ammo_ARS_303Savage_FMJ.description>
+  <Ammo_ARS_303Savage_AP.description>Une cartouche de carabine de chasse sans rebord du Savage Modèle 99, proche de la .30-30 mais un peu plus puissante.</Ammo_ARS_303Savage_AP.description>
+  <Ammo_ARS_303Savage_HP.description>Une cartouche de carabine de chasse sans rebord du Savage Modèle 99, proche de la .30-30 mais un peu plus puissante.</Ammo_ARS_303Savage_HP.description>
+  <Ammo_ARS_303Savage_Incendiary.description>Une cartouche de carabine de chasse sans rebord du Savage Modèle 99, proche de la .30-30 mais un peu plus puissante.</Ammo_ARS_303Savage_Incendiary.description>
+  <Ammo_ARS_303Savage_HE.description>Une cartouche de carabine de chasse sans rebord du Savage Modèle 99, proche de la .30-30 mais un peu plus puissante.</Ammo_ARS_303Savage_HE.description>
+  <Ammo_ARS_303Savage_Sabot.description>Une cartouche de carabine de chasse sans rebord du Savage Modèle 99, proche de la .30-30 mais un peu plus puissante.</Ammo_ARS_303Savage_Sabot.description>
+  <Ammo_ARS_303Savage_FMJ.label>.303 Savage (FMJ)</Ammo_ARS_303Savage_FMJ.label>
+  <Ammo_ARS_303Savage_AP.label>.303 Savage (AP)</Ammo_ARS_303Savage_AP.label>
+  <Ammo_ARS_303Savage_HP.label>.303 Savage (HP)</Ammo_ARS_303Savage_HP.label>
+  <Ammo_ARS_303Savage_Incendiary.label>.303 Savage (AP-I)</Ammo_ARS_303Savage_Incendiary.label>
+  <Ammo_ARS_303Savage_HE.label>.303 Savage (AP-HE)</Ammo_ARS_303Savage_HE.label>
+  <Ammo_ARS_303Savage_Sabot.label>.303 Savage (Sabot)</Ammo_ARS_303Savage_Sabot.label>
+  <Bullet_ARS_303Savage_FMJ.label>cartouche .303 Savage (FMJ)</Bullet_ARS_303Savage_FMJ.label>
+  <Bullet_ARS_303Savage_AP.label>cartouche .303 Savage (AP)</Bullet_ARS_303Savage_AP.label>
+  <Bullet_ARS_303Savage_HP.label>cartouche .303 Savage (HP)</Bullet_ARS_303Savage_HP.label>
+  <Bullet_ARS_303Savage_Incendiary.label>balle .303 Savage (AP-I)</Bullet_ARS_303Savage_Incendiary.label>
+  <Bullet_ARS_303Savage_HE.label>balle .303 Savage (AP-HE)</Bullet_ARS_303Savage_HE.label>
+  <Bullet_ARS_303Savage_Sabot.label>balle .303 Savage (Sabot)</Bullet_ARS_303Savage_Sabot.label>
+  <Ammo_ARS_348Winchester_FMJ.description>Une cartouche lourde de carabine à levier pour le Winchester Modèle 71, assez puissante pour le gros gibier.</Ammo_ARS_348Winchester_FMJ.description>
+  <Ammo_ARS_348Winchester_AP.description>Une cartouche lourde de carabine à levier pour le Winchester Modèle 71, assez puissante pour le gros gibier.</Ammo_ARS_348Winchester_AP.description>
+  <Ammo_ARS_348Winchester_HP.description>Une cartouche lourde de carabine à levier pour le Winchester Modèle 71, assez puissante pour le gros gibier.</Ammo_ARS_348Winchester_HP.description>
+  <Ammo_ARS_348Winchester_Incendiary.description>Une cartouche lourde de carabine à levier pour le Winchester Modèle 71, assez puissante pour le gros gibier.</Ammo_ARS_348Winchester_Incendiary.description>
+  <Ammo_ARS_348Winchester_HE.description>Une cartouche lourde de carabine à levier pour le Winchester Modèle 71, assez puissante pour le gros gibier.</Ammo_ARS_348Winchester_HE.description>
+  <Ammo_ARS_348Winchester_Sabot.description>Une cartouche lourde de carabine à levier pour le Winchester Modèle 71, assez puissante pour le gros gibier.</Ammo_ARS_348Winchester_Sabot.description>
+  <Ammo_ARS_348Winchester_FMJ.label>.348 Winchester (FMJ)</Ammo_ARS_348Winchester_FMJ.label>
+  <Ammo_ARS_348Winchester_AP.label>.348 Winchester (AP)</Ammo_ARS_348Winchester_AP.label>
+  <Ammo_ARS_348Winchester_HP.label>.348 Winchester (HP)</Ammo_ARS_348Winchester_HP.label>
+  <Ammo_ARS_348Winchester_Incendiary.label>.348 Winchester (AP-I)</Ammo_ARS_348Winchester_Incendiary.label>
+  <Ammo_ARS_348Winchester_HE.label>.348 Winchester (AP-HE)</Ammo_ARS_348Winchester_HE.label>
+  <Ammo_ARS_348Winchester_Sabot.label>.348 Winchester (Sabot)</Ammo_ARS_348Winchester_Sabot.label>
+  <Bullet_ARS_348Winchester_FMJ.label>cartouche .348 Winchester (FMJ)</Bullet_ARS_348Winchester_FMJ.label>
+  <Bullet_ARS_348Winchester_AP.label>cartouche .348 Winchester (AP)</Bullet_ARS_348Winchester_AP.label>
+  <Bullet_ARS_348Winchester_HP.label>cartouche .348 Winchester (HP)</Bullet_ARS_348Winchester_HP.label>
+  <Bullet_ARS_348Winchester_Incendiary.label>balle .348 Winchester (AP-I)</Bullet_ARS_348Winchester_Incendiary.label>
+  <Bullet_ARS_348Winchester_HE.label>balle .348 Winchester (AP-HE)</Bullet_ARS_348Winchester_HE.label>
+  <Bullet_ARS_348Winchester_Sabot.label>balle .348 Winchester (Sabot)</Bullet_ARS_348Winchester_Sabot.label>
+  <Ammo_ARS_35Remington_FMJ.description>Une cartouche sans rebord à balle lourde et lente, conçue pour les Remington Modèles 8 et 14 et les carabines à levier Marlin.</Ammo_ARS_35Remington_FMJ.description>
+  <Ammo_ARS_35Remington_AP.description>Une cartouche sans rebord à balle lourde et lente, conçue pour les Remington Modèles 8 et 14 et les carabines à levier Marlin.</Ammo_ARS_35Remington_AP.description>
+  <Ammo_ARS_35Remington_HP.description>Une cartouche sans rebord à balle lourde et lente, conçue pour les Remington Modèles 8 et 14 et les carabines à levier Marlin.</Ammo_ARS_35Remington_HP.description>
+  <Ammo_ARS_35Remington_Incendiary.description>Une cartouche sans rebord à balle lourde et lente, conçue pour les Remington Modèles 8 et 14 et les carabines à levier Marlin.</Ammo_ARS_35Remington_Incendiary.description>
+  <Ammo_ARS_35Remington_HE.description>Une cartouche sans rebord à balle lourde et lente, conçue pour les Remington Modèles 8 et 14 et les carabines à levier Marlin.</Ammo_ARS_35Remington_HE.description>
+  <Ammo_ARS_35Remington_Sabot.description>Une cartouche sans rebord à balle lourde et lente, conçue pour les Remington Modèles 8 et 14 et les carabines à levier Marlin.</Ammo_ARS_35Remington_Sabot.description>
+  <Ammo_ARS_35Remington_FMJ.label>.35 Remington (FMJ)</Ammo_ARS_35Remington_FMJ.label>
+  <Ammo_ARS_35Remington_AP.label>.35 Remington (AP)</Ammo_ARS_35Remington_AP.label>
+  <Ammo_ARS_35Remington_HP.label>.35 Remington (HP)</Ammo_ARS_35Remington_HP.label>
+  <Ammo_ARS_35Remington_Incendiary.label>.35 Remington (AP-I)</Ammo_ARS_35Remington_Incendiary.label>
+  <Ammo_ARS_35Remington_HE.label>.35 Remington (AP-HE)</Ammo_ARS_35Remington_HE.label>
+  <Ammo_ARS_35Remington_Sabot.label>.35 Remington (Sabot)</Ammo_ARS_35Remington_Sabot.label>
+  <Bullet_ARS_35Remington_FMJ.label>cartouche .35 Remington (FMJ)</Bullet_ARS_35Remington_FMJ.label>
+  <Bullet_ARS_35Remington_AP.label>cartouche .35 Remington (AP)</Bullet_ARS_35Remington_AP.label>
+  <Bullet_ARS_35Remington_HP.label>cartouche .35 Remington (HP)</Bullet_ARS_35Remington_HP.label>
+  <Bullet_ARS_35Remington_Incendiary.label>balle .35 Remington (AP-I)</Bullet_ARS_35Remington_Incendiary.label>
+  <Bullet_ARS_35Remington_HE.label>balle .35 Remington (AP-HE)</Bullet_ARS_35Remington_HE.label>
+  <Bullet_ARS_35Remington_Sabot.label>balle .35 Remington (Sabot)</Bullet_ARS_35Remington_Sabot.label>
+  <Ammo_ARS_35WinchesterSL_FMJ.description>Une cartouche de carabine légère conçue pour la carabine semi-automatique Winchester Modèle 1905, entre une cartouche de pistolet et une cartouche de carabine.</Ammo_ARS_35WinchesterSL_FMJ.description>
+  <Ammo_ARS_35WinchesterSL_AP.description>Une cartouche de carabine légère conçue pour la carabine semi-automatique Winchester Modèle 1905, entre une cartouche de pistolet et une cartouche de carabine.</Ammo_ARS_35WinchesterSL_AP.description>
+  <Ammo_ARS_35WinchesterSL_HP.description>Une cartouche de carabine légère conçue pour la carabine semi-automatique Winchester Modèle 1905, entre une cartouche de pistolet et une cartouche de carabine.</Ammo_ARS_35WinchesterSL_HP.description>
+  <Ammo_ARS_35WinchesterSL_Incendiary.description>Une cartouche de carabine légère conçue pour la carabine semi-automatique Winchester Modèle 1905, entre une cartouche de pistolet et une cartouche de carabine.</Ammo_ARS_35WinchesterSL_Incendiary.description>
+  <Ammo_ARS_35WinchesterSL_HE.description>Une cartouche de carabine légère conçue pour la carabine semi-automatique Winchester Modèle 1905, entre une cartouche de pistolet et une cartouche de carabine.</Ammo_ARS_35WinchesterSL_HE.description>
+  <Ammo_ARS_35WinchesterSL_Sabot.description>Une cartouche de carabine légère conçue pour la carabine semi-automatique Winchester Modèle 1905, entre une cartouche de pistolet et une cartouche de carabine.</Ammo_ARS_35WinchesterSL_Sabot.description>
+  <Ammo_ARS_35WinchesterSL_FMJ.label>.35 Winchester semi-automatique (FMJ)</Ammo_ARS_35WinchesterSL_FMJ.label>
+  <Ammo_ARS_35WinchesterSL_AP.label>.35 Winchester semi-automatique (AP)</Ammo_ARS_35WinchesterSL_AP.label>
+  <Ammo_ARS_35WinchesterSL_HP.label>.35 Winchester semi-automatique (HP)</Ammo_ARS_35WinchesterSL_HP.label>
+  <Ammo_ARS_35WinchesterSL_Incendiary.label>.35 Winchester semi-automatique (AP-I)</Ammo_ARS_35WinchesterSL_Incendiary.label>
+  <Ammo_ARS_35WinchesterSL_HE.label>.35 Winchester semi-automatique (AP-HE)</Ammo_ARS_35WinchesterSL_HE.label>
+  <Ammo_ARS_35WinchesterSL_Sabot.label>.35 Winchester semi-automatique (Sabot)</Ammo_ARS_35WinchesterSL_Sabot.label>
+  <Bullet_ARS_35WinchesterSL_FMJ.label>balle .35 Winchester semi-automatique (FMJ)</Bullet_ARS_35WinchesterSL_FMJ.label>
+  <Bullet_ARS_35WinchesterSL_AP.label>balle .35 Winchester semi-automatique (AP)</Bullet_ARS_35WinchesterSL_AP.label>
+  <Bullet_ARS_35WinchesterSL_HP.label>balle .35 Winchester semi-automatique (HP)</Bullet_ARS_35WinchesterSL_HP.label>
+  <Bullet_ARS_35WinchesterSL_Incendiary.label>balle .35 Winchester semi-automatique (AP-I)</Bullet_ARS_35WinchesterSL_Incendiary.label>
+  <Bullet_ARS_35WinchesterSL_HE.label>balle .35 Winchester semi-automatique (AP-HE)</Bullet_ARS_35WinchesterSL_HE.label>
+  <Bullet_ARS_35WinchesterSL_Sabot.label>balle .35 Winchester semi-automatique (Sabot)</Bullet_ARS_35WinchesterSL_Sabot.label>
+  <Ammo_ARS_351WinchesterSL_FMJ.description>La cartouche de carabine semi-automatique plus puissante du Winchester Modèle 1907, très prisée des forces de police et des gardiens de prison.</Ammo_ARS_351WinchesterSL_FMJ.description>
+  <Ammo_ARS_351WinchesterSL_AP.description>La cartouche de carabine semi-automatique plus puissante du Winchester Modèle 1907, très prisée des forces de police et des gardiens de prison.</Ammo_ARS_351WinchesterSL_AP.description>
+  <Ammo_ARS_351WinchesterSL_HP.description>La cartouche de carabine semi-automatique plus puissante du Winchester Modèle 1907, très prisée des forces de police et des gardiens de prison.</Ammo_ARS_351WinchesterSL_HP.description>
+  <Ammo_ARS_351WinchesterSL_Incendiary.description>La cartouche de carabine semi-automatique plus puissante du Winchester Modèle 1907, très prisée des forces de police et des gardiens de prison.</Ammo_ARS_351WinchesterSL_Incendiary.description>
+  <Ammo_ARS_351WinchesterSL_HE.description>La cartouche de carabine semi-automatique plus puissante du Winchester Modèle 1907, très prisée des forces de police et des gardiens de prison.</Ammo_ARS_351WinchesterSL_HE.description>
+  <Ammo_ARS_351WinchesterSL_Sabot.description>La cartouche de carabine semi-automatique plus puissante du Winchester Modèle 1907, très prisée des forces de police et des gardiens de prison.</Ammo_ARS_351WinchesterSL_Sabot.description>
+  <Ammo_ARS_351WinchesterSL_FMJ.label>.351 Winchester semi-automatique (FMJ)</Ammo_ARS_351WinchesterSL_FMJ.label>
+  <Ammo_ARS_351WinchesterSL_AP.label>.351 Winchester semi-automatique (AP)</Ammo_ARS_351WinchesterSL_AP.label>
+  <Ammo_ARS_351WinchesterSL_HP.label>.351 Winchester semi-automatique (HP)</Ammo_ARS_351WinchesterSL_HP.label>
+  <Ammo_ARS_351WinchesterSL_Incendiary.label>.351 Winchester semi-automatique (AP-I)</Ammo_ARS_351WinchesterSL_Incendiary.label>
+  <Ammo_ARS_351WinchesterSL_HE.label>.351 Winchester semi-automatique (AP-HE)</Ammo_ARS_351WinchesterSL_HE.label>
+  <Ammo_ARS_351WinchesterSL_Sabot.label>.351 Winchester semi-automatique (Sabot)</Ammo_ARS_351WinchesterSL_Sabot.label>
+  <Bullet_ARS_351WinchesterSL_FMJ.label>balle .351 Winchester semi-automatique (FMJ)</Bullet_ARS_351WinchesterSL_FMJ.label>
+  <Bullet_ARS_351WinchesterSL_AP.label>balle .351 Winchester semi-automatique (AP)</Bullet_ARS_351WinchesterSL_AP.label>
+  <Bullet_ARS_351WinchesterSL_HP.label>balle .351 Winchester semi-automatique (HP)</Bullet_ARS_351WinchesterSL_HP.label>
+  <Bullet_ARS_351WinchesterSL_Incendiary.label>balle .351 Winchester semi-automatique (AP-I)</Bullet_ARS_351WinchesterSL_Incendiary.label>
+  <Bullet_ARS_351WinchesterSL_HE.label>balle .351 Winchester semi-automatique (AP-HE)</Bullet_ARS_351WinchesterSL_HE.label>
+  <Bullet_ARS_351WinchesterSL_Sabot.label>balle .351 Winchester semi-automatique (Sabot)</Bullet_ARS_351WinchesterSL_Sabot.label>
+  <Ammo_ARS_401WinchesterSL_FMJ.description>La plus lourde des cartouches semi-automatiques Winchester, une grosse balle lente pour le Modèle 1910.</Ammo_ARS_401WinchesterSL_FMJ.description>
+  <Ammo_ARS_401WinchesterSL_AP.description>La plus lourde des cartouches semi-automatiques Winchester, une grosse balle lente pour le Modèle 1910.</Ammo_ARS_401WinchesterSL_AP.description>
+  <Ammo_ARS_401WinchesterSL_HP.description>La plus lourde des cartouches semi-automatiques Winchester, une grosse balle lente pour le Modèle 1910.</Ammo_ARS_401WinchesterSL_HP.description>
+  <Ammo_ARS_401WinchesterSL_Incendiary.description>La plus lourde des cartouches semi-automatiques Winchester, une grosse balle lente pour le Modèle 1910.</Ammo_ARS_401WinchesterSL_Incendiary.description>
+  <Ammo_ARS_401WinchesterSL_HE.description>La plus lourde des cartouches semi-automatiques Winchester, une grosse balle lente pour le Modèle 1910.</Ammo_ARS_401WinchesterSL_HE.description>
+  <Ammo_ARS_401WinchesterSL_Sabot.description>La plus lourde des cartouches semi-automatiques Winchester, une grosse balle lente pour le Modèle 1910.</Ammo_ARS_401WinchesterSL_Sabot.description>
+  <Ammo_ARS_401WinchesterSL_FMJ.label>.401 Winchester semi-automatique (FMJ)</Ammo_ARS_401WinchesterSL_FMJ.label>
+  <Ammo_ARS_401WinchesterSL_AP.label>.401 Winchester semi-automatique (AP)</Ammo_ARS_401WinchesterSL_AP.label>
+  <Ammo_ARS_401WinchesterSL_HP.label>.401 Winchester semi-automatique (HP)</Ammo_ARS_401WinchesterSL_HP.label>
+  <Ammo_ARS_401WinchesterSL_Incendiary.label>.401 Winchester semi-automatique (AP-I)</Ammo_ARS_401WinchesterSL_Incendiary.label>
+  <Ammo_ARS_401WinchesterSL_HE.label>.401 Winchester semi-automatique (AP-HE)</Ammo_ARS_401WinchesterSL_HE.label>
+  <Ammo_ARS_401WinchesterSL_Sabot.label>.401 Winchester semi-automatique (Sabot)</Ammo_ARS_401WinchesterSL_Sabot.label>
+  <Bullet_ARS_401WinchesterSL_FMJ.label>cartouche .401 Winchester semi-automatique (FMJ)</Bullet_ARS_401WinchesterSL_FMJ.label>
+  <Bullet_ARS_401WinchesterSL_AP.label>cartouche .401 Winchester semi-automatique (AP)</Bullet_ARS_401WinchesterSL_AP.label>
+  <Bullet_ARS_401WinchesterSL_HP.label>cartouche .401 Winchester semi-automatique (HP)</Bullet_ARS_401WinchesterSL_HP.label>
+  <Bullet_ARS_401WinchesterSL_Incendiary.label>balle .401 Winchester semi-automatique (AP-I)</Bullet_ARS_401WinchesterSL_Incendiary.label>
+  <Bullet_ARS_401WinchesterSL_HE.label>balle .401 Winchester semi-automatique (AP-HE)</Bullet_ARS_401WinchesterSL_HE.label>
+  <Bullet_ARS_401WinchesterSL_Sabot.label>balle .401 Winchester semi-automatique (Sabot)</Bullet_ARS_401WinchesterSL_Sabot.label>
+  <Ammo_ARS_45RemingtonThompson_FMJ.description>Une cartouche de pistolet .45 très chargée, conçue pour le pistolet-mitrailleur Thompson au début des années 1920, bien plus puissante que le .45 Remington-Thompson.</Ammo_ARS_45RemingtonThompson_FMJ.description>
+  <Ammo_ARS_45RemingtonThompson_AP.description>Une cartouche de pistolet .45 très chargée, conçue pour le pistolet-mitrailleur Thompson au début des années 1920, bien plus puissante que le .45 Remington-Thompson.</Ammo_ARS_45RemingtonThompson_AP.description>
+  <Ammo_ARS_45RemingtonThompson_HP.description>Une cartouche de pistolet .45 très chargée, conçue pour le pistolet-mitrailleur Thompson au début des années 1920, bien plus puissante que le .45 Remington-Thompson.</Ammo_ARS_45RemingtonThompson_HP.description>
+  <Ammo_ARS_45RemingtonThompson_FMJ.label>.45 Remington-Thompson (FMJ)</Ammo_ARS_45RemingtonThompson_FMJ.label>
+  <Ammo_ARS_45RemingtonThompson_AP.label>.45 Remington-Thompson (AP)</Ammo_ARS_45RemingtonThompson_AP.label>
+  <Ammo_ARS_45RemingtonThompson_HP.label>.45 Remington-Thompson (HP)</Ammo_ARS_45RemingtonThompson_HP.label>
+  <Bullet_ARS_45RemingtonThompson_FMJ.label>balle .45 Remington-Thompson (FMJ)</Bullet_ARS_45RemingtonThompson_FMJ.label>
+  <Bullet_ARS_45RemingtonThompson_AP.label>balle .45 Remington-Thompson (AP)</Bullet_ARS_45RemingtonThompson_AP.label>
+  <Bullet_ARS_45RemingtonThompson_HP.label>balle .45 Remington-Thompson (HP)</Bullet_ARS_45RemingtonThompson_HP.label>
+  <Ammo_ARS_6mmLeeNavy_FMJ.description>Une cartouche de fusil à petit calibre et grande vitesse, conçue pour le fusil Lee de la marine américaine, en 1895.</Ammo_ARS_6mmLeeNavy_FMJ.description>
+  <Ammo_ARS_6mmLeeNavy_AP.description>Une cartouche de fusil à petit calibre et grande vitesse, conçue pour le fusil Lee de la marine américaine, en 1895.</Ammo_ARS_6mmLeeNavy_AP.description>
+  <Ammo_ARS_6mmLeeNavy_HP.description>Une cartouche de fusil à petit calibre et grande vitesse, conçue pour le fusil Lee de la marine américaine, en 1895.</Ammo_ARS_6mmLeeNavy_HP.description>
+  <Ammo_ARS_6mmLeeNavy_Incendiary.description>Une cartouche de fusil à petit calibre et grande vitesse, conçue pour le fusil Lee de la marine américaine, en 1895.</Ammo_ARS_6mmLeeNavy_Incendiary.description>
+  <Ammo_ARS_6mmLeeNavy_HE.description>Une cartouche de fusil à petit calibre et grande vitesse, conçue pour le fusil Lee de la marine américaine, en 1895.</Ammo_ARS_6mmLeeNavy_HE.description>
+  <Ammo_ARS_6mmLeeNavy_Sabot.description>Une cartouche de fusil à petit calibre et grande vitesse, conçue pour le fusil Lee de la marine américaine, en 1895.</Ammo_ARS_6mmLeeNavy_Sabot.description>
+  <Ammo_ARS_6mmLeeNavy_FMJ.label>6mm Lee Navy (FMJ)</Ammo_ARS_6mmLeeNavy_FMJ.label>
+  <Ammo_ARS_6mmLeeNavy_AP.label>6mm Lee Navy (AP)</Ammo_ARS_6mmLeeNavy_AP.label>
+  <Ammo_ARS_6mmLeeNavy_HP.label>6mm Lee Navy (HP)</Ammo_ARS_6mmLeeNavy_HP.label>
+  <Ammo_ARS_6mmLeeNavy_Incendiary.label>6mm Lee Navy (AP-I)</Ammo_ARS_6mmLeeNavy_Incendiary.label>
+  <Ammo_ARS_6mmLeeNavy_HE.label>6mm Lee Navy (AP-HE)</Ammo_ARS_6mmLeeNavy_HE.label>
+  <Ammo_ARS_6mmLeeNavy_Sabot.label>6mm Lee Navy (Sabot)</Ammo_ARS_6mmLeeNavy_Sabot.label>
+  <Bullet_ARS_6mmLeeNavy_FMJ.label>cartouche 6mm Lee Navy (FMJ)</Bullet_ARS_6mmLeeNavy_FMJ.label>
+  <Bullet_ARS_6mmLeeNavy_AP.label>cartouche 6mm Lee Navy (AP)</Bullet_ARS_6mmLeeNavy_AP.label>
+  <Bullet_ARS_6mmLeeNavy_HP.label>cartouche 6mm Lee Navy (HP)</Bullet_ARS_6mmLeeNavy_HP.label>
+  <Bullet_ARS_6mmLeeNavy_Incendiary.label>balle 6mm Lee Navy (AP-I)</Bullet_ARS_6mmLeeNavy_Incendiary.label>
+  <Bullet_ARS_6mmLeeNavy_HE.label>balle 6mm Lee Navy (AP-HE)</Bullet_ARS_6mmLeeNavy_HE.label>
+  <Bullet_ARS_6mmLeeNavy_Sabot.label>balle 6mm Lee Navy (Sabot)</Bullet_ARS_6mmLeeNavy_Sabot.label>
+  <Ammo_ARS_38Super_FMJ.description>Une charge plus forte du .38 Super dans le même étui, introduite en 1929 pour le Colt Super .38, avec une vitesse plus élevée et une meilleure pénétration.</Ammo_ARS_38Super_FMJ.description>
+  <Ammo_ARS_38Super_AP.description>Une charge plus forte du .38 Super dans le même étui, introduite en 1929 pour le Colt Super .38, avec une vitesse plus élevée et une meilleure pénétration.</Ammo_ARS_38Super_AP.description>
+  <Ammo_ARS_38Super_HP.description>Une charge plus forte du .38 Super dans le même étui, introduite en 1929 pour le Colt Super .38, avec une vitesse plus élevée et une meilleure pénétration.</Ammo_ARS_38Super_HP.description>
+  <Ammo_ARS_38Super_FMJ.label>.38 Super (FMJ)</Ammo_ARS_38Super_FMJ.label>
+  <Ammo_ARS_38Super_AP.label>.38 Super (AP)</Ammo_ARS_38Super_AP.label>
+  <Ammo_ARS_38Super_HP.label>.38 Super (HP)</Ammo_ARS_38Super_HP.label>
+  <Bullet_ARS_38Super_FMJ.label>balle .38 Super (FMJ)</Bullet_ARS_38Super_FMJ.label>
+  <Bullet_ARS_38Super_AP.label>balle .38 Super (AP)</Bullet_ARS_38Super_AP.label>
+  <Bullet_ARS_38Super_HP.label>balle .38 Super (HP)</Bullet_ARS_38Super_HP.label>
+  <Ammo_ARS_60Test_FMJ.description>Une cartouche expérimentale de 15,2 mm, mise au point en 1939 pour les fusils antichars T1 et T1E1. Elle n&apos;est jamais entrée en service, et son étui a été ensuite rétreint pour donner la munition de 20 mm.</Ammo_ARS_60Test_FMJ.description>
+  <Ammo_ARS_60Test_AP.description>Une cartouche expérimentale de 15,2 mm, mise au point en 1939 pour les fusils antichars T1 et T1E1. Elle n&apos;est jamais entrée en service, et son étui a été ensuite rétreint pour donner la munition de 20 mm.</Ammo_ARS_60Test_AP.description>
+  <Ammo_ARS_60Test_Incendiary.description>Une cartouche expérimentale de 15,2 mm, mise au point en 1939 pour les fusils antichars T1 et T1E1. Elle n&apos;est jamais entrée en service, et son étui a été ensuite rétreint pour donner la munition de 20 mm.</Ammo_ARS_60Test_Incendiary.description>
+  <Ammo_ARS_60Test_HE.description>Une cartouche expérimentale de 15,2 mm, mise au point en 1939 pour les fusils antichars T1 et T1E1. Elle n&apos;est jamais entrée en service, et son étui a été ensuite rétreint pour donner la munition de 20 mm.</Ammo_ARS_60Test_HE.description>
+  <Ammo_ARS_60Test_Sabot.description>Une cartouche expérimentale de 15,2 mm, mise au point en 1939 pour les fusils antichars T1 et T1E1. Elle n&apos;est jamais entrée en service, et son étui a été ensuite rétreint pour donner la munition de 20 mm.</Ammo_ARS_60Test_Sabot.description>
+  <Ammo_ARS_60Test_FMJ.label>.60 Test (15.2x114mm) (FMJ)</Ammo_ARS_60Test_FMJ.label>
+  <Ammo_ARS_60Test_AP.label>.60 Test (15.2x114mm) (AP)</Ammo_ARS_60Test_AP.label>
+  <Ammo_ARS_60Test_Incendiary.label>.60 Test (15.2x114mm) (AP-I)</Ammo_ARS_60Test_Incendiary.label>
+  <Ammo_ARS_60Test_HE.label>.60 Test (15.2x114mm) (AP-HE)</Ammo_ARS_60Test_HE.label>
+  <Ammo_ARS_60Test_Sabot.label>.60 Test (15.2x114mm) (Sabot)</Ammo_ARS_60Test_Sabot.label>
+  <Bullet_ARS_60Test_FMJ.label>balle .60 Test (15.2x114mm) (FMJ)</Bullet_ARS_60Test_FMJ.label>
+  <Bullet_ARS_60Test_AP.label>balle .60 Test (15.2x114mm) (AP)</Bullet_ARS_60Test_AP.label>
+  <Bullet_ARS_60Test_Incendiary.label>balle .60 Test (15.2x114mm) (AP-I)</Bullet_ARS_60Test_Incendiary.label>
+  <Bullet_ARS_60Test_HE.label>balle .60 Test (15.2x114mm) (AP-HE)</Bullet_ARS_60Test_HE.label>
+  <Bullet_ARS_60Test_Sabot.label>balle .60 Test (15.2x114mm) (Sabot)</Bullet_ARS_60Test_Sabot.label>
+</LanguageData>

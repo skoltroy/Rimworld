@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Leo.Events.AwakenedTree>Arbre éveillé {0}</Leo.Events.AwakenedTree>
+  <Leo.Events.Mimic>Imitateur : {0}</Leo.Events.Mimic>
+
+  <Leo.Events.MessageSiegeBombardment>L'avant-poste prend {PAWN_labelShort} pour cible avec un bombardement !</Leo.Events.MessageSiegeBombardment>
+
+  <Leo.Events.checkPlayerTechLevel.Label>Activer la vérification du niveau technologique du joueur</Leo.Events.checkPlayerTechLevel.Label>
+  <Leo.Events.checkPlayerTechLevel.Tooltip>Si cette option est activée, l'événement vérifiera d'abord le niveau technologique du joueur pour déterminer s'il peut se produire.
+
+Remarque : dans le jeu de base, le niveau technologique de la faction du joueur est fixé par le scénario.</Leo.Events.checkPlayerTechLevel.Tooltip>
+
+  <Leo.Events.Disabled>Désactivé</Leo.Events.Disabled>
+
+  <Leo.Events.TurretMalfunctionAlert.Label>Dysfonctionnement de tourelle</Leo.Events.TurretMalfunctionAlert.Label>
+  <Leo.Events.TurretMalfunctionAlert.Desc>Certaines tourelles sont tombées en panne et sont devenues hostiles pour les prochains jours.
+Cliquez sur cette alerte pour accéder à une cible.</Leo.Events.TurretMalfunctionAlert.Desc>
+  <Leo.Events.TurretMalfunctionAlert.Line>- {0} @ ({1}, {2})</Leo.Events.TurretMalfunctionAlert.Line>
+
+</LanguageData>

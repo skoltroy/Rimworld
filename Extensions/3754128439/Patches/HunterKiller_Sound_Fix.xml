@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- soundCast doit référencer un SoundDef (pas un ThingDef). Shot_Autocannon existe dans Core (World_Oneshots_Weapons.xml). Mortar_LaunchA existe dans Core (World_Oneshots_Mortars.xml). -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DNX_Gun_HunterKillerCannon"]//soundCast</xpath>
+		<value><soundCast>Shot_Autocannon</soundCast></value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DNX_Gun_HunterKillerRocketRack"]//soundCast</xpath>
+		<value><soundCast>Mortar_LaunchA</soundCast></value>
+	</Operation>
+</Patch>

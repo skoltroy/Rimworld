@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WNG_PrecursorLaboratoryDiscovery.label>découverte d'un laboratoire précurseur</WNG_PrecursorLaboratoryDiscovery.label>
+  <WNG_PrecursorVaultDiscovery.label>découverte d'un coffre précurseur scellé</WNG_PrecursorVaultDiscovery.label>
+  <WNG_DeceptiveSurveyAnnexDiscovery.label>découverte d'une annexe de relevé ancienne</WNG_DeceptiveSurveyAnnexDiscovery.label>
+  <WNG_AsuranDormantFacilityDiscovery.label>découverte d'une installation asurane dormante</WNG_AsuranDormantFacilityDiscovery.label>
+  <WNG_AsuranKamikazeStrike.label>frappe de démolition asurane</WNG_AsuranKamikazeStrike.label>
+  <WNG_AsuranKamikazeStrike.letterLabel>frappe de démolition asurane</WNG_AsuranKamikazeStrike.letterLabel>
+  <WNG_AsuranKamikazeStrike.letterText>Un opérateur hostile du Collectif du Treillis est entré sur la carte, son propre corps nanitique converti en treillis de démolition armé.</WNG_AsuranKamikazeStrike.letterText>
+  <WNG_GoauldDeathGliderStrike.label>frappe de Planeur de la mort du Seigneur système</WNG_GoauldDeathGliderStrike.label>
+  <WNG_GoauldDeathGliderStrike.letterLabel>frappe de Planeur de la mort</WNG_GoauldDeathGliderStrike.letterLabel>
+  <WNG_GoauldDeathGliderStrike.letterText>Un Seigneur système hostile a envoyé un Planeur de la mort à deux places contre la colonie. L'appareil et son équipage Jaffa sont physiquement engagés dans deux passages au canon-bâton, et non représentés par un raid abstrait. Si l'appareil exact survit au second passage, il se retire physiquement avec le même équipage à bord.</WNG_GoauldDeathGliderStrike.letterText>
+  <WNG_HostileAsuranGateJumper.label>frappe asurane dissimulée par la porte des étoiles</WNG_HostileAsuranGateJumper.label>
+  <WNG_HostileAsuranGateJumper.letterLabel>entrée asurane dissimulée par la porte</WNG_HostileAsuranGateJumper.letterLabel>
+  <WNG_HostileAsuranGateJumper.letterText>Un signal hostile du Treillis s'est résolu à travers la Porte des étoiles de la colonie. Les capteurs ne peuvent pas immédiatement identifier l'appareil qui arrive : un Puddle Jumper maintient un camouflage limité à côté de la porte, avec un détachement d'abordage asuran encore physiquement à bord. Les dégâts, la perte de carburant ou le temps peuvent faire s'effondrer le camouflage avant que l'équipage exact ne se déploie.</WNG_HostileAsuranGateJumper.letterText>
+  <WNG_HumanFormInfiltration.label>technicien visiteur du Treillis silencieux</WNG_HumanFormInfiltration.label>
+  <WNG_HumanFormInfiltration.letterLabel>technicien visiteur du Treillis silencieux</WNG_HumanFormInfiltration.letterLabel>
+  <WNG_HumanFormInfiltration.letterText>Un technicien isolé du Treillis silencieux est entré dans la zone et demande la permission de cartographier les interférences de champ locales avant de poursuivre sa route. Ses références semblent légitimes et il ne porte aucune arme visible. Si vous doutez de cette visite, un colon réquisitionné ayant une solide formation médicale ou intellectuelle peut procéder à une inspection rapprochée en restant à côté du visiteur un court instant.</WNG_HumanFormInfiltration.letterText>
+  <WNG_HumanFormInfiltrationUnaffiliated.label>voyageur technique non affilié</WNG_HumanFormInfiltrationUnaffiliated.label>
+  <WNG_HumanFormInfiltrationUnaffiliated.letterLabel>voyageur technique non affilié</WNG_HumanFormInfiltrationUnaffiliated.letterLabel>
+  <WNG_HumanFormInfiltrationUnaffiliated.letterText>Un technicien isolé venu d'un autre monde est entré dans la zone en déclarant n'avoir aucune allégeance de faction. Aucune arme n'est visible. Il dit cartographier les interférences de champ locales avant de poursuivre sa route. Si son histoire paraît suspecte, un colon réquisitionné ayant une solide formation médicale ou intellectuelle peut procéder à une inspection rapprochée en restant à côté du voyageur un court instant.</WNG_HumanFormInfiltrationUnaffiliated.letterText>
+  <WNG_ReplicatorQueenVaultDiscovery.label>découverte d'un coffre nanitique scellé</WNG_ReplicatorQueenVaultDiscovery.label>
+  <WNG_CapturedQueenSovereignStrike.label>frappe réplicatrice liée à une Reine</WNG_CapturedQueenSovereignStrike.label>
+  <WNG_OnacReplicatorThreatResponse.label>sortie anti-réplicateur du Seigneur système</WNG_OnacReplicatorThreatResponse.label>
+  <WNG_QuietLatticeStargateVisit.label>délégation du Treillis silencieux par la porte des étoiles</WNG_QuietLatticeStargateVisit.label>
+  <WNG_QuietLatticeStargateVisit.letterLabel>délégation du Treillis silencieux</WNG_QuietLatticeStargateVisit.letterLabel>
+  <WNG_QuietLatticeStargateVisit.letterText>Un trou de ver entrant se résout en une véritable délégation du Treillis silencieux. Ils ont utilisé la Porte des étoiles de la colonie par son propre réseau natif et demandent une courte visite pacifique. Leur courrier de retour arrivera séparément par Puddle Jumper.</WNG_QuietLatticeStargateVisit.letterText>
+  <WNG_ReplicatorConsumedRuinDiscovery.label>découverte d'une ruine consumée par les réplicateurs</WNG_ReplicatorConsumedRuinDiscovery.label>
+  <WNG_ReplicatorMatterMeteorShower.label>chute de matière réplicatrice</WNG_ReplicatorMatterMeteorShower.label>
+  <WNG_ReplicatorMatterMeteorShower.letterLabel>chute de matière réplicatrice</WNG_ReplicatorMatterMeteorShower.letterLabel>
+  <WNG_ReplicatorMatterMeteorShower.letterText>Plusieurs objets anormaux de matière-machine descendent vers la colonie. Leurs signatures de treillis correspondent à de la matière réplicatrice dormante, et non à un essaim achevé.</WNG_ReplicatorMatterMeteorShower.letterText>
+  <WNG_ReplicatorContaminatedCargo.label>cargaison de récupération</WNG_ReplicatorContaminatedCargo.label>
+  <WNG_ReplicatorContaminatedCargo.letterLabel>cargaison de récupération</WNG_ReplicatorContaminatedCargo.letterLabel>
+  <WNG_ReplicatorContaminatedCargo.letterText>Une balise de récupération automatisée a acheminé vers la colonie une petite capsule de fret contenant des fournitures industrielles et des débris machine scellés.</WNG_ReplicatorContaminatedCargo.letterText>
+  <WNG_ReplicatorStargateSalvage.label>débris de Porte des étoiles contaminés</WNG_ReplicatorStargateSalvage.label>
+  <WNG_ReplicatorStargateSalvage.letterLabel>débris de Porte des étoiles contaminés</WNG_ReplicatorStargateSalvage.letterLabel>
+  <WNG_ReplicatorStargateSalvage.letterText>Un substrat machine modulaire apparemment inerte est apparu près de la Porte des étoiles de la colonie après un trafic interplanétaire. Ce n'est pas un réplicateur actif, mais son treillis interne pourrait devenir dangereux si le matériau n'est pas sécurisé.</WNG_ReplicatorStargateSalvage.letterText>
+  <WNG_ReplicatorStargateAssault.label>incursion réplicatrice par la Porte des étoiles</WNG_ReplicatorStargateAssault.label>
+  <WNG_ReplicatorStargateAssault.letterLabel>des réplicateurs à travers la porte</WNG_ReplicatorStargateAssault.letterLabel>
+  <WNG_ReplicatorStargateAssault.letterText>La Porte des étoiles s'est ouverte sur un couloir hostile contrôlé par des réplicateurs. Des formes-blocs primitives entrent par cette porte exacte, et de nouvelles recompositions limitées restent possibles tant que ce même couloir reste utilisable.</WNG_ReplicatorStargateAssault.letterText>
+  <WNG_WhispersHybridEscape.label>Whispers dans la brume</WNG_WhispersHybridEscape.label>
+  <WNG_WhispersHybridEscape.letterLabel>Whispers dans la brume</WNG_WhispersHybridEscape.letterLabel>
+  <WNG_WhispersHybridEscape.letterText>Un banc de brume anormale avance depuis le bord de la colonie. Des formes claquent et bougent à l'intérieur. Les capteurs identifient une biologie instable dérivée d'humain et d'Iratus, compatible avec l'une des expériences d'hybrides précoces abandonnées de Michael. Les créatures semblent aveugles, mais elles suivent les sons.</WNG_WhispersHybridEscape.letterText>
+  <WNG_WraithMatureHiveDiscovery.label>découverte d'une Ruche Wraith mature</WNG_WraithMatureHiveDiscovery.label>
+  <WNG_WraithAsuranExtermination.label>extermination d'Asurans par les Wraiths</WNG_WraithAsuranExtermination.label>
+  <WNG_WraithCloningInstallationDiscovery.label>découverte d'une installation de clonage Wraith abandonnée</WNG_WraithCloningInstallationDiscovery.label>
+  <WNG_WraithDartCullingRaid.label>raid de chasse en Dard Wraith</WNG_WraithDartCullingRaid.label>
+  <WNG_WraithRuinedLaboratoryDiscovery.label>découverte d'un laboratoire Wraith abandonné</WNG_WraithRuinedLaboratoryDiscovery.label>
+  <WNG_WraithStargateHunt.label>groupe de chasse Wraith par la Porte des étoiles</WNG_WraithStargateHunt.label>
+  <WNG_WraithStargateDiplomaticEnvoy.label>émissaire diplomatique Wraith par la Porte des étoiles</WNG_WraithStargateDiplomaticEnvoy.label>
+</LanguageData>

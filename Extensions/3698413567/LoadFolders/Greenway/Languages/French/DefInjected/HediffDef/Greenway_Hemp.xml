@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SmokeleafHigh.label>défoncé au chanvre</SmokeleafHigh.label>
+  <SmokeleafHigh.labelNoun>un trip au chanvre</SmokeleafHigh.labelNoun>
+  <SmokeleafHigh.description>Le principe actif du chanvre circule dans le sang. Il procure une douce sensation de bien-être cotonneux.</SmokeleafHigh.description>
+  <SmokeleafTolerance.label>tolérance au chanvre</SmokeleafTolerance.label>
+  <SmokeleafTolerance.description>Une tolérance accumulée au chanvre. Plus cette tolérance est forte, plus il faut de chanvre pour obtenir le même effet.</SmokeleafTolerance.description>
+  <SmokeleafAddiction.label>dépendance au chanvre</SmokeleafAddiction.label>
+  <SmokeleafAddiction.description>Une dépendance chimique au chanvre. Une consommation prolongée a provoqué des adaptations neurologiques au niveau cellulaire, si bien que le cerveau ne fonctionne plus correctement sans la drogue.\n\nSans doses régulières de chanvre, les symptômes de sevrage commencent. Toutefois, une abstinence prolongée forcera le cerveau à revenir à son état normal, ce qui résorbera la dépendance.</SmokeleafAddiction.description>
+</LanguageData>

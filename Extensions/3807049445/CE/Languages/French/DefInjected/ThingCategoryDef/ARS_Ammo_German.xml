@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AmmoARS_106x25mmR.label>10.6x25mmR</AmmoARS_106x25mmR.label>
+  <AmmoARS_1115x60mmR.label>11.15x60mmR</AmmoARS_1115x60mmR.label>
+  <AmmoARS_923mmLargo.label>9x23mm Largo</AmmoARS_923mmLargo.label>
+  <AmmoARS_765x25mmBorchardt.label>7.65x25mm Borchardt</AmmoARS_765x25mmBorchardt.label>
+  <AmmoARS_925mmMauser.label>9x25mm Mauser Export</AmmoARS_925mmMauser.label>
+  <AmmoARS_8mmBergmann.label>8mm Bergmann</AmmoARS_8mmBergmann.label>
+  <AmmoARS_918mmUltra.label>9x18mm Ultra</AmmoARS_918mmUltra.label>
+  <AmmoARS_473x25mmCaseless.label>4,73x25 mm sans étui</AmmoARS_473x25mmCaseless.label>
+  <AmmoARS_775mmGECO.label>7.75mm GECO</AmmoARS_775mmGECO.label>
+  <AmmoARS_46x36mm.label>4.6x36mm</AmmoARS_46x36mm.label>
+  <AmmoARS_20Gauge.label>calibre 20</AmmoARS_20Gauge.label>
+  <AmmoARS_762x36mmDart.label>fléchette en acier 7,62x36 mm</AmmoARS_762x36mmDart.label>
+</LanguageData>

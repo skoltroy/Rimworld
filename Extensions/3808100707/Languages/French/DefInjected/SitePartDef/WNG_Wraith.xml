@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WNG_AncientArchaeologyCache.label>cache de relevé ancienne enfouie</WNG_AncientArchaeologyCache.label>
+  <WNG_AncientArchaeologyCache.description>Une petite cache archéologique précurseur contenant des artefacts anciens endommagés de contrôle et de confinement du vide.</WNG_AncientArchaeologyCache.description>
+  <WNG_AncientArchaeologyCache.arrivedLetter>Les coordonnées du relevé mènent à une cache ancienne enfouie. Un noyau de drone fracturé et une coque de confinement du vide dégradée devraient pouvoir être récupérés près du centre du site.</WNG_AncientArchaeologyCache.arrivedLetter>
+  <WNG_PrecursorLaboratorySite.label>laboratoire précurseur à ciel ouvert</WNG_PrecursorLaboratorySite.label>
+  <WNG_PrecursorLaboratorySite.description>Un laboratoire de l'ère ancienne exposé, contenant une architecture précurseur survivante et des preuves technologiques endommagées.</WNG_PrecursorLaboratorySite.description>
+  <WNG_PrecursorLaboratorySite.arrivedLetter>Le laboratoire exposé contient encore une architecture précurseur intacte et des preuves endommagées. Rien ici n'est un système d'arme ou d'énergie ancien fonctionnel offert gratuitement, mais le site pourra aider à reconstruire la technologie plus tard.</WNG_PrecursorLaboratorySite.arrivedLetter>
+  <WNG_PrecursorVaultSite.label>coffre précurseur scellé</WNG_PrecursorVaultSite.label>
+  <WNG_PrecursorVaultSite.description>Un coffre ancien scellé et compact, dont les preuves de confinement survivantes peuvent éclairer la technologie précurseur de l'énergie du vide.</WNG_PrecursorVaultSite.description>
+  <WNG_PrecursorVaultSite.arrivedLetter>La coque du coffre est encore largement intacte. Un artefact de confinement du vide dégradé semble avoir survécu à l'intérieur, mais aucun module d'énergie complet ne vous est remis gratuitement.</WNG_PrecursorVaultSite.arrivedLetter>
+  <WNG_DeceptiveSurveyAnnexSite.label>annexe de relevé ancienne</WNG_DeceptiveSurveyAnnexSite.label>
+  <WNG_DeceptiveSurveyAnnexSite.description>Une annexe de relevé ancienne apparemment intacte, bâtie autour d'un noyau de données silencieux. L'architecture semble légitime, mais la densité de motifs interne du site est inhabituelle.</WNG_DeceptiveSurveyAnnexSite.description>
+  <WNG_DeceptiveSurveyAnnexSite.arrivedLetter>L'annexe paraît ancienne à première inspection. Le noyau de relevé central reste silencieux. Une approche pourrait révéler si le site est bien ce qu'il prétend être.</WNG_DeceptiveSurveyAnnexSite.arrivedLetter>
+  <WNG_AsuranDormantFacility.label>installation asurane dormante</WNG_AsuranDormantFacility.label>
+  <WNG_AsuranDormantFacility.description>Une installation asurane inhabituellement intacte et manifestement asurane, centrée sur un noyau de motifs sombre, des relais silencieux et des socles de reconstruction vides. Le noyau pourrait réveiller un cadre défensif limité du Treillis si on s'en approche.</WNG_AsuranDormantFacility.description>
+  <WNG_AsuranDormantFacility.arrivedLetter>L'installation est indubitablement asurane : murs en composite pâle, noyau central de continuité sombre, relais silencieux et socles de reconstruction vides. Rien n'est encore actif.</WNG_AsuranDormantFacility.arrivedLetter>
+  <WNG_ReplicatorConsumedRuin.label>ruine consumée par les réplicateurs</WNG_ReplicatorConsumedRuin.label>
+  <WNG_ReplicatorConsumedRuin.description>Une ruine technologique déjà dépouillée par les Réplicateurs. Aucun essaim actif ne subsiste, mais trois caches séparées de Réplicateurs-blocs auto-organisés ordinaires persistent au milieu des décombres et peuvent se reconstituer si elles restent exposées.</WNG_ReplicatorConsumedRuin.description>
+  <WNG_ReplicatorConsumedRuin.arrivedLetter>La ruine a été physiquement consumée et dépouillée. Aucun Réplicateur vivant ne subsiste, mais trois caches séparées de Réplicateurs-blocs ordinaires ont survécu à l'essaim. Les piles non confinées peuvent se reconstituer selon les règles normales d'exposition des blocs.</WNG_ReplicatorConsumedRuin.arrivedLetter>
+  <WNG_ReplicatorQueenVault.label>coffre nanitique scellé</WNG_ReplicatorQueenVault.label>
+  <WNG_ReplicatorQueenVault.description>Un coffre de l'ère précurseur, sans propriétaire, contenant une signature nanitique de forme humaine exacte, à l'intérieur d'une véritable chambre de cryosommeil ancienne.</WNG_ReplicatorQueenVault.description>
+  <WNG_ReplicatorQueenVault.arrivedLetter>Le signal nanitique anormal provient d'une chambre de cryosommeil ancienne intacte, quelque part sur ce site.</WNG_ReplicatorQueenVault.arrivedLetter>
+  <WNG_SovereignLatticeCache.label>cache de treillis de commandement sectionné</WNG_SovereignLatticeCache.label>
+  <WNG_SovereignLatticeCache.description>Une cache de terrain précurseur contenant un Treillis neuronal souverain physique.</WNG_SovereignLatticeCache.description>
+  <WNG_SovereignLatticeCache.arrivedLetter>Le signal de la cache correspond à un petit site de stockage précurseur. Un Treillis neuronal souverain complet devrait être physiquement présent quelque part près du centre du site.</WNG_SovereignLatticeCache.arrivedLetter>
+  <WNG_WraithMatureHive.label>Ruche Wraith mature</WNG_WraithMatureHive.label>
+  <WNG_WraithMatureHive.description>Un établissement d'alimentation Wraith fonctionnel appartenant à une lignée exacte. Sa population locale, ses hibernants, ses réserves d'alimentation et son cycle de remplacement existent physiquement sur la carte générée du site.</WNG_WraithMatureHive.description>
+  <WNG_WraithMatureHive.arrivedLetter>Une Ruche Wraith mature occupe cette région. Ses habitants entretiennent de véritables réserves d'alimentation, des chambres d'hibernation et un cycle de remplacement local borné.</WNG_WraithMatureHive.arrivedLetter>
+  <WNG_WraithHoldingSite.label>site de détention wraith</WNG_WraithHoldingSite.label>
+  <WNG_WraithHoldingSite.description>Un site de détention wraith temporaire contenant des pions exacts capturés par la technologie de chasse. Vaincre ou neutraliser diplomatiquement les gardes libère ces mêmes captifs.</WNG_WraithHoldingSite.description>
+  <WNG_WraithHoldingSite.arrivedLetter>Ce site wraith détient des personnes retirées par la technologie de chasse. Les captifs sont les pions exacts qui ont été pris.</WNG_WraithHoldingSite.arrivedLetter>
+  <WNG_WraithCloningInstallation.label>installation de clonage wraith abandonnée</WNG_WraithCloningInstallation.label>
+  <WNG_WraithCloningInstallation.description>Une ruine de production de population wraith presque entièrement scellée, contenant des cocons de gestation morts, une machinerie de transfert nutritif effondrée et un estrade donneur vidé. Aucun système de clonage vivant ne subsiste.</WNG_WraithCloningInstallation.description>
+  <WNG_WraithCloningInstallation.arrivedLetter>Une installation de clonage wraith presque entièrement scellée se trouve devant vous. Ses systèmes de gestation sont morts, mais une récupération biologique finie peut encore subsister, et une équipe de récupération menée par un Gardien est possible.</WNG_WraithCloningInstallation.arrivedLetter>
+  <WNG_WraithRuinedLaboratory.label>laboratoire wraith abandonné</WNG_WraithRuinedLaboratory.label>
+  <WNG_WraithRuinedLaboratory.description>Une ruine sans faction, faite d'une architecture vivante éventrée, de tissu de croissance mort et d'équipements d'alimentation effondrés. Elle contient une récupération biologique finie, mais aucun raccourci de production wraith fonctionnel.</WNG_WraithRuinedLaboratory.description>
+  <WNG_WraithRuinedLaboratory.arrivedLetter>Les coordonnées mènent à un laboratoire wraith éventré, sans faction. La machinerie biologique morte et une récupération finie subsistent ; un petit groupe résiduel pourrait encore fouiller le site.</WNG_WraithRuinedLaboratory.arrivedLetter>
+</LanguageData>

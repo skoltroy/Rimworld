@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AmmoARS_22WinAuto.label>.22 Winchester Auto</AmmoARS_22WinAuto.label>
+  <AmmoARS_3018Auto.label>.30-18 Auto</AmmoARS_3018Auto.label>
+  <AmmoARS_276Pedersen.label>.276 Pedersen</AmmoARS_276Pedersen.label>
+  <AmmoARS_3040Krag.label>.30-40 Krag</AmmoARS_3040Krag.label>
+  <AmmoARS_303Savage.label>.303 Savage</AmmoARS_303Savage.label>
+  <AmmoARS_348Winchester.label>.348 Winchester</AmmoARS_348Winchester.label>
+  <AmmoARS_35Remington.label>.35 Remington</AmmoARS_35Remington.label>
+  <AmmoARS_35WinchesterSL.label>.35 Winchester semi-automatique</AmmoARS_35WinchesterSL.label>
+  <AmmoARS_351WinchesterSL.label>.351 Winchester semi-automatique</AmmoARS_351WinchesterSL.label>
+  <AmmoARS_401WinchesterSL.label>.401 Winchester semi-automatique</AmmoARS_401WinchesterSL.label>
+  <AmmoARS_45RemingtonThompson.label>.45 Remington-Thompson</AmmoARS_45RemingtonThompson.label>
+  <AmmoARS_6mmLeeNavy.label>6mm Lee Navy</AmmoARS_6mmLeeNavy.label>
+  <AmmoARS_38Super.label>.38 Super</AmmoARS_38Super.label>
+  <AmmoARS_60Test.label>.60 Test (15.2x114mm)</AmmoARS_60Test.label>
+</LanguageData>

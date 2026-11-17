@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFEE_JanissaryGear.description>Fabriquer une armure lourde de soldat et une armure assistée légère, couramment utilisées par les troupes de reconnaissance de Whitespring. Notez qu'elles exigent aussi des composants avancés.</VFEE_JanissaryGear.description>
+  <VFEE_NobleDecorations.description>Construire une décoration présidentielle : tapis, miroirs, grands fauteuils, dalles Whitespring, candélabres et plus encore.</VFEE_NobleDecorations.description>
+  <VFEE_NobleDecorations.label>décoration présidentielle</VFEE_NobleDecorations.label>
+  <VFEE_StellicThrone.description>Construire un fauteuil de bureau présidentiel, adapté aux hauts responsables de Whitespring et à leurs devoirs cérémoniels.</VFEE_StellicThrone.description>
+  <VFEE_StellicThrone.label>fauteuil de bureau présidentiel</VFEE_StellicThrone.label>
+  <VFEE_PipeOrgans.label>orgues à tuyaux</VFEE_PipeOrgans.label>
+  <VFEE_PipeOrgans.description>Fabriquer les orgues à tuyaux, un instrument de musique fixe, extrêmement avancé et complexe.</VFEE_PipeOrgans.description>
+  <VFEE_JanissaryGear.label>équipement janissaire</VFEE_JanissaryGear.label>
+</LanguageData>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_IdeoRole_EngineeringSpecialist.description>Une fonction officielle à bord, chargée de maintenir le Hellion en état de vol. Le spécialiste en ingénierie gagne en efficacité de construction et de réparation, et peut coordonner l'équipage voisin lors des gros travaux d'entretien.</VGE_IdeoRole_EngineeringSpecialist.description>
+  <VGE_IdeoRole_Navigator.description>Une fonction officielle à bord, chargée de l'observation orbitale et de la navigation à longue distance. Le navigateur étudie les cartes survivantes de l'USSA, suit les dangers et améliore l'efficacité de recherche et la sécurité des trajets de l'équipage du Hellion.</VGE_IdeoRole_Navigator.description>
+  <VGE_IdeoRole_PilotingSpecialist.description>Une fonction officielle à bord, réservée à un pilote Hellion expert. Ce spécialiste est formé pour gérer les manœuvres orbitales, les pannes de systèmes et les décollages d'urgence qui mettraient en danger un équipage ordinaire.</VGE_IdeoRole_PilotingSpecialist.description>
+</LanguageData>

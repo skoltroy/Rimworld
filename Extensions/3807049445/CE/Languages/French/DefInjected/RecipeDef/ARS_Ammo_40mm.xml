@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAmmo_RON_40x46mmFlash.label>fabriquer grenades flash-bang 40x46mm x100</MakeAmmo_RON_40x46mmFlash.label>
+  <MakeAmmo_RON_40x46mmFlash.description>Fabriquer 100 grenades flash-bang 40x46mm.</MakeAmmo_RON_40x46mmFlash.description>
+  <MakeAmmo_RON_40x46mmCS.label>fabriquer grenades au gaz CS 40x46mm x100</MakeAmmo_RON_40x46mmCS.label>
+  <MakeAmmo_RON_40x46mmCS.description>Fabriquer 100 grenades au gaz CS 40x46mm.</MakeAmmo_RON_40x46mmCS.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <VFEE_IngestedAperitif.label>apéritif ingéré</VFEE_IngestedAperitif.label>
+  <VFEE_IngestedAperitif.description>Protection contre les infections et le poison dans l'estomac, ainsi que la capacité de consommer des repas supplémentaires pour un bonus d'humeur plus élevé.</VFEE_IngestedAperitif.description>
+  <VFEE_AcidifierFletcher.label>acidifiant</VFEE_AcidifierFletcher.label>
+  <VFEE_AcidifierFletcher.description>Mélange acidifiant injecté dans les veines par une fléchette de fletcher. Provoque une douleur extrême et une mort presque instantanée par brûlures acides internes.</VFEE_AcidifierFletcher.description>
+  <VFEE_AcidifierToxblade.label>acidifiant</VFEE_AcidifierToxblade.label>
+  <VFEE_AcidifierToxblade.description>Mélange acidifiant injecté dans les veines par une fléchette de fletcher. Provoque une douleur extrême et une mort presque instantanée par brûlures acides internes.</VFEE_AcidifierToxblade.description>
+</LanguageData>

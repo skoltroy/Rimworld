@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFE_BasicFactories.description>Construisez des ateliers Corvega de base, y compris des convoyeurs, des points de transfert souterrains et des trémies d'usine, pour automatiser les tâches industrielles courantes de la colonie.</VFE_BasicFactories.description>
+  <VFE_BasicFactories.label>ateliers Corvega de base</VFE_BasicFactories.label>
+  <VFE_ComplexFactories.description>Construisez des systèmes d'usine Corvega spécialisés, capables de fabriquer des composants, de produire des stocks d'alliage et d'assurer d'autres productions automatisées avancées.</VFE_ComplexFactories.description>
+  <VFE_ComplexFactories.label>ateliers Corvega avancés</VFE_ComplexFactories.label>
+</LanguageData>

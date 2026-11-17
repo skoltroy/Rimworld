@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VBE_MakeCigarettes.description>Rouler la chique de tabac du coyote en cigarettes.</VBE_MakeCigarettes.description>
+  <VBE_MakeCigars.description>Rouler la chique de tabac du coyote en cigares, avec une fine bordure dorée pour une fumée plus raffinée.</VBE_MakeCigars.description>
+  <VBE_MakeCocktailFine.description>Préparer un bon cocktail atomique, mélangé avec précision à partir de plusieurs ingrédients.</VBE_MakeCocktailFine.description>
+  <VBE_MakeCocktailFine.jobString>Préparation d'un bon cocktail atomique.</VBE_MakeCocktailFine.jobString>
+  <VBE_MakeCocktailFine.label>préparer un bon cocktail atomique</VBE_MakeCocktailFine.label>
+  <VBE_MakeCocktailGourmet.description>Préparer un cocktail atomique gastronomique, où chaque dosage a été calculé pour une saveur et une rondeur maximales.</VBE_MakeCocktailGourmet.description>
+  <VBE_MakeCocktailGourmet.jobString>Préparation d'un cocktail atomique gastronomique.</VBE_MakeCocktailGourmet.jobString>
+  <VBE_MakeCocktailGourmet.label>préparer un cocktail atomique gastronomique</VBE_MakeCocktailGourmet.label>
+  <VBE_MakeCocktailLavish.description>Préparer un cocktail atomique somptueux, mélangé à partir d'une grande variété d'ingrédients et rafraîchi à la perfection avant d'être servi.</VBE_MakeCocktailLavish.description>
+  <VBE_MakeCocktailLavish.jobString>Préparation d'un cocktail atomique somptueux.</VBE_MakeCocktailLavish.jobString>
+  <VBE_MakeCocktailLavish.label>préparer un cocktail atomique somptueux</VBE_MakeCocktailLavish.label>
+  <VBE_MakeCocktailSimple.description>Préparer rapidement un cocktail atomique simple, mélangé à partir de deux ingrédients.</VBE_MakeCocktailSimple.description>
+  <VBE_MakeCocktailSimple.jobString>Préparation d'un cocktail atomique simple.</VBE_MakeCocktailSimple.jobString>
+  <VBE_MakeCocktailSimple.label>préparer un cocktail atomique simple</VBE_MakeCocktailSimple.label>
+  <VBE_MakeEnergyDrink.description>Préparer du guarana en renforçant de la salsepareille maison avec de la caféine et un coup radioactif. Il procure une énergie rapide, suivie d'un coup de barre.</VBE_MakeEnergyDrink.description>
+  <VBE_MakeEnergyDrink.jobString>Préparation de guarana.</VBE_MakeEnergyDrink.jobString>
+  <VBE_MakeEnergyDrink.label>préparer du guarana</VBE_MakeEnergyDrink.label>
+  <VBE_MakeSodaSyrup.description>Préparer un sirop de salsepareille maison en réduisant du jus de fruit et un édulcorant en concentré épais destiné à la mise en bouteille.</VBE_MakeSodaSyrup.description>
+  <VBE_MakeSodaSyrup.jobString>Préparation de sirop de salsepareille maison.</VBE_MakeSodaSyrup.jobString>
+  <VBE_MakeSodaSyrup.label>préparer du sirop de salsepareille maison</VBE_MakeSodaSyrup.label>
+  <VBE_MakeSodaSyrupBulk.description>Préparer un sirop de salsepareille maison en mélangeant du jus de fruit naturel avec du sucre ou un sirop conservé. Cette recette est bien plus efficace.</VBE_MakeSodaSyrupBulk.description>
+  <VBE_MakeSodaSyrupBulk.jobString>Préparation de sirop de salsepareille maison.</VBE_MakeSodaSyrupBulk.jobString>
+  <VBE_MakeSodaSyrupBulk.label>préparer du sirop de salsepareille maison (efficace)</VBE_MakeSodaSyrupBulk.label>
+</LanguageData>

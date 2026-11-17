@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CureAbasia.label>réinitialisation du cortex moteur</CureAbasia.label>
+  <CureAbasia.description>Une intervention neurochirurgicale de précision, ciblant le dysfonctionnement du cortex moteur causé par le choc d'obus. La procédure utilise une stimulation corticale directe pour briser la boucle de rétroaction psychosomatique que le traumatisme a verrouillée, forçant les voies motrices à se réinitialiser. Le patient retrouve immédiatement la capacité de marcher. L'opération est techniquement exigeante et consomme de grandes quantités de médicaments ultratech.</CureAbasia.description>
+  <CureAbasia.jobString>Réinitialisation du cortex moteur.</CureAbasia.jobString>
+  <CureAbasia.successfullyRemovedHediffMessage>{0} a réinitialisé avec succès le cortex moteur de {1}, guérissant son choc d'obus.</CureAbasia.successfullyRemovedHediffMessage>
+</LanguageData>

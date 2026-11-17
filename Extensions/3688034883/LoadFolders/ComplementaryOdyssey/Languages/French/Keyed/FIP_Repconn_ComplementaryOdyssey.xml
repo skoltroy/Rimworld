@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ComplementaryOdyssey.Settings.VacRoofPatches>Activer les correctifs des toits Hellion. (Peut être désactivé en cas d'incompatibilité avec un autre mod de toit ; dans ce cas, le toit Hellion se comportera comme un toit normal. Nécessite un redémarrage du jeu.)</ComplementaryOdyssey.Settings.VacRoofPatches>
+  <ComplementaryOdyssey.Settings.VacRoofPoweredAfterLanding>Toutes les tuiles de toit Hellion resteront alimentées pendant {0} après un atterrissage Hellion. (Nécessaire pour éviter la perte d'oxygène à l'atterrissage.)</ComplementaryOdyssey.Settings.VacRoofPoweredAfterLanding>
+  <ComplementaryOdyssey.Deployable.Gizmo.isAutoDeploying.Desc>Déploiera automatiquement {0} lorsque le Hellion atterrira.</ComplementaryOdyssey.Deployable.Gizmo.isAutoDeploying.Desc>
+</LanguageData>

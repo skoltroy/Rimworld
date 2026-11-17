@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HC_SlotMachineBlue.description>Une banque de machines à sous Lucky 38 haut de gamme, conçue pour les mises élevées, avec du laiton poli et une marge de la maison bien gourmande.</HC_SlotMachineBlue.description>
+  <HC_SlotMachineBlue.label>rouleaux des gros joueurs Lucky 38</HC_SlotMachineBlue.label>
+  <HC_SlotMachineGreen.description>Une banque de machines à sous de l'ère de la Maison, réglée pour les habitués et une fréquentation nocturne régulière.</HC_SlotMachineGreen.description>
+  <HC_SlotMachineGreen.label>rouleaux standard Lucky 38</HC_SlotMachineGreen.label>
+  <HC_SlotMachineRed.description>Une machine à sous récupérée de Vault 21, avec une mise modeste et une marge de la maison indulgente.</HC_SlotMachineRed.description>
+  <HC_SlotMachineRed.label>machines à sous à centimes Vault 21</HC_SlotMachineRed.label>
+</LanguageData>

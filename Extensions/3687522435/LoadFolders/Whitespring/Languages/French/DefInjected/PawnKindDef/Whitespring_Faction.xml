@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Slave_Empire.label>travailleur forcé de Whitespring</Slave_Empire.label>
+  <Empire_Common_Lodger.label>colon de Whitespring</Empire_Common_Lodger.label>
+  <Empire_Common_Trader.label>courtier de Whitespring</Empire_Common_Trader.label>
+  <Empire_Common_Laborer.label>citoyen de Whitespring</Empire_Common_Laborer.label>
+  <Empire_Fighter_Trooper.label>soldat de Whitespring</Empire_Fighter_Trooper.label>
+  <Empire_Fighter_Grenadier.label>vétéran marine de Whitespring</Empire_Fighter_Grenadier.label>
+  <Empire_Fighter_Janissary.label>marine de Whitespring</Empire_Fighter_Janissary.label>
+  <Empire_Fighter_Champion.label>vieille garde de Whitespring</Empire_Fighter_Champion.label>
+  <Empire_Fighter_Cataphract.label>agent des services secrets de Whitespring</Empire_Fighter_Cataphract.label>
+  <Empire_Fighter_StellicGuardRanged.label>tireur d'élite des services secrets de Whitespring</Empire_Fighter_StellicGuardRanged.label>
+  <Empire_Fighter_StellicGuardMelee.label>garde du corps des services secrets de Whitespring</Empire_Fighter_StellicGuardMelee.label>
+  <Empire_Royal_NobleWimp.label>politicien de Whitespring</Empire_Royal_NobleWimp.label>
+  <Empire_Royal_Yeoman.label>soldat de Whitespring</Empire_Royal_Yeoman.label>
+  <Empire_Royal_Acolyte.label>sergent de Whitespring</Empire_Royal_Acolyte.label>
+  <Empire_Royal_Knight.label>lieutenant de Whitespring</Empire_Royal_Knight.label>
+  <Empire_Royal_Praetor.label>capitaine de Whitespring</Empire_Royal_Praetor.label>
+  <Empire_Royal_Baron.label>colonel de Whitespring</Empire_Royal_Baron.label>
+  <Empire_Royal_Count.label>général de Whitespring</Empire_Royal_Count.label>
+  <Empire_Royal_Duke.label>secrétaire de Whitespring</Empire_Royal_Duke.label>
+  <Empire_Royal_Consul.label>procureur général de Whitespring</Empire_Royal_Consul.label>
+  <Empire_Royal_Stellarch.label>vice-président de Whitespring</Empire_Royal_Stellarch.label>
+  <Empire_Royal_Bestower.label>fonctionnaire de Whitespring</Empire_Royal_Bestower.label>
+</LanguageData>

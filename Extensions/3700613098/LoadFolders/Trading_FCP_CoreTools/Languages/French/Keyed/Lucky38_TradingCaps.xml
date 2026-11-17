@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VTE.AreYouSureYouWantToDeposit>Êtes-vous certain de vouloir déposer {0} capsules ?</VTE.AreYouSureYouWantToDeposit>
+  <VTE.AreYouSureYouWantToWithdraw>Êtes-vous certain de vouloir retirer {0} capsules ?</VTE.AreYouSureYouWantToWithdraw>
+  <VTE.BankDepositsToPutContractRewardPartially>La caravane n'a pas pu obtenir tous les objets. Elle versera {0} de la récompense du contrat, soit un total de {1} capsules. Sélectionnez un compte prêteur pour la récompense.</VTE.BankDepositsToPutContractRewardPartially>
+  <VTE.MaximumMarketValueOfItemsInContracts>Valeur maximale des contrats des négociants extérieurs, en capsules :</VTE.MaximumMarketValueOfItemsInContracts>
+</LanguageData>

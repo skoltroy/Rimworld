@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFEI_GoldDrop.label>largage d'or</VFEI_GoldDrop.label>
+  <VFEI_GoldDrop.description>Demander un largage de 50 d'or.</VFEI_GoldDrop.description>
+  <VFEI_JadeDrop.label>largage de jade</VFEI_JadeDrop.label>
+  <VFEI_JadeDrop.description>Demander un largage de 100 de jade.</VFEI_JadeDrop.description>
+  <VFEI_UraniumDrop.label>largage d'uranium</VFEI_UraniumDrop.label>
+  <VFEI_UraniumDrop.description>Demander un largage de 80 d'uranium.</VFEI_UraniumDrop.description>
+  <VFEI_ClothDrop.label>largage de tissu</VFEI_ClothDrop.label>
+  <VFEI_ClothDrop.description>Demander un largage de 330 de tissu.</VFEI_ClothDrop.description>
+  <VFEI_WoodDrop.label>largage de bois</VFEI_WoodDrop.label>
+  <VFEI_WoodDrop.description>Demander un largage de 400 de bois.</VFEI_WoodDrop.description>
+  <VFEI_SynthreadDrop.label>largage de synfil</VFEI_SynthreadDrop.label>
+  <VFEI_SynthreadDrop.description>Demander un largage de 125 de synfil.</VFEI_SynthreadDrop.description>
+  <VFEI_HerbalMedDrop.label>largage de médicaments à base de plantes</VFEI_HerbalMedDrop.label>
+  <VFEI_HerbalMedDrop.description>Demander un largage de 40 médicaments à base de plantes.</VFEI_HerbalMedDrop.description>
+  <VFEI_MedDrop.label>largage de médicaments</VFEI_MedDrop.label>
+  <VFEI_MedDrop.description>Demander un largage de 25 médicaments.</VFEI_MedDrop.description>
+  <VFEI_DevilstrandDrop.label>largage de fil de diable</VFEI_DevilstrandDrop.label>
+  <VFEI_DevilstrandDrop.description>Demander un largage de 90 de fil de diable.</VFEI_DevilstrandDrop.description>
+  <VFEI_HyperweaveDrop.label>largage d'hyperfibre</VFEI_HyperweaveDrop.label>
+  <VFEI_HyperweaveDrop.description>Demander un largage de 55 d'hyperfibre.</VFEI_HyperweaveDrop.description>
+  <VFEI_ChemfuelDrop.label>largage de pétrole</VFEI_ChemfuelDrop.label>
+  <VFEI_ChemfuelDrop.description>Demander un largage de 220 de pétrole.</VFEI_ChemfuelDrop.description>
+  <VFEI_ComponentDrop.label>largage de composants</VFEI_ComponentDrop.label>
+  <VFEI_ComponentDrop.description>Demander un largage de 15 composants.</VFEI_ComponentDrop.description>
+  <VFEI_ComponentSpacerDrop.label>largage de composants avancés</VFEI_ComponentSpacerDrop.label>
+  <VFEI_ComponentSpacerDrop.description>Demander un largage de 3 composants avancés.</VFEI_ComponentSpacerDrop.description>
+  <VFEI_HEShellsDrop.label>largage d'obus</VFEI_HEShellsDrop.label>
+  <VFEI_HEShellsDrop.description>Demander un largage de 10 obus explosifs.</VFEI_HEShellsDrop.description>
+  <VFEI_NobleFoodDrop.label>largage de repas officiels</VFEI_NobleFoodDrop.label>
+  <VFEI_NobleFoodDrop.description>Demander un largage de 15 repas somptueux.</VFEI_NobleFoodDrop.description>
+  <VFEI_CallTrooperPlatoon.label>appeler un peloton de soldats de Whitespring</VFEI_CallTrooperPlatoon.label>
+  <VFEI_CallTrooperPlatoon.description>Appeler un groupe de 8 soldats de Whitespring pour vous aider au combat.</VFEI_CallTrooperPlatoon.description>
+  <VFEI_CallJanissaryPlatoon.label>appeler un peloton de marines</VFEI_CallJanissaryPlatoon.label>
+  <VFEI_CallJanissaryPlatoon.description>Appeler un groupe de 8 marines professionnels de Whitespring pour vous aider au combat.</VFEI_CallJanissaryPlatoon.description>
+  <VFEI_CallCataphractPlatoon.label>appeler un détachement des services secrets</VFEI_CallCataphractPlatoon.label>
+  <VFEI_CallCataphractPlatoon.description>Appeler un groupe de 8 agents des services secrets très lourdement blindés pour vous aider au combat.</VFEI_CallCataphractPlatoon.description>
+  <VFEI_CallLaborerUnion.label>appeler une équipe de travaux publics</VFEI_CallLaborerUnion.label>
+  <VFEI_CallLaborerUnion.description>Appeler un groupe de 12 agents des travaux publics de Whitespring pour vous aider pendant 4 jours. Ces travailleurs ne peuvent effectuer que des tâches de manœuvre générale. Vous pouvez les contrôler comme s'il s'agissait de vos propres colons. Vous êtes tenu de les garder en sécurité.</VFEI_CallLaborerUnion.description>
+  <VFEI_StrikerTurretDrop.label>largage de frappeur</VFEI_StrikerTurretDrop.label>
+  <VFEI_StrikerTurretDrop.description>Demander un largage de trois tourelles frappeuses pour vous aider au combat. Une fois toutes leurs munitions tirées, les tourelles frappeuses s'autodétruisent.</VFEI_StrikerTurretDrop.description>
+  <VFEI_BurnoutShieldDrop.label>largage de bouclier à usure</VFEI_BurnoutShieldDrop.label>
+  <VFEI_BurnoutShieldDrop.description>Demander un largage de bouclier léger à usure pour vous aider au combat. Il s'active à l'endroit où il atterrit et dure 30 secondes avant de se désactiver.</VFEI_BurnoutShieldDrop.description>
+  <VFEI_CallEvacShuttle.label>appeler une navette d'évacuation</VFEI_CallEvacShuttle.label>
+  <VFEI_CallEvacShuttle.description>Appeler une navette armée pour votre propre usage. Elle transportera colons, objets et animaux où vous le souhaitez, dans un rayon de 40 cases de la carte du monde. Elle ne restera dans la zone que très brièvement.</VFEI_CallEvacShuttle.description>
+  <VFEI_StoneDrop.label>largage de pierre</VFEI_StoneDrop.label>
+  <VFEI_StoneDrop.description>Demander un largage de 500 briques de pierre au hasard.</VFEI_StoneDrop.description>
+  <VFEI_CallStellicGuards.label>appeler un détachement de gardes présidentiels</VFEI_CallStellicGuards.label>
+  <VFEI_CallStellicGuards.description>Appeler un groupe de 6 gardes présidentiels, à distance et au corps à corps, pour vous aider au combat.</VFEI_CallStellicGuards.description>
+  <VFEI_CallImperialRegiment.label>appeler une force de frappe gouvernementale</VFEI_CallImperialRegiment.label>
+  <VFEI_CallImperialRegiment.description>Appeler une force de frappe gouvernementale composée de 10 marines de Whitespring et de 6 agents des services secrets très lourdement blindés. Ils arrivent dans une navette armée et ne peuvent pas être contrôlés, mais éliminent toute menace dans la zone avant de repartir.</VFEI_CallImperialRegiment.description>
+  <VFEI_CallOrbitalSlicingBeam.label>appeler un faisceau trancheur orbital</VFEI_CallOrbitalSlicingBeam.label>
+  <VFEI_CallOrbitalSlicingBeam.description>Appeler un faisceau orbital depuis un vaisseau amiral de Whitespring en orbite. Le faisceau suivra une direction que vous aurez choisie, brûlant tout ce qu'il touche.</VFEI_CallOrbitalSlicingBeam.description>
+  <VFEI_CallAbsolver.label>appeler un agent clandestin</VFEI_CallAbsolver.label>
+  <VFEI_CallAbsolver.description>Appeler un agent clandestin de Whitespring pour vous aider pendant 4 jours. Ce spécialiste est un assassin accompli et n'effectuera aucune tâche autre que tuer. Vous pouvez le contrôler comme s'il s'agissait de l'un de vos propres colons. Si l'agent meurt, un remplaçant arrivera immédiatement et héritera du temps de contrat restant.</VFEI_CallAbsolver.description>
+  <VFEI_CallTechfriar.label>appeler un scientifique</VFEI_CallTechfriar.label>
+  <VFEI_CallTechfriar.description>Appeler un scientifique de Whitespring pour vous aider pendant 4 jours. Ce spécialiste ne peut effectuer que des tâches liées à la recherche. Vous pouvez le contrôler comme s'il s'agissait de l'un de vos propres colons. Vous êtes tenu de le garder en sécurité.</VFEI_CallTechfriar.description>
+</LanguageData>

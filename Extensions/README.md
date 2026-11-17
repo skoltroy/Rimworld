@@ -7,6 +7,12 @@ Ce dossier contient des extensions pour des mods RimWorld publiés sur Steam :
 
 | Date | ID | Dossier | Mod | Version déclarée / versions de RimWorld | Travail effectué |
 |---|---:|---|---|---|---|
+| 17/11/2026 | 3808100707 | `3808100707` | Wraith & Nanite Gravtech | Non déclarée (RW 1.6, 1.7) | Traduction FR complète sans dossier English : 1 649 entrées extraites des Defs (labels, descriptions, jobString, rulesStrings, comps, Compatibility CE), 31 fichiers DefInjected ; XML valide. Restent hors DefInjected : 3 libellés de `Patches/Gravship_VanillaParity.xml` (entrées de `RitualOutcomeEffectDef`). Export SHA-256 vérifié. |
+| 17/11/2026 | 3405333015 | `3405333015` | Stargates! to Skipgates! | Non déclarée (RW 1.6) | Traduction FR des 37 entrées des patches (`StargateTextPatches.xml`, `DHD.xml`) en DefInjected. Le mod de base Stargates! (2831698056) n'est pas installé : les textes appliqués à ses Defs sont couverts par clés, mais les règles de quête (`questNameRules`, `questDescriptionRules`) ne sont pas traduites car leur index de liste dépend de Defs absentes. Export SHA-256 vérifié. |
+| 17/11/2026 | 3754128439 | `3754128439` | Defensive Network | Non déclarée (RW 1.5, 1.6) | Correctif de chargement : `DNX_Gun_HunterKillerCannon` utilise `Gun_AutocannonTurret` et `DNX_Gun_HunterKillerRocketRack` utilise `Mortar_LaunchA` (sons absents remplacés). Patch `Patches/HunterKiller_Sound_Fix.xml`. |
+| 17/11/2026 | 1888778429 | `1888778429` | Vault-Tec - Handy things for your vault! | 1.6 | Correctif de texture : `FakerockWall` partageait `Name="Wall"` avec le mur vanilla et était écrasé par le patch ReBuild. Patch `1.6/Patches/FakerockWall_Texture_Fix.xml` (Name renommé, texture `Rock_Atlas` et icône restaurées). |
+| 17/11/2026 | 2478833213 | `2478833213` | RPG Style Inventory Revamped | 1.2–1.6 | Traduction FR : le dossier de jeu contenait une version partielle (7 clés) ; synchronisé depuis cette extension (42 clés DefInjected, 45 clés Keyed). XML validé. |
+| 17/11/2026 | 3698412697 | `3698412697` | FIP - Hubris | 1.6, 1.7 (RW 1.6, 1.7) | Traduction FR complète : 6 fichiers, 80 clés DefInjected/Keyed (révélations, concentration cryptique, totems et sanctuaires). Tokens `{USER_*}`, `{PSYCAST_label}` et `{0}`/`{1}` vérifiés ; XML valide ; export SHA-256 vérifié. |
 | 17/11/2026 | 1662119905 | `1662119905` | Dubs Mint Minimap | 1.3.821 (RW 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7) | Audit complet des ressources et Defs : les deux valeurs identiques à l’anglais (« Hostiles », « Silhouette ») sont correctes en français ; ressources préservées. |
 | 16/11/2026 | 1677616980 | `1677616980` | Bionic icons | Non déclarée (RW 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6) | Audit des ressources et Defs : aucune chaîne de jeu localisable ; aucune ressource FR créée. |
 | 16/11/2026 | 2009463077 | `2009463077` | Harmony | 3.0.1.0 (RW 1.2, 1.3, 1.4, 1.5, 1.6, 1.7) | Audit des ressources chargées : aucune chaîne de jeu à traduire. |
@@ -107,5 +113,24 @@ Ce dossier contient des extensions pour des mods RimWorld publiés sur Steam :
 | 15/11/2026 | 3742906203 | `3742906203` | Modern Quest Menu | Non déclarée (RW 1.6) | Traduction FR complète des chaînes de l'interface de quêtes. |
 | Non documentée | 3745434121 | `3745434121` | Yet Another Research Tree (YART) | Non déclarée (RW 1.6, 1.7) | Extension existante ; détail historique non consigné. |
 | Non documentée | 3825828888 | `3825828888` | [B98] Auto Turrets – No Crew, No Shells, No Friendly Fire | 1.3.0 (RW 1.6, 1.7) | Extension existante ; détail historique non consigné. |
-
+| Date | ID | Dossier | Mod | Version déclarée / versions de RimWorld | Travail effectué |
+|---|---:|---|---|---|---|
+| 17/11/2026 | 1447140290 | `1447140290` | OgreStack | Non déclarée (RW 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7) | Traduction FR des réglages : 57 chaînes traduites ; 12 valeurs identiques conservées après examen. |
+| 17/11/2026 | 1888778429 | `1888778429` | Vault-Tec - Handy things for your vault! | Non déclarée (RW 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6) | Traduction FR des 4 clés de réglages ; les textes littéraux des Defs restent hors de ce lot. |
+| 17/11/2026 | 3538894636 | `3538894636` | Legendary Boss | Non déclarée (RW 1.6, 1.7) | Traduction FR des 11 clés du fichier d'interface Keyed. |
+| 17/11/2026 | 3688553480 | `3688553480` | Research Icons | 1.2.0 (RW 1.6, 1.7) | Traduction FR du libellé de chargement dans les dossiers v1.6 et v1.7. |
+| 17/11/2026 | 3730168769 | `3730168769` | Leo - Events | Non déclarée (RW 1.6, 1.7) | Traduction FR de 8 clés sur 9 ; le modèle de coordonnées reste inchangé. |
+| 17/11/2026 | 3760683002 | `3760683002` | FIP - Corvega | Non déclarée (RW 1.6, 1.7) | Traduction FR des ressources chargées : 27 entrées ; 12 noms de modèles conservés. XML validé et export SHA256 vérifié. |
+| 17/11/2026 | 1541721856 | `1541721856` | Alpha Animals | Non déclarée (RW 1.7, 1.6) | Misc_Gameplay : 218 clés traduites ; jetons vérifiés, dont {0_possessive} dans AA_LetterMime. |
+| 17/11/2026 | 3760676309 | `3760676309` | FIP - Big MT | Non déclarée (RW 1.6) | Traduction FR des Defs Anomaly, Anomaly_WestTek et BigMT Keyed : 10 fichiers ; XML et jetons validés. |
+| 17/11/2026 | 3760677126 | `3760677126` | FIP - Future-Tec | Non déclarée (RW 1.6, 1.7) | 17 fichiers (Ancients, Cryptoforge, Deadlife, Generator) ; jeton [PAWN_possessive] corrigé ; XML et jetons validés. |
+| 17/11/2026 | 3592202704 | `3592202704` | FIP - Arktos | Non déclarée (RW 1.6, 1.7) | 17 fichiers ; XML et jetons validés. |
+| 17/11/2026 | 3592202124 | `3592202124` | FIP - Donaustahl | Non déclarée (RW 1.6, 1.7) | 27 fichiers ; XML validé. 8 écarts de jetons pronoms au niveau de la phrase conservés (Backstories x6, LegendaryBlacksmith, Traits). |
+| 17/11/2026 | 3592202407 | `3592202407` | FIP - WestTek | Non déclarée (RW 1.6, 1.7) | 18 fichiers ; XML et jetons validés. |
+| 17/11/2026 | 3700612546 | `3700612546` | FIP - Poseidon | Non déclarée (RW 1.6, 1.7) | 28 fichiers ; XML et jetons validés. |
+| 17/11/2026 | 3698413567 | `3698413567` | FIP - Greenway | Non déclarée (RW 1.6, 1.7) | 47 fichiers ; XML et jetons validés. Mojibake source « SamsÄra »/« MahÄ » corrigé en « Saṃsāra »/« Mahā ». |
+| 17/11/2026 | 3700613098 | `3700613098` | FIP - Lucky 38 | Non déclarée (RW 1.6, 1.7) | 46 fichiers ; XML et jetons validés. Coquille « Cette colone » corrigée en « Ce colon ». |
+| 17/11/2026 | 3688034883 | `3688034883` | FIP - Repconn | Non déclarée (RW 1.6, 1.7) | 80 fichiers ; XML et jetons validés. Coquille « de améliorer » corrigée en « d'améliorer ». |
+| 17/11/2026 | 3687522435 | `3687522435` | FIP - Whitespring | Non déclarée (RW 1.6, 1.7) | 81 fichiers ; XML validé, clés et jetons vérifiés. 23 écarts de jetons pronoms au niveau de la phrase conservés (Backstories, VFEE_FirstOfName, Intro_Wimp, décrets Keyed corrigés). |
+| 17/11/2026 | 3807049445 | `3807049445` | Arsenal - Core | 1.6.0 (RW 1.6, 1.7) | Traduction FR complète sans dossier English : 1520 entrées extraites des Defs (labels, descriptions, étapes d'hediff, recettes, catégories), 92 fichiers dont la partie CE. Jetons contrôlés, XML valide. 296 valeurs identiques conservées (calibres et désignations). Descriptions des bases abstraites injectées sur chaque Def enfant. |
 RW = versions de RimWorld déclarées dans About.xml. « Non déclarée » signifie que le mod ne précise pas sa version propre ; les dates historiques non disponibles restent indiquées comme telles.

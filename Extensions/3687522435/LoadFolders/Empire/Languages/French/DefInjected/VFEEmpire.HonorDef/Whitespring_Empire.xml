@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFEE_FirstOfName.label>Premier de son nom : {PAWN_possessive}</VFEE_FirstOfName.label>
+  <VFEE_FirstOfName.description>Chaque responsable classé a +5 d'opinion envers ce personnage.</VFEE_FirstOfName.description>
+  <VFEE_TheGreat.label>le Grand</VFEE_TheGreat.label>
+  <VFEE_TheGreat.description>+5 d'humeur</VFEE_TheGreat.description>
+  <VFEE_Chosen.label>élu de {FACTION_name}</VFEE_Chosen.label>
+  <VFEE_Chosen.description>+10 d'opinion de chaque personnage de {FACTION_name}. +10 d'opinion envers chaque personnage de {FACTION_name}.</VFEE_Chosen.description>
+  <VFEE_Destroyer.label>destructeur de {FACTION_name}</VFEE_Destroyer.label>
+  <VFEE_Destroyer.description>+10 % d'amélioration du prix de négoce avec les ennemis de {FACTION_name}.</VFEE_Destroyer.description>
+  <VFEE_LordOf.label>{RANK} de {SETTLEMENT_label}</VFEE_LordOf.label>
+  <VFEE_LordOf.description>+1 vote tous les 5 jours lorsque {PAWN_pronoun} se trouve à {SETTLEMENT_label}.</VFEE_LordOf.description>
+  <VFEE_RulerOf.label>administrateur de {SETTLEMENT_label}</VFEE_RulerOf.label>
+  <VFEE_RulerOf.description>La vitesse de collecte des votes de {SETTLEMENT_label} est doublée.</VFEE_RulerOf.description>
+  <VFEE_WieldOfWeapon.label>porteur de {WEAPON_label}</VFEE_WieldOfWeapon.label>
+  <VFEE_WieldOfWeapon.description>50 % de chances de +1 vote pour chaque élimination à l'aide de {WEAPON_label}.</VFEE_WieldOfWeapon.description>
+  <VFEE_PatronOfArts.label>mécène des arts</VFEE_PatronOfArts.label>
+  <VFEE_PatronOfArts.description>+3 votes après une exposition d'art réussie.</VFEE_PatronOfArts.description>
+  <VFEE_ChildOf.label>{CHILD} de {PARENT_labelShort}</VFEE_ChildOf.label>
+  <VFEE_ChildOf.description>L'opinion de {PARENT_labelShort} envers {PAWN_labelShort} est bloquée à 100. L'opinion de {PAWN_labelShort} envers {PARENT_labelShort} est bloquée à 100.</VFEE_ChildOf.description>
+  <VFEE_Marksman.label>le Tireur d'élite</VFEE_Marksman.label>
+  <VFEE_Marksman.description>La compétence de tir ne se dégrade jamais.</VFEE_Marksman.description>
+  <VFEE_Warrior.label>le Guerrier</VFEE_Warrior.label>
+  <VFEE_Warrior.description>La compétence de mêlée ne se dégrade jamais.</VFEE_Warrior.description>
+  <VFEE_Architect.label>l'Architecte</VFEE_Architect.label>
+  <VFEE_Architect.description>La compétence de construction ne se dégrade jamais.</VFEE_Architect.description>
+  <VFEE_Miner.label>le Mineur</VFEE_Miner.label>
+  <VFEE_Miner.description>La compétence d'extraction ne se dégrade jamais.</VFEE_Miner.description>
+  <VFEE_Chef.label>le Chef</VFEE_Chef.label>
+  <VFEE_Chef.description>La compétence de cuisine ne se dégrade jamais.</VFEE_Chef.description>
+  <VFEE_Gardener.label>le Jardinier</VFEE_Gardener.label>
+  <VFEE_Gardener.description>La compétence botanique ne se dégrade jamais.</VFEE_Gardener.description>
+  <VFEE_Rancher.label>l'Éleveur</VFEE_Rancher.label>
+  <VFEE_Rancher.description>La compétence d'élevage ne se dégrade jamais.</VFEE_Rancher.description>
+  <VFEE_Craftsman.label>l'Artisan</VFEE_Craftsman.label>
+  <VFEE_Craftsman.description>La compétence d'artisanat ne se dégrade jamais.</VFEE_Craftsman.description>
+  <VFEE_Artist.label>l'Artiste</VFEE_Artist.label>
+  <VFEE_Artist.description>La compétence artistique ne se dégrade jamais.</VFEE_Artist.description>
+  <VFEE_Healer.label>le Guérisseur</VFEE_Healer.label>
+  <VFEE_Healer.description>La compétence médicale ne se dégrade jamais.</VFEE_Healer.description>
+  <VFEE_Negotiator.label>le Négociateur</VFEE_Negotiator.label>
+  <VFEE_Negotiator.description>La compétence sociale ne se dégrade jamais.</VFEE_Negotiator.description>
+  <VFEE_Intellectual.label>l'Intellectuel</VFEE_Intellectual.label>
+  <VFEE_Intellectual.description>La compétence intellectuelle ne se dégrade jamais.</VFEE_Intellectual.description>
+</LanguageData>

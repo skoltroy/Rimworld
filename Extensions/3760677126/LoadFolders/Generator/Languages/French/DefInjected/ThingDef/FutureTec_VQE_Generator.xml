@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <VQE_AncientARCPart.description>Un vieux fragment rouillé d'un prototype de réacteur. Il a probablement été abandonné lorsque le programme de construction de Moldaver a été interrompu. Il est peut-être encore possible de le démonter et de récupérer de précieux composants à fusion.</VQE_AncientARCPart.description>
+  <VQE_AncientARCPart.label>ancienne pièce de réacteur</VQE_AncientARCPart.label>
+  <VQE_Genetron_Basic.description>Un noyau à fusion prototype capable de générer de grandes quantités d'énergie à partir d'une base géothermique. Il pourra être amélioré plus tard en variantes de réacteur plus avancées, une fois les bonnes notes de recherche et le matériel correspondant récupérés. Doit être placé sur un geyser de vapeur.</VQE_Genetron_Basic.description>
+  <VQE_Genetron_Basic.label>noyau à fusion prototype</VQE_Genetron_Basic.label>
+  <VQE_GenetronJunk.description>Un morceau tordu de carter de réacteur provenant d'un des projets abandonnés de Moldaver. Les pièces de valeur ont disparu, et le reste s'est dégradé en ferraille.</VQE_GenetronJunk.description>
+  <VQE_GenetronJunk.label>déchets de réacteur</VQE_GenetronJunk.label>
+  <VQE_AncientARCPrototype_Two.modExtensions.0.descriptionOverride>Étudiez le noyau à fusion prototype inachevé. Les informations qu'il contient peuvent vous aider à localiser le réacteur opérationnel de Moldaver.</VQE_AncientARCPrototype_Two.modExtensions.0.descriptionOverride>
+</LanguageData>

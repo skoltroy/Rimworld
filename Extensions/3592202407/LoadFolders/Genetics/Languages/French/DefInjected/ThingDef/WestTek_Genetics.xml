@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GR_ArchoGrowthcell.label>poche de croissance archotech</GR_ArchoGrowthcell.label>
+  <GR_ElectroWomb.description>Un incubateur compact conçu pour faire mûrir des spécimens West Tek instables, de la cellule de croissance jusqu'à leur libération complète.</GR_ElectroWomb.description>
+  <GR_ElectroWomb.label>incubateur</GR_ElectroWomb.label>
+  <GR_GenePod.description>Une cuve de croissance West Tek dans laquelle des modèles de souches instables sont noyés dans le virus d'évolution forcée, puis amenés à donner des organismes d'essai viables.</GR_GenePod.description>
+  <GR_GenePod.label>cuve FEV</GR_GenePod.label>
+  <GR_GeneticExtractionTable.description>Un appareil d'extraction West Tek qui réduit les tissus d'un sujet en échantillons de souches condensés, pour une recombinaison et un travail en cuve ultérieurs.</GR_GeneticExtractionTable.description>
+  <GR_GeneticExtractionTable.label>table d'extraction de souches</GR_GeneticExtractionTable.label>
+  <GR_GeneticsTinkeringTable.description>Un établi West Tek avancé pour composer des amplificateurs, des stabilisateurs et des pièces d'augmentation de qualité implantable pour la recherche sur les mutants.</GR_GeneticsTinkeringTable.description>
+  <GR_GeneticsTinkeringTable.label>établi d'augmentation</GR_GeneticsTinkeringTable.label>
+  <GR_GenoframeAwful.label>cadre de souche (horrible)</GR_GenoframeAwful.label>
+  <GR_GenoframeExcellent.label>cadre de souche (excellent)</GR_GenoframeExcellent.label>
+  <GR_GenoframeGood.label>cadre de souche (bon)</GR_GenoframeGood.label>
+  <GR_GenoframeLegendary.label>cadre de souche (légendaire)</GR_GenoframeLegendary.label>
+  <GR_GenoframeMasterwork.label>cadre de souche (chef-d'œuvre)</GR_GenoframeMasterwork.label>
+  <GR_GenoframeNormal.description>Un cadre de souche West Tek stabilisé, utilisé par la cuve FEV comme treillis de base pour les nouveaux stocks de croissance expérimentale.</GR_GenoframeNormal.description>
+  <GR_GenoframeNormal.label>cadre de souche (normal)</GR_GenoframeNormal.label>
+  <GR_GenoframePoor.label>cadre de souche (médiocre)</GR_GenoframePoor.label>
+  <GR_GenoframeUnfinished.label>cadre de souche inachevé</GR_GenoframeUnfinished.label>
+  <GR_GrowthCell.description>Un sac de confinement portable qui contient un embryon FEV instable jusqu'à ce qu'il puisse être transféré dans un incubateur West Tek.</GR_GrowthCell.description>
+  <GR_GrowthCell.label>sac de croissance FEV</GR_GrowthCell.label>
+  <GR_HumanoidGenetic.label>souche humanoïde</GR_HumanoidGenetic.label>
+  <GR_InsectoidGenetic.label>souche insectoïde</GR_InsectoidGenetic.label>
+  <GR_LargeElectroWomb.description>Une lourde cuve de croissance pour les prototypes plus grands et les stocks mutants adultes, qui ne tiendraient jamais dans une chambre d'incubation compacte.</GR_LargeElectroWomb.description>
+  <GR_LargeElectroWomb.label>grand incubateur</GR_LargeElectroWomb.label>
+  <GR_TemplateGenetic.label>modèle de souche vierge</GR_TemplateGenetic.label>
+  <GR_ThrumboGenetic.label>souche colosse</GR_ThrumboGenetic.label>
+  <GR_TissueGrinder.description>Un établi de traitement West Tek brutal, qui réduit les tissus des spécimens en modèles de souches utilisables et récupère du matériel expérimental viable à partir des cadavres.</GR_TissueGrinder.description>
+  <GR_TissueGrinder.label>macérateur tissulaire</GR_TissueGrinder.label>
+</LanguageData>

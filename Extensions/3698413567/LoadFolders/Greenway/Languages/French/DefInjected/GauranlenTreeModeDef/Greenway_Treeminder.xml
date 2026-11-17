@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Barkskin.description>Une caste robuste de dryades : le radécorce est couvert d'une peau épaisse, semblable à de l'écorce, imprégnée de radiations. Il excelle à absorber les dégâts au combat, protégeant son arbre et ses alliés.</Barkskin.description>
+  <Barkskin.label>radécorce</Barkskin.label>
+  <Berrymaker.description>Une caste de dryades spécialisée dans la production alimentaire : le mutfruitier produit en continu des mutfruits nourrissants. Il est toutefois lent et inefficace au travail comme au combat.</Berrymaker.description>
+  <Berrymaker.label>mutfruitier</Berrymaker.label>
+  <Carrier.description>Une caste de dryades utile, le porteur est spécialisé dans le transport d'objets. Sous influence humaine, il achemine les marchandises là où elles doivent aller, mais il est lent et inefficace au travail comme au combat.</Carrier.description>
+  <Carrier.label>porteur</Carrier.label>
+  <Clawer.description>Une caste féroce de dryades : le griffelin est élevé pour l'agressivité et les attaques infligeant des dégâts. Ses griffes démesurées peuvent déchirer la plupart des menaces, mais il est vulnérable aux représailles.</Clawer.description>
+  <Clawer.label>griffelin</Clawer.label>
+  <Gaumaker.description>Une caste unique de dryades : le pousselin peut produire de nouvelles gousses de Gauranlen et aider à la reproduction du Père-Arbre. Trois pousselins doivent fusionner lentement pour achever le processus.</Gaumaker.description>
+  <Gaumaker.label>pousselin</Gaumaker.label>
+  <Medicinemaker.description>Une caste douce de dryades : le brocfleurin se spécialise dans la production d'herbes médicinales. Il travaille avec son arbre pour générer des plantes curatives, mais il est lent et inefficace au travail comme au combat.</Medicinemaker.description>
+  <Medicinemaker.label>brocfleurin</Medicinemaker.label>
+  <Woodmaker.description>Une caste lente et maladroite de dryades : le bois-de-rebut se spécialise dans la production de bois de récupération. Avec son arbre Gauranlen, il génère en continu une matière semblable au bois, mais il est lent et inefficace au travail comme au combat.</Woodmaker.description>
+  <Woodmaker.label>bois-de-rebut</Woodmaker.label>
+</LanguageData>

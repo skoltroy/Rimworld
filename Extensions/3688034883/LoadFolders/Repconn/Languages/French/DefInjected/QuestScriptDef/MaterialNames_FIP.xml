@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_OpportunitySite_SolidCoreAsteroid.questDescriptionRules.rulesStrings.0>questDescription-&gt; [discoveryMethod] l'emplacement d'un astéroïde à noyau solide en orbite autour de la planète. Son enveloppe est une pierre lunaire dense, mais à l'intérieur se trouve un noyau de [resource] qui attend d'être extrait. Les astéroïdes de ce type restent d'ordinaire dans l'espace lointain, mais celui-ci a dérivé en orbite basse. Ce n'est qu'une question de temps avant que quelqu'un d'autre ne le revendique.  Vous pouvez atteindre l'astéroïde avec des capsules de transport, des navettes ou un vaisseau gravitationnel. Équipez vos colons d'une tenue orbitale suffisante avant le départ.</VGE_OpportunitySite_SolidCoreAsteroid.questDescriptionRules.rulesStrings.0>
+  <VGE_OpportunitySite_VacstoneMeteor.questNameRules.rulesStrings.0>questName-&gt;Météorite de pierre lunaire</VGE_OpportunitySite_VacstoneMeteor.questNameRules.rulesStrings.0>
+</LanguageData>

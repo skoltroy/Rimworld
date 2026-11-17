@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAmmo_ARS_No36MRifleGrenade_HE.label>fabriquer No.36M grenade à fusil (HE) x10</MakeAmmo_ARS_No36MRifleGrenade_HE.label>
+  <MakeAmmo_ARS_No36MRifleGrenade_HE.description>Fabriquer 10 No.36M grenade à fusil (HE).</MakeAmmo_ARS_No36MRifleGrenade_HE.description>
+  <MakeAmmo_ARS_37mmARWEN_CS.label>fabriquer 37mm ARWEN munition (gaz CS) x10</MakeAmmo_ARS_37mmARWEN_CS.label>
+  <MakeAmmo_ARS_37mmARWEN_CS.description>Fabriquer 10 37mm ARWEN munition (gaz CS).</MakeAmmo_ARS_37mmARWEN_CS.description>
+  <MakeAmmo_ARS_94mmLAW80_HEAT.label>fabriquer 94mm LAW 80 roquette (HEAT) x5</MakeAmmo_ARS_94mmLAW80_HEAT.label>
+  <MakeAmmo_ARS_94mmLAW80_HEAT.description>Fabriquer 5 94mm LAW 80 roquette (HEAT).</MakeAmmo_ARS_94mmLAW80_HEAT.description>
+  <MakeAmmo_ARS_NLAW_HEAT.label>fabriquer NLAW missile (HEAT) x5</MakeAmmo_ARS_NLAW_HEAT.label>
+  <MakeAmmo_ARS_NLAW_HEAT.description>Fabriquer 5 NLAW missile (HEAT).</MakeAmmo_ARS_NLAW_HEAT.description>
+  <MakeAmmo_ARS_Blowpipe_HE.label>fabriquer Blowpipe missile (HE) x5</MakeAmmo_ARS_Blowpipe_HE.label>
+  <MakeAmmo_ARS_Blowpipe_HE.description>Fabriquer 5 Blowpipe missile (HE).</MakeAmmo_ARS_Blowpipe_HE.description>
+  <MakeAmmo_ARS_Starstreak_HVM.label>fabriquer Starstreak fléchette (HVM) x30</MakeAmmo_ARS_Starstreak_HVM.label>
+  <MakeAmmo_ARS_Starstreak_HVM.description>Fabriquer 30 Starstreak fléchette (HVM).</MakeAmmo_ARS_Starstreak_HVM.description>
+</LanguageData>

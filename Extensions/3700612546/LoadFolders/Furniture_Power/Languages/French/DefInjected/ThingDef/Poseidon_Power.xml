@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFE_AdvancedBattery.description>Une unité de batterie Poseidon scellée, bien plus efficace que les cellules de stockage courantes. Ces boîtiers d'avant-guerre sont étanches à la pluie et moins sujets aux décharges catastrophiques.</VFE_AdvancedBattery.description>
+  <VFE_AdvancedSolarGenerator.description>Un champ de panneaux solaires Poseidon à haut rendement, commercialisé sous le nom d'Helios Two industriel, conçu pour capter beaucoup plus de charge à la lumière directe du soleil que les panneaux civils ordinaires.</VFE_AdvancedSolarGenerator.description>
+  <VFE_AdvancedSolarGenerator.label>Helios Two industriel</VFE_AdvancedSolarGenerator.label>
+  <VFE_AdvancedWatermillGenerator.description>Une unité hydraulique Poseidon conçue pour tirer de l'énergie industrielle d'une eau en mouvement. Les installations trop serrées créent des turbulences et réduisent la production.</VFE_AdvancedWatermillGenerator.description>
+  <VFE_AdvancedWatermillGenerator.label>turbine hydraulique industrielle</VFE_AdvancedWatermillGenerator.label>
+  <VFE_AdvancedWindTurbine.description>Une turbine utilitaire Poseidon d'avant-guerre, conçue pour une production industrielle. Elle a besoin de larges accès dégagés pour maintenir un flux d'air stable, et arbore l'assurance démesurée que Poseidon aimait estampiller sur ses travaux publics.</VFE_AdvancedWindTurbine.description>
+  <VFE_AdvancedWindTurbine.label>turbine éolienne industrielle</VFE_AdvancedWindTurbine.label>
+  <VFE_LargeAdvancedBattery.description>Une grande batterie scellée Poseidon, conçue pour un stockage utilitaire fiable. Contrairement aux anciens modules, ces boîtiers résistent à la pluie sans exploser.</VFE_LargeAdvancedBattery.description>
+  <VFE_LargeBattery.description>Une grande batterie Poseidon destinée à conserver une réserve d'énergie pour une demande ultérieure. Les unités entièrement chargées sont dangereuses lorsqu'elles sont exposées à la pluie ou au feu.</VFE_LargeBattery.description>
+  <VFE_SmallBattery.description>Une batterie de réserve compacte pour les circuits locaux et les petites charges industrielles. Les unités chargées peuvent encore exploser lorsqu'elles sont exposées à la pluie ou au feu.</VFE_SmallBattery.description>
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AmmoSet_ARS_545x18mm.label>5.45x18mm</AmmoSet_ARS_545x18mm.label>
+  <AmmoSet_ARS_762x41mm.label>7.62x41mm SP-4</AmmoSet_ARS_762x41mm.label>
+  <AmmoSet_ARS_762x38mmSP3.label>7.62x38mm SP-3</AmmoSet_ARS_762x38mmSP3.label>
+  <AmmoSet_ARS_45x40mmDart.label>fléchette en acier 4,5x40 mm</AmmoSet_ARS_45x40mmDart.label>
+  <AmmoSet_ARS_566x39mmMPS.label>fléchette MPS 5,66x39 mm</AmmoSet_ARS_566x39mmMPS.label>
+  <AmmoSet_ARS_762x3mmFlechette.label>fléchette 7,62/3,0 mm</AmmoSet_ARS_762x3mmFlechette.label>
+  <AmmoSet_ARS_762x63mmPZ.label>7.62x63mm PZ</AmmoSet_ARS_762x63mmPZ.label>
+  <AmmoSet_ARS_93x64mm.label>9.3x64mm 7N33</AmmoSet_ARS_93x64mm.label>
+  <AmmoSet_ARS_125x40mm.label>12.5x40mm</AmmoSet_ARS_125x40mm.label>
+  <AmmoSet_ARS_125x70mm.label>12.5x70mm</AmmoSet_ARS_125x70mm.label>
+</LanguageData>

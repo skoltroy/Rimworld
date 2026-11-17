@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WNG_AncientNeuralInterface.label>interface neuronale ancienne</WNG_AncientNeuralInterface.label>
+  <WNG_AncientNeuralInterface.labelNoun>interface neuronale ancienne</WNG_AncientNeuralInterface.labelNoun>
+  <WNG_AncientNeuralInterface.description>Un traducteur artificiel de contrôle ancien, retenu avec succès et placé contre les régions d'interface motrice et sensorielle du cerveau. Il ne reproduit que la poignée de main neuronale de type ATA normalement fournie par le gène d'activation de la technologie ancienne ; il n'accorde ni identité asurane, ni capacités nanitiques, ni lien collectif, ni souveraineté réplicatrice.</WNG_AncientNeuralInterface.description>
+  <WNG_AsuranCollectiveLoyalist.label>loyaliste collectif</WNG_AsuranCollectiveLoyalist.label>
+  <WNG_AsuranCollectiveLoyalist.description>Cet esprit nanitique subordonne la continuité individuelle à la force du collectif. La reconstruction est plus faible en isolement, mais atteint le plafond le plus élevé dans un treillis compatible et dense.</WNG_AsuranCollectiveLoyalist.description>
+  <WNG_AsuranReconstructionist.label>reconstructionniste</WNG_AsuranReconstructionist.label>
+  <WNG_AsuranReconstructionist.description>Cet esprit nanitique privilégie la survie, la continuité archivée et la récupération des capacités précurseurs perdues. Il conserve une base de reconstruction solide et sert de médiateur dans certains conflits entre esprits fortement individualistes et pression collective dense.</WNG_AsuranReconstructionist.description>
+  <WNG_AsuranIndividualist.label>individualiste</WNG_AsuranIndividualist.label>
+  <WNG_AsuranIndividualist.description>Cet esprit nanitique considère le moi comme plus qu'un processus remplaçable dans le treillis. Il reste capable en isolement, mais tire relativement peu de bénéfice de reconstruction des pairs supplémentaires.</WNG_AsuranIndividualist.description>
+  <WNG_AsuranAutonomyBreak.label>rupture d'autonomie</WNG_AsuranAutonomyBreak.label>
+  <WNG_AsuranAutonomyBreak.description>Cet esprit individualiste a temporairement rejeté le consensus collectif dense. Son idéologie et sa faction sous-jacentes ne changent pas, mais l'assistance collective à la reconstruction est refusée jusqu'à la fin de l'épisode.</WNG_AsuranAutonomyBreak.description>
+  <WNG_AsuranConsensusDistress.label>privation de consensus</WNG_AsuranConsensusDistress.label>
+  <WNG_AsuranConsensusDistress.description>Cet esprit loyaliste collectif est resté sans pairs compatibles assez longtemps pour que sa dépendance au consensus partagé devienne perturbatrice.</WNG_AsuranConsensusDistress.description>
+  <WNG_AsuranContinuityLoss.label>perte de continuité</WNG_AsuranContinuityLoss.label>
+  <WNG_AsuranContinuityLoss.description>Ce corps a été reconstruit à partir d'un schéma archivé. L'identité stockée a survécu, mais les événements et apprentissages postérieurs à la dernière sauvegarde sont absents, et l'esprit reconstruit a besoin de temps pour concilier cette discontinuité.</WNG_AsuranContinuityLoss.description>
+  <WNG_AsuranKamikazeCharge.label>treillis de démolition nanitique armé</WNG_AsuranKamikazeCharge.label>
+  <WNG_AsuranKamikazeCharge.description>Le treillis de reconstruction de cet opérateur synthétique a été délibérément inversé en une charge de démolition compacte. Le pion exact reste le porteur physique de l'état armé. Une fois l'objectif choisi atteint, la détonation peut se déclencher après le verrou d'approche ; l'incapacitation raccourcit la mèche au lieu de la désamorcer.</WNG_AsuranKamikazeCharge.description>
+  <WNG_FeedingResistance.label>thérapie de résistance vitale</WNG_FeedingResistance.label>
+  <WNG_FeedingResistance.description>Un traitement anti-Wraith temporaire qui perturbe le transfert biologique utilisé lors de l'alimentation en Force vitale. La protection dure environ cinq jours. Elle ne rend pas le patient immunisé : l'alimentation peut encore réussir, à une puissance fortement réduite, tandis que certaines tentatives sont rejetées avec assez de violence pour blesser le lien d'alimentation.</WNG_FeedingResistance.description>
+  <WNG_FeedingResistanceStrain.label>tension de résistance vitale</WNG_FeedingResistanceStrain.label>
+  <WNG_FeedingResistanceStrain.description>Le métabolisme du patient est contraint de maintenir l'état anti-alimentation instable. Le mouvement, la manipulation et la conscience sont légèrement altérés le temps que passe le stress du traitement initial.</WNG_FeedingResistanceStrain.description>
+  <WNG_FeedingResistanceCrisis.label>crise de rejet de la Force vitale</WNG_FeedingResistanceCrisis.label>
+  <WNG_FeedingResistanceCrisis.description>Une tentative d'alimentation Wraith a heurté une résistance vitale active, et le métabolisme de la victime a violemment rejeté le transfert. L'extraction a échoué, mais ce rejet a temporairement déstabilisé le mouvement, la manipulation et la conscience.</WNG_FeedingResistanceCrisis.description>
+  <WNG_FeedingRejectionBacklash.label>contrecoup du lien d'alimentation</WNG_FeedingRejectionBacklash.label>
+  <WNG_FeedingRejectionBacklash.description>Le lien d'alimentation du Wraith a reculé face à une victime sous résistance vitale active. La conscience, la vue et le contrôle fin sont altérés le temps que la rétroaction psychico-biologique se dissipe.</WNG_FeedingRejectionBacklash.description>
+  <WNG_HoffanProtection.label>résistance à l'alimentation Hoffan</WNG_HoffanProtection.label>
+  <WNG_HoffanProtection.description>Un traitement persistant à base de protéines interfère avec la préparation biochimique qu'un Wraith libère normalement chez ses proies avant de drainer la Force vitale. L'alimentation Wraith est bloquée, mais ce traitement prototype affaiblit aussi la réponse immunitaire ordinaire.</WNG_HoffanProtection.description>
+  <WNG_HoffanFatalReaction.label>défaillance systémique du sérum Hoffan</WNG_HoffanFatalReaction.label>
+  <WNG_HoffanFatalReaction.description>Le sérum Hoffan prototype déclenche la réaction catastrophique qui a tué environ la moitié de ses premiers receveurs. Plusieurs systèmes physiologiques défaillent, malgré l'effet anti-Wraith réussi du traitement.</WNG_HoffanFatalReaction.description>
+  <WNG_HoffanWraithPoisoning.label>empoisonnement au sérum Hoffan</WNG_HoffanWraithPoisoning.label>
+  <WNG_HoffanWraithPoisoning.description>Le sérum Hoffan renvoyé par une tentative d'alimentation a réagi avec la chimie d'alimentation Wraith et provoque une défaillance organique systémique à progression rapide.</WNG_HoffanWraithPoisoning.description>
+  <WNG_NaniteEMPReceiver.label>récepteur électromagnétique nanitique</WNG_NaniteEMPReceiver.label>
+  <WNG_NaniteEMPReceiver.description>Un récepteur interne qu'utilise le corps nanitique de forme humaine pour détecter les événements électromagnétiques perturbateurs et les diriger vers l'état dédié de perturbation EMP.</WNG_NaniteEMPReceiver.description>
+  <WNG_NaniteEMPDisruption.label>perturbation de coordination nanitique</WNG_NaniteEMPDisruption.label>
+  <WNG_NaniteEMPDisruption.description>Une impulsion EMP a désynchronisé le réseau de contrôle nanitique du corps. La mobilité et l'efficacité au travail chutent tandis que la reconstruction est suspendue, jusqu'à ce que l'essaim retrouve une synchronisation cohérente.</WNG_NaniteEMPDisruption.description>
+  <WNG_AsuranCollectiveState.label>connectivité collective locale</WNG_AsuranCollectiveState.label>
+  <WNG_AsuranCollectiveState.description>Un relevé de la densité actuelle du réseau de même faction de ce pion synthétique de forme humaine. Il est purement informatif ; le modificateur de reconstruction réel relève du système de Lien collectif, et une perturbation EMP rompt la participation.</WNG_AsuranCollectiveState.description>
+  <WNG_AsuranCollectiveState.stages.0.label>isolé</WNG_AsuranCollectiveState.stages.0.label>
+  <WNG_AsuranCollectiveState.stages.1.label>relié</WNG_AsuranCollectiveState.stages.1.label>
+  <WNG_AsuranCollectiveState.stages.2.label>maillé</WNG_AsuranCollectiveState.stages.2.label>
+  <WNG_AsuranCollectiveState.stages.3.label>collectif dense</WNG_AsuranCollectiveState.stages.3.label>
+  <WNG_HumanFormRoleEngineer.label>rôle de forme humaine : ingénieur</WNG_HumanFormRoleEngineer.label>
+  <WNG_HumanFormRoleEngineer.description>Ce synthétique de forme humaine est configuré comme ingénieur. Son contrôleur de rôle répare périodiquement l'infrastructure endommagée de même faction et les alliés synthétiques blessés ; un maillage de commandement actif accélère la réponse.</WNG_HumanFormRoleEngineer.description>
+  <WNG_HumanFormRoleInfiltrator.label>rôle de forme humaine : infiltrateur</WNG_HumanFormRoleInfiltrator.label>
+  <WNG_HumanFormRoleInfiltrator.description>Ce synthétique de forme humaine est configuré pour le sabotage de précision. Lorsqu'il est ouvertement hostile, il privilégie les infrastructures à forte valeur — énergie, recherche, communications, fabrication, boucliers, gravitation et contrôle — lorsque les défenseurs proches ne l'obligent pas au combat direct. Le déguisement reste un système d'infiltration distinct.</WNG_HumanFormRoleInfiltrator.description>
+  <WNG_HumanFormRoleSoldier.label>rôle de forme humaine : soldat</WNG_HumanFormRoleSoldier.label>
+  <WNG_HumanFormRoleSoldier.description>Ce synthétique de forme humaine est configuré comme spécialiste du combat. Les soldats hostiles réorientent périodiquement les défenseurs du joueur proches, plutôt que de gaspiller la logique de combat spécialisée sur des structures de faible valeur.</WNG_HumanFormRoleSoldier.description>
+  <WNG_HumanFormRoleCoordinator.label>rôle de forme humaine : coordinateur</WNG_HumanFormRoleCoordinator.label>
+  <WNG_HumanFormRoleCoordinator.description>Ce synthétique de forme humaine est configuré comme coordinateur de treillis local et projette un maillage de réponse de même faction borné tant que ses nanites ne sont pas perturbées par l'EMP.</WNG_HumanFormRoleCoordinator.description>
+  <WNG_HumanFormRoleCommander.label>rôle de forme humaine : commandant</WNG_HumanFormRoleCommander.label>
+  <WNG_HumanFormRoleCommander.description>Ce synthétique de forme humaine est configuré comme nœud de commandement. Il projette le maillage de réponse local le plus puissant et demande périodiquement de nouvelles sauvegardes de l'Archive de schémas pour les esprits synthétiques de même faction liés à proximité.</WNG_HumanFormRoleCommander.description>
+  <WNG_HumanFormCoordination.label>maillage de coordination de forme humaine</WNG_HumanFormCoordination.label>
+  <WNG_HumanFormCoordination.description>Ce pion synthétique se trouve dans un maillage actif de coordinateur ou de commandant de même faction. La cadence de réponse des spécialistes s'améliore tant que le lien reste actif ; une perturbation EMP supprime le maillage jusqu'au rétablissement de la coordination.</WNG_HumanFormCoordination.description>
+  <WNG_HumanFormCoordination.stages.0.label>maillage de coordinateur</WNG_HumanFormCoordination.stages.0.label>
+  <WNG_HumanFormCoordination.stages.1.label>maillage de commandement</WNG_HumanFormCoordination.stages.1.label>
+  <WNG_HybridStabilised.label>hybride stabilisé</WNG_HybridStabilised.label>
+  <WNG_HybridStabilised.description>Un cocktail de stabilisation temporaire amortit la rétroaction biologique qui peut faire réapparaître brusquement un phénotype Wraith supprimé. C'est un complément à la suppression rétrovirale, non un remède ; si la suppression ordinaire et la stabilisation cessent toutes deux, l'état Wraith enregistré revient.</WNG_HybridStabilised.description>
+  <WNG_PredatorReflexOrgan.label>organe de réflexe prédateur</WNG_PredatorReflexOrgan.label>
+  <WNG_PredatorReflexOrgan.labelNoun>un organe de réflexe prédateur</WNG_PredatorReflexOrgan.labelNoun>
+  <WNG_PredatorReflexOrgan.description>Un organe réflexe dérivé des Wraiths, qui affine le suivi de cible, l'esquive au corps à corps et le timing de la réponse prédatrice. Les valeurs d'équilibrage D108 restent provisoires en attendant les tests en jeu.</WNG_PredatorReflexOrgan.description>
+  <WNG_MyomerReinforcementGland.label>glande de renforcement myomérique</WNG_MyomerReinforcementGland.label>
+  <WNG_MyomerReinforcementGland.labelNoun>une glande de renforcement myomérique</WNG_MyomerReinforcementGland.labelNoun>
+  <WNG_MyomerReinforcementGland.description>Une glande Wraith cultivée qui renforce la sortie neuromusculaire. Les valeurs d'équilibrage D108 restent provisoires en attendant les tests en jeu.</WNG_MyomerReinforcementGland.description>
+  <WNG_RegenerativeVesicle.label>vésicule régénérative</WNG_RegenerativeVesicle.label>
+  <WNG_RegenerativeVesicle.labelNoun>une vésicule régénérative</WNG_RegenerativeVesicle.labelNoun>
+  <WNG_RegenerativeVesicle.description>Une vésicule Wraith vivante qui accélère la réparation tissulaire ordinaire et réduit les saignements. Elle ne régénère pas les parties manquantes et n'efface pas les cicatrices permanentes.</WNG_RegenerativeVesicle.description>
+  <WNG_MetabolicReserveNode.label>nœud de réserve métabolique</WNG_MetabolicReserveNode.label>
+  <WNG_MetabolicReserveNode.labelNoun>un nœud de réserve métabolique</WNG_MetabolicReserveNode.labelNoun>
+  <WNG_MetabolicReserveNode.description>Un nœud métabolique Wraith qui réduit le besoin en nourriture et ralentit l'épuisement. Les valeurs d'équilibrage D108 restent provisoires en attendant les tests en jeu.</WNG_MetabolicReserveNode.description>
+  <WNG_SensoryCrownOrgan.label>organe de couronne sensorielle</WNG_SensoryCrownOrgan.label>
+  <WNG_SensoryCrownOrgan.labelNoun>un organe de couronne sensorielle</WNG_SensoryCrownOrgan.labelNoun>
+  <WNG_SensoryCrownOrgan.description>Une couronne neuro-sensorielle Wraith qui renforce la vue, l'ouïe et la sensibilité psychique de bas niveau. Les valeurs d'équilibrage D108 restent provisoires en attendant les tests en jeu.</WNG_SensoryCrownOrgan.description>
+  <WNG_VitalFeedbackOrgan.label>organe de rétroaction vitale</WNG_VitalFeedbackOrgan.label>
+  <WNG_VitalFeedbackOrgan.labelNoun>un organe de rétroaction vitale</WNG_VitalFeedbackOrgan.labelNoun>
+  <WNG_VitalFeedbackOrgan.description>Un organe défensif dérivé des Wraiths, qui interrompt le transfert hostile de Force vitale et renvoie un violent contrecoup bioélectrique au prédateur attaquant.</WNG_VitalFeedbackOrgan.description>
+  <WNG_NaniteMotorLattice.label>treillis moteur nanitique</WNG_NaniteMotorLattice.label>
+  <WNG_NaniteMotorLattice.labelNoun>un treillis moteur nanitique</WNG_NaniteMotorLattice.labelNoun>
+  <WNG_NaniteMotorLattice.description>Un treillis moteur dérivé des Asurans, qui renforce le mouvement, la manipulation et l'alignement des armes. Les valeurs d'équilibrage D108 restent provisoires en attendant les tests en jeu.</WNG_NaniteMotorLattice.description>
+  <WNG_AutonomicEfficiencyLattice.label>treillis d'efficacité autonome</WNG_AutonomicEfficiencyLattice.label>
+  <WNG_AutonomicEfficiencyLattice.labelNoun>un treillis d'efficacité autonome</WNG_AutonomicEfficiencyLattice.labelNoun>
+  <WNG_AutonomicEfficiencyLattice.description>Un treillis autonome asuran qui réduit les besoins métaboliques et de repos. Les valeurs d'équilibrage D108 restent provisoires en attendant les tests en jeu.</WNG_AutonomicEfficiencyLattice.description>
+  <WNG_AdaptiveSensorMesh.label>maillage de capteurs adaptatif</WNG_AdaptiveSensorMesh.label>
+  <WNG_AdaptiveSensorMesh.labelNoun>un maillage de capteurs adaptatif</WNG_AdaptiveSensorMesh.labelNoun>
+  <WNG_AdaptiveSensorMesh.description>Un maillage sensoriel asuran qui améliore la vue, l'ouïe et l'acquisition de cibles à distance. Les valeurs d'équilibrage D108 restent provisoires en attendant les tests en jeu.</WNG_AdaptiveSensorMesh.description>
+  <WNG_ReconstructionMicroforge.label>microforge de reconstruction</WNG_ReconstructionMicroforge.label>
+  <WNG_ReconstructionMicroforge.labelNoun>une microforge de reconstruction</WNG_ReconstructionMicroforge.labelNoun>
+  <WNG_ReconstructionMicroforge.description>Une microforge asurane compacte qui répare lentement les blessures ordinaires non permanentes. Elle ne peut pas effacer les cicatrices, remplacer les parties manquantes ni ressusciter les morts. Le taux de réparation D108 reste provisoire en attendant les tests en jeu.</WNG_ReconstructionMicroforge.description>
+  <WNG_EMPShuntLattice.label>treillis de dérivation EMP</WNG_EMPShuntLattice.label>
+  <WNG_EMPShuntLattice.labelNoun>un treillis de dérivation EMP</WNG_EMPShuntLattice.labelNoun>
+  <WNG_EMPShuntLattice.description>Un treillis de dérivation asuran qui raccourcit les cascades EMP perturbatrices grâce à la physiologie nanitique. Il n'accorde pas l'immunité aux EMP.</WNG_EMPShuntLattice.description>
+  <WNG_IratusAttached.label>insecte Iratus attaché</WNG_IratusAttached.label>
+  <WNG_IratusAttached.description>Un insecte Iratus vivant est physiquement agrippé autour du cou et se nourrit de la victime. L'organisme reste attaché à ce patient précis ; la gravité indiquée ici représente l'aggravation de la perte physiologique, et non un remplacement de la créature.</WNG_IratusAttached.description>
+  <WNG_IratusAttached.stages.0.label>accroché</WNG_IratusAttached.stages.0.label>
+  <WNG_IratusAttached.stages.1.label>se nourrit</WNG_IratusAttached.stages.1.label>
+  <WNG_IratusAttached.stages.2.label>alimentation profonde</WNG_IratusAttached.stages.2.label>
+  <WNG_IratusAttached.stages.3.label>paralytique</WNG_IratusAttached.stages.3.label>
+  <WNG_IratusAttached.stages.4.label>drainage terminal</WNG_IratusAttached.stages.4.label>
+  <WNG_NishtaConditioning.label>conditionnement Nish'ta</WNG_NishtaConditioning.label>
+  <WNG_NishtaConditioning.description>Un organisme de conditionnement Goa'uld vivant a colonisé le système nerveux, rendant la victime exceptionnellement ouverte à la loyauté imposée et à la suggestion. L'organisme persiste jusqu'à être tué par un choc électrique suffisamment puissant ou une déprogrammation médicale contrôlée.</WNG_NishtaConditioning.description>
+  <WNG_NishtaResistance.label>résistance au Nish'ta</WNG_NishtaResistance.label>
+  <WNG_NishtaResistance.description>Ce pion a survécu à une purge électrique du Nish'ta. L'infection antérieure a rendu le système nerveux résistant à une nouvelle colonisation par le même organisme de conditionnement.</WNG_NishtaResistance.description>
+  <WNG_ReplicatorAdaptGravFlight.label>équilibrage gravitique réplicateur</WNG_ReplicatorAdaptGravFlight.label>
+  <WNG_ReplicatorAdaptGravFlight.description>Une technologie gravitique assimilée soutient ce Réplicateur sur un bref champ de vol bas. Il peut utiliser le déplacement aérien natif de RimWorld pour les tâches ciblées, mais il ne traverse pas les murs ordinaires et n'obtient pas un vol sans restriction de type saut.</WNG_ReplicatorAdaptGravFlight.description>
+  <WNG_ReplicatorMaterialFragile.label>matériau de réplication fragile</WNG_ReplicatorMaterialFragile.label>
+  <WNG_ReplicatorMaterialFragile.description>Ce corps exact de Réplicateur-bloc est assemblé à partir de matière physique relativement faible. Il se déplace un peu plus facilement, mais résiste moins bien aux dégâts tranchants, contondants et thermiques.</WNG_ReplicatorMaterialFragile.description>
+  <WNG_ReplicatorMaterialStandard.label>matériau de réplication standard</WNG_ReplicatorMaterialStandard.label>
+  <WNG_ReplicatorMaterialStandard.description>Ce corps exact de Réplicateur-bloc est assemblé à partir de matière structurelle ordinaire, sans avantage ni pénalité particulière de durabilité.</WNG_ReplicatorMaterialStandard.description>
+  <WNG_ReplicatorMaterialHardened.label>matériau de réplication durci</WNG_ReplicatorMaterialHardened.label>
+  <WNG_ReplicatorMaterialHardened.description>Ce corps exact de Réplicateur-bloc contient une matière structurelle exceptionnellement durable. Son corps résiste mieux aux dégâts physiques et thermiques, au prix d'une légère perte de mobilité.</WNG_ReplicatorMaterialHardened.description>
+  <WNG_ReplicatorMaterialUltra.label>matériau de réplication ultra-dense</WNG_ReplicatorMaterialUltra.label>
+  <WNG_ReplicatorMaterialUltra.description>Ce corps exact de Réplicateur-bloc contient une matière structurelle exceptionnellement résistante. Il est nettement plus difficile à endommager, mais le corps plus dense se déplace plus lentement.</WNG_ReplicatorMaterialUltra.description>
+  <WNG_SovereignNeuralLattice.label>treillis neuronal souverain</WNG_SovereignNeuralLattice.label>
+  <WNG_SovereignNeuralLattice.description>Un implant physique de contrôleur WNG. Son porteur peut maintenir un domaine souverain borné sur plusieurs Réplicateurs-blocs exacts, mais il ne devient pas une Reine et ne reçoit aucune identité innée ni autorité illimitée de la Reine.</WNG_SovereignNeuralLattice.description>
+  <WNG_WhispersBlindHunter.label>adaptation sensorielle de chasse sonore</WNG_WhispersBlindHunter.label>
+  <WNG_WhispersBlindHunter.description>Cet hybride Michael précoce est anatomiquement aveugle. Il compense par un système auditif extrême, capable de suivre une proie grâce à de minuscules sons et vibrations.</WNG_WhispersBlindHunter.description>
+  <WNG_WhispersMistObscured.label>vue obscurcie par la brume Whispers</WNG_WhispersMistObscured.label>
+  <WNG_WhispersMistObscured.description>Une brume biologique dense réduit la vue effective de ce pion et son acquisition de cibles à distance. La vue revient peu après la sortie de la brume.</WNG_WhispersMistObscured.description>
+  <WNG_WhispersAcousticNode.label>nœud sensoriel acoustique Whispers</WNG_WhispersAcousticNode.label>
+  <WNG_WhispersAcousticNode.labelNoun>un nœud sensoriel acoustique Whispers</WNG_WhispersAcousticNode.labelNoun>
+  <WNG_WhispersAcousticNode.description>Un implant neuro-auditif cultivé à partir de tissu Whispers étudié. Il amplifie fortement l'ouïe et améliore la localisation rapide des mouvements proches, sans reproduire la cécité de l'hybride d'origine.</WNG_WhispersAcousticNode.description>
+  <WNG_WhispersMistGland.label>glande à brume Whispers</WNG_WhispersMistGland.label>
+  <WNG_WhispersMistGland.labelNoun>une glande à brume Whispers</WNG_WhispersMistGland.labelNoun>
+  <WNG_WhispersMistGland.description>Un implant de branchie cervicale cultivé à partir de tissu Whispers. La glande exsude en continu une brume biologique opacifiante non toxique autour du porteur, dans un rayon de dix cases, exactement comme chez un hybride Whispers natif. Cet effet passif ne demande ni activation ni délai de recharge.</WNG_WhispersMistGland.description>
+  <WNG_WhispersBiopsyRecovery.label>récupération après biopsie d'hybride</WNG_WhispersBiopsyRecovery.label>
+  <WNG_WhispersBiopsyRecovery.description>Prélèvement invasif récent des tissus auditifs et des branchies cervicales de l'hybride. Tout prélèvement utile supplémentaire doit attendre que le tissu modifié se rétablisse.</WNG_WhispersBiopsyRecovery.description>
+  <WNG_FeedingIndependent.label>métabolisme Wraith indépendant de l'alimentation</WNG_FeedingIndependent.label>
+  <WNG_FeedingIndependent.description>Le métabolisme de Force vitale de ce Wraith a été réécrit avec succès. Il reste biologiquement et socialement Wraith, mais la digestion ordinaire est revenue et l'alimentation n'est plus nécessaire. Sans réservoir de Force vitale, l'ancienne voie régénérative à haut régime n'est plus alimentée.</WNG_FeedingIndependent.description>
+  <WNG_FeedingIndependenceRejection.label>rejet du vecteur d'indépendance alimentaire</WNG_FeedingIndependenceRejection.label>
+  <WNG_FeedingIndependenceRejection.description>La réécriture métabolique expérimentale a échoué. Des signaux Wraith, Iratus et rétroviraux concurrents provoquent une inflammation catastrophique de plusieurs systèmes. La crise peut s'éteindre d'elle-même en plusieurs jours, mais la mort par défaillance d'organe reste un risque sérieux.</WNG_FeedingIndependenceRejection.description>
+  <WNG_GravEngineSeedIncubation.label>incubation de moteur gravitique wraith</WNG_GravEngineSeedIncubation.label>
+  <WNG_GravEngineSeedIncubation.description>Un moteur gravitique Wraith se développe à travers les tissus de cet hôte. La gestation rend l'hôte fortement incapable d'agir. Si l'hôte survit jusqu'à maturité, il est consommé et un moteur gravitique miniaturisé émerge. Une mort avant maturité détruit l'organe immature.</WNG_GravEngineSeedIncubation.description>
+  <WNG_GravEngineSeedIncubation.stages.0.label>en incubation</WNG_GravEngineSeedIncubation.stages.0.label>
+  <WNG_QueenAuthority.label>autorité de ruche de la reine</WNG_QueenAuthority.label>
+  <WNG_QueenAuthority.description>Une Reine Wraith vivante coordonne ce pion à travers le réseau de ruche local. L'intention partagée aiguise le mouvement, la manipulation et la réponse consciente.</WNG_QueenAuthority.description>
+  <WNG_RegentAuthority.label>coordination de ruche provisoire</WNG_RegentAuthority.label>
+  <WNG_RegentAuthority.description>Un régent Wraith par intérim maintient ensemble le réseau de ruche local après la perte de sa Reine. La coordination est revenue, mais reste plus faible qu'une véritable autorité de Reine.</WNG_RegentAuthority.description>
+  <WNG_QueenlessDisruption.label>perturbation de ruche sans reine</WNG_QueenlessDisruption.label>
+  <WNG_QueenlessDisruption.description>La ruche Wraith locale a perdu une Reine établie et n'a pas encore réglé la succession. Le commandement télépathique se fragmente en impulsions concurrentes, altérant la coordination et la réponse consciente.</WNG_QueenlessDisruption.description>
+  <WNG_ActingHiveRegent.label>régent de ruche par intérim</WNG_ActingHiveRegent.label>
+  <WNG_ActingHiveRegent.description>Ce Wraith a assumé une autorité locale provisoire après la perte d'une véritable Reine. Ce rôle peut rétablir une coordination de base de la ruche, mais il n'égale pas le commandement biologique et psychique d'une Reine.</WNG_ActingHiveRegent.description>
+  <WNG_LifeForceStarved.label>Force vitale affamée</WNG_LifeForceStarved.label>
+  <WNG_LifeForceStarved.description>La Force vitale utilisable du Wraith est tombée à une réserve critique. Le mouvement, la manipulation et la conscience se dégradent tandis que la capacité régénérative est fortement limitée.</WNG_LifeForceStarved.description>
+  <WNG_LifeForceTorpor.label>effondrement de la Force vitale</WNG_LifeForceTorpor.label>
+  <WNG_LifeForceTorpor.description>Il ne reste presque plus de Force vitale utilisable. Le corps est tombé dans un état de survie à peine actif, qui n'est pas fatal en soi, mais qui rend le Wraith presque incapable d'agir tant que la vitalité n'est pas restaurée.</WNG_LifeForceTorpor.description>
+  <WNG_WraithHibernating.label>hibernation Wraith profonde</WNG_WraithHibernating.label>
+  <WNG_WraithHibernating.description>Le Wraith a volontairement réduit son corps à un état presque inerte. La dépense de Force vitale chute fortement, au prix de presque tout mouvement et de toute manipulation, pour une survie à long terme.</WNG_WraithHibernating.description>
+  <WNG_LifeDrained.label>traumatisme d'alimentation</WNG_LifeDrained.label>
+  <WNG_LifeDrained.description>Une alimentation Wraith a arraché une grande part de la vitalité de ce pion. La faiblesse physique immédiate s'estompe avec le temps, mais le vieillissement biologique demeure, et une nouvelle alimentation complète avant rétablissement peut être mortelle.</WNG_LifeDrained.description>
+  <WNG_FedRecently.label>récemment nourri</WNG_FedRecently.label>
+  <WNG_FedRecently.description>La vitalité récemment acquise se stabilise encore dans les tissus du Wraith. Ce marqueur temporaire enregistre une alimentation récente, pendant que la réserve de Force vitale se répartit.</WNG_FedRecently.description>
+  <WNG_WraithFeedingStock.label>réserve d'alimentation wraith</WNG_WraithFeedingStock.label>
+  <WNG_WraithFeedingStock.description>Les Wraiths conservent délibérément ce captif exact en vie comme réserve d'alimentation renouvelable entre des cycles d'alimentation contrôlés. Ce marqueur est un état de garde temporaire ; le vieillissement biologique et le traumatisme d'alimentation subis en captivité restent réels après la libération.</WNG_WraithFeedingStock.description>
+  <WNG_WraithConditionedCaptive.label>captif conditionné par les wraiths</WNG_WraithConditionedCaptive.label>
+  <WNG_WraithConditionedCaptive.description>Une pression psychique répétée a érodé les réactions indépendantes de ce captif. Le conditionnement n'atteint pas encore une véritable transition d'asservissement natif, mais il rend le sujet inhabituellement réceptif à l'influence Wraith tant que la captivité se poursuit.</WNG_WraithConditionedCaptive.description>
+  <WNG_WraithExperimentSubject.label>sujet d'expérience wraith</WNG_WraithExperimentSubject.label>
+  <WNG_WraithExperimentSubject.description>Un examen invasif Wraith a laissé une perturbation neurologique et motrice temporaire. Le sujet reste le même prisonnier et conserve sa garde et son identité normales.</WNG_WraithExperimentSubject.description>
+  <WNG_WraithExperimentalInsight.label>perspicacité expérimentale wraith</WNG_WraithExperimentalInsight.label>
+  <WNG_WraithExperimentalInsight.description>Des observations récentes sur un captif vivant ont temporairement aiguisé la compréhension des systèmes biologiques par ce Wraith.</WNG_WraithExperimentalInsight.description>
+  <WNG_HybridizationIncubation.label>intégration du greffon hybride wraith</WNG_HybridizationIncubation.label>
+  <WNG_HybridizationIncubation.description>Une Chambre de croissance force du tissu dérivé des Wraiths et du matériel génétique dans ce sujet exact. L'état d'intégration est physiquement invalidant et reste distinct du phénotype hybride achevé.</WNG_HybridizationIncubation.description>
+  <WNG_UnstableWraithHybridState.label>greffe instable wraith-humaine</WNG_UnstableWraithHybridState.label>
+  <WNG_UnstableWraithHybridState.description>Ce pion exact a survécu à une greffe hybride wraith-humaine délibérée. Son identité d'origine et sa biologie nutritionnelle ordinaire restent intactes sous un ensemble xénogène dérivé des Wraiths, permanent et incomplet.</WNG_UnstableWraithHybridState.description>
+  <WNG_HybridInstabilityFlare.label>poussée d'instabilité wraith-humaine</WNG_HybridInstabilityFlare.label>
+  <WNG_HybridInstabilityFlare.description>Les systèmes humains greffés et dérivés des Wraiths se sont temporairement désynchronisés, produisant du bruit neurologique, un rejet métabolique et un contrôle moteur altéré.</WNG_HybridInstabilityFlare.description>
+  <WNG_TelepathicallyProbed.label>sondé télépathiquement</WNG_TelepathicallyProbed.label>
+  <WNG_TelepathicallyProbed.description>Un esprit limité d'origine Wraith a imposé un contact avec les pensées de surface de ce pion. La concentration et la perception restent perturbées après la fin du contact.</WNG_TelepathicallyProbed.description>
+  <WNG_HostSeedIncubation.label>incubation de forge vivante</WNG_HostSeedIncubation.label>
+  <WNG_HostSeedIncubation.description>Une Forge vivante se développe à travers les tissus de cet hôte. La gestation d'un jour rend l'hôte fortement incapable d'agir. Si l'hôte survit jusqu'à maturité, il est tué, l'incubation est retirée de la dépouille qui en résulte, et une Forge vivante miniaturisée émerge à proximité. Une mort avant maturité détruit l'implant immature.</WNG_HostSeedIncubation.description>
+  <WNG_HostSeedIncubation.stages.0.label>en incubation</WNG_HostSeedIncubation.stages.0.label>
+  <WNG_WraithRetroviralHumanization.label>humanisation rétrovirale wraith</WNG_WraithRetroviralHumanization.label>
+  <WNG_WraithRetroviralHumanization.description>Une thérapie rétrovirale supprime le phénotype Wraith issu des Iratus chez cet individu. Le même pion demeure sous le traitement, mais le métabolisme, la régénération, les traits de culture d'hôte et la télépathie Wraith sont biologiquement supprimés. Une injection de suppression distincte doit être administrée environ chaque jour ; si l'entretien est interrompu, la biologie Wraith enregistrée revient.</WNG_WraithRetroviralHumanization.description>
+  <WNG_WraithSleeperConditioning.label>conditionnement wraith résiduel</WNG_WraithSleeperConditioning.label>
+  <WNG_WraithSleeperConditioning.description>Ce pion a été récupéré après un asservissement Wraith entièrement engagé. Sa faction et son statut ordinaire d'invité ont été rétablis, mais un conditionnement psychique profondément ancré subsiste. En vivant librement dans la colonie, ce pion exact peut parfois saboter des machines ordinaires ou transmettre des informations stratégiques à la lignée Wraith qui l'a conditionné. Il s'agit d'une conséquence d'espionnage postérieure au sauvetage, et non d'un autre état de propriété ou d'esclavage.</WNG_WraithSleeperConditioning.description>
+  <WNG_StunStaffParalysis.label>paralysie par bâton hypnotique</WNG_StunStaffParalysis.label>
+  <WNG_StunStaffParalysis.description>Une décharge de capture Wraith a verrouillé les principales voies motrices du pion. Le mouvement volontaire et la manipulation sont temporairement supprimés, tandis que l'état anesthésique qui l'accompagne maintient la cible inconsciente pour un transport ou une captivité sûrs.</WNG_StunStaffParalysis.description>
+  <WNG_HiveSenseFocused.label>concentration du sens de la ruche</WNG_HiveSenseFocused.label>
+  <WNG_HiveSenseFocused.description>Le Wraith étend activement sa conscience à travers les esprits proches et les signaux biologiques, aiguisant la perception au prix d'une attention divisée.</WNG_HiveSenseFocused.description>
+  <WNG_QueensCommanded.label>commandement de la reine</WNG_QueensCommanded.label>
+  <WNG_QueensCommanded.description>Le commandement télépathique d'une Reine Wraith synchronise cet esprit avec la Ruche voisine, aiguisant brièvement le mouvement et la coordination au combat tout en durcissant le corps contre le choc de la douleur.</WNG_QueensCommanded.description>
+  <WNG_WraithHallucination.label>hallucinations wraith</WNG_WraithHallucination.label>
+  <WNG_WraithHallucination.description>Les sens de la cible sont submergés par une fausse perception générée par un Wraith. Le mouvement, la vue et le traitement conscient sont altérés jusqu'à ce que l'empreinte psychique s'estompe.</WNG_WraithHallucination.description>
+  <WNG_RoshnaDependence.label>dépendance au roshna</WNG_RoshnaDependence.label>
+  <WNG_RoshnaDependence.description>Dépendance physiologique artificielle au roshna Goa'uld. Les doses régulières maintiennent un fonctionnement normal. Sans approvisionnement continu, la régulation systémique commence à défaillir ; un sevrage prolongé est mortel. Cette dépendance ne disparaît pas par l'abstinence.</WNG_RoshnaDependence.description>
+  <WNG_RoshnaDependence.stages.1.label>en manque</WNG_RoshnaDependence.stages.1.label>
+  <WNG_IratusPerfumeInfluence.label>influence du parfum Iratus</WNG_IratusPerfumeInfluence.label>
+  <WNG_IratusPerfumeInfluence.description>Un parfum stabilisé à base de phéromones psychoïdes amplifie temporairement la présence sociale perçue, le charisme et l'impact persuasif du sujet. Une fois raffiné en parfum, il n'attire pas les insectes Iratus.</WNG_IratusPerfumeInfluence.description>
+  <WNG_IratusSamplingRecovery.label>récupération après prélèvement Iratus</WNG_IratusSamplingRecovery.label>
+  <WNG_IratusSamplingRecovery.description>Cet insecte Iratus a récemment subi un prélèvement biologique invasif. Sa biologie régénérative répare les glandes et les tissus prélevés, mais un nouveau prélèvement risquerait un matériau non valable et un traumatisme excessif.</WNG_IratusSamplingRecovery.description>
+  <WNG_IratusParalysis.label>paralysie Iratus</WNG_IratusParalysis.label>
+  <WNG_IratusParalysis.description>Des composés d'alimentation Iratus stabilisés suppriment le contrôle neuromusculaire. Le sujet reste vivant et partiellement conscient, mais le mouvement volontaire est fortement restreint jusqu'à l'élimination des composés.</WNG_IratusParalysis.description>
+  <WNG_IratusQueenRegeneration.label>régénération de reine Iratus</WNG_IratusQueenRegeneration.label>
+  <WNG_IratusQueenRegeneration.description>Le Wraith a survécu au traitement restaurateur de la reine Iratus. Ses systèmes régénératifs fonctionnent à un rythme extrême pendant que les facteurs de signalisation dérivés de la reine sont éliminés.</WNG_IratusQueenRegeneration.description>
+  <WNG_KassaSatiation.label>satiété au kassa</WNG_KassaSatiation.label>
+  <WNG_KassaSatiation.labelNoun>satiété au kassa</WNG_KassaSatiation.labelNoun>
+  <WNG_KassaSatiation.description>Les alcaloïdes du kassa produisent un léger calme renforçant, en plus de la densité nutritive inhabituelle de l'aliment.</WNG_KassaSatiation.description>
+  <WNG_KassaTolerance.label>tolérance au kassa</WNG_KassaTolerance.label>
+  <WNG_KassaTolerance.description>La consommation répétée de kassa a réduit la sensibilité à sa chimie renforçante.</WNG_KassaTolerance.description>
+  <WNG_KassaAddiction.label>dépendance au kassa</WNG_KassaAddiction.label>
+  <WNG_KassaAddiction.description>Une dépendance sévère au kassa. Une consommation prolongée reconfigure suffisamment la récompense et la régulation métabolique pour que la nourriture ordinaire paraisse insatisfaisante, et qu'une abstinence prolongée provoque un sevrage invalidant.</WNG_KassaAddiction.description>
+  <WNG_KassaAddiction.stages.1.label>sevrage</WNG_KassaAddiction.stages.1.label>
+  <WNG_KassaConcentrateHigh.label>défonce au concentré de kassa</WNG_KassaConcentrateHigh.label>
+  <WNG_KassaConcentrateHigh.labelNoun>une défonce au concentré de kassa</WNG_KassaConcentrateHigh.labelNoun>
+  <WNG_KassaConcentrateHigh.description>Les stimulants concentrés du kassa produisent une pulsion euphorique intense et une activation physique de courte durée.</WNG_KassaConcentrateHigh.description>
+  <WNG_KassaDistillateHigh.label>défonce au distillat de kassa</WNG_KassaDistillateHigh.label>
+  <WNG_KassaDistillateHigh.labelNoun>une défonce au distillat de kassa</WNG_KassaDistillateHigh.labelNoun>
+  <WNG_KassaDistillateHigh.description>Les alcaloïdes du kassa de haute pureté poussent le système nerveux bien au-delà des limites normales.</WNG_KassaDistillateHigh.description>
+  <WNG_WraithEnzymeHigh.label>poussée d'enzyme wraith</WNG_WraithEnzymeHigh.label>
+  <WNG_WraithEnzymeHigh.labelNoun>une poussée d'enzyme wraith</WNG_WraithEnzymeHigh.labelNoun>
+  <WNG_WraithEnzymeHigh.description>L'enzyme wraith brute pousse le corps dans un état amplifié insoutenable. La douleur est supprimée, la production physique et la conscience sont amplifiées, et les tissus endommagés se réparent à une vitesse anormale.</WNG_WraithEnzymeHigh.description>
+  <WNG_WraithEnzymeAddiction.label>dépendance à l'enzyme wraith</WNG_WraithEnzymeAddiction.label>
+  <WNG_WraithEnzymeAddiction.description>Une exposition répétée à l'enzyme wraith a forcé le corps à s'adapter à un état biochimique qu'il ne peut pas maintenir seul en toute sécurité. Le sevrage provoque une faiblesse profonde, de la douleur, des troubles cognitifs et une instabilité comportementale dangereuse.</WNG_WraithEnzymeAddiction.description>
+  <WNG_WraithEnzymeAddiction.stages.1.label>sevrage sévère à l'enzyme</WNG_WraithEnzymeAddiction.stages.1.label>
+  <WNG_WraithEnzymeTolerance.label>tolérance à l'enzyme wraith</WNG_WraithEnzymeTolerance.label>
+  <WNG_WraithEnzymeTolerance.description>Une tolérance croissante à l'enzyme wraith. Des doses toujours plus fortes sont nécessaires pour provoquer la même réponse physique anormale, ce qui accroît fortement le risque de surdose et de dommages à long terme.</WNG_WraithEnzymeTolerance.description>
+  <WNG_RefinedWraithEnzymeHigh.label>enzyme wraith raffinée</WNG_RefinedWraithEnzymeHigh.label>
+  <WNG_RefinedWraithEnzymeHigh.labelNoun>une dose d'enzyme wraith raffinée</WNG_RefinedWraithEnzymeHigh.labelNoun>
+  <WNG_RefinedWraithEnzymeHigh.description>Une formulation contrôlée d'enzyme wraith améliore la production physique, la tolérance à la douleur et la récupération, sans la violence métabolique complète de l'extrait brut.</WNG_RefinedWraithEnzymeHigh.description>
+</LanguageData>

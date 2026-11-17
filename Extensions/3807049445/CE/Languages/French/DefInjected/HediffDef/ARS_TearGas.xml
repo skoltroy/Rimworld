@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ARS_TearGasCNHediff.label>gaz lacrymogène CN</ARS_TearGasCNHediff.label>
+  <ARS_TearGasCNHediff.description>Yeux larmoyants à cause du gaz lacrymogène CN. La vue est fortement touchée, et la victime peut à peine se servir de ses mains. Disparaît rapidement.</ARS_TearGasCNHediff.description>
+  <ARS_TearGasCNHediff.stages.0.label>irrité</ARS_TearGasCNHediff.stages.0.label>
+  <ARS_TearGasCNHediff.stages.1.label>larmoiement</ARS_TearGasCNHediff.stages.1.label>
+  <ARS_TearGasCNHediff.stages.2.label>aveuglé par les larmes</ARS_TearGasCNHediff.stages.2.label>
+  <ARS_TearGasCSHediff.label>gaz lacrymogène CS</ARS_TearGasCSHediff.label>
+  <ARS_TearGasCSHediff.description>Toux et étouffement causés par le gaz lacrymogène CS. La respiration est fortement touchée, et la vue et les mouvements en pâtissent. Persiste longtemps.</ARS_TearGasCSHediff.description>
+  <ARS_TearGasCSHediff.stages.0.label>irrité</ARS_TearGasCSHediff.stages.0.label>
+  <ARS_TearGasCSHediff.stages.1.label>toux</ARS_TearGasCSHediff.stages.1.label>
+  <ARS_TearGasCSHediff.stages.2.label>suffocation</ARS_TearGasCSHediff.stages.2.label>
+</LanguageData>

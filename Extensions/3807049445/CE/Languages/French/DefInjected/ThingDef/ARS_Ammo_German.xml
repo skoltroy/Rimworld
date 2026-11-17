@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Ammo_ARS_106x25mmR_FMJ.description>Cartouche de revolver à poudre noire du Reichsrevolver de l&apos;Empire allemand, munition à rebord de 10,6 mm avec une lourde balle de plomb.</Ammo_ARS_106x25mmR_FMJ.description>
+  <Ammo_ARS_106x25mmR_HP.description>Cartouche de revolver à poudre noire du Reichsrevolver de l&apos;Empire allemand, munition à rebord de 10,6 mm avec une lourde balle de plomb.</Ammo_ARS_106x25mmR_HP.description>
+  <Ammo_ARS_106x25mmR_FMJ.label>10.6x25mmR (FMJ)</Ammo_ARS_106x25mmR_FMJ.label>
+  <Ammo_ARS_106x25mmR_HP.label>10.6x25mmR (HP)</Ammo_ARS_106x25mmR_HP.label>
+  <Bullet_ARS_106x25mmR_FMJ.label>balle 10.6x25mmR (FMJ)</Bullet_ARS_106x25mmR_FMJ.label>
+  <Bullet_ARS_106x25mmR_HP.label>balle 10.6x25mmR (HP)</Bullet_ARS_106x25mmR_HP.label>
+  <Ammo_ARS_1115x60mmR_FMJ.description>Cartouche à poudre noire à rebord de 11,15 mm du Mauser M1871, première munition de fusil à cartouche métallique de l&apos;Empire allemand.</Ammo_ARS_1115x60mmR_FMJ.description>
+  <Ammo_ARS_1115x60mmR_HP.description>Cartouche à poudre noire à rebord de 11,15 mm du Mauser M1871, première munition de fusil à cartouche métallique de l&apos;Empire allemand.</Ammo_ARS_1115x60mmR_HP.description>
+  <Ammo_ARS_1115x60mmR_FMJ.label>11.15x60mmR (FMJ)</Ammo_ARS_1115x60mmR_FMJ.label>
+  <Ammo_ARS_1115x60mmR_HP.label>11.15x60mmR (HP)</Ammo_ARS_1115x60mmR_HP.label>
+  <Bullet_ARS_1115x60mmR_FMJ.label>balle 11.15x60mmR (FMJ)</Bullet_ARS_1115x60mmR_FMJ.label>
+  <Bullet_ARS_1115x60mmR_HP.label>balle 11.15x60mmR (HP)</Bullet_ARS_1115x60mmR_HP.label>
+  <Ammo_ARS_923mmLargo_FMJ.description>Puissante cartouche de pistolet semi-automatique de 9 mm, utilisée par les pistolets Bergmann et le Bergmann-Bayard, proche du .38 Super en puissance.</Ammo_ARS_923mmLargo_FMJ.description>
+  <Ammo_ARS_923mmLargo_AP.description>Puissante cartouche de pistolet semi-automatique de 9 mm, utilisée par les pistolets Bergmann et le Bergmann-Bayard, proche du .38 Super en puissance.</Ammo_ARS_923mmLargo_AP.description>
+  <Ammo_ARS_923mmLargo_HP.description>Puissante cartouche de pistolet semi-automatique de 9 mm, utilisée par les pistolets Bergmann et le Bergmann-Bayard, proche du .38 Super en puissance.</Ammo_ARS_923mmLargo_HP.description>
+  <Ammo_ARS_923mmLargo_FMJ.label>9x23mm Largo (FMJ)</Ammo_ARS_923mmLargo_FMJ.label>
+  <Ammo_ARS_923mmLargo_AP.label>9x23mm Largo (AP)</Ammo_ARS_923mmLargo_AP.label>
+  <Ammo_ARS_923mmLargo_HP.label>9x23mm Largo (HP)</Ammo_ARS_923mmLargo_HP.label>
+  <Bullet_ARS_923mmLargo_FMJ.label>balle 9x23mm Largo (FMJ)</Bullet_ARS_923mmLargo_FMJ.label>
+  <Bullet_ARS_923mmLargo_AP.label>balle 9x23mm Largo (AP)</Bullet_ARS_923mmLargo_AP.label>
+  <Bullet_ARS_923mmLargo_HP.label>balle 9x23mm Largo (HP)</Bullet_ARS_923mmLargo_HP.label>
+  <Ammo_ARS_765x25mmBorchardt_FMJ.description>Cartouche de 7,65 mm à étui goulotté du Borchardt C93, ancêtre de la 7,63x25 mm Mauser.</Ammo_ARS_765x25mmBorchardt_FMJ.description>
+  <Ammo_ARS_765x25mmBorchardt_AP.description>Cartouche de 7,65 mm à étui goulotté du Borchardt C93, ancêtre de la 7,63x25 mm Mauser.</Ammo_ARS_765x25mmBorchardt_AP.description>
+  <Ammo_ARS_765x25mmBorchardt_FMJ.label>7.65x25mm Borchardt (FMJ)</Ammo_ARS_765x25mmBorchardt_FMJ.label>
+  <Ammo_ARS_765x25mmBorchardt_AP.label>7.65x25mm Borchardt (AP)</Ammo_ARS_765x25mmBorchardt_AP.label>
+  <Bullet_ARS_765x25mmBorchardt_FMJ.label>balle 7.65x25mm Borchardt (FMJ)</Bullet_ARS_765x25mmBorchardt_FMJ.label>
+  <Bullet_ARS_765x25mmBorchardt_AP.label>balle 7.65x25mm Borchardt (AP)</Bullet_ARS_765x25mmBorchardt_AP.label>
+  <Ammo_ARS_925mmMauser_FMJ.description>Balle de 9 mm dans l&apos;étui long et goulotté de la 7,63x25 mm Mauser, proposée pour les pistolets-mitrailleurs d&apos;exportation.</Ammo_ARS_925mmMauser_FMJ.description>
+  <Ammo_ARS_925mmMauser_HP.description>Balle de 9 mm dans l&apos;étui long et goulotté de la 7,63x25 mm Mauser, proposée pour les pistolets-mitrailleurs d&apos;exportation.</Ammo_ARS_925mmMauser_HP.description>
+  <Ammo_ARS_925mmMauser_FMJ.label>9x25mm Mauser Export (FMJ)</Ammo_ARS_925mmMauser_FMJ.label>
+  <Ammo_ARS_925mmMauser_HP.label>9x25mm Mauser Export (HP)</Ammo_ARS_925mmMauser_HP.label>
+  <Bullet_ARS_925mmMauser_FMJ.label>balle 9x25mm Mauser Export (FMJ)</Bullet_ARS_925mmMauser_FMJ.label>
+  <Bullet_ARS_925mmMauser_HP.label>balle 9x25mm Mauser Export (HP)</Bullet_ARS_925mmMauser_HP.label>
+  <Ammo_ARS_8mmBergmann_FMJ.description>Petite cartouche de 8 mm conçue pour le pistolet de poche Bergmann Simplex, un peu plus puissante que la .32 ACP.</Ammo_ARS_8mmBergmann_FMJ.description>
+  <Ammo_ARS_8mmBergmann_FMJ.label>8mm Bergmann (FMJ)</Ammo_ARS_8mmBergmann_FMJ.label>
+  <Bullet_ARS_8mmBergmann_FMJ.label>balle 8mm Bergmann (FMJ)</Bullet_ARS_8mmBergmann_FMJ.label>
+  <Ammo_ARS_918mmUltra_FMJ.description>Cartouche de police 9x18 mm chargée un peu plus fort que la Makarov, conçue pour le Walther PP Super.</Ammo_ARS_918mmUltra_FMJ.description>
+  <Ammo_ARS_918mmUltra_AP.description>Cartouche de police 9x18 mm chargée un peu plus fort que la Makarov, conçue pour le Walther PP Super.</Ammo_ARS_918mmUltra_AP.description>
+  <Ammo_ARS_918mmUltra_HP.description>Cartouche de police 9x18 mm chargée un peu plus fort que la Makarov, conçue pour le Walther PP Super.</Ammo_ARS_918mmUltra_HP.description>
+  <Ammo_ARS_918mmUltra_FMJ.label>9x18mm Ultra (FMJ)</Ammo_ARS_918mmUltra_FMJ.label>
+  <Ammo_ARS_918mmUltra_AP.label>9x18mm Ultra (AP)</Ammo_ARS_918mmUltra_AP.label>
+  <Ammo_ARS_918mmUltra_HP.label>9x18mm Ultra (HP)</Ammo_ARS_918mmUltra_HP.label>
+  <Bullet_ARS_918mmUltra_FMJ.label>balle 9x18mm Ultra (FMJ)</Bullet_ARS_918mmUltra_FMJ.label>
+  <Bullet_ARS_918mmUltra_AP.label>balle 9x18mm Ultra (AP)</Bullet_ARS_918mmUltra_AP.label>
+  <Bullet_ARS_918mmUltra_HP.label>balle 9x18mm Ultra (HP)</Bullet_ARS_918mmUltra_HP.label>
+  <Ammo_ARS_473x25mmCaseless_FMJ.description>Cartouche courte sans étui pour le concept d&apos;arme de défense personnelle G11 : un bloc de propulseur dans lequel la balle est enfoncée.</Ammo_ARS_473x25mmCaseless_FMJ.description>
+  <Ammo_ARS_473x25mmCaseless_AP.description>Cartouche courte sans étui pour le concept d&apos;arme de défense personnelle G11 : un bloc de propulseur dans lequel la balle est enfoncée.</Ammo_ARS_473x25mmCaseless_AP.description>
+  <Ammo_ARS_473x25mmCaseless_FMJ.label>4,73x25 mm sans étui (FMJ)</Ammo_ARS_473x25mmCaseless_FMJ.label>
+  <Ammo_ARS_473x25mmCaseless_AP.label>4,73x25 mm sans étui (AP)</Ammo_ARS_473x25mmCaseless_AP.label>
+  <Bullet_ARS_473x25mmCaseless_FMJ.label>balle 4.73x25mm sans étui (FMJ)</Bullet_ARS_473x25mmCaseless_FMJ.label>
+  <Bullet_ARS_473x25mmCaseless_AP.label>balle 4.73x25mm sans étui (AP)</Bullet_ARS_473x25mmCaseless_AP.label>
+  <Ammo_ARS_775mmGECO_FMJ.description>Cartouche intermédiaire expérimentale de 7,75 mm, conçue pour le Vollmer M35/III, premier pas vers le fusil d&apos;assaut.</Ammo_ARS_775mmGECO_FMJ.description>
+  <Ammo_ARS_775mmGECO_AP.description>Cartouche intermédiaire expérimentale de 7,75 mm, conçue pour le Vollmer M35/III, premier pas vers le fusil d&apos;assaut.</Ammo_ARS_775mmGECO_AP.description>
+  <Ammo_ARS_775mmGECO_FMJ.label>7.75mm GECO (FMJ)</Ammo_ARS_775mmGECO_FMJ.label>
+  <Ammo_ARS_775mmGECO_AP.label>7.75mm GECO (AP)</Ammo_ARS_775mmGECO_AP.label>
+  <Bullet_ARS_775mmGECO_FMJ.label>balle 7.75mm GECO (FMJ)</Bullet_ARS_775mmGECO_FMJ.label>
+  <Bullet_ARS_775mmGECO_AP.label>balle 7.75mm GECO (AP)</Bullet_ARS_775mmGECO_AP.label>
+  <Ammo_ARS_46x36mm_FMJ.description>Cartouche de fusil de petit calibre de 4,6 mm, testée sur le HK36, légère et à faible recul.</Ammo_ARS_46x36mm_FMJ.description>
+  <Ammo_ARS_46x36mm_AP.description>Cartouche de fusil de petit calibre de 4,6 mm, testée sur le HK36, légère et à faible recul.</Ammo_ARS_46x36mm_AP.description>
+  <Ammo_ARS_46x36mm_FMJ.label>4.6x36mm (FMJ)</Ammo_ARS_46x36mm_FMJ.label>
+  <Ammo_ARS_46x36mm_AP.label>4.6x36mm (AP)</Ammo_ARS_46x36mm_AP.label>
+  <Bullet_ARS_46x36mm_FMJ.label>balle 4.6x36mm (FMJ)</Bullet_ARS_46x36mm_FMJ.label>
+  <Bullet_ARS_46x36mm_AP.label>balle 4.6x36mm (AP)</Bullet_ARS_46x36mm_AP.label>
+  <Ammo_ARS_20Gauge_Buck.description>Calibre de fusil de chasse et de sport courant, plus léger que le calibre 12.</Ammo_ARS_20Gauge_Buck.description>
+  <Ammo_ARS_20Gauge_Slug.description>Calibre de fusil de chasse et de sport courant, plus léger que le calibre 12.</Ammo_ARS_20Gauge_Slug.description>
+  <Ammo_ARS_20Gauge_Buck.label>calibre 20 (chevrotine)</Ammo_ARS_20Gauge_Buck.label>
+  <Ammo_ARS_20Gauge_Slug.label>calibre 20 (balle)</Ammo_ARS_20Gauge_Slug.label>
+  <Bullet_ARS_20Gauge_Buck.label>balle calibre 20 (chevrotine)</Bullet_ARS_20Gauge_Buck.label>
+  <Bullet_ARS_20Gauge_Slug.label>balle calibre 20 (balle)</Bullet_ARS_20Gauge_Slug.label>
+  <Ammo_ARS_762x36mmDart_AP.description>Fléchette en acier stabilisée par ailettes, tirée électriquement par le pistolet sous-marin HK P11, qui porte bien plus loin dans l&apos;eau qu&apos;une balle ordinaire.</Ammo_ARS_762x36mmDart_AP.description>
+  <Ammo_ARS_762x36mmDart_AP.label>fléchette en acier 7,62x36 mm (AP)</Ammo_ARS_762x36mmDart_AP.label>
+  <Bullet_ARS_762x36mmDart_AP.label>balle 7.62x36mm acier fléchette (AP)</Bullet_ARS_762x36mmDart_AP.label>
+</LanguageData>

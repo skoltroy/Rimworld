@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Apparel_ArmorCataphract.description>Une lourde armure portée par les unités des services secrets de Whitespring, pour percer les positions fortifiées lors des assauts frontaux lorsqu'aucune autre option n'existe.</Apparel_ArmorCataphract.description>
+  <Apparel_ArmorCataphract.label>armure des services secrets</Apparel_ArmorCataphract.label>
+  <Apparel_ArmorCataphractPrestige.description>Une lourde armure ouvragée, remise aux agents des services secrets de Whitespring de haut rang. Des fils de cryptex intégrés renforcent la sensibilité cryptide du porteur.</Apparel_ArmorCataphractPrestige.description>
+  <Apparel_ArmorCataphractPrestige.label>armure patriote des services secrets</Apparel_ArmorCataphractPrestige.label>
+  <Apparel_ArmorHelmetCataphractPrestige.description>Un casque de haute technologie très blindé, avec une coque solide en tissu polymère et un système visuel indirect pour les angles de vue non frontaux. Il protège contre tous les tirs, sauf les plus puissants ou les mieux ajustés.
+Coûteuse et belle, une armure de prestige comme celle-ci est généralement réservée aux personnes de haut statut. Des fils de cryptex intégrés renforcent également la sensibilité cryptide du porteur.</Apparel_ArmorHelmetCataphractPrestige.description>
+  <Apparel_ArmorHelmetCataphractPrestige.label>casque patriote des services secrets</Apparel_ArmorHelmetCataphractPrestige.label>
+  <Apparel_ArmorHelmetReconPrestige.description>Un casque blindé de haute technologie, doté d'un ordinateur d'état intégré et d'une plaque protectrice en tissu polymère.
+Coûteuse et belle, une armure de prestige comme celle-ci est généralement réservée aux personnes de haut statut. Des fils de cryptex intégrés renforcent également la sensibilité cryptide du porteur.</Apparel_ArmorHelmetReconPrestige.description>
+  <Apparel_ArmorLocust.description>Une variante de l'armure de reconnaissance dotée de propulseurs courte portée, pour des déplacements rapides en milieu urbain. Les éclaireurs urbains préfèrent les combats rapprochés et les frappes rapides à la défense statique.</Apparel_ArmorLocust.description>
+  <Apparel_ArmorLocust.label>armure d'éclaireur urbain</Apparel_ArmorLocust.label>
+  <Apparel_ArmorMarineGrenadier.description>Une variante de l'armure de marine, spécialisée dans les opérations par grand froid et en zone arctique, équipée d'un lance-grenades monté sur l'épaule. Les marines arctiques sont spécialisés dans la percée des fortifications des climats froids.</Apparel_ArmorMarineGrenadier.description>
+  <Apparel_ArmorMarineGrenadier.label>armure de marine arctique</Apparel_ArmorMarineGrenadier.label>
+  <Apparel_ArmorMarineHelmetPrestige.description>Un casque d'armure de marine porté par les patriotes de Whitespring, doté d'un ordinateur d'état intégré et de plaques superposées en tissu polymère. Des fils de cryptex intégrés renforcent également la sensibilité cryptide du porteur.</Apparel_ArmorMarineHelmetPrestige.description>
+  <Apparel_ArmorMarineHelmetPrestige.label>casque de marine patriote</Apparel_ArmorMarineHelmetPrestige.label>
+  <Apparel_ArmorMarinePrestige.description>Une armure portée par les patriotes de Whitespring. Ses plaques superposées en tissu polymère stoppent très efficacement les attaques, avec peu de jointures vulnérables. Des assistants neuro-mémétiques permettent de la porter tout en se déplaçant aisément.
+Coûteuse et cérémonielle, l'armure de marine patriote marque l'appartenance et le rang. Des fils de cryptex intégrés renforcent également la sensibilité cryptide du porteur.</Apparel_ArmorMarinePrestige.description>
+  <Apparel_ArmorMarinePrestige.label>armure de marine patriote</Apparel_ArmorMarinePrestige.label>
+  <Apparel_ArmorReconPrestige.description>Une armure légère, conçue pour permettre des déplacements rapides. Ses plaques en tissu polymère bloquent les attaques sans compromettre la mobilité, et des assistants neuro-mémétiques dans la partie inférieure du corps permettent de la porter tout en se déplaçant aisément.
+Coûteuse et belle, une armure de prestige comme celle-ci est généralement réservée aux personnes de haut statut. Des fils de cryptex intégrés renforcent également la sensibilité cryptide du porteur.</Apparel_ArmorReconPrestige.description>
+  <Apparel_Coronet.description>Un béret arborant l'insigne de Whitespring, porté par le personnel de l'Enclave de certains rangs.</Apparel_Coronet.description>
+  <Apparel_Coronet.label>béret Whitespring</Apparel_Coronet.label>
+  <Apparel_Crown.description>Une casquette portée par les chercheurs supérieurs de Whitespring, qui désigne un rôle de direction dans les études cryptides.</Apparel_Crown.description>
+  <Apparel_Crown.label>casquette de scientifique Whitespring</Apparel_Crown.label>
+  <Apparel_EltexSkullcap.description>Une calotte ajustée conçue pour la concentration de recherche cryptide. Elle n'apporte aucune protection physique, mais ses matériaux spéciaux renforcent la sensibilité cryptide du porteur.</Apparel_EltexSkullcap.description>
+  <Apparel_EltexSkullcap.label>calotte en cryptex</Apparel_EltexSkullcap.label>
+  <Apparel_PsyfocusHelmet.description>Un casque léger conçu pour la concentration de recherche cryptide. Bien qu'il apporte peu de protection physique, ses matériaux spéciaux renforcent la sensibilité cryptide du porteur et dissipent la chaleur neurale.</Apparel_PsyfocusHelmet.description>
+  <Apparel_PsyfocusHelmet.label>casque en cryptex</Apparel_PsyfocusHelmet.label>
+  <Apparel_PsyfocusRobe.label>robe en cryptex</Apparel_PsyfocusRobe.label>
+  <Apparel_PsyfocusShirt.description>Une chemise intégrant des matériaux spéciaux de concentration cryptide. Ils renforcent la sensibilité cryptide et aident à dissiper la chaleur neurale.</Apparel_PsyfocusShirt.description>
+  <Apparel_PsyfocusShirt.label>chemise en cryptex</Apparel_PsyfocusShirt.label>
+  <Apparel_PsyfocusVest.label>gilet en cryptex</Apparel_PsyfocusVest.label>
+  <Apparel_RobeRoyal.description>Une longue redingote formelle portée par les patriotes et officiers de Whitespring. Brodée des sceaux de l'Enclave, elle marque l'appartenance et le rang.</Apparel_RobeRoyal.description>
+  <Apparel_RobeRoyal.label>redingote patriote</Apparel_RobeRoyal.label>
+  <ShipLandingBeacon.label>balise d'atterrissage de vertibird</ShipLandingBeacon.label>
+  <GrandThrone.description>Un grand fauteuil ouvragé, utilisé par le président pour les allocutions officielles et la méditation. S'asseoir dans le grand fauteuil présidentiel confère à son occupant un sentiment d'autorité et de dignité.</GrandThrone.description>
+  <GrandThrone.label>grand fauteuil présidentiel</GrandThrone.label>
+  <MeleeWeapon_MonoSwordBladelink.description>Une épée longue en métal cristallin, raffinée pour les officiers de sécurité de Whitespring. Son tranchant mono-moléculaire tranche sans peine l'armure, tandis qu'un noyau de cryptex intégré aiguise la perspicacité cryptide de son porteur et stabilise la réaction ultra-rapide de l'arme.
+Le noyau de cryptex ne peut s'accorder qu'à un seul porteur à la fois. Une fois ce lien établi, la lame réagit avec une vitesse et une précision extrêmes, et rejette tout porteur extérieur à son opérateur désigné.</MeleeWeapon_MonoSwordBladelink.description>
+  <MeleeWeapon_MonoSwordBladelink.label>lame moléculaire en cryptex</MeleeWeapon_MonoSwordBladelink.label>
+  <MeleeWeapon_PlasmaSwordBladelink.description>Une épée d'officier à âme métallique, enveloppée d'un fourreau de plasma captif. Les cibles sont tranchées par le bord intérieur et brûlées par le champ environnant, ce qui donne aux officiers de Whitespring une arme de corps à corps capable de trancher et de cautériser d'un même coup.
+Son noyau de guidage en cryptex ne peut s'accorder qu'à un seul porteur à la fois. Une fois lié, le sabre réagit avec une vitesse et un contrôle inhabituels, et rejette tout porteur extérieur à son opérateur désigné.</MeleeWeapon_PlasmaSwordBladelink.description>
+  <MeleeWeapon_PlasmaSwordBladelink.label>sabre à plasma d'officier</MeleeWeapon_PlasmaSwordBladelink.label>
+  <MeleeWeapon_ZeusHammerBladelink.description>Un marteau de guerre de Whitespring, doté d'un condensateur EMP intégré. À l'impact, il libère une puissante impulsion en plus du coup physique, ce qui le rend particulièrement efficace contre les armures assistées, les robots et autres matériels avancés.
+Son noyau de guidage en cryptex ne peut s'accorder qu'à un seul porteur à la fois. Une fois lié, le marteau suit le rythme et la cadence des coups de son porteur avec une précision inhabituelle, et rejette toute main extérieure à son opérateur désigné.</MeleeWeapon_ZeusHammerBladelink.description>
+  <MeleeWeapon_ZeusHammerBladelink.label>marteau à impulsion</MeleeWeapon_ZeusHammerBladelink.label>
+  <Throne.description>Un fauteuil ouvragé, utilisé par le président pour les allocutions officielles et la méditation. S'asseoir dans le fauteuil présidentiel peut servir de point de concentration pour certains devoirs et cérémonies.</Throne.description>
+  <Throne.label>fauteuil présidentiel</Throne.label>
+  <ShuttleIncoming.label>vertibird (en approche)</ShuttleIncoming.label>
+  <ShuttleLeaving.label>vertibird (en départ)</ShuttleLeaving.label>
+</LanguageData>

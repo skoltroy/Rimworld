@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Bison.label>bisotope</Bison.label>
+  <Bison.description>Un bisotope imposant, imprégné d'isotopes, descendant du bison de l'Ancien Monde. Des générations de radiations ont épaissi son cuir, déformé ses cornes et rendu certains troupeaux dangereusement territoriaux. Les bisotopes domestiqués restent de précieux animaux de bât et producteurs de laine.</Bison.description>
+  <WildBoar.label>radhog</WildBoar.label>
+  <WildBoar.description>Descendant muté des porcs sauvages, le radhog fouille les ruines et les sols empoisonnés à la recherche de tout ce qui est comestible. Son cuir rêche et sa masse radioactive le rendent têtu, agressif et bien plus difficile à abattre que son ancêtre de l'Ancien Monde.</WildBoar.description>
+  <Muffalo.label>rat de bât</Muffalo.label>
+  <Muffalo.description>Une souche géante de rat-taupe, domestiquée à travers les friches comme bête de somme infatigable. Son large dos peut porter une pile improbable de sacs récupérés, tandis que des générations d'élevage en caravane l'ont rendu robuste, docile et à l'aise sous presque tous les climats. Les rats de bât ne forment plus de populations sauvages : ils sont élevés et échangés partout où circulent les caravanes.</Muffalo.description>
+  <WoolMuffalo.label>fourrure de rat de bât</WoolMuffalo.label>
+  <WoolMuffalo.description>Une fourrure dense et douce, tondue sur un rat de bât. Elle offre une excellente isolation contre le froid sans alourdir celui qui la porte.</WoolMuffalo.description>
+  <Leather_Bluefur.label>cuir de rat de bât</Leather_Bluefur.label>
+  <Leather_Bluefur.description>Le cuir épais et fourré d'un rat de bât. Des générations passées à tirer des caravanes à travers des climats hostiles l'ont rendu exceptionnellement efficace pour réguler la température.</Leather_Bluefur.description>
+  <Leather_Bluefur.stuffProps.stuffAdjective>en cuir de rat de bât</Leather_Bluefur.stuffProps.stuffAdjective>
+  <Cobra.label>mocassin d'eau</Cobra.label>
+  <Cobra.description>Serpent-vipère semi-aquatique au corps massif, descendant de serpents de l'Ancien Monde échappés. Les mocassins d'eau hantent les ruines inondées et les cours d'eau stagnants, où leur gueule pâle grande ouverte est souvent le dernier avertissement avant une morsure rapide et venimeuse.</Cobra.description>
+  <Cobra.race.meatLabel>viande de mocassin d'eau</Cobra.race.meatLabel>
+  <EggCobraFertilized.label>œuf de mocassin d'eau (fécondé)</EggCobraFertilized.label>
+  <EggCobraFertilized.description>Un œuf de mocassin d'eau fécondé. S'il est gardé au chaud, il éclora en un jeune mocassin d'eau.</EggCobraFertilized.description>
+  <EggCobraUnfertilized.label>œuf de mocassin d'eau (non fécondé)</EggCobraUnfertilized.label>
+  <EggCobraUnfertilized.description>Un œuf de mocassin d'eau non fécondé. Il peut être mangé cru, mais il est plus sûr de le cuire.</EggCobraUnfertilized.description>
+</LanguageData>

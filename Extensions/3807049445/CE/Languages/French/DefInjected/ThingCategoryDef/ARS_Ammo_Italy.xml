@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AmmoARS_9mmGlisenti.label>9mm Glisenti</AmmoARS_9mmGlisenti.label>
+  <AmmoARS_1035mmOrdinanza.label>10.35x20mmR Ordinanza</AmmoARS_1035mmOrdinanza.label>
+  <AmmoARS_9x21mmIMI.label>9x21mm IMI</AmmoARS_9x21mmIMI.label>
+  <AmmoARS_9x25mmAUPO.label>9x25mm AUPO</AmmoARS_9x25mmAUPO.label>
+  <AmmoARS_735x51mmCarcano.label>7.35x51mm Carcano</AmmoARS_735x51mmCarcano.label>
+  <AmmoARS_7x57mmMauser.label>7x57mm Mauser</AmmoARS_7x57mmMauser.label>
+  <AmmoARS_8x59mmBreda.label>8x59mm Breda</AmmoARS_8x59mmBreda.label>
+  <AmmoARS_765x53mmMauser.label>7.65x53mm Mauser</AmmoARS_765x53mmMauser.label>
+  <AmmoARS_104x47mmRVetterli.label>10.4x47mmR Vetterli</AmmoARS_104x47mmRVetterli.label>
+  <AmmoARS_28Gauge.label>calibre 28</AmmoARS_28Gauge.label>
+  <AmmoARS_385mmTromboncinos.label>grenade à fusil 38,5 mm</AmmoARS_385mmTromboncinos.label>
+  <AmmoARS_93x74mmR.label>9.3x74mmR</AmmoARS_93x74mmR.label>
+</LanguageData>

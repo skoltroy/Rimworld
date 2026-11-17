@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VBE_AmbrandyAsIngredient.description>Ce colon a bu un cocktail atomique contenant du pungashine parmi ses ingrédients.</VBE_AmbrandyAsIngredient.description>
+  <VBE_AmbrandyAsIngredient.label>a bu un cocktail atomique à base de pungashine</VBE_AmbrandyAsIngredient.label>
+  <VBE_AmbrandyInspiration.label>inspiration au pungashine</VBE_AmbrandyInspiration.label>
+  <VBE_AmbrandyInspiration.labelNoun>une inspiration au pungashine</VBE_AmbrandyInspiration.labelNoun>
+  <VBE_ConsumedCocktail.description>A consommé un bon cocktail atomique. Peut procurer une inspiration aléatoire.</VBE_ConsumedCocktail.description>
+  <VBE_ConsumedCocktail.label>cocktail atomique consommé</VBE_ConsumedCocktail.label>
+  <VBE_ConsumedCocktail.labelNoun>un cocktail atomique</VBE_ConsumedCocktail.labelNoun>
+  <VBE_DrankSoda.description>Un coup de sucre tiré d'une bouteille de salsepareille maison procure un regain bref. Donne un bonus de manipulation de 5 % pendant 5 heures.</VBE_DrankSoda.description>
+  <VBE_DrankSoda.label>a bu de la salsepareille maison</VBE_DrankSoda.label>
+  <VBE_EnergyDrinkCrash.description>Un effet secondaire désagréable et différé de la consommation de guarana.</VBE_EnergyDrinkCrash.description>
+  <VBE_EnergyDrinkCrash.label>coup de barre du guarana</VBE_EnergyDrinkCrash.label>
+  <VBE_EnergyDrinkCrash.labelNoun>un coup de barre du guarana</VBE_EnergyDrinkCrash.labelNoun>
+  <VBE_EnergyDrinkHigh.description>Le guarana restaure immédiatement le repos et augmente la vitesse de déplacement, mais il laisse toujours derrière lui un coup de barre.</VBE_EnergyDrinkHigh.description>
+  <VBE_EnergyDrinkHigh.label>excitation du guarana</VBE_EnergyDrinkHigh.label>
+  <VBE_EnergyDrinkHigh.labelNoun>une excitation du guarana</VBE_EnergyDrinkHigh.labelNoun>
+  <VBE_GinAsIngredient.label>a bu un cocktail atomique au gin</VBE_GinAsIngredient.label>
+  <VBE_RBMeadAsIngredient.label>a bu un cocktail atomique à l'hydromel</VBE_RBMeadAsIngredient.label>
+  <VBE_TequilaAsIngredient.label>a bu un cocktail atomique à la tequila</VBE_TequilaAsIngredient.label>
+  <VBE_VodkaAsIngredient.label>a bu un cocktail atomique à la vodka</VBE_VodkaAsIngredient.label>
+  <VBE_WhiskeyAsIngredient.label>a bu un cocktail atomique au whisky</VBE_WhiskeyAsIngredient.label>
+  <VBE_WineAsIngredient.label>a bu un cocktail atomique au vin</VBE_WineAsIngredient.label>
+</LanguageData>

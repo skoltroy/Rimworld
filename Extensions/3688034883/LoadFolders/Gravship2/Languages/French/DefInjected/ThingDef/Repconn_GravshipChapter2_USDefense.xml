@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_MechanoidGravTether.label>moteur de plateforme de défense</VGE_MechanoidGravTether.label>
+  <VGE_MechanoidGravTether.description>Le moteur central d'une batterie orbitale de défense aérospatiale automatisée américaine. Conçu pour un fonctionnement autonome sans fin, il génère les champs de sustentation et de stabilisation nécessaires pour maintenir l'installation étendue en orbite. L'ensemble est incompatible avec un Hellion humain, mais sa destruction livre un cœur de réacteur précieux.</VGE_MechanoidGravTether.description>
+  <VGE_MechanoidHullPlatform.label>coque de plateforme de défense</VGE_MechanoidHullPlatform.label>
+  <VGE_MechanoidHullPlatform.description>Un bloc structurel dense, utilisé pour former les batteries orbitales de défense aérospatiale automatisée américaine. Ses alliages de saturnite le rendent insensible aux dégâts conventionnels.</VGE_MechanoidHullPlatform.description>
+  <VGE_MechanoidStabilizer.label>stabilisateur de plateforme de défense</VGE_MechanoidStabilizer.label>
+  <VGE_MechanoidStabilizer.description>Un propulseur compact à astrocarburant, utilisé pour manœuvrer une batterie orbitale de défense automatisée. Sa construction mécaniquement précise et son épaisse doublure en pierre lunaire résistent à la chaleur et au stress extrêmes. Inutilisable par un Hellion humain, sa destruction livre une petite réserve de blocs de pierre lunaire.</VGE_MechanoidStabilizer.description>
+  <VGE_MechanoidHeatsink.label>dissipateur de plateforme de défense</VGE_MechanoidHeatsink.label>
+  <VGE_MechanoidHeatsink.description>Un régulateur thermique squelettique intégré à une plateforme de défense américaine. Il absorbe la chaleur perdue des systèmes de la batterie et en convertit une fraction en énergie opérationnelle, évitant la surchauffe du moteur.</VGE_MechanoidHeatsink.description>
+  <VGE_MechanoidSolarPanel.label>panneau solaire de plateforme de défense</VGE_MechanoidSolarPanel.label>
+  <VGE_MechanoidSolarPanel.description>Une grille dense de panneaux solaires hexagonaux en saturnite, qui alimente une installation américaine de défense aérospatiale automatisée.</VGE_MechanoidSolarPanel.description>
+  <VGE_MechanoidTargetingRelay.label>relais de visée défensif</VGE_MechanoidTargetingRelay.label>
+  <VGE_MechanoidTargetingRelay.description>Un relais militaire qui transmet des paramètres de visée précis aux pièces d'artillerie automatisées voisines, améliorant considérablement leur précision.</VGE_MechanoidTargetingRelay.description>
+  <VGE_MechanoidArtilleryLoader.label>chargeur d'artillerie défensif</VGE_MechanoidArtilleryLoader.label>
+  <VGE_MechanoidArtilleryLoader.description>Un convoyeur lourdement renforcé, conçu pour alimenter rapidement en balles les canons électromagnétiques automatisés. Il réduit considérablement le temps de rechargement de l'artillerie reliée.</VGE_MechanoidArtilleryLoader.description>
+  <VGE_MechanoidGravcapacitor.label>gravcondensateur de plateforme de défense</VGE_MechanoidGravcapacitor.label>
+  <VGE_MechanoidGravcapacitor.description>Un réservoir d'énergie dense, utilisé pour stocker l'énergie des systèmes essentiels de défense orbitale. Sa charge volatile est contenue par de puissants champs magnétiques et détone en impulsion électromagnétique si l'unité est gravement endommagée.</VGE_MechanoidGravcapacitor.description>
+  <VGE_MechanoidOvershieldGenerator.label>surbouclier de plateforme de défense</VGE_MechanoidOvershieldGenerator.label>
+  <VGE_MechanoidSignalJammer.label>brouilleur de signaux de plateforme de défense</VGE_MechanoidSignalJammer.label>
+  <VGE_MechanoidSignalJammer.description>Une antenne militaire qui diffuse des interférences localisées et des signaux de navigation contradictoires. Elle empêche tout Hellion ou capsule de largage de s'approcher, créant une zone d'exclusion autour de l'installation.</VGE_MechanoidSignalJammer.description>
+  <VGE_MechanoidAuxiliaryProcessor.label>processeur du réseau de défense</VGE_MechanoidAuxiliaryProcessor.label>
+  <VGE_MechanoidAuxiliaryProcessor.description>Un ordinateur militaire auxiliaire, qui coordonne les systèmes locaux du réseau américain de défense aérospatiale automatisée.</VGE_MechanoidAuxiliaryProcessor.description>
+  <VGE_MechanoidGravfieldAmplifier.label>amplificateur de champ de plateforme de défense</VGE_MechanoidGravfieldAmplifier.label>
+  <VGE_MechanoidGravfieldAmplifier.description>Un réseau de résonateurs gravimétriques conçu pour stabiliser et renforcer le moteur d'une plateforme de défense, permettant à la batterie orbitale de s'étendre tout en maintenant son intégrité structurelle.</VGE_MechanoidGravfieldAmplifier.description>
+  <VGE_MechanoidGravfieldExtender.label>extenseur de champ de plateforme de défense</VGE_MechanoidGravfieldExtender.label>
+  <VGE_MechanoidGravfieldExtender.description>Une structure de soutien qui étend le champ de sustentation localisé d'une plateforme de défense américaine, permettant des configurations de batteries plus complexes.</VGE_MechanoidGravfieldExtender.description>
+  <VGE_MechanoidInformationSpire.label>flèche d'information de défense</VGE_MechanoidInformationSpire.label>
+  <VGE_MechanoidInformationSpire.description>Une structure de communication durcie, qui échange des données de visée, d'identification et de formation avec l'ensemble du réseau américain de défense aérospatiale automatisée.</VGE_MechanoidInformationSpire.description>
+  <VGE_MechanoidResourceCrate.label>caisse de ravitaillement de défense scellée</VGE_MechanoidResourceCrate.label>
+  <VGE_MechanoidResourceCrate.description>Un conteneur militaire de ressources scellé. Son système de verrouillage semble impossible à ouvrir, et son contenu est inconnu.</VGE_MechanoidResourceCrate.description>
+  <VGE_MechanoidSensorNode.label>nœud de capteurs de défense</VGE_MechanoidSensorNode.label>
+  <VGE_MechanoidSensorNode.description>Un réseau de capteurs sophistiqué, qui utilise une optique avancée et des scanners gravimétriques pour surveiller l'activité orbitale et transmettre des données de suivi en temps réel au réseau américain de défense aérospatiale automatisée.</VGE_MechanoidSensorNode.description>
+  <VGE2_MechNavBeacon.description>Une balise de navigation militaire, utilisée par les batteries de défense orbitale pour diffuser des vecteurs d'arrimage précis et des coordonnées de formation.</VGE2_MechNavBeacon.description>
+  <VGE2_MechVertex.description>Un nœud autonome mystérieux au sein du réseau américain de défense aérospatiale automatisée. Il contient des ressources précieuses, mais il est exceptionnellement fragile : des dégâts importants provoquent une défaillance catastrophique de ses micro-piles.</VGE2_MechVertex.description>
+</LanguageData>

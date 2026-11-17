@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VME_InsectoidSupremacy.generalRules.rulesStrings>
+    <li>memeAdjective-&gt;chitineux</li>
+    <li>memeAdjective-&gt;lié à la colonie</li>
+    <li>memeAdjective-&gt;vouant un culte aux fourmis</li>
+    <li>memeCreed-&gt;la colonie</li>
+    <li>memeCreed-&gt;la doctrine des fourmis</li>
+    <li>memeHyphenPrefix-&gt;fourmi</li>
+    <li>memeHyphenPrefix-&gt;ruche</li>
+    <li>memeConcept-&gt;fourmis géantes</li>
+    <li>memeConcept-&gt;la discipline de la colonie</li>
+  </VME_InsectoidSupremacy.generalRules.rulesStrings>
+  <VME_InsectoidSupremacy.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_InsectoidSupremacy)-&gt;[deity0_name] plaça la première reine sous la terre empoisonnée et enseigna à sa couvée à survivre à la folie de l'humanité.</li>
+    <li>episode(uses=1,tag=meme_InsectoidSupremacy)-&gt;[deity0_name] ordonna à [deity0_possessive] disciples d'étudier les fourmis géantes : un seul but, une seule colonie, et aucune faiblesse gaspillée.</li>
+    <li>intro(tag=meme_InsectoidSupremacy)-&gt;Dans les ruines de [place_name], les [memberNamePlural] ont bâti une colonie humaine calquée sur les nids de fourmis sous leurs pieds.</li>
+    <li>conflict(tag=meme_InsectoidSupremacy)-&gt;Un [foeLeader] effrayé ordonna de brûler chaque nid de fourmis géantes, refusant de voir autre chose que de la vermine.</li>
+    <li>founderJoin(tag=meme_InsectoidSupremacy)-&gt;[founderName] fit face au [foeLeader] et démontra que les fourmis des friches pouvaient être comprises, guidées et survécues.</li>
+    <li>victory(tag=meme_InsectoidSupremacy)-&gt;La discipline de la colonie l'emporta, et même le [foeLeader] fut contraint de respecter la reine et sa couvée.</li>
+    <li>setup(tag=meme_InsectoidSupremacy)-&gt;[founderName] était un naturaliste des friches qui a survécu des années au milieu de colonies de fourmis irradiées et appris à lire leurs pistes, leurs phéromones et leurs signes d'alerte.</li>
+    <li>story(uses=1,tag=meme_InsectoidSupremacy)-&gt;Appelé l'AntAgonizer, [founder_objective] fut moqué par les colons pour son armure et ses sermons, jusqu'à ce que des fourmis géantes dressées repoussent les pillards à leurs portes.</li>
+    <li>lessonIntro(tag=meme_InsectoidSupremacy)-&gt;L'ancien monde s'est effondré sous ses propres divisions, tandis que la colonie a tenu bon. Cela prouve que</li>
+    <li>lesson(tag=meme_InsectoidSupremacy)-&gt;la discipline, le sacrifice et la loyauté envers la colonie sont plus forts que l'ambition humaine isolée</li>
+    <li>lessonReinforcement(tag=meme_InsectoidSupremacy)-&gt;Les fourmis géantes prospèrent dans un sol empoisonné parce que chaque caste sert le tout. Les friches exigent de nous la même unité.</li>
+    <li>archistBasis(tag=meme_InsectoidSupremacy)-&gt;Des laboratoires d'avant-guerre ont modifié le génome des fourmis, mais les radiations et la survie ont perfectionné ce que leurs scientifiques avaient commencé.</li>
+    <li>archistFact(tag=meme_InsectoidSupremacy)-&gt;La fourmi géante est la preuve vivante qu'une vie conçue peut échapper à ses créateurs et dominer les friches.</li>
+    <li>archistProphecy(tag=meme_InsectoidSupremacy)-&gt;[inTheEnd], l'humanité apprendra soit la discipline de la colonie, soit elle sera balayée par elle.</li>
+    <li>animistBasis(tag=meme_InsectoidSupremacy)-&gt;La reine sous la terre incarne l'endurance, la fécondité et la volonté de la colonie.</li>
+    <li>animistFact(tag=meme_InsectoidSupremacy)-&gt;Chaque ouvrière, soldate et reine porte le même but ininterrompu à travers la terre empoisonnée.</li>
+    <li>animistProphecy(tag=meme_InsectoidSupremacy)-&gt;[itIsSaid] que ceux qui respectent les pistes et les nids des fourmis géantes ne seront jamais abandonnés par la terre.</li>
+    <li>serketistProphecy(tag=meme_InsectoidSupremacy)-&gt;[itIsSaid] que les fidèles ne feront plus qu'une seule colonie, sous une reine assez forte pour commander les friches.</li>
+    <li>chthonianProphecy(tag=meme_InsectoidSupremacy)-&gt;Les nids profonds touchent des cavernes oubliées, où des reines mutantes gardent des secrets que nul habitant de la surface n'était censé connaître.</li>
+    <li>esotericismProphecy(tag=meme_InsectoidSupremacy)-&gt;Les pistes de phéromones et la géométrie des tunnels de fourmis préservent une langue plus ancienne que n'importe quelle colonie survivante.</li>
+    <li>eschatologismFact(tag=meme_InsectoidSupremacy)-&gt;Lorsque les dernières colonies tomberont, les nids qui se trouvent dessous continueront de se nourrir, de se reproduire et de s'étendre.</li>
+    <li>introMemo(tag=meme_InsectoidSupremacy)-&gt;La lutte antiparasitaire est suspendue. Toute observation de fourmi géante doit être signalée au responsable de la colonie, pour observation et conditionnement éventuel.</li>
+    <li>alienistProphecy(tag=meme_InsectoidSupremacy)-&gt;Les souches de fourmis issues des expériences d'avant-guerre ne sont pas des erreurs ; ce sont des héritières adaptées au monde que l'humanité a créé.</li>
+  </VME_InsectoidSupremacy.descriptionMaker.rules.rulesStrings>
+  <VME_InsectoidSupremacy.symbolPacks.0.ideoName>AntAgonizer</VME_InsectoidSupremacy.symbolPacks.0.ideoName>
+  <VME_InsectoidSupremacy.symbolPacks.0.theme>fourmis géantes</VME_InsectoidSupremacy.symbolPacks.0.theme>
+  <VME_InsectoidSupremacy.symbolPacks.0.adjective>chitineux</VME_InsectoidSupremacy.symbolPacks.0.adjective>
+  <VME_InsectoidSupremacy.symbolPacks.0.member>dévot de la fourmi</VME_InsectoidSupremacy.symbolPacks.0.member>
+</LanguageData>

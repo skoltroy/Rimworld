@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AlertGauranlenTreeWithoutDryadTypeLabel>Le Père-Arbre n'a aucune caste de dryade</AlertGauranlenTreeWithoutDryadTypeLabel>
+  <AlertGauranlenTreeWithoutDryadTypeDesc>Ce Père-Arbre ne produit aucune dryade. Attribuez une
+    caste pour lancer le cycle symbiotique.</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>La personne liée n'est pas assignée à la taille des
+    plantes. Elle doit contribuer à maintenir la santé du Père-Arbre.</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <ChangeMode>Changer de caste</ChangeMode>
+  <ChooseProductionModeInitialDesc>Choisissez la caste de dryade que le Père-Arbre produira en premier.</ChooseProductionModeInitialDesc>
+  <CommandHealInHealingPodDesc>Ordonner à une dryade de se soigner dans la gousse, en restaurant sa santé
+    avec la sève du Père-Arbre.</CommandHealInHealingPodDesc>
+  <LetterTextPawnConnected>{PAWN_nameDef} s'est lié à un Père-Arbre, ce qui inaugure une nouvelle
+    relation symbiotique.</LetterTextPawnConnected>
+  <LetterTextConnectedTreeDestroyed>Le Père-Arbre auquel {PAWN_nameDef} était lié a été
+    détruit. Le lien symbiotique est rompu.</LetterTextConnectedTreeDestroyed>
+  <GauranlenModeChangeDescFull>Changer la caste de dryades de {TREE_definite} prend du temps et de l'énergie.
+    Après que la personne liée a interagi avec l'arbre, toutes les dryades passeront {DURATION} jours
+    dans des cocons pendant leur transformation vers la caste choisie. Les cocons existants annuleront
+    leur transformation pour pouvoir revenir à la caste actuelle.</GauranlenModeChangeDescFull>
+  <ChangeModeDesc>Changer le type de dryades créées par {TREE_definite}.</ChangeModeDesc>
+  <ConnectionStrengthDesc>Détermine le nombre de dryades que cet arbre peut soutenir.</ConnectionStrengthDesc>
+  <MaximumDryads>Dryades maximum</MaximumDryads>
+  <MaximumDryadsDesc>Le nombre maximal de dryades que cet arbre peut soutenir.</MaximumDryadsDesc>
+  <MaxDryadsBasedOnConnectionStrength>Dryades maximum selon la force du lien</MaxDryadsBasedOnConnectionStrength>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} taillera {TREE_definite} assez souvent pour
+    maintenir la force du lien au-dessus de ce niveau. Un lien plus fort permet de soutenir davantage de
+    dryades, mais il baisse plus vite et demande donc une taille plus fréquente pour être maintenu. Vous
+    pouvez cliquer sur la barre pour ajuster la force de lien visée. Baisse de la force de lien par
+    jour : {FALL} La force de lien est affectée par les bâtiments à proximité.</DesiredConnectionStrengthDesc>
+  <WaitingForConnectorToChangeCaste>En attente de {CONNECTEDPAWN_nameDef} pour changer la caste de dryade.</WaitingForConnectorToChangeCaste>
+  <GauranlenTreeMode>Caste de dryade</GauranlenTreeMode>
+  <GauranlenTreeModeDesc>Détermine la caste de dryade actuellement créée.</GauranlenTreeModeDesc>
+  <SpawningDryadIn>Apparition d'une dryade {DRYAD_label} dans {TIME}</SpawningDryadIn>
+  <ChangingDryadIntoType>Transformation de la dryade {DRYAD_labelShort} en {TYPE_label}.</ChangingDryadIntoType>
+  <DryadProducesResourcesDesc>Les dryades {DRYAD_labelPlural} produisent {RESOURCES} toutes les {DURATION}.</DryadProducesResourcesDesc>
+  <DryadCannotChangeMaster>{ANIMAL_nameDef} est lié à {MASTER_nameDef} par
+    {ANIMAL_possessive} Père-Arbre. {ANIMAL_possessive} maître ne peut pas être changé.</DryadCannotChangeMaster>
+  <ConnectionStrengthTooWeakForGaumakerPod>Force de lien trop faible pour créer une gousse du Père-Arbre.</ConnectionStrengthTooWeakForGaumakerPod>
+  <DryadPlural>Dryades</DryadPlural>
+  <NotEnoughConnectionStrengthForSingleDryad>Une force de lien de {0} est nécessaire pour soutenir une dryade.</NotEnoughConnectionStrengthForSingleDryad>
+  <MessageRitualRolePawnRecentlyTornConnection>Le lien de {PAWN_nameDef} avec le Père-Arbre
+    vient d'être rompu. Il ne peut pas se relier de nouveau avant un certain temps.</MessageRitualRolePawnRecentlyTornConnection>
+  <RitualTargetUnconnectedGaruanlenTreeInfo>un Père-Arbre sans lien</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>Le rituel a fait éclore une gousse du Père-Arbre
+    à proximité.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
+</LanguageData>

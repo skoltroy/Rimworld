@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <Diplomat.labelShort>Hôte</Diplomat.labelShort>
+  <Diplomat.pawnLabel>hôte de casino</Diplomat.pawnLabel>
+  <Diplomat.gerundLabel>accueil</Diplomat.gerundLabel>
+  <Diplomat.description>Les hôtes du casino veillent sur les clients, apaisent les problèmes et entretiennent la bonne entente avec les délégations de passage.</Diplomat.description>
+  <Diplomat.verb>Accueillir</Diplomat.verb>
+  <GuestRoom.label>suite d'invités</GuestRoom.label>
+  <AreaToStayTooltip>C'est ici que les invités peuvent dormir et se détendre entre les jeux, les repas et les visites.</AreaToStayTooltip>
+  <Hospitality_VendingMachine>kiosque de rafraîchissements</Hospitality_VendingMachine>
+  <Hospitality_VendingMachineToggleDesc>Autoriser les clients à utiliser cette installation.</Hospitality_VendingMachineToggleDesc>
+  <GuestBedFormat>suite {0}</GuestBedFormat>
+  <CommandBedSetAsGuestLabel>Suite d'invités</CommandBedSetAsGuestLabel>
+  <CommandBedSetAsGuestDesc>Indique si ce lit est réservé aux invités payants.</CommandBedSetAsGuestDesc>
+  <BedSatisfiedTitles>Ces titres accepteront cette suite :</BedSatisfiedTitles>
+  <AlertNotEnoughBeds>Pas assez de suites d'invités</AlertNotEnoughBeds>
+  <VisitorsLeavingGreat>Ils ont été éblouis par le niveau de votre établissement. (Score : {1})</VisitorsLeavingGreat>
+  <VisitorsLeavingGood>Ils ont apprécié leur séjour et sont repartis impressionnés par la maison. (Score : {1})</VisitorsLeavingGood>
+  <VisitorsLeavingNormal>Leur séjour a été tout à fait honorable. (Score : {1})</VisitorsLeavingNormal>
+  <VisitorsLeavingBad>La maison ne les a pas impressionnés. (Score : {1})</VisitorsLeavingBad>
+  <VisitorsLeavingAwful>Ils sont repartis convaincus que cet endroit est très loin des normes d'un vrai casino. (Score : {1})</VisitorsLeavingAwful>
+  <InviteGuests>Inviter des clients</InviteGuests>
+  <ImproveRelationship>Offrir l'hospitalité de la maison</ImproveRelationship>
+  <TryRecruitTooltip>Vos hôtes de casino tenteront de présenter ce client à vos colons et d'établir une bonne entente durable. Les hôtes compétents sont plus efficaces, tandis que les mauvais peuvent aigrir l'ambiance.</TryRecruitTooltip>
+  <AlertCantClaimBed>L'invité ne peut pas se payer une suite</AlertCantClaimBed>
+  <AlertCantClaimBedDesc>Ces invités n'ont pas les moyens de réserver une suite :\n\n{0}\nProposez des suites moins chères ou gratuites, ou offrez-leur de l'argent. Les factions mieux introduites arrivent généralement avec une bourse mieux garnie.</AlertCantClaimBedDesc>
+  <AlertHasNoFood>L'invité n'a pas de rafraîchissements</AlertHasNoFood>
+  <AlertHasNoFoodDesc>Ces invités n'ont rien à manger :\n\n{0}\nMettez de la nourriture en vente, approvisionnez un kiosque de rafraîchissements, ou offrez-leur de l'argent ou des rations. Vous pouvez aussi autoriser les invités à dîner gratuitement.</AlertHasNoFoodDesc>
+  <GuestClaimedBed.stages.0.label>suite offerte</GuestClaimedBed.stages.0.label>
+  <GuestClaimedBed.stages.0.description>La suite était offerte, il y a donc peu à redire.</GuestClaimedBed.stages.0.description>
+  <GuestClaimedBed.stages.4.label>suite au juste prix</GuestClaimedBed.stages.4.label>
+  <GuestClaimedBed.stages.5.label>suite d'un bon rapport qualité-prix</GuestClaimedBed.stages.5.label>
+  <GuestClaimedBed.stages.6.label>excellent rapport qualité-prix de la suite</GuestClaimedBed.stages.6.label>
+  <GuestCantAffordBed.stages.cant_afford_a_bed.label>ne peut pas payer une suite</GuestCantAffordBed.stages.cant_afford_a_bed.label>
+  <GuestExpensiveFood.stages.expensive_food.description>J'ai dû payer cher les rafraîchissements de la maison.</GuestExpensiveFood.stages.expensive_food.description>
+  <GuestCheapFood.stages.cheap_food.description>J'ai pu acheter des rafraîchissements à un prix correct.</GuestCheapFood.stages.cheap_food.description>
+  <GuestHasNoFood.stages.no_food.label>pas de rafraîchissements</GuestHasNoFood.stages.no_food.label>
+  <GuestBedCount.stages.no_guest_beds.label>aucune suite d'invités</GuestBedCount.stages.no_guest_beds.label>
+  <GuestBedCount.stages.not_enough_guest_beds.label>pas assez de suites d'invités</GuestBedCount.stages.not_enough_guest_beds.label>
+  <CharmGuest.reportString>Présentation de TargetA à vos colons et habitués.</CharmGuest.reportString>
+  <GuestImproveRelationship.reportString>Tentative d'améliorer la réputation de la maison auprès de la faction de TargetA.</GuestImproveRelationship.reportString>
+  <BuyItem.reportString>Règlement de la note de TargetA.</BuyItem.reportString>
+  <BrowseItems.reportString>Flânerie sur la promenade.</BrowseItems.reportString>
+  <ClaimGuestBed.reportString>Réservation d'une suite.</ClaimGuestBed.reportString>
+  <VendingMachine_EmptyVendingMachine.reportString>Collecte des recettes du kiosque.</VendingMachine_EmptyVendingMachine.reportString>
+  <trans>Lorsqu'un groupe de visiteurs arrive, il utilise vos installations de loisirs, dort dans les suites d'invités et achète des articles dans la zone qui lui est autorisée.\n\nS'ils apprécient la maison, cela améliorera votre réputation auprès de leur faction.</trans>
+  <GuestsWelcome>Accueillir de nouveaux clients</GuestsWelcome>
+  <GuestsWelcomeTooltip>Si vous désactivez cette option, aucun nouveau groupe de clients n'arrivera dans cette colonie.</GuestsWelcomeTooltip>
+</LanguageData>

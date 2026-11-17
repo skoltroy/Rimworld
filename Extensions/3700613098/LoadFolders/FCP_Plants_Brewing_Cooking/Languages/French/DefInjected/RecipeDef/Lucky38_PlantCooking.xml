@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <VCE_SmokeleafButter.description>Préparer du beurre de chanvre à partir de lait et de chanvre. Riche, gras et follement irresponsable : c'est le genre de condiment que seul un endroit comme le Lucky 38 servirait volontairement.</VCE_SmokeleafButter.description>
+  <VCE_SmokeleafButter.jobString>Préparation de beurre de chanvre.</VCE_SmokeleafButter.jobString>
+  <VCE_SmokeleafButter.label>préparer du beurre de chanvre</VCE_SmokeleafButter.label>
+  <Lucky38_MakeSyrup.label>préparer de la mélasse</Lucky38_MakeSyrup.label>
+  <Lucky38_MakeSyrup.description>Réduire le maïs ou la racine de xander en une mélasse conservée et épaisse, adaptée aux desserts et au stock du bar du Lucky 38.</Lucky38_MakeSyrup.description>
+  <Lucky38_MakeSyrup.jobString>Préparation de mélasse.</Lucky38_MakeSyrup.jobString>
+  <Lucky38_MakeSyrupFromCarrot.label>préparer de la mélasse à partir de carotte</Lucky38_MakeSyrupFromCarrot.label>
+  <Lucky38_MakeSyrupFromCarrot.description>Réduire des carottes en une mélasse conservée et épaisse, adaptée aux desserts et au stock du bar du Lucky 38.</Lucky38_MakeSyrupFromCarrot.description>
+  <Lucky38_MakeSyrupFromCarrot.jobString>Préparation de mélasse à partir de carotte.</Lucky38_MakeSyrupFromCarrot.jobString>
+  <Lucky38_MakeSpices.label>préparer des épices</Lucky38_MakeSpices.label>
+  <Lucky38_MakeSpices.description>Mélanger la fleur de brocoli et la fleur de carotte en un assaisonnement conservé, adapté aux cuisines du Lucky 38.</Lucky38_MakeSpices.description>
+  <Lucky38_MakeSpices.jobString>Préparation d'épices.</Lucky38_MakeSpices.jobString>
+</LanguageData>

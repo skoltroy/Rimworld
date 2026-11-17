@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_StoneBlocksVacstone.label>fabriquer des blocs de pierre lunaire</Make_StoneBlocksVacstone.label>
+  <Make_StoneBlocksVacstone.description>Découpe des morceaux de pierre lunaire en blocs utilisables.</Make_StoneBlocksVacstone.description>
+  <Make_GravlitePanel.label>fabriquer de la saturnite</Make_GravlitePanel.label>
+  <Make_GravlitePanel.description>Fabriquer de la saturnite.</Make_GravlitePanel.description>
+  <Make_GravlitePanelBulk.label>fabriquer de la saturnite x4</Make_GravlitePanelBulk.label>
+  <Make_GravlitePanelBulk.description>Fabriquer 4 unités de saturnite.</Make_GravlitePanelBulk.description>
+</LanguageData>

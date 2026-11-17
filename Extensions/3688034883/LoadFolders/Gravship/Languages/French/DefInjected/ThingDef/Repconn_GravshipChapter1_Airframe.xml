@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_GravFieldAmplifier.label>amplificateur de champ de sustentation</VGE_GravFieldAmplifier.label>
+  <VGE_GravFieldAmplifier.description>Un amplificateur de champ REPCONN à haut rendement, qui étend l'enveloppe de sustentation d'un moteur Hellion, augmentant à la fois la surface constructible et la quantité de tôle de pont qu'il peut supporter. Il doit être installé près du moteur, et aucun Hellion ne peut en supporter plus de quatre.</VGE_GravFieldAmplifier.description>
+  <VGE_SmallHeatsink.description>Un régulateur thermique compact qui absorbe la chaleur produite par les déplacements du Hellion, raccourcit le refroidissement du moteur et convertit une partie de la chaleur perdue en électricité. Un Hellion peut en supporter jusqu'à dix.</VGE_SmallHeatsink.description>
+  <VGE_LargeHeatsink.description>Un grand régulateur thermique qui absorbe la chaleur produite par les déplacements du Hellion, raccourcit le refroidissement du moteur et convertit une partie de la chaleur perdue en électricité. Un Hellion peut en supporter jusqu'à six.</VGE_LargeHeatsink.description>
+  <VGE_GravheatAbsorber.label>absorbeur de chaleur moteur</VGE_GravheatAbsorber.label>
+  <VGE_GravheatAbsorber.description>Un puits thermique d'urgence qui purge la chaleur résiduelle du moteur Hellion et annule immédiatement son délai de refroidissement au décollage. L'unité exige ensuite une longue période de récupération, mais son blindage lourd protège aussi l'intérieur de la chaleur des éruptions solaires.</VGE_GravheatAbsorber.description>
+  <VGE_EngineeringConsole.description>Une console de diagnostic qui surveille chaque composant entretenable à bord d'un Hellion. Elle puise son énergie dans le moteur et réduit la sensibilité à l'entretien de toute la cellule raccordée.</VGE_EngineeringConsole.description>
+  <VGE_GravtechConsole.label>console de télémétrie Hellion</VGE_GravtechConsole.label>
+  <VGE_GravtechConsole.description>Une console d'analyse REPCONN servant à traiter les données de vol enregistrées pendant les décollages et les trajets du Hellion. Elle puise son énergie dans le moteur du Hellion.</VGE_GravtechConsole.description>
+  <VGE_GravshipBlackBox.label>enregistreur de vol Hellion</VGE_GravshipBlackBox.label>
+  <VGE_GravshipBlackBox.description>Un enregistreur de vol d'avant-guerre durci, intégré aux systèmes du Hellion. Il augmente le rendement des données de vol, capture les surplus et peut convertir la télémétrie stockée en progrès de recherche ordinaires. Un Hellion ne peut en supporter qu'un seul.</VGE_GravshipBlackBox.description>
+  <VGE_FlightComputer.description>Un ordinateur de guidage REPCONN qui optimise l'enregistrement des capteurs pendant les trajets du Hellion, augmentant les données de vol enregistrées à chaque décollage.</VGE_FlightComputer.description>
+  <VGE_GravshipScannerCluster.label>grappe de scanners Hellion</VGE_GravshipScannerCluster.label>
+  <VGE_GravshipScannerCluster.description>Un réseau de capteurs REPCONN multifréquence, capable de sonder le sous-sol, de scruter des régions de surface lointaines ou de suivre des objets en orbite. La vitesse de détection dépend de la capacité de recherche de l'opérateur. Il puise son énergie dans le moteur du Hellion.</VGE_GravshipScannerCluster.description>
+  <VGE_GravshipStructuralBeam.label>poutre structurelle Hellion</VGE_GravshipStructuralBeam.label>
+  <VGE_GravshipStructuralBeam.description>Une poutre de cellule renforcée autour de laquelle la tôle de pont Hellion peut être construite. Elle étend la zone constructible sur un carré de cinq par cinq ; sa destruction peut faire s'effondrer les poutres voisines.</VGE_GravshipStructuralBeam.description>
+  <VGE_GunnerSubpersonaCore.label>noyau de conduite de tir RobCo</VGE_GunnerSubpersonaCore.label>
+  <VGE_GunnerSubpersonaCore.description>Un ordinateur de visée RobCo durci, adapté au combat du Hellion. Il peut contrôler de manière autonome une pièce d'artillerie reliée, avec une précision supérieure à celle de la plupart des artilleurs humains. Un Hellion peut supporter jusqu'à deux de ces noyaux.</VGE_GunnerSubpersonaCore.description>
+  <VGE_MaintenanceHub.label>centre d'entretien automatisé</VGE_MaintenanceHub.label>
+  <VGE_MaintenanceHub.description>Un système centralisé de diagnostic et de maintenance RobCo, qui automatise l'entretien courant dans tout le Hellion et réduit l'usure de maintenance tant qu'il est alimenté.</VGE_MaintenanceHub.description>
+  <VGE_Gravlift.label>berceau de lancement Hellion</VGE_Gravlift.label>
+  <VGE_Gravlift.description>Une immense plateforme de lancement et de stabilisation intégrée à la cellule d'un Hellion. Son système de poussée permet le décollage vertical et l'insertion en orbite, tout en réduisant les dégâts lors des atterrissages d'urgence.</VGE_Gravlift.description>
+  <VGE_Compressed_Plasteel.label>polymère compressé</VGE_Compressed_Plasteel.label>
+  <VGE_Compressed_Plasteel.description>Une masse ultra-dense à base de polymère, formée sous le vide et les radiations. Exceptionnellement dure à extraire, elle ne se trouve que dans les gisements orbitaux profonds.</VGE_Compressed_Plasteel.description>
+  <VGE_Filth_DamagedSubstructure.description>Débris provenant de tôle de pont Hellion endommagée.</VGE_Filth_DamagedSubstructure.description>
+  <VQEA_DestroyedSmallOxygenTank.description>Un réservoir d'oxygène Hellion éventré. Il ne peut plus retenir la pression, mais une partie du métal reste récupérable.</VQEA_DestroyedSmallOxygenTank.description>
+  <VQEA_DestroyedGravExtender.description>Un amplificateur de champ de sustentation Hellion brisé, dont quelques composants précieux sont encore intacts.</VQEA_DestroyedGravExtender.description>
+  <VQEA_DestroyedSmallThruster.description>Un propulseur Hellion épave, dépouillé de la plupart de ses pièces utiles. Une partie du métal peut encore être récupérée.</VQEA_DestroyedSmallThruster.description>
+  <VQEA_DestroyedLargeThruster.description>Les restes d'un propulseur de porte-aéronefs Hellion. Même en ruine, son boîtier renforcé contient des pièces de récupération utiles.</VQEA_DestroyedLargeThruster.description>
+  <VQEA_DestroyedSmallHeatsink.description>Un régulateur thermique Hellion calciné, dont le boîtier contient du métal récupérable.</VQEA_DestroyedSmallHeatsink.description>
+</LanguageData>

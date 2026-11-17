@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FineTileVacstone.label>carreau fin en pierre lunaire</FineTileVacstone.label>
+  <Tile_MorbidVacstone.label>carreau morbide en pierre lunaire</Tile_MorbidVacstone.label>
+  <Tile_SpikecoreVacstone.label>carreau en pierre lunaire à noyau épineux</Tile_SpikecoreVacstone.label>
+  <Tile_TotemicVacstone.label>carreau totémique en pierre lunaire</Tile_TotemicVacstone.label>
+  <TileVacstone.label>carreau en pierre lunaire</TileVacstone.label>
+  <FlagstoneVacstone.label>dalle en pierre lunaire</FlagstoneVacstone.label>
+  <VGE_Compressed_Vacstone_Floor.label>pierre lunaire compressée</VGE_Compressed_Vacstone_Floor.label>
+  <Vacstone_Rough.label>pierre lunaire brute</Vacstone_Rough.label>
+  <Vacstone_Rough.description>Sol naturel de pierre lunaire brute.</Vacstone_Rough.description>
+  <Vacstone_RoughHewn.label>pierre lunaire dégrossie</Vacstone_RoughHewn.label>
+  <Vacstone_RoughHewn.description>Sol naturel de pierre lunaire grossièrement taillé.</Vacstone_RoughHewn.description>
+  <Vacstone_Smooth.label>pierre lunaire lisse</Vacstone_Smooth.label>
+  <Vacstone_Smooth.description>Sol naturel de pierre lunaire lissé.</Vacstone_Smooth.description>
+</LanguageData>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VIE_RelicInertAmulet.label>talisman de friche</VIE_RelicInertAmulet.label>
+  <VIE_RelicInertAmulet.description>Un talisman assemblé à partir de vieilles plaques, de fil de fer et de jetons récupérés. Sa valeur vient de l'histoire qui s'y rattache, et non de la ferraille dont il est fait.</VIE_RelicInertAmulet.description>
+
+  <VIE_RelicInertAntlers.label>trophée de bois de mutant</VIE_RelicInertAntlers.label>
+  <VIE_RelicInertAntlers.description>Un bois conservé, pris sur une bête mutante particulièrement dangereuse et gardé comme preuve qu'elle a été abattue.</VIE_RelicInertAntlers.description>
+
+  <VIE_RelicInertApple.label>sphère d'alliage zetan</VIE_RelicInertApple.label>
+  <VIE_RelicInertApple.description>Une sphère sans soudure d'un alliage inconnu, attribuée aux Zetans. Elle est inerte, mais étrangement froide au toucher.</VIE_RelicInertApple.description>
+
+  <VIE_RelicInertAxeHead.label>tête de hache tribale</VIE_RelicInertAxeHead.label>
+  <VIE_RelicInertAxeHead.description>La tête cabossée d'une hache de guerre tribale. Son tranchant est ruiné, ne laissant que le souvenir de celui qui la portait.</VIE_RelicInertAxeHead.description>
+
+  <VIE_RelicInertBone.label>fragment d'os irradié</VIE_RelicInertBone.label>
+  <VIE_RelicInertBone.description>Un fragment d'os soigneusement conservé, marqué par d'anciennes brûlures radioactives et des générations de manipulation rituelle.</VIE_RelicInertBone.description>
+
+  <VIE_RelicInertBook.label>manuel de terrain d'avant-guerre</VIE_RelicInertBook.label>
+  <VIE_RelicInertBook.description>Un manuel de terrain d'avant-guerre usé, dont les notes survivantes ont été recopiées, discutées et suivies comme guide pendant des générations.</VIE_RelicInertBook.description>
+
+  <VIE_RelicInertBottle.label>bouteille de Nuka-Cola</VIE_RelicInertBottle.label>
+  <VIE_RelicInertBottle.description>Une vieille bouteille de Nuka-Cola, conservée longtemps après la disparition de son contenu. Une marque effacée ou un propriétaire dont on se souvient la rend plus précieuse qu'un simple verre.</VIE_RelicInertBottle.description>
+
+  <VIE_RelicInertBowl.label>bol d'offrande des friches</VIE_RelicInertBowl.label>
+  <VIE_RelicInertBowl.description>Un simple bol noirci par les bougies, l'encens ou les générations de petites offrandes.</VIE_RelicInertBowl.description>
+
+  <VIE_RelicInertBracelet.label>bracelet d'identification d'avant-guerre</VIE_RelicInertBracelet.label>
+  <VIE_RelicInertBracelet.description>Un bracelet d'identification corrodé provenant d'un hôpital, d'un abri ou d'un centre d'évacuation. Le nom estampé est à peine lisible.</VIE_RelicInertBracelet.description>
+
+  <VIE_RelicInertBrokenMask.label>masque de pillard brisé</VIE_RelicInertBrokenMask.label>
+  <VIE_RelicInertBrokenMask.description>Les restes brisés d'un masque de pillard, conservés comme avertissement, trophée de victoire ou souvenir de son ancien porteur.</VIE_RelicInertBrokenMask.description>
+
+  <VIE_RelicInertBrokenSpear.label>pointe de lance tribale</VIE_RelicInertBrokenSpear.label>
+  <VIE_RelicInertBrokenSpear.description>Une pointe de lance tribale brisée, trop endommagée pour le combat, mais portant encore les marques d'une chasse ou d'une bataille dont on se souvient.</VIE_RelicInertBrokenSpear.description>
+
+  <VIE_RelicInertBucket.label>creuset de la fonderie du Pitt</VIE_RelicInertBucket.label>
+  <VIE_RelicInertBucket.description>Un petit creuset en fer provenant des fonderies du Pitt, brûlé et piqueté par des années de ferraille en fusion.</VIE_RelicInertBucket.description>
+
+  <VIE_RelicInertCeremonialMask.label>masque cérémoniel tribal</VIE_RelicInertCeremonialMask.label>
+  <VIE_RelicInertCeremonialMask.description>Un masque façonné à la main, porté lors des rites des friches. Les réparations et les traces de suie montrent qu'il est passé entre les mains de nombreux gardiens.</VIE_RelicInertCeremonialMask.description>
+
+  <VIE_RelicInertChain.label>maillon de chaîne d'esclave brisé</VIE_RelicInertChain.label>
+  <VIE_RelicInertChain.description>Un lourd maillon coupé d'une chaîne d'esclave. Il peut représenter la captivité, la libération ou la vengeance, selon la personne qui le conserve.</VIE_RelicInertChain.description>
+
+  <VIE_RelicInertEngine.label>module de guidage REPCONN</VIE_RelicInertEngine.label>
+  <VIE_RelicInertEngine.description>Un composant de guidage REPCONN endommagé, récupéré dans une épave aérospatiale. Son circuit est mort, mais la plaque de série estampillée subsiste.</VIE_RelicInertEngine.description>
+
+  <VIE_RelicInertEngram.label>holodisque de mémoire</VIE_RelicInertEngram.label>
+  <VIE_RelicInertEngram.description>Un holodisque endommagé, censé contenir les souvenirs ou le témoignage d'un important habitant des friches. La plupart des terminaux ne peuvent plus le lire.</VIE_RelicInertEngram.description>
+
+  <VIE_RelicInertFossil.label>fossile mutant</VIE_RelicInertFossil.label>
+  <VIE_RelicInertFossil.description>Les restes minéralisés d'une créature étrange dont la forme ne correspond à aucun animal ordinaire d'avant-guerre.</VIE_RelicInertFossil.description>
+
+  <VIE_RelicInertGauntlet.label>gantelet d'armure assistée</VIE_RelicInertGauntlet.label>
+  <VIE_RelicInertGauntlet.description>Un gantelet d'armure assistée en ruine, dont les servos et les plaques ont fusionné en un bloc. Des marques d'unité laissent deviner un porteur oublié depuis longtemps.</VIE_RelicInertGauntlet.description>
+
+  <VIE_RelicInertHorn.label>cor de guerre brahmine</VIE_RelicInertHorn.label>
+  <VIE_RelicInertHorn.description>Un cor de brahmine sculpté, qui sonnait jadis pour rassembler une caravane, prévenir une colonie ou lancer une charge tribale.</VIE_RelicInertHorn.description>
+
+  <VIE_RelicInertIdol.label>idole des Enfants de l'Atome</VIE_RelicInertIdol.label>
+  <VIE_RelicInertIdol.description>Une idole irradiée et grossière, façonnée par les adeptes de l'Atome. Sa surface a été polie par une manipulation rituelle répétée.</VIE_RelicInertIdol.description>
+
+  <VIE_RelicInertImplant.label>implant neural Big MT</VIE_RelicInertImplant.label>
+  <VIE_RelicInertImplant.description>Un implant neural inerte portant les marques de fabrication de Big MT. Le but expérimental qu'il servait n'est plus très clair.</VIE_RelicInertImplant.description>
+
+  <VIE_RelicInertInsectSkull.label>crâne de cazador</VIE_RelicInertInsectSkull.label>
+  <VIE_RelicInertInsectSkull.description>La carapace crânienne conservée d'un énorme cazador, gardée comme trophée par quelqu'un qui a eu la chance de survivre à la rencontre.</VIE_RelicInertInsectSkull.description>
+
+  <VIE_RelicInertMechanoidHead.label>tête de robot de combat</VIE_RelicInertMechanoidHead.label>
+  <VIE_RelicInertMechanoidHead.description>La tête en ruine d'un robot de combat d'avant-guerre. Son ensemble optique est éteint, mais la carapace blindée porte encore les cicatrices des armes.</VIE_RelicInertMechanoidHead.description>
+
+  <VIE_RelicInertMedallion.label>médaillon de service de la Confrérie</VIE_RelicInertMedallion.label>
+  <VIE_RelicInertMedallion.description>Un médaillon de service de la Confrérie dont le revers rayé porte un nom, une unité ou une campagne qu'aucun scribe vivant ne peut pleinement identifier.</VIE_RelicInertMedallion.description>
+
+  <VIE_RelicInertMug.label>chope commémorative Vault-Tec</VIE_RelicInertMug.label>
+  <VIE_RelicInertMug.description>Une chope promotionnelle Vault-Tec ébréchée, d'avant les bombes, conservée comme rappel d'un avenir promis qui n'est jamais venu.</VIE_RelicInertMug.description>
+
+  <VIE_RelicInertPlate.label>scories de polymère</VIE_RelicInertPlate.label>
+  <VIE_RelicInertPlate.description>Une plaque fusionnée de scories de polymère issue d'une fonderie expérimentale. Son étrange éclat a résisté à la chaleur, aux radiations et à des décennies d'exposition.</VIE_RelicInertPlate.description>
+
+  <VIE_RelicInertPolishedRock.label>géode irradiée</VIE_RelicInertPolishedRock.label>
+  <VIE_RelicInertPolishedRock.description>Une géode polie dont les cristaux luisent faiblement après une longue exposition à une eau souterraine radioactive.</VIE_RelicInertPolishedRock.description>
+
+  <VIE_RelicInertPyramid.label>pyramide zetane</VIE_RelicInertPyramid.label>
+  <VIE_RelicInertPyramid.description>Un petit objet géométrique attribué à la technologie zetane. Aucune jointure, aucune commande ni source d'énergie reconnaissable ne peut y être trouvée.</VIE_RelicInertPyramid.description>
+
+  <VIE_RelicInertRing.label>chevalière d'avant-guerre</VIE_RelicInertRing.label>
+  <VIE_RelicInertRing.description>Une lourde chevalière d'avant-guerre portant le sceau d'une famille, d'une entreprise ou d'un bureau gouvernemental aujourd'hui perdu dans l'histoire.</VIE_RelicInertRing.description>
+
+  <VIE_RelicInertScroll.label>dépêche militaire scellée</VIE_RelicInertScroll.label>
+  <VIE_RelicInertScroll.description>Une dépêche militaire roulée et scellée, conservée dans un emballage protecteur. L'ouvrir détruirait ce qu'il reste du document.</VIE_RelicInertScroll.description>
+
+  <VIE_RelicInertShroud.label>linceul des friches</VIE_RelicInertShroud.label>
+  <VIE_RelicInertShroud.description>Un linceul funéraire rapiécé, associé à un chef vénéré, à un martyr ou à une victime anonyme des friches.</VIE_RelicInertShroud.description>
+
+  <VIE_RelicInertSkull.label>crâne humain irradié</VIE_RelicInertSkull.label>
+  <VIE_RelicInertSkull.description>Un crâne humain décoloré par les radiations et soigneusement marqué par des mains postérieures. Son identité compte davantage que sa valeur matérielle.</VIE_RelicInertSkull.description>
+
+  <VIE_RelicInertStack.label>pile d'holodisques</VIE_RelicInertStack.label>
+  <VIE_RelicInertStack.description>Une pile sanglée d'holodisques endommagés, sauvée d'une archive en ruine. Seuls des fragments de leurs données restent lisibles.</VIE_RelicInertStack.description>
+
+  <VIE_RelicInertStatuette.label>statuette de Vault Boy</VIE_RelicInertStatuette.label>
+  <VIE_RelicInertStatuette.description>Une petite statuette de Vault Boy, dont la pose joyeuse a survécu à la destruction du monde qu'elle vantait.</VIE_RelicInertStatuette.description>
+
+  <VIE_RelicInertSword.label>sabre d'officier brisé</VIE_RelicInertSword.label>
+  <VIE_RelicInertSword.description>Les restes brisés d'un sabre de cérémonie d'officier. Il ne peut plus servir d'arme, mais ses marques préservent le souvenir de son propriétaire.</VIE_RelicInertSword.description>
+
+  <VIE_RelicInertTools.label>outils de précision Big MT</VIE_RelicInertTools.label>
+  <VIE_RelicInertTools.description>Un ensemble d'instruments spécialisés de Big MT, conçus pour une procédure scientifique qu'aucun technicien survivant ne comprend.</VIE_RelicInertTools.description>
+</LanguageData>

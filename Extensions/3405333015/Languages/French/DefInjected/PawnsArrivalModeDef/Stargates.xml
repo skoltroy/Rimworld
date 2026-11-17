@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StargateMod_StargateEnterMode.textEnemy>Un groupe de {0} venant de {1} arrive par votre skipgate !</StargateMod_StargateEnterMode.textEnemy>
+  <StargateMod_StargateEnterMode.textFriendly>Un groupe amical de {0} venant de {1} arrive par votre skipgate !</StargateMod_StargateEnterMode.textFriendly>
+  <StargateMod_StargateEnterMode.textWillArrive>{0_pawnsPluralDef} arrivera par votre skipgate.</StargateMod_StargateEnterMode.textWillArrive>
+</LanguageData>

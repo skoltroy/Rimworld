@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AmmoSet_ARS_8x53mmRMurata.label>8x53mmR Murata</AmmoSet_ARS_8x53mmRMurata.label>
+  <AmmoSet_ARS_9x22mmRType26.label>9x22mmR Type 26</AmmoSet_ARS_9x22mmRType26.label>
+  <AmmoSet_ARS_7x20mmNambu.label>7x20mm Nambu</AmmoSet_ARS_7x20mmNambu.label>
+  <AmmoSet_ARS_65x39mmGrendel.label>6.5x39mm Grendel</AmmoSet_ARS_65x39mmGrendel.label>
+  <AmmoSet_ARS_20x125mmType97.label>20x125mm Type 97</AmmoSet_ARS_20x125mmType97.label>
+  <AmmoSet_ARS_30Gauge.label>calibre 30</AmmoSet_ARS_30Gauge.label>
+  <AmmoSet_ARS_50mmType89Mortar.label>obus de mortier Type 89 de 50 mm</AmmoSet_ARS_50mmType89Mortar.label>
+  <AmmoSet_ARS_20cmType4.label>20cm Type 4 roquette</AmmoSet_ARS_20cmType4.label>
+  <AmmoSet_ARS_70mmType4.label>70mm Type 4 roquette</AmmoSet_ARS_70mmType4.label>
+  <AmmoSet_ARS_45mmType5.label>45mm Type 5 sans recul obus</AmmoSet_ARS_45mmType5.label>
+  <AmmoSet_ARS_120mmType01.label>120mm Type 01 missile</AmmoSet_ARS_120mmType01.label>
+</LanguageData>

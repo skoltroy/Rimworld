@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Ammo_ARS_9mmGlisenti_FMJ.description>Cartouche de pistolet de service italien de la Première Guerre mondiale. Elle partage l&apos;étui du 9 mm Parabellum mais est chargée bien plus légèrement, pour les pistolets à emprunt simple ou à verrouillage faible.</Ammo_ARS_9mmGlisenti_FMJ.description>
+  <Ammo_ARS_9mmGlisenti_AP.description>Cartouche de pistolet de service italien de la Première Guerre mondiale. Elle partage l&apos;étui du 9 mm Parabellum mais est chargée bien plus légèrement, pour les pistolets à emprunt simple ou à verrouillage faible.</Ammo_ARS_9mmGlisenti_AP.description>
+  <Ammo_ARS_9mmGlisenti_HP.description>Cartouche de pistolet de service italien de la Première Guerre mondiale. Elle partage l&apos;étui du 9 mm Parabellum mais est chargée bien plus légèrement, pour les pistolets à emprunt simple ou à verrouillage faible.</Ammo_ARS_9mmGlisenti_HP.description>
+  <Ammo_ARS_9mmGlisenti_FMJ.label>9mm Glisenti (FMJ)</Ammo_ARS_9mmGlisenti_FMJ.label>
+  <Ammo_ARS_9mmGlisenti_AP.label>9mm Glisenti (AP)</Ammo_ARS_9mmGlisenti_AP.label>
+  <Ammo_ARS_9mmGlisenti_HP.label>9mm Glisenti (HP)</Ammo_ARS_9mmGlisenti_HP.label>
+  <Bullet_ARS_9mmGlisenti_FMJ.label>balle 9mm Glisenti (FMJ)</Bullet_ARS_9mmGlisenti_FMJ.label>
+  <Bullet_ARS_9mmGlisenti_AP.label>balle 9mm Glisenti (AP)</Bullet_ARS_9mmGlisenti_AP.label>
+  <Bullet_ARS_9mmGlisenti_HP.label>balle 9mm Glisenti (HP)</Bullet_ARS_9mmGlisenti_HP.label>
+  <Ammo_ARS_1035mmOrdinanza_FMJ.description>Cartouche de revolver à poudre noire des revolvers réglementaires de l&apos;armée italienne, une balle lourde et lente de 10,35 mm.</Ammo_ARS_1035mmOrdinanza_FMJ.description>
+  <Ammo_ARS_1035mmOrdinanza_AP.description>Cartouche de revolver à poudre noire des revolvers réglementaires de l&apos;armée italienne, une balle lourde et lente de 10,35 mm.</Ammo_ARS_1035mmOrdinanza_AP.description>
+  <Ammo_ARS_1035mmOrdinanza_HP.description>Cartouche de revolver à poudre noire des revolvers réglementaires de l&apos;armée italienne, une balle lourde et lente de 10,35 mm.</Ammo_ARS_1035mmOrdinanza_HP.description>
+  <Ammo_ARS_1035mmOrdinanza_FMJ.label>10.35x20mmR Ordinanza (FMJ)</Ammo_ARS_1035mmOrdinanza_FMJ.label>
+  <Ammo_ARS_1035mmOrdinanza_AP.label>10.35x20mmR Ordinanza (AP)</Ammo_ARS_1035mmOrdinanza_AP.label>
+  <Ammo_ARS_1035mmOrdinanza_HP.label>10.35x20mmR Ordinanza (HP)</Ammo_ARS_1035mmOrdinanza_HP.label>
+  <Bullet_ARS_1035mmOrdinanza_FMJ.label>balle 10.35x20mmR Ordinanza (FMJ)</Bullet_ARS_1035mmOrdinanza_FMJ.label>
+  <Bullet_ARS_1035mmOrdinanza_AP.label>balle 10.35x20mmR Ordinanza (AP)</Bullet_ARS_1035mmOrdinanza_AP.label>
+  <Bullet_ARS_1035mmOrdinanza_HP.label>balle 10.35x20mmR Ordinanza (HP)</Bullet_ARS_1035mmOrdinanza_HP.label>
+  <Ammo_ARS_9x21mmIMI_FMJ.description>Cartouche de pistolet de 9 mm dont l&apos;étui est 2 mm plus long que celui du 9 mm Parabellum, conçue pour les civils dans les pays où les calibres militaires sont interdits.</Ammo_ARS_9x21mmIMI_FMJ.description>
+  <Ammo_ARS_9x21mmIMI_AP.description>Cartouche de pistolet de 9 mm dont l&apos;étui est 2 mm plus long que celui du 9 mm Parabellum, conçue pour les civils dans les pays où les calibres militaires sont interdits.</Ammo_ARS_9x21mmIMI_AP.description>
+  <Ammo_ARS_9x21mmIMI_HP.description>Cartouche de pistolet de 9 mm dont l&apos;étui est 2 mm plus long que celui du 9 mm Parabellum, conçue pour les civils dans les pays où les calibres militaires sont interdits.</Ammo_ARS_9x21mmIMI_HP.description>
+  <Ammo_ARS_9x21mmIMI_FMJ.label>9x21mm IMI (FMJ)</Ammo_ARS_9x21mmIMI_FMJ.label>
+  <Ammo_ARS_9x21mmIMI_AP.label>9x21mm IMI (AP)</Ammo_ARS_9x21mmIMI_AP.label>
+  <Ammo_ARS_9x21mmIMI_HP.label>9x21mm IMI (HP)</Ammo_ARS_9x21mmIMI_HP.label>
+  <Bullet_ARS_9x21mmIMI_FMJ.label>balle 9x21mm IMI (FMJ)</Bullet_ARS_9x21mmIMI_FMJ.label>
+  <Bullet_ARS_9x21mmIMI_AP.label>balle 9x21mm IMI (AP)</Bullet_ARS_9x21mmIMI_AP.label>
+  <Bullet_ARS_9x21mmIMI_HP.label>balle 9x21mm IMI (HP)</Bullet_ARS_9x21mmIMI_HP.label>
+  <Ammo_ARS_9x25mmAUPO_FMJ.description>Cartouche expérimentale de 9 mm semi-sans étui : la base creuse reste attachée à la balle et quitte le canon avec elle, il n&apos;y a donc pas d&apos;étui à éjecter.</Ammo_ARS_9x25mmAUPO_FMJ.description>
+  <Ammo_ARS_9x25mmAUPO_AP.description>Cartouche expérimentale de 9 mm semi-sans étui : la base creuse reste attachée à la balle et quitte le canon avec elle, il n&apos;y a donc pas d&apos;étui à éjecter.</Ammo_ARS_9x25mmAUPO_AP.description>
+  <Ammo_ARS_9x25mmAUPO_HP.description>Cartouche expérimentale de 9 mm semi-sans étui : la base creuse reste attachée à la balle et quitte le canon avec elle, il n&apos;y a donc pas d&apos;étui à éjecter.</Ammo_ARS_9x25mmAUPO_HP.description>
+  <Ammo_ARS_9x25mmAUPO_FMJ.label>9x25mm AUPO (FMJ)</Ammo_ARS_9x25mmAUPO_FMJ.label>
+  <Ammo_ARS_9x25mmAUPO_AP.label>9x25mm AUPO (AP)</Ammo_ARS_9x25mmAUPO_AP.label>
+  <Ammo_ARS_9x25mmAUPO_HP.label>9x25mm AUPO (HP)</Ammo_ARS_9x25mmAUPO_HP.label>
+  <Bullet_ARS_9x25mmAUPO_FMJ.label>balle 9x25mm AUPO (FMJ)</Bullet_ARS_9x25mmAUPO_FMJ.label>
+  <Bullet_ARS_9x25mmAUPO_AP.label>balle 9x25mm AUPO (AP)</Bullet_ARS_9x25mmAUPO_AP.label>
+  <Bullet_ARS_9x25mmAUPO_HP.label>balle 9x25mm AUPO (HP)</Bullet_ARS_9x25mmAUPO_HP.label>
+  <Ammo_ARS_735x51mmCarcano_FMJ.description>Cartouche de fusil de 7,35 mm du fusil court Carcano de 1938, une balle un peu plus lourde dans un étui de 6,5 mm rétreint.</Ammo_ARS_735x51mmCarcano_FMJ.description>
+  <Ammo_ARS_735x51mmCarcano_AP.description>Cartouche de fusil de 7,35 mm du fusil court Carcano de 1938, une balle un peu plus lourde dans un étui de 6,5 mm rétreint.</Ammo_ARS_735x51mmCarcano_AP.description>
+  <Ammo_ARS_735x51mmCarcano_HP.description>Cartouche de fusil de 7,35 mm du fusil court Carcano de 1938, une balle un peu plus lourde dans un étui de 6,5 mm rétreint.</Ammo_ARS_735x51mmCarcano_HP.description>
+  <Ammo_ARS_735x51mmCarcano_Incendiary.description>Cartouche de fusil de 7,35 mm du fusil court Carcano de 1938, une balle un peu plus lourde dans un étui de 6,5 mm rétreint.</Ammo_ARS_735x51mmCarcano_Incendiary.description>
+  <Ammo_ARS_735x51mmCarcano_HE.description>Cartouche de fusil de 7,35 mm du fusil court Carcano de 1938, une balle un peu plus lourde dans un étui de 6,5 mm rétreint.</Ammo_ARS_735x51mmCarcano_HE.description>
+  <Ammo_ARS_735x51mmCarcano_Sabot.description>Cartouche de fusil de 7,35 mm du fusil court Carcano de 1938, une balle un peu plus lourde dans un étui de 6,5 mm rétreint.</Ammo_ARS_735x51mmCarcano_Sabot.description>
+  <Ammo_ARS_735x51mmCarcano_FMJ.label>7.35x51mm Carcano (FMJ)</Ammo_ARS_735x51mmCarcano_FMJ.label>
+  <Ammo_ARS_735x51mmCarcano_AP.label>7.35x51mm Carcano (AP)</Ammo_ARS_735x51mmCarcano_AP.label>
+  <Ammo_ARS_735x51mmCarcano_HP.label>7.35x51mm Carcano (HP)</Ammo_ARS_735x51mmCarcano_HP.label>
+  <Ammo_ARS_735x51mmCarcano_Incendiary.label>7.35x51mm Carcano (AP-I)</Ammo_ARS_735x51mmCarcano_Incendiary.label>
+  <Ammo_ARS_735x51mmCarcano_HE.label>7.35x51mm Carcano (AP-HE)</Ammo_ARS_735x51mmCarcano_HE.label>
+  <Ammo_ARS_735x51mmCarcano_Sabot.label>7.35x51mm Carcano (Sabot)</Ammo_ARS_735x51mmCarcano_Sabot.label>
+  <Bullet_ARS_735x51mmCarcano_FMJ.label>balle 7.35x51mm Carcano (FMJ)</Bullet_ARS_735x51mmCarcano_FMJ.label>
+  <Bullet_ARS_735x51mmCarcano_AP.label>balle 7.35x51mm Carcano (AP)</Bullet_ARS_735x51mmCarcano_AP.label>
+  <Bullet_ARS_735x51mmCarcano_HP.label>balle 7.35x51mm Carcano (HP)</Bullet_ARS_735x51mmCarcano_HP.label>
+  <Bullet_ARS_735x51mmCarcano_Incendiary.label>balle 7.35x51mm Carcano (AP-I)</Bullet_ARS_735x51mmCarcano_Incendiary.label>
+  <Bullet_ARS_735x51mmCarcano_HE.label>balle 7.35x51mm Carcano (AP-HE)</Bullet_ARS_735x51mmCarcano_HE.label>
+  <Bullet_ARS_735x51mmCarcano_Sabot.label>balle 7.35x51mm Carcano (Sabot)</Bullet_ARS_735x51mmCarcano_Sabot.label>
+  <Ammo_ARS_7x57mmMauser_FMJ.description>Cartouche de fusil sans fumée de 7 mm, largement exportée avec les fusils Mauser et le fusil en rafale Breda PG du Costa Rica.</Ammo_ARS_7x57mmMauser_FMJ.description>
+  <Ammo_ARS_7x57mmMauser_AP.description>Cartouche de fusil sans fumée de 7 mm, largement exportée avec les fusils Mauser et le fusil en rafale Breda PG du Costa Rica.</Ammo_ARS_7x57mmMauser_AP.description>
+  <Ammo_ARS_7x57mmMauser_HP.description>Cartouche de fusil sans fumée de 7 mm, largement exportée avec les fusils Mauser et le fusil en rafale Breda PG du Costa Rica.</Ammo_ARS_7x57mmMauser_HP.description>
+  <Ammo_ARS_7x57mmMauser_Incendiary.description>Cartouche de fusil sans fumée de 7 mm, largement exportée avec les fusils Mauser et le fusil en rafale Breda PG du Costa Rica.</Ammo_ARS_7x57mmMauser_Incendiary.description>
+  <Ammo_ARS_7x57mmMauser_HE.description>Cartouche de fusil sans fumée de 7 mm, largement exportée avec les fusils Mauser et le fusil en rafale Breda PG du Costa Rica.</Ammo_ARS_7x57mmMauser_HE.description>
+  <Ammo_ARS_7x57mmMauser_Sabot.description>Cartouche de fusil sans fumée de 7 mm, largement exportée avec les fusils Mauser et le fusil en rafale Breda PG du Costa Rica.</Ammo_ARS_7x57mmMauser_Sabot.description>
+  <Ammo_ARS_7x57mmMauser_FMJ.label>7x57mm Mauser (FMJ)</Ammo_ARS_7x57mmMauser_FMJ.label>
+  <Ammo_ARS_7x57mmMauser_AP.label>7x57mm Mauser (AP)</Ammo_ARS_7x57mmMauser_AP.label>
+  <Ammo_ARS_7x57mmMauser_HP.label>7x57mm Mauser (HP)</Ammo_ARS_7x57mmMauser_HP.label>
+  <Ammo_ARS_7x57mmMauser_Incendiary.label>7x57mm Mauser (AP-I)</Ammo_ARS_7x57mmMauser_Incendiary.label>
+  <Ammo_ARS_7x57mmMauser_HE.label>7x57mm Mauser (AP-HE)</Ammo_ARS_7x57mmMauser_HE.label>
+  <Ammo_ARS_7x57mmMauser_Sabot.label>7x57mm Mauser (Sabot)</Ammo_ARS_7x57mmMauser_Sabot.label>
+  <Bullet_ARS_7x57mmMauser_FMJ.label>balle 7x57mm Mauser (FMJ)</Bullet_ARS_7x57mmMauser_FMJ.label>
+  <Bullet_ARS_7x57mmMauser_AP.label>balle 7x57mm Mauser (AP)</Bullet_ARS_7x57mmMauser_AP.label>
+  <Bullet_ARS_7x57mmMauser_HP.label>balle 7x57mm Mauser (HP)</Bullet_ARS_7x57mmMauser_HP.label>
+  <Bullet_ARS_7x57mmMauser_Incendiary.label>balle 7x57mm Mauser (AP-I)</Bullet_ARS_7x57mmMauser_Incendiary.label>
+  <Bullet_ARS_7x57mmMauser_HE.label>balle 7x57mm Mauser (AP-HE)</Bullet_ARS_7x57mmMauser_HE.label>
+  <Bullet_ARS_7x57mmMauser_Sabot.label>balle 7x57mm Mauser (Sabot)</Bullet_ARS_7x57mmMauser_Sabot.label>
+  <Ammo_ARS_8x59mmBreda_FMJ.description>Cartouche de mitrailleuse de 8 mm sans rebord des Breda M37 et Fiat-Revelli Modèle 1935, un peu plus puissante que la 7,92 mm Mauser.</Ammo_ARS_8x59mmBreda_FMJ.description>
+  <Ammo_ARS_8x59mmBreda_AP.description>Cartouche de mitrailleuse de 8 mm sans rebord des Breda M37 et Fiat-Revelli Modèle 1935, un peu plus puissante que la 7,92 mm Mauser.</Ammo_ARS_8x59mmBreda_AP.description>
+  <Ammo_ARS_8x59mmBreda_HP.description>Cartouche de mitrailleuse de 8 mm sans rebord des Breda M37 et Fiat-Revelli Modèle 1935, un peu plus puissante que la 7,92 mm Mauser.</Ammo_ARS_8x59mmBreda_HP.description>
+  <Ammo_ARS_8x59mmBreda_Incendiary.description>Cartouche de mitrailleuse de 8 mm sans rebord des Breda M37 et Fiat-Revelli Modèle 1935, un peu plus puissante que la 7,92 mm Mauser.</Ammo_ARS_8x59mmBreda_Incendiary.description>
+  <Ammo_ARS_8x59mmBreda_HE.description>Cartouche de mitrailleuse de 8 mm sans rebord des Breda M37 et Fiat-Revelli Modèle 1935, un peu plus puissante que la 7,92 mm Mauser.</Ammo_ARS_8x59mmBreda_HE.description>
+  <Ammo_ARS_8x59mmBreda_Sabot.description>Cartouche de mitrailleuse de 8 mm sans rebord des Breda M37 et Fiat-Revelli Modèle 1935, un peu plus puissante que la 7,92 mm Mauser.</Ammo_ARS_8x59mmBreda_Sabot.description>
+  <Ammo_ARS_8x59mmBreda_FMJ.label>8x59mm Breda (FMJ)</Ammo_ARS_8x59mmBreda_FMJ.label>
+  <Ammo_ARS_8x59mmBreda_AP.label>8x59mm Breda (AP)</Ammo_ARS_8x59mmBreda_AP.label>
+  <Ammo_ARS_8x59mmBreda_HP.label>8x59mm Breda (HP)</Ammo_ARS_8x59mmBreda_HP.label>
+  <Ammo_ARS_8x59mmBreda_Incendiary.label>8x59mm Breda (AP-I)</Ammo_ARS_8x59mmBreda_Incendiary.label>
+  <Ammo_ARS_8x59mmBreda_HE.label>8x59mm Breda (AP-HE)</Ammo_ARS_8x59mmBreda_HE.label>
+  <Ammo_ARS_8x59mmBreda_Sabot.label>8x59mm Breda (Sabot)</Ammo_ARS_8x59mmBreda_Sabot.label>
+  <Bullet_ARS_8x59mmBreda_FMJ.label>balle 8x59mm Breda (FMJ)</Bullet_ARS_8x59mmBreda_FMJ.label>
+  <Bullet_ARS_8x59mmBreda_AP.label>balle 8x59mm Breda (AP)</Bullet_ARS_8x59mmBreda_AP.label>
+  <Bullet_ARS_8x59mmBreda_HP.label>balle 8x59mm Breda (HP)</Bullet_ARS_8x59mmBreda_HP.label>
+  <Bullet_ARS_8x59mmBreda_Incendiary.label>balle 8x59mm Breda (AP-I)</Bullet_ARS_8x59mmBreda_Incendiary.label>
+  <Bullet_ARS_8x59mmBreda_HE.label>balle 8x59mm Breda (AP-HE)</Bullet_ARS_8x59mmBreda_HE.label>
+  <Bullet_ARS_8x59mmBreda_Sabot.label>balle 8x59mm Breda (Sabot)</Bullet_ARS_8x59mmBreda_Sabot.label>
+  <Ammo_ARS_765x53mmMauser_FMJ.description>Cartouche de fusil Mauser de 7,65 mm sans rebord, chambrée pour les rares fusils semi-automatiques Cei-Rigotti encore existants.</Ammo_ARS_765x53mmMauser_FMJ.description>
+  <Ammo_ARS_765x53mmMauser_AP.description>Cartouche de fusil Mauser de 7,65 mm sans rebord, chambrée pour les rares fusils semi-automatiques Cei-Rigotti encore existants.</Ammo_ARS_765x53mmMauser_AP.description>
+  <Ammo_ARS_765x53mmMauser_HP.description>Cartouche de fusil Mauser de 7,65 mm sans rebord, chambrée pour les rares fusils semi-automatiques Cei-Rigotti encore existants.</Ammo_ARS_765x53mmMauser_HP.description>
+  <Ammo_ARS_765x53mmMauser_Incendiary.description>Cartouche de fusil Mauser de 7,65 mm sans rebord, chambrée pour les rares fusils semi-automatiques Cei-Rigotti encore existants.</Ammo_ARS_765x53mmMauser_Incendiary.description>
+  <Ammo_ARS_765x53mmMauser_HE.description>Cartouche de fusil Mauser de 7,65 mm sans rebord, chambrée pour les rares fusils semi-automatiques Cei-Rigotti encore existants.</Ammo_ARS_765x53mmMauser_HE.description>
+  <Ammo_ARS_765x53mmMauser_Sabot.description>Cartouche de fusil Mauser de 7,65 mm sans rebord, chambrée pour les rares fusils semi-automatiques Cei-Rigotti encore existants.</Ammo_ARS_765x53mmMauser_Sabot.description>
+  <Ammo_ARS_765x53mmMauser_FMJ.label>7.65x53mm Mauser (FMJ)</Ammo_ARS_765x53mmMauser_FMJ.label>
+  <Ammo_ARS_765x53mmMauser_AP.label>7.65x53mm Mauser (AP)</Ammo_ARS_765x53mmMauser_AP.label>
+  <Ammo_ARS_765x53mmMauser_HP.label>7.65x53mm Mauser (HP)</Ammo_ARS_765x53mmMauser_HP.label>
+  <Ammo_ARS_765x53mmMauser_Incendiary.label>7.65x53mm Mauser (AP-I)</Ammo_ARS_765x53mmMauser_Incendiary.label>
+  <Ammo_ARS_765x53mmMauser_HE.label>7.65x53mm Mauser (AP-HE)</Ammo_ARS_765x53mmMauser_HE.label>
+  <Ammo_ARS_765x53mmMauser_Sabot.label>7.65x53mm Mauser (Sabot)</Ammo_ARS_765x53mmMauser_Sabot.label>
+  <Bullet_ARS_765x53mmMauser_FMJ.label>balle 7.65x53mm Mauser (FMJ)</Bullet_ARS_765x53mmMauser_FMJ.label>
+  <Bullet_ARS_765x53mmMauser_AP.label>balle 7.65x53mm Mauser (AP)</Bullet_ARS_765x53mmMauser_AP.label>
+  <Bullet_ARS_765x53mmMauser_HP.label>balle 7.65x53mm Mauser (HP)</Bullet_ARS_765x53mmMauser_HP.label>
+  <Bullet_ARS_765x53mmMauser_Incendiary.label>balle 7.65x53mm Mauser (AP-I)</Bullet_ARS_765x53mmMauser_Incendiary.label>
+  <Bullet_ARS_765x53mmMauser_HE.label>balle 7.65x53mm Mauser (AP-HE)</Bullet_ARS_765x53mmMauser_HE.label>
+  <Bullet_ARS_765x53mmMauser_Sabot.label>balle 7.65x53mm Mauser (Sabot)</Bullet_ARS_765x53mmMauser_Sabot.label>
+  <Ammo_ARS_104x47mmRVetterli_FMJ.description>Cartouche à percussion centrale de 10,4 mm à rebord du fusil Vetterli, première munition italienne de fusil à répétition à cartouche métallique.</Ammo_ARS_104x47mmRVetterli_FMJ.description>
+  <Ammo_ARS_104x47mmRVetterli_AP.description>Cartouche à percussion centrale de 10,4 mm à rebord du fusil Vetterli, première munition italienne de fusil à répétition à cartouche métallique.</Ammo_ARS_104x47mmRVetterli_AP.description>
+  <Ammo_ARS_104x47mmRVetterli_HP.description>Cartouche à percussion centrale de 10,4 mm à rebord du fusil Vetterli, première munition italienne de fusil à répétition à cartouche métallique.</Ammo_ARS_104x47mmRVetterli_HP.description>
+  <Ammo_ARS_104x47mmRVetterli_Incendiary.description>Cartouche à percussion centrale de 10,4 mm à rebord du fusil Vetterli, première munition italienne de fusil à répétition à cartouche métallique.</Ammo_ARS_104x47mmRVetterli_Incendiary.description>
+  <Ammo_ARS_104x47mmRVetterli_HE.description>Cartouche à percussion centrale de 10,4 mm à rebord du fusil Vetterli, première munition italienne de fusil à répétition à cartouche métallique.</Ammo_ARS_104x47mmRVetterli_HE.description>
+  <Ammo_ARS_104x47mmRVetterli_Sabot.description>Cartouche à percussion centrale de 10,4 mm à rebord du fusil Vetterli, première munition italienne de fusil à répétition à cartouche métallique.</Ammo_ARS_104x47mmRVetterli_Sabot.description>
+  <Ammo_ARS_104x47mmRVetterli_FMJ.label>10.4x47mmR Vetterli (FMJ)</Ammo_ARS_104x47mmRVetterli_FMJ.label>
+  <Ammo_ARS_104x47mmRVetterli_AP.label>10.4x47mmR Vetterli (AP)</Ammo_ARS_104x47mmRVetterli_AP.label>
+  <Ammo_ARS_104x47mmRVetterli_HP.label>10.4x47mmR Vetterli (HP)</Ammo_ARS_104x47mmRVetterli_HP.label>
+  <Ammo_ARS_104x47mmRVetterli_Incendiary.label>10.4x47mmR Vetterli (AP-I)</Ammo_ARS_104x47mmRVetterli_Incendiary.label>
+  <Ammo_ARS_104x47mmRVetterli_HE.label>10.4x47mmR Vetterli (AP-HE)</Ammo_ARS_104x47mmRVetterli_HE.label>
+  <Ammo_ARS_104x47mmRVetterli_Sabot.label>10.4x47mmR Vetterli (Sabot)</Ammo_ARS_104x47mmRVetterli_Sabot.label>
+  <Bullet_ARS_104x47mmRVetterli_FMJ.label>cartouche 10.4x47mmR Vetterli (FMJ)</Bullet_ARS_104x47mmRVetterli_FMJ.label>
+  <Bullet_ARS_104x47mmRVetterli_AP.label>cartouche 10.4x47mmR Vetterli (AP)</Bullet_ARS_104x47mmRVetterli_AP.label>
+  <Bullet_ARS_104x47mmRVetterli_HP.label>cartouche 10.4x47mmR Vetterli (HP)</Bullet_ARS_104x47mmRVetterli_HP.label>
+  <Bullet_ARS_104x47mmRVetterli_Incendiary.label>balle 10.4x47mmR Vetterli (AP-I)</Bullet_ARS_104x47mmRVetterli_Incendiary.label>
+  <Bullet_ARS_104x47mmRVetterli_HE.label>balle 10.4x47mmR Vetterli (AP-HE)</Bullet_ARS_104x47mmRVetterli_HE.label>
+  <Bullet_ARS_104x47mmRVetterli_Sabot.label>balle 10.4x47mmR Vetterli (Sabot)</Bullet_ARS_104x47mmRVetterli_Sabot.label>
+  <Ammo_ARS_28Gauge_Buck.description>Le plus petit des calibres de fusil de chasse courants, à faible recul et très prisé pour la chasse aux gibiers de plaine et d&apos;eau.</Ammo_ARS_28Gauge_Buck.description>
+  <Ammo_ARS_28Gauge_Slug.description>Le plus petit des calibres de fusil de chasse courants, à faible recul et très prisé pour la chasse aux gibiers de plaine et d&apos;eau.</Ammo_ARS_28Gauge_Slug.description>
+  <Ammo_ARS_28Gauge_Beanbag.description>Le plus petit des calibres de fusil de chasse courants, à faible recul et très prisé pour la chasse aux gibiers de plaine et d&apos;eau.</Ammo_ARS_28Gauge_Beanbag.description>
+  <Ammo_ARS_28Gauge_ElectroSlug.description>Le plus petit des calibres de fusil de chasse courants, à faible recul et très prisé pour la chasse aux gibiers de plaine et d&apos;eau.</Ammo_ARS_28Gauge_ElectroSlug.description>
+  <Ammo_ARS_28Gauge_Buck.label>cartouche calibre 28 (chevrotine)</Ammo_ARS_28Gauge_Buck.label>
+  <Ammo_ARS_28Gauge_Slug.label>cartouche calibre 28 (balle)</Ammo_ARS_28Gauge_Slug.label>
+  <Ammo_ARS_28Gauge_Beanbag.label>cartouche calibre 28 (balle souple)</Ammo_ARS_28Gauge_Beanbag.label>
+  <Ammo_ARS_28Gauge_ElectroSlug.label>cartouche calibre 28 (EMP)</Ammo_ARS_28Gauge_ElectroSlug.label>
+  <Bullet_ARS_28Gauge_Buck.label>plomb de chevrotine</Bullet_ARS_28Gauge_Buck.label>
+  <Bullet_ARS_28Gauge_Slug.label>balle de chevrotine</Bullet_ARS_28Gauge_Slug.label>
+  <Bullet_ARS_28Gauge_Beanbag.label>balle souple</Bullet_ARS_28Gauge_Beanbag.label>
+  <Bullet_ARS_28Gauge_ElectroSlug.label>balle EMP</Bullet_ARS_28Gauge_ElectroSlug.label>
+  <Ammo_ARS_385mmTromboncino_HE.description>Grenade à fragmentation stabilisée par ailettes pour le lance-grenades Tromboncino M28, lancée par une cartouche de fusil standard de 6,5 mm.</Ammo_ARS_385mmTromboncino_HE.description>
+  <Ammo_ARS_385mmTromboncino_HE.label>grenade à fusil 38,5 mm (HE)</Ammo_ARS_385mmTromboncino_HE.label>
+  <Bullet_ARS_385mmTromboncino_HE.label>grenade à fusil 38,5 mm (HE)</Bullet_ARS_385mmTromboncino_HE.label>
+  <Ammo_ARS_93x74mmR_FMJ.description>Cartouche de fusil à rebord de 9,3 mm, conçue pour les fusils doubles, munition classique pour le gros gibier en Europe et en Afrique.</Ammo_ARS_93x74mmR_FMJ.description>
+  <Ammo_ARS_93x74mmR_AP.description>Cartouche de fusil à rebord de 9,3 mm, conçue pour les fusils doubles, munition classique pour le gros gibier en Europe et en Afrique.</Ammo_ARS_93x74mmR_AP.description>
+  <Ammo_ARS_93x74mmR_HP.description>Cartouche de fusil à rebord de 9,3 mm, conçue pour les fusils doubles, munition classique pour le gros gibier en Europe et en Afrique.</Ammo_ARS_93x74mmR_HP.description>
+  <Ammo_ARS_93x74mmR_FMJ.label>9.3x74mmR (FMJ)</Ammo_ARS_93x74mmR_FMJ.label>
+  <Ammo_ARS_93x74mmR_AP.label>9.3x74mmR (AP)</Ammo_ARS_93x74mmR_AP.label>
+  <Ammo_ARS_93x74mmR_HP.label>9.3x74mmR (HP)</Ammo_ARS_93x74mmR_HP.label>
+  <Bullet_ARS_93x74mmR_FMJ.label>balle 9.3x74mmR (FMJ)</Bullet_ARS_93x74mmR_FMJ.label>
+  <Bullet_ARS_93x74mmR_AP.label>balle 9.3x74mmR (AP)</Bullet_ARS_93x74mmR_AP.label>
+  <Bullet_ARS_93x74mmR_HP.label>balle 9.3x74mmR (HP)</Bullet_ARS_93x74mmR_HP.label>
+</LanguageData>

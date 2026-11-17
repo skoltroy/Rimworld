@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Ammo_ARS_545x18mm_FMJ.description>Cartouche de pistolet à petit calibre et haute vitesse, dont la balle légère est conçue pour percer les gilets pare-balles.</Ammo_ARS_545x18mm_FMJ.description>
+  <Ammo_ARS_545x18mm_AP.description>Cartouche de pistolet à petit calibre et haute vitesse, dont la balle légère est conçue pour percer les gilets pare-balles.</Ammo_ARS_545x18mm_AP.description>
+  <Ammo_ARS_545x18mm_HP.description>Cartouche de pistolet à petit calibre et haute vitesse, dont la balle légère est conçue pour percer les gilets pare-balles.</Ammo_ARS_545x18mm_HP.description>
+  <Ammo_ARS_545x18mm_FMJ.label>5.45x18mm (FMJ)</Ammo_ARS_545x18mm_FMJ.label>
+  <Ammo_ARS_545x18mm_AP.label>5.45x18mm (AP)</Ammo_ARS_545x18mm_AP.label>
+  <Ammo_ARS_545x18mm_HP.label>5.45x18mm (HP)</Ammo_ARS_545x18mm_HP.label>
+  <Bullet_ARS_545x18mm_FMJ.label>balle 5.45x18mm (FMJ)</Bullet_ARS_545x18mm_FMJ.label>
+  <Bullet_ARS_545x18mm_AP.label>balle 5.45x18mm (AP)</Bullet_ARS_545x18mm_AP.label>
+  <Bullet_ARS_545x18mm_HP.label>balle 5.45x18mm (HP)</Bullet_ARS_545x18mm_HP.label>
+  <Ammo_ARS_762x41mm_FMJ.description>Cartouche lourde subsonique de 7,62 mm, pour revolvers et pistolets silencieux, avec un piston qui scelle les gaz de propulsion.</Ammo_ARS_762x41mm_FMJ.description>
+  <Ammo_ARS_762x41mm_AP.description>Cartouche lourde subsonique de 7,62 mm, pour revolvers et pistolets silencieux, avec un piston qui scelle les gaz de propulsion.</Ammo_ARS_762x41mm_AP.description>
+  <Ammo_ARS_762x41mm_HP.description>Cartouche lourde subsonique de 7,62 mm, pour revolvers et pistolets silencieux, avec un piston qui scelle les gaz de propulsion.</Ammo_ARS_762x41mm_HP.description>
+  <Ammo_ARS_762x41mm_FMJ.label>7.62x41mm SP-4 (FMJ)</Ammo_ARS_762x41mm_FMJ.label>
+  <Ammo_ARS_762x41mm_AP.label>7.62x41mm SP-4 (AP)</Ammo_ARS_762x41mm_AP.label>
+  <Ammo_ARS_762x41mm_HP.label>7.62x41mm SP-4 (HP)</Ammo_ARS_762x41mm_HP.label>
+  <Bullet_ARS_762x41mm_FMJ.label>balle 7.62x41mm SP-4 (FMJ)</Bullet_ARS_762x41mm_FMJ.label>
+  <Bullet_ARS_762x41mm_AP.label>balle 7.62x41mm SP-4 (AP)</Bullet_ARS_762x41mm_AP.label>
+  <Bullet_ARS_762x41mm_HP.label>balle 7.62x41mm SP-4 (HP)</Bullet_ARS_762x41mm_HP.label>
+  <Ammo_ARS_762x38mmSP3_FMJ.description>Cartouche spéciale subsonique de 7,62 mm pour pistolets silencieux.</Ammo_ARS_762x38mmSP3_FMJ.description>
+  <Ammo_ARS_762x38mmSP3_AP.description>Cartouche spéciale subsonique de 7,62 mm pour pistolets silencieux.</Ammo_ARS_762x38mmSP3_AP.description>
+  <Ammo_ARS_762x38mmSP3_HP.description>Cartouche spéciale subsonique de 7,62 mm pour pistolets silencieux.</Ammo_ARS_762x38mmSP3_HP.description>
+  <Ammo_ARS_762x38mmSP3_FMJ.label>7.62x38mm SP-3 (FMJ)</Ammo_ARS_762x38mmSP3_FMJ.label>
+  <Ammo_ARS_762x38mmSP3_AP.label>7.62x38mm SP-3 (AP)</Ammo_ARS_762x38mmSP3_AP.label>
+  <Ammo_ARS_762x38mmSP3_HP.label>7.62x38mm SP-3 (HP)</Ammo_ARS_762x38mmSP3_HP.label>
+  <Bullet_ARS_762x38mmSP3_FMJ.label>balle 7.62x38mm SP-3 (FMJ)</Bullet_ARS_762x38mmSP3_FMJ.label>
+  <Bullet_ARS_762x38mmSP3_AP.label>balle 7.62x38mm SP-3 (AP)</Bullet_ARS_762x38mmSP3_AP.label>
+  <Bullet_ARS_762x38mmSP3_HP.label>balle 7.62x38mm SP-3 (HP)</Bullet_ARS_762x38mmSP3_HP.label>
+  <Ammo_ARS_45x40mmDart_AP.description>Fléchette en acier stabilisée par ailettes, tirée par les pistolets sous-marins.</Ammo_ARS_45x40mmDart_AP.description>
+  <Ammo_ARS_45x40mmDart_AP.label>fléchette en acier 4,5x40 mm (AP)</Ammo_ARS_45x40mmDart_AP.label>
+  <Bullet_ARS_45x40mmDart_AP.label>balle 4.5x40mm acier fléchette (AP)</Bullet_ARS_45x40mmDart_AP.label>
+  <Ammo_ARS_566x39mmMPS_Sabot.description>Longue fléchette en acier pour fusils d&apos;assaut sous-marins.</Ammo_ARS_566x39mmMPS_Sabot.description>
+  <Ammo_ARS_566x39mmMPS_Sabot.label>fléchette MPS 5,66x39 mm (sabot)</Ammo_ARS_566x39mmMPS_Sabot.label>
+  <Bullet_ARS_566x39mmMPS_Sabot.label>balle 5.66x39mm MPS fléchette (Sabot)</Bullet_ARS_566x39mmMPS_Sabot.label>
+  <Ammo_ARS_762x3mmFlechette_Sabot.description>Fléchette de 3 mm stabilisée par ailettes dans un sabot à séparation, issue du premier fusil à fléchettes soviétique.</Ammo_ARS_762x3mmFlechette_Sabot.description>
+  <Ammo_ARS_762x3mmFlechette_Sabot.label>fléchette 7,62/3,0 mm (sabot)</Ammo_ARS_762x3mmFlechette_Sabot.label>
+  <Bullet_ARS_762x3mmFlechette_Sabot.label>balle 7.62/3.0mm fléchette (Sabot)</Bullet_ARS_762x3mmFlechette_Sabot.label>
+  <Ammo_ARS_762x63mmPZ_FMJ.description>Cartouche silencieuse dont un piston placé entre la balle et la poudre scelle les gaz, pour le derringer S4M.</Ammo_ARS_762x63mmPZ_FMJ.description>
+  <Ammo_ARS_762x63mmPZ_AP.description>Cartouche silencieuse dont un piston placé entre la balle et la poudre scelle les gaz, pour le derringer S4M.</Ammo_ARS_762x63mmPZ_AP.description>
+  <Ammo_ARS_762x63mmPZ_FMJ.label>7.62x63mm PZ (FMJ)</Ammo_ARS_762x63mmPZ_FMJ.label>
+  <Ammo_ARS_762x63mmPZ_AP.label>7.62x63mm PZ (AP)</Ammo_ARS_762x63mmPZ_AP.label>
+  <Bullet_ARS_762x63mmPZ_FMJ.label>balle 7.62x63mm PZ (FMJ)</Bullet_ARS_762x63mmPZ_FMJ.label>
+  <Bullet_ARS_762x63mmPZ_AP.label>balle 7.62x63mm PZ (AP)</Bullet_ARS_762x63mmPZ_AP.label>
+  <Ammo_ARS_93x64mm_FMJ.description>Cartouche de fusil russe lourde de 9,3 mm, conçue pour le SVDK, destinée à percer les gilets pare-balles à longue distance.</Ammo_ARS_93x64mm_FMJ.description>
+  <Ammo_ARS_93x64mm_AP.description>Cartouche de fusil russe lourde de 9,3 mm, conçue pour le SVDK, destinée à percer les gilets pare-balles à longue distance.</Ammo_ARS_93x64mm_AP.description>
+  <Ammo_ARS_93x64mm_HP.description>Cartouche de fusil russe lourde de 9,3 mm, conçue pour le SVDK, destinée à percer les gilets pare-balles à longue distance.</Ammo_ARS_93x64mm_HP.description>
+  <Ammo_ARS_93x64mm_FMJ.label>9.3x64mm 7N33 (FMJ)</Ammo_ARS_93x64mm_FMJ.label>
+  <Ammo_ARS_93x64mm_AP.label>9.3x64mm 7N33 (AP)</Ammo_ARS_93x64mm_AP.label>
+  <Ammo_ARS_93x64mm_HP.label>9.3x64mm 7N33 (HP)</Ammo_ARS_93x64mm_HP.label>
+  <Bullet_ARS_93x64mm_FMJ.label>balle 9.3x64mm 7N33 (FMJ)</Bullet_ARS_93x64mm_FMJ.label>
+  <Bullet_ARS_93x64mm_AP.label>balle 9.3x64mm 7N33 (AP)</Bullet_ARS_93x64mm_AP.label>
+  <Bullet_ARS_93x64mm_HP.label>balle 9.3x64mm 7N33 (HP)</Bullet_ARS_93x64mm_HP.label>
+  <Ammo_ARS_125x40mm_FMJ.description>Cartouche de revolver à gros calibre du OTs-20 Gnom.</Ammo_ARS_125x40mm_FMJ.description>
+  <Ammo_ARS_125x40mm_AP.description>Cartouche de revolver à gros calibre du OTs-20 Gnom.</Ammo_ARS_125x40mm_AP.description>
+  <Ammo_ARS_125x40mm_HP.description>Cartouche de revolver à gros calibre du OTs-20 Gnom.</Ammo_ARS_125x40mm_HP.description>
+  <Ammo_ARS_125x40mm_FMJ.label>12.5x40mm (FMJ)</Ammo_ARS_125x40mm_FMJ.label>
+  <Ammo_ARS_125x40mm_AP.label>12.5x40mm (AP)</Ammo_ARS_125x40mm_AP.label>
+  <Ammo_ARS_125x40mm_HP.label>12.5x40mm (HP)</Ammo_ARS_125x40mm_HP.label>
+  <Bullet_ARS_125x40mm_FMJ.label>balle 12.5x40mm (FMJ)</Bullet_ARS_125x40mm_FMJ.label>
+  <Bullet_ARS_125x40mm_AP.label>balle 12.5x40mm (AP)</Bullet_ARS_125x40mm_AP.label>
+  <Bullet_ARS_125x40mm_HP.label>balle 12.5x40mm (HP)</Bullet_ARS_125x40mm_HP.label>
+  <Ammo_ARS_125x70mm_Buck.description>La cartouche de fusil de chasse de 12,5 mm du pistolet de survie TP-82.</Ammo_ARS_125x70mm_Buck.description>
+  <Ammo_ARS_125x70mm_Slug.description>La cartouche de fusil de chasse de 12,5 mm du pistolet de survie TP-82.</Ammo_ARS_125x70mm_Slug.description>
+  <Ammo_ARS_125x70mm_Buck.label>12.5x70mm (chevrotine)</Ammo_ARS_125x70mm_Buck.label>
+  <Ammo_ARS_125x70mm_Slug.label>12.5x70mm (balle)</Ammo_ARS_125x70mm_Slug.label>
+  <Bullet_ARS_125x70mm_Buck.label>balle 12.5x70mm (chevrotine)</Bullet_ARS_125x70mm_Buck.label>
+  <Bullet_ARS_125x70mm_Slug.label>balle 12.5x70mm (balle)</Bullet_ARS_125x70mm_Slug.label>
+</LanguageData>

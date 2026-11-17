@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GravNausea.letterLabel>mal de l'air</GravNausea.letterLabel>
+  <GravNausea.letterText>Pendant l'atterrissage de {GRAVSHIP}, {PILOT_nameDef} a dû effectuer une manœuvre d'urgence, entraînant une décélération intense et prolongée. Cette expérience a rendu vos colons très malades du mouvement, bien que les effets disparaîtront rapidement.</GravNausea.letterText>
+  <MinorGravshipCrash.letterLabel>atterrissage brutal du Hellion</MinorGravshipCrash.letterLabel>
+  <MinorGravshipCrash.letterText>Pendant l'atterrissage de {GRAVSHIP}, {PILOT_nameDef} a coupé le moteur du Hellion trop tôt, faisant chuter l'appareil de plusieurs pieds. Certaines structures à bord du Hellion ont subi de légers dégâts à cause du choc.</MinorGravshipCrash.letterText>
+  <OverheatedGravEngine.letterLabel>moteur du Hellion en surchauffe</OverheatedGravEngine.letterLabel>
+  <OverheatedGravEngine.letterText>Pendant l'atterrissage de {GRAVSHIP}, {PILOT_nameDef} a poussé le moteur du Hellion au-delà de ses limites, le faisant surchauffer. Le moteur mettra plus de temps que d'habitude à refroidir. En attendant, le Hellion ne peut pas décoller.</OverheatedGravEngine.letterText>
+  <ThrusterBreakdown.letterText>Pendant l'atterrissage de {GRAVSHIP}, {PILOT_nameDef} a fait surchauffer les propulseurs VTOL du Hellion, grillant des composants précieux. Les propulseurs devront être réparés avant de pouvoir être de nouveau utilisés.</ThrusterBreakdown.letterText>
+</LanguageData>

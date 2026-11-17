@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VQE_InventorGenetronAdulthood.description>[PAWN_nameDef] est devenu célèbre parmi les ingénieurs pour avoir conçu un prototype de système à fusion destiné à rétablir des réseaux régionaux entiers. Poussé par un besoin implacable de résoudre des pénuries d'énergie catastrophiques, [PAWN_pronoun] a poussé la recherche dangereuse plus loin que quiconque n'aurait osé. Les premiers essais de réacteur étaient précipités et instables, et les accidents qui ont suivi ont coûté la vie à beaucoup de personnes. Ces échecs n'ont jamais arrêté [PAWN_objective] ; ils ont durci la conviction de [PAWN_possessive] que le travail devait être achevé. Après d'innombrables révisions, [PAWN_nameDef] a produit le prototype qui a fait de [PAWN_objective] un héros pour certains et un visionnaire imprudent pour d'autres.</VQE_InventorGenetronAdulthood.description>
+  <VQE_InventorGenetronAdulthood.title>ingénieur de restauration</VQE_InventorGenetronAdulthood.title>
+</LanguageData>

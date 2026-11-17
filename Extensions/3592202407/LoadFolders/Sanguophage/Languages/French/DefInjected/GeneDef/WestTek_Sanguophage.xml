@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRE_CorpseFeeder.description>Les porteurs peuvent encore tirer leur nourriture d'un sang froid et gâté. Les survivants wendigos apprennent à saigner les cadavres en décomposition et les restes irradiés lorsque rien de vivant ne peut apaiser leur faim.</VRE_CorpseFeeder.description>
+  <VRE_CorpseFeeder.label>nécrophage</VRE_CorpseFeeder.label>
+  <VRE_ExtremeHemogenDrain.description>Les porteurs consomment l'hémogène à un rythme grotesque. Leur métabolisme affamé et ravagé par les mutations épuise les nutriments plus vite qu'une alimentation ordinaire ne peut les remplacer.</VRE_ExtremeHemogenDrain.description>
+  <VRE_ExtremeHemogenDrain.label>faim dévorante</VRE_ExtremeHemogenDrain.label>
+</LanguageData>

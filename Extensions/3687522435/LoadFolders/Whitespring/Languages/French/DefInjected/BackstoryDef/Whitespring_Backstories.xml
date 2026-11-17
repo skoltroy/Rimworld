@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Architect28.description>[PAWN_nameDef] concevait la construction des bâtiments. Chez lui, les calculs techniques étaient confiés à des systèmes automatisés, tandis que la main-d'œuvre revenait aux équipes de travail et aux machines. Cela libérait [PAWN_objective] pour repousser les limites artistiques du métier, mais signifiait aussi que [PAWN_pronoun] n'avait jamais eu à se salir les mains.</Architect28.description>
+  <ArtsPatron54.description>[PAWN_nameDef] gérait les investissements artistiques de [PAWN_possessive] famille.
+\n[PAWN_pronoun] choisissait les artistes à soutenir et travaillait avec eux pour produire les œuvres qui glorifiaient le plus sa famille, son église et l'ordre dirigeant lui-même.</ArtsPatron54.description>
+  <BiosphereManager95.description>[PAWN_nameDef] vivait dans une station balnéaire scellée et luxueuse, où des robots s'occupaient des tâches subalternes et où les résidents se consacraient aux loisirs. [PAWN_pronoun] gérait la vie végétale et animale d'un vaste parc où les visiteurs venaient admirer la beauté de la nature.</BiosphereManager95.description>
+  <CaveworldIlluminator95.description>Parmi les habitants des tunnels, ceux qui voyaient aussi bien que [PAWN_nameDef] étaient vénérés comme des guides. [PAWN_pronoun] ouvrait la voie dans l'obscurité, marquait les bons endroits pour creuser avec des lanternes de champignons et prévenait les autres du danger.</CaveworldIlluminator95.description>
+  <CaveworldIlluminator95.title>guide des cavernes</CaveworldIlluminator95.title>
+  <CaveworldTender26.description>[PAWN_nameDef] a grandi dans une colonie troglodyte, au fond d'une région inhospitalière. [PAWN_pronoun] travaillait avec les autres enfants pour entretenir les cultures de champignons de la colonie.</CaveworldTender26.description>
+  <CaveworldTender26.title>soigneur des cavernes</CaveworldTender26.title>
+  <CaveworldTunneler48.description>[PAWN_nameDef] travaillait comme creuseur dans un immense réseau de cavernes souterraines.
+\n[PAWN_pronoun] connaît si bien la roche qu'[PAWN_pronoun] peut presque se repérer dans les cavernes à l'odorat.</CaveworldTunneler48.description>
+  <CaveworldTunneler48.title>tunnelier des cavernes</CaveworldTunneler48.title>
+  <CharityWorker36.description>Les communautés les plus riches de l'ancien monde vivaient dans le confort, tandis que les bidonvilles voisins mouraient de faim. [PAWN_nameDef] a passé sa vie à solliciter des dons et à soutenir ceux qui étaient dans le besoin.</CharityWorker36.description>
+  <Chef52.description>[PAWN_nameDef] était le chef étoile d'un restaurant de luxe. [PAWN_pronoun] était célèbre auprès des clients pour ses spécialités culinaires créatives, et redouté du personnel de cuisine pour son mépris désinvolte des tâches subalternes.</Chef52.description>
+  <CombatEngineer30.description>[PAWN_nameDef] a été recruté par l'armée comme ingénieur et chargé d'améliorer les vertibirds et les transports blindés. Un entraînement rude lui a appris à construire et réparer les véhicules et structures militaires.
+\nUne mission a laissé à [PAWN_nameDef] une pyrophobie et un désir fort d'éviter les plantes.</CombatEngineer30.description>
+  <CountryLordling92.description>[PAWN_nameDef] a grandi dans le domaine familial privilégié d'un membre de l'Enclave, en Appalaches. Ses premières années ont été remplies de leçons d'étiquette, de politique et de traditions de Whitespring.
+[PAWN_nameDef] et ses amis trouvaient des moyens de s'échapper pour explorer les forêts au-delà de l'enceinte.</CountryLordling92.description>
+  <CountryLordling92.title>héritier de campagne de l'Enclave</CountryLordling92.title>
+  <CountryLordling92.titleFemale>héritière de campagne de l'Enclave</CountryLordling92.titleFemale>
+  <CountryLordling92.titleShort>héritier de campagne</CountryLordling92.titleShort>
+  <CountryLordling92.titleShortFemale>héritière de campagne</CountryLordling92.titleShortFemale>
+  <FeyCustomChildhood.description>Élevé à l'abri dans une vaste arcologie de l'ancien monde, [PAWN_nameDef] se distrayait en jouant à des wargames et en peignant des figurines. [PAWN_pronoun] n'a jamais été très doué pour le jeu lui-même, mais cela l'aidait à se lier aux autres.</FeyCustomChildhood.description>
+  <GlitterworldEmpath26.description>[PAWN_nameDef] trouvait facile de se mettre à la place des autres et de régler les conflits. [PAWN_pronoun] fut sélectionné pour un programme gouvernemental d'entraînement émotionnel. L'entraînement a intensifié ses capacités naturelles, mais [PAWN_pronoun] est devenu incapable de faire souffrir qui que ce soit.</GlitterworldEmpath26.description>
+  <GlitterworldEmpath26.title>empathe formé</GlitterworldEmpath26.title>
+  <GlitterworldOfficer60.description>Bien que [PAWN_nameDef] ait eu un poste confortable, son unité restait prête à la guerre. [PAWN_nameDef] pratiquait des passe-temps artistiques pendant ses heures libres, mais ses subordonnés préféraient régler leurs différends à coups de poing, si bien que [PAWN_nameDef] est devenu doué pour séparer les combats.</GlitterworldOfficer60.description>
+  <GlitterworldOfficer60.title>officier de garnison</GlitterworldOfficer60.title>
+  <GlitterworldSurgeon15.description>[PAWN_nameDef] travaillait comme chirurgien dans un quartier riche, presque épargné par la maladie et la misère, si bien que son activité était centrée sur des interventions esthétiques élaborées et créatives.
+\n[PAWN_pronoun] comprend profondément la biologie humaine, mais n'a jamais eu à retirer une tumeur ou une balle dans des conditions de champ de bataille.</GlitterworldSurgeon15.description>
+  <GlitterworldSurgeon15.title>chirurgien esthétique</GlitterworldSurgeon15.title>
+  <IllegalShipwright76.description>Une loi interdit de boulonner des émetteurs de plasma lourds sur un transport de fret, surtout si on les cache sous ce qui ressemble à un appareil de communication pour une embuscade discrète. [PAWN_nameDef] a découvert qu'il y avait de gros profits à tirer de clients qui se moquaient de ces lois.</IllegalShipwright76.description>
+  <ImperialInquisitor53.description>[PAWN_nameDef] était policier militaire au sein de Whitespring, traquant la pensée non orthodoxe et la dissidence.
+\n[PAWN_nameDef] exposait et punissait les déviances pour maintenir l'ordre et les priorités de recherche de l'Enclave.</ImperialInquisitor53.description>
+  <ImperialInquisitor53.title>police militaire de Whitespring</ImperialInquisitor53.title>
+  <ImperialInquisitor53.titleShort>officier</ImperialInquisitor53.titleShort>
+  <ImperialInquisitor53.titleShortFemale>officier</ImperialInquisitor53.titleShortFemale>
+  <ImperialPriest24.description>[PAWN_nameDef] était avocat dans la division de Whitespring.
+\n[PAWN_pronoun] passait la moitié de son temps à étudier les lois et le rôle de l'ordre dans la doctrine de l'Enclave. L'autre moitié était consacrée à prêcher la discipline et la loyauté.</ImperialPriest24.description>
+  <ImperialPriest24.title>avocat de Whitespring</ImperialPriest24.title>
+  <ImperialPriest24.titleShort>avocat</ImperialPriest24.titleShort>
+  <ImperialPriest24.titleShortFemale>avocate</ImperialPriest24.titleShortFemale>
+  <JoywireArtist8.description>[PAWN_nameDef] travaillait dans un laboratoire urbain, développant des logiciels de divertissement neural pour maximiser le plaisir des utilisateurs.
+\nLorsque le gouvernement local a imposé des restrictions sévères sur le produit, [PAWN_pronoun] a commencé à vendre ses créations au marché noir.</JoywireArtist8.description>
+  <JoywireArtist8.title>concepteur de divertissement neural</JoywireArtist8.title>
+  <JoywireArtist8.titleShort>concepteur</JoywireArtist8.titleShort>
+  <LiamCustomAdulthood.description>[PAWN_nameDef] travaillait dans un quartier de recherche confortable, mettant au point des simulations de guerre hyperréalistes.</LiamCustomAdulthood.description>
+  <LiamCustomChildhood.description>Né et élevé dans un quartier riche de l'Enclave, [PAWN_nameDef] est devenu obsédé par les logiciels de simulation. [PAWN_pronoun] passait bien trop de temps branché.</LiamCustomChildhood.description>
+  <MateCustomAdulthood.description>Après avoir été licencié par une gigantesque entreprise de l'ancien monde, [PAWN_nameDef] a passé plusieurs années désabusé, luttant contre une dépendance à l'alcool.
+\n[PAWN_pronoun] a fini par faire la manche à bord d'un transport de fret cabossé, jouant d'une guitare usée et divertissant l'équipage avec des chansons de blues et de folk venues d'un passé lointain.</MateCustomAdulthood.description>
+  <NavyScientist52.description>Les guerres modernes se gagnent par la technologie, si bien que les laboratoires navals de l'ancien monde accumulaient le meilleur matériel possible. [PAWN_nameDef] travaillait dans l'un de ces laboratoires, étudiant des prototypes capturés et des reliques étranges rapportées d'expéditions lointaines.</NavyScientist52.description>
+  <Novelist7.description>[PAWN_nameDef] vivait dans une ville prospère d'avant-guerre, écrivant des romans au succès fou. [PAWN_pronoun] menait une existence insouciante, passant ses journées à écrire et ses nuits à faire la fête, et n'a jamais effectué un jour de travail manuel de sa vie.</Novelist7.description>
+  <OskarCustomAdulthood.description>[PAWN_nameDef] concevait des modifications de combat pour les soldats de première ligne.
+\nUne nuit, en cauchemar, [PAWN_nameDef] a été confronté à tous les hommes et femmes tués à cause de [PAWN_possessive] travail. [PAWN_pronoun] a décidé de partir dans les friches et d'utiliser ses compétences pour le bien.</OskarCustomAdulthood.description>
+  <OskarCustomChildhood.description>[PAWN_nameDef] est né au bord obscur d'une vaste cité industrielle. Après une dispute, [PAWN_possessive] père [PAWN_objective] a vendu à un patron local comme artiste esclave.
+\nContraint de créer de l'art sous peine de châtiment, [PAWN_pronoun] s'est refermé et n'a plus su nouer de relations avec les autres.</OskarCustomChildhood.description>
+  <RoyalCook18.description>[PAWN_nameDef] préparait des repas pour les clients de Whitespring.
+\nSeule la meilleure nourriture était acceptable, si bien que [PAWN_nameDef] entretenait un petit jardin dans l'enceinte pour obtenir les herbes et les légumes les plus frais. [PAWN_pronoun] est tombé amoureux de la cuisine elle-même.</RoyalCook18.description>
+  <RoyalCook18.title>cuisinier de Whitespring</RoyalCook18.title>
+  <RoyalCook18.titleShort>cuisinier</RoyalCook18.titleShort>
+  <RoyalMasseuse43.description>[PAWN_nameDef] servait de masseur aux riches clients de Whitespring. [PAWN_pronoun] s'occupait de nombreux membres de l'Enclave et de leurs invités.
+\n[PAWN_nameDef] proposait parfois quelque chose de plus, si le client était d'humeur. Progresser dans ce métier exigeait des compétences sociales raffinées.</RoyalMasseuse43.description>
+  <RoyalMasseuse43.title>masseur de Whitespring</RoyalMasseuse43.title>
+  <RoyalMasseuse43.titleShort>masseur</RoyalMasseuse43.titleShort>
+  <Scout44.description>Né de l'administration d'un poste gouvernemental isolé, [PAWN_nameDef] a été inscrit dans un programme de jeunesse qui enseignait les compétences militaires d'éclaireur.
+\n[PAWN_pronoun] a appris à survivre dans la nature, à obéir et à ne pas poser de questions.</Scout44.description>
+  <Sculptor63.description>[PAWN_nameDef] a commencé par sculpter des œuvres à taille humaine, mais [PAWN_pronoun] a vite vu plus grand. Avec l'aide d'équipements industriels, [PAWN_pronoun] a appris à tailler d'immenses monuments dans les falaises. Bientôt, les parcs et les promenades de la ville où [PAWN_pronoun] vivait étaient remplis de statues géantes.</Sculptor63.description>
+  <ShipboundLordling12.description>La famille de [PAWN_nameDef] détenait son pouvoir dans un grand bunker de commandement ancien. Né et élevé à l'intérieur, [PAWN_nameDef] a appris tout de la vie en installation scellée, ainsi que la politique et les méthodes de la guerre de siège et des assauts de bunker.
+\n[PAWN_pronoun] se sentait plus chez lui entouré de murs épais de tous côtés, au doux sifflement des épurateurs d'air.</ShipboundLordling12.description>
+  <ShipboundLordling12.title>seigneur du bunker</ShipboundLordling12.title>
+  <ShipboundLordling12.titleFemale>dame du bunker</ShipboundLordling12.titleFemale>
+  <ShipboundLordling12.titleShort>héritier du bunker</ShipboundLordling12.titleShort>
+  <ShipboundLordling12.titleShortFemale>héritière du bunker</ShipboundLordling12.titleShortFemale>
+  <ShipBoy89.description>[PAWN_nameDef] est né de domestiques de bas rang dans un ancien bunker de commandement. Le serveur du bunker était comme un troisième parent pour [PAWN_objective], et l'équipe de maintenance pour laquelle [PAWN_pronoun] travaillait était une seconde famille.
+\n[PAWN_nameDef] voyait rarement des plantes ou des animaux, et les trouve toujours inquiétants à toucher.</ShipBoy89.description>
+  <ShipBoy89.title>garçon du bunker</ShipBoy89.title>
+  <ShipBoy89.titleFemale>fille du bunker</ShipBoy89.titleFemale>
+  <ShipBoy89.titleShort>garçon du bunker</ShipBoy89.titleShort>
+  <ShipBoy89.titleShortFemale>fille du bunker</ShipBoy89.titleShortFemale>
+  <Shipcracker37.description>[PAWN_nameDef] était chargé de faire irruption dans les bunkers fortifiés, de percer les défenses intérieures et de les conquérir pièce par pièce. [PAWN_pronoun] est devenu très doué pour manier les lourdes armes d'effraction capables de découper l'acier comme la chair.
+\n[PAWN_pronoun] a aussi développé un goût pour les drogues qu'[PAWN_pronoun] utilisait pour gérer le stress écrasant.</Shipcracker37.description>
+  <Shipcracker37.title>briseur de bunker</Shipcracker37.title>
+  <Shipcracker37.titleShort>briseur</Shipcracker37.titleShort>
+  <SoldiersKid55.description>[PAWN_nameDef] a été élevé dans l'ancien bunker de commandement où ses parents étaient affectés. [PAWN_pronoun] a appris les bases du fonctionnement et de l'entretien des armes à feu auprès des soldats de service, et s'est habitué à une routine stricte et à une discipline fréquente.</SoldiersKid55.description>
+  <SpaceMarine16.description>[PAWN_nameDef] était soldat d'assaut dans une armée d'élite. Son travail consistait à percer les positions fortifiées, abattre les défenseurs et capturer le lieu intact. Et [PAWN_pronoun] était bon dans ce domaine.</SpaceMarine16.description>
+  <SpaceMarine16.title>soldat d'assaut</SpaceMarine16.title>
+  <SpaceMarine16.titleShort>soldat</SpaceMarine16.titleShort>
+  <SpaceTechnician29.description>[PAWN_nameDef] a fini par fuir sa vie criminelle en obtenant un poste de maintenance dans une station relais voisine. [PAWN_pronoun] effectuait un large éventail de travaux de réparation et de construction, aidait à la recherche de base et désamorçait souvent les disputes entre collègues. [PAWN_pronoun] n'a jamais aimé faire de l'art.</SpaceTechnician29.description>
+  <SpaceTechnician29.title>technicien de relais</SpaceTechnician29.title>
+  <StarshipJanitor33.description>Alors que les autres résidents dormaient de longues périodes dans un bunker gouvernemental scellé, [PAWN_nameDef] devait se réveiller à intervalles réguliers pour effectuer des inspections, vérifier les systèmes de survie et graisser les robots d'entretien.</StarshipJanitor33.description>
+  <StarshipJanitor33.title>concierge du bunker</StarshipJanitor33.title>
+  <Taxonomist0.description>[PAWN_nameDef] parcourait les régions, étudiant et classant la vie végétale et animale qu'[PAWN_pronoun] rencontrait, dans l'espoir de constituer un catalogue complet.</Taxonomist0.description>
+  <TestSubject15.description>Dans les plus corrompues des vieilles villes, des scientifiques sans boussole morale ont commis des atrocités indicibles au nom de la recherche. [PAWN_nameDef] a été gardé seul dans une installation scellée dès la naissance et soumis à des expériences comportementales, dans le but d'en faire un super-soldat parfait.</TestSubject15.description>
+  <UrbworldDrone32.description>[PAWN_nameDef] travaillait comme ouvrier du bâtiment sans réflexion dans une immense ville d'entreprise. Bien qu'[PAWN_pronoun] soit désormais libéré du conditionnement social brutal qu'[PAWN_pronoun] a subi, [PAWN_pronoun] reste incapable de pensée créative et de leadership.</UrbworldDrone32.description>
+  <UrbworldDrone32.title>drone urbain</UrbworldDrone32.title>
+  <UrbworldEntrepreneur14.description>Dans les vieilles villes d'entreprises, la plupart des gens souffraient. Mais quelqu'un devait diriger les sociétés.
+\n[PAWN_nameDef] a appris les ficelles du métier, graissant les pattes et conciliant analyse technique et politique. [PAWN_pronoun] est devenu une machine sociointellectuelle.</UrbworldEntrepreneur14.description>
+  <UrbworldEntrepreneur14.title>entrepreneur urbain</UrbworldEntrepreneur14.title>
+  <UrbworldPolitican92.description>Ce n'est un secret pour personne que les entreprises possédaient une grande partie des vieilles villes, mais quelqu'un devait accepter les pots-de-vin. [PAWN_nameDef] était l'un de ces prête-noms.
+\n[PAWN_pronoun] a appris à manipuler les espoirs et les rêves du peuple tout en vivant confortablement dans un penthouse.</UrbworldPolitican92.description>
+  <UrbworldPolitican92.title>politicien urbain</UrbworldPolitican92.title>
+  <UrbworldRebel56.description>La plupart des gens autour de [PAWN_nameDef] vivaient sous une surveillance d'entreprise constante et des flux de propagande. [PAWN_nameDef] a rejoint une faction rebelle qui rejetait entièrement la technologie moderne.</UrbworldRebel56.description>
+  <UrbworldRebel56.title>rebelle urbain</UrbworldRebel56.title>
+  <UrbworldUrchin61.description>Les anciennes villes industrielles étaient d'antiques dédales profonds de rouille, de poison et de trop de monde. [PAWN_nameDef] a grandi dans les recoins sombres et indésirables de l'une d'elles et a dû se battre pour chaque miette de nourriture.</UrbworldUrchin61.description>
+  <UrbworldUrchin61.title>gamin des rues</UrbworldUrchin61.title>
+  <VRDesigner87.description>[PAWN_nameDef] concevait des simulations de réalité virtuelle pour de riches clients. [PAWN_pronoun] consacrait beaucoup d'efforts aux détails de ses mondes virtuels, apprenant tout ce qu'il pouvait sur la vie végétale afin de rendre ses paysages aussi réalistes que possible.</VRDesigner87.description>
+  <WillCustomAdulthood.description>[PAWN_nameDef] concevait d'élaborés labyrinthes de divertissement pour de riches clients. Même aujourd'hui, [PAWN_pronoun] ne pense guère à autre chose.</WillCustomAdulthood.description>
+  <WillCustomChildhood.description>[PAWN_nameDef] a grandi dans un camp de recherche sur un monde ravagé. Ses parents étudiaient d'étranges formations labyrinthiques sous la croûte, et [PAWN_pronoun] passait l'essentiel de son temps à errer dans ces tunnels en se demandant quel genre de chose avait pu les créer.</WillCustomChildhood.description>
+</LanguageData>

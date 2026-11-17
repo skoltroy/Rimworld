@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VSIE_MovieNight.label>soirée holotape</VSIE_MovieNight.label>
+  <VSIE_MovieNight.letterTitle>Soirée holotape</VSIE_MovieNight.letterTitle>
+  <VSIE_MovieNight.letterText>{ORGANIZER_labelShort} passe une soirée holotape avec {COMPANION_labelShort}.</VSIE_MovieNight.letterText>
+  <VSIE_BuildingSnowmen.label>construire des brahmines de neige</VSIE_BuildingSnowmen.label>
+  <VSIE_BuildingSnowmen.letterTitle>Construction de brahmines de neige</VSIE_BuildingSnowmen.letterTitle>
+  <VSIE_BuildingSnowmen.letterText>{ORGANIZER_labelShort} construit des brahmines de neige avec {COMPANION_labelShort}.</VSIE_BuildingSnowmen.letterText>
+  <VSIE_GrabbingBeer.label>se servir à boire</VSIE_GrabbingBeer.label>
+  <VSIE_GrabbingBeer.letterTitle>Boissons au coin du feu</VSIE_GrabbingBeer.letterTitle>
+  <VSIE_GrabbingBeer.letterText>{ORGANIZER_labelShort} se sert à boire avec {COMPANION_labelShort}.</VSIE_GrabbingBeer.letterText>
+  <VSIE_GrabbingBeer.calledOffMessage>Les boissons au coin du feu ont été annulées.</VSIE_GrabbingBeer.calledOffMessage>
+  <VSIE_GrabbingBeer.finishedMessage>Les boissons au coin du feu sont terminées.</VSIE_GrabbingBeer.finishedMessage>
+  <VSIE_BingeParty.label>fête de camp</VSIE_BingeParty.label>
+  <VSIE_BingeParty.letterTitle>Fête de camp</VSIE_BingeParty.letterTitle>
+  <VSIE_BingeParty.letterText>{ORGANIZER_labelShort} appelle à une fête de camp. Les colons vont se lâcher avec nourriture, alcool et chems pendant quelques heures, sauf si vous les mobilisez ailleurs.</VSIE_BingeParty.letterText>
+</LanguageData>

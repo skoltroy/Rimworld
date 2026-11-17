@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <AM_MRE.label>ration de terrain d'avant-guerre</AM_MRE.label>
+  <AM_CannedBraisedPorkbelly.label>porc en conserve</AM_CannedBraisedPorkbelly.label>
+  <AM_CannedHerring.label>poisson en conserve</AM_CannedHerring.label>
+  <AM_CannedPeas.label>petits pois en conserve</AM_CannedPeas.label>
+  <AM_CannedStewedBeef.label>ragoût en conserve</AM_CannedStewedBeef.label>
+  <AM_DeliciousCannedBeef.label>bœuf en conserve</AM_DeliciousCannedBeef.label>
+  <AM_PotatoChipsA.label>chips de pomme de terre</AM_PotatoChipsA.label>
+  <AM_PotatoChipsB.label>chips au paprika</AM_PotatoChipsB.label>
+  <AM_PotatoChipsC.label>chips au barbecue</AM_PotatoChipsC.label>
+  <AM_PotatoChipsD.label>chips à la crème aigre</AM_PotatoChipsD.label>
+  <AM_PotatoChipsE.label>chips salées</AM_PotatoChipsE.label>
+  <AM_PotatoChipsF.label>chips épicées</AM_PotatoChipsF.label>
+  <AM_Coca.label>cola</AM_Coca.label>
+  <AM_Fanta.label>soda à l'orange</AM_Fanta.label>
+  <AM_MilkBeer.label>stout au lait</AM_MilkBeer.label>
+  <AM_Pepsi.label>cola brun</AM_Pepsi.label>
+  <AM_Sprite.label>soda clair</AM_Sprite.label>
+  <AM_TsingtaoBeer.label>lager d'avant-guerre</AM_TsingtaoBeer.label>
+  <AM_Budweiser.label>lager léger</AM_Budweiser.label>
+</LanguageData>

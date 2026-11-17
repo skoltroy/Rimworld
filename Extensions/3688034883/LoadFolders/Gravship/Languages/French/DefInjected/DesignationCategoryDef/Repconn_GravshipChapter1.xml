@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_Platform.description>Gérer la cellule du Hellion, ses systèmes de vol et ses machines essentielles.</VGE_Platform.description>
+  <VGE_Vacuum.description>Gérer les joints de pression, l'alimentation en oxygène et les systèmes de vide du Hellion.</VGE_Vacuum.description>
+  <VGE_Fuel.description>Gérer le stockage et la distribution d'astrocarburant à bord du Hellion.</VGE_Fuel.description>
+  <VGE_Combat.description>Gérer les armes et les systèmes de conduite de tir à bord du Hellion.</VGE_Combat.description>
+</LanguageData>

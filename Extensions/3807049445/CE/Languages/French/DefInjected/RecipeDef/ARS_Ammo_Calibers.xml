@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAmmo_ARS_545x18mm_FMJ.label>fabriquer 5.45x18mm (FMJ) x500</MakeAmmo_ARS_545x18mm_FMJ.label>
+  <MakeAmmo_ARS_545x18mm_FMJ.description>Fabriquer 500 5.45x18mm (FMJ).</MakeAmmo_ARS_545x18mm_FMJ.description>
+  <MakeAmmo_ARS_545x18mm_AP.label>fabriquer 5.45x18mm (AP) x500</MakeAmmo_ARS_545x18mm_AP.label>
+  <MakeAmmo_ARS_545x18mm_AP.description>Fabriquer 500 5.45x18mm (AP).</MakeAmmo_ARS_545x18mm_AP.description>
+  <MakeAmmo_ARS_545x18mm_HP.label>fabriquer 5.45x18mm (HP) x500</MakeAmmo_ARS_545x18mm_HP.label>
+  <MakeAmmo_ARS_545x18mm_HP.description>Fabriquer 500 5.45x18mm (HP).</MakeAmmo_ARS_545x18mm_HP.description>
+  <MakeAmmo_ARS_762x41mm_FMJ.label>fabriquer 7.62x41mm SP-4 (FMJ) x500</MakeAmmo_ARS_762x41mm_FMJ.label>
+  <MakeAmmo_ARS_762x41mm_FMJ.description>Fabriquer 500 7.62x41mm SP-4 (FMJ).</MakeAmmo_ARS_762x41mm_FMJ.description>
+  <MakeAmmo_ARS_762x41mm_AP.label>fabriquer 7.62x41mm SP-4 (AP) x500</MakeAmmo_ARS_762x41mm_AP.label>
+  <MakeAmmo_ARS_762x41mm_AP.description>Fabriquer 500 7.62x41mm SP-4 (AP).</MakeAmmo_ARS_762x41mm_AP.description>
+  <MakeAmmo_ARS_762x41mm_HP.label>fabriquer 7.62x41mm SP-4 (HP) x500</MakeAmmo_ARS_762x41mm_HP.label>
+  <MakeAmmo_ARS_762x41mm_HP.description>Fabriquer 500 7.62x41mm SP-4 (HP).</MakeAmmo_ARS_762x41mm_HP.description>
+  <MakeAmmo_ARS_762x38mmSP3_FMJ.label>fabriquer 7.62x38mm SP-3 (FMJ) x500</MakeAmmo_ARS_762x38mmSP3_FMJ.label>
+  <MakeAmmo_ARS_762x38mmSP3_FMJ.description>Fabriquer 500 7.62x38mm SP-3 (FMJ).</MakeAmmo_ARS_762x38mmSP3_FMJ.description>
+  <MakeAmmo_ARS_762x38mmSP3_AP.label>fabriquer 7.62x38mm SP-3 (AP) x500</MakeAmmo_ARS_762x38mmSP3_AP.label>
+  <MakeAmmo_ARS_762x38mmSP3_AP.description>Fabriquer 500 7.62x38mm SP-3 (AP).</MakeAmmo_ARS_762x38mmSP3_AP.description>
+  <MakeAmmo_ARS_762x38mmSP3_HP.label>fabriquer 7.62x38mm SP-3 (HP) x500</MakeAmmo_ARS_762x38mmSP3_HP.label>
+  <MakeAmmo_ARS_762x38mmSP3_HP.description>Fabriquer 500 7.62x38mm SP-3 (HP).</MakeAmmo_ARS_762x38mmSP3_HP.description>
+  <MakeAmmo_ARS_45x40mmDart_AP.label>fabriquer 4.5x40mm acier fléchette (AP) x500</MakeAmmo_ARS_45x40mmDart_AP.label>
+  <MakeAmmo_ARS_45x40mmDart_AP.description>Fabriquer 500 4.5x40mm acier fléchette (AP).</MakeAmmo_ARS_45x40mmDart_AP.description>
+  <MakeAmmo_ARS_566x39mmMPS_Sabot.label>fabriquer 5.66x39mm MPS fléchette (Sabot) x500</MakeAmmo_ARS_566x39mmMPS_Sabot.label>
+  <MakeAmmo_ARS_566x39mmMPS_Sabot.description>Fabriquer 500 5.66x39mm MPS fléchette (Sabot).</MakeAmmo_ARS_566x39mmMPS_Sabot.description>
+  <MakeAmmo_ARS_762x3mmFlechette_Sabot.label>fabriquer 7.62/3.0mm fléchette (Sabot) x500</MakeAmmo_ARS_762x3mmFlechette_Sabot.label>
+  <MakeAmmo_ARS_762x3mmFlechette_Sabot.description>Fabriquer 500 7.62/3.0mm fléchette (Sabot).</MakeAmmo_ARS_762x3mmFlechette_Sabot.description>
+  <MakeAmmo_ARS_762x63mmPZ_FMJ.label>fabriquer 7.62x63mm PZ (FMJ) x500</MakeAmmo_ARS_762x63mmPZ_FMJ.label>
+  <MakeAmmo_ARS_762x63mmPZ_FMJ.description>Fabriquer 500 7.62x63mm PZ (FMJ).</MakeAmmo_ARS_762x63mmPZ_FMJ.description>
+  <MakeAmmo_ARS_762x63mmPZ_AP.label>fabriquer 7.62x63mm PZ (AP) x500</MakeAmmo_ARS_762x63mmPZ_AP.label>
+  <MakeAmmo_ARS_762x63mmPZ_AP.description>Fabriquer 500 7.62x63mm PZ (AP).</MakeAmmo_ARS_762x63mmPZ_AP.description>
+  <MakeAmmo_ARS_93x64mm_FMJ.label>fabriquer 9.3x64mm 7N33 (FMJ) x500</MakeAmmo_ARS_93x64mm_FMJ.label>
+  <MakeAmmo_ARS_93x64mm_FMJ.description>Fabriquer 500 9.3x64mm 7N33 (FMJ).</MakeAmmo_ARS_93x64mm_FMJ.description>
+  <MakeAmmo_ARS_93x64mm_AP.label>fabriquer 9.3x64mm 7N33 (AP) x500</MakeAmmo_ARS_93x64mm_AP.label>
+  <MakeAmmo_ARS_93x64mm_AP.description>Fabriquer 500 9.3x64mm 7N33 (AP).</MakeAmmo_ARS_93x64mm_AP.description>
+  <MakeAmmo_ARS_93x64mm_HP.label>fabriquer 9.3x64mm 7N33 (HP) x500</MakeAmmo_ARS_93x64mm_HP.label>
+  <MakeAmmo_ARS_93x64mm_HP.description>Fabriquer 500 9.3x64mm 7N33 (HP).</MakeAmmo_ARS_93x64mm_HP.description>
+  <MakeAmmo_ARS_125x40mm_FMJ.label>fabriquer 12.5x40mm (FMJ) x500</MakeAmmo_ARS_125x40mm_FMJ.label>
+  <MakeAmmo_ARS_125x40mm_FMJ.description>Fabriquer 500 12.5x40mm (FMJ).</MakeAmmo_ARS_125x40mm_FMJ.description>
+  <MakeAmmo_ARS_125x40mm_AP.label>fabriquer 12.5x40mm (AP) x500</MakeAmmo_ARS_125x40mm_AP.label>
+  <MakeAmmo_ARS_125x40mm_AP.description>Fabriquer 500 12.5x40mm (AP).</MakeAmmo_ARS_125x40mm_AP.description>
+  <MakeAmmo_ARS_125x40mm_HP.label>fabriquer 12.5x40mm (HP) x500</MakeAmmo_ARS_125x40mm_HP.label>
+  <MakeAmmo_ARS_125x40mm_HP.description>Fabriquer 500 12.5x40mm (HP).</MakeAmmo_ARS_125x40mm_HP.description>
+  <MakeAmmo_ARS_125x70mm_Buck.label>fabriquer 12.5x70mm (chevrotine) x300</MakeAmmo_ARS_125x70mm_Buck.label>
+  <MakeAmmo_ARS_125x70mm_Buck.description>Fabriquer 300 12.5x70mm (chevrotine).</MakeAmmo_ARS_125x70mm_Buck.description>
+  <MakeAmmo_ARS_125x70mm_Slug.label>fabriquer 12.5x70mm (balle) x300</MakeAmmo_ARS_125x70mm_Slug.label>
+  <MakeAmmo_ARS_125x70mm_Slug.description>Fabriquer 300 12.5x70mm (balle).</MakeAmmo_ARS_125x70mm_Slug.description>
+</LanguageData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VTE.EmpireBankName>Vault 79</VTE.EmpireBankName>
+  <VTE.BaseBankName>Friendly Lending Company — antenne de {FACTION_name}</VTE.BaseBankName>
+  <VTE.OutlanderCivilBankName>Friendly Lending Company — antenne de {FACTION_name}</VTE.OutlanderCivilBankName>
+  <VTE.BreakdownBankDesc>Friendly Lending Company prélève ses frais de gestion actuels sur chaque virement.</VTE.BreakdownBankDesc>
+  <VTE.BreakdownStockMarketDesc>Acheter des parts de caravanes, des participations dans des entreprises ou des obligations publiques est risqué. Suivez le fil d'actualités des friches avant d'engager vos fonds.</VTE.BreakdownStockMarketDesc>
+  <VTE.QuickCashLoan>Prêt d'urgence de Friendly Lending</VTE.QuickCashLoan>
+  <VTE.ShortTermLoan>Prêt de caravane à court terme</VTE.ShortTermLoan>
+  <VTE.LongTermLoan>Prêt commercial à long terme</VTE.LongTermLoan>
+  <VTE.MortgageLoan>Prêt de développement de colonie</VTE.MortgageLoan>
+  <VTE.LoanExplanation>Les prêts de Friendly Lending Company ne peuvent être remboursés qu'à partir du solde d'un compte. Gardez suffisamment de fonds sur le compte lorsque l'échéance arrive, ou remboursez par anticipation. Un solde impayé peut coûter de la bienveillance auprès de la faction marraine et faire venir les recouvreurs de Friendly Lending jusqu'au règlement du compte.</VTE.LoanExplanation>
+  <VTE.IndebtedMessage>Les relations avec {FACTION_name} sont devenues hostiles après que Friendly Lending Company a déclaré votre compte en retard de paiement.</VTE.IndebtedMessage>
+  <VTE.CollectorsLabel>Recouvreurs de Friendly Lending</VTE.CollectorsLabel>
+  <VTE.CollectorsText>Une équipe de recouvrement de Friendly Lending Company vient d'arriver à proximité.
+
+Elle a été engagée au nom de {FACTION_name} pour recouvrer votre dette échue.</VTE.CollectorsText>
+  <VTE.CollectorsTextPartTwo>Réglez la dette via un terminal de commerce pour empêcher Friendly Lending Company d'envoyer une nouvelle équipe.</VTE.CollectorsTextPartTwo>
+  <VTE.LocalNews>Fil d'actualités des friches</VTE.LocalNews>
+  <VTE.OnlyTradeShips>Seules les valeurs cotées</VTE.OnlyTradeShips>
+  <VTE.OpenStockMarket>Ouvrir la bourse des friches</VTE.OpenStockMarket>
+  <VTE.Company>Émetteur / entreprise</VTE.Company>
+  <VTE.SharesHeld>Participations</VTE.SharesHeld>
+  <VTE.Shares>Unités</VTE.Shares>
+  <VTE.SharesTransactionHeader>Les nombres positifs achètent.
+Les nombres négatifs vendent.</VTE.SharesTransactionHeader>
+  <VTE.BankDepositsToSpend>Sélectionner les comptes prêteurs pour payer les titres</VTE.BankDepositsToSpend>
+  <VTE.BankDepositsToGain>Sélectionner les comptes prêteurs pour recevoir le produit de la vente</VTE.BankDepositsToGain>
+  <VTE.ContractFullfilledDesc>Un contrat a été rempli par une partie intéressée. Les fonds requis lui ont été transférés.
+Une livraison sécurisée arrive avec :</VTE.ContractFullfilledDesc>
+  <VTE.NPCContractFulfilmentChanceMultiplier>Multiplicateur de réalisation des contrats des négociants extérieurs :</VTE.NPCContractFulfilmentChanceMultiplier>
+  <VTE.MaxNPCContractCount>Nombre maximal de contrats disponibles avec les négociants extérieurs :</VTE.MaxNPCContractCount>
+  <VTE.MaxCompanyCount>Nombre maximal de valeurs cotées (plafond FIP : 17) :</VTE.MaxCompanyCount>
+  <VTE.MaximumMarkupOnNPCContract>Majoration maximale sur les contrats des négociants extérieurs :</VTE.MaximumMarkupOnNPCContract>
+</LanguageData>

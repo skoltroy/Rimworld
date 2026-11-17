@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_AccuracyGlobal.description>Précision lors des tirs sur des cibles de la carte du monde. Multipliée par la compétence de visée Hellion de l'opérateur.</VGE_AccuracyGlobal.description>
+  <VGE_GlobalMaintenanceSensitivity.description>Un décalage appliqué à la sensibilité à l'entretien du moteur Hellion et de tous les systèmes qui lui sont reliés.</VGE_GlobalMaintenanceSensitivity.description>
+  <VGE_GravPowerAdjacency.description>Un facteur sur la production d'énergie, déterminé par le nombre de cellules d'énergie à cœur de réacteur ou de bobines adjacentes.</VGE_GravPowerAdjacency.description>
+  <VGE_GravshipResearch.label>recherche sur les systèmes Hellion</VGE_GravshipResearch.label>
+  <VGE_GravshipResearch.description>La capacité de cette personne à interpréter les données de vol et à comprendre les systèmes aérospatiaux expérimentaux du Hellion.</VGE_GravshipResearch.description>
+  <VGE_GravshipMaintenance.label>entretien du Hellion</VGE_GravshipMaintenance.label>
+  <VGE_GravshipMaintenance.description>L'efficacité avec laquelle cette personne peut entretenir les composants du Hellion.</VGE_GravshipMaintenance.description>
+  <VGE_GravshipTargeting.label>visée du Hellion</VGE_GravshipTargeting.label>
+  <VGE_GravshipTargeting.description>La précision avec laquelle cette personne peut utiliser un terminal de visée et diriger les systèmes d'armes du Hellion.</VGE_GravshipTargeting.description>
+  <VGE_SubstructureSupportMultiplier.description>Un multiplicateur de la quantité maximale de tôle de pont Hellion que la cellule peut supporter.</VGE_SubstructureSupportMultiplier.description>
+</LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Bison.label>bisotope</Bison.label>
+  <Bison.labelPlural>bisotopes</Bison.labelPlural>
+  <Bison.labelMale>taureau bisotope</Bison.labelMale>
+  <Bison.labelMalePlural>taureaux bisotopes</Bison.labelMalePlural>
+  <Bison.labelFemale>vache bisotope</Bison.labelFemale>
+  <Bison.labelFemalePlural>vaches bisotopes</Bison.labelFemalePlural>
+  <Bison.lifeStages.0.label>veau bisotope</Bison.lifeStages.0.label>
+  <Bison.lifeStages.0.labelPlural>veaux bisotopes</Bison.lifeStages.0.labelPlural>
+  <Bison.lifeStages.1.label>bisotope d'un an</Bison.lifeStages.1.label>
+  <Bison.lifeStages.1.labelPlural>bisotopes d'un an</Bison.lifeStages.1.labelPlural>
+  <WildBoar.label>radhog</WildBoar.label>
+  <Muffalo.label>rat de bât</Muffalo.label>
+  <Muffalo.labelPlural>rats de bât</Muffalo.labelPlural>
+  <Muffalo.lifeStages.0.label>petit de rat de bât</Muffalo.lifeStages.0.label>
+  <Muffalo.lifeStages.0.labelPlural>petits de rat de bât</Muffalo.lifeStages.0.labelPlural>
+  <Muffalo.lifeStages.1.label>jeune rat de bât</Muffalo.lifeStages.1.label>
+  <Muffalo.lifeStages.1.labelPlural>jeunes rats de bât</Muffalo.lifeStages.1.labelPlural>
+  <Muffalo.lifeStages.2.label>rat de bât</Muffalo.lifeStages.2.label>
+  <Muffalo.lifeStages.2.labelPlural>rats de bât</Muffalo.lifeStages.2.labelPlural>
+  <Muffalo.lifeStages.2.labelMale>rat de bât mâle</Muffalo.lifeStages.2.labelMale>
+  <Muffalo.lifeStages.2.labelMalePlural>rats de bât mâles</Muffalo.lifeStages.2.labelMalePlural>
+  <Muffalo.lifeStages.2.labelFemale>rat de bât femelle</Muffalo.lifeStages.2.labelFemale>
+  <Muffalo.lifeStages.2.labelFemalePlural>rats de bât femelles</Muffalo.lifeStages.2.labelFemalePlural>
+  <Cobra.label>mocassin d'eau</Cobra.label>
+</LanguageData>

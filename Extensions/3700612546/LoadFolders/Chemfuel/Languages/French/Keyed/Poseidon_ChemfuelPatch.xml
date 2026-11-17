@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <VCHE_ExtractChemfuel>Extraire 150 pétrole</VCHE_ExtractChemfuel>
+  <VCHE_ExtractChemfuelDesc>Extrait 150 pétrole du réservoir. Un colon viendra l'extraire.</VCHE_ExtractChemfuelDesc>
+  <VCHE_ChemValve>Active ou désactive le débit de pétrole.</VCHE_ChemValve>
+  <VCHE_ChemValveDesc>Active ou désactive le débit de pétrole. Un colon viendra ouvrir ou fermer la vanne.</VCHE_ChemValveDesc>
+</LanguageData>

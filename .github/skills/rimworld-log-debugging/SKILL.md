@@ -21,9 +21,20 @@ Use this skill when the user reports a RimWorld error, a translation warning, a 
 - Compare source and translation keys and preserve placeholders, markup, and tokens. A valid XML file with matching keys does not by itself prove a translation warning is unrelated; use the translation report to identify the actual entries.
 - Separate confirmed findings from hypotheses. If a snippet does not identify the mod, say so and request the missing report/log instead of guessing.
 
+## Patterns confirmed in past sessions
+
+- **Non-mod folders in `Mods`**: a folder with only `.rsc` files is a scenario, not a mod. A "Mod is missing supported versions list in About.xml" warning can come from such a folder, from a folder without `About.xml`, or from a real mod. Check which before blaming a mod; all `About.xml` files may already list the version.
+- **Stray debug DLLs**: search the DLL strings for hard-coded user paths (for example `C:\Users\<name>\...`). A debug tool left in a published mod can throw on the user's machine; report it before removing anything.
+- **Def name collisions**: a mod that uses `Name="X"` identical to a vanilla or other-mod def, combined with a patch on `ThingDef[@Name="X"]`, changes several defs at once and can cause missing textures. Check every `Name` attribute the patch matches.
+- **Wrong Def type in a reference**: a `soundCast` pointing to a ThingDef (a gun) fails; confirm a SoundDef exists in `Data\<DLC>\Defs` before writing a reference.
+- **Vanilla-owned errors**: an error on a vanilla def (for example a pawn kind's `weaponMoney` against its weapon tags) is fixed by a small named local patch mod in both trees, not by editing vanilla.
+- **Two copies of the same mod**: the game copy can hold an older partial translation while the backup holds the complete one. Compare key counts in both trees before syncing and sync in the direction that keeps the most valid content.
+- **Removing a mod**: when asked, back up the folder and its `ModsConfig.xml` line first, then remove the line and the folder, and report that the deletion is permanent.
+
 ## Safe remediation
 
 - Make a minimal change only when the relevant source and failing translation/definition have been identified.
 - Validate XML, key parity, placeholder parity, and DefInjected target names after any localization edit.
 - Do not modify saves, delete logs, alter load order, or change unrelated mods as a diagnostic shortcut.
+- Never run `git commit` or `git push`. Report touched paths and leave the commit to the user.
 - Protect privacy: analyze logs locally, avoid external upload, and warn the user that logs may contain local usernames or mod details before they share them.

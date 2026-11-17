@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WNG_WraithFeeding_Forbidden.label>interdit</WNG_WraithFeeding_Forbidden.label>
+  <WNG_WraithFeeding_Forbidden.description>Prendre la Force vitale d'un autre être vivant est une violation inacceptable, quelle que soit la cible.</WNG_WraithFeeding_Forbidden.description>
+  <WNG_WraithFeeding_EnemiesOnly.label>ennemis uniquement</WNG_WraithFeeding_EnemiesOnly.label>
+  <WNG_WraithFeeding_EnemiesOnly.description>La Force vitale peut être prise aux ennemis et aux prisonniers de la colonie, mais s'alimenter sur d'autres est une faute.</WNG_WraithFeeding_EnemiesOnly.description>
+  <WNG_WraithFeeding_Necessary.label>nécessaire</WNG_WraithFeeding_Necessary.label>
+  <WNG_WraithFeeding_Necessary.description>L'alimentation Wraith est une nécessité biologique. Elle doit se faire sans célébration ni honte.</WNG_WraithFeeding_Necessary.description>
+  <WNG_WraithFeeding_Honoured.label>honorée</WNG_WraithFeeding_Honoured.label>
+  <WNG_WraithFeeding_Honoured.description>Prendre la Force vitale est une expression honorée de la nature et de la continuité Wraith.</WNG_WraithFeeding_Honoured.description>
+  <WNG_WraithFeeding_Sacred.label>sacrée</WNG_WraithFeeding_Sacred.label>
+  <WNG_WraithFeeding_Sacred.description>Le transfert de Force vitale est sacré : la vie traverse le prédateur et renforce la ruche.</WNG_WraithFeeding_Sacred.description>
+  <WNG_NaniteIntegration_Forbidden.label>interdite</WNG_NaniteIntegration_Forbidden.label>
+  <WNG_NaniteIntegration_Forbidden.description>Reconstruire des personnes en êtres synthétiques nanitiques viole la frontière qui sépare l'organisme de la machine.</WNG_NaniteIntegration_Forbidden.description>
+  <WNG_NaniteIntegration_Controlled.label>contrôlée uniquement</WNG_NaniteIntegration_Controlled.label>
+  <WNG_NaniteIntegration_Controlled.description>La reconstruction nanitique est acceptable lorsqu'elle est délibérément contrôlée, mais elle ne doit pas être considérée comme intrinsèquement souhaitable.</WNG_NaniteIntegration_Controlled.description>
+  <WNG_NaniteIntegration_Desired.label>souhaitée</WNG_NaniteIntegration_Desired.label>
+  <WNG_NaniteIntegration_Desired.description>L'intégration nanitique est une continuation précieuse de la vie et doit être poursuivie délibérément.</WNG_NaniteIntegration_Desired.description>
+  <WNG_NaniteIntegration_Transcendent.label>transcendante</WNG_NaniteIntegration_Transcendent.label>
+  <WNG_NaniteIntegration_Transcendent.description>Continuer comme un schéma vivant exact sous forme nanitique est un état d'existence supérieur.</WNG_NaniteIntegration_Transcendent.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AdvancedGravtech.description>Construire des améliorations avancées du Hellion et des systèmes de soutien.</AdvancedGravtech.description>
+  <AdvancedGravtech.label>systèmes Hellion avancés</AdvancedGravtech.label>
+  <BasicGravtech.description>Reconstruire le Hellion et l'utiliser pour voyager sur la planète. Sans mât d'amarrage, le décollage du Hellion abandonnera votre carte actuelle.</BasicGravtech.description>
+  <BasicGravtech.label>cellule du Hellion</BasicGravtech.label>
+  <StandardGravtech.description>Construire des composants et des systèmes de vol Hellion plus complexes.</StandardGravtech.description>
+  <StandardGravtech.label>systèmes Hellion</StandardGravtech.label>
+</LanguageData>

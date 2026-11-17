@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Renomme le Name pour que ReBuild (ThingDef[@Name="Wall"]) ne le cible plus, et restaure sa texture d'origine -->
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/ThingDef[defName="FakerockWall"]</xpath>
+		<attribute>Name</attribute>
+		<value>FakerockWallBase</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FakerockWall"]/graphicData/texPath</xpath>
+		<value><texPath>Things/Building/Linked/Rock_Atlas</texPath></value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="FakerockWall"]/uiIconPath</xpath>
+		<value><uiIconPath>Things/Building/fake_rock_icon</uiIconPath></value>
+	</Operation>
+</Patch>

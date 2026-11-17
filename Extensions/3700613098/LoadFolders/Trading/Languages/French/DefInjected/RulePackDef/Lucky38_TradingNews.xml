@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VTE_FactionInfestationLoot.rulePack.rulesStrings.0>root-&gt;[FACTION_name] a nettoyé plusieurs nids de fourmis géantes et vend le nectar d'ant récupéré.</VTE_FactionInfestationLoot.rulePack.rulesStrings.0>
+  <VTE_FactionInfestationLoot.rulePack.rulesStrings.1>root-&gt;[FACTION_name] a pillé des nids d'insectes mutants et mettra les sécrétions récupérées en vente sur le marché.</VTE_FactionInfestationLoot.rulePack.rulesStrings.1>
+  <VTE_FactionInfestationLoot.rulePack.rulesStrings.2>root-&gt;[FACTION_name] a sécurisé une grande quantité de nectar d'ant et compte le vendre.</VTE_FactionInfestationLoot.rulePack.rulesStrings.2>
+  <VTE_SettlementAlphabeavers.rulePack.rulesStrings.0>root-&gt;[SETTLEMENT_label] lutte contre une meute de castors mutants et achète du bois en gros.</VTE_SettlementAlphabeavers.rulePack.rulesStrings.0>
+  <VTE_SettlementAlphabeaversDealtWith.rulePack.rulesStrings.0>root-&gt;[SETTLEMENT_label] a repoussé les castors mutants et vend son surplus de bois d'œuvre.</VTE_SettlementAlphabeaversDealtWith.rulePack.rulesStrings.0>
+  <VTE_CompanyGrowth.rulePack.rulesStrings.0>root-&gt;La demande pour les participations de [COMPANY] augmente après un bulletin de marché favorable. Le cours devrait monter avec le temps.</VTE_CompanyGrowth.rulePack.rulesStrings.0>
+  <VTE_NewShipPurchased.rulePack.rulesStrings.0>root-&gt;[COMPANY] a obtenu une nouvelle flotte de caravanes et une nouvelle route commerciale. Le cours devrait monter avec le temps.</VTE_NewShipPurchased.rulePack.rulesStrings.0>
+  <VTE_CompanyDecline.rulePack.rulesStrings.0>root-&gt;Un bulletin de marché médiocre a réduit la confiance envers [COMPANY]. Le cours devrait baisser avec le temps.</VTE_CompanyDecline.rulePack.rulesStrings.0>
+  <VTE_ShipCrashed.rulePack.rulesStrings.0>root-&gt;Une caravane importante de [COMPANY] a été détruite sur la route. Le cours devrait chuter.</VTE_ShipCrashed.rulePack.rulesStrings.0>
+  <VTE_FearOfBankruptcy.rulePack.rulesStrings.0>root-&gt;Des rumeurs annoncent la fermeture, la saisie ou le défaut de paiement de [COMPANY]. Le cours pourrait s'effondrer ou bondir sous l'effet de la spéculation.</VTE_FearOfBankruptcy.rulePack.rulesStrings.0>
+  <VTE_MediocreEarnings.rulePack.rulesStrings.0>root-&gt;Le dernier bulletin de marché de [COMPANY] est sans surprise. Le cours devrait évoluer latéralement.</VTE_MediocreEarnings.rulePack.rulesStrings.0>
+  <VTE_DecentEarnings.rulePack.rulesStrings.0>root-&gt;Le dernier bulletin de marché de [COMPANY] est modérément favorable. Le cours devrait légèrement progresser.</VTE_DecentEarnings.rulePack.rulesStrings.0>
+  <VTE_GoodEarnings.rulePack.rulesStrings.0>root-&gt;Le dernier bulletin de marché de [COMPANY] est favorable. Le cours devrait légèrement monter.</VTE_GoodEarnings.rulePack.rulesStrings.0>
+  <VTE_GreatEarnings.rulePack.rulesStrings.0>root-&gt;Les négociants réagissent bien au dernier bulletin de [COMPANY]. Le cours devrait monter.</VTE_GreatEarnings.rulePack.rulesStrings.0>
+  <VTE_ExcellentEarnings.rulePack.rulesStrings.0>root-&gt;Le dernier bulletin de [COMPANY] a suscité une forte demande. Le cours devrait bondir.</VTE_ExcellentEarnings.rulePack.rulesStrings.0>
+  <VTE_OutstandingEarnings.rulePack.rulesStrings.0>root-&gt;La bourse des friches se précipite pour acheter des participations de [COMPANY] après un bulletin exceptionnel.</VTE_OutstandingEarnings.rulePack.rulesStrings.0>
+  <VTE_BelowAverageEarnings.rulePack.rulesStrings.0>root-&gt;Le dernier bulletin de marché de [COMPANY] est en deçà des attentes. Le cours devrait glisser.</VTE_BelowAverageEarnings.rulePack.rulesStrings.0>
+  <VTE_SubParEarnings.rulePack.rulesStrings.0>root-&gt;La confiance envers [COMPANY] s'est affaiblie après un mauvais bulletin. Le cours devrait légèrement baisser.</VTE_SubParEarnings.rulePack.rulesStrings.0>
+  <VTE_BadEarnings.rulePack.rulesStrings.0>root-&gt;Le dernier bulletin de marché de [COMPANY] est mauvais. Le cours devrait baisser.</VTE_BadEarnings.rulePack.rulesStrings.0>
+  <VTE_VeryBadEarnings.rulePack.rulesStrings.0>root-&gt;Un très mauvais bulletin de [COMPANY] a déclenché des ventes massives. Le cours devrait chuter fortement.</VTE_VeryBadEarnings.rulePack.rulesStrings.0>
+  <VTE_TerribleEarnings.rulePack.rulesStrings.0>root-&gt;Le dernier bulletin de [COMPANY] a provoqué la panique à la bourse des friches. Le cours devrait s'effondrer.</VTE_TerribleEarnings.rulePack.rulesStrings.0>
+</LanguageData>

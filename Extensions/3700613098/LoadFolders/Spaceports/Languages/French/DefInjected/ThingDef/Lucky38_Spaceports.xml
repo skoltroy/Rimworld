@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Apparel_ArchoShuttle.description>Une fusée de signalisation archotech bizarre, qui fait surgir un vertibird de nulle part. Quelle que soit l'intelligence qui répond, elle accepte d'offrir une extraction miraculeuse.</Apparel_ArchoShuttle.description>
+  <Apparel_ArchoShuttle.label>fusée de signalisation de vertibird</Apparel_ArchoShuttle.label>
+  <Apparel_ArchoShuttle.verbs.0.label>tirer la fusée de signalisation</Apparel_ArchoShuttle.verbs.0.label>
+  <Apparel_ShuttleComm.description>Un transpondeur de terrain à usage unique, utilisé pour demander l'enlèvement par vertibird de la Confrérie.</Apparel_ShuttleComm.description>
+  <Apparel_ShuttleComm.label>transpondeur de terrain de la Confrérie</Apparel_ShuttleComm.label>
+  <Apparel_ShuttleComm.verbs.0.label>demander l'enlèvement par vertibird</Apparel_ShuttleComm.verbs.0.label>
+  <Spaceports_Beacon.description>Une balise IFF longue portée et un mât de contrôle du trafic, utilisés par les cellules de la Confrérie et leurs alliés de confiance pour signaler une approche sûre aux vertibirds, coordonner les atterrissages et diffuser la disponibilité du ravitaillement.</Spaceports_Beacon.description>
+  <Spaceports_Beacon.label>balise de vol de la Confrérie</Spaceports_Beacon.label>
+  <Spaceports_FuelDispenser.description>Un terminal de service qui vend du carburant d'aviation aux vertibirds de la Confrérie et aux autres appareils autorisés. Il doit être placé à côté d'une aire de vertibird ; une fois le paiement vérifié, les pompes de l'aire puisent le carburant dans les réservoirs du même réseau électrique.</Spaceports_FuelDispenser.description>
+  <Spaceports_FuelDispenser.label>terminal de ravitaillement de vertibird</Spaceports_FuelDispenser.label>
+  <Spaceports_FuelProcessor.description>Un processeur industriel qui raffine une matière première volatile et de l'eau en carburant d'aviation pour les vertibirds de la Confrérie. Il fonctionne mieux avec un accès à l'eau et transforme le surplus de pétrole en stock de vol commercialisable.</Spaceports_FuelProcessor.description>
+  <Spaceports_FuelProcessor.label>processeur de carburant d'aviation</Spaceports_FuelProcessor.label>
+  <Spaceports_FuelTank.description>Un réservoir de stockage réfrigéré pour le carburant d'aviation traité. Gardez-le alimenté, sinon le stock commence à s'évaporer.</Spaceports_FuelTank.description>
+  <Spaceports_FuelTank.label>réservoir de carburant d'aviation</Spaceports_FuelTank.label>
+  <Spaceports_ShuttleLandingPad.description>Une aire d'atterrissage renforcée, dotée de feux de guidage, de raccords de ravitaillement et d'un transpondeur chiffré pour les vertibirds de la Confrérie. Gardez-la alimentée et dégagée : les patrouilles, les intendants, les marchands et les passagers alliés pourront y atterrir.</Spaceports_ShuttleLandingPad.description>
+  <Spaceports_ShuttleLandingPad.label>aire de vertibird de la Confrérie</Spaceports_ShuttleLandingPad.label>
+  <Spaceports_VisitorSpot.description>Désigne un point configurable où le personnel de passage de la Confrérie, les marchands et les passagers alliés se rassembleront après l'atterrissage. Si aucun point valide n'est trouvé, ils resteront près de leur vertibird.</Spaceports_VisitorSpot.description>
+  <Spaceports_VisitorSpot.label>point de rassemblement de vertibird</Spaceports_VisitorSpot.label>
+</LanguageData>

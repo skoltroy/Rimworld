@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Gravship.helpText>Construisez le Hellion autour de votre moteur Hellion. Au décollage, l'appareil emportera toute la structure reliée vers une nouvelle carte.
+Le décollage du Hellion détruit la carte actuelle. Vous pouvez construire un mât d'amarrage pour l'éviter.
+Pour décoller, le Hellion a besoin :
+     - d'une console de cockpit
+     - de réservoirs de carburant
+     - de propulseurs VTOL
+Recherchez « cellule du Hellion » pour les débloquer.
+Vous ne pouvez construire qu'une quantité limitée de tôle de pont. Pour augmenter cette limite, trouvez des cœurs de réacteur et de la saturnite.
+La tôle de pont Hellion peut être retirée à l'aide du désignateur « retirer la fondation ».
+Votre moteur Hellion détectera occasionnellement du matériel d'avant-guerre compatible sur la planète et le marquera sur votre carte du monde.</Gravship.helpText>
+  <Gravship.label>Hellion</Gravship.label>
+  <Orbit.helpText>Sur la carte du monde, utilisez les boutons « voir la planète » et « voir l'orbite » pour basculer entre les vues planétaire et orbitale.
+Vous pouvez voyager vers des lieux orbitaux à l'aide de capsules de transport, de navettes ou du Hellion.
+Les colons ont besoin de combinaisons spatiales ou d'une armure avancée pour survivre dans le vide spatial.
+Si vous utilisez le Hellion, assurez-vous qu'il est bien chauffé. Construisez des pompes à oxygène pour maintenir un air respirable, et enfermez l'appareil avec des murs et des portes étanches. Évitez d'utiliser du bois ou de la pierre pour les murs et les portes extérieurs.
+Planifiez votre voyage de retour avant de décoller. Vivre longtemps en orbite est très difficile. Rester bloqué en orbite est mortel.</Orbit.helpText>
+</LanguageData>

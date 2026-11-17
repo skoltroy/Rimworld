@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GR_GeneticAlteration.description>Récupérez les méthodes de traitement tissulaire de West Tek et construisez le matériel d'extraction nécessaire pour décomposer des sujets en modèles de souches utilisables.</GR_GeneticAlteration.description>
+  <GR_GeneticAlteration.label>altération tissulaire West Tek</GR_GeneticAlteration.label>
+  <GR_GeneticCompatibility.label>compatibilité des souches humaines</GR_GeneticCompatibility.label>
+  <GR_GeneticDuplication.description>Dupliquez les modèles de souches éprouvés et conservez les précieux génomes West Tek pour un usage répété.</GR_GeneticDuplication.description>
+  <GR_GeneticDuplication.label>duplication de souches</GR_GeneticDuplication.label>
+  <GR_GeneticEngineering.description>Utilisez les cuves, les incubateurs et les établis d'amplification de West Tek pour assembler de nouveaux organismes d'essai et des prototypes d'évolution forcée.</GR_GeneticEngineering.description>
+  <GR_GeneticEngineering.label>prototypage FEV</GR_GeneticEngineering.label>
+  <GR_GeneticMechahybridization.label>hybridation cybernétique</GR_GeneticMechahybridization.label>
+  <GR_HybridImplantology.label>greffe d'augmentations biologiques</GR_HybridImplantology.label>
+</LanguageData>

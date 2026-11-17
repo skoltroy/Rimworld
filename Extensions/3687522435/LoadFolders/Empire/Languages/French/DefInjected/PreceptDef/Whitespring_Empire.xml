@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFEE_BestowHonor.description>Décerne une distinction à un personnage méritant.</VFEE_BestowHonor.description>
+  <VFEE_BestowHonor.label>décerner une distinction</VFEE_BestowHonor.label>
+  <VFEE_BestowTitle.description>Confère un grade gouvernemental à un personnage méritant.</VFEE_BestowTitle.description>
+  <VFEE_BestowTitle.label>conférer un grade</VFEE_BestowTitle.label>
+  <VFEE_ParadePrecept.label>parade présidentielle</VFEE_ParadePrecept.label>
+  <VFEE_RoyalAddress.description>Lance une allocution présidentielle depuis l'estrade. {ORGANIZER_labelShort} prononce une allocution présidentielle depuis l'estrade. Si tout se passe bien, chaque participant classé gagnera un petit nombre de votes, et {ORGANIZER_labelShort} gagnera des votes pour chaque participant classé. Si cela se passe mal, le discours créera des tensions sociales et {ORGANIZER_labelShort} perdra des votes pour chaque participant classé. Le résultat dépend des capacités sociales de {ORGANIZER_labelShort}. Les hauts responsables de Whitespring présents dans la zone rejoindront l'allocution et compteront comme participants classés.</VFEE_RoyalAddress.description>
+  <VFEE_RoyalAddress.label>allocution présidentielle</VFEE_RoyalAddress.label>
+  <VFEE_ParadePrecept.description>Parade</VFEE_ParadePrecept.description>
+</LanguageData>

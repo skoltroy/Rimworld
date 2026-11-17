@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_EmergencyLaunch.description>Utiliser la console du cockpit pour lancer immédiatement un décollage d'urgence. Le Hellion atterrira à un emplacement aléatoire à proximité et subira un incident garanti ; toute personne hors de la cellule sera laissée derrière.</VGE_EmergencyLaunch.description>
+  <VGE_AnalyzeTheStars.description>Utiliser un télescope et les cartes survivantes de l'USSA pour identifier un nouvel emplacement orbital à proximité.</VGE_AnalyzeTheStars.description>
+  <VGE_EngineeringCommand.description>Coordonner l'équipage voisin pendant la construction et l'entretien du Hellion. Ce commandement améliore leur travail tant que l'effet reste actif pendant les 24 prochaines heures.</VGE_EngineeringCommand.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRecyclingE_LargePollutionPump.description>Une grande pompe de récupération des eaux souterraines Poseidon, qui élimine progressivement la pollution d'un vaste terrain et condense les déchets récupérés en paquets toxiques transportables.</VRecyclingE_LargePollutionPump.description>
+  <VRecyclingE_LargePollutionPump.label>pompe de récupération Poseidon</VRecyclingE_LargePollutionPump.label>
+  <VRecyclingE_PollutionFastPump.description>Une pompe de récupération compacte à forte consommation, qui nettoie rapidement les terrains pollués en brûlant beaucoup d'énergie du réseau et en conditionnant les contaminants récupérés en paquets de déchets toxiques.</VRecyclingE_PollutionFastPump.description>
+  <VRecyclingE_PollutionFastPump.label>pompe de récupération à forte consommation</VRecyclingE_PollutionFastPump.label>
+  <VRecyclingE_WasteCrate.description>Un casier industriel scellé, pour contenir les déchets toxiques et les paquets dangereux récupérés sans qu'ils ne fuient dans l'environnement local.</VRecyclingE_WasteCrate.description>
+  <VRecyclingE_WasteCrate.label>casier à déchets scellé</VRecyclingE_WasteCrate.label>
+</LanguageData>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Speech.description>Lance une allocution présidentielle depuis le fauteuil présidentiel. Tous les colons viendront écouter. Si tout se passe bien, les auditeurs se sentiront inspirés et gagneront du respect pour l'orateur. Si cela se passe mal, l'allocution causera des dégâts sociaux. Le résultat dépend des capacités sociales de l'orateur.</Speech.description>
+  <Speech.label>allocution présidentielle</Speech.label>
+</LanguageData>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VQE_TheGeneral.description>[PAWN_nameDef] a coordonné l'opération Deadlife depuis un bunker de continuité enfoui, convaincu qu'un monde en ruine pouvait encore être gouverné si les bonnes personnes tenaient bon en dessous. Quand les bombes sont tombées, [PAWN_pronoun] a scellé le complexe de commandement, rationné les survivants et continué de donner des ordres longtemps après la mort de la chaîne de commandement. Les radiations, l'âge et les traitements de conservation d'urgence ont fait de [PAWN_objective] une goule pensante en uniforme d'apparat, tenue à moitié par la médecine et à moitié par l'obsession. [PAWN_pronoun] attend toujours dans la salle de contrôle, prêt à donner le dernier ordre de lancement.</VQE_TheGeneral.description>
+  <VQE_TheGeneral.title>le superviseur</VQE_TheGeneral.title>
+  <VQE_TheGeneral.titleShort>superviseur</VQE_TheGeneral.titleShort>
+</LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VEE_Whiteout.label>hiver nucléaire</VEE_Whiteout.label>
+  <VEE_Scorch.label>été brûlant</VEE_Scorch.label>
+  <VEE_PsychicRain.label>tempête radioactive temporelle</VEE_PsychicRain.label>
+  <VEE_PsychicRain.letterLabel>Tempête radioactive temporelle</VEE_PsychicRain.letterLabel>
+  <VEE_PsychicRain.letterText>Une anomalie météorologique instable de l'Ancien Monde a fait remonter une tempête radioactive temporelle dans l'atmosphère.
+La tempête fouette la terre d'une pluie étrange et luminescente qui déforme la chair comme le temps. Quiconque reste à découvert vieillira à une allure effrayante.
+Cela peut durer entre une saison et plusieurs années.</VEE_PsychicRain.letterText>
+  <VEE_LongNight.label>ciel de cendres</VEE_LongNight.label>
+  <VEE_LongNight.letterLabel>Ciel de cendres</VEE_LongNight.letterLabel>
+  <VEE_LongNight.letterText>Des débris orbitaux et de la cendre noire ont étouffé le soleil, plongeant la région dans un long crépuscule ruiné.
+Avec le ciel assombri et une visibilité détruite, les factions des friches profitent de la confusion pour piller, se déplacer et régler leurs comptes sous le couvert de la pénombre.
+Cela peut durer entre une saison et plusieurs années.</VEE_LongNight.letterText>
+  <VEE_PsychicBloom.label>floraison mutante</VEE_PsychicBloom.label>
+  <VEE_PsychicBloom.letterLabel>Floraison mutante</VEE_PsychicBloom.letterLabel>
+  <VEE_PsychicBloom.letterText>Une vague de spores instables et de pollen irradié a remodelé la flore locale presque du jour au lendemain.
+Le ciel prend des couleurs étranges tandis que des fleurs mutantes envahissent champs, routes et ruines. Les colons se sentent étrangement euphoriques, mais la végétation envahissante peut étouffer vos cultures si on la laisse faire.
+Cela peut durer entre quelques jours et une saison.</VEE_PsychicBloom.letterText>
+  <VEE_SpaceBattle.label>duel de vertibirds</VEE_SpaceBattle.label>
+  <VEE_SpaceBattle.letterLabel>Duel de vertibirds</VEE_SpaceBattle.letterLabel>
+  <VEE_SpaceBattle.letterText>Plusieurs vertibirds et des canonnières de l'Ancien Monde se livrent à un combat acharné au-dessus de la région. Les tirs manqués et les débris enflammés peuvent frapper le sol et déclencher des incendies.</VEE_SpaceBattle.letterText>
+  <VEE_AnimalPodCrash.label>crash d'un robot cargo d'animaux</VEE_AnimalPodCrash.label>
+  <VEE_ShuttleCrash.label>crash d'un vertibird</VEE_ShuttleCrash.label>
+  <VEE_Cargopodsweapons.label>robots cargo (armes)</VEE_Cargopodsweapons.label>
+  <VEE_Cargopodsapparel.label>robots cargo (vêtements)</VEE_Cargopodsapparel.label>
+</LanguageData>

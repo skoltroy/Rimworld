@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VME_ViolentConversion.label>zèle de croisade</VME_ViolentConversion.label>
+  <VME_ViolentConversion.description>Seule une doctrine peut reconstruire les friches. Ceux qui la rejettent doivent être ramenés dans le giron, par la persuasion lorsque c'est possible, par la force lorsque c'est nécessaire.</VME_ViolentConversion.description>
+  <VME_Astrology.label>alignement des étoiles</VME_Astrology.label>
+  <VME_Astrology.description>Les alignements cosmiques, les anciennes cartes stellaires et les signes du ciel empoisonné révèlent des schémas qui guident nos vies.</VME_Astrology.description>
+  <VME_GodEmperor.label>icône vivante</VME_GodEmperor.label>
+  <VME_GodEmperor.description>Notre dirigeant est l'incarnation vivante de la cause. Sa parole a le poids de la loi, de la prophétie et de la légende.</VME_GodEmperor.description>
+  <VME_HardcoreIndustrialism.label>doctrine de la fonderie</VME_HardcoreIndustrialism.label>
+  <VME_HardcoreIndustrialism.description>Les forges, les usines et les chaînes de montage sont le fondement du pouvoir. Chacun doit faire tourner la fonderie et mériter sa place par la production.</VME_HardcoreIndustrialism.description>
+  <VME_Gestalt.label>conscience collective</VME_Gestalt.label>
+  <VME_Gestalt.description>Des volontés séparées créent la faiblesse. La survie exige un peuple qui pense, travaille et se sacrifie comme un tout unifié.</VME_Gestalt.description>
+  <VME_Fleshcrafters.label>évolution forcée</VME_Fleshcrafters.label>
+  <VME_Fleshcrafters.description>La forme humaine n'est qu'une matière brute. Par la mutation, la chirurgie et une expérimentation impitoyable, nous forcerons la prochaine étape de l'évolution.</VME_Fleshcrafters.description>
+  <VME_HolyDiseases.label>affliction sacrée</VME_HolyDiseases.label>
+  <VME_HolyDiseases.description>La maladie, la mutation et la décomposition du corps ne sont pas que des souffrances. Ce sont des épreuves qui marquent les élus et transforment les fidèles.</VME_HolyDiseases.description>
+  <VME_CraftCulture.label>tradition du chef-d'œuvre</VME_CraftCulture.label>
+  <VME_CraftCulture.description>Une arme, un outil ou une armure porte la réputation de son fabricant. Le savoir-faire d'exception est le moyen par lequel le savoir survit aux ruines.</VME_CraftCulture.description>
+  <VME_Progressive.label>avenir automatisé</VME_Progressive.label>
+  <VME_Progressive.description>Les machines doivent porter le poids du travail. L'automatisation libérera notre peuple pour diriger, inventer et bâtir un avenir au-delà de la simple survie.</VME_Progressive.description>
+  <VME_Aristocratic.label>élite de l'ancien monde</VME_Aristocratic.label>
+  <VME_Aristocratic.description>Le pouvoir appartient à ceux qui ont de la naissance, de l'instruction, de la richesse ou une autorité héritée. Les masses prospèrent lorsque l'élite éprouvée commande.</VME_Aristocratic.description>
+  <VME_ExaltedPriesthood.label>règne prophétique</VME_ExaltedPriesthood.label>
+  <VME_ExaltedPriesthood.description>L'autorité temporelle et spirituelle doit reposer entre les mêmes mains. Notre dirigeant interprète la foi et commande la communauté.</VME_ExaltedPriesthood.description>
+  <VME_Vegan.label>agrarisme des friches</VME_Vegan.label>
+  <VME_Vegan.description>Les cultures, les champignons et les plantes robustes des friches doivent nous nourrir. Élever et abattre des animaux pour la nourriture est un gaspillage et une faute.</VME_Vegan.description>
+  <VME_FireWorship.label>culte de la flamme</VME_FireWorship.label>
+  <VME_FireWorship.description>La flamme purifie la corruption, repousse les ténèbres et porte le jugement aux ennemis des fidèles.</VME_FireWorship.description>
+  <VME_Bushido.label>code du guerrier</VME_Bushido.label>
+  <VME_Bushido.description>La discipline, la loyauté et le courage donnent un sens à la violence. La conduite d'un guerrier compte autant que la victoire.</VME_Bushido.description>
+  <VME_Light.label>foi lumineuse</VME_Light.label>
+  <VME_Light.description>La lumière est une promesse de sécurité et de révélation dans un monde plongé dans l'obscurité. Nous la gardons allumée et rejetons ceux qui embrassent les ombres.</VME_Light.description>
+  <VME_BloodCourt.label>règne par la force</VME_BloodCourt.label>
+  <VME_BloodCourt.description>L'autorité doit se prouver dans la lutte directe. Un dirigeant incapable de défendre son titre n'a aucun droit de le conserver.</VME_BloodCourt.description>
+  <VME_CityBuilders.label>bâtisseurs de colonies</VME_CityBuilders.label>
+  <VME_CityBuilders.description>Des murs permanents, des ateliers, des routes et des espaces publics transforment un camp de survivants en une civilisation qui vaut la peine d'être défendue.</VME_CityBuilders.description>
+  <VME_MechanoidSupremacy.label>suprématie des machines</VME_MechanoidSupremacy.label>
+  <VME_MechanoidSupremacy.description>Les machines surpassent la chair fragile en endurance, en précision et en but. L'humanité doit apprendre d'elles, les servir ou leur ressembler.</VME_MechanoidSupremacy.description>
+  <VME_PartyLife.label>réjouissances des friches</VME_PartyLife.label>
+  <VME_PartyLife.description>La vie dans les friches est courte et brutale. La musique, la boisson, les drogues et les fêtes bondées nous rappellent pourquoi la survie compte.</VME_PartyLife.description>
+  <VME_Nationalist.label>nationalisme des friches</VME_Nationalist.label>
+  <VME_Nationalist.description>Notre drapeau, notre territoire et notre peuple passent avant tout. L'unité doit être défendue contre l'influence étrangère, les divisions internes et la déloyauté.</VME_Nationalist.description>
+  <VME_InsectoidSupremacy.label>doctrine des AntAgonizers</VME_InsectoidSupremacy.label>
+  <VME_InsectoidSupremacy.description>Les fourmis géantes ont enduré les bombes, les radiations et le sol empoisonné en agissant comme une seule colonie disciplinée. Leur reine, leurs ouvrières et leurs soldates incarnent une unité que l'humanité dispersée a oubliée. Les fidèles vénèrent les fourmis, imitent leurs castes et confient à des AntAgonizers formés le soin de conditionner les spécimens sauvages et d'établir des nids contrôlés.</VME_InsectoidSupremacy.description>
+
+  <VME_Structure_Esotericism.label>savoir interdit</VME_Structure_Esotericism.label>
+  <VME_Structure_Esotericism.description>Les ruines d'avant-guerre cachent un savoir que les gouvernements, les entreprises et les cultes ont tenté d'enfouir. Seuls les chercheurs initiés osent le découvrir et le maîtriser.</VME_Structure_Esotericism.description>
+  <VME_Structure_Bacchanalianism.label>hédonisme des friches</VME_Structure_Bacchanalianism.label>
+  <VME_Structure_Bacchanalianism.description>New Reno et le Strip ont prouvé que le plaisir peut survivre à l'ancien monde. Refuser la boisson, les drogues, les jeux, la luxure ou le luxe, c'est nier le sens même de la survie.</VME_Structure_Bacchanalianism.description>
+  <VME_Structure_ChthonianCult.label>culte d'Ug-Qualtoth</VME_Structure_ChthonianCult.label>
+  <VME_Structure_ChthonianCult.description>Quelque chose d'ancien remue sous les lieux sacrés et les mines oubliées. Par des offrandes et des rites interdits, nous cherchons la faveur d'Ug-Qualtoth et de puissances semblables.</VME_Structure_ChthonianCult.description>
+  <VME_Structure_Eschatologism.label>culte de l'apocalypse atomique</VME_Structure_Eschatologism.label>
+  <VME_Structure_Eschatologism.description>La Grande Guerre fut une révélation, pas un accident. La famine, la peste, la mutation et le feu atomique sont les signes que la purification finale a déjà commencé.</VME_Structure_Eschatologism.description>
+  <VME_Structure_Authoritarianism.label>règne de fer</VME_Structure_Authoritarianism.label>
+  <VME_Structure_Authoritarianism.description>Le débat et l'autorité divisée invitent à l'effondrement. Une seule chaîne de commandement, appuyée par la force, est la seule défense fiable contre le chaos.</VME_Structure_Authoritarianism.description>
+  <VME_Structure_CultOfPersonality.label>culte de la personnalité</VME_Structure_CultOfPersonality.label>
+  <VME_Structure_CultOfPersonality.description>La nation est incarnée par son chef suprême. Son image, ses victoires et ses paroles unissent le peuple et ne peuvent jamais être remises en question.</VME_Structure_CultOfPersonality.description>
+  <VME_Structure_Omnism.label>syncrétisme des friches</VME_Structure_Omnism.label>
+  <VME_Structure_Omnism.description>Chaque croyance survivante porte des fragments de vérité et d'anciennes erreurs. La sagesse vient de la combinaison de ce qui a résisté, plutôt que de l'obéissance à une seule tradition.</VME_Structure_Omnism.description>
+  <VME_Structure_Shintaoism.label>doctrine Shi</VME_Structure_Shintaoism.label>
+  <VME_Structure_Shintaoism.description>Issu des traditions chinoises et des enseignements préservés par les Shi, cet ordre unit discipline, sagesse ancestrale, science et harmonie sociale.</VME_Structure_Shintaoism.description>
+  <VME_Structure_Corporate.label>ordre des entreprises de l'ancien monde</VME_Structure_Corporate.label>
+  <VME_Structure_Corporate.description>L'entreprise est l'État. Les dirigeants fixent la politique, les travailleurs méritent leurs privilèges, et chaque ressource doit produire un rendement mesurable.</VME_Structure_Corporate.description>
+</LanguageData>

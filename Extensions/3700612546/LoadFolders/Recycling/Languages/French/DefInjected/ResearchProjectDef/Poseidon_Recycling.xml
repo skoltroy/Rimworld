@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRecyclingE_BasicRecycling.description>Développez des systèmes élémentaires de récupération des déchets, pour transformer les détritus toxiques en matière première industrielle utilisable.</VRecyclingE_BasicRecycling.description>
+  <VRecyclingE_BasicRecycling.label>récupération des déchets Poseidon</VRecyclingE_BasicRecycling.label>
+  <VRecyclingE_ComplexRecycling.description>Étendez la récupération des déchets à des chaînes de récupération scellées pour les produits d'alliage, d'isotopes et de détritus compactés.</VRecyclingE_ComplexRecycling.description>
+  <VRecyclingE_ComplexRecycling.label>récupération avancée Poseidon</VRecyclingE_ComplexRecycling.label>
+</LanguageData>

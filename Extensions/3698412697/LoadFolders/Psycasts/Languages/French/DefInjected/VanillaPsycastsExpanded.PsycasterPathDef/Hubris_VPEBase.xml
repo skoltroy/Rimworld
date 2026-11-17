@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VPE_Archon.description>Les révélations du grand prêtre intronisent un chef qui lie ses fidèles, draine ses rivaux et règne par la présence et par la douleur.</VPE_Archon.description>
+  <VPE_Archon.label>grand prêtre</VPE_Archon.label>
+  <VPE_Archotechist.description>Les révélations du savant de la salle noire canalisent une pensée machine interdite, la folie et une surcharge neurale transformée en arme.</VPE_Archotechist.description>
+  <VPE_Archotechist.label>savant de la salle noire</VPE_Archotechist.label>
+  <VPE_Chronopath.description>Les révélations du guetteur du glas déforment l'âge, la croissance et la durée en s'accrochant aux bords du temps.</VPE_Chronopath.description>
+  <VPE_Chronopath.label>guetteur du glas</VPE_Chronopath.label>
+  <VPE_Conflagrator.description>Les révélations de l'invocateur de cendres transforment le feu, la chaleur et l'énergie destructrice brute en armes, dans des rituels spectaculaires.</VPE_Conflagrator.description>
+  <VPE_Conflagrator.label>invocateur de cendres</VPE_Conflagrator.label>
+  <VPE_Empath.description>Les révélations du mesmériste apaisent les esprits, brisent la panique et inondent les fidèles proches d'un calme surnaturel.</VPE_Empath.description>
+  <VPE_Empath.label>mesmériste</VPE_Empath.label>
+  <VPE_Frostshaper.description>Les révélations du lieur de givre façonnent le froid, la glace et l'entropie en barrières, en pièges et en gel meurtrier.</VPE_Frostshaper.description>
+  <VPE_Frostshaper.label>lieur de givre</VPE_Frostshaper.label>
+  <VPE_Harmonist.description>Les révélations du tisseur de présages échangent la fortune contre le malheur et font pencher le cours des événements par un pari rituel.</VPE_Harmonist.description>
+  <VPE_Harmonist.label>tisseur de présages</VPE_Harmonist.label>
+  <VPE_Necropath.description>Les révélations de l'appeleur de tombes répandent l'effroi, exploitent les cadavres et ramènent les morts au service.</VPE_Necropath.description>
+  <VPE_Necropath.label>appeleur de tombes</VPE_Necropath.label>
+  <VPE_Nightstalker.description>Les révélations du traqueur nocturne récompensent l'embuscade, l'obscurité et l'exécution silencieuse sous un voile d'ombre surnaturelle.</VPE_Nightstalker.description>
+  <VPE_Nightstalker.label>traqueur nocturne</VPE_Nightstalker.label>
+  <VPE_Protector.description>Les révélations du gardien des sceaux protègent les alliés, renforcent la chair et arrachent les chercheurs à un danger mortel.</VPE_Protector.description>
+  <VPE_Protector.label>gardien des sceaux</VPE_Protector.label>
+  <VPE_Skipmaster.description>Les révélations du marcheur de portails déchirent brièvement l'espace et déplacent personnes et objets par un raccourci occulte.</VPE_Skipmaster.description>
+  <VPE_Skipmaster.label>marcheur de portails</VPE_Skipmaster.label>
+  <VPE_Staticlord.description>Les révélations de l'appeleur d'orage commandent la foudre, font tomber les machines dans le noir et transforment le temps en arme.</VPE_Staticlord.description>
+  <VPE_Staticlord.label>appeleur d'orage</VPE_Staticlord.label>
+  <VPE_Technomancer.description>Les révélations de l'ingénieur de reliques réveillent les circuits morts, renforcent les technologies récupérées et cousent la perspicacité occulte au matériel.</VPE_Technomancer.description>
+  <VPE_Technomancer.label>ingénieur de reliques</VPE_Technomancer.label>
+  <VPE_Warlord.description>Les révélations du médium de guerre sont des rites égoïstes qui aiguisent les réflexes, la vitesse et l'instinct de tuer.</VPE_Warlord.description>
+  <VPE_Warlord.label>médium de guerre</VPE_Warlord.label>
+  <VPE_Wildspeaker.description>Les révélations du parleur de totem invoquent bêtes, ronces et esprits sauvages liés aux sanctuaires, pour la survie et la défense.</VPE_Wildspeaker.description>
+  <VPE_Wildspeaker.label>parleur de totem</VPE_Wildspeaker.label>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Ammo_ARS_577NitroExpress_FMJ.description>Une cartouche énorme pour gibier dangereux de l&apos;époque de la poudre noire, avec une balle de 750 grains, conçue pour arrêter éléphants et rhinocéros.</Ammo_ARS_577NitroExpress_FMJ.description>
+  <Ammo_ARS_577NitroExpress_AP.description>Une cartouche énorme pour gibier dangereux de l&apos;époque de la poudre noire, avec une balle de 750 grains, conçue pour arrêter éléphants et rhinocéros.</Ammo_ARS_577NitroExpress_AP.description>
+  <Ammo_ARS_577NitroExpress_Incendiary.description>Une cartouche énorme pour gibier dangereux de l&apos;époque de la poudre noire, avec une balle de 750 grains, conçue pour arrêter éléphants et rhinocéros.</Ammo_ARS_577NitroExpress_Incendiary.description>
+  <Ammo_ARS_577NitroExpress_HE.description>Une cartouche énorme pour gibier dangereux de l&apos;époque de la poudre noire, avec une balle de 750 grains, conçue pour arrêter éléphants et rhinocéros.</Ammo_ARS_577NitroExpress_HE.description>
+  <Ammo_ARS_577NitroExpress_FMJ.label>.577 Nitro Express (FMJ)</Ammo_ARS_577NitroExpress_FMJ.label>
+  <Ammo_ARS_577NitroExpress_AP.label>.577 Nitro Express (AP)</Ammo_ARS_577NitroExpress_AP.label>
+  <Ammo_ARS_577NitroExpress_Incendiary.label>.577 Nitro Express (AP-I)</Ammo_ARS_577NitroExpress_Incendiary.label>
+  <Ammo_ARS_577NitroExpress_HE.label>.577 Nitro Express (AP-HE)</Ammo_ARS_577NitroExpress_HE.label>
+  <Bullet_ARS_577NitroExpress_FMJ.label>balle .577 Nitro Express (FMJ)</Bullet_ARS_577NitroExpress_FMJ.label>
+  <Bullet_ARS_577NitroExpress_AP.label>balle .577 Nitro Express (AP)</Bullet_ARS_577NitroExpress_AP.label>
+  <Bullet_ARS_577NitroExpress_Incendiary.label>balle .577 Nitro Express (AP-I)</Bullet_ARS_577NitroExpress_Incendiary.label>
+  <Bullet_ARS_577NitroExpress_HE.label>balle .577 Nitro Express (AP-HE)</Bullet_ARS_577NitroExpress_HE.label>
+</LanguageData>

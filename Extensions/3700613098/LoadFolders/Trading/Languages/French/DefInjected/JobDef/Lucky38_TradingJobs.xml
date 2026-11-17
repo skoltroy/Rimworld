@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VTE_ViewPrices.reportString>consulte les prix du marché des friches.</VTE_ViewPrices.reportString>
+  <VTE_ContactBank.reportString>contacte Friendly Lending Company.</VTE_ContactBank.reportString>
+  <VTE_ViewNews.reportString>lit le fil d'actualités des friches.</VTE_ViewNews.reportString>
+  <VTE_OpenStockMarket.reportString>accède à la bourse des friches.</VTE_OpenStockMarket.reportString>
+  <VTE_OpenContracts.reportString>consulte les contrats commerciaux.</VTE_OpenContracts.reportString>
+</LanguageData>

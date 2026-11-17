@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_DamagedSubstructure.label>tôle de pont Hellion endommagée</VGE_DamagedSubstructure.label>
+  <VGE_DamagedSubstructure.description>Une section déformée de tôle de pont Hellion et de poutrelle de support. Le champ de sustentation du moteur la retient encore, mais un nouvel impact violent la fera s'effondrer complètement.</VGE_DamagedSubstructure.description>
+  <VGE_GravshipSubscaffold.label>échafaudage Hellion</VGE_GravshipSubscaffold.label>
+  <VGE_GravshipSubscaffold.description>Un échafaudage léger utilisé pour étendre et entretenir la cellule d'un Hellion. Il ne peut pas supporter de bâtiments, ralentit les déplacements et ne compte pas dans la limite de tôle de pont de l'appareil.</VGE_GravshipSubscaffold.description>
+  <VGE_MechanoidSubstructure.label>tôle de pont de plateforme de défense</VGE_MechanoidSubstructure.label>
+  <VGE_MechanoidSubstructure.description>Une structure légère de poutrelles et de tôle, fabriquée pour une plateforme de défense orbitale américaine d'avant-guerre. Tout ce qui repose dessus peut être retenu par le champ de sustentation du moteur de la plateforme.</VGE_MechanoidSubstructure.description>
+</LanguageData>

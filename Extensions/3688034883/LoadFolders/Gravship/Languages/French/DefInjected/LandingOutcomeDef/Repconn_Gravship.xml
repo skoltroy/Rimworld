@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_AstrofuelPipeRupture.letterText>Pendant l'atterrissage de {GRAVSHIP}, une conduite d'alimentation endommagée a projeté de l'astrocarburant dans le compartiment. Une étincelle perdue l'a enflammé dans un astrofeu soudain.</VGE_AstrofuelPipeRupture.letterText>
+  <VGE_CriticalHeatSpike.letterText>Pendant la descente de {GRAVSHIP}, le système de contrôle thermique du moteur Hellion a dysfonctionné, faisant grimper la chaleur de la structure bien au-delà des limites de sécurité.</VGE_CriticalHeatSpike.letterText>
+  <VGE_GravTurbulence.letterLabel>turbulence de la cellule</VGE_GravTurbulence.letterLabel>
+  <VGE_GravTurbulence.letterText>Une vibration inattendue du champ de sustentation pendant la descente de {GRAVSHIP} a secoué chaque composant à bord, desserrant les boulons et usant les jointures.</VGE_GravTurbulence.letterText>
+  <VGE_OxygenLeak.letterText>Pendant l'atterrissage de {GRAVSHIP}, une petite brèche s'est ouverte dans l'un des réservoirs d'oxygène, qui a évacué toute sa réserve. Tant que la fuite n'est pas réparée, le réservoir d'oxygène ne fonctionnera pas.</VGE_OxygenLeak.letterText>
+  <VGE_VacBarrierFlicker.letterText>Pendant l'atterrissage de {GRAVSHIP}, une fluctuation de courant a fait lâcher l'une des barrières de vide, dépressurisant une petite section du Hellion. Elle devra être réparée avant de fonctionner à nouveau.</VGE_VacBarrierFlicker.letterText>
+</LanguageData>

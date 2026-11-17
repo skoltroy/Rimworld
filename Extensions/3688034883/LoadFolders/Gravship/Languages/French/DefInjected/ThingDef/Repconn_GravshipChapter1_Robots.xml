@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_Astropede.label>robot d'assaut astropède</VGE_Astropede.label>
+  <VGE_Astropede.description>Un robot d'assaut d'avant-guerre très blindé, adapté au combat en apesanteur. Les astropèdes utilisent des jets de stabilisation pour dériver dans l'espace, tout en tirant des salves cinétiques explosives à partir de lances à masse compactes.</VGE_Astropede.description>
+  <VGE_Hunter.label>drone de combat chasseur</VGE_Hunter.label>
+  <VGE_Hunter.description>Un drone de combat rapide, de la taille d'un humain, conçu pour la guerre en apesanteur. Il fonce agressivement avant de lancer des salves précises de missiles à courte portée depuis deux racks de javelots.</VGE_Hunter.description>
+  <VGE_MassLance.description>Un propulseur à masse portable monté sur robot, capable de percer les Hellions blindés et les fortifications de surface.</VGE_MassLance.description>
+  <VGE_RocketswarmPod.description>Une nacelle de roquettes jumelée et compacte, transportée par les drones de combat robotisés. Son tir de saturation est le plus efficace contre les groupes de cibles légèrement blindées.</VGE_RocketswarmPod.description>
+  <VGE_MassDriver.description>Un canon électromagnétique à trois canons, intégré à une plateforme de défense robotique d'avant-guerre. Son système autonome de conduite de tir peut bombarder des Hellions blindés en orbite ou des cibles au sol sans équipage.</VGE_MassDriver.description>
+  <VGE_HeavyChargeAnnihilator.description>Une arme à impulsions lourde, conçue pour le tir de suppression soutenu depuis les plateformes orbitales robotiques. Des condensateurs et des systèmes de refroidissement agrandis permettent des rafales longues et précises.</VGE_HeavyChargeAnnihilator.description>
+  <VGE_Gun_HeavyChargeAnnihilator.description>Une arme à impulsions lourde utilisée par les plateformes de défense robotiques.</VGE_Gun_HeavyChargeAnnihilator.description>
+  <VGE_MechanoidGravEngine.label>moteur de plateforme de défense</VGE_MechanoidGravEngine.label>
+  <VGE_MechanoidGravEngine.description>Le moteur central d'une plateforme de défense aérospatiale automatisée américaine. Son système de contrôle d'avant-guerre maintient les champs de sustentation et de stabilisation nécessaires pour tenir la structure en orbite. L'ensemble est incompatible avec un Hellion humain, mais sa destruction livre un cœur de réacteur précieux.</VGE_MechanoidGravEngine.description>
+  <VGE_LargeMechanoidThruster.label>propulseur lourd de plateforme de défense</VGE_LargeMechanoidThruster.label>
+  <VGE_LargeMechanoidThruster.description>Un immense propulseur à astrocarburant, conçu pour manœuvrer une plateforme de défense orbitale automatisée. Son blindage renforcé en astéroïde résiste à la chaleur et au stress extrêmes ; sa destruction livre une partie de ce matériau rare.</VGE_LargeMechanoidThruster.description>
+  <VGE_MechanoidResourceProcessor.label>processeur de ressources de plateforme de défense</VGE_MechanoidResourceProcessor.label>
+  <VGE_MechanoidResourceProcessor.description>Un processeur de récupération automatisé, qui décompose les débris orbitaux et les épaves en métaux et carburants nécessaires à l'approvisionnement d'une plateforme de défense américaine.</VGE_MechanoidResourceProcessor.description>
+  <VGE_MechanoidPodLauncher.label>lanceur de robots de défense</VGE_MechanoidPodLauncher.label>
+  <VGE_MechanoidPodLauncher.description>Une baie de lancement automatisée qui tire des capsules de largage chargées de robots de combat vers des cibles lointaines ou des appareils proches.</VGE_MechanoidPodLauncher.description>
+  <VGE_MechanoidTempShield.label>répulseur de plateforme de défense</VGE_MechanoidTempShield.label>
+  <VGE_MechanoidAstrofuelNode.label>réservoir d'astrocarburant de plateforme de défense</VGE_MechanoidAstrofuelNode.label>
+  <VGE_MechanoidAstrofuelNode.description>Un réservoir d'astrocarburant compact intégré à une plateforme de défense automatisée. Les dégâts peuvent enflammer son contenu volatil dans une explosion violente.</VGE_MechanoidAstrofuelNode.description>
+</LanguageData>

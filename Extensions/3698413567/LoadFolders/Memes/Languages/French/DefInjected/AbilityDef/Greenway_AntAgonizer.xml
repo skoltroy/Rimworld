@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VME_TameInsectoid.label>pacifier une fourmi géante</VME_TameInsectoid.label>
+  <VME_TameInsectoid.description>Utilise un comportement appris et un leurre phéromonal concentré pour pacifier et apprivoiser immédiatement une fourmi géante.</VME_TameInsectoid.description>
+  <VME_ConstructANest.label>établir un nid de fourmis</VME_ConstructANest.label>
+  <VME_ConstructANest.description>Établit un nid contrôlé de fourmis géantes, qui produit de la gelée d'insecte. Un rituel réussi de l'Appel de la colonie rafraîchit le délai de récupération de cette capacité.</VME_ConstructANest.description>
+</LanguageData>

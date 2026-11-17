@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFE_AdvancedBatteries.description>Développez des unités de batteries Poseidon d'avant-guerre capables de stocker de grandes quantités d'énergie avec des pertes minimales.</VFE_AdvancedBatteries.description>
+  <VFE_AdvancedPowerSources.description>Récupérez le matériel de production avancé de Poseidon, y compris des champs de panneaux solaires, des unités hydrauliques et des systèmes de turbines à haute capacité.</VFE_AdvancedPowerSources.description>
+  <VFE_IndustrialGenerators.description>Développez des systèmes de générateurs Poseidon à usage intensif, conçus pour stocker plus de carburant et alimenter davantage le réseau.</VFE_IndustrialGenerators.description>
+  <VFE_NuclearPower.description>Restaurez l'échelon le plus extrême de l'échelle énergétique d'avant-guerre : des systèmes de réacteurs compacts à puissance énorme et aux risques de défaillance tout aussi graves.</VFE_NuclearPower.description>
+  <VFE_TidalPower.description>Construisez des générateurs de marée Poseidon en pleine mer pour fournir une énergie industrielle stable à partir du courant et du ressac.</VFE_TidalPower.description>
+</LanguageData>
