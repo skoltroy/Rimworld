@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_StartingGravship_Default.label>Par défaut</VGE_StartingGravship_Default.label>
+  <VGE_StartingGravship_Default.description>Le Hellion de départ par défaut, issu de Vanilla Gravships Expanded - chapitre 2.</VGE_StartingGravship_Default.description>
+  <VGE_StartingGravship_Explorer.label>Explorateur</VGE_StartingGravship_Explorer.label>
+  <VGE_StartingGravship_Explorer.description>Un navire d'exploration bien arrondi avec des quartiers d'équipage et des défenses.</VGE_StartingGravship_Explorer.description>
+  <VGE_StartingGravship_Freighter.label>Fret</VGE_StartingGravship_Freighter.label>
+  <VGE_StartingGravship_Freighter.description>Un grand cargo avec un grand espace de chargement et un générateur de bouclier.</VGE_StartingGravship_Freighter.description>
+  <VGE_StartingGravship_Battlecruiser.label>Batailleur</VGE_StartingGravship_Battlecruiser.label>
+  <VGE_StartingGravship_Battlecruiser.description>Un croiseur de combat lourdement blindé avec manque d'espace vital.</VGE_StartingGravship_Battlecruiser.description>
+  <VGE_StartingGravjumper_StealthShip.label>Navire volant</VGE_StartingGravjumper_StealthShip.label>
+  <VGE_StartingGravjumper_StealthShip.description>Un petit chasseur Hellion camouflé, équipé de propulseurs électriques.</VGE_StartingGravjumper_StealthShip.description>
+  <VGE_StartingGravjumper_TravelCraft.label>Bateaux de voyage</VGE_StartingGravjumper_TravelCraft.label>
+  <VGE_StartingGravjumper_TravelCraft.description>Un bateau de voyage compact et luxueux avec des panneaux solaires.</VGE_StartingGravjumper_TravelCraft.description>
+  <VGE_StartingGravjumper_DamagedGunship.label>Bateau endommagé</VGE_StartingGravjumper_DamagedGunship.label>
+  <VGE_StartingGravjumper_DamagedGunship.description>Une canonnière cabossée, dotée de petites tourelles Hellion et d'un moteur de chasseur Hellion blindé.</VGE_StartingGravjumper_DamagedGunship.description>
+</LanguageData>

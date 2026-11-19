@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_HiddenAstrofuelPipe.label>conduite d'astrofuel dissimulée</VGE_HiddenAstrofuelPipe.label>
+  <VGE_HiddenAstrofuelPipe.description>Conduite renforcée et dissimulée destinée au transport de l'astrofuel de haute qualité. Elle est invisible, mais coûte beaucoup plus cher à construire.</VGE_HiddenAstrofuelPipe.description>
+  <VGE_IndustrialAstrofuelGenerator.label>générateur industriel d'astrofuel</VGE_IndustrialAstrofuelGenerator.label>
+  <VGE_IndustrialAstrofuelGenerator.description>Produit une grande quantité d'énergie en consommant de l'astrofuel. Bien plus efficace que les générateurs au chemfuel.</VGE_IndustrialAstrofuelGenerator.description>
+  <VGE_OxygenPipe.label>conduite d'oxygène</VGE_OxygenPipe.label>
+  <VGE_OxygenPipe.description>Conduite renforcée permettant de transporter l'oxygène. Peut être installée sous les murs et les autres bâtiments.</VGE_OxygenPipe.description>
+  <VGE_HiddenOxygenPipe.label>conduite d'oxygène dissimulée</VGE_HiddenOxygenPipe.label>
+  <VGE_HiddenOxygenPipe.description>Conduite renforcée et dissimulée permettant de transporter l'oxygène. Elle est invisible, mais coûte beaucoup plus cher à construire.</VGE_HiddenOxygenPipe.description>
+  <VGE_OxygenValve.label>vanne d'oxygène</VGE_OxygenValve.label>
+  <VGE_OxygenValve.description>Ouvre ou ferme le flux d'oxygène.</VGE_OxygenValve.description>
+  <VGE_SmallOxygenTank.label>petit réservoir d'oxygène</VGE_SmallOxygenTank.label>
+  <VGE_SmallOxygenTank.description>Réservoir d'oxygène qui alimente les pompes de tout le Hellion.</VGE_SmallOxygenTank.description>
+  <VGE_LargeOxygenTank.label>grand réservoir d'oxygène</VGE_LargeOxygenTank.label>
+  <VGE_LargeOxygenTank.description>Grand réservoir d'oxygène qui alimente les pompes de tout le Hellion.</VGE_LargeOxygenTank.description>
+  <VGE_OxygenCanisterFiller.label>remplisseur de bonbonnes d'oxygène</VGE_OxygenCanisterFiller.label>
+  <VGE_OxygenCanisterFiller.description>Dispositif de stockage en forme de trémie, conçu pour conserver l'oxygène distribué dans des bonbonnes en vue d'une utilisation ultérieure.</VGE_OxygenCanisterFiller.description>
+  <VGE_OxygenCanisterEmptier.label>vidangeur de bonbonnes d'oxygène</VGE_OxygenCanisterEmptier.label>
+  <VGE_OxygenCanisterEmptier.description>Structure de stockage en forme de trémie, conçue pour introduire l'oxygène des bonbonnes dans le réseau et remplir les réservoirs connectés.</VGE_OxygenCanisterEmptier.description>
+  <VGE_OxygenHarvester.label>collecteur d'oxygène</VGE_OxygenHarvester.label>
+  <VGE_OxygenHarvester.description>Dispositif qui aspire l'oxygène respirable de l'atmosphère environnante et le stocke dans le réseau d'oxygène. Il ne fonctionne qu'à la surface de planètes dotées d'une atmosphère et reste inopérant dans le vide ou en milieu pauvre en oxygène.</VGE_OxygenHarvester.description>
+  <VGE_LifeSupportSystem.label>oxygénateur à algues</VGE_LifeSupportSystem.label>
+  <VGE_LifeSupportSystem.description>Dispositif vital qui transforme les oxyalgues récoltées en oxygène respirable. Il convertit la biomasse en gaz et l'injecte dans le réseau d'oxygène pour alimenter les pièces pressurisées et les équipements.</VGE_LifeSupportSystem.description>
+  <VGE_IndustrialOxygenPump.label>pompe industrielle à oxygène</VGE_IndustrialOxygenPump.label>
+  <VGE_IndustrialOxygenPump.description>Unité puissante qui libère de grandes quantités d'oxygène dans la pièce environnante, permettant de rétablir la pression dans des espaces clos en plein espace. Indispensable pour les longs séjours en orbite.</VGE_IndustrialOxygenPump.description>
+  <VGE_OxygenReclaimer.label>récupérateur d'oxygène</VGE_OxygenReclaimer.label>
+  <VGE_OxygenReclaimer.description>Unité atmosphérique autonome qui extrait des traces d'oxygène des gaz environnants. Elle produit de l'oxygène à un rythme lent et régulier, sans nécessiter de matières premières. Doit être reliée à un réservoir d'oxygène par des conduites d'oxygène pour fonctionner.</VGE_OxygenReclaimer.description>
+  <VGE_OxygenCanister.label>bonbonne d'oxygène</VGE_OxygenCanister.label>
+  <VGE_OxygenCanister.description>Gaz indispensable à la survie. Sert à pressuriser les pièces, à fournir de l'air respirable ou à alimenter des équipements spécialisés et du matériel de survie. Devient volatile lorsqu'elle est endommagée.</VGE_OxygenCanister.description>
+</LanguageData>

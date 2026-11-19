@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DNX_Bullet_82ACloseDefenseShot.label>Plombs de défense rapprochée du Landwhale</DNX_Bullet_82ACloseDefenseShot.label>
+  <DNX_Bullet_82AHeavyClipCannon.label>Obus de canon à chargeur lourd 82A</DNX_Bullet_82AHeavyClipCannon.label>
+  <DNX_Bullet_82AM134Minigun.label>Munition 82A M134</DNX_Bullet_82AM134Minigun.label>
+  <DNX_Bullet_AvengerCannon.label>Obus d’autocanon Avenger</DNX_Bullet_AvengerCannon.label>
+  <DNX_Bullet_Boxer35mmAP.label>Obus perforant de 35 mm</DNX_Bullet_Boxer35mmAP.label>
+  <DNX_Bullet_Boxer35mmInterceptorDummy.label>Obus traceur de défense rapprochée de 35 mm</DNX_Bullet_Boxer35mmInterceptorDummy.label>
+  <DNX_Bullet_GeminiRifle.label>Cartouche de fusil Gemini</DNX_Bullet_GeminiRifle.label>
+  <DNX_Bullet_GyrfalconM20mmAP.label>Obus perforant de 20 mm Gyrfalcon-M</DNX_Bullet_GyrfalconM20mmAP.label>
+  <DNX_Bullet_GyrfalconM20mmCharge.label>Munition à charge de 20 mm Gyrfalcon-M</DNX_Bullet_GyrfalconM20mmCharge.label>
+  <DNX_Bullet_GyrfalconM20mmHE.label>Obus explosif de 20 mm Gyrfalcon-M</DNX_Bullet_GyrfalconM20mmHE.label>
+  <DNX_Bullet_Hammer120mmAPHE.label>Obus perforant explosif de 120 mm</DNX_Bullet_Hammer120mmAPHE.label>
+  <DNX_Bullet_LightMachineGun.label>Balle de mitrailleuse légère</DNX_Bullet_LightMachineGun.label>
+  <DNX_Bullet_LightSniper.label>Munition de sniper léger</DNX_Bullet_LightSniper.label>
+  <DNX_Bullet_LittleTrainRailSlug.label>Pénétrateur de railgun Little Train</DNX_Bullet_LittleTrainRailSlug.label>
+  <DNX_Bullet_MechDroneCharge.label>Projectile à charge de manta mécanoïde</DNX_Bullet_MechDroneCharge.label>
+  <DNX_Bullet_Orchestra40mm.label>Obus de canon-chaîne Orchestra de 40 mm</DNX_Bullet_Orchestra40mm.label>
+  <DNX_Bullet_SentinelHMGFour.label>Munition de mitrailleuse lourde HMG-4</DNX_Bullet_SentinelHMGFour.label>
+  <DNX_Bullet_ShieldedSMG.label>Munition de pistolet-mitrailleur blindé</DNX_Bullet_ShieldedSMG.label>
+  <DNX_Bullet_Vanguard20mmAPI.label>Obus perforant incendiaire Vanguard de 20 mm</DNX_Bullet_Vanguard20mmAPI.label>
+  <DNX_Gun_82ACloseDefenseShotgun.label>Fusil à pompe de défense rapprochée du Landwhale</DNX_Gun_82ACloseDefenseShotgun.label>
+  <DNX_Gun_82ACloseDefenseShotgun.description>Un ensemble dissimulé de fusils à pompe de défense rapprochée monté sur le HFSV-40 Landwhale.</DNX_Gun_82ACloseDefenseShotgun.description>
+  <DNX_Gun_82AHeavyClipCannon.label>Canon lourd à chargeur 82A</DNX_Gun_82AHeavyClipCannon.label>
+  <DNX_Gun_82AHeavyClipCannon.description>Un canon lourd alimenté par chargeur et monté sur le HFSV-40 Landwhale.</DNX_Gun_82AHeavyClipCannon.description>
+  <DNX_Gun_82AM134Minigun.label>Mitrailleuse rotative 82A M134</DNX_Gun_82AM134Minigun.label>
+  <DNX_Gun_82AM134Minigun.description>Une mitrailleuse rotative auxiliaire à cadence élevée montée sur le HFSV-40 Landwhale.</DNX_Gun_82AM134Minigun.description>
+  <DNX_Gun_82ARocketPod.label>Nacelle de roquettes 82A</DNX_Gun_82ARocketPod.label>
+  <DNX_Gun_82ARocketPod.description>Une nacelle de roquettes auxiliaire à tirs dispersés montée sur le HFSV-40 Landwhale.</DNX_Gun_82ARocketPod.description>
+  <DNX_Gun_AvengerTwinCannon.label>Autocanons jumelés Avenger</DNX_Gun_AvengerTwinCannon.label>
+  <DNX_Gun_AvengerTwinCannon.description>L’ensemble interne à deux autocanons utilisé par la tourelle à autocanons jumelés Avenger.</DNX_Gun_AvengerTwinCannon.description>
+  <DNX_Gun_Boxer35mmAA.label>Arme antiaérienne jumelée Boxer de 35 mm</DNX_Gun_Boxer35mmAA.label>
+  <DNX_Gun_Boxer35mmAA.description>Un ensemble de canons jumelés de 35 mm à haute vélocité monté sur la tourelle antiaérienne Boxer.</DNX_Gun_Boxer35mmAA.description>
+  <DNX_Gun_ConvergenceDeathRay.label>Émetteur de rayon mortel convergent</DNX_Gun_ConvergenceDeathRay.label>
+  <DNX_Gun_ConvergenceDeathRay.description>Un lourd émetteur de faisceau convergent qui focalise trois lasers rouges de pré-tir en un unique faisceau d’énergie blanc dévastateur.</DNX_Gun_ConvergenceDeathRay.description>
+  <DNX_Gun_ExperimentalDroneLMG.label>Mitrailleuse légère de drone expérimental</DNX_Gun_ExperimentalDroneLMG.label>
+  <DNX_Gun_ExperimentalDroneLMG.description>Une mitrailleuse légère compacte montée à l’intérieur d’un drone expérimental DNX.</DNX_Gun_ExperimentalDroneLMG.description>
+  <DNX_Gun_FlatheadRocketTurret.label>Lanceur de tourelle lance-roquettes Flathead</DNX_Gun_FlatheadRocketTurret.label>
+  <DNX_Gun_FlatheadRocketTurret.description>Un ensemble compact de lance-roquettes à deux nacelles utilisé par la tourelle lance-roquettes Flathead.</DNX_Gun_FlatheadRocketTurret.description>
+  <DNX_Gun_GeminiGatling.label>Arme de tourelle Gatling Gemini</DNX_Gun_GeminiGatling.label>
+  <DNX_Gun_GeminiGatling.description>L’ensemble interne à deux Gatling utilisé par la tourelle Gatling Gemini.</DNX_Gun_GeminiGatling.description>
+  <DNX_Gun_GyrfalconM20mmComposite.label>Canon composite Gyrfalcon-M de 20 mm</DNX_Gun_GyrfalconM20mmComposite.label>
+  <DNX_Gun_GyrfalconM20mmComposite.description>Un ensemble de deux canons Vulcan de 20 mm monté sur la tourelle composite Gyrfalcon-M.</DNX_Gun_GyrfalconM20mmComposite.description>
+  <DNX_Gun_Hammer120mm.label>Canon antiblindage automatique Hammer de 120 mm</DNX_Gun_Hammer120mm.label>
+  <DNX_Gun_Hammer120mm.description>Le canon à long tube utilisé par la tourelle antiblindage automatique Hammer de 120 mm.</DNX_Gun_Hammer120mm.description>
+  <DNX_Gun_HunterKillerCannon.label>Autocanon Hunter-Killer</DNX_Gun_HunterKillerCannon.label>
+  <DNX_Gun_HunterKillerCannon.description>Un module de canon dissimulé destiné au gunship Hunter-Killer.</DNX_Gun_HunterKillerCannon.description>
+  <DNX_Gun_HunterKillerHeavyMissileRack.label>Rack de missiles lourds Hunter-Killer</DNX_Gun_HunterKillerHeavyMissileRack.label>
+  <DNX_Gun_HunterKillerHeavyMissileRack.description>Un rack de missiles lourds dissimulé destiné au gunship Hunter-Killer.</DNX_Gun_HunterKillerHeavyMissileRack.description>
+  <DNX_Gun_HunterKillerMissileRack.label>Rack de missiles perforants Hunter-Killer</DNX_Gun_HunterKillerMissileRack.label>
+  <DNX_Gun_HunterKillerMissileRack.description>Un rack de missiles dissimulé destiné au gunship Hunter-Killer.</DNX_Gun_HunterKillerMissileRack.description>
+  <DNX_Gun_HunterKillerRocketRack.label>Rack de roquettes Hunter-Killer</DNX_Gun_HunterKillerRocketRack.label>
+  <DNX_Gun_HunterKillerRocketRack.description>Un rack de roquettes dissimulé destiné au gunship Hunter-Killer.</DNX_Gun_HunterKillerRocketRack.description>
+  <DNX_Gun_LaserChargeEmitter.label>Émetteur laser à charge</DNX_Gun_LaserChargeEmitter.label>
+  <DNX_Gun_LaserChargeEmitter.description>Un émetteur à haute énergie qui embrase une zone cible compacte après un cycle de charge visible.</DNX_Gun_LaserChargeEmitter.description>
+  <DNX_Gun_LightMachineGunTurret.label>Arme de tourelle de mitrailleuse légère</DNX_Gun_LightMachineGunTurret.label>
+  <DNX_Gun_LightMachineGunTurret.description>Une simple mitrailleuse légère montée sur une petite tourelle.</DNX_Gun_LightMachineGunTurret.description>
+  <DNX_Gun_LightSniperTurret.label>Arme de tourelle de sniper léger</DNX_Gun_LightSniperTurret.label>
+  <DNX_Gun_LightSniperTurret.description>Un ensemble compact de fusil de précision monté sur une tourelle légère.</DNX_Gun_LightSniperTurret.description>
+  <DNX_Gun_LittleTrainRGPrototype.label>Railgun prototype RG Little Train</DNX_Gun_LittleTrainRGPrototype.label>
+  <DNX_Gun_LittleTrainRGPrototype.description>Un ensemble expérimental de railgun qui tire un pénétrateur chargé laissant une longue traînée d’énergie bleue.</DNX_Gun_LittleTrainRGPrototype.description>
+  <DNX_Gun_LongbowM301RocketArtillery.label>Lanceur d’artillerie à roquettes M301 Longbow</DNX_Gun_LongbowM301RocketArtillery.label>
+  <DNX_Gun_LongbowM301RocketArtillery.description>Un ensemble d’artillerie à roquettes longue portée qui sature les zones ciblées éloignées de roquettes non guidées à trajectoire plongeante.</DNX_Gun_LongbowM301RocketArtillery.description>
+  <DNX_Gun_MechanoidDroneChargeGun.label>Canon à charge de manta mécanoïde</DNX_Gun_MechanoidDroneChargeGun.label>
+  <DNX_Gun_MechanoidDroneChargeGun.description>Une arme à charge compacte et peu puissante utilisée par les drones d’assaut mécanoïdes DNX.</DNX_Gun_MechanoidDroneChargeGun.description>
+  <DNX_Gun_OpenerMLSSixteen.label>Lance-missiles MLS-16 Opener</DNX_Gun_OpenerMLSSixteen.label>
+  <DNX_Gun_OpenerMLSSixteen.description>Un ensemble lance-missiles à seize tubes utilisé par la tourelle MLS-16 Opener.</DNX_Gun_OpenerMLSSixteen.description>
+  <DNX_Gun_Orchestra40mmChainCannon.label>Canon-chaîne Orchestra de 40 mm</DNX_Gun_Orchestra40mmChainCannon.label>
+  <DNX_Gun_Orchestra40mmChainCannon.description>Un ensemble de canon-chaîne de 40 mm à courtes rafales, utilisé pour valider le rendu supérieur d’une tourelle décalée.</DNX_Gun_Orchestra40mmChainCannon.description>
+  <DNX_Gun_SentinelHMGFour.label>Mitrailleuse blindée Sentinel HMG-4</DNX_Gun_SentinelHMGFour.label>
+  <DNX_Gun_SentinelHMGFour.description>L’ensemble de mitrailleuse lourde utilisé par la tourelle blindée Sentinel HMG-4.</DNX_Gun_SentinelHMGFour.description>
+  <DNX_Gun_ShieldedSMGTurret.label>Arme de tourelle de pistolet-mitrailleur blindé</DNX_Gun_ShieldedSMGTurret.label>
+  <DNX_Gun_ShieldedSMGTurret.description>Un ensemble compact de pistolet-mitrailleur de petit calibre monté sur une tourelle légère renforcée.</DNX_Gun_ShieldedSMGTurret.description>
+  <DNX_Gun_ShowerGrenadeSupport.label>Arme de soutien à grenades Averse</DNX_Gun_ShowerGrenadeSupport.label>
+  <DNX_Gun_ShowerGrenadeSupport.description>Un ensemble de lance-grenades jumelés monté sur la tourelle de soutien Averse.</DNX_Gun_ShowerGrenadeSupport.description>
+  <DNX_Gun_TacticalMarkerTower.label>Émetteur de marquage tactique</DNX_Gun_TacticalMarkerTower.label>
+  <DNX_Gun_TacticalMarkerTower.description>Un émetteur de marquage de cibles utilisé par la tour de marquage tactique.</DNX_Gun_TacticalMarkerTower.description>
+  <DNX_Gun_Vanguard20mmSuppressiveCannon.label>Canon de suppression Vanguard de 20 mm</DNX_Gun_Vanguard20mmSuppressiveCannon.label>
+  <DNX_Gun_Vanguard20mmSuppressiveCannon.description>L’ensemble de canon de suppression de 20 mm utilisé par la tourelle Vanguard.</DNX_Gun_Vanguard20mmSuppressiveCannon.description>
+  <DNX_Gun_WatcherLongRangePrecisionTurret.label>Arme de tourelle de précision Watcher</DNX_Gun_WatcherLongRangePrecisionTurret.label>
+  <DNX_Gun_WatcherLongRangePrecisionTurret.description>Un ensemble de tourelle de précision guidée qui doit être alignée avant de charger et tirer des projectiles intelligents à suivi de cible.</DNX_Gun_WatcherLongRangePrecisionTurret.description>
+  <DNX_Projectile_82ASwarmRocket.label>Roquette en essaim 82A</DNX_Projectile_82ASwarmRocket.label>
+  <DNX_Projectile_AvengerMissile.label>Missile Avenger</DNX_Projectile_AvengerMissile.label>
+  <DNX_Projectile_ConvergenceDeathRay.label>Faisceau du rayon mortel convergent</DNX_Projectile_ConvergenceDeathRay.label>
+  <DNX_Projectile_CurveMissile_Test.label>Missile courbe de test</DNX_Projectile_CurveMissile_Test.label>
+  <DNX_Projectile_FlatheadHERocket.label>Roquette explosive Flathead</DNX_Projectile_FlatheadHERocket.label>
+  <DNX_Projectile_GyrfalconMAPMissile.label>Missile perforant Gyrfalcon-M</DNX_Projectile_GyrfalconMAPMissile.label>
+  <DNX_Projectile_HammerGunLaunchedMissile.label>Missile tiré par canon Hammer</DNX_Projectile_HammerGunLaunchedMissile.label>
+  <DNX_Projectile_LongbowAPRocket.label>Roquette perforante Longbow</DNX_Projectile_LongbowAPRocket.label>
+  <DNX_Projectile_LongbowHERocket.label>Roquette explosive Longbow</DNX_Projectile_LongbowHERocket.label>
+  <DNX_Projectile_LongbowIncendiaryRocket.label>Roquette incendiaire Longbow</DNX_Projectile_LongbowIncendiaryRocket.label>
+  <DNX_Projectile_MechanoidBombardBomb.label>Bombe explosive de manta bombardier mécanoïde</DNX_Projectile_MechanoidBombardBomb.label>
+  <DNX_Projectile_OpenerAPMissile.label>Missile perforant Opener</DNX_Projectile_OpenerAPMissile.label>
+  <DNX_Projectile_ShowerEMPGrenade.label>Grenade IEM Averse</DNX_Projectile_ShowerEMPGrenade.label>
+  <DNX_Projectile_ShowerHEGrenade.label>Grenade explosive Averse</DNX_Projectile_ShowerHEGrenade.label>
+  <DNX_Projectile_ShowerSmokeGrenade.label>Grenade fumigène Averse</DNX_Projectile_ShowerSmokeGrenade.label>
+  <DNX_Projectile_ShowerStunGrenade.label>Grenade incapacitante Averse</DNX_Projectile_ShowerStunGrenade.label>
+  <DNX_Projectile_TacticalMarkerDummy.label>Impulsion de marquage tactique</DNX_Projectile_TacticalMarkerDummy.label>
+  <DNX_Projectile_WatcherSmartPrecisionRound.label>Munition de précision intelligente Watcher</DNX_Projectile_WatcherSmartPrecisionRound.label>
+  <DNX_TestCurveMissileLauncher.label>Lanceur de missile courbe de test</DNX_TestCurveMissileLauncher.label>
+  <DNX_TestCurveMissileLauncher.description>Une arme temporaire destinée à tester les projectiles de missiles à trajectoire courbe de Defensive Network Expanded.</DNX_TestCurveMissileLauncher.description>
+  <DNX_Gun_AvengerTwinCannon.modExtensions.1.fuelLabel>Munitions d’autocanon</DNX_Gun_AvengerTwinCannon.modExtensions.1.fuelLabel>
+  <DNX_Gun_FlatheadRocketTurret.modExtensions.1.fuelLabel>Roquettes Flathead</DNX_Gun_FlatheadRocketTurret.modExtensions.1.fuelLabel>
+  <DNX_Gun_Hammer120mm.modExtensions.3.fuelLabel>Munitions de 120 mm</DNX_Gun_Hammer120mm.modExtensions.3.fuelLabel>
+  <DNX_Gun_LongbowM301RocketArtillery.modExtensions.1.refuelableFuelLabel>Roquettes Longbow</DNX_Gun_LongbowM301RocketArtillery.modExtensions.1.refuelableFuelLabel>
+  <DNX_Gun_OpenerMLSSixteen.modExtensions.1.fuelLabel>Missiles MLS-16</DNX_Gun_OpenerMLSSixteen.modExtensions.1.fuelLabel>
+  <DNX_Gun_GyrfalconM20mmComposite.modExtensions.2.fuelLabel>Munitions de 20 mm</DNX_Gun_GyrfalconM20mmComposite.modExtensions.2.fuelLabel>
+  <DNX_Gun_Orchestra40mmChainCannon.modExtensions.2.fuelLabel>Munitions de 40 mm</DNX_Gun_Orchestra40mmChainCannon.modExtensions.2.fuelLabel>
+  <DNX_Gun_Vanguard20mmSuppressiveCannon.modExtensions.2.fuelLabel>Munitions de suppression de 20 mm</DNX_Gun_Vanguard20mmSuppressiveCannon.modExtensions.2.fuelLabel>
+  <DNX_Gun_82ACloseDefenseShotgun.verbs.Verb_ShotgunVolley.label>Fusil à pompe de défense rapprochée du Landwhale</DNX_Gun_82ACloseDefenseShotgun.verbs.Verb_ShotgunVolley.label>
+  <DNX_Gun_82AHeavyClipCannon.verbs.Verb_Shoot.label>Canon lourd à chargeur 82A</DNX_Gun_82AHeavyClipCannon.verbs.Verb_Shoot.label>
+  <DNX_Gun_82AM134Minigun.verbs.Verb_Shoot.label>Mitrailleuse rotative 82A M134</DNX_Gun_82AM134Minigun.verbs.Verb_Shoot.label>
+  <DNX_Gun_82ARocketPod.verbs.Verb_Shoot.label>Nacelle de roquettes 82A</DNX_Gun_82ARocketPod.verbs.Verb_Shoot.label>
+  <DNX_Gun_AvengerTwinCannon.verbs.Verb_ShootWithAimingExtensionRange.label>Autocanons jumelés Avenger</DNX_Gun_AvengerTwinCannon.verbs.Verb_ShootWithAimingExtensionRange.label>
+  <DNX_Gun_Boxer35mmAA.verbs.Verb_ShootWithAimingExtensionRange.label>Arme antiaérienne jumelée Boxer de 35 mm</DNX_Gun_Boxer35mmAA.verbs.Verb_ShootWithAimingExtensionRange.label>
+  <DNX_Gun_ConvergenceDeathRay.verbs.Verb_ShootWithAimingExtensionRange.label>Émetteur de rayon mortel convergent</DNX_Gun_ConvergenceDeathRay.verbs.Verb_ShootWithAimingExtensionRange.label>
+  <DNX_Gun_ExperimentalDroneLMG.verbs.Verb_Shoot.label>Mitrailleuse légère de drone expérimental</DNX_Gun_ExperimentalDroneLMG.verbs.Verb_Shoot.label>
+  <DNX_Gun_FlatheadRocketTurret.verbs.Verb_ShootWithAimingExtensionRange.label>Lanceur de tourelle lance-roquettes Flathead</DNX_Gun_FlatheadRocketTurret.verbs.Verb_ShootWithAimingExtensionRange.label>
+  <DNX_Gun_GeminiGatling.verbs.Verb_ShootWithAimingExtensionRange.label>Arme de tourelle Gatling Gemini</DNX_Gun_GeminiGatling.verbs.Verb_ShootWithAimingExtensionRange.label>
+  <DNX_Gun_GyrfalconM20mmComposite.verbs.Verb_ShootWithAimingExtensionRange.label>Canon composite Gyrfalcon-M de 20 mm</DNX_Gun_GyrfalconM20mmComposite.verbs.Verb_ShootWithAimingExtensionRange.label>
+  <DNX_Gun_Hammer120mm.verbs.Verb_ShootWithAimingExtensionRange.label>Canon antiblindage automatique Hammer de 120 mm</DNX_Gun_Hammer120mm.verbs.Verb_ShootWithAimingExtensionRange.label>
+  <DNX_Gun_HunterKillerCannon.verbs.Verb_Shoot.label>Autocanon Hunter-Killer</DNX_Gun_HunterKillerCannon.verbs.Verb_Shoot.label>
+  <DNX_Gun_HunterKillerHeavyMissileRack.verbs.Verb_Shoot.label>Rack de missiles lourds Hunter-Killer</DNX_Gun_HunterKillerHeavyMissileRack.verbs.Verb_Shoot.label>
+  <DNX_Gun_HunterKillerMissileRack.verbs.Verb_Shoot.label>Rack de missiles perforants Hunter-Killer</DNX_Gun_HunterKillerMissileRack.verbs.Verb_Shoot.label>
+  <DNX_Gun_HunterKillerRocketRack.verbs.Verb_Shoot.label>Rack de roquettes Hunter-Killer</DNX_Gun_HunterKillerRocketRack.verbs.Verb_Shoot.label>
+  <DNX_Gun_LaserChargeEmitter.verbs.Verb_LaserChargeShot.label>Émetteur laser à charge</DNX_Gun_LaserChargeEmitter.verbs.Verb_LaserChargeShot.label>
+  <DNX_Gun_LightMachineGunTurret.verbs.Verb_Shoot.label>Arme de tourelle de mitrailleuse légère</DNX_Gun_LightMachineGunTurret.verbs.Verb_Shoot.label>
+  <DNX_Gun_LightSniperTurret.verbs.Verb_Shoot.label>Arme de tourelle de sniper léger</DNX_Gun_LightSniperTurret.verbs.Verb_Shoot.label>
+  <DNX_Gun_LittleTrainRGPrototype.verbs.Verb_ShootWithAimingExtensionRange.label>Railgun prototype RG Little Train</DNX_Gun_LittleTrainRGPrototype.verbs.Verb_ShootWithAimingExtensionRange.label>
+  <DNX_Gun_LongbowM301RocketArtillery.verbs.Verb_LongbowRocketBarrage.label>Lanceur d’artillerie à roquettes M301 Longbow</DNX_Gun_LongbowM301RocketArtillery.verbs.Verb_LongbowRocketBarrage.label>
+  <DNX_Gun_MechanoidDroneChargeGun.verbs.Verb_Shoot.label>Canon à charge de manta mécanoïde</DNX_Gun_MechanoidDroneChargeGun.verbs.Verb_Shoot.label>
+  <DNX_Gun_OpenerMLSSixteen.verbs.Verb_ShootWithAimingExtensionRange.label>Lance-missiles MLS-16 Opener</DNX_Gun_OpenerMLSSixteen.verbs.Verb_ShootWithAimingExtensionRange.label>
+  <DNX_Gun_Orchestra40mmChainCannon.verbs.Verb_ShootWithAimingExtensionRange.label>Canon-chaîne Orchestra de 40 mm</DNX_Gun_Orchestra40mmChainCannon.verbs.Verb_ShootWithAimingExtensionRange.label>
+  <DNX_Gun_SentinelHMGFour.verbs.Verb_ShootWithAimingExtensionRange.label>Mitrailleuse blindée Sentinel HMG-4</DNX_Gun_SentinelHMGFour.verbs.Verb_ShootWithAimingExtensionRange.label>
+  <DNX_Gun_ShieldedSMGTurret.verbs.Verb_Shoot.label>Arme de tourelle de pistolet-mitrailleur blindé</DNX_Gun_ShieldedSMGTurret.verbs.Verb_Shoot.label>
+  <DNX_Gun_ShowerGrenadeSupport.verbs.Verb_ShootWithAimingExtensionRange.label>Arme de soutien à grenades Averse</DNX_Gun_ShowerGrenadeSupport.verbs.Verb_ShootWithAimingExtensionRange.label>
+  <DNX_Gun_TacticalMarkerTower.verbs.Verb_TacticalMarker.label>Émetteur de marquage tactique</DNX_Gun_TacticalMarkerTower.verbs.Verb_TacticalMarker.label>
+  <DNX_Gun_Vanguard20mmSuppressiveCannon.verbs.Verb_VanguardSuppressiveCannon.label>Canon de suppression Vanguard de 20 mm</DNX_Gun_Vanguard20mmSuppressiveCannon.verbs.Verb_VanguardSuppressiveCannon.label>
+  <DNX_Gun_WatcherLongRangePrecisionTurret.verbs.Verb_AlignedTrackingShot.label>Arme de tourelle de précision Watcher</DNX_Gun_WatcherLongRangePrecisionTurret.verbs.Verb_AlignedTrackingShot.label>
+  <DNX_TestCurveMissileLauncher.verbs.Verb_Shoot.label>Lanceur de missile courbe de test</DNX_TestCurveMissileLauncher.verbs.Verb_Shoot.label>
+</LanguageData>

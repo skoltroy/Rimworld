@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.0>r_roleName(p=4)-&gt;[firstPart][secondPart]</VGE_NamerRoleEngineering.rulePack.rulesStrings.0>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.1>r_roleName(p=1)-&gt;ingénieur en chef</VGE_NamerRoleEngineering.rulePack.rulesStrings.1>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.2>r_roleName(p=1)-&gt;mécanicien des systèmes</VGE_NamerRoleEngineering.rulePack.rulesStrings.2>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.3>r_roleName(p=1)-&gt;technicien du Hellion</VGE_NamerRoleEngineering.rulePack.rulesStrings.3>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.4>firstPart-&gt;techno-</VGE_NamerRoleEngineering.rulePack.rulesStrings.4>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.5>firstPart-&gt;mécano-</VGE_NamerRoleEngineering.rulePack.rulesStrings.5>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.6>firstPart-&gt;gravito-</VGE_NamerRoleEngineering.rulePack.rulesStrings.6>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.7>firstPart-&gt;structuro-</VGE_NamerRoleEngineering.rulePack.rulesStrings.7>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.8>firstPart-&gt;mécano-</VGE_NamerRoleEngineering.rulePack.rulesStrings.8>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.9>firstPart-&gt;servo-</VGE_NamerRoleEngineering.rulePack.rulesStrings.9>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.10>firstPart-&gt;électro-</VGE_NamerRoleEngineering.rulePack.rulesStrings.10>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.11>firstPart-&gt;circuito-</VGE_NamerRoleEngineering.rulePack.rulesStrings.11>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.12>firstPart-&gt;forge-</VGE_NamerRoleEngineering.rulePack.rulesStrings.12>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.13>firstPart-&gt;moteur-</VGE_NamerRoleEngineering.rulePack.rulesStrings.13>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.14>secondPart(p=4)-&gt;artisan</VGE_NamerRoleEngineering.rulePack.rulesStrings.14>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.15>secondPart(p=3)-&gt;mécanicien</VGE_NamerRoleEngineering.rulePack.rulesStrings.15>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.16>secondPart(p=3)-&gt;ouvrier</VGE_NamerRoleEngineering.rulePack.rulesStrings.16>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.17>secondPart(p=2)-&gt;réparateur</VGE_NamerRoleEngineering.rulePack.rulesStrings.17>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.18>secondPart(p=2)-&gt;bricoleur</VGE_NamerRoleEngineering.rulePack.rulesStrings.18>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.19>secondPart(p=2)-&gt;maçon</VGE_NamerRoleEngineering.rulePack.rulesStrings.19>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.20>secondPart(p=1)-&gt;bâtisseur</VGE_NamerRoleEngineering.rulePack.rulesStrings.20>
+  <VGE_NamerRoleEngineering.rulePack.rulesStrings.21>secondPart(p=1)-&gt;gardien</VGE_NamerRoleEngineering.rulePack.rulesStrings.21>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.0>r_roleName(p=4)-&gt;[firstPart][secondPart]</VGE_NamerRoleNavigator.rulePack.rulesStrings.0>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.1>r_roleName(p=1)-&gt;navigateur</VGE_NamerRoleNavigator.rulePack.rulesStrings.1>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.2>r_roleName(p=1)-&gt;guide stellaire</VGE_NamerRoleNavigator.rulePack.rulesStrings.2>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.3>r_roleName(p=1)-&gt;voyant des étoiles</VGE_NamerRoleNavigator.rulePack.rulesStrings.3>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.4>firstPart-&gt;astro-</VGE_NamerRoleNavigator.rulePack.rulesStrings.4>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.5>firstPart-&gt;stella-</VGE_NamerRoleNavigator.rulePack.rulesStrings.5>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.6>firstPart-&gt;vide-</VGE_NamerRoleNavigator.rulePack.rulesStrings.6>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.7>firstPart-&gt;gravito-</VGE_NamerRoleNavigator.rulePack.rulesStrings.7>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.8>firstPart-&gt;cosmo-</VGE_NamerRoleNavigator.rulePack.rulesStrings.8>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.9>firstPart-&gt;célesto-</VGE_NamerRoleNavigator.rulePack.rulesStrings.9>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.10>firstPart-&gt;orbito-</VGE_NamerRoleNavigator.rulePack.rulesStrings.10>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.11>firstPart-&gt;ciel-</VGE_NamerRoleNavigator.rulePack.rulesStrings.11>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.12>firstPart-&gt;gouvernail-</VGE_NamerRoleNavigator.rulePack.rulesStrings.12>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.13>secondPart(p=3)-&gt;lecteur</VGE_NamerRoleNavigator.rulePack.rulesStrings.13>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.14>secondPart(p=3)-&gt;voyant</VGE_NamerRoleNavigator.rulePack.rulesStrings.14>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.15>secondPart(p=3)-&gt;pisteur</VGE_NamerRoleNavigator.rulePack.rulesStrings.15>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.16>secondPart(p=2)-&gt;arpenteur</VGE_NamerRoleNavigator.rulePack.rulesStrings.16>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.17>secondPart(p=2)-&gt;pilote</VGE_NamerRoleNavigator.rulePack.rulesStrings.17>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.18>secondPart(p=2)-&gt;cartographe</VGE_NamerRoleNavigator.rulePack.rulesStrings.18>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.19>secondPart(p=1)-&gt;navigateur</VGE_NamerRoleNavigator.rulePack.rulesStrings.19>
+  <VGE_NamerRoleNavigator.rulePack.rulesStrings.20>secondPart(p=1)-&gt;observateur</VGE_NamerRoleNavigator.rulePack.rulesStrings.20>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.0>r_roleName(p=4)-&gt;[firstPart][secondPart]</VGE_NamerRolePiloting.rulePack.rulesStrings.0>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.1>r_roleName(p=1)-&gt;pilote</VGE_NamerRolePiloting.rulePack.rulesStrings.1>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.2>r_roleName(p=1)-&gt;officier de vol</VGE_NamerRolePiloting.rulePack.rulesStrings.2>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.3>r_roleName(p=1)-&gt;timonier</VGE_NamerRolePiloting.rulePack.rulesStrings.3>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.4>firstPart-&gt;aéro-</VGE_NamerRolePiloting.rulePack.rulesStrings.4>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.5>firstPart-&gt;ciel-</VGE_NamerRolePiloting.rulePack.rulesStrings.5>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.6>firstPart-&gt;gravito-</VGE_NamerRolePiloting.rulePack.rulesStrings.6>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.7>firstPart-&gt;orbito-</VGE_NamerRolePiloting.rulePack.rulesStrings.7>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.8>firstPart-&gt;astro-</VGE_NamerRolePiloting.rulePack.rulesStrings.8>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.9>firstPart-&gt;navi-</VGE_NamerRolePiloting.rulePack.rulesStrings.9>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.10>firstPart-&gt;propulseur-</VGE_NamerRolePiloting.rulePack.rulesStrings.10>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.11>firstPart-&gt;trajecto-</VGE_NamerRolePiloting.rulePack.rulesStrings.11>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.12>firstPart-&gt;gouvernail-</VGE_NamerRolePiloting.rulePack.rulesStrings.12>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.13>firstPart-&gt;aile-</VGE_NamerRolePiloting.rulePack.rulesStrings.13>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.14>secondPart(p=4)-&gt;maître</VGE_NamerRolePiloting.rulePack.rulesStrings.14>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.15>secondPart(p=3)-&gt;cavalier</VGE_NamerRolePiloting.rulePack.rulesStrings.15>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.16>secondPart(p=3)-&gt;pilote</VGE_NamerRolePiloting.rulePack.rulesStrings.16>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.17>secondPart(p=2)-&gt;conducteur</VGE_NamerRolePiloting.rulePack.rulesStrings.17>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.18>secondPart(p=2)-&gt;coureur</VGE_NamerRolePiloting.rulePack.rulesStrings.18>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.19>secondPart(p=2)-&gt;capitaine</VGE_NamerRolePiloting.rulePack.rulesStrings.19>
+  <VGE_NamerRolePiloting.rulePack.rulesStrings.20>secondPart(p=1)-&gt;gardien</VGE_NamerRolePiloting.rulePack.rulesStrings.20>
+</LanguageData>

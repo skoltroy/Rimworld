@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_AccuracyGlobal.label>précision globale</VGE_AccuracyGlobal.label>
+  <VGE_AccuracyGlobal.description>Précision lors des tirs sur des cibles de la carte du monde. Elle est multipliée par la compétence de ciblage du Hellion de l’opérateur.</VGE_AccuracyGlobal.description>
+  <VGE_SubstructureSupportMultiplier.label>multiplicateur de soutien de la sous-structure</VGE_SubstructureSupportMultiplier.label>
+  <VGE_SubstructureSupportMultiplier.description>Facteur multiplicatif appliqué à la capacité maximale de sous-structure que le Hellion peut soutenir.</VGE_SubstructureSupportMultiplier.description>
+  <VGE_MaintenanceSensitivity.label>sensibilité à l'entretien</VGE_MaintenanceSensitivity.label>
+  <VGE_MaintenanceSensitivity.description>Facteur qui détermine la difficulté d'entretien de cette structure ainsi que la vitesse à laquelle son niveau d'entretien diminue.</VGE_MaintenanceSensitivity.description>
+  <VGE_MaintenanceDifficulty.label>difficulté d'entretien</VGE_MaintenanceDifficulty.label>
+  <VGE_MaintenanceDifficulty.description>Modificateur de la difficulté d'entretien de cette structure. Il n'affecte pas la vitesse à laquelle son niveau d'entretien diminue.</VGE_MaintenanceDifficulty.description>
+  <VGE_GravPowerAdjacency.label>bonus de puissance lié à la proximité</VGE_GravPowerAdjacency.label>
+  <VGE_GravPowerAdjacency.description>Facteur qui ajuste la puissance produite en fonction du nombre de cellules de puissance de gravicœur ou de bobines voisines.</VGE_GravPowerAdjacency.description>
+  <VGE_GlobalMaintenanceSensitivity.label>sensibilité globale à l'entretien</VGE_GlobalMaintenanceSensitivity.label>
+  <VGE_GlobalMaintenanceSensitivity.description>Modificateur de la sensibilité à l'entretien du moteur gravitationnel et de toutes les installations qui lui sont reliées.</VGE_GlobalMaintenanceSensitivity.description>
+  <VGE_GravshipTargeting.label>ciblage du Hellion</VGE_GravshipTargeting.label>
+  <VGE_GravshipTargeting.description>Mesure la capacité de cette personne à utiliser la console de ciblage et la précision de ses tirs avec les armes du Hellion.</VGE_GravshipTargeting.description>
+  <VGE_GravshipResearch.label>recherche sur le Hellion</VGE_GravshipResearch.label>
+  <VGE_GravshipResearch.description>Mesure la compréhension de cette personne des données gravimétriques brutes.</VGE_GravshipResearch.description>
+  <VGE_GravshipMaintenance.label>entretien du Hellion</VGE_GravshipMaintenance.label>
+  <VGE_GravshipMaintenance.description>Mesure la capacité de cette personne à entretenir les composants du Hellion.</VGE_GravshipMaintenance.description>
+</LanguageData>

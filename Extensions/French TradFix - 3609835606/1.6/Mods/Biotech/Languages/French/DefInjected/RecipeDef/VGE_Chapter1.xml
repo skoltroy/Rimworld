@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_AstropedeRecipe.label>gestation d'astropède</VGE_AstropedeRecipe.label>
+  <VGE_AstropedeRecipe.description>Fait gestater un mécanoïde astropède.</VGE_AstropedeRecipe.description>
+  <VGE_HunterRecipe.label>gestation de chasseur</VGE_HunterRecipe.label>
+  <VGE_HunterRecipe.description>Fait gestater un mécanoïde chasseur.</VGE_HunterRecipe.description>
+  <VGE_AstronautRecipe.label>gestation d'astronaute</VGE_AstronautRecipe.label>
+  <VGE_AstronautRecipe.description>Fait gestater un mécanoïde astronaute.</VGE_AstronautRecipe.description>
+</LanguageData>

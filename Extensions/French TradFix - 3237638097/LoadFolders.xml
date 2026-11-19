@@ -1,0 +1,28 @@
+<loadFolders>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+		<li IfModActive="adaptive.storage.framework">1.5/Mods/AdaptiveStorageFramework</li>
+		<li IfModActive="vanillaexpanded.vfeart">1.5/Mods/VanillaExpanded/VEArt</li>
+		<li IfModActive="vanillaexpanded.vfecore">1.5/Mods/VanillaExpanded/VEFurniture</li>
+		<li IfModActive="vanillaexpanded.vfeproduction">1.5/Mods/VanillaExpanded/VEProduction</li>
+		<li IfModActive="vanillaexpanded.vfepropsanddecor">1.5/Mods/VanillaExpanded/VEProps/</li>
+		<li IfModActive="vanillaexpanded.vfesecurity">1.5/Mods/VanillaExpanded/VESecurity</li>
+		<li IfModActive="vanillaexpanded.vfespacer">1.5/Mods/VanillaExpanded/VESpacer</li>
+		<li IfModActive="oskarpotocki.vanillavehiclesexpanded">1.5/Mods/VanillaExpanded/VEVehicles</li>
+	</v1.5>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModActive="adaptive.storage.framework">1.6/Mods/AdaptiveStorageFramework</li>
+		<li IfModActive="vanillaexpanded.vfeart">1.6/Mods/VanillaExpanded/VEArt</li>
+		<li IfModActive="vanillaexpanded.vfecore">1.6/Mods/VanillaExpanded/VEFurniture</li>
+		<li IfModActive="vanillaexpanded.vfeproduction">1.6/Mods/VanillaExpanded/VEProduction</li>
+		<li IfModActive="vanillaexpanded.vfepropsanddecor">1.6/Mods/VanillaExpanded/VEProps/</li>
+		<li IfModActive="vanillaexpanded.vfesecurity">1.6/Mods/VanillaExpanded/VESecurity</li>
+		<li IfModActive="vanillaexpanded.vfespacer">1.6/Mods/VanillaExpanded/VESpacer</li>
+		<li IfModActive="oskarpotocki.vanillavehiclesexpanded">1.6/Mods/VanillaExpanded/VEVehicles</li>
+	</v1.6>	
+</loadFolders>
+
+

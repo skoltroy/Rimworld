@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_TargetingTerminalCanOnlyLinkWithGravshipArtillery>Le terminal de visée ne peut se relier qu'à l'artillerie Hellion.</VGE_TargetingTerminalCanOnlyLinkWithGravshipArtillery>
+  <VGE_NeedsLinkedTargetingTerminal>Nécessite un terminal de visée relié.</VGE_NeedsLinkedTargetingTerminal>
+  <VGE_LinkWithTerminal>Relier à un terminal</VGE_LinkWithTerminal>
+  <VGE_LinkWithTerminalDesc>Sélectionnez un terminal de visée auquel se relier. Un terminal de visée est nécessaire pour utiliser l'artillerie Hellion.</VGE_LinkWithTerminalDesc>
+  <VGE_UnlinkWithTerminal>Délier un terminal</VGE_UnlinkWithTerminal>
+  <VGE_UnlinkWithTerminalDesc>Rompre la liaison actuelle avec le terminal de visée pour pouvoir en relier un autre.</VGE_UnlinkWithTerminalDesc>
+  <VGE_SelectLinkedTerminal>Sélectionner le terminal relié</VGE_SelectLinkedTerminal>
+  <VGE_SelectLinkedTerminalDesc>Afficher le terminal de visée relié.</VGE_SelectLinkedTerminalDesc>
+  <VGE_SetWorldTarget>Définir une cible sur la carte du monde</VGE_SetWorldTarget>
+  <VGE_SetWorldTargetDesc>Définissez sur la carte du monde la cible que l'artillerie Hellion doit atteindre. Les tirs effectués sur la carte du monde sont moins précis. Ne peut viser que des lieux révélés.</VGE_SetWorldTargetDesc>
+  <VGE_NeedsMannedTargetingTerminal>Nécessite un terminal de visée avec opérateur.</VGE_NeedsMannedTargetingTerminal>
+  <VGE_LinkWithTurret>Relier à une tourelle</VGE_LinkWithTurret>
+  <VGE_LinkWithTurretDesc>Sélectionnez une tourelle à relier. Ce terminal de visée servira à la contrôler.</VGE_LinkWithTurretDesc>
+  <VGE_UnlinkWithTurret>Délier {0}</VGE_UnlinkWithTurret>
+  <VGE_UnlinkWithTurretDesc>Rompre la liaison actuelle avec la tourelle pour pouvoir en relier une autre.</VGE_UnlinkWithTurretDesc>
+  <VGE_SelectLinkedTurret>Sélectionner {0} reliée</VGE_SelectLinkedTurret>
+  <VGE_SelectLinkedTurretDesc>Afficher la tourelle reliée.</VGE_SelectLinkedTurretDesc>
+  <VGE_GravshipArtilleryNeedsVisibleMap>L'artillerie Hellion doit viser une carte visible et explorée.</VGE_GravshipArtilleryNeedsVisibleMap>
+  <VGE_TargetOutOfRange>La cible est hors de portée.</VGE_TargetOutOfRange>
+  <VGE_MustBeAimedViaEquippedTargeter>Doit être visé à l'aide d'un dispositif de ciblage équipé.</VGE_MustBeAimedViaEquippedTargeter>
+  <VGE_GravshipArtilleryInvalidFiringMode>L'artillerie ne peut pas tirer dans cette direction.</VGE_GravshipArtilleryInvalidFiringMode>
+  <VGE_GravshipArtilleryInvalidGroundToSpace>L'artillerie ne peut pas tirer de la planète vers l'espace.</VGE_GravshipArtilleryInvalidGroundToSpace>
+  <VGE_GravshipArtilleryInvalidSpaceToSpace>L'artillerie ne peut pas tirer de l'espace vers l'espace.</VGE_GravshipArtilleryInvalidSpaceToSpace>
+  <VGE_GravshipArtilleryInvalidSpaceToGround>L'artillerie ne peut pas tirer de l'espace vers le sol.</VGE_GravshipArtilleryInvalidSpaceToGround>
+  <VGE_GravshipArtilleryInvalidGroundToGround>L'artillerie ne peut pas tirer du sol vers le sol.</VGE_GravshipArtilleryInvalidGroundToGround>
+  <VGE_ConfirmCrashLanding>Atterrir sur ce lieu sera considéré comme un écrasement. Toutes les structures en surbrillance sous le Hellion endommageront les structures correspondantes à bord.\n\nLa tôle de pont du Hellion pourrait aussi être endommagée et devra être remplacée avant le prochain décollage.\n\nCertains objets indestructibles situés en dessous pourraient détruire complètement la tôle de pont et tout ce qui repose dessus.\n\nVous devriez envisager une autre zone d'atterrissage.</VGE_ConfirmCrashLanding>
+  <VGE_CrashLandingWarning>Atterrir sur ce lieu sera considéré comme un écrasement et endommagera le Hellion.</VGE_CrashLandingWarning>
+  <VGE_CannotLandIndestructibleObstacles>Atterrissage impossible : des obstacles indestructibles sont présents. Choisissez un autre lieu.</VGE_CannotLandIndestructibleObstacles>
+  <!-- Vac checkpoints -->
+  <VGE_VacCheckpoint_SetVacuumResistance>Définir la résistance au vide souhaitée</VGE_VacCheckpoint_SetVacuumResistance>
+  <VGE_VacCheckpoint_SetVacuumResistanceDesc>Définissez le pourcentage de résistance au vide nécessaire pour franchir ce sas. Les colons qui n'ont pas une résistance suffisante ne chercheront pas à passer par ce sas. Cela ne concerne pas les colons enrôlés.</VGE_VacCheckpoint_SetVacuumResistanceDesc>
+  <VGE_VacCheckpoint_VacuumResistancePercent>Résistance au vide : {0_percentage}</VGE_VacCheckpoint_VacuumResistancePercent>
+  <VGE_VacCheckpoint_MinimumVacuumResistance>Résistance minimale au vide : {0_percentage}</VGE_VacCheckpoint_MinimumVacuumResistance>
+  <VGE_VacCheckpoint_AllowDrafted>Les colons enrôlés peuvent toujours passer</VGE_VacCheckpoint_AllowDrafted>
+  <VGE_VacCheckpoint_DisallowDrafted>Les colons enrôlés doivent avoir une résistance suffisante au vide</VGE_VacCheckpoint_DisallowDrafted>
+  <VGE_VacCheckpoint_AllowDraftedCheckbox>Toujours autoriser les enrôlés</VGE_VacCheckpoint_AllowDraftedCheckbox>
+  <!-- Oxygen packs -->
+  <VGE_OxygenPackInactive>inactif</VGE_OxygenPackInactive>
+  <VGE_OxygenUnits>Oxygène (u³)</VGE_OxygenUnits>
+  <VGE_OxygenDrainIfActive>Consommation d'oxygène par jour (si actif) : {0} u³</VGE_OxygenDrainIfActive>
+  <VGE_OxygenReplenishAt>Réapprovisionner en oxygène à : {0} u³</VGE_OxygenReplenishAt>
+  <VGE_OxygenReplenishDisabled>Réapprovisionnement automatique en oxygène désactivé.</VGE_OxygenReplenishDisabled>
+  <VGE_OxygenReplenishOnOffDesc>Détermine si {PAWN_nameDef} réapprovisionne automatiquement ses bouteilles d'oxygène lorsque l'oxygène dans l'équipement de {PAWN_possessive} passe sous {MIN} u³.\n\nLe réapprovisionnement automatique en oxygène est actuellement {ONOFF}.</VGE_OxygenReplenishOnOffDesc>
+  <VGE_OxygenReplenishOnOffNoWearerDesc>Détermine si la personne qui porte l'équipement réapprovisionne automatiquement ses bouteilles d'oxygène lorsque celui-ci en contient moins de {MIN} u³.\n\nLe réapprovisionnement automatique en oxygène est actuellement {ONOFF}.</VGE_OxygenReplenishOnOffNoWearerDesc>
+  <VGE_IneffectiveOxygenPack>Bouteille d'oxygène inefficace</VGE_IneffectiveOxygenPack>
+  <VGE_IneffectiveOxygenPackDesc>Quelqu'un porte une bouteille d'oxygène sans vêtement de protection contre le vide. La bouteille ne fonctionnera pas. Pensez à équiper cette personne d'autres vêtements résistants au vide.\n\nColons sans vêtement de protection contre le vide :</VGE_IneffectiveOxygenPackDesc>
+  <VGE_EquippingIneffectiveOxygenPack>{PAWN} équipe une bouteille d'oxygène sans porter de tenue résistante au vide. {APPAREL_labelNoParenthesis} ne fonctionnera pas.</VGE_EquippingIneffectiveOxygenPack>
+  <VGE_EquippingOnOtherIneffectiveOxygenPack>{PAWN} équipe {TARGET} d'une bouteille d'oxygène alors que cette personne ne porte pas de tenue résistante au vide. {APPAREL_labelNoParenthesis} ne fonctionnera pas.</VGE_EquippingOnOtherIneffectiveOxygenPack>
+  <VGE_Refill>Recharger {GEAR_labelShort} avec {AMMO_label}</VGE_Refill>
+  <VGE_RefillCannotCarryEnough>Impossible de transporter assez de {AMMO_label} pour recharger une charge.</VGE_RefillCannotCarryEnough>
+  <!-- Low oxygen alerts -->
+  <VGE_Alert_LowOxygen>Oxygène faible</VGE_Alert_LowOxygen>
+  <VGE_Alert_LowOxygenExplanation>Vos réserves d'oxygène sont dangereusement basses.\n\n    Oxygène en stock : {0}u³\n    Colons et prisonniers respirant de l'oxygène : {1}\n\nLorsque l'oxygène sera épuisé, le Hellion commencera à se remplir de vide.</VGE_Alert_LowOxygenExplanation>
+  <!-- Death from vacuum exposure inspect string -->
+  <VGE_ResistantToVacuumExposure>résistant au vide</VGE_ResistantToVacuumExposure>
+  <VGE_TimeUntilVacuumExposureDeath>Mort par exposition au vide dans {0}</VGE_TimeUntilVacuumExposureDeath>
+  <VGE_HeatsinkHeatStored>{0} / {1} unités de chaleur</VGE_HeatsinkHeatStored>
+  <VGE_AbsorbGravheat>Absorber la chaleur gravitationnelle</VGE_AbsorbGravheat>
+  <VGE_AbsorbGravheatDesc>Transférer toute chaleur structurelle restante du moteur vers cet absorbeur pour permettre un décollage immédiat du Hellion. L'absorbeur entrera ensuite dans une longue période de refroidissement pendant laquelle il ne pourra plus absorber de chaleur.</VGE_AbsorbGravheatDesc>
+  <VGE_NoGravEngine>aucun moteur Hellion trouvé</VGE_NoGravEngine>
+  <VGE_NoCooldownToAbsorb>Aucune chaleur à absorber</VGE_NoCooldownToAbsorb>
+  <VGE_GravheatAbsorberCoolingDown>L'absorbeur de chaleur gravitationnelle refroidit. Disponible dans : {0}</VGE_GravheatAbsorberCoolingDown>
+  <VGE_LaunchGravAnchorCooldownInfo>Toutefois, atterrir dans un lieu contenant un mât d'amarrage supprimera entièrement le délai de refroidissement au décollage.</VGE_LaunchGravAnchorCooldownInfo>
+  <VGE_LaunchHeatsinkCooldownInfo>Les dissipateurs réduiront le délai de refroidissement après le décollage de {0}.</VGE_LaunchHeatsinkCooldownInfo>
+  <VGE_LaunchHeatUnitsInfo>Ce décollage produira environ {0} unités de chaleur, augmentant la température dans tout le Hellion.</VGE_LaunchHeatUnitsInfo>
+  <!-- Uses fuel providers, rest of the data will be used using data from those. -->
+  <VGE_LaunchFuelInfo>Ce décollage consommera le carburant suivant :</VGE_LaunchFuelInfo>
+  <VGE_DesignatorRemoveSubstructure>Retirer la tôle de pont</VGE_DesignatorRemoveSubstructure>
+  <VGE_DesignatorRemoveSubstructureDesc>Retirer la tôle de pont Hellion de l'appareil.</VGE_DesignatorRemoveSubstructureDesc>
+  <VGE_MapDecisionText>Votre Hellion a décollé. Vous pouvez maintenant décider si vous voulez conserver la carte précédente ou la abandonner.
+Si vous la conservez, elle restera présente comme carte de colonie jusqu'à ce que vous l'abandonniez.
+Si vous l'abandonnez, elle pourra être remplacée par une colonie abandonnée, rendue à son propriétaire d'origine, transformée en lieu spécial ou de quête, ou détruite.
+Notez que garder plusieurs cartes ouvertes peut affecter les performances.</VGE_MapDecisionText>
+  <VGE_MapDecisionSettleText>Votre Hellion a décollé. Vous pouvez maintenant décider si vous voulez coloniser la carte précédente.
+Si vous la colonisez, elle restera présente comme carte de colonie jusqu'à ce que vous l'abandonniez.
+Si vous décidez de ne pas la coloniser, la carte sera conservée jusqu'à ce qu'elle soit automatiquement éliminée. Elle est actuellement conservée parce que des colons s'y trouvent, qu'une navette ou des capsules de largage s'y rendent, ou qu'un bâtiment spécial est présent sur la carte.
+Notez que garder plusieurs cartes ouvertes peut affecter les performances.</VGE_MapDecisionSettleText>
+  <VGE_KeepMap>Conserver la carte</VGE_KeepMap>
+  <VGE_DiscardMap>Abandonner la carte</VGE_DiscardMap>
+  <VGE_SettleMap>Coloniser la carte</VGE_SettleMap>
+  <VGE_DontSettle>Ne pas coloniser</VGE_DontSettle>
+  <VGE_RapidlyDeterioratingInSpace>Se détériore rapidement dans le vide spatial.</VGE_RapidlyDeterioratingInSpace>
+  <ConfirmGravEngineLaunch>Voulez-vous vraiment décoller ?\n\nVous pourrez choisir de conserver la carte actuelle, ainsi que tout ce qui ne se trouve pas sur la tôle de pont du Hellion. Si vous choisissez d'abandonner la carte, ces éléments seront définitivement perdus.</ConfirmGravEngineLaunch>
+  <!-- Messages related to multiple gravships -->
+  <VGE_BuildSingleGravEngineOnly>Vous ne pouvez pas construire {0} si vous possédez déjà un autre moteur Hellion.</VGE_BuildSingleGravEngineOnly>
+  <VGE_BuildSingleGravEngineBuildBlueprintOnly>Vous ne pouvez pas construire {0} si un autre moteur Hellion est déjà en construction.</VGE_BuildSingleGravEngineBuildBlueprintOnly>
+  <VGE_InstallSingleGravEngineOnMap>Vous ne pouvez pas installer {0} si un autre moteur Hellion se trouve déjà à proximité.</VGE_InstallSingleGravEngineOnMap>
+  <VGE_InstallSingleGravEngineBuildBlueprintOnly>Vous ne pouvez pas installer {0} si un autre moteur Hellion est déjà en construction à proximité.</VGE_InstallSingleGravEngineBuildBlueprintOnly>
+  <VGE_InstallSingleGravEngineInstallBlueprintOnly>Vous ne pouvez pas installer {0} si un plan d'un autre moteur Hellion se trouve à proximité.</VGE_InstallSingleGravEngineInstallBlueprintOnly>
+  <!-- For example: "Grav engine disabled: Multiple grav engines present" -->
+  <VGE_GravEngineDisabled>Moteur Hellion désactivé :</VGE_GravEngineDisabled>
+  <!-- Disabled message for gravship launch ritual when there's multiple gravship engines present. Should hopefully never happen. -->
+  <!-- Also used for grav engines tooltip when there's another one present. -->
+  <VGE_MultipleGravEnginesPresent>plusieurs moteurs Hellion présents</VGE_MultipleGravEnginesPresent>
+  <!-- Disabled message for gravship launch ritual when there's a gravship currently travellingo on the world. Should hopefully never happen. -->
+  <VGE_GravshipCurrentlyActive>un autre Hellion est actuellement actif</VGE_GravshipCurrentlyActive>
+  <!-- Disabled message for gravship launch ritual when there's another gravship launch ritual active. Should hopefully never happen. -->
+  <VGE_GravshipLaunchCurrentlyActive>un autre Hellion se prépare actuellement à décoller</VGE_GravshipLaunchCurrentlyActive>
+  <!-- Mod options -->
+  <VGE_OrbitObjectsMultiplier>Multiplicateur d'objets orbitaux</VGE_OrbitObjectsMultiplier>
+  <VGE_OrbitObjectsMultiplierDesc>Par défaut, le jeu tente de maintenir 3, 8, 12 ou 20 lieux en orbite, selon la couverture du globe de la planète. Ce curseur applique un multiplicateur à ce nombre et rend les orbites de votre planète très clairsemées ou au contraire surchargées !</VGE_OrbitObjectsMultiplierDesc>
+  <VGE_MaintenanceMultiplier>Multiplicateur de perte d'entretien (plus la valeur est élevée, plus l'entretien diminue vite)</VGE_MaintenanceMultiplier>
+  <VGE_MaintenanceMultiplierDesc>La perte d'entretien au fil du temps et pendant les déplacements du Hellion est multipliée par cette valeur. Une valeur de 2 signifie que l'entretien diminue deux fois plus vite. Cette option a été ajoutée à la suite des retours de Sam Streamer.</VGE_MaintenanceMultiplierDesc>
+  <VGE_Reset>Réinitialiser</VGE_Reset>
+  <VGE_More>Plus</VGE_More>
+  <!-- World objects -->
+  <VGE_SoildIceAsteroid>Astéroïde de glace solide contenant des traces de {RESOURCE_label}</VGE_SoildIceAsteroid>
+  <!-- Map incidents -->
+  <VGE_CannotLaunchGravAnomaly>Impossible de faire décoller le Hellion en raison d'une anomalie gravitationnelle</VGE_CannotLaunchGravAnomaly>
+  <!-- Maintenance -->
+  <VGE_Maintenance>Entretien de la pièce : {0}</VGE_Maintenance>
+  <VGE_Maintain>Entretenir la pièce</VGE_Maintain>
+  <VGE_Alert_LowMaintenance>Entretien du Hellion faible</VGE_Alert_LowMaintenance>
+  <VGE_Alert_LowMaintenance_Desc>Certains composants du Hellion ont un entretien faible. Cela peut entraîner des résultats négatifs au décollage et des pannes à terme. Pensez à affecter un colon à leur entretien. Composants Hellion à faible entretien :\n\n {0}</VGE_Alert_LowMaintenance_Desc>
+  <VGE_StatsReport_GravEngineGlobalMaintenanceSensitivity>Sensibilité globale à l'entretien</VGE_StatsReport_GravEngineGlobalMaintenanceSensitivity>
+  <VGE_SetDesiredMaintenance>Définir l'entretien souhaité</VGE_SetDesiredMaintenance>
+  <VGE_SetDesiredMaintenanceDesc>Définir l'entretien souhaité pour tous les composants Hellion de cet appareil. Les colons affectés à la construction entretiendront les structures si elles descendent sous le niveau défini.</VGE_SetDesiredMaintenanceDesc>
+  <VGE_ToggleMaintainBuilding>Entretien automatique</VGE_ToggleMaintainBuilding>
+  <VGE_ToggleMaintainBuildingDesc>Détermine si les colons entretiendront automatiquement ce bâtiment.</VGE_ToggleMaintainBuildingDesc>
+  <!-- Gravdata -->
+  <VGE_GravdataYieldInfo>Rendement estimé en données de vol : {0}</VGE_GravdataYieldInfo>
+  <VGE_NoGravtechProjectSelected>Aucun projet de recherche sur les systèmes Hellion sélectionné. Le décollage ne produira aucune donnée de vol.</VGE_NoGravtechProjectSelected>
+  <VGE_LaunchBoonChanceInfo>Selon les prévisions actuelles, la probabilité d'un effet positif est de {0} %.</VGE_LaunchBoonChanceInfo>
+  <VGE_LaunchBoonOutcomeChanceLetterExtra>Selon le décollage du Hellion, il y avait une probabilité de {0_percentage} d'issue positive.</VGE_LaunchBoonOutcomeChanceLetterExtra>
+  <VGE_GravdataStored>Données de vol stockées : {0}</VGE_GravdataStored>
+  <VGE_GravdataStoredInfo>Les données de vol stockées seront automatiquement appliquées au projet de recherche sur les systèmes Hellion sélectionné lors du prochain atterrissage.</VGE_GravdataStoredInfo>
+  <VGE_ConvertGravdata>Convertir les données de vol</VGE_ConvertGravdata>
+  <VGE_ConvertGravdataDesc>Convertir les données de vol stockées en progrès de recherche pour le projet non-Hellion sélectionné. Le taux de conversion est de un pour un.</VGE_ConvertGravdataDesc>
+  <VGE_NoNonGravtechProjectSelected>Aucun projet de recherche non-Hellion sélectionné.</VGE_NoNonGravtechProjectSelected>
+  <VGE_ConvertedGravdataToResearch>{0} données de vol converties en points de recherche pour {1}.</VGE_ConvertedGravdataToResearch>
+  <VGE_EscapePodCrash>Écrasement d'une capsule de sauvetage</VGE_EscapePodCrash>
+  <VGE_EscapePodCrashDesc>Une capsule de sauvetage endommagée s'est écrasée sur la carte. Il est possible de la pirater pour découvrir ce qu'elle contient.</VGE_EscapePodCrashDesc>
+  <!-- Gravlift -->
+  <VGE_LaunchToOrbit>Décoller vers l'orbite</VGE_LaunchToOrbit>
+  <VGE_LaunchToOrbitDesc>Lancer le Hellion directement vers le haut et le stabiliser en orbite. Cela reste considéré comme un voyage Hellion et le moteur entrera en refroidissement, pouvant vous laisser bloqué en orbite.</VGE_LaunchToOrbitDesc>
+  <VGE_CantLaunchAlreadyInOrbit>Impossible : déjà en orbite.</VGE_CantLaunchAlreadyInOrbit>
+  <VGE_MechanoidPodGestation>Fin de gestation de la capsule {0} dans : {1}.</VGE_MechanoidPodGestation>
+  <VGE_MechanoidPodsLeft>Capsules de robots restantes à compléter : {0}.</VGE_MechanoidPodsLeft>
+  <VGE_RemainingShieldTime>Durée de bouclier restante : {0}</VGE_RemainingShieldTime>
+  <VGE_CooldownRemaining>Temps de recharge restant : {0}</VGE_CooldownRemaining>
+  <VGE_ResourceProcessorInfo>Production de {0} {1} terminée dans : {2}\nOpérations de production restantes : {3}</VGE_ResourceProcessorInfo>
+  <!-- Astrofire alert. Unused in 1.7+, replaced with framework custom fires. Kept around for 1.6 mod compatibility. -->
+  <VGE_AstrofireInHomeArea>Feu astral !</VGE_AstrofireInHomeArea>
+  <VGE_AstrofireInHomeAreaDesc>Un feu astral s'est déclaré dans la zone de la colonie.</VGE_AstrofireInHomeAreaDesc>
+  <!-- Custom fire system for astrofire. Replaces the old 1.6 system. -->
+  <VGE_ReportBeatAstrofire>éteint le feu astral.</VGE_ReportBeatAstrofire>
+  <VGE_ReportExtinguishAstrofiresNearby>éteint les feux astraux à proximité.</VGE_ReportExtinguishAstrofiresNearby>
+  <VGE_RequiresSubstructureOrScaffolding>Nécessite une tôle de pont ou un échafaudage comme support de construction.</VGE_RequiresSubstructureOrScaffolding>
+  <!-- Odyssey architect tab -->
+  <VGE_NoAvailableDesignators>Aucun désignateur disponible</VGE_NoAvailableDesignators>
+  <!-- Vac barrier color picker -->
+  <VGE_ColorPickerValue>Luminosité</VGE_ColorPickerValue>
+  <VGE_ColorPickerValueTooltip>Choisissez une couleur en réglant sa luminosité.\n\nLa luminosité correspond à la valeur du modèle TSL (teinte, saturation, luminosité).</VGE_ColorPickerValueTooltip>
+  <VGE_MustBePlacedInRangeOfGravSource>Doit être placé à portée d'un moteur Hellion ou d'un amplificateur de champ.</VGE_MustBePlacedInRangeOfGravSource>
+  <!-- Vac barrier roof -->
+  <VGE_DesignatorAreaBuildVacBarrierRoofExpand>Construire une zone de toit anti-vide</VGE_DesignatorAreaBuildVacBarrierRoofExpand>
+  <VGE_DesignatorAreaBuildVacBarrierRoofExpandDesc>Les colons construiront des toits anti-vide dans cette zone.</VGE_DesignatorAreaBuildVacBarrierRoofExpandDesc>
+  <VGE_DesignatorAreaNoVacBarrierRoofExpand>Retirer une zone de toit anti-vide</VGE_DesignatorAreaNoVacBarrierRoofExpand>
+  <VGE_DesignatorAreaNoVacBarrierRoofExpandDesc>Les colons retireront les toits anti-vide de cette zone.</VGE_DesignatorAreaNoVacBarrierRoofExpandDesc>
+  <!-- Vac barrier roof recoloring designator -->
+  <VGE_DesignatorRecolorVacBarrierRoof>Recolorer les toits anti-vide...</VGE_DesignatorRecolorVacBarrierRoof>
+  <VGE_DesignatorRecolorVacBarrierRoofDesc>Recolorer immédiatement les toits anti-vide.</VGE_DesignatorRecolorVacBarrierRoofDesc>
+  <VGE_ColorPickerMenu>Choisir une couleur dans le sélecteur.</VGE_ColorPickerMenu>
+  <VGE_DesignatorEyeDropperDesc_Universal>Prélever une couleur sur un toit anti-vide, un bâtiment ou un sol existant.</VGE_DesignatorEyeDropperDesc_Universal>
+  <VGE_GrabVacBarrierRoofColor>Prélever la couleur d'un toit anti-vide</VGE_GrabVacBarrierRoofColor>
+  <VGE_GrabBuildingColor>Prélever la couleur de {BUILDING_labelNoParenthesis} : {COLOR}</VGE_GrabBuildingColor>
+  <VGE_GrabFloorColor>Prélever la couleur du sol : {COLOR}</VGE_GrabFloorColor>
+  <VGE_SelectColorFromTile>Choisir une couleur précise sur une case</VGE_SelectColorFromTile>
+  <!-- Grav engine inspection replacement text (overwrites Odyssey's) -->
+  <GravEngineInspectedLetterContents>Parmi les restes du Hellion écrasé, un moteur de chasseur encore intact bourdonne d'énergie.\n\nIl est possible de réparer la tôle de pont, mais plusieurs composants du Hellion sont irrécupérables. Le moteur s'oppose à la gravité, fait léviter l'appareil et permet les voyages à longue distance. En voyageant, vous pourrez débloquer les technologies qui vous permettront de reconstruire ces systèmes et bien d'autres.\n\nPour faire décoller un Hellion, réduisez sa taille, réparez la tôle de pont endommagée et remplacez les propulseurs et réservoirs d'astrofuel endommagés. Raffinez davantage d'astrofuel à la raffinerie de biocarburant et sélectionnez un projet de recherche sur les systèmes Hellion pour progresser en voyageant et en sollicitant le moteur.\n\nLe décollage d'un Hellion vous permettra d'abandonner votre carte actuelle.\n\n  - Recherche achevée : systèmes Hellion de base\n  - Revêtement débloqué : tôle de pont Hellion\n  - Mur débloqué : coque Hellion\n  - Structures débloquées : cockpit de pilotage, moteur de chasseur Hellion, petit propulseur, petit réservoir d'astrofuel, conduite d'astrofuel, vanne d'astrofuel, prise d'astrofuel, vidange d'astrofuel, extension de champ gravitationnel, petit dissipateur thermique\n  - Recette débloquée : produire de l'astrofuel à partir de chemfuel</GravEngineInspectedLetterContents>
+  <!-- Agrocell text -->
+  <VGE_AgrocellSunLampEnable>Allumer la lampe solaire</VGE_AgrocellSunLampEnable>
+  <VGE_AgrocellSunLampDisable>Éteindre la lampe solaire</VGE_AgrocellSunLampDisable>
+  <VGE_AgrocellSunLampDesc>Laisser la lampe solaire allumée permet à l'agrocellule de produire de la lumière pendant la journée, ce qui augmente la consommation d'énergie et permet à la plupart des plantes de pousser. La désactiver permet toutefois de faire pousser les plantes qui ont besoin d'obscurité tout en économisant de l'énergie.</VGE_AgrocellSunLampDesc>
+  <!-- Role abilities -->
+  <VGE_MustTargetPilotConsole>Cette capacité doit cibler un cockpit de pilotage.</VGE_MustTargetPilotConsole>
+  <VGE_RenameAsteroid>Nouvelle découverte !</VGE_RenameAsteroid>
+  <VGE_RenameAsteroidDesc>Comme {0} a été le premier à découvrir l'astéroïde {1} à proximité, il peut lui donner un nom.</VGE_RenameAsteroidDesc>
+  <VGE_IsIncapableOfIntellectualLower>{1_labelShort} ne peut pas effectuer de travail intellectuel</VGE_IsIncapableOfIntellectualLower>
+  <!-- Replacements for PilotGravship key based on the console/engine -->
+  <VGE_PilotGravjumper>Faire décoller le chasseur Hellion</VGE_PilotGravjumper>
+  <VGE_PilotGravhulk>Faire décoller le porte-aéronefs Hellion</VGE_PilotGravhulk>
+  <VGE_GravtechNeedsGravdata>{0} nécessite des données de vol pour être achevé. Voyagez avec votre Hellion pour en obtenir.</VGE_GravtechNeedsGravdata>
+  <!-- Replace pursuing mechanoids text with same but, but use the gravship itself as an argument. -->
+  <VGE_LetterTextMechanoidThreat>Le processus de balayage de la ruche mécanoïde est sur le point de déterminer votre position. Lorsqu'elle localisera votre {GRAVSHIP}, elle enverra une importante force de mécanoïdes pour vous éliminer.\n\nRassemblez vos provisions, puis fuyez la carte en sélectionnant {CONSOLE}, puis l'option de décollage.</VGE_LetterTextMechanoidThreat>
+  <!-- Simple "gravship" style text, without the engine part. -->
+  <!-- First, it's used for the {GRAVSHIP} argument text above. Second, it's used for replacing the "gravship" name of unnamed gravship world object. -->
+  <VGE_Gravjumper>chasseur Hellion</VGE_Gravjumper>
+  <VGE_Gravship>Hellion</VGE_Gravship>
+  <VGE_Gravhulk>porte-aéronefs Hellion</VGE_Gravhulk>
+  <!-- Scanner cluster -->
+  <VGE_ScannerCluster_TunedToNothing>Aucune cible</VGE_ScannerCluster_TunedToNothing>
+  <VGE_ScannerCluster_RandomResource>Ressource profonde aléatoire</VGE_ScannerCluster_RandomResource>
+  <VGE_ScannerCluster_TunedToOrbitalScanning>Scan orbital passif</VGE_ScannerCluster_TunedToOrbitalScanning>
+  <VGE_ScannerCluster_UndergroundResource>{RESOURCE} en profondeur</VGE_ScannerCluster_UndergroundResource>
+  <VGE_ScannerCluster_LongRangeResource>{RESOURCE} à longue portée</VGE_ScannerCluster_LongRangeResource>
+  <VGE_ScannerCluster_MissingResearchPrerequisite>Recherche {RESEARCH_label} manquante</VGE_ScannerCluster_MissingResearchPrerequisite>
+  <!-- Fuel providers -->
+  <VGE_GravshipFuelTab>Carburant</VGE_GravshipFuelTab>
+  <VGE_FuelTab_ThrustersTitle>Propulseurs à {RESOURCE}</VGE_FuelTab_ThrustersTitle>
+  <!-- Used for category title, like "astrofuel thrusters", or "chemfuel thrusters". -->
+  <VGE_FuelTab_Thrusters>propulseurs reliés</VGE_FuelTab_Thrusters>
+  <VGE_FuelTab_OtherFuelTitle>autre carburant</VGE_FuelTab_OtherFuelTitle>
+  <!-- Used for generic fuels (any vanilla refuelable), specifically the tab title -->
+  <VGE_FuelTab_OtherFuel>carburant</VGE_FuelTab_OtherFuel>
+  <!-- Used for generic fuels "Fuel: 123 / 456" -->
+  <VGE_FuelTab_Range>portée</VGE_FuelTab_Range>
+  <VGE_FuelTab_UsagePerTile>consommation : {COST} {RESOURCE} par case</VGE_FuelTab_UsagePerTile>
+  <!-- Pipe net providers uses the pipe net resource name. Electric thruster translation in Chapter 2. -->
+  <VGE_OtherFuel>autre carburant</VGE_OtherFuel>
+  <!-- Used for generic fuels in a full fuel report, like: "Cost:\n50 astrofuel\n100 other fuel" (separate key in case it's translated differently) -->
+  <VGE_ProtectingFromSpaceSolarFlare>Protection contre une éruption solaire spatiale</VGE_ProtectingFromSpaceSolarFlare>
+  <VGE_GravcoreTax>taxe sur les cœurs de réacteur</VGE_GravcoreTax>
+  <VGE_PermanentlyDisabled>Désactivé définitivement (ordinateur de guerre détruit)</VGE_PermanentlyDisabled>
+  <VGE_ChooseAStartingGravship>Choisir un Hellion de départ</VGE_ChooseAStartingGravship>
+  <VGE_ChooseAStartingGravshipDesc>Choisissez le Hellion avec lequel vous souhaitez commencer le scénario. Les ressources de départ seront déposées à bord. Les différents Hellions peuvent commencer avec des structures différentes.</VGE_ChooseAStartingGravshipDesc>
+  <VGE_SourceMod>Source : {0}</VGE_SourceMod>
+  <VGE_GravshipRangeCurrentLayer>portée du Hellion ({0})</VGE_GravshipRangeCurrentLayer>
+  <VGE_PlayerOwnedOrbitalColonyDesc>Une colonie orbitale appartenant à la faction du joueur.</VGE_PlayerOwnedOrbitalColonyDesc>
+</LanguageData>

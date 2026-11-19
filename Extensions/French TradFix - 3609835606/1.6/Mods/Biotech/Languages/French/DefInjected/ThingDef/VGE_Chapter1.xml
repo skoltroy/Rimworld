@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_OperatorSubpersonaCore.label>noyau de sous-persona d'opérateur</VGE_OperatorSubpersonaCore.label>
+  <VGE_OperatorSubpersonaCore.description>Noyau de sous-persona haut de gamme spécialisé dans le combat à bord du Hellion. Il peut se lier à une pièce d'artillerie du Hellion et la contrôler comme le ferait un membre d'équipage à une console de ciblage. Ses capacités de combat sont médiocres, mais il permet de créer des batteries d'artillerie autonomes sans opérateur humain.</VGE_OperatorSubpersonaCore.description>
+  <VGE_GravshipBasicRecharger.label>rechargeur compact pour mécanoïdes</VGE_GravshipBasicRecharger.label>
+  <VGE_GravshipBasicRecharger.description>Version miniaturisée du rechargeur de mécanoïdes, conçue pour les espaces confinés du Hellion. Les mécanoïdes légers peuvent s'y recharger. Ce rechargeur produit des paquets de déchets toxiques pendant la recharge et les stocke à l'intérieur. Des transporteurs doivent venir les retirer de temps en temps. La plus grande partie de son énergie provient directement du moteur gravitationnel.</VGE_GravshipBasicRecharger.description>
+  <VGE_GravshipStandardRecharger.label>rechargeur compact pour grands mécanoïdes</VGE_GravshipStandardRecharger.label>
+  <VGE_GravshipStandardRecharger.description>Version miniaturisée du grand rechargeur de mécanoïdes, conçue pour les espaces confinés du Hellion. Les mécanoïdes moyens, lourds et ultralourds peuvent s'y recharger. Ce rechargeur produit des paquets de déchets toxiques pendant la recharge et les stocke à l'intérieur. Des transporteurs doivent venir les retirer de temps en temps. La plus grande partie de son énergie provient directement du moteur gravitationnel.</VGE_GravshipStandardRecharger.description>
+  <VGE_CompactGeneBank.label>banque de gènes compacte</VGE_CompactGeneBank.label>
+  <VGE_CompactGeneBank.description>Version miniaturisée de la banque de gènes, conçue pour les espaces confinés du Hellion. Elle stocke les paquets de gènes et permet de les utiliser pour créer de nouveaux xénogermes lorsqu'elle est placée près d'un assembleur génétique. Elle est alimentée directement par le moteur gravitationnel et empêche la dégradation des paquets de gènes, qu'elle répare lentement.</VGE_CompactGeneBank.description>
+  <VGE_Astronaut.label>astronaute</VGE_Astronaut.label>
+  <VGE_Astronaut.description>Mécanoïde de taille moyenne conçu pour effectuer des travaux de construction et combattre les incendies en orbite. Il peut porter des attaques de mêlée contondantes si nécessaire. Il n'est pas affecté par la lenteur des déplacements dans l'espace.</VGE_Astronaut.description>
+  <VGE_Astronaut.tools.0.label>torse</VGE_Astronaut.tools.0.label>
+</LanguageData>

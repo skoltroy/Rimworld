@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_WormWithArmor.label>vers avec armure</VGE_WormWithArmor.label>
+  <VGE_WormWithArmor.corePart.parts.1.parts.0.customLabel>poumon gauche</VGE_WormWithArmor.corePart.parts.1.parts.0.customLabel>
+  <VGE_WormWithArmor.corePart.parts.1.parts.1.customLabel>poumon droit</VGE_WormWithArmor.corePart.parts.1.parts.1.customLabel>
+  <VGE_WormWithArmor.corePart.parts.3.parts.0.customLabel>rein gauche</VGE_WormWithArmor.corePart.parts.3.parts.0.customLabel>
+  <VGE_WormWithArmor.corePart.parts.3.parts.1.customLabel>rein droit</VGE_WormWithArmor.corePart.parts.3.parts.1.customLabel>
+  <VGE_WormWithArmor.corePart.parts.4.parts.1.customLabel>organe d'écholocation</VGE_WormWithArmor.corePart.parts.4.parts.1.customLabel>
+  <VGE_WormWithArmorAndHeadClaw.label>ver avec armure et griffe de tête</VGE_WormWithArmorAndHeadClaw.label>
+  <VGE_WormWithArmorAndHeadClaw.corePart.parts.1.parts.0.customLabel>poumon gauche</VGE_WormWithArmorAndHeadClaw.corePart.parts.1.parts.0.customLabel>
+  <VGE_WormWithArmorAndHeadClaw.corePart.parts.1.parts.1.customLabel>poumon droit</VGE_WormWithArmorAndHeadClaw.corePart.parts.1.parts.1.customLabel>
+  <VGE_WormWithArmorAndHeadClaw.corePart.parts.3.parts.0.customLabel>rein gauche</VGE_WormWithArmorAndHeadClaw.corePart.parts.3.parts.0.customLabel>
+  <VGE_WormWithArmorAndHeadClaw.corePart.parts.3.parts.1.customLabel>rein droit</VGE_WormWithArmorAndHeadClaw.corePart.parts.3.parts.1.customLabel>
+  <VGE_WormWithArmorAndHeadClaw.corePart.parts.4.parts.1.customLabel>organe d'écholocation</VGE_WormWithArmorAndHeadClaw.corePart.parts.4.parts.1.customLabel>
+  <VGE_WormKnot.label>noeud de vers</VGE_WormKnot.label>
+  <VGE_WormKnot.corePart.parts.0.customLabel>vers</VGE_WormKnot.corePart.parts.0.customLabel>
+  <VGE_WormKnot.corePart.parts.1.customLabel>vers</VGE_WormKnot.corePart.parts.1.customLabel>
+  <VGE_WormKnot.corePart.parts.2.customLabel>vers</VGE_WormKnot.corePart.parts.2.customLabel>
+  <VGE_WormKnot.corePart.parts.3.customLabel>vers</VGE_WormKnot.corePart.parts.3.customLabel>
+  <VGE_WormKnot.corePart.parts.4.customLabel>vers</VGE_WormKnot.corePart.parts.4.customLabel>
+  <VGE_WormKnot.corePart.parts.5.customLabel>vers</VGE_WormKnot.corePart.parts.5.customLabel>
+  <VGE_WormKnot.corePart.parts.6.customLabel>vers</VGE_WormKnot.corePart.parts.6.customLabel>
+  <VGE_WormKnot.corePart.parts.7.customLabel>vers</VGE_WormKnot.corePart.parts.7.customLabel>
+  <VGE_WormKnot.corePart.parts.8.customLabel>vers</VGE_WormKnot.corePart.parts.8.customLabel>
+  <VGE_WormKnot.corePart.parts.9.customLabel>vers</VGE_WormKnot.corePart.parts.9.customLabel>
+  <VGE_WormHive.label>ruche de vers</VGE_WormHive.label>
+  <VGE_WormHive.corePart.parts.0.customLabel>vers</VGE_WormHive.corePart.parts.0.customLabel>
+  <VGE_WormHive.corePart.parts.1.customLabel>vers</VGE_WormHive.corePart.parts.1.customLabel>
+  <VGE_WormHive.corePart.parts.2.customLabel>vers</VGE_WormHive.corePart.parts.2.customLabel>
+  <VGE_WormHive.corePart.parts.3.customLabel>vers</VGE_WormHive.corePart.parts.3.customLabel>
+  <VGE_WormHive.corePart.parts.4.customLabel>vers</VGE_WormHive.corePart.parts.4.customLabel>
+  <VGE_WormHive.corePart.parts.5.customLabel>vers</VGE_WormHive.corePart.parts.5.customLabel>
+  <VGE_WormHive.corePart.parts.6.customLabel>vers</VGE_WormHive.corePart.parts.6.customLabel>
+  <VGE_WormHive.corePart.parts.7.customLabel>vers</VGE_WormHive.corePart.parts.7.customLabel>
+  <VGE_WormHive.corePart.parts.8.customLabel>vers</VGE_WormHive.corePart.parts.8.customLabel>
+  <VGE_WormHive.corePart.parts.9.customLabel>vers</VGE_WormHive.corePart.parts.9.customLabel>
+  <VGE_WormWithArmorHeadClawAndTail.label>ver avec armure, griffe et queue</VGE_WormWithArmorHeadClawAndTail.label>
+  <VGE_WormWithArmorHeadClawAndTail.corePart.parts.1.parts.0.customLabel>poumon gauche</VGE_WormWithArmorHeadClawAndTail.corePart.parts.1.parts.0.customLabel>
+  <VGE_WormWithArmorHeadClawAndTail.corePart.parts.1.parts.1.customLabel>poumon droit</VGE_WormWithArmorHeadClawAndTail.corePart.parts.1.parts.1.customLabel>
+  <VGE_WormWithArmorHeadClawAndTail.corePart.parts.3.parts.0.customLabel>rein gauche</VGE_WormWithArmorHeadClawAndTail.corePart.parts.3.parts.0.customLabel>
+  <VGE_WormWithArmorHeadClawAndTail.corePart.parts.3.parts.1.customLabel>rein droit</VGE_WormWithArmorHeadClawAndTail.corePart.parts.3.parts.1.customLabel>
+  <VGE_WormWithArmorHeadClawAndTail.corePart.parts.5.parts.1.customLabel>organe d'écholocation</VGE_WormWithArmorHeadClawAndTail.corePart.parts.5.parts.1.customLabel>
+</LanguageData>

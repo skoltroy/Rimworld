@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_GaussGun.label>canon gauss</VGE_GaussGun.label>
+  <VGE_GaussGun.description>Petit canon électromagnétique à un seul tube, qui propulse des projectiles d'uranium denses à très grande vitesse. Conçu aussi bien pour les bombardements locaux que pour les engagements à moyenne portée, il peut également prendre pour cible d'autres Hellions en orbite. Nécessite une console de ciblage reliée et un opérateur. Il est alimenté directement par le moteur gravitationnel.</VGE_GaussGun.description>
+  <VGE_DamagedEscapePod.label>capsule de sauvetage endommagée</VGE_DamagedEscapePod.label>
+  <VGE_DamagedEscapePod.description>Capsule de sauvetage endommagée après un crash. Elle peut être piratée et ouverte pour en révéler le contenu.</VGE_DamagedEscapePod.description>
+  <VGE_EscapePodSkyfaller.label>capsule de sauvetage (en approche)</VGE_EscapePodSkyfaller.label>
+  <VGE_CrewBunkBed.label>lit superposé d'équipage</VGE_CrewBunkBed.label>
+  <VGE_CrewBunkBed.description>Lit compact à deux niveaux conçu pour les Hellions. Il optimise l'espace limité en permettant à deux membres d'équipage de se reposer sur l'emplacement d'un seul lit.</VGE_CrewBunkBed.description>
+  <VGE_CrewLockers.label>casiers d'équipage</VGE_CrewLockers.label>
+  <VGE_CrewLockers.description>Ensemble de casiers compacts conçu pour les quartiers de l'équipage d'un Hellion. Il apporte un petit bonus de confort à tous les lits superposés à proximité. Placer plusieurs casiers près du même lit n'a aucun effet supplémentaire.</VGE_CrewLockers.description>
+  <VGE_FauxPlant.label>plante artificielle</VGE_FauxPlant.label>
+  <VGE_FauxPlant.description>Plante artificielle dans un pot en métal robuste. Elle n'a besoin ni de lumière, ni d'eau, ni d'air : elle est donc idéale pour embellir même les environnements les plus inhospitaliers d'un Hellion.</VGE_FauxPlant.description>
+  <VGE_CopilotConsole.label>console du copilote</VGE_CopilotConsole.label>
+  <VGE_CopilotConsole.description>Interface auxiliaire qui permet à un copilote d'aider au lancement et au pilotage d'un Hellion. Elle est alimentée directement par le moteur gravitationnel.</VGE_CopilotConsole.description>
+  <VGE_EngineeringConsole.label>console d'ingénierie</VGE_EngineeringConsole.label>
+  <VGE_EngineeringConsole.description>Interface permettant de surveiller l'état d'entretien de tous les composants du Hellion. Elle est alimentée directement par le moteur gravitationnel.\n\n&lt;color=#E5E54C&gt;Effet en jeu :&lt;/color&gt; Réduit de 0,5 la sensibilité à l'entretien de toutes les structures du Hellion à bord.</VGE_EngineeringConsole.description>
+  <VGE_FlightComputer.label>ordinateur de vol</VGE_FlightComputer.label>
+  <VGE_FlightComputer.description>Unité informatique avancée qui optimise la collecte de données pendant les voyages du Hellion. Augmente la quantité de gravdata obtenue à chaque lancement.</VGE_FlightComputer.description>
+  <VGE_Filth_Astrofuel.label>flaque d'astrofuel</VGE_Filth_Astrofuel.label>
+  <VGE_Filth_Astrofuel.description>Flaque d'astrofuel inflammable.</VGE_Filth_Astrofuel.description>
+  <VGE_Filth_DamagedSubstructure.label>débris de sous-structure endommagée</VGE_Filth_DamagedSubstructure.label>
+  <VGE_Filth_DamagedSubstructure.description>Débris provenant d'une sous-structure de Hellion endommagée.</VGE_Filth_DamagedSubstructure.description>
+</LanguageData>

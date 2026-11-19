@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_SalvagerDropshipRaid.textEnemy>Un groupe de {0} de {1} est arrivé pour une attaque tactique ! Une navette de récupérateurs a bombardé la zone d'atterrissage avec des nacelles de missiles en essaim, a déployé l'équipe d'assaut, puis est repartie aussitôt.</VGE_SalvagerDropshipRaid.textEnemy>
+  <VGE_SalvagerDropshipRaid.textWillArrive>Un groupe de {0} de {1} arrivera bientôt pour une attaque tactique. Une navette de récupérateurs bombardera la zone d'atterrissage avec des nacelles de missiles en essaim, déposera l'équipe, puis repartira.</VGE_SalvagerDropshipRaid.textWillArrive>
+  <VGE_SalvagerDropshipRaid.textFriendly>Un groupe allié de {0} de {1} est arrivé pour un assaut tactique ! Sa navette de récupérateurs a bombardé la zone d'atterrissage avec des nacelles de missiles en essaim pour dégager la zone, a déposé l'équipe, puis est repartie.</VGE_SalvagerDropshipRaid.textFriendly>
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModActive="vanillaexpanded.gravship">1.6/Mods/BTD_VGE</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.6/Mods/BTD_Royalty</li>
+		<li IfModActiveAll="guy762.KotORDroids,btd.gbp.shippack.kotor">1.6/Mods/BTD_KotOR_Droids</li>
+		<li IfModActiveAll="guy762.KotORDroids,btd.gbp.shippack.kotor.vge">1.6/Mods/BTD_KotOR_Droids</li>
+	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li>1.7</li>
+		<li IfModActive="vanillaexpanded.gravship">1.7/Mods/BTD_VGE</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.7/Mods/BTD_Royalty</li>
+		<li IfModActiveAll="guy762.KotORDroids,btd.gbp.shippack.kotor">1.7/Mods/BTD_KotOR_Droids</li>
+		<li IfModActiveAll="guy762.KotORDroids,btd.gbp.shippack.kotor.vge">1.7/Mods/BTD_KotOR_Droids</li>
+	</v1.7>
+</loadFolders>

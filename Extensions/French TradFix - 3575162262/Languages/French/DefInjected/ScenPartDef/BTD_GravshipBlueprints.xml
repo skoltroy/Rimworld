@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BTD_GravshipCustomStart.label>Départ avec un vaisseau gravitationnel personnalisé</BTD_GravshipCustomStart.label>
+  <BTD_GravshipCustomStart.description>Commencez avec le plan de vaisseau gravitationnel personnalisé de votre choix.</BTD_GravshipCustomStart.description>
+  <BTD_GravshipCustomQuest.label>Quête personnalisée de vaisseau gravitationnel</BTD_GravshipCustomQuest.label>
+  <BTD_GravshipCustomQuest.description>Configurez le plan de vaisseau gravitationnel qui apparaîtra dans la quête de récupération de fin de partie.</BTD_GravshipCustomQuest.description>
+</LanguageData>

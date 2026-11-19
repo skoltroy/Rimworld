@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_IdeoRole_EngineeringSpecialist.label>spécialiste en ingénierie</VGE_IdeoRole_EngineeringSpecialist.label>
+  <VGE_IdeoRole_EngineeringSpecialist.description>Statut particulier de l'idéoligion, entièrement consacré à l'entretien et à l'amélioration des systèmes du Hellion. Ce rôle spécialisé accroît l'efficacité de la construction et des réparations, et permet de coordonner l'équipage à proximité pour améliorer les opérations de maintenance à bord. Ses titulaires se consacrent entièrement au bien-être du vaisseau.</VGE_IdeoRole_EngineeringSpecialist.description>
+  <VGE_IdeoRole_Navigator.label>navigateur</VGE_IdeoRole_Navigator.label>
+  <VGE_IdeoRole_Navigator.description>Statut particulier de l'idéoligion, consacré à l'étude des phénomènes stellaires et à la navigation à longue portée. Les navigateurs guident le Hellion en orbite et dans l'espace profond, interprètent les courants gravitationnels et tracent des routes sûres entre les mondes. Leur connaissance du cosmos améliore considérablement l'efficacité de la recherche et la sécurité des voyages.</VGE_IdeoRole_Navigator.description>
+  <VGE_IdeoRole_PilotingSpecialist.label>spécialiste du pilotage</VGE_IdeoRole_PilotingSpecialist.label>
+  <VGE_IdeoRole_PilotingSpecialist.description>Statut particulier de l'idéoligion consacré à l'art du vol et au contrôle des moteurs du Hellion. Les spécialistes du pilotage apprennent à manœuvrer le vaisseau en orbite et dans les situations d'urgence, afin de garder l'équipage en vie en cas de panne des systèmes. Ils peuvent sauver le Hellion et son équipage du danger.</VGE_IdeoRole_PilotingSpecialist.description>
+</LanguageData>

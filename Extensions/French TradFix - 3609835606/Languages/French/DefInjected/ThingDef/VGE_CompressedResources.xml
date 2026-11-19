@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_Compressed_Vacstone.label>vacstone compactée</VGE_Compressed_Vacstone.label>
+  <VGE_Compressed_Vacstone.description>Masse ultra-dense de roche et de poussière d'astéroïde, compactée au fil des millénaires en un bloc presque indestructible. Uniquement dans l'espace profond.</VGE_Compressed_Vacstone.description>
+  <VGE_Compressed_Steel.label>acier compressé</VGE_Compressed_Steel.label>
+  <VGE_Compressed_Steel.description>Masse structurelle ancienne fusionnée en un gisement ultra-dense de vacstone et d'acier. Uniquement dans l'espace profond.</VGE_Compressed_Steel.description>
+  <VGE_Compressed_Silver.label>minerai d'argent compressé</VGE_Compressed_Silver.label>
+  <VGE_Compressed_Silver.description>Roche argentifère compactée sous une pression extrême en un filon dense et uniforme. Uniquement dans l'espace profond.</VGE_Compressed_Silver.description>
+  <VGE_Compressed_Gold.label>minerai d'or compressé</VGE_Compressed_Gold.label>
+  <VGE_Compressed_Gold.description>Couches riches en or écrasées et recristallisées pour former un filon étroit et résistant. Uniquement dans l'espace profond.</VGE_Compressed_Gold.description>
+  <VGE_Compressed_Uranium.label>minerai d'uranium compressé</VGE_Compressed_Uranium.label>
+  <VGE_Compressed_Uranium.description>Roche chargée en uranium, frittée en un gisement presque monolithique difficile à fracturer. Uniquement dans l'espace profond.</VGE_Compressed_Uranium.description>
+  <VGE_Compressed_Plasteel.label>plasteel compressé</VGE_Compressed_Plasteel.label>
+  <VGE_Compressed_Plasteel.description>Conglomérat de plasteel ultra-dense, formé dans le vide au fil des générations ; extrêmement difficile à extraire. Uniquement dans l'espace profond.</VGE_Compressed_Plasteel.description>
+  <VGE_Compressed_Jade.label>jade compressé</VGE_Compressed_Jade.label>
+  <VGE_Compressed_Jade.description>Vacstone contenant du jade, compactée en une masse rigide à grain fin. Uniquement dans l'espace profond.</VGE_Compressed_Jade.description>
+</LanguageData>

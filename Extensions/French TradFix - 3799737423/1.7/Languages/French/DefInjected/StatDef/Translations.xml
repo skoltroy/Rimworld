@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_OxygenJumpRange.label>Plage de saut</VGE_OxygenJumpRange.label>
+  <VGE_OxygenJumpRange.description>La distance maximale de saut.</VGE_OxygenJumpRange.description>
+  <VGE_GravshipVisibilityFactor.label>facteur de visibilité du Hellion</VGE_GravshipVisibilityFactor.label>
+  <VGE_GravshipVisibilityFactor.description>Un multiplicateur sur la visibilité générée par le Hellion.</VGE_GravshipVisibilityFactor.description>
+  <VGE_GravshipLaunchVisibilityOffset.label>décalage de visibilité au décollage du Hellion</VGE_GravshipLaunchVisibilityOffset.label>
+  <VGE_GravshipLaunchVisibilityOffset.description>Un décalage sur la visibilité générée par le décollage d'un Hellion.</VGE_GravshipLaunchVisibilityOffset.description>
+</LanguageData>

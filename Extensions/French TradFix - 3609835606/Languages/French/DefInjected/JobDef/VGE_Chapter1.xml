@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_InspectMechanoidGravEngine.reportString>inspection de TargetA.</VGE_InspectMechanoidGravEngine.reportString>
+  <VGE_MaintainGrav.reportString>entretien de TargetA.</VGE_MaintainGrav.reportString>
+  <VGE_CollectGravdata.reportString>collecte des données gravimétriques</VGE_CollectGravdata.reportString>
+  <VGE_ReplenishOxygenPack.reportString>remplissage de TargetA.</VGE_ReplenishOxygenPack.reportString>
+  <VGE_BuildVacBarrierRoofs.reportString>construction de toits de barrière à vide</VGE_BuildVacBarrierRoofs.reportString>
+</LanguageData>

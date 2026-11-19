@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>French TradFix - 3825828888</name>
+  <author>Skoltroy</author>
+  <packageId>Skoltroy.FrenchTradFix.3825828888</packageId>
+  <modVersion>1.0</modVersion>
+  <url>https://rimworld.skoltroy.com</url>
+  <description>Couche française indépendante pour le mod « [B98] Auto Turrets â€“ No Crew, No Shells, No Friendly Fire » (Workshop 3825828888). Basée sur la copie installée le 18/11/2026 (version source déclarée : 1.3.0). Les chemins et conditions de chargement des ressources françaises sont conservés. Après toute mise à jour du mod source, réviser ce TradFix. Auteur : Skoltroy. Site : rimworld.skoltroy.com.</description>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>bolek98.autoturrets</packageId>
+      <displayName>[B98] Auto Turrets â€“ No Crew, No Shells, No Friendly Fire</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3825828888</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>bolek98.autoturrets</li>
+  </loadAfter>
+</ModMetaData>

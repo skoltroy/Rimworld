@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Same as Odyssey's RitualTargetPilotConsole, but the actual building/thing can be passed as an in-game thing -->
+  <VGE_ValidThing>un objet valide ({THING_label})</VGE_ValidThing>
+</LanguageData>

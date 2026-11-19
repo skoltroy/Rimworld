@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BTD_SaveDesign>Enregistrer le plan</BTD_SaveDesign>
+  <BTD_SaveDesignDesc>Enregistrer ce vaisseau gravitationnel comme plan réutilisable</BTD_SaveDesignDesc>
+  <BTD_ActivateEngine>Activer le moteur</BTD_ActivateEngine>
+  <BTD_ActivateEngineDesc>Activer ce moteur gravitationnel inactif en le remplaçant par une unité pleinement opérationnelle</BTD_ActivateEngineDesc>
+  <BTD_DeactivateEngine>Désactiver le moteur</BTD_DeactivateEngine>
+  <BTD_DeactivateEngineDesc>Désactiver ce moteur gravitationnel et le stocker sous forme d'unité inactive</BTD_DeactivateEngineDesc>
+  <BTD_BrowseDesigns>Parcourir les plans</BTD_BrowseDesigns>
+  <BTD_ClearSelection>Effacer la sélection</BTD_ClearSelection>
+  <BTD_EngineActivated>Moteur gravitationnel activé</BTD_EngineActivated>
+  <BTD_EngineDeactivated>Moteur gravitationnel désactivé</BTD_EngineDeactivated>
+  <BTD_EngineDefNotFound>Définition du moteur gravitationnel introuvable : {0}</BTD_EngineDefNotFound>
+  <BTD_EngineDormantStatus>Inactif</BTD_EngineDormantStatus>
+  <BTD_StoredShipName>Vaisseau stocké : {0}</BTD_StoredShipName>
+  <BTD_StoredCooldown>Temps de recharge : {0}</BTD_StoredCooldown>
+  <BTD_BrowseDesignsTitle>Parcourir les plans de vaisseaux gravitationnels</BTD_BrowseDesignsTitle>
+  <BTD_PlayerDesigns>Plans du joueur</BTD_PlayerDesigns>
+  <BTD_FullDesign>Plan complet</BTD_FullDesign>
+  <BTD_Barebones>Plan minimal</BTD_Barebones>
+  <BTD_AllCategories>Toutes les catégories</BTD_AllCategories>
+  <BTD_MissingModsWarning>{0} éléments manquants à cause de mods absents ; consultez les informations sur les mods</BTD_MissingModsWarning>
+  <BTD_Search>Rechercher</BTD_Search>
+  <BTD_NoDesignsAvailable>Aucun plan disponible</BTD_NoDesignsAvailable>
+  <BTD_NoDesignsMatch>Aucun plan ne correspond à votre recherche</BTD_NoDesignsMatch>
+  <BTD_NoDescriptionAvailable>Aucune description disponible</BTD_NoDescriptionAvailable>
+  <BTD_Tiles>Cases</BTD_Tiles>
+  <BTD_Close>Fermer</BTD_Close>
+  <BTD_Select>Sélectionner</BTD_Select>
+  <BTD_ModInfo>Informations sur les mods</BTD_ModInfo>
+  <BTD_OpenFolder>Ouvrir le dossier</BTD_OpenFolder>
+  <BTD_ModGroup_All>Tous</BTD_ModGroup_All>
+  <BTD_ModGroup_BaseGame>Jeu de base</BTD_ModGroup_BaseGame>
+  <BTD_ModGroup_GravshipExpanded>Vanilla Gravships Expanded</BTD_ModGroup_GravshipExpanded>
+  <BTD_PreviewTitle>{0} ({1})</BTD_PreviewTitle>
+  <BTD_NoPreviewAvailable>Aucune image d'aperçu disponible</BTD_NoPreviewAvailable>
+  <BTD_ClickToExpand>Cliquer pour agrandir</BTD_ClickToExpand>
+  <BTD_PreviewRenderFailed>Aperçu indisponible</BTD_PreviewRenderFailed>
+  <BTD_PreviewRoofOverlayLegend>À gauche : intérieur          À droite : avec superposition de la coque</BTD_PreviewRoofOverlayLegend>
+  <BTD_ModsUsed>Mods utilisés : {0}</BTD_ModsUsed>
+  <BTD_NoModDependencies>Ce plan ne dépend d'aucun mod</BTD_NoModDependencies>
+  <BTD_Workshop>Workshop</BTD_Workshop>
+  <BTD_WorkshopLinkNotAvailable>Lien Workshop indisponible</BTD_WorkshopLinkNotAvailable>
+  <BTD_Loaded>Chargé</BTD_Loaded>
+  <BTD_NotLoaded>Non chargé</BTD_NotLoaded>
+  <BTD_Confirm>Confirmer</BTD_Confirm>
+  <BTD_Cancel>Annuler</BTD_Cancel>
+  <BTD_NameYourDesign>Nommer votre plan de vaisseau gravitationnel</BTD_NameYourDesign>
+  <BTD_Name>Nom</BTD_Name>
+  <BTD_Description>Description (facultative)</BTD_Description>
+  <BTD_Save>Enregistrer</BTD_Save>
+  <BTD_CharacterCount>{0}/{1}</BTD_CharacterCount>
+  <BTD_SelectCategory>Choisir une catégorie</BTD_SelectCategory>
+  <BTD_SelectDesign>Choisir un plan</BTD_SelectDesign>
+  <BTD_SelectCategoryFirst>Choisissez d'abord une catégorie</BTD_SelectCategoryFirst>
+  <BTD_SpawnMode>Mode d'apparition : {0}</BTD_SpawnMode>
+  <BTD_PreviewSelection>Aperçu de la sélection</BTD_PreviewSelection>
+  <BTD_BrowseAllDesigns>Parcourir tous les plans</BTD_BrowseAllDesigns>
+  <BTD_Planning>Planification</BTD_Planning>
+  <BTD_CustomGravship>Vaisseau gravitationnel personnalisé : {0}</BTD_CustomGravship>
+  <BTD_CustomGravshipNone>Vaisseau gravitationnel personnalisé : aucun sélectionné</BTD_CustomGravshipNone>
+  <BTD_CustomGravshipMode>Vaisseau gravitationnel personnalisé : {0} ({1})</BTD_CustomGravshipMode>
+  <BTD_DesignSaved>Plan de vaisseau gravitationnel « {0} » enregistré !</BTD_DesignSaved>
+  <BTD_DesignSelected>Sélectionné : {0} ({1})</BTD_DesignSelected>
+  <BTD_EnterName>Veuillez saisir un nom pour le plan</BTD_EnterName>
+  <BTD_NoDesignsInCategory>Aucun plan trouvé dans la catégorie {0}</BTD_NoDesignsInCategory>
+  <BTD_NoCategoriesFound>Aucune catégorie de plans trouvée. Cliquez sur Actualiser ou ajoutez des fichiers de plans.</BTD_NoCategoriesFound>
+  <BTD_CouldNotLoadDesign>Impossible de charger l'aperçu du plan</BTD_CouldNotLoadDesign>
+  <BTD_DesignNotFound>Plan introuvable : {0}</BTD_DesignNotFound>
+  <BTD_CaptureConsoleInvalid>Capture impossible : la console de pilotage n'est plus valide</BTD_CaptureConsoleInvalid>
+  <BTD_CaptureEngineInvalid>Capture impossible : aucun moteur gravitationnel valide n'est relié à cette console</BTD_CaptureEngineInvalid>
+  <BTD_CaptureNoSubstructure>Capture impossible : le moteur gravitationnel n'a pas de sous-structure valide</BTD_CaptureNoSubstructure>
+  <BTD_CaptureFailed>Échec de la capture du vaisseau ; consultez le journal pour plus de détails</BTD_CaptureFailed>
+  <BTD_FailedToSave>Échec de l'enregistrement : {0}</BTD_FailedToSave>
+  <BTD_DesignDataMissing>Données du plan manquantes</BTD_DesignDataMissing>
+  <BTD_DesignMustHaveName>Le plan doit avoir un nom</BTD_DesignMustHaveName>
+  <BTD_DesignHasNoStructures>Le plan ne contient aucune structure</BTD_DesignHasNoStructures>
+  <BTD_PermissionDenied>Échec de l'enregistrement du plan : autorisation refusée</BTD_PermissionDenied>
+  <BTD_DirectoryError>Échec de l'enregistrement du plan : impossible de créer le dossier</BTD_DirectoryError>
+  <BTD_FileSystemError>Échec de l'enregistrement du plan : erreur du système de fichiers</BTD_FileSystemError>
+  <BTD_UnexpectedError>Échec de l'enregistrement du plan : erreur inattendue</BTD_UnexpectedError>
+  <BTD_SpawnComplete>terminé avec des erreurs</BTD_SpawnComplete>
+  <BTD_SpawnCompleteSubstitutions>terminé avec des substitutions</BTD_SpawnCompleteSubstitutions>
+  <BTD_SpawnErrors>Vaisseau gravitationnel apparu avec des erreurs ; consultez le journal pour plus de détails</BTD_SpawnErrors>
+  <BTD_SpawnSubstitutions>Vaisseau gravitationnel apparu avec des substitutions pour le contenu de mod indisponible</BTD_SpawnSubstitutions>
+  <BTD_SpawningGravship>Apparition du vaisseau gravitationnel : {0}</BTD_SpawningGravship>
+  <BTD_SpawningGravshipBarebones>Apparition du vaisseau gravitationnel (plan minimal) : {0}</BTD_SpawningGravshipBarebones>
+  <BTD_PlacingPlans>Placement des plans : {0}</BTD_PlacingPlans>
+  <BTD_DownedGravship>Vaisseau gravitationnel écrasé</BTD_DownedGravship>
+  <BTD_SalvageGravship>Récupérer le vaisseau gravitationnel</BTD_SalvageGravship>
+  <BTD_SalvageQuest>Quête de récupération : {0}</BTD_SalvageQuest>
+  <BTD_SalvageQuestNone>Quête de récupération : aucune sélectionnée</BTD_SalvageQuestNone>
+  <BTD_SalvageQuestConfigured>Quête de récupération de fin de partie : {0}</BTD_SalvageQuestConfigured>
+  <BTD_GravEngineInitializingAlert>Initialisation du moteur gravitationnel</BTD_GravEngineInitializingAlert>
+  <BTD_GravEngineInitializingAlertDesc>Le moteur gravitationnel chiffré a commencé à émettre un signal qui attirera les ennemis à cet endroit. Terminez son piratage pour arrêter le signal.</BTD_GravEngineInitializingAlertDesc>
+  <BTD_InitializeGravEngine>Commencer l'initialisation</BTD_InitializeGravEngine>
+  <BTD_InitializeGravEngineDesc>Commencer le processus d'initialisation du moteur gravitationnel chiffré. Cela déclenchera une série de raids.</BTD_InitializeGravEngineDesc>
+  <BTD_InitializeWarning>L'initialisation lancera la séquence d'activation du moteur gravitationnel, ce qui attirera des forces hostiles à cet endroit. Êtes-vous prêt ?</BTD_InitializeWarning>
+  <BTD_InitializationStarted>Initialisation du moteur gravitationnel commencée</BTD_InitializationStarted>
+  <BTD_InitializationComplete>Initialisation du moteur gravitationnel terminée</BTD_InitializationComplete>
+  <BTD_Proceed>Continuer</BTD_Proceed>
+  <BTD_HackingDisabled>Piratage désactivé</BTD_HackingDisabled>
+  <BTD_MustInitializeFirst>Le moteur gravitationnel doit être initialisé avant de pouvoir être piraté</BTD_MustInitializeFirst>
+  <BTD_GravcoreExtracted>{0} composants extraits du cœur gravitationnel</BTD_GravcoreExtracted>
+  <BTD_CannotUninstallGravshipPart>Les éléments du vaisseau gravitationnel ne peuvent pas être désinstallés sur un site d'épave.</BTD_CannotUninstallGravshipPart>
+  <BTD_CannotReinstallGravshipPart>Les éléments du vaisseau gravitationnel ne peuvent pas être réinstallés sur un site d'épave.</BTD_CannotReinstallGravshipPart>
+  <BTD_PlacedGodMode>{0} objets placés avec succès</BTD_PlacedGodMode>
+  <BTD_PlacedDesignations>{0} désignations placées avec succès</BTD_PlacedDesignations>
+  <BTD_BlueprintsPlaced>{0} plans placés</BTD_BlueprintsPlaced>
+  <BTD_SkippedResearch>{0} ignoré (recherche nécessaire)</BTD_SkippedResearch>
+  <BTD_SkippedModded>{0} ignoré (contenu moddé indisponible)</BTD_SkippedModded>
+  <BTD_SkippedNoSubstructure>{0} ignoré (aucune sous-structure)</BTD_SkippedNoSubstructure>
+  <BTD_PlacedSubstitutedSuffix>({0} remplacé(s))</BTD_PlacedSubstitutedSuffix>
+  <BTD_SelectBlueprint>Sélectionner un plan</BTD_SelectBlueprint>
+  <BTD_SelectedDesign>Sélectionné : {0} ({1})</BTD_SelectedDesign>
+  <BTD_NoDesignSelected>Aucun plan sélectionné</BTD_NoDesignSelected>
+  <BTD_SetBlueprintRotation>Définir la rotation</BTD_SetBlueprintRotation>
+  <BTD_CurrentRotation>Rotation actuelle : {0}</BTD_CurrentRotation>
+  <BTD_PlaceBlueprint>Placer le plan</BTD_PlaceBlueprint>
+  <BTD_PlaceBlueprintDesc>Placer le plan sélectionné couche par couche</BTD_PlaceBlueprintDesc>
+  <BTD_MustSelectDesignFirst>Vous devez d'abord sélectionner un plan de vaisseau</BTD_MustSelectDesignFirst>
+  <BTD_North>Nord</BTD_North>
+  <BTD_East>Est</BTD_East>
+  <BTD_South>Sud</BTD_South>
+  <BTD_West>Ouest</BTD_West>
+  <BTD_LayerPlans>Placer les plans</BTD_LayerPlans>
+  <BTD_LayerSubstructure>Placer la sous-structure</BTD_LayerSubstructure>
+  <BTD_LayerHull>Placer la coque</BTD_LayerHull>
+  <BTD_LayerFacilities>Placer les installations</BTD_LayerFacilities>
+  <BTD_LayerPaint>Placer la peinture</BTD_LayerPaint>
+  <BTD_SettingsCategory>Paramètres des plans de vaisseaux gravitationnels</BTD_SettingsCategory>
+  <BTD_DownedGravshipSection>Quêtes d'épaves de vaisseaux gravitationnels</BTD_DownedGravshipSection>
+  <BTD_DownedGravshipEnabledLabel>Activer les quêtes d'épaves de vaisseaux gravitationnels</BTD_DownedGravshipEnabledLabel>
+  <BTD_DownedGravshipEnabledTooltip>Permet de proposer des sites d'épaves de vaisseaux gravitationnels comme quêtes.</BTD_DownedGravshipEnabledTooltip>
+  <BTD_DownedSiteRestrictionsLabel>Activer les restrictions de construction sur les sites de quête</BTD_DownedSiteRestrictionsLabel>
+  <BTD_DownedSiteRestrictionsTooltip>Activé : les éléments de l'épave deviennent des scories lorsqu'ils sont déconstruits ; ils ne peuvent pas être désinstallés, déplacés ou transportés en caravane, et l'épave ne peut pas être rattachée à votre vaisseau.\n\nDésactivé : l'épave fonctionne comme des bâtiments ordinaires. Le changement de sous-structure ne s'applique qu'aux nouveaux sites générés.</BTD_DownedSiteRestrictionsTooltip>
+  <BTD_SalvageQuestNote>Remarque : la quête de récupération de vaisseau de fin de partie se configure avec les éléments de scénario lors de la création d'une nouvelle partie.</BTD_SalvageQuestNote>
+  <BTD_GravEngineSection>Moteurs gravitationnels</BTD_GravEngineSection>
+  <BTD_EngineTogglingLabel>Activer l'activation et la désactivation des moteurs gravitationnels</BTD_EngineTogglingLabel>
+  <BTD_EngineTogglingTooltip>Activé : un seul moteur gravitationnel peut être actif à la fois. Les autres peuvent être désactivés puis réactivés ; l'arrivée d'un nouveau vaisseau désactive les autres moteurs.\n\nDésactivé : les moteurs gravitationnels ne sont pas modifiés et tout moteur inactif est réactivé au chargement. À désactiver uniquement si un autre mod gère plusieurs vaisseaux gravitationnels.</BTD_EngineTogglingTooltip>
+  <BTD_ShuttleLandingSection>Atterrissage des navettes</BTD_ShuttleLandingSection>
+  <BTD_ShuttleLandingFixLabel>Autoriser les navettes à atterrir près des portes et des lampes murales</BTD_ShuttleLandingFixLabel>
+  <BTD_ShuttleLandingFixTooltip>Les navettes appelées par permis royal peuvent atterrir sur des cases contenant des portes, des lampes murales, des conduites et d'autres bâtiments bas ou traversables. Les murs, les arbres et les toits épais bloquent toujours l'atterrissage.</BTD_ShuttleLandingFixTooltip>
+  <BTD_ShuttlePreserveRoofLabel>Autoriser les navettes à ignorer les toits construits</BTD_ShuttlePreserveRoofLabel>
+  <BTD_ShuttlePreserveRoofTooltip>Vos navettes peuvent décoller, atterrir et être construites sous un toit construit sans l'endommager. Les toits épais et la roche naturelle bloquent toujours l'atterrissage.</BTD_ShuttlePreserveRoofTooltip>
+  <BTD_GravshipArrivalLabel>Vaisseau gravitationnel : {0}</BTD_GravshipArrivalLabel>
+  <BTD_GravshipArrivalText>Votre vaisseau gravitationnel {0} est prêt et attend en orbite basse pour atterrir.\n\nFaites-le venir lorsque vous serez prêt à choisir un lieu d'atterrissage. Vous pouvez reporter aussi longtemps que vous le souhaitez ; cette lettre restera disponible.</BTD_GravshipArrivalText>
+  <BTD_CallInGravship>Faire venir le vaisseau gravitationnel</BTD_CallInGravship>
+  <BTD_PostponeGravship>Reporter</BTD_PostponeGravship>
+  <BTD_AbortCallInTooltip>Annuler l'arrivée : le vaisseau retourne en orbite et la lettre d'arrivée est envoyée de nouveau.</BTD_AbortCallInTooltip>
+  <BTD_BuildingGravship>Préparation du vaisseau gravitationnel : {0}</BTD_BuildingGravship>
+  <BTD_NoLandingMap>Aucune carte de joueur disponible pour y faire atterrir le vaisseau gravitationnel</BTD_NoLandingMap>
+  <BTD_CallInCancelled>L'arrivée a été annulée. Votre vaisseau gravitationnel attend de nouveau en orbite.</BTD_CallInCancelled>
+  <BTD_CallInBusy>Un autre vaisseau gravitationnel est déjà en approche.</BTD_CallInBusy>
+  <BTD_CallInTravelling>Votre vaisseau gravitationnel est déjà en vol.</BTD_CallInTravelling>
+  <BTD_MismatchWarning_SavedWith>Ce plan a été enregistré avec Vanilla Gravships Expanded et pourrait ne pas fonctionner correctement sans ce mod.</BTD_MismatchWarning_SavedWith>
+  <BTD_MismatchWarning_SavedWithout>Ce plan a été enregistré sans Vanilla Gravships Expanded et pourrait ne pas fonctionner correctement si ce mod est actif.</BTD_MismatchWarning_SavedWithout>
+  <BTD_MismatchWarning_PlanningPointer>Le mode planification place des plans plutôt qu'un vaisseau.</BTD_MismatchWarning_PlanningPointer>
+  <BTD_PurchaseGravshipOption>Acheter un vaisseau gravitationnel...</BTD_PurchaseGravshipOption>
+  <BTD_PurchaseTitle>Courtier en vaisseaux gravitationnels : {0}</BTD_PurchaseTitle>
+  <BTD_PurchaseHeader>Bonne volonté : {0} ({1}). Frais d'achat : {2} points de bonne volonté. Argent à portée de l'antenne commerciale : {3}.</BTD_PurchaseHeader>
+  <BTD_PurchaseHostile>{0} ne vous vendra rien tant que vous serez hostile.</BTD_PurchaseHostile>
+  <BTD_PurchaseNeutralNotice>Devenez allié de {0} pour supprimer la majoration de {1} % et réduire de moitié le coût en bonne volonté, à {2}.</BTD_PurchaseNeutralNotice>
+  <BTD_PurchaseWithSilver>Acheter ({0} argent)</BTD_PurchaseWithSilver>
+  <BTD_Barter>Troc</BTD_Barter>
+  <BTD_WealthLabel>Richesse de la colonie {0} : {1} argent</BTD_WealthLabel>
+  <BTD_PriceLabel>Richesse de base : {0}, majoration de palier ×{1}, réduction du négociateur : {3}.\n\nPrix final : {2} argent.</BTD_PriceLabel>
+  <BTD_BarterTooltip>Ouvrir une fenêtre de commerce avec ce vaisseau dans le panier pour {0} argent.\n\nProposez des marchandises, de l'argent ou les deux. Vos biens sont évalués à leur prix de vente ; tout excédent est converti en bonne volonté au lieu d'être rendu en monnaie.</BTD_BarterTooltip>
+  <BTD_NotEnoughSilver>Le coût est de {0} argent, mais seulement {1} sont à portée de l'antenne commerciale.</BTD_NotEnoughSilver>
+  <BTD_PurchaseBusy>Un vaisseau gravitationnel est déjà en approche ou en vol.</BTD_PurchaseBusy>
+  <BTD_PurchaseConfirm>Acheter {0} pour {1} argent ?\n\nCela coûte {2} points de bonne volonté, qui passeront de {3} à {4}.</BTD_PurchaseConfirm>
+  <BTD_BrokerTraderKind>courtier en vaisseaux gravitationnels</BTD_BrokerTraderKind>
+  <BTD_TradeHeaderSubtitle>{0} | Coût : {1} argent</BTD_TradeHeaderSubtitle>
+  <BTD_TradeHintOwed>Coût : {0} argent.\nReste à payer : {1}.</BTD_TradeHintOwed>
+  <BTD_TradeHintCovered>Coût : {0} argent.\nEntièrement couvert.</BTD_TradeHintCovered>
+  <BTD_TradeHintOver>Coût : {0} argent.\nExcédent : {1}.</BTD_TradeHintOver>
+  <BTD_TradeUnderpaid>Il manque {0} argent. Ce vaisseau gravitationnel coûte {1} argent.</BTD_TradeUnderpaid>
+  <BTD_PurchaseBuildFailed>Impossible de construire {0} ; aucun paiement n'a été prélevé. Motif : {1}</BTD_PurchaseBuildFailed>
+  <BTD_BuildFailNoDesign>le plan est vide ou introuvable</BTD_BuildFailNoDesign>
+  <BTD_BuildFailNoEngine>aucun moteur gravitationnel n'a pu être placé</BTD_BuildFailNoEngine>
+  <BTD_BuildFailUnknown>erreur inconnue ; consultez le journal</BTD_BuildFailUnknown>
+  <BTD_TradeOverpayConfirm>Vous payez {1} argent de trop pour {0}.\n\nL'excédent ne sera pas rendu en monnaie. {2} vous accordera plutôt {3} points de bonne volonté.\n\nConfirmer le paiement ?</BTD_TradeOverpayConfirm>
+</LanguageData>

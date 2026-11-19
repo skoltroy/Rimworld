@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_FirstWormSegment.label>premier segment du corps</VGE_FirstWormSegment.label>
+  <VGE_SecondWormSegment.label>Deuxième segment du corps</VGE_SecondWormSegment.label>
+  <VGE_ThirdWormSegment.label>troisième segment corporel</VGE_ThirdWormSegment.label>
+  <VGE_FourthWormSegment.label>Quatrième segment du corps</VGE_FourthWormSegment.label>
+  <VGE_WormTail.label>queue de vers</VGE_WormTail.label>
+  <VGE_EcholocationOrgan.label>organe d'écholocation</VGE_EcholocationOrgan.label>
+  <VGE_Worm.label>vers</VGE_Worm.label>
+</LanguageData>

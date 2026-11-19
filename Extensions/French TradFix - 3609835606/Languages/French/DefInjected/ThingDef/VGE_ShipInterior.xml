@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VQEA_DestroyedSmallOxygenTank.label>petit réservoir d'oxygène détruit</VQEA_DestroyedSmallOxygenTank.label>
+  <VQEA_DestroyedSmallOxygenTank.description>Ce réservoir alimentait autrefois le Hellion en oxygène, mais il est désormais hors d'usage. Il est encore possible d'en récupérer un peu d'acier.</VQEA_DestroyedSmallOxygenTank.description>
+  <VQEA_DestroyedSmallAstrofuelTank.label>petit réservoir d'astrofuel détruit</VQEA_DestroyedSmallAstrofuelTank.label>
+  <VQEA_DestroyedSmallAstrofuelTank.description>Ce réservoir contenait autrefois l'astrofuel des propulseurs, mais il a été détruit. Son châssis contient encore des matériaux récupérables.</VQEA_DestroyedSmallAstrofuelTank.description>
+  <VQEA_DestroyedGravExtender.label>agrandisseur de champ gravitationnel détruit</VQEA_DestroyedGravExtender.label>
+  <VQEA_DestroyedGravExtender.description>Ce dispositif agrandissait autrefois la zone de construction d'un Hellion, mais il est maintenant brisé. Certaines pièces de valeur peuvent encore être récupérées.</VQEA_DestroyedGravExtender.description>
+  <VQEA_DestroyedSmallHeatsink.label>petit dissipateur thermique détruit</VQEA_DestroyedSmallHeatsink.label>
+  <VQEA_DestroyedSmallHeatsink.description>Ce dissipateur refroidissait autrefois les systèmes du Hellion, mais il a grillé. Il est encore possible de récupérer un peu d'acier dans l'épave.</VQEA_DestroyedSmallHeatsink.description>
+  <VGE_MedbayBed.label>lit médicalisé</VGE_MedbayBed.label>
+  <VGE_MedbayBed.description>Lit spécialisé pour Hellion, équipé d'un moniteur de constantes intégré. Conçu pour les infirmeries, il améliore les soins par rapport aux lits ordinaires. Il est alimenté directement par le moteur gravitationnel.</VGE_MedbayBed.description>
+  <VGE_GravshipShelf.label>étagère de Hellion</VGE_GravshipShelf.label>
+  <VGE_GravshipShelf.description>Étagère de rangement renforcée conçue pour être utilisée à bord des Hellions. Les objets qui y sont stockés n'affectent pas la beauté de la pièce et ne se détériorent pas, même à l'extérieur.</VGE_GravshipShelf.description>
+  <VGE_WallFirefoamPopper.label>diffuseur mural de mousse anti-incendie</VGE_WallFirefoamPopper.label>
+  <VGE_WallFirefoamPopper.description>Version murale du diffuseur de mousse anti-incendie. Lorsqu'il détecte un feu, il éclate et projette une mousse ignifuge autour de lui. Peut également être déclenché manuellement.</VGE_WallFirefoamPopper.description>
+  <VGE_WallOrbitalTradeBeacon.label>balise commerciale orbitale murale</VGE_WallOrbitalTradeBeacon.label>
+  <VGE_WallOrbitalTradeBeacon.description>Version murale d'une balise commerciale orbitale, indispensable au commerce orbital. Les marchandises ne peuvent être vendues aux marchands orbitaux que si elles se trouvent près d'une telle balise. Peut être installée à l'intérieur.</VGE_WallOrbitalTradeBeacon.description>
+  <VGE_SealantPopper.label>diffuseur de scellant</VGE_SealantPopper.label>
+  <VGE_SealantPopper.description>Lorsque ce dispositif de sécurité détecte un niveau de vide supérieur à 25 %, il se déclenche et libère un scellant qui se dilate rapidement. La substance se solidifie vite, colmate les brèches et rétablit la pression dans la pièce. Peut également être déclenché manuellement.</VGE_SealantPopper.description>
+  <VGE_SealantGoop.label>pâte scellante</VGE_SealantGoop.label>
+  <VGE_SealantGoop.description>Masse durcie de mousse polymère à expansion rapide. Produite par un diffuseur de scellant, elle forme un bouchon étanche qui colmate les brèches des pièces de Hellion exposées au vide. Efficace pour rétablir la pression, elle reste friable et facile à détruire.</VGE_SealantGoop.description>
+  <VGE_PilotCockpit.label>cockpit de pilotage</VGE_PilotCockpit.label>
+  <VGE_PilotCockpit.description>Interface permettant de lancer et de piloter un gravjumper. Elle est alimentée directement par le moteur gravitationnel.</VGE_PilotCockpit.description>
+  <VGE_PilotBridge.label>passerelle de pilotage</VGE_PilotBridge.label>
+  <VGE_PilotBridge.description>Interface permettant de lancer et de piloter un gravhulk. Elle est alimentée directement par le moteur du gravhulk.</VGE_PilotBridge.description>
+</LanguageData>

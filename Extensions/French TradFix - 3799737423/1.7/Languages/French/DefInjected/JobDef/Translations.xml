@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_FormKnot.reportString>formant un nœud.</VGE_FormKnot.reportString>
+  <VGE_OperateEnemyTerminal.reportString>terminal de ciblage opérationnel.</VGE_OperateEnemyTerminal.reportString>
+  <VGE_EscapePod_Enter.reportString>entrer dans la nacelle d'évacuation.</VGE_EscapePod_Enter.reportString>
+  <VGE_EscapePod_InsertPawn.reportString>portant TargetB pour échapper à la nacelle.</VGE_EscapePod_InsertPawn.reportString>
+  <VGE_EscapePod_InsertPawnDrafted.reportString>portant TargetB pour échapper à la nacelle.</VGE_EscapePod_InsertPawnDrafted.reportString>
+  <VGE_SpacePrisonEscape_UseEscapePod.reportString>entrer dans la nacelle d'évacuation.</VGE_SpacePrisonEscape_UseEscapePod.reportString>
+  <VGE_CallSalvagerStation.reportString>appeler la station de secours.</VGE_CallSalvagerStation.reportString>
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_InfestedAsteroid.label>astéroïde infesté</VGE_InfestedAsteroid.label>
+  <VGE_EmptySpace_NeverKeep.label>espace vide</VGE_EmptySpace_NeverKeep.label>
+  <VGE_ActiveWarplatform.label>plate-forme de guerre active</VGE_ActiveWarplatform.label>
+  <VGE_GravshipHusk.label>carcasse de Hellion</VGE_GravshipHusk.label>
+  <VGE_DormantWarplatform.label>plate-forme de guerre endormie</VGE_DormantWarplatform.label>
+  <VGE_DerelictGravship.label>Hellion abandonné</VGE_DerelictGravship.label>
+  <VGE_ActiveSalvagerStation.label>station de récupération active</VGE_ActiveSalvagerStation.label>
+  <VGE_ActiveEnemyGravjumper.label>chasseur Hellion ennemi</VGE_ActiveEnemyGravjumper.label>
+  <VGE_ActiveOrbitalCluster.label>Défense aérospatiale automatisée américaine</VGE_ActiveOrbitalCluster.label>
+  <VGE_ActiveEnemyGravship.label>Hellion ennemi</VGE_ActiveEnemyGravship.label>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>ModFix - Refugee Weapon Budget Fix</name>
+	<author>Skoltroy</author>
+	<packageId>Local.RefugeeWeaponBudgetFix</packageId>
+	<url>https://rimworld.skoltroy.com</url>
+	<description>ModFix pour le Def Refugee : ajuste le budget d'arme à 65~200, car le minimum d'origine (60) est inférieur au prix de l'arme la moins chère (62.4). Auteur : Skoltroy. Site : rimworld.skoltroy.com.</description>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+</ModMetaData>

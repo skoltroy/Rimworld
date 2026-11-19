@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_PlayerSubcreep.label>sous-creep</VGE_PlayerSubcreep.label>
+  <VGE_PlayerSubcreep.description>Une structure d'éponge légère faite d'insectes avec un fluage sur le dessus qui forme la surface d'un exohive. Seules les choses au-dessus de cette sous-structure peuvent être levées par le champ de lévitation du moteur gravisseur. Ce plancher doit être construit dans la gamme d'un moteur gravi. Supporte les structures insectoïdes et entrave de façon significative les mouvements non insecticides.</VGE_PlayerSubcreep.description>
+</LanguageData>

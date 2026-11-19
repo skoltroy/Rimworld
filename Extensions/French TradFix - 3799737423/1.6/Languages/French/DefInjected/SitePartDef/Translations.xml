@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_VacstoneMeteor.label>météorite vacstone</VGE_VacstoneMeteor.label>
+  <VGE_VacstoneMeteor.description>Un site d'impact d'une météorite Vacstone.</VGE_VacstoneMeteor.description>
+  <VGE_GravshipGraveyard.label>cimetière de Hellions</VGE_GravshipGraveyard.label>
+  <VGE_GravshipGraveyard.description>Un immense champ de débris contenant un cœur de réacteur.</VGE_GravshipGraveyard.description>
+  <VGE_InfestedInstallation.label>installation infestée</VGE_InfestedInstallation.label>
+  <VGE_InfestedInstallation.description>Une station orbitale abandonnée, infestée d'exo-insectoïdes et contenant un cœur de réacteur.</VGE_InfestedInstallation.description>
+  <VGE_SalvagerStronghold.label>forteresse du sauveteur</VGE_SalvagerStronghold.label>
+  <VGE_SalvagerStronghold.description>Une base de récupérateurs lourdement défendue, construite sur un astéroïde et contenant un cœur de réacteur.</VGE_SalvagerStronghold.description>
+</LanguageData>

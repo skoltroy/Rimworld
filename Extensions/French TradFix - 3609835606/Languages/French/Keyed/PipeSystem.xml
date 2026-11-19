@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_ExtractOxygen>Extraire {THINGEXTRACTCOUNT} bouteilles d'oxygène</VGE_ExtractOxygen>
+  <VGE_ExtractOxygenDesc>Extraire {THINGEXTRACTCOUNT} bouteilles d'oxygène du réservoir. Un colon viendra les récupérer.</VGE_ExtractOxygenDesc>
+  <VGE_ExtractOxygenDisabled>Il faut au moins {RESOURCEMIN} u³ d'oxygène dans le réservoir.</VGE_ExtractOxygenDisabled>
+  <VSGE_OxygenValve>Ouvrir ou fermer le flux d'oxygène.</VSGE_OxygenValve>
+  <VSGE_OxygenValveDesc>Ouvrir ou fermer le flux d'oxygène. Un colon viendra actionner la vanne.</VSGE_OxygenValveDesc>
+  <VGE_DisabledNoAtmosphere>Impossible de récolter de l'oxygène : aucune atmosphère.</VGE_DisabledNoAtmosphere>
+  <VGE_DisabledNoFuel>Nécessite une connexion au réseau d'astrofuel et un réservoir contenant de l'astrofuel.</VGE_DisabledNoFuel>
+  <VGE_ExtractAstrofuel>Extraire l'astrofuel</VGE_ExtractAstrofuel>
+  <VGE_ExtractAstrofuelDesc>Extraire tout l'astrofuel du réservoir. Un colon viendra le récupérer.</VGE_ExtractAstrofuelDesc>
+  <VGE_ExtractAstrofuelDisabled>Il faut au moins {RESOURCEMIN} l d'astrofuel dans le réservoir.</VGE_ExtractAstrofuelDisabled>
+  <VGE_AstrofuelValve>Ouvrir ou fermer le flux d'astrofuel.</VGE_AstrofuelValve>
+  <VGE_AstrofuelValveDesc>Ouvrir ou fermer le flux d'astrofuel. Un colon viendra actionner la vanne.</VGE_AstrofuelValveDesc>
+</LanguageData>

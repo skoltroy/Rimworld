@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_VacBarrierDouble.label>barrière à vide (2x1)</VGE_VacBarrierDouble.label>
+  <VGE_VacBarrierDouble.description>Barrière ultrasonique qui empêche la dépressurisation dans l'espace. Le champ comprime les molécules d'air à proximité de la zone de contact, empêchant les gaz de s'échapper tout en laissant les personnes passer librement. Une barrière à vide ne protège pas contre les intrus.\n\nDoit être alimentée pour empêcher la dépressurisation.</VGE_VacBarrierDouble.description>
+  <VGE_VacBarrierTriple.label>barrière à vide (3x1)</VGE_VacBarrierTriple.label>
+  <VGE_VacBarrierTriple.description>Barrière ultrasonique qui empêche la dépressurisation dans l'espace. Le champ comprime les molécules d'air à proximité de la zone de contact, empêchant les gaz de s'échapper tout en laissant les personnes passer librement. Une barrière à vide ne protège pas contre les intrus.\n\nDoit être alimentée pour empêcher la dépressurisation.</VGE_VacBarrierTriple.description>
+  <VGE_VacBarrierQuintuple.label>barrière à vide (5x1)</VGE_VacBarrierQuintuple.label>
+  <VGE_VacBarrierQuintuple.description>Barrière ultrasonique qui empêche la dépressurisation dans l'espace. Le champ comprime les molécules d'air à proximité de la zone de contact, empêchant les gaz de s'échapper tout en laissant les personnes passer librement. Une barrière à vide ne protège pas contre les intrus.\n\nDoit être alimentée pour empêcher la dépressurisation.</VGE_VacBarrierQuintuple.description>
+  <VGE_VacCheckpoint.label>point de contrôle du vide</VGE_VacCheckpoint.label>
+  <VGE_VacCheckpoint.description>Point de sécurité marquant l'entrée d'une zone sous vide. Les colons ne le franchiront pas sans la résistance au vide requise.</VGE_VacCheckpoint.description>
+  <VGE_Oxyalgae.label>oxyalgues</VGE_Oxyalgae.label>
+  <VGE_Oxyalgae.description>Masse dense d'algues aquatiques récoltées et cultivées pour les systèmes de survie. Les oxyalgues produisent régulièrement de l'oxygène, mais se gâtent rapidement si elles ne sont pas transformées.</VGE_Oxyalgae.description>
+  <VGE_SmallDebris.label>petits débris</VGE_SmallDebris.label>
+  <VGE_MediumDebris.label>débris moyens</VGE_MediumDebris.label>
+  <VGE_LargeDebris.label>gros débris</VGE_LargeDebris.label>
+  <VGE_SmallAsteroid_Projectile.label>petit astéroïde</VGE_SmallAsteroid_Projectile.label>
+  <VGE_MediumAsteroid.label>astéroïde moyen</VGE_MediumAsteroid.label>
+  <VGE_LargeAsteroid.label>grand astéroïde</VGE_LargeAsteroid.label>
+  <VGE_LandingStructure.label>structure d'atterrissage</VGE_LandingStructure.label>
+  <VGE_MassLance.label>lance de masse</VGE_MassLance.label>
+  <VGE_MassLance.description>Artillerie portable à accélération de masse montée sur mécanoïde. Elle tire des projectiles denses à une vitesse incroyable, capables de détruire même les Hellions lourdement blindés.</VGE_MassLance.description>
+  <VGE_MassLance.tools.0.label>tube</VGE_MassLance.tools.0.label>
+  <VGE_RocketswarmPod.label>nacelle de roquettes en essaim</VGE_RocketswarmPod.label>
+  <VGE_RocketswarmPod.description>Lanceur de salves de roquettes jumelé, miniaturisé et monté sur mécanoïde. Très efficace contre de grands groupes de combattants peu protégés, mais moins contre un petit nombre de cibles blindées.</VGE_RocketswarmPod.description>
+  <VGE_RocketswarmPod.tools.0.label>tube</VGE_RocketswarmPod.tools.0.label>
+  <VGE_OxyalgaePlant.label>plante d'oxyalgues</VGE_OxyalgaePlant.label>
+  <VGE_OxyalgaePlant.description>Plante aquatique à croissance rapide, cultivée en hydroponie et utilisée pour produire de l'oxygène lorsqu'elle est transformée dans un oxygénateur à algues. Elle pourrit vite après la récolte et doit donc être traitée immédiatement.</VGE_OxyalgaePlant.description>
+  <VGE_Hunter.label>chasseur</VGE_Hunter.label>
+  <VGE_Hunter.description>Mécanoïde de combat rapide de taille humaine, conçu pour la guerre en apesanteur. Il dérive sans effort dans l'espace, s'approche de sa cible puis déchaîne des salves dévastatrices avec son lanceur de javelots jumelé. Les missiles frappent avec une précision mortelle, mais leur portée réduite contraint les chasseurs à s'approcher dangereusement de l'ennemi.</VGE_Hunter.description>
+  <VGE_Hunter.tools.0.label>tête</VGE_Hunter.tools.0.label>
+</LanguageData>

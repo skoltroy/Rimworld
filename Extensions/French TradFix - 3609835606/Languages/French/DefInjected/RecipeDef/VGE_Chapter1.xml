@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_Make_AstrofuelFromChemfuel.label>produire de l'astrofuel à partir de chemfuel</VGE_Make_AstrofuelFromChemfuel.label>
+  <VGE_Make_AstrofuelFromChemfuel.description>Produisez une quantité d'astrofuel de haute qualité en raffinant du chemfuel.</VGE_Make_AstrofuelFromChemfuel.description>
+  <VGE_Make_AstrofuelFromChemfuel.jobString>Raffinage d'astrofuel à partir de chemfuel.</VGE_Make_AstrofuelFromChemfuel.jobString>
+</LanguageData>

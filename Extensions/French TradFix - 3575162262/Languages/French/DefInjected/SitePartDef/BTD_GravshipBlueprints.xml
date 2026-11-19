@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BTD_DownedGravship.label>Vaisseau gravitationnel écrasé</BTD_DownedGravship.label>
+  <BTD_DownedGravship.description>Site de crash d'un vaisseau gravitationnel. La majeure partie du vaisseau sera irrécupérable, mais nous pourrons peut-être pirater le moteur gravitationnel et d'autres bâtiments pour obtenir de précieuses ressources.</BTD_DownedGravship.description>
+  <BTD_DownedGravship.arrivedLetter>Votre caravane est arrivée sur le site du vaisseau gravitationnel écrasé.\n\nLe vaisseau est gravement endommagé. Le cœur du moteur gravitationnel peut être piraté et contenir de précieux matériaux à récupérer.</BTD_DownedGravship.arrivedLetter>
+  <BTD_SalvageGravship.label>Vaisseau gravitationnel à récupérer</BTD_SalvageGravship.label>
+  <BTD_SalvageGravship.description>Un vaisseau gravitationnel abandonné attend d'être récupéré. Initialisez son moteur pour l'activer, mais prenez garde : le processus attirera des forces hostiles.</BTD_SalvageGravship.description>
+  <BTD_SalvageGravship.arrivedLetter>Votre caravane est arrivée sur le site du vaisseau gravitationnel à récupérer.\n\nLe vaisseau semble intact, mais abandonné. Vous pouvez initialiser le moteur gravitationnel quand vous le souhaitez, mais cela déclenchera une longue procédure qui attirera des ennemis.</BTD_SalvageGravship.arrivedLetter>
+  <BTD_DroidDistressCall.label>Appel de détresse d'un droïde</BTD_DroidDistressCall.label>
+</LanguageData>

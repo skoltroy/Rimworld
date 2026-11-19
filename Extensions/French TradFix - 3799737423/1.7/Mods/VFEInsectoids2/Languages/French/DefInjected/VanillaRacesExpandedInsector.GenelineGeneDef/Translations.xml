@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_Gene_SealedExoskeleton.label>exosquelette scellé</VGE_Gene_SealedExoskeleton.label>
+  <VGE_Gene_SealedExoskeleton.description>Les porteurs de ce gène développent un exosquelette hermétiquement scellé capable d'internaliser la pression atmosphérique et de réguler la chaleur corporelle. Cette adaptation leur confère une immunité totale au vide de l'espace et leur permet d'endurer des environnements gelés extrêmes sans gêne.</VGE_Gene_SealedExoskeleton.description>
+  <VGE_Gene_MicrogravityAdapted.label>microgravité adaptée</VGE_Gene_MicrogravityAdapted.label>
+  <VGE_Gene_MicrogravityAdapted.description>Les porteurs de ce gène possèdent une musculature et une conscience spatiale uniques adaptées aux environnements à gravité nulle. Dans l'espace, ils se déplacent avec une agilité accrue, travaillent avec plus d'efficacité et glissent sans effort dans le vide de l'espace.</VGE_Gene_MicrogravityAdapted.description>
+  <VGE_Gene_AstrofuelSacks.label>sacs d'astrocarburant</VGE_Gene_AstrofuelSacks.label>
+  <VGE_Gene_AstrofuelSacks.description>Les porteurs de ce gène développent des sacs d'astrocarburant volatils ressemblant à une queue, augmentant considérablement leur sensibilité aux dommages causés par la flamme. S'ils sont engloutis dans des flammes assez grandes ou à la mort, ils éclatent dans une explosion dévastatrice. De plus, ces sacs peuvent être "laités" périodiquement pour produire de précieux astrocarburants.</VGE_Gene_AstrofuelSacks.description>
+  <VGE_Gene_FloatingOrgans.label>Organes flottants</VGE_Gene_FloatingOrgans.label>
+  <VGE_Gene_FloatingOrgans.description>Les porteurs de ce gène ne possèdent pas les tissus conjonctifs internes qui maintiennent normalement les organes en place sous la gravité planétaire. Le fait de les soumettre à une gravité standard provoque un déplacement douloureux de leurs organes internes, entraînant des nausées chroniques et une léthargie persistante.</VGE_Gene_FloatingOrgans.description>
+</LanguageData>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VGE_GenerateEmptyOrbit>Générer une orbite vide</VGE_GenerateEmptyOrbit>
+  <VGE_GenerateEmptyOrbitDesc>Ouvrir une carte orbitale vide pour y construire des éléments préfabriqués à exporter.</VGE_GenerateEmptyOrbitDesc>
+  <VGE_FireBombardmentTargeter>Tirer avec {0}</VGE_FireBombardmentTargeter>
+  <VGE_FireBombardmentTargeterDesc>Tirer {0} sur la position visée. Le désignateur de bombardement Hellion entrera dans une brève période de recharge avant de pouvoir de nouveau faire feu.</VGE_FireBombardmentTargeterDesc>
+  <VGE_TargeterOnCooldown>Rechargement : {0}</VGE_TargeterOnCooldown>
+  <VGE_TargeterNoAmmo>Impossible de tirer : aucune munition.</VGE_TargeterNoAmmo>
+  <VGE_NeedsLinkedTargetingTerminal>Impossible de tirer : un terminal de visée doit être relié.</VGE_NeedsLinkedTargetingTerminal>
+  <VGE_TargeterOutOfRange>Impossible de tirer : cible hors de portée.</VGE_TargeterOutOfRange>
+  <VGE_TargetingConsoleOnlyGravshipArtillery>La console de visée ne peut se relier qu'à l'artillerie Hellion.</VGE_TargetingConsoleOnlyGravshipArtillery>
+  <VGE_LinkWithTurretConsoleDesc>Sélectionnez une tourelle à relier. Cette console de visée servira à la contrôler.</VGE_LinkWithTurretConsoleDesc>
+  <VGE_UnlinkWithTurretConsoleDesc>Rompre la liaison avec la tourelle actuelle pour pouvoir en relier une autre.</VGE_UnlinkWithTurretConsoleDesc>
+  <VGE_SelectLinkedTurretConsoleDesc>Afficher la tourelle reliée.</VGE_SelectLinkedTurretConsoleDesc>
+  <VGE_LinkWithTurretTargeterDesc>Sélectionnez une tourelle à relier. Ce désignateur orbital servira à la contrôler.</VGE_LinkWithTurretTargeterDesc>
+  <VGE_UnlinkWithTurretTargeterDesc>Rompre la liaison avec la tourelle actuelle pour pouvoir en relier une autre.</VGE_UnlinkWithTurretTargeterDesc>
+  <VGE_SelectLinkedTurretTargeterDesc>Afficher la tourelle reliée.</VGE_SelectLinkedTurretTargeterDesc>
+  <VGE_LaunchWarpod>Lancer une capsule de combat</VGE_LaunchWarpod>
+  <VGE_LaunchWarpodDesc>Lancer cette capsule de combat suborbitale vers une destination précise.</VGE_LaunchWarpodDesc>
+  <VGE_WarpodLocationNeedRevealed>Impossible de lancer des capsules de combat ici : le lieu doit d'abord être révélé.</VGE_WarpodLocationNeedRevealed>
+  <VGE_MustBePlacedInSpace>Doit être placé dans l'espace.</VGE_MustBePlacedInSpace>
+  <!-- Gravship shield -->
+  <VGE_ShieldOverheated>Le générateur de bouclier Hellion a surchauffé faute de dissipateurs vides. Pensez à construire davantage de dissipateurs.</VGE_ShieldOverheated>
+  <VGE_ShieldOverheatedGizmo>Surchauffe</VGE_ShieldOverheatedGizmo>
+  <VGE_ShieldInternalHeat>Unités de chaleur stockées à l'intérieur : {0}/{1}</VGE_ShieldInternalHeat>
+  <!-- Escape pod -->
+  <VGE_EscapePod_Enter>Entrer dans la capsule de sauvetage</VGE_EscapePod_Enter>
+  <VGE_EscapePod_InsertPawn>Transporter jusqu'à la capsule de sauvetage</VGE_EscapePod_InsertPawn>
+  <VGE_EscapePod_InsertCarriedPawn>Placer {PAWN} dans la capsule de sauvetage</VGE_EscapePod_InsertCarriedPawn>
+  <VGE_EscapePod_Occupied>La capsule de sauvetage est déjà occupée.</VGE_EscapePod_Occupied>
+  <VGE_CommandAutoRebuild_EscapePod>Si cette option est activée, {BUILDING_definite} sera automatiquement remplacé après utilisation.</VGE_CommandAutoRebuild_EscapePod>
+  <VGE_EscapePod_CancelEvacuation>Annuler l'évacuation</VGE_EscapePod_CancelEvacuation>
+  <VGE_EscapePod_Evacuation>Évacuer le Hellion</VGE_EscapePod_Evacuation>
+  <VGE_EscapePod_EvacuationDesc>Lance un protocole d'évacuation à l'échelle du Hellion. Tous les colons chercheront immédiatement la capsule d'évacuation disponible la plus proche et y embarqueront. Le processus d'évacuation déclenche une sirène dans tout l'appareil jusqu'au lancement de toutes les capsules. S'il n'y a pas assez de capsules d'évacuation, certains colons pourraient ne pas pouvoir partir.</VGE_EscapePod_EvacuationDesc>
+  <VGE_EscapePod_EvacuationConfirmation>Voulez-vous vraiment ordonner l'évacuation ?\n\nTous les colons qui le peuvent interrompront immédiatement leur tâche et tenteront de trouver une capsule de sauvetage. S'ils n'en trouvent pas tout de suite, ils continueront d'en chercher une jusqu'à ce qu'ils soient enrôlés ou que l'évacuation soit annulée.\n\nSi vous annulez l'évacuation, vos colons tenteront de reprendre leur activité précédente, si possible.</VGE_EscapePod_EvacuationConfirmation>
+  <!-- Vacuum emergency light -->
+  <VGE_VacuumEmergencyLight_UnsafeVacuumLevel>Choisir le niveau de vide dangereux</VGE_VacuumEmergencyLight_UnsafeVacuumLevel>
+  <VGE_VacuumEmergencyLight_UnsafeVacuumLevelDesc>Choisissez le niveau de vide considéré comme dangereux. Lorsque ce niveau sera atteint, la lampe s'allumera et les colons non enrôlés dépourvus de protection contre le vide chercheront à se mettre à l'abri.</VGE_VacuumEmergencyLight_UnsafeVacuumLevelDesc>
+  <VGE_VacuumEmergencyLight_UnsafeVacuumSlider>Niveau de vide dangereux : {0_percentage}</VGE_VacuumEmergencyLight_UnsafeVacuumSlider>
+  <VGE_VacuumEmergencyLight_EvacuatePawns>Évacuer la zone lorsque le niveau de vide dangereux est atteint</VGE_VacuumEmergencyLight_EvacuatePawns>
+  <!-- Fuel provider/electric thrusters -->
+  <VGE_FuelTab_ElectricThrusters>propulseurs électriques</VGE_FuelTab_ElectricThrusters>
+  <VGE_FuelTab_ChargedThrusters>propulseurs chargés</VGE_FuelTab_ChargedThrusters>
+  <VGE_UsedCharge>charge</VGE_UsedCharge>
+  <!-- Emergency generator -->
+  <VGE_EmergencyGenerator_RemainingPowerOutput>puissance restante : {0} Wd ({1})</VGE_EmergencyGenerator_RemainingPowerOutput>
+  <VGE_EmergencyGenerator_Inactive>inactif</VGE_EmergencyGenerator_Inactive>
+  <VGE_EmergencyGenerator_AnotherActive>un autre générateur est actif</VGE_EmergencyGenerator_AnotherActive>
+  <VGE_EmergencyGenerator_MustBeFullyMaintained>doit être entièrement entretenu</VGE_EmergencyGenerator_MustBeFullyMaintained>
+  <VGE_EmergencyGenerator_MustBeConnectedToGravEngine>doit être reliée à un moteur Hellion</VGE_EmergencyGenerator_MustBeConnectedToGravEngine>
+  <VGE_HackWarcomputer>Pirater l'ordinateur de guerre ennemi pour récupérer les données de vol</VGE_HackWarcomputer>
+  <VGE_GravdataWillBeLostWarning>Les données de vol obtenues seront perdues si vous ne sélectionnez pas un projet de recherche sur les systèmes Hellion.</VGE_GravdataWillBeLostWarning>
+  <VGE_WarcomputerHackedBlackBox>Ordinateur de guerre hostile piraté. {0} données de vol stockées dans la boîte noire du Hellion.</VGE_WarcomputerHackedBlackBox>
+  <VGE_WarcomputerHackedResearch>Ordinateur de guerre hostile piraté. {0} données de vol ajoutées à la recherche {1}.</VGE_WarcomputerHackedResearch>
+  <VGE_DestinationJammed>Atterrissage impossible : la destination est brouillée par un brouilleur de signaux ennemi.</VGE_DestinationJammed>
+  <VGE_DestinationJammedDropPod>Impossible de lancer des capsules de largage : la destination est protégée par un brouilleur de signaux.</VGE_DestinationJammedDropPod>
+  <VGE_DestinationJammedWarpod>Impossible de lancer des capsules de combat : la destination est protégée par un brouilleur de signaux.</VGE_DestinationJammedWarpod>
+  <VGE_Visibility400k>D'autres commencent à remarquer votre Hellion. Pensez à vous faire discret un moment, ou construisez un brouilleur de signaux.</VGE_Visibility400k>
+  <VGE_Visibility600k>Visibilité du Hellion</VGE_Visibility600k>
+  <VGE_Visibility600kDesc>Votre Hellion, {0}, a attiré l'attention d'autres acteurs. Si vous continuez à générer de la visibilité, vous rencontrerez une menace de niveau Hellion.\n\nLa visibilité est générée pendant les déplacements de votre Hellion, mais aussi lorsque vous utilisez son armement ou effectuez des scans orbitaux depuis lui. Elle baisse passivement avec le temps.\n\nLes menaces de niveau Hellion peuvent inclure des plateformes de bombardement orbital, des installations pirates, voire des Hellions ennemis. Ils vous engageront activement avec une artillerie puissante sur des distances énormes. Si votre Hellion n'est pas prêt, il sera pulvérisé.\n\nÀ cet instant, votre Hellion est armé de :\n\n{1}</VGE_Visibility600kDesc>
+  <VGE_NoArmamentsPresent>Aucun armement Hellion présent. Pensez à construire des tourelles de défense rapprochée et des générateurs de bouclier, ainsi que de l'artillerie Hellion.</VGE_NoArmamentsPresent>
+  <VGE_Warpods>capsules de combat</VGE_Warpods>
+  <VGE_SignalJammerCooldown>Temps de recharge du brouilleur de signaux : {0}</VGE_SignalJammerCooldown>
+  <VGE_SignalJammerStunnedArtillery>Brouilleur de signaux activé : l'artillerie Hellion ennemie est étourdie pendant 12 heures.</VGE_SignalJammerStunnedArtillery>
+  <VGE_LocationDestabilizing>Lieu en cours de déstabilisation</VGE_LocationDestabilizing>
+  <VGE_LocationDestabilizingDesc>Le lieu orbital où vous vous trouvez est en cours de déstabilisation. Il va bientôt s'effondrer complètement, emportant tout ce qui s'y trouve, y compris vos colons.\n\nTemps restant : {0}\n\nÉvacuez avant que le lieu ne brûle dans l'atmosphère.</VGE_LocationDestabilizingDesc>
+  <VGE_DestabilizesIn>Déstabilisation dans : {0}</VGE_DestabilizesIn>
+  <VGE_JammerScrambledSignal>Votre brouilleur de signaux a brouillé le verrouillage, vous accordant {0} heures supplémentaires avant que la plateforme de guerre ne vous repère.</VGE_JammerScrambledSignal>
+  <VGE_AncientSignalJammerLaunchBlocked>Décollage impossible : un ancien brouilleur de signaux bloque la séquence. Trouvez-le et détruisez-le pour pouvoir décoller.</VGE_AncientSignalJammerLaunchBlocked>
+  <VGE_AncientSignalJammerShuttleBlocked>Décollage impossible : un ancien brouilleur de signaux bloque la séquence. Trouvez-le et détruisez-le pour lancer la navette.</VGE_AncientSignalJammerShuttleBlocked>
+  <VGE_AncientSignalJammerWarpodBlocked>Décollage impossible : un ancien brouilleur de signaux bloque la séquence. Trouvez-le et détruisez-le pour lancer la capsule de combat.</VGE_AncientSignalJammerWarpodBlocked>
+  <VGE_AncientSignalJammerCommsBlocked>Un brouilleur de signaux actif empêche toute communication.</VGE_AncientSignalJammerCommsBlocked>
+  <VGE_AncientSignalJammerBlockedGeneric>Décollage impossible : un ancien brouilleur de signaux bloque la séquence. Trouvez-le et détruisez-le pour lancer {0}.</VGE_AncientSignalJammerBlockedGeneric>
+  <VGE_ThreatDescription_Exoinsectoids>infesté par une dangereuse colonie d'exo-insectoïdes</VGE_ThreatDescription_Exoinsectoids>
+  <VGE_ThreatDescription_Mechanoids>occupé par un groupe de mécanoïdes hostiles</VGE_ThreatDescription_Mechanoids>
+  <VGE_ThreatDescription_Drones>contrôlé par d'anciens drones défensifs automatisés, encore actifs et agressifs</VGE_ThreatDescription_Drones>
+  <VGE_ThreatDescription_Pirates>en cours de récupération par un groupe de pirates hostiles</VGE_ThreatDescription_Pirates>
+  <VGE_GravshipGraveyardLetterLabel>Cœur de réacteur détecté : cimetière de Hellions</VGE_GravshipGraveyardLetterLabel>
+  <VGE_GravshipGraveyardLetterText>Vous avez détecté la signature énergétique distincte d'un cœur de réacteur, émanant d'un immense champ de débris : un cimetière de Hellions. Vous savez qu'à votre arrivée, vos systèmes de navigation seront verrouillés. Un ancien brouilleur de signaux est actif au cœur du champ de débris, empêchant votre Hellion d'entamer le décollage. Vous devez traverser le champ de gravimines anciennes et instables, localiser la source du brouillage et la neutraliser pour vous échapper.\n\nSoyez prudent : les sites orbitaux sont extrêmement dangereux. Équipez vos colons de combinaisons spatiales. Planifiez votre voyage de retour, car vivre longtemps en orbite est très difficile.</VGE_GravshipGraveyardLetterText>
+  <VGE_InfestedInstallationLetterLabel>Cœur de réacteur détecté : installation infestée</VGE_InfestedInstallationLetterLabel>
+  <VGE_InfestedInstallationLetterText>Vous avez détecté la signature énergétique d'un cœur de réacteur. Le signal provient d'une station orbitale abandonnée, infestée d'exo-insectoïdes. Les scanners révèlent de nombreuses ruches à bord. Vous devez traverser les ruines infestées, vaincre les défenseurs exo-insectoïdes et détruire l'attache de gravverrou infestée, qui continuera de faire apparaître de nouveaux exo-insectoïdes sur toute la plateforme. Une fois détruite, vous pourrez obtenir le cœur de réacteur.\n\nSoyez prudent : les sites orbitaux sont extrêmement dangereux. Équipez vos colons de combinaisons spatiales. Planifiez votre voyage de retour, car vivre longtemps en orbite est très difficile.</VGE_InfestedInstallationLetterText>
+  <VGE_PayTribute>Verser un tribut à {0} : {1} argent</VGE_PayTribute>
+  <VGE_PaySilver>Payer {0} argent</VGE_PaySilver>
+  <VGE_PostponeTribute>Reporter le paiement de {0} jours</VGE_PostponeTribute>
+  <VGE_RefuseTribute>Refuser de payer la somme exigée</VGE_RefuseTribute>
+  <VGE_TributePaidReply>{0} vous remercie pour votre généreuse contribution à sa cause. Vous ne serez pas attaqué.</VGE_TributePaidReply>
+  <VGE_PostponeReply>{0} accepte votre demande de délai et vous recontactera dans {1} jours.</VGE_PostponeReply>
+  <VGE_RefuseReply>{0} est plus que satisfait de la situation actuelle. {1} s'est verrouillé sur votre Hellion et lance l'attaque.</VGE_RefuseReply>
+  <VGE_CallSalvagerStation>Contacter {0} (demande de tribut)</VGE_CallSalvagerStation>
+  <VGE_CallSalvagerStationDialog>{0}, capitaine de {1}, est prêt à recevoir votre tribut de {2} argent. Il promet de vous laisser la vie sauve si vous payez.</VGE_CallSalvagerStationDialog>
+  <VGE_SalvagerDropshipRaid>Navette des récupérateurs</VGE_SalvagerDropshipRaid>
+  <VGE_SalvagerDropshipRaidDesc>Une navette de récupérateurs est arrivée ! Ils ont envoyé une équipe d'abordage pour percevoir le tribut par la force.</VGE_SalvagerDropshipRaidDesc>
+  <VGE_TributeDemandPopup>{0}, capitaine de {1}, est prêt à recevoir votre tribut de {2} argent. Ils promettent de vous laisser vivre si vous payez.\n\nIls pourraient aussi accepter votre demande de report du paiement de {3} jours, mais ils verrouilleront à distance le moteur de votre Hellion, rendant l'appareil incapable de partir. Seul le paiement du tribut ou la défaite de la station de récupérateurs déverrouillera le moteur du Hellion.</VGE_TributeDemandPopup>
+  <VGE_PostponedTributeDemandPopup>{0}, capitaine de {1}, réclame à nouveau votre tribut de {2} argent. Il promet de vous laisser la vie sauve si vous payez.\n\nRefuser de payer déclenchera l'attaque.</VGE_PostponedTributeDemandPopup>
+  <VGE_TributeDemand>Demande de tribut</VGE_TributeDemand>
+  <VGE_TributeDemandHover>Une station de récupérateurs exige un tribut de {0} argent, faute de quoi elle ouvrira le feu.\n\nTemps avant que le tribut doive être payé : {1}\n\nVous pouvez leur demander de reporter le paiement, mais le moteur du Hellion sera verrouillé à distance jusqu'au paiement du tribut ou à la défaite de la station. Vous pouvez aussi payer immédiatement si vous en avez les moyens. Fuir entraînera probablement l'envoi par les récupérateurs d'une équipe de recherche à vos trousses.</VGE_TributeDemandHover>
+  <VGE_JammerScrambledSalvager>Votre brouilleur de signaux a brouillé le système de ciblage de la station des récupérateurs, vous laissant 6 heures supplémentaires pour décider de payer le tribut ou de combattre.</VGE_JammerScrambledSalvager>
+  <VGE_EngineLockedRemotelyInspect>Inopérant : verrouillé à distance</VGE_EngineLockedRemotelyInspect>
+  <VGE_EngineLockedRemotely>Décollage impossible : le moteur est verrouillé à distance par une station de récupérateurs.</VGE_EngineLockedRemotely>
+  <VGE_JammerScrambledGravjumper>Votre brouilleur de signaux a brouillé leur processus de balayage, vous accordant 24 heures supplémentaires avant que {0} n'engage le combat.</VGE_JammerScrambledGravjumper>
+  <VGE_GravjumperAttacks>attaques du chasseur Hellion</VGE_GravjumperAttacks>
+  <VGE_GravjumperAttacksDesc>Malgré vos tentatives pour semer la poursuite, le chasseur Hellion ennemi {0} a réussi à suivre vos nouvelles coordonnées d'atterrissage. Il est arrivé en orbite et engage immédiatement votre Hellion. Préparez-vous à un combat immédiat.\n\nVotre appareil sera sous un feu continu des armes du chasseur Hellion. Pour survivre, vous devez détruire le moteur du chasseur Hellion ennemi, ainsi que toutes ses tourelles d'artillerie.\n\nVous pouvez riposter avec l'artillerie, les générateurs de bouclier et les défenses rapprochées de votre Hellion pour résister au bombardement. Vous pouvez aussi envoyer une navette ou des capsules de largage sur la position ennemie pour aborder le chasseur Hellion et le détruire de l'intérieur. Si vous ne pouvez pas vous défendre, vous devez tenter de sortir immédiatement de sa portée.</VGE_GravjumperAttacksDesc>
+  <VGE_GravjumperLaunched>{0} a décollé et atterrira dans votre zone locale sous peu.</VGE_GravjumperLaunched>
+  <VGE_GravjumperDefeated>chasseur Hellion vaincu</VGE_GravjumperDefeated>
+  <VGE_GravjumperDefeatedDesc>La menace du chasseur Hellion ennemi a été vaincue, mais la zone offre encore un butin précieux. Vous pouvez récupérer son épave pour obtenir des ressources précieuses.</VGE_GravjumperDefeatedDesc>
+  <VGE_JammerScrambledCluster>Votre brouilleur de signaux a brouillé le verrouillage, vous accordant {0} jours supplémentaires avant que la plateforme de guerre ne vous repère.</VGE_JammerScrambledCluster>
+  <VGE_OrbitalClusterRelayed>La grappe orbitale de mécanoïdes a transmis vos coordonnées à une autre grappe à portée. Elle avance pour vous attaquer.</VGE_OrbitalClusterRelayed>
+  <VGE_JammerScrambledGravship>Votre brouilleur de signaux a brouillé leur processus de balayage, vous accordant 24 heures supplémentaires avant que {0} n'engage le combat.</VGE_JammerScrambledGravship>
+  <VGE_GravshipAttacks>attaques du Hellion</VGE_GravshipAttacks>
+  <VGE_GravshipAttacksDesc>Malgré vos tentatives pour semer la poursuite, le Hellion ennemi {0} a réussi à suivre vos nouvelles coordonnées d'atterrissage. Il est arrivé en orbite et engage immédiatement votre Hellion. Préparez-vous à un combat immédiat.\n\nVotre appareil sera sous un feu continu des armes du Hellion ennemi. Pour survivre, vous devez détruire son moteur Hellion, ainsi que toutes ses tourelles d'artillerie.\n\nVous pouvez riposter avec l'artillerie, les générateurs de bouclier et les défenses rapprochées de votre Hellion pour résister au bombardement. Vous pouvez aussi envoyer une navette ou des capsules de largage sur la position ennemie pour aborder le Hellion ennemi et le détruire de l'intérieur. Si vous ne pouvez pas vous défendre, vous devez tenter de sortir immédiatement de sa portée.</VGE_GravshipAttacksDesc>
+  <VGE_GravshipGeneric>votre Hellion</VGE_GravshipGeneric>
+  <VGE_RaidEnemyGravship>Raid : Hellion ennemi</VGE_RaidEnemyGravship>
+  <VGE_RaidEnemyGravshipDesc>Un Hellion ennemi nommé {0} vous a enfin rattrapé. Il s'est laissé tomber dans votre orbite locale et a lancé une séquence d'abordage. Vous devez détruire son moteur Hellion, ainsi que toute son artillerie Hellion et son équipage, pour le vaincre.\n\nLes assaillants étant bien équipés et préparés, il vaut peut-être mieux vous défendre jusqu'à ce que le moteur de votre Hellion puisse à nouveau décoller, puis vous échapper.\n\nSi vous parvenez à les vaincre, leur épave offrira un butin précieux, dont un cœur de réacteur.</VGE_RaidEnemyGravshipDesc>
+  <VGE_GravshipEngineReady>Moteur du Hellion prêt !</VGE_GravshipEngineReady>
+  <VGE_GravshipEngineReadyDesc>Le moteur de votre Hellion n'est plus en refroidissement. Vous pouvez maintenant effectuer un décollage Hellion.</VGE_GravshipEngineReadyDesc>
+  <VGE_SalvagerStrongholdLetter>Cœur de réacteur détecté : forteresse des récupérateurs</VGE_SalvagerStrongholdLetter>
+  <VGE_SalvagerStrongholdLetterDesc>Vous avez détecté la signature énergétique distincte d'un cœur de réacteur, émanant d'un grand astéroïde. Les scanners révèlent qu'une faction de récupérateurs bien armée a revendiqué le rocher et y a bâti une forteresse lourdement défendue. Un brouilleur de signaux ennemi actif dans l'installation empêche votre Hellion d'atterrir à proximité immédiate, vous forçant à vous poser sur les abords dangereux de l'astéroïde.\n\nVous devez attaquer la base, franchir leurs défenses et détruire l'attache de gravverrou située au centre du complexe pour obtenir le cœur de réacteur.\n\nSoyez prudent : les sites orbitaux sont extrêmement dangereux. Équipez vos colons de combinaisons spatiales. Planifiez votre voyage de retour, car vivre longtemps en orbite est très difficile.</VGE_SalvagerStrongholdLetterDesc>
+  <!--Misc-->
+  <VGE_NullipedeThumperNeedsSpace>Le tambour de nullipède ne peut pas être activé à la surface.</VGE_NullipedeThumperNeedsSpace>
+  <VGE_NeedsHiveOrSubcreeper>Impossible de placer un sous-rampant hors de portée des ruches exo ou des sous-rampants.</VGE_NeedsHiveOrSubcreeper>
+  <VGE_IncomingEnemyGravship>Hellion entrant</VGE_IncomingEnemyGravship>
+  <VGE_IncomingEnemyGravshipDesc>Un Hellion ennemi approche rapidement.\n\nTemps avant l'arrivée : {0}\n\nVous ne pourrez pas vous échapper avant son arrivée. Préparez-vous à ce qu'il tire une salve sur vous, et échappez-vous dès que possible.</VGE_IncomingEnemyGravshipDesc>
+</LanguageData>

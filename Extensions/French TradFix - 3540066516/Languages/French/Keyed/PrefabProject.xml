@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Common buttons and operations -->
+  <OK>OK</OK>
+  <Cancel>Annuler</Cancel>
+  <Close>Fermer</Close>
+  <Delete>Supprimer</Delete>
+  <Import>Importer</Import>
+  <Export>Exporter</Export>
+  <Place>Placer</Place>
+  <Refresh>Actualiser</Refresh>
+  <Reset>Réinitialiser</Reset>
+  <Back>Retour</Back>
+  <SwitchTo5Columns>Passer à 5 colonnes</SwitchTo5Columns>
+  <SwitchTo3Columns>Passer à 3 colonnes</SwitchTo3Columns>
+  <Select>Sélectionner</Select>
+  <Loading>Chargement...</Loading>
+  <None>Aucun</None>
+  <Unknown>Inconnu</Unknown>
+
+  <!-- Prefab file manager -->
+  <WindowTitle>Gestionnaire de plans</WindowTitle>
+  <SelectFileForPreview>Veuillez sélectionner un fichier à prévisualiser</SelectFileForPreview>
+  <PreviewFailed>Échec de l'aperçu</PreviewFailed>
+  <NoPngFilesFound>Aucun fichier PNG trouvé dans le dossier MyBuildings.</NoPngFilesFound>
+  <FileName>Nom du fichier</FileName>
+  <Preview>Aperçu</Preview>
+  <SelectAll>Tout sélectionner</SelectAll>
+  <DeselectAll>Tout désélectionner</DeselectAll>
+  <ClearSelection>Effacer la sélection</ClearSelection>
+  <RefreshList>Actualiser la liste</RefreshList>
+  <SortByTime>Par date</SortByTime>
+  <SortByName>Par nom</SortByName>
+  <SortBySize>Par taille</SortBySize>
+  <SelectFileToDelete>Veuillez d'abord sélectionner un fichier à supprimer</SelectFileToDelete>
+  <SelectFileToImport>Veuillez d'abord sélectionner un fichier à importer</SelectFileToImport>
+  <SelectFileToPlace>Veuillez d'abord sélectionner un fichier à placer</SelectFileToPlace>
+  <SelectMapPoint>Veuillez sélectionner un point sur la carte pour placer le plan</SelectMapPoint>
+  <SuccessDeleteFiles>{0} fichiers supprimés avec succès</SuccessDeleteFiles>
+  <SuccessImportFiles>{0} fichiers importés avec succès dans le dossier UB</SuccessImportFiles>
+  <NoValidXmlData>Aucune balise XML_DATA valide trouvée dans l'image !</NoValidXmlData>
+  <UB_FileCount>Nombre total de fichiers : {0}</UB_FileCount>
+  <UB_ReadPath>Chemin de lecture : RimWorld/MyBuildings</UB_ReadPath>
+  <UB_OpenButton>Ouvrir</UB_OpenButton>
+  <UB_Tooltip_OpenReadPath>Ouvrir le dossier : {0}\n(Il sera créé s'il n'existe pas)\nPlacez les fichiers PNG de plans dans ce dossier pour les ouvrir.</UB_Tooltip_OpenReadPath>
+  <UB_OpenWebButton>Ouvrir le Web</UB_OpenWebButton>
+  <UB_OpenWeb_Tooltip>Ouvrir la bibliothèque de plans en ligne : {0}</UB_OpenWeb_Tooltip>
+  <UB_Sort>Trier :</UB_Sort>
+  <UB_SelectedCount>Sélectionnés : {0} fichiers</UB_SelectedCount>
+  <UB_FileSize>Taille du fichier : {0}</UB_FileSize>
+  <UB_GridSize>Taille de la grille : {0}</UB_GridSize>
+  <UB_Created>Créé : {0}</UB_Created>
+  <UB_CreatedTime>Date de création : {0}</UB_CreatedTime>
+  <UB_ModifiedTime>Date de modification : {0}</UB_ModifiedTime>
+
+  <!-- Upload functionality related -->
+  <Upload>Téléverser</Upload>
+  <SelectFileToUpload>Veuillez d'abord sélectionner les fichiers à téléverser</SelectFileToUpload>
+  <UB_UploadStarted>Démarrage du téléversement des fichiers sélectionnés...</UB_UploadStarted>
+  <UB_UploadSuccess>{0} téléversé avec succès</UB_UploadSuccess>
+  <UB_UploadFail>Échec du téléversement de {0}</UB_UploadFail>
+  <UB_UploadFail_NoXml>Échec du téléversement de {0} : aucune donnée XML valide trouvée</UB_UploadFail_NoXml>
+  <UB_UploadFail_NoBuildingID>Échec du téléversement de {0} : BuildingID introuvable</UB_UploadFail_NoBuildingID>
+  <UB_UploadFail_InvalidUUID>Échec du téléversement de {0} : le BuildingID n'a pas un format UUID valide</UB_UploadFail_InvalidUUID>
+  <UB_UploadFail_FileTooLarge>Échec du téléversement de {0} : fichier trop volumineux ({1}), la limite de 5 Mo est dépassée</UB_UploadFail_FileTooLarge>
+  <UB_UploadFail_Prepare>Échec du téléversement de {0} : erreur lors de la préparation du fichier</UB_UploadFail_Prepare>
+  <UB_AllUploadSuccess>Les {0} fichiers ont été téléversés avec succès</UB_AllUploadSuccess>
+  <UB_AllUploadFail>Échec du téléversement des {0} fichiers</UB_AllUploadFail>
+  <UB_NoValidFilesToUpload>Aucun fichier valide à téléverser</UB_NoValidFilesToUpload>
+  <UB_PartialUploadSuccess>{0} fichiers téléversés avec succès, échec pour {1} fichiers</UB_PartialUploadSuccess>
+  <UB_NoFilesToUpload>Aucun fichier à téléverser</UB_NoFilesToUpload>
+  <UB_BatchUploadStarting>Téléversement groupé de {0} fichiers vers le serveur...</UB_BatchUploadStarting>
+  <UB_BatchUploadMixed>Téléversement groupé terminé : {0} réussis, {1} échecs</UB_BatchUploadMixed>
+  <UB_BatchUploadFailedWithInvalid>Échec du téléversement groupé ; {0} fichier(s) invalide(s) détecté(s)</UB_BatchUploadFailedWithInvalid>
+
+  <DeleteConfirm>Voulez-vous vraiment supprimer les fichiers sélectionnés ? Cette action est irréversible.</DeleteConfirm>
+
+  <!-- Prefab export window -->
+  <ExportBlueprintInfo>Exporter les informations du plan</ExportBlueprintInfo>
+  <UB_BuildingNameRequired>Nom du bâtiment * :</UB_BuildingNameRequired>
+  <DescriptionOptional>Description :</DescriptionOptional>
+  <UB_AuthorOptional>Auteur :</UB_AuthorOptional>
+  <UB_CategoryRequired>Catégorie * :</UB_CategoryRequired>
+  <SelectCategory>Catégorie</SelectCategory>
+  <ResetContent>Réinitialiser</ResetContent>
+  <UB_BuildingNameEmpty>Le nom du bâtiment ne peut pas être vide !</UB_BuildingNameEmpty>
+  <UB_CategoryEmpty>La catégorie ne peut pas être vide !</UB_CategoryEmpty>
+  <UB_CategoryInvalidChars>La catégorie ne peut pas contenir de caractères spéciaux ni commencer par un chiffre !</UB_CategoryInvalidChars>
+  <UB_AuthorInvalidChars>L'auteur ne peut pas contenir de caractères spéciaux ni commencer par un chiffre !</UB_AuthorInvalidChars>
+  <UB_TagInvalidChars>L'étiquette « {0} » ne peut pas contenir de caractères spéciaux ni commencer par un chiffre !</UB_TagInvalidChars>
+  
+  <!-- Name validation messages -->
+  <InvalidFileName>Nom de fichier invalide</InvalidFileName>
+  <InvalidXmlNodeName>Nom de nœud XML invalide</InvalidXmlNodeName>
+  <ValidFileNameSuggestion>Suggestion de nom valide</ValidFileNameSuggestion>
+  <NameInvalidForBoth>Nom invalide à la fois pour le système de fichiers et pour XML</NameInvalidForBoth>
+  <NameInvalidForFile>Nom invalide pour le système de fichiers</NameInvalidForFile>
+  <NameInvalidForXml>Nom invalide pour XML</NameInvalidForXml>
+  <NameValid>Nom valide ✓</NameValid>
+  <ExportAreaInvalid>La zone d'exportation est invalide !</ExportAreaInvalid>
+  <ExportSuccess>Plan exporté vers : {0}</ExportSuccess>
+  <ExportCompleted>Exportation du plan terminée avec succès !</ExportCompleted>
+  <EnableStaging>Activer la mise en attente</EnableStaging>
+  <ExportTerrain>Exporter le terrain naturel</ExportTerrain>
+  <ExportAllThings>Exporter tous les objets</ExportAllThings>
+  <ExportAllItemsBackup>Exporter tous les objets (exportation de sauvegarde)</ExportAllItemsBackup>
+  <CopyToBuffer>Copier dans le tampon après l'exportation de la construction</CopyToBuffer>
+  <CategoryPlaceholder>&lt;Sélectionner une catégorie&gt;</CategoryPlaceholder>
+  <UseCustomCategory>Utiliser la fonction de catégorie personnalisée</UseCustomCategory>
+  
+  <!-- Fold group related -->
+  <FoldGroupInfo>Groupe pliable</FoldGroupInfo>
+  <FoldGroupName>Nom du groupe</FoldGroupName>
+  <FoldGroupDisplayOrder>Ordre d'affichage</FoldGroupDisplayOrder>
+  <FoldGroupIsCover>Définir comme couverture</FoldGroupIsCover>
+  <Yes>Oui</Yes>
+  <No>Non</No>
+  <EnableFoldGroup>Activer le groupe pliable</EnableFoldGroup>
+  
+  <!-- File select window restore export data -->
+  <RestoreExportData>Restaurer les données d'exportation</RestoreExportData>
+  <SelectFileToRestore>Veuillez sélectionner un fichier pour restaurer les données d'exportation</SelectFileToRestore>
+  <RestoreStagingDataSuccess>Données d'exportation restaurées avec succès</RestoreStagingDataSuccess>
+  <RestoreStagingDataFailed>Échec de la restauration des données d'exportation</RestoreStagingDataFailed>
+  <RestoreStagingDataError>Une erreur s'est produite lors de la restauration des données d'exportation</RestoreStagingDataError>
+
+  <!-- Prefab library window -->
+  <Favorite>Favori</Favorite>
+  <Dormitory>Dortoir</Dormitory>
+  <Workshop>Atelier</Workshop>
+  <Storage>Stockage</Storage>
+  <AnimalFarm>Ferme pour animaux</AnimalFarm>
+  <PlantingArea>Zone de culture</PlantingArea>
+  <Canteen>Cantine</Canteen>
+  <RecreationArea>Espace de loisirs</RecreationArea>
+  <DefenseWorks>Ouvrages défensifs</DefenseWorks>
+  <Power>Énergie</Power>
+  <Medical>Médical</Medical>
+  <Research>Recherche</Research>
+  <Prison>Prison</Prison>
+  <OdysseyDLC>DLC Odyssey</OdysseyDLC>
+  <RoyaltyDLC>DLC Royalty</RoyaltyDLC>
+  <IdeologyDLC>DLC Ideology</IdeologyDLC>
+  <BiotechDLC>DLC Biotech</BiotechDLC>
+  <AnomalyDLC>DLC Anomaly</AnomalyDLC>
+  <BaseBlueprint>Plan de base</BaseBlueprint>
+  <Other>Autre</Other>
+  <BuildingCategorySelection>Sélection de catégorie de bâtiment</BuildingCategorySelection>
+  <CategorySelectionWindow.NoCategoriesFound>Aucune catégorie trouvée.</CategorySelectionWindow.NoCategoriesFound>
+  <BuildingList>Liste des bâtiments</BuildingList>
+  <BackToCategory>Retour</BackToCategory>
+  <BackToList>Retour</BackToList>
+  <SelectBuilding>Veuillez sélectionner un bâtiment</SelectBuilding>
+  <LoadFailed>Échec du chargement : {0}</LoadFailed>
+  <ClickToViewLarge>Cliquez pour agrandir l'image</ClickToViewLarge>
+  <UB_Description>Description :</UB_Description>
+  <UB_Author>Auteur : {0}</UB_Author>
+  <UB_Size>Taille : {0}</UB_Size>
+  <TechRequirements>Prérequis technologiques</TechRequirements>
+  <ModRequirements>Prérequis de mods</ModRequirements>
+  <MaterialRequirements>Matériaux requis</MaterialRequirements>
+  <SpecialFloorWarning>Ce plan contient des sols spéciaux (comme des fondations de vaisseau ou des ponts) ; il est recommandé de poser les sols en premier.</SpecialFloorWarning>
+  <FullExportWarning>Ce plan a été exporté avec tous les objets ; utilisez le mode Dieu pour le placer.</FullExportWarning>
+  <PlaceAsProjection>Placer comme projection</PlaceAsProjection>
+  <InvalidPrefabData>Les données du plan sont invalides ; impossible de le placer.</InvalidPrefabData>
+  <SelectPrefabFile>Veuillez d'abord sélectionner un fichier de plan.</SelectPrefabFile>
+  <ProjectionModeSelected>Mode de placement par projection sélectionné : {0}</ProjectionModeSelected>
+  <CreateProjectionDesignatorFailed>Échec de la création du marqueur de placement de projection : {0}</CreateProjectionDesignatorFailed>
+  <InvalidPrefabForProjection>Les données du plan sont invalides ; impossible de créer une projection. Vérifiez si le fichier est corrompu.</InvalidPrefabForProjection>
+  <FileDeleted>Fichier supprimé.</FileDeleted>
+  <FileNotExists>Le fichier n'existe pas ; impossible de le supprimer.</FileNotExists>
+  <DeleteFailed>Échec de la suppression : {0}</DeleteFailed>
+  <ConfirmDeleteFile>Voulez-vous vraiment supprimer ce fichier de plan ? Cette action est irréversible.</ConfirmDeleteFile>
+  <CannotLoadImage>Impossible de charger l'image ; veuillez réessayer plus tard.</CannotLoadImage>
+  <OpenImageViewerFailed>Échec de l'ouverture de la fenêtre de visualisation d'image : {0}</OpenImageViewerFailed>
+  <ImageLoadFailed>Échec du chargement de l'image</ImageLoadFailed>
+  <ScanningFiles>Analyse des fichiers de plans...</ScanningFiles>
+  <PerformanceWarning>⚠️ Avertissement de performances</PerformanceWarning>
+  <PerformanceNotice>⚠️ Avis sur les performances</PerformanceNotice>
+  <PerformanceNormal>✅ Normal</PerformanceNormal>
+  <ViewportCulling>Découpage de la zone visible : {0}/{1}</ViewportCulling>
+  <FrameTime>Temps de trame : {0:F3}s</FrameTime>
+  <RenderedItems>Objets affichés : {0}</RenderedItems>
+  <CachedTextures>Textures en cache : {0}</CachedTextures>
+  <LoadQueue>File d'attente de chargement : {0}</LoadQueue>
+  <Page>Page : {0}</Page>
+  <ScannedProgress>Analyse de {0}/{1} ({2})</ScannedProgress>
+  <SavingCache>Enregistrement du cache...</SavingCache>
+  <ScanComplete>Analyse terminée</ScanComplete>
+  <PrepareScan>Préparation de l'analyse...</PrepareScan>
+  <IncrementalScanStart>Démarrage de l'analyse incrémentielle ({0})...</IncrementalScanStart>
+  <NoScanNeeded>Aucune analyse nécessaire, tous les fichiers sont à jour</NoScanNeeded>
+  <AllFilesUpToDate>Tous les fichiers sont à jour ; aucune analyse nécessaire</AllFilesUpToDate>
+  <ChineseComma>,</ChineseComma>
+  <ChangeSummaryAddOrModify>Ajoutés/modifiés : {0}</ChangeSummaryAddOrModify>
+  <ChangeSummaryDelete>Supprimés : {0}</ChangeSummaryDelete>
+
+  <!-- Prefab placement filter window -->
+  <PlacementFilterScheme>Schéma de filtre de placement</PlacementFilterScheme>
+  <ExportScheme>Schéma d'exportation</ExportScheme>
+  <UB_MirrorMode_Label>Mode miroir</UB_MirrorMode_Label>
+  <UB_MirrorMode_None>Aucun miroir</UB_MirrorMode_None>
+  <UB_MirrorMode_Vertical>Miroir vertical</UB_MirrorMode_Vertical>
+  <UB_MirrorMode_Horizontal>Miroir horizontal</UB_MirrorMode_Horizontal>
+  <UB_AnchorMode_Label>Ancrage du curseur</UB_AnchorMode_Label>
+  <UB_AnchorMode_BottomRight>En bas à droite</UB_AnchorMode_BottomRight>
+  <UB_AnchorMode_TopLeft>En haut à gauche</UB_AnchorMode_TopLeft>
+  <UB_AnchorMode_BottomLeft>En bas à gauche</UB_AnchorMode_BottomLeft>
+  <UB_AnchorMode_Center>Au centre</UB_AnchorMode_Center>
+  <UB_AnchorMode_TopRight>En haut à droite</UB_AnchorMode_TopRight>
+  <WallMaterialReplacement>Remplacement du matériau des murs</WallMaterialReplacement>
+  <FloorMaterialReplacement>Remplacement du matériau des sols</FloorMaterialReplacement>
+  <FacilityMaterialReplacement>Remplacement du matériau des installations</FacilityMaterialReplacement>
+  <WallMaterialNote>(Concerne uniquement les murs ; sélectionnez « Par défaut » pour ne pas remplacer)</WallMaterialNote>
+  <Default>Par défaut</Default>
+  <ExportAll>Tout exporter</ExportAll>
+  <ExportWallsOnly>Exporter uniquement les murs</ExportWallsOnly>
+  <ExportFoundationsOnly>Exporter uniquement les fondations (sols de vaisseau et ponts)</ExportFoundationsOnly>
+  <ExportFloorsOnly>Exporter uniquement les sols (toutes les couches de terrain)</ExportFloorsOnly>
+  <ExportNoFloors>Ne pas exporter les sols (exclure toutes les couches de terrain)</ExportNoFloors>
+  <ExportNoRoofs>Ne placer aucun toit</ExportNoRoofs>
+  <ProjectionTerrainOnlyDisabled>Les projections ne sont pas disponibles pour les schémas de filtre limités au terrain</ProjectionTerrainOnlyDisabled>
+  <ProjectionTerrainOnlyDisabledTip>Les projections ne prennent en charge que les bâtiments. Le schéma de filtre actuel ne contient que des couches de terrain ; le placement par projection est donc désactivé.</ProjectionTerrainOnlyDisabledTip>
+
+  <!-- Projection settings window -->
+  <ProjectionDeleted>Projection supprimée : {0}</ProjectionDeleted>
+  <ProjectionSettingsTitle>Paramètres de projection</ProjectionSettingsTitle>
+  <ProjectionSettingsDescription>Gérer l'affichage et les paramètres des projections de base</ProjectionSettingsDescription>
+  <ShowProjectionLayer>Afficher la couche de projection</ShowProjectionLayer>
+  <ShowProjectionLayerDescription>Activer ou désactiver l'affichage de toute la couche de projection</ShowProjectionLayerDescription>
+  <ProjectionList>Liste des projections</ProjectionList>
+  <ProjectionListDescription>Gérer l'affichage des projections individuelles</ProjectionListDescription>
+  <NoProjections>Aucune projection</NoProjections>
+  <NoProjectionsDescription>Aucune projection sur la carte actuelle</NoProjectionsDescription>
+  <Show>Afficher</Show>
+
+  <!-- Mod compatibility window -->
+  <PrefabPlacementPreview>Aperçu de placement du plan</PrefabPlacementPreview>
+  <ItemsNotPlaced>⚠ Les objets suivants ne seront pas placés :</ItemsNotPlaced>
+  <TechRequired>Technologie requise : {0}</TechRequired>
+  <MissingMods>⚠ Mods manquants ; les bâtiments concernés seront ignorés :</MissingMods>
+  <FullyCompatible>Entièrement compatible, tous les bâtiments peuvent être placés normalement !</FullyCompatible>
+  <Blacklist>Liste noire</Blacklist>
+  <ResearchRequired>Recherche requise</ResearchRequired>
+  <NotBuildable>Non constructible</NotBuildable>
+  <NoBlueprint>Aucun plan</NoBlueprint>
+  <GameMechanicsRestriction>Restriction liée aux mécanismes du jeu</GameMechanicsRestriction>
+  <UnknownResearch>Recherche inconnue</UnknownResearch>
+
+  <!-- Designator related -->
+  <BrowsePrefabLabel>Parcourir les plans</BrowsePrefabLabel>
+  <BrowsePrefabDesc>Parcourir, rechercher et gérer les plans importés ; génération rapide et copie XML prises en charge.</BrowsePrefabDesc>
+  <ImportPrefabLabel>Importer un plan</ImportPrefabLabel>
+  <ImportPrefabDesc>Importer des plans au format PNG, les valider automatiquement et les ajouter à la bibliothèque.</ImportPrefabDesc>
+  <ExportRectAreaLabel>Exporter une zone rectangulaire</ExportRectAreaLabel>
+  <ExportRectAreaDesc>Exporter les bâtiments, le terrain, etc. d'une zone rectangulaire sous forme de plan.</ExportRectAreaDesc>
+  <ExportCancelled>Exportation annulée.</ExportCancelled>
+  <SelectExportArea>Veuillez sélectionner sur la carte la zone de bâtiments à exporter (zone de capture d'écran).</SelectExportArea>
+  <SelectScreenshotArea>Veuillez sélectionner la zone de capture d'écran sur la carte</SelectScreenshotArea>
+  <SelectAreaTooltip>Cliquez d'abord pour sélectionner le coin supérieur gauche, puis pour le coin inférieur droit</SelectAreaTooltip>
+  <ExportArea>Zone d'exportation</ExportArea>
+  <Rectangle>Sélectionner une zone rectangulaire</Rectangle>
+  <UsingArea>Zone utilisée : {0} (contient {1} cellules)</UsingArea>
+  <AreaNotFound>Zone nommée « {0} » introuvable</AreaNotFound>
+  <FallbackToRect>Retour au mode d'exportation rectangulaire</FallbackToRect>
+  <ProjectionSettingsLabel>Paramètres de projection</ProjectionSettingsLabel>
+  <ProjectionSettingsDesc>Gérer les paramètres détaillés des projections de base</ProjectionSettingsDesc>
+  <ProjectionManagement>Gestion des projections</ProjectionManagement>
+  <NoProjectionsToDelete>Aucune projection à supprimer</NoProjectionsToDelete>
+  <AllProjectionsDeleted>Toutes les projections ont été supprimées ({0})</AllProjectionsDeleted>
+  <ConfirmDelete>Confirmer la suppression</ConfirmDelete>
+  <ConfirmDeleteAll>Voulez-vous vraiment supprimer toutes les projections ?</ConfirmDeleteAll>
+  <ConfirmDeleteAllDesc>{0} projections seront supprimées.</ConfirmDeleteAllDesc>
+  <ConfirmDeleteAllWarning>Cette action est irréversible.</ConfirmDeleteAllWarning>
+  <UnnamedProjection>Projection sans nom</UnnamedProjection>
+  <ProjectionAlpha>Projection Alpha</ProjectionAlpha>
+  <AutoRemoveWhenBuilt>Suppression automatique une fois construite</AutoRemoveWhenBuilt>
+  <ProjectionRemoveLabel>Supprimer la zone de projection</ProjectionRemoveLabel>
+  <ProjectionRemoveDesc>Sélectionnez une zone pour supprimer toutes les projections qu'elle contient</ProjectionRemoveDesc>
+  <ProjectionPlaceLabel>Placer la projection sous forme de plan</ProjectionPlaceLabel>
+  <ProjectionPlaceDesc>Sélectionnez une zone pour convertir les projections en plans</ProjectionPlaceDesc>
+  <ClickSecondCell>Cliquez sur la deuxième cellule pour terminer la sélection de zone</ClickSecondCell>
+  <BuildingsDeleted>{0} bâtiments supprimés, affectant {1} projections</BuildingsDeleted>
+  <NoProjectionBuildings>Aucun bâtiment de projection ne peut être placé dans la zone sélectionnée</NoProjectionBuildings>
+  <AreaSelectionCancelled>Sélection de zone annulée</AreaSelectionCancelled>
+  <SelectAreaEndPosition>Sélectionnez le point final de la zone — clic droit pour annuler</SelectAreaEndPosition>
+  <SelectAreaToDelete>Sélectionnez une zone pour supprimer les projections — cliquez pour commencer la sélection, clic droit pour annuler</SelectAreaToDelete>
+  <SelectAreaToPlace>Sélectionnez une zone pour placer les projections sous forme de plans — cliquez pour commencer la sélection, clic droit pour annuler</SelectAreaToPlace>
+  <PlaceProjectionLabel>Placer une projection</PlaceProjectionLabel>
+  <PlaceProjectionDesc>Placer une projection de base sur la carte</PlaceProjectionDesc>
+  <CannotGetCurrentMap>Impossible d'obtenir la carte actuelle</CannotGetCurrentMap>
+  <CannotGetProjectionManager>Impossible d'obtenir le gestionnaire de projections</CannotGetProjectionManager>
+  <ProjectionPlaced>Projection placée : {0}</ProjectionPlaced>
+  <ProjectionPlacedAsBlueprints>{0} bâtiments de {1} projections placés dans {2}</ProjectionPlacedAsBlueprints>
+  <ProjectionCreationFailed>Échec de la création de la projection</ProjectionCreationFailed>
+  <GodMode>Mode Dieu</GodMode>
+  <BlueprintMode>Mode Plan</BlueprintMode>
+  <OutOfMapRange>Hors des limites de la carte</OutOfMapRange>
+  <NewProjection>Nouvelle projection</NewProjection>
+  <DefaultProjection>Projection par défaut</DefaultProjection>
+  <ProjectionBasedOn>Projection basée sur {0}</ProjectionBasedOn>
+  <PrefabDefNull>prefabDef est null</PrefabDefNull>
+  <PlacePrefabLabel>Placer le plan importé</PlacePrefabLabel>
+  <PlacePrefabDesc>Sélectionnez un point sur la carte pour placer le plan importé récemment.</PlacePrefabDesc>
+  <NoPlaceablePrefab>Aucun plan plaçable trouvé !</NoPlaceablePrefab>
+  <PrefabPlaced>Plan placé, orientation : {0}, {1}</PrefabPlaced>
+  <UseBlueprint>Utiliser le plan</UseBlueprint>
+  <DirectGenerate>Génération directe</DirectGenerate>
+  <SnapshotGenerate>Aperçu du placement de l'instantané</SnapshotGenerate>
+  <SnapshotPlacementPreviewTitle>Aperçu du déploiement de l'instantané</SnapshotPlacementPreviewTitle>
+  <SnapshotPlacementPreviewPrompt>La zone de placement du plan {0} fait {1} cellules, ce qui dépasse les 5 000 cellules.</SnapshotPlacementPreviewPrompt>
+  <UseSnapshotPlacement>Déployer</UseSnapshotPlacement>
+  <AllowTerrainMergePlacement>Autoriser le mélange du placement avec le terrain</AllowTerrainMergePlacement>
+  <NewMapPlacementPreviewPrompt>« {0} » est un plan de carte entière. La génération de la carte cible remplacera la carte actuelle, créera une nouvelle carte à la taille indiquée dans le plan, puis en importera le contenu.</NewMapPlacementPreviewPrompt>
+
+  <!-- Screenshot helper -->
+  <ClickTopLeft>Veuillez cliquer sur le coin supérieur gauche de la zone de capture d'écran</ClickTopLeft>
+  <ClickBottomRight>Veuillez cliquer sur le coin inférieur droit de la zone de capture d'écran</ClickBottomRight>
+  <ScreenshotCancelled>Sélection de la zone de capture d'écran annulée</ScreenshotCancelled>
+
+  <!-- Blueprint placement tool -->
+  <CollisionMessage>Message de détection de collision</CollisionMessage>
+
+  <!-- Settings related -->
+  <ResetToDefault>Rétablir les paramètres par défaut</ResetToDefault>
+  <ResetUISmartSortData>Réinitialiser les données de tri intelligent de l'interface</ResetUISmartSortData>
+
+  <!-- Performance log related -->
+  <PerformanceLogPrefix>[Universal Blueprints] [Performance] [PrefabLibraryWindow]</PerformanceLogPrefix>
+
+  <!-- Image viewer -->
+  <ImageName>Nom de l'image</ImageName>
+  <ClickToZoom>Cliquez pour zoomer</ClickToZoom>
+  <ImageViewerInfo>Taille d'origine : {0}x{1} | Taille affichée : {2}x{3}</ImageViewerInfo>
+
+  <!-- Mod settings page -->
+  <ModSettingsCategory>Universal Blueprints</ModSettingsCategory>
+  <PrefabCategory.Label>Universal Blueprints</PrefabCategory.Label>
+  <ProjectionToggle>Basculer les projections</ProjectionToggle>
+  <ProjectionRenderer>Rendu des projections</ProjectionRenderer>
+  <ProjectionRendererDesc>Rendre les projections placées</ProjectionRendererDesc>
+  <ModEnabled>Activer le mod</ModEnabled>
+  <ClearAreaOnPlace>Effacer la zone lors du placement</ClearAreaOnPlace>
+  <EnableDeveloperTools>Activer les outils de développement</EnableDeveloperTools>
+  <ShowDebugLog>Afficher le journal de débogage</ShowDebugLog>
+  <DisableLogLimit>Supprimer la limite des messages du journal</DisableLogLimit>
+  <ForcePlaceBlueprint>Forcer le placement du plan (ignorer la liste noire)</ForcePlaceBlueprint>
+  
+  <!-- Language name translations -->
+  <LanguageName.zh-CN>Chinois simplifié</LanguageName.zh-CN>
+  <LanguageName.zh-TW>Chinois traditionnel</LanguageName.zh-TW>
+  <LanguageName.en>Anglais</LanguageName.en>
+  <LanguageName.ru>Russe</LanguageName.ru>
+  <LanguageName.fr>Français</LanguageName.fr>
+  <LanguageName.de>Allemand</LanguageName.de>
+  <LanguageName.es>Espagnol</LanguageName.es>
+  <LanguageName.ja>Japonais</LanguageName.ja>
+  <LanguageName.ko>Coréen</LanguageName.ko>
+
+  <!-- Translation Settings -->
+  <TranslationSettings>Paramètres de traduction par IA</TranslationSettings>
+  <EnableAITranslation>Activer la traduction par IA</EnableAITranslation>
+  <EnableAITranslationDesc>Activer la fonctionnalité de traduction par IA</EnableAITranslationDesc>
+  <UseSingleLanguageTranslation>Utiliser la traduction d'une seule langue</UseSingleLanguageTranslation>
+  <UseSingleLanguageTranslationDesc>Si cette option est cochée, utiliser uniquement le nom et la description de la langue d'affichage actuelle pour traduire vers les autres langues, en prenant la langue actuelle comme base.</UseSingleLanguageTranslationDesc>
+  <TranslationTimeoutSeconds>Délai d'expiration de la traduction (secondes)</TranslationTimeoutSeconds>
+  <TranslationTimeoutSecondsDesc>Valeur actuelle : {0}s (recommandé : 60-300s)</TranslationTimeoutSecondsDesc>
+  <TranslationTimeoutInvalidInput>Veuillez saisir un entier positif valide</TranslationTimeoutInvalidInput>
+  <TargetLanguages>Langues cibles</TargetLanguages>
+  <TargetLanguagesDesc>Prend en charge les 9 langues (zh-CN, zh-TW, en, ru, fr, de, es, ja, ko)</TargetLanguagesDesc>
+  <TranslatorConfiguration>Configuration du traducteur</TranslatorConfiguration>
+  <TestAndMaintenance>Tests et maintenance</TestAndMaintenance>
+  <ResetToCommon>Rétablir les valeurs communes</ResetToCommon>
+  <TestTranslation>Tester la traduction</TestTranslation>
+  <TestTranslationButton>Test</TestTranslationButton>
+  <TestTranslationResult>Résultat du test</TestTranslationResult>
+  <RestartService>Redémarrer le service</RestartService>
+  <TranslatorSelection>Sélection du traducteur</TranslatorSelection>
+  <ModelSelection>Sélection du modèle</ModelSelection>
+  <ManualModelInput>Ou saisissez manuellement le nom du modèle</ManualModelInput>
+  <CustomPrompt>Invite personnalisée (facultatif)</CustomPrompt>
+  <APIKey>Clé API</APIKey>
+  <CustomBaseURL>URL de base personnalisée (facultatif)</CustomBaseURL>
+  <SleepTime>Délai d'attente (millisecondes)</SleepTime>
+  <ConcurrentWorkerCount>Nombre de travailleurs simultanés</ConcurrentWorkerCount>
+  <AutoTranslateOnExport>Traduire automatiquement à l'exportation</AutoTranslateOnExport>
+  <AutoTranslateOnExportDesc>Effectuer automatiquement une traduction par IA lors de l'exportation</AutoTranslateOnExportDesc>
+
+  <!-- Translation Buttons -->
+  <AutoTranslate>Traduction automatique</AutoTranslate>
+  <AutoTranslateConfig>Configuration de la traduction automatique</AutoTranslateConfig>
+  <Translating>Traduction en cours... ({0}s)</Translating>
+  <TranslationTimeout>Délai de traduction dépassé</TranslationTimeout>
+  <TranslationSuccess>Traduction réussie</TranslationSuccess>
+  <TranslationError>Erreur de traduction</TranslationError>
+
+  <!-- Translation Messages -->
+  <TranslationStartMessage>Démarrage de la traduction automatique vers {0} langues, veuillez patienter...</TranslationStartMessage>
+  <TranslationCompleteMessage>Traduction automatique terminée ! {0} éléments traduits avec succès ; résultats enregistrés dans la zone de préparation des langues.</TranslationCompleteMessage>
+  <TranslationNoContentMessage>Traduction automatique terminée, mais aucun contenu n'a été traduit. Vérifiez les paramètres de traduction par IA.</TranslationNoContentMessage>
+  <TranslationTimeoutMessage>La demande de traduction a expiré ({0} secondes) ; vérifiez la connexion réseau ou l'état du service d'IA.</TranslationTimeoutMessage>
+  <TranslationErrorMessage>Échec de la traduction : {0}</TranslationErrorMessage>
+  <TranslationEmptyContentMessage>Le nom et la description sont tous deux vides ; la traduction est impossible.</TranslationEmptyContentMessage>
+  <TranslationNotEnabledMessage>La fonctionnalité de traduction par IA n'est pas activée.</TranslationNotEnabledMessage>
+  <TranslationNotEnabledClickMessage>Veuillez d'abord activer la fonctionnalité de traduction par IA.</TranslationNotEnabledClickMessage>
+  <TranslationServiceUnavailableMessage>Le traducteur IA est indisponible.</TranslationServiceUnavailableMessage>
+
+  <!-- Other Translation Related -->
+  <Cache>Cache</Cache>
+  <Queue>File d'attente</Queue>
+  <ClearCache>Vider le cache</ClearCache>
+  <TranslationCacheCleared>Cache de traduction vidé.</TranslationCacheCleared>
+  <TranslationServiceRestarted>Service de traduction redémarré.</TranslationServiceRestarted>
+
+  <!-- Quick Place Designator -->
+  <QuickPlaceLabel>Placement rapide</QuickPlaceLabel>
+  <QuickPlaceDesc>Placez rapidement les plans utilisés récemment.\nClic gauche : placer directement le plan\nClic droit : ouvrir le menu rapide</QuickPlaceDesc>
+  <QuickPlaceWithName>Placement rapide : {0}</QuickPlaceWithName>
+  <QuickPlaceDescWithName>Clic gauche : placer directement le plan {0}\nClic droit : ouvrir le menu rapide pour {0}</QuickPlaceDescWithName>
+  <NoQuickPlaceTarget>Aucun plan disponible pour le placement rapide.</NoQuickPlaceTarget>
+  <QuickPlaceTargetInvalid>La cible du placement rapide est invalide.</QuickPlaceTargetInvalid>
+  <QuickPlacePrefabFailed>Échec du placement rapide du plan.</QuickPlacePrefabFailed>
+  <QuickPlaceProjectionFailed>Échec du placement rapide de la projection.</QuickPlaceProjectionFailed>
+  <QuickPlaceSelectedForPlacement>{0} sélectionné pour le placement.</QuickPlaceSelectedForPlacement>
+  <QuickPlaceSelectedForProjection>{0} sélectionné pour le placement en projection.</QuickPlaceSelectedForProjection>
+  <QuickPlaceMenuPlaceBlueprint>Placer le plan</QuickPlaceMenuPlaceBlueprint>
+  <QuickPlaceMenuPlaceProjection>Placer la projection</QuickPlaceMenuPlaceProjection>
+  <QuickPlaceMenuReselectStyle>Resélectionner le style</QuickPlaceMenuReselectStyle>
+  <QuickPlaceMenuPlaceMaterials>Placer les matériaux</QuickPlaceMenuPlaceMaterials>
+  <QuickPlaceMaterialPreviewTitle>Matériaux : stock / requis</QuickPlaceMaterialPreviewTitle>
+  <QuickPlaceMaterialsDesignatorDesc>Cliquez sur un emplacement de la carte pour faire apparaître à proximité les matériaux de construction du plan filtré.</QuickPlaceMaterialsDesignatorDesc>
+  <QuickPlaceSelectedForMaterials>Matériaux de {0} sélectionnés. Cliquez sur un emplacement de la carte pour les placer à proximité.</QuickPlaceSelectedForMaterials>
+  <QuickPlaceMaterialsPlaced>{0} unités de matériaux placées à proximité.</QuickPlaceMaterialsPlaced>
+  <QuickPlaceMaterialsNoCosts>Le plan filtré ne nécessite aucun matériau de construction à faire apparaître.</QuickPlaceMaterialsNoCosts>
+  <QuickPlaceMaterialsPlacementFailed>Impossible de placer {0} unités de matériaux ; l'espace à proximité est peut-être saturé.</QuickPlaceMaterialsPlacementFailed>
+  <QuickPlaceMaterialsGodModeRequired>Cette action est uniquement disponible en mode Dieu.</QuickPlaceMaterialsGodModeRequired>
+  <QuickPlaceMaterialsFailed>Échec de la préparation des matériaux du plan.</QuickPlaceMaterialsFailed>
+
+  <!-- Direction Names -->
+  <North>Nord</North>
+  <East>Est</East>
+  <South>Sud</South>
+  <West>Ouest</West>
+
+  <!-- ModManagementWindow - Mod Management Window -->
+  <ModManagementTitle>Gestion des mods (ajout uniquement)</ModManagementTitle>
+  <ModName>Nom du mod</ModName>
+  <ModPackageId>Identifiant du package</ModPackageId>
+  <ModContentCount>Quantité</ModContentCount>
+  <ModContentCountTooltip>Compte le contenu de ce mod dans le plan d'origine, que le mod soit activé ou non. Les objets sont comptés par unité de pile, le terrain et les toits par case, et les personnages et animaux individuellement. Les piles aléatoires affichent une plage et sont triées selon leur limite supérieure. Les DLC apparaissent en premier, puis les quantités décroissantes dans chaque groupe.</ModContentCountTooltip>
+  <ModSubscribe>S'abonner</ModSubscribe>
+  <ModEnable>Activer</ModEnable>
+  <ModStatusDownloading>Téléchargement</ModStatusDownloading>
+  <ModStatusSubscribed>Abonné</ModStatusSubscribed>
+  <ModStatusNotSubscribed>Non abonné</ModStatusNotSubscribed>
+  <ModStatusUnknown>Mod inconnu</ModStatusUnknown>
+  <ModStatusDLC>DLC</ModStatusDLC>
+  <ModRestartRequired>Redémarrage requis</ModRestartRequired>
+  <ModConfirm>Confirmer</ModConfirm>
+  <ModCancel>Annuler</ModCancel>
+  <ModReset>Réinitialiser</ModReset>
+  <ModCopyName>Copier le nom</ModCopyName>
+  <ModClickOpenWorkshop>Cliquez pour ouvrir la page Steam Workshop de {0}</ModClickOpenWorkshop>
+  <ModCopiedToClipboard>Nom du mod copié : {0}</ModCopiedToClipboard>
+  <ModNoSteamWorkshopId>Ce mod n'a pas d'identifiant Steam Workshop.</ModNoSteamWorkshopId>
+  <ModOpeningWorkshop>Ouverture de la page Steam Workshop de {0}...</ModOpeningWorkshop>
+  <ModSteamIdFormatError>Format de l'identifiant Steam Workshop invalide : {0}</ModSteamIdFormatError>
+  <ModOpenWorkshopFailed>Échec de l'ouverture de la page Steam Workshop : {0}</ModOpenWorkshopFailed>
+  <ModCopyFailed>Échec de la copie.</ModCopyFailed>
+  <ModConfirmChanges>Modifications de la gestion des mods envoyées.</ModConfirmChanges>
+  <ModConfirmChangesFailed>Échec de la confirmation des modifications.</ModConfirmChangesFailed>
+
+  <!-- ModManagementWindow - Statistics -->
+  <ModSubscribeCount>S'abonner ({0}/{1})</ModSubscribeCount>
+  <ModEnableCount>Activer ({0}/{1})</ModEnableCount>
+
+  <!-- ModManagementWindow - Success Messages -->
+  <ModSubscribedMessage>{0} demandes d'abonnement aux mods Steam envoyées (dépendances comprises) ; {1} mods ajoutés à la liste de démarrage (redémarrage requis).</ModSubscribedMessage>
+  <ModSubscribedOnly>{0} demandes d'abonnement aux mods Steam envoyées (dépendances comprises).</ModSubscribedOnly>
+  <ModEnabledMessage>{0} mods ajoutés à la liste de démarrage (redémarrage requis).</ModEnabledMessage>
+
+  <!-- PrefabLibraryUIRenderer - Tutorial URL Related -->
+  <VideoTutorialLabel>Tutoriel vidéo</VideoTutorialLabel>
+  <UnsupportedDomainMessage>Domaine non pris en charge. Seuls les liens Xiaoheihe, Bilibili et YouTube sont autorisés.</UnsupportedDomainMessage>
+  <SupportedDomainsTooltip>Domaines pris en charge : Xiaoheihe, Bilibili, YouTube</SupportedDomainsTooltip>
+
+  <!-- PrefabExportWindow - URL Related -->
+  <RelatedUrlLabel>URL associée</RelatedUrlLabel>
+  <UrlNameLabel>Nom de l'URL :</UrlNameLabel>
+  <UrlAddressLabel>Adresse URL :</UrlAddressLabel>
+  <IncludeUrlCheckbox>URL associée</IncludeUrlCheckbox>
+  <IncludeCustomUUID>Définir le BuildingID</IncludeCustomUUID>
+  <CustomUUIDInfo>BuildingID personnalisé</CustomUUIDInfo>
+  <CustomUUIDLabel>BuildingID :</CustomUUIDLabel>
+  <InvalidUUIDFormat>Format du BuildingID invalide (un UUID est requis).</InvalidUUIDFormat>
+  <UB_BuildingIDCopied>BuildingID copié dans le presse-papiers.</UB_BuildingIDCopied>
+  <TestLink>Tester le lien</TestLink>
+  <TestingUrl>Test de l'URL : {0}</TestingUrl>
+  <OpenUrlFailed>Échec de l'ouverture de l'URL : {0}</OpenUrlFailed>
+  <UrlInvalidOrEmpty>L'URL est vide ou invalide.</UrlInvalidOrEmpty>
+
+  <!-- Tooltips -->
+  <UB_Tooltip_ReadPath>Chemin de lecture actuel : {0}</UB_Tooltip_ReadPath>
+  <UB_Tooltip_Import>Importer dans le navigateur de plans</UB_Tooltip_Import>
+  <UB_Tooltip_Upload>Téléverser les plans sélectionnés sur le serveur. Remarque : les plans ayant le même BuildingID seront automatiquement mis à jour. Vous devrez redémarrer le jeu pour voir les changements. L'actualisation prend généralement de 3 à 5 minutes !</UB_Tooltip_Upload>
+  <UB_HelpButton_Tooltip>Consulter le contrat d'utilisation</UB_HelpButton_Tooltip>
+  <UB_Tooltip_Place>Placer immédiatement comme plan</UB_Tooltip_Place>
+  <UB_Tooltip_Delete>Supprimer les plans sélectionnés</UB_Tooltip_Delete>
+  <UB_Tooltip_RestoreExportData>Restaurer les données d'exportation de ce plan dans l'outil d'exportation rectangulaire</UB_Tooltip_RestoreExportData>
+  <UB_Tooltip_DeleteRemote>Supprimer immédiatement le plan du serveur. Remarque : les changements peuvent prendre de 3 à 5 minutes avant de prendre effet !</UB_Tooltip_DeleteRemote>
+  <UB_Tooltip_ManageMods>Vous pouvez vous abonner aux mods et les activer ici, mais vous ne pouvez ni vous désabonner ni les désactiver. Certains plans exportés plus anciens ne prennent pas en charge l'abonnement en un clic et nécessitent une recherche manuelle par nom.</UB_Tooltip_ManageMods>
+  <UB_Tooltip_Remote_Download>Vous ne pouvez aimer ou ne pas aimer un plan qu'après l'avoir téléchargé. Une fois téléchargé, vous pouvez l'utiliser localement même s'il est supprimé du serveur.</UB_Tooltip_Remote_Download>
+  <UB_Tooltip_Remote_Like>Un vote positif augmente le niveau du créateur et débloque des limites de téléversement de plans plus élevées. Si ce plan vous plaît, donnez-lui un pouce levé !</UB_Tooltip_Remote_Like>
+  <UB_Tooltip_Remote_Dislike>Un vote négatif réduit la priorité d'affichage de ce plan. S'il vous semble de mauvaise qualité ou déconseillé, votez négativement pour le faire descendre dans le classement.</UB_Tooltip_Remote_Dislike>
+  <UB_Tooltip_ModReport>Sélectionnez une zone pour afficher le rapport des mods des bâtiments.</UB_Tooltip_ModReport>
+
+  <!-- Export Window Tooltips -->
+  <UB_Tooltip_EnableStaging>Enregistrer temporairement la saisie actuelle jusqu'à la réinitialisation.</UB_Tooltip_EnableStaging>
+  <UB_Tooltip_AutoTranslate>Traduire automatiquement la description dans la langue actuelle vers les autres langues sélectionnées.</UB_Tooltip_AutoTranslate>
+  <UB_Tooltip_AutoTranslateConfig>Configurez ici la clé API, l'URL et les langues prises en charge pour la traduction automatique. Remarque : la traduction automatique ne fonctionne qu'après configuration et test réussi !</UB_Tooltip_AutoTranslateConfig>
+  <UB_Tooltip_BuildingName>Nom du bâtiment exporté. Ce champ est obligatoire et doit respecter un format précis.</UB_Tooltip_BuildingName>
+  <UB_Tooltip_Description>Description du bâtiment. Facultative. Remarque : un texte trop long risque de ne pas s'afficher en entier.</UB_Tooltip_Description>
+  <UB_Tooltip_Author>Nom de l'auteur de ce plan. Facultatif.</UB_Tooltip_Author>
+  <UB_Tooltip_ExportArea>Par défaut, la sélection rectangulaire est exportée. Si une zone autorisée est sélectionnée, elle sert de limite d'exportation et permet les formes irrégulières ; dans ce cas, la sélection rectangulaire ne détermine que la zone de la capture d'écran. Une zone autorisée doit contenir au moins une case pour apparaître ici.</UB_Tooltip_ExportArea>
+  <UB_Tooltip_Category>La catégorie est obligatoire. Choisissez la catégorie la plus appropriée ou cochez « Catégorie personnalisée » pour saisir la vôtre. Les catégories personnalisées sont affichées séparément.</UB_Tooltip_Category>
+  <UB_Tooltip_FoldGroupCard>Les groupes permettent de regrouper des plans très similaires dans une liste repliable et de définir précisément leur ordre d'affichage. Idéal pour les plans en plusieurs étapes. Remarque : un seul plan peut être défini comme couverture. Les plans d'un même groupe doivent avoir exactement le même nom de groupe.</UB_Tooltip_FoldGroupCard>
+  <UB_Tooltip_UrlCard>Permet de saisir des sites Web et d'y accéder. Le nom de l'URL correspond au titre de votre vidéo ou document, et l'adresse URL au lien. Cliquez sur le bouton de test pour vérifier le lien. Pour éviter les abus, seuls Xiaoheihe, Bilibili et YouTube sont pris en charge.</UB_Tooltip_UrlCard>
+  <UB_Tooltip_BuildingIdCard>À utiliser uniquement pour mettre à jour un plan cloud existant. Saisissez le BuildingID du plan cloud à mettre à jour. Le téléversement remplacera ce plan tout en conservant ses mentions J'aime et téléchargements. Les exportations normales et les nouveaux téléversements n'ont pas besoin d'identifiant : un nouvel ID est généré automatiquement.</UB_Tooltip_BuildingIdCard>
+  <UB_Tooltip_Dev_CustomCategory>Une fois cochée, cette option permet de saisir une catégorie personnalisée.</UB_Tooltip_Dev_CustomCategory>
+  <UB_Tooltip_Dev_FoldGroup>Une fois cochée, cette option permet de regrouper plusieurs plans dans une liste repliable. La couverture et la catégorie peuvent être personnalisées.</UB_Tooltip_Dev_FoldGroup>
+  <UB_Tooltip_Dev_IncludeUrl>Permet d'ajouter des liens Web au plan, par exemple un tutoriel vidéo.</UB_Tooltip_Dev_IncludeUrl>
+  <UB_Tooltip_Dev_SpecifyBuildingId>Activez cette option uniquement pour mettre à jour un plan cloud existant, puis saisissez son BuildingID. Le téléversement remplacera le plan cloud correspondant. Laissez cette option décochée pour les exportations normales et les nouveaux téléversements ; un nouvel ID sera généré automatiquement.</UB_Tooltip_Dev_SpecifyBuildingId>
+  <UB_Tooltip_Dev_ExportAllItems>Une fois cochée, chaque plan exporté reçoit un badge violet et inclut également les personnages (nécessite Character Editor), les zones de stockage et les recettes des établis (nécessite [KV] Save Storage, Outfit, Crafting, &amp; Tabs), ainsi que tous les objets, plantes et terrains naturels. En contrepartie, les dépendances de mods sont doublées (à cause des personnages) et l'exportation du placement prend trois fois plus de temps (à cause du grand nombre d'objets, par exemple les bûches). Cette option est généralement recommandée uniquement comme solution de sauvegarde ou pour déplacer une base avant de changer de mods.</UB_Tooltip_Dev_ExportAllItems>
+  <UB_Tooltip_ShowExportTutorial>Afficher la documentation détaillée du tutoriel d'exportation de plans</UB_Tooltip_ShowExportTutorial>
+
+  <UB_Tooltip_StylizationPriority>La priorité détermine l'ordre de remplacement. Si plusieurs schémas remplacent le même bâtiment, celui placé plus bas (emplacement 5) remplace ceux au-dessus.</UB_Tooltip_StylizationPriority>
+  <UB_Tooltip_StylizationScheme>Sélectionnez un schéma de stylisation. Les schémas définissent comment remplacer les bâtiments vanilla d'un plan par des bâtiments de mods (par exemple, remplacer les lampes électriques par des bougies).</UB_Tooltip_StylizationScheme>
+  <UB_Tooltip_PlacementFilter>Détermine quelles parties du plan sont placées :\n- Tout exporter : tout placer\n- Murs uniquement : construire seulement les murs\n- Fondations uniquement : placer uniquement les poutres de vaisseau ou les ponts\n- Sols uniquement : ignorer les murs et les meubles\n- Aucun sol : ignorer les sols</UB_Tooltip_PlacementFilter>
+  <UB_Tooltip_MirrorMode>Détermine si l'aperçu et le placement du plan sont inversés avant la rotation. Lors du placement d'un plan ou d'une projection, appuyez sur F pour inverser horizontalement.</UB_Tooltip_MirrorMode>
+  <UB_Tooltip_AnchorMode>Détermine quel point du plan transformé est aligné sur la case du curseur.</UB_Tooltip_AnchorMode>
+  <UB_Tooltip_MaterialReplacement>Force le remplacement de tous les murs, sols et installations compatibles par le matériau sélectionné. Les bâtiments incompatibles avec ce matériau ou qui ne permettent pas de changer de matériau sont ignorés. Cette option prime sur la stylisation et a la priorité la plus élevée.</UB_Tooltip_MaterialReplacement>
+
+  <!-- PrefabLibraryUIRenderer - Manage Mods Button -->
+  <ManageModsButton>Gérer les mods</ManageModsButton>
+
+  <!-- Dialog_ModChangeConfirm - Mod Change Confirm Dialog -->
+  <ModChangeConfirmTitle>Confirmation des modifications des mods</ModChangeConfirmTitle>
+  <ModSubscribeCountText>Abonnement à {0} nouveaux mods</ModSubscribeCountText>
+  <ModEnableCountText>Activation de {0} nouveaux mods</ModEnableCountText>
+  <ModTotalChangesText>Modifications totales : {0} mods</ModTotalChangesText>
+<ModDynamicEnableWarning>L'activation de mods peut provoquer des erreurs immédiates. C'est normal : redémarrez simplement le jeu. Les mods doivent être réordonnés manuellement et leurs dépendances manquantes ajoutées. Il est recommandé de revenir à la page Mods du menu principal pour effectuer ces opérations.</ModDynamicEnableWarning>  <!-- Remote Blueprint Library -->
+  <UB_RemoteLibrary_LocalTab>Bibliothèque locale</UB_RemoteLibrary_LocalTab>
+  <UB_RemoteLibrary_CloudTab>Bibliothèque cloud</UB_RemoteLibrary_CloudTab>
+  <UB_RemoteLibrary_Title>Bibliothèque de plans en ligne</UB_RemoteLibrary_Title>
+  <UB_RemoteLibrary_Search>Rechercher :</UB_RemoteLibrary_Search>
+  <UB_RemoteLibrary_SortPrefix>Trier : </UB_RemoteLibrary_SortPrefix>
+  <UB_RemoteLibrary_Sort_Popularity>Popularité</UB_RemoteLibrary_Sort_Popularity>
+  <UB_RemoteLibrary_Sort_Likes>Les plus aimés</UB_RemoteLibrary_Sort_Likes>
+  <UB_RemoteLibrary_Sort_Downloads>Téléchargements</UB_RemoteLibrary_Sort_Downloads>
+  <UB_RemoteLibrary_Sort_Newest>Les plus récents</UB_RemoteLibrary_Sort_Newest>
+  <UB_RemoteLibrary_FilterPrefix>Filtre : </UB_RemoteLibrary_FilterPrefix>
+  <UB_RemoteLibrary_Filter_All>Tous</UB_RemoteLibrary_Filter_All>
+  <UB_RemoteLibrary_Filter_Missing5OrLess>≤5 manquants</UB_RemoteLibrary_Filter_Missing5OrLess>
+  <UB_RemoteLibrary_Filter_Missing1>1 manquant</UB_RemoteLibrary_Filter_Missing1>
+  <UB_RemoteLibrary_Filter_Missing2>2 manquants</UB_RemoteLibrary_Filter_Missing2>
+  <UB_RemoteLibrary_Filter_Missing3>3 manquants</UB_RemoteLibrary_Filter_Missing3>
+  <UB_RemoteLibrary_Filter_Missing4>4 manquants</UB_RemoteLibrary_Filter_Missing4>
+  <UB_RemoteLibrary_Filter_Missing5>5 manquants</UB_RemoteLibrary_Filter_Missing5>
+  <UB_RemoteLibrary_Filter_Strict>Strict</UB_RemoteLibrary_Filter_Strict>
+  <UB_RemoteLibrary_Menu_ShowAll>Tout afficher</UB_RemoteLibrary_Menu_ShowAll>
+  <UB_RemoteLibrary_Menu_Strict>Strict (0 manquant)</UB_RemoteLibrary_Menu_Strict>
+  <UB_RemoteLibrary_Menu_Partial>Partiel (≤5 manquants)</UB_RemoteLibrary_Menu_Partial>
+  <UB_RemoteLibrary_Menu_Missing1>1 mod manquant</UB_RemoteLibrary_Menu_Missing1>
+  <UB_RemoteLibrary_Menu_Missing2>2 mods manquants</UB_RemoteLibrary_Menu_Missing2>
+  <UB_RemoteLibrary_Menu_Missing3>3 mods manquants</UB_RemoteLibrary_Menu_Missing3>
+  <UB_RemoteLibrary_Menu_Missing4>4 mods manquants</UB_RemoteLibrary_Menu_Missing4>
+  <UB_RemoteLibrary_Menu_Missing5>5 mods manquants</UB_RemoteLibrary_Menu_Missing5>
+  <UB_RemoteLibrary_CategoryPrefix>Catégorie : </UB_RemoteLibrary_CategoryPrefix>
+  <UB_RemoteLibrary_TimePrefix>Période : </UB_RemoteLibrary_TimePrefix>
+  <UB_RemoteLibrary_Time_All>Tout</UB_RemoteLibrary_Time_All>
+  <UB_RemoteLibrary_Time_7Days>7 jours</UB_RemoteLibrary_Time_7Days>
+  <UB_RemoteLibrary_Time_15Days>15 jours</UB_RemoteLibrary_Time_15Days>
+  <UB_RemoteLibrary_Time_30Days>30 jours</UB_RemoteLibrary_Time_30Days>
+  <UB_RemoteLibrary_Time_3Months>3 mois</UB_RemoteLibrary_Time_3Months>
+  <UB_RemoteLibrary_Time_6Months>6 mois</UB_RemoteLibrary_Time_6Months>
+  <UB_RemoteLibrary_Time_1Year>1 an</UB_RemoteLibrary_Time_1Year>
+  <UB_RemoteLibrary_Menu_Time_All>Depuis toujours</UB_RemoteLibrary_Menu_Time_All>
+  <UB_RemoteLibrary_Menu_Time_Last7Days>7 derniers jours</UB_RemoteLibrary_Menu_Time_Last7Days>
+  <UB_RemoteLibrary_Menu_Time_Last15Days>15 derniers jours</UB_RemoteLibrary_Menu_Time_Last15Days>
+  <UB_RemoteLibrary_Menu_Time_Last30Days>30 derniers jours</UB_RemoteLibrary_Menu_Time_Last30Days>
+  <UB_RemoteLibrary_Menu_Time_Last3Months>3 derniers mois</UB_RemoteLibrary_Menu_Time_Last3Months>
+  <UB_RemoteLibrary_Menu_Time_Last6Months>6 derniers mois</UB_RemoteLibrary_Menu_Time_Last6Months>
+  <UB_RemoteLibrary_Menu_Time_LastYear>12 derniers mois</UB_RemoteLibrary_Menu_Time_LastYear>
+  <UB_RemoteLibrary_NoBlueprintsFound>Aucun plan ne correspond à vos critères.</UB_RemoteLibrary_NoBlueprintsFound>
+  <UB_RemoteLibrary_NoPreview>Aucun aperçu</UB_RemoteLibrary_NoPreview>
+  <UB_RemoteLibrary_FullyCompatible>Entièrement compatible</UB_RemoteLibrary_FullyCompatible>
+  <UB_RemoteLibrary_MissingModsCount>{0} mods manquants</UB_RemoteLibrary_MissingModsCount>
+  <UB_RemoteLibrary_Unnamed>Sans nom</UB_RemoteLibrary_Unnamed>
+  <UB_RemoteLibrary_ByAuthor>par {0}</UB_RemoteLibrary_ByAuthor>
+  <UB_RemoteLibrary_UnknownAuthor>Inconnu</UB_RemoteLibrary_UnknownAuthor>
+  <UB_RemoteLibrary_Downloading>Téléchargement...</UB_RemoteLibrary_Downloading>
+  <UB_RemoteLibrary_Download>Télécharger</UB_RemoteLibrary_Download>
+  <UB_RemoteLibrary_Rating_Overall>Évaluation générale des utilisateurs</UB_RemoteLibrary_Rating_Overall>
+  <UB_RemoteLibrary_Rating_Likes>Mentions J'aime</UB_RemoteLibrary_Rating_Likes>
+  <UB_RemoteLibrary_Rating_Downloads>Téléchargements</UB_RemoteLibrary_Rating_Downloads>
+  <UB_RemoteLibrary_Rating_Positive>Avis positifs</UB_RemoteLibrary_Rating_Positive>
+  <UB_RemoteLibrary_Rating_NotEnough>Pas assez d'avis (5 minimum)</UB_RemoteLibrary_Rating_NotEnough>
+  <UB_RemoteLibrary_StatusPrefix>Statut : </UB_RemoteLibrary_StatusPrefix>
+  <UB_RemoteLibrary_Status_All>Tous</UB_RemoteLibrary_Status_All>
+  <UB_RemoteLibrary_Status_Downloaded>Téléchargés</UB_RemoteLibrary_Status_Downloaded>
+  <UB_RemoteLibrary_Status_NotDownloaded>Non téléchargés</UB_RemoteLibrary_Status_NotDownloaded>
+  <UB_RemoteLibrary_Status_MyUploads>Mes téléversements</UB_RemoteLibrary_Status_MyUploads>
+  <UB_RemoteLibrary_Menu_Status_All>Tout afficher</UB_RemoteLibrary_Menu_Status_All>
+  <UB_RemoteLibrary_Menu_Status_Downloaded>Téléchargés</UB_RemoteLibrary_Menu_Status_Downloaded>
+  <UB_RemoteLibrary_Menu_Status_NotDownloaded>Non téléchargés</UB_RemoteLibrary_Menu_Status_NotDownloaded>
+  <UB_RemoteLibrary_Menu_Status_MyUploads>Mes téléversements</UB_RemoteLibrary_Menu_Status_MyUploads>
+
+  <UB_RemoteLibrary_VoteSelfRestricted>Vous ne pouvez pas voter pour votre propre plan.</UB_RemoteLibrary_VoteSelfRestricted>
+  <!-- PrefabDetailPage 详情页面相关 -->
+  <PrefabDetailWindowTitle>Détails du plan</PrefabDetailWindowTitle>
+  <ModManagementWindowError>Échec de l'ouverture de la fenêtre de gestion des mods.</ModManagementWindowError>
+  <ImageViewerWindowTitle>Visionneuse d'images</ImageViewerWindowTitle>
+  <ImageViewerInfoSimple>Original : {0}x{1} | Zoom : {2}</ImageViewerInfoSimple>
+  <ImageViewerControls>Faites glisser pour déplacer, faites défiler pour zoomer</ImageViewerControls>
+
+  <!-- Remote blueprint related -->
+  <DeleteRemote>Supprimer du serveur</DeleteRemote>
+  <ConfirmDeleteRemoteBlueprint>Voulez-vous vraiment supprimer ce plan du serveur ? Cette action est irréversible.</ConfirmDeleteRemoteBlueprint>
+  <RemoteBlueprintDeleted>Plan distant supprimé.</RemoteBlueprintDeleted>
+
+  <!-- Remote library - Detail page -->
+  <UB_RemoteLibrary_PreviewMode>Mode aperçu</UB_RemoteLibrary_PreviewMode>
+  <UB_RemoteLibrary_ViewFullImage>Afficher l'image complète</UB_RemoteLibrary_ViewFullImage>
+  <UB_RemoteLibrary_PreviewLoading>Chargement de l'aperçu...</UB_RemoteLibrary_PreviewLoading>
+  <UB_RemoteLibrary_DownloadingFullImage>Téléchargement de l’image complète…</UB_RemoteLibrary_DownloadingFullImage>
+
+  <!-- Creator Level Related -->
+  <UB_Level_Loading>Chargement...</UB_Level_Loading>
+  <UB_Level_XP>XP</UB_Level_XP>
+  <UB_Level_Limit>Limite</UB_Level_Limit>
+  <UB_Level_Title_Tooltip>Niveau du créateur : {0} (Niv. {1})</UB_Level_Title_Tooltip>
+  <UB_Level_XP_Tooltip>XP actuels : {0} / Niveau suivant : {1}</UB_Level_XP_Tooltip>
+  <UB_Level_Limit_Tooltip>Plans téléversés : {0} / Limite du niveau actuel : {1}</UB_Level_Limit_Tooltip>
+  <UB_CreatorLevel_1>Apprenti du Rim</UB_CreatorLevel_1>
+  <UB_CreatorLevel_2>Assistant concepteur</UB_CreatorLevel_2>
+  <UB_CreatorLevel_3>Constructeur qualifié</UB_CreatorLevel_3>
+  <UB_CreatorLevel_4>Ingénieur en structure</UB_CreatorLevel_4>
+  <UB_CreatorLevel_5>Maître planificateur</UB_CreatorLevel_5>
+  <UB_CreatorLevel_6>Architecte du Rim</UB_CreatorLevel_6>
+
+  <!-- Mod Settings (New) -->
+  <GeneralSettings>Paramètres généraux</GeneralSettings>
+  <GeneralSettingsDesc>Configuration de base du mod.</GeneralSettingsDesc>
+  <EnableSmartSort>Activer le tri intelligent</EnableSmartSort>
+  <EnableSmartSortDesc>Lorsque cette option est activée, la bibliothèque locale trie les catégories selon leur fréquence d'utilisation et les plans selon leur utilisation réelle. Lorsqu'elle est désactivée, l'ordre par défaut est rétabli et les statistiques de tri intelligent ne sont plus enregistrées.</EnableSmartSortDesc>
+  <EnableQuickPlaceSources>Activer les sources du placement rapide</EnableQuickPlaceSources>
+  <EnableQuickPlaceSourcesDesc>Lorsque cette option est activée, la barre de placement rapide utilise à la fois les favoris du navigateur de plans et les plans récemment placés par le joueur. Lorsqu'elle est désactivée, les deux sources sont retirées et le cache des placements récents est vidé.</EnableQuickPlaceSourcesDesc>
+  <EnableQuickPlaceFavorites>Activer les favoris du placement rapide</EnableQuickPlaceFavorites>
+  <EnableQuickPlaceFavoritesDesc>Lorsque cette option est activée, les plans ajoutés aux favoris dans le navigateur apparaissent dans la barre de placement rapide. Lorsqu'elle est désactivée, les favoris en sont exclus.</EnableQuickPlaceFavoritesDesc>
+  <EnableQuickPlaceRecentPlacements>Activer le cache des placements rapides</EnableQuickPlaceRecentPlacements>
+  <EnableQuickPlaceRecentPlacementsDesc>Lorsque cette option est activée, les plans récemment placés sont mémorisés dans la barre de placement rapide. Lorsqu'elle est désactivée, le mod cesse de les enregistrer et vide le cache des placements récents.</EnableQuickPlaceRecentPlacementsDesc>
+  <ModEnabledDesc>Activer ou désactiver toutes les fonctionnalités du mod.</ModEnabledDesc>
+  <ClearAreaOnPlaceDesc>Dégager automatiquement les plantes et les rochers de la zone lors du placement d'un plan.</ClearAreaOnPlaceDesc>
+  <AutoRemoveWhenBuiltDesc>Supprimer automatiquement la projection une fois le bâtiment construit.</AutoRemoveWhenBuiltDesc>
+  <GlobalProjectionAlpha>Opacité de la projection</GlobalProjectionAlpha>
+  <GlobalProjectionAlphaDesc>Ajuster la transparence de la surimpression de projection.</GlobalProjectionAlphaDesc>
+  <ProjectionTint>Couleur de la projection</ProjectionTint>
+  <ProjectionTintDefault>Couleur par défaut</ProjectionTintDefault>
+  <ProjectionTintButtonTip>Choisir la couleur de base des projections non construites. Actuelle : {0}\nLes zones de chevauchement en vert restent inchangées.</ProjectionTintButtonTip>
+  <ProjectionTintDefaultTip>Définir la couleur par défaut des nouvelles projections. Actuelle : {0}</ProjectionTintDefaultTip>
+  <ProjectionTintPickerTitle>Choisir la couleur de la projection</ProjectionTintPickerTitle>
+  <ProjectionTintCurrent>Couleur actuelle : {0}</ProjectionTintCurrent>
+  <ProjectionTintTarget>Cible : {0}</ProjectionTintTarget>
+  <ProjectionTintApplyAll>Tout appliquer</ProjectionTintApplyAll>
+  <ProjectionTintApplyAllTip>Appliquer la couleur par défaut actuelle à toutes les projections placées.</ProjectionTintApplyAllTip>
+  <ProjectionTintEntryTip>Définir la couleur d'affichage de la projection « {0} ». Actuelle : {1}</ProjectionTintEntryTip>
+  <ProjectionSettingsCount>Projections : {0}</ProjectionSettingsCount>
+  <ProjectionBuildingsCount>{0} bâtiments</ProjectionBuildingsCount>
+  <ProjectionFocusTip>Cliquez sur le nom pour centrer la caméra sur cette projection.</ProjectionFocusTip>
+  <ProjectionFocusFailed>Impossible de centrer la caméra sur cette projection.</ProjectionFocusFailed>
+  <ProjectionTintOptionOriginal>Originale</ProjectionTintOptionOriginal>
+  <ProjectionTintOptionCyan>Cyan</ProjectionTintOptionCyan>
+  <ProjectionTintOptionViolet>Violet</ProjectionTintOptionViolet>
+  <ProjectionTintOptionPink>Rose</ProjectionTintOptionPink>
+  <ProjectionTintOptionRed>Rouge</ProjectionTintOptionRed>
+  <ProjectionTintOptionOrange>Orange</ProjectionTintOptionOrange>
+  <ProjectionTintOptionGold>Or</ProjectionTintOptionGold>
+  <ProjectionTintOptionEmerald>Émeraude</ProjectionTintOptionEmerald>
+  <ProjectionTintOptionWhite>Blanc</ProjectionTintOptionWhite>
+  <ProjectionTintOptionGray>Gris</ProjectionTintOptionGray>
+  <DeveloperSettings>Paramètres de développement</DeveloperSettings>
+  <DeveloperSettingsDesc>Paramètres avancés de débogage et de développement.</DeveloperSettingsDesc>
+  <EnableDeveloperToolsDesc>Déverrouiller les outils de développement et les options de débogage cachés.</EnableDeveloperToolsDesc>
+  <ShowDebugLogDesc>Afficher les journaux détaillés dans la console de débogage.</ShowDebugLogDesc>
+  <DisableLogLimitDesc>Empêcher le jeu d'arrêter la journalisation après 10 000 messages afin de conserver toutes les entrées. Attention : un journal très volumineux peut ralentir le jeu.</DisableLogLimitDesc>
+  <ForcePlaceBlueprintDesc>Contourner la liste noire des plans. Les conditions de recherche du bâtiment ou du terrain final restent applicables.</ForcePlaceBlueprintDesc>
+  <UseMockRemoteData>Utiliser des données fictives</UseMockRemoteData>
+  <UseMockRemoteDataDesc>Utiliser des données fictives locales au lieu de se connecter au serveur distant.</UseMockRemoteDataDesc>
+  <AdminKey>Clé d'administration</AdminKey>
+  <MaintenanceSettings>Maintenance</MaintenanceSettings>
+  <ConfirmResetSettings>Voulez-vous vraiment réinitialiser tous les paramètres par défaut ?</ConfirmResetSettings>
+  <ConfirmResetSortData>Voulez-vous vraiment réinitialiser les données de tri intelligent ?</ConfirmResetSortData>
+  <Confirm>Confirmer</Confirm>
+  <UB_LocalLibrary_OnlyCompatible>Compatibles uniquement</UB_LocalLibrary_OnlyCompatible>
+  <UB_RemoteLibrary_Filter_FullyCompatible>Entièrement compatibles</UB_RemoteLibrary_Filter_FullyCompatible>
+  <UB_RemoteLibrary_Filter_Diff1_3>1 à 3 différences</UB_RemoteLibrary_Filter_Diff1_3>
+  <UB_RemoteLibrary_Filter_Diff4_10>4 à 10 différences</UB_RemoteLibrary_Filter_Diff4_10>
+  <UB_RemoteLibrary_Filter_Diff11_20>11 à 20 différences</UB_RemoteLibrary_Filter_Diff11_20>
+  <UB_RemoteLibrary_Filter_Diff21_40>21 à 40 différences</UB_RemoteLibrary_Filter_Diff21_40>
+  <UB_RemoteLibrary_Filter_Diff40Plus>40 différences ou plus</UB_RemoteLibrary_Filter_Diff40Plus>
+  <UB_RemoteLibrary_RefreshingData>Actualisation des données...</UB_RemoteLibrary_RefreshingData>
+  <UB_RemoteLibrary_RefreshComplete>Données distantes actualisées.</UB_RemoteLibrary_RefreshComplete>
+  <UB_RemoteLibrary_RefreshFailed>Échec de l'actualisation des données distantes : {0}</UB_RemoteLibrary_RefreshFailed>
+  <UB_RemoteLibrary_Refreshing>Actualisation...</UB_RemoteLibrary_Refreshing>
+  <UB_RemoteLibrary_DownloadingDetails>Téléchargement des détails de {0}...</UB_RemoteLibrary_DownloadingDetails>
+  <UB_RemoteLibrary_DownloadDetailsComplete>Détails de {0} téléchargés.</UB_RemoteLibrary_DownloadDetailsComplete>
+  <UB_RemoteLibrary_DownloadDetailsFailed>Échec du téléchargement des détails de {0}.</UB_RemoteLibrary_DownloadDetailsFailed>
+  <UB_RemoteLibrary_LoadDetailsFailed>Échec du chargement des détails du plan : {0}</UB_RemoteLibrary_LoadDetailsFailed>
+  <Deleting>Suppression...</Deleting>
+
+  <UB_RemoteLibrary_DownloadFullImageCancelled>Téléchargement de l'image complète annulé.</UB_RemoteLibrary_DownloadFullImageCancelled>
+  <UB_RemoteLibrary_DownloadFullImageFailed>Échec du téléchargement de l'image complète : {0}</UB_RemoteLibrary_DownloadFullImageFailed>
+
+  <!-- Report functionality -->
+  <ReportBlueprint>Signaler le plan</ReportBlueprint>
+  <ReportAlreadySubmitted>Vous avez déjà signalé ce plan.</ReportAlreadySubmitted>
+  <ReportBlueprintConfirm>Voulez-vous vraiment signaler le plan « {0} » ? Les administrateurs examineront ce signalement.</ReportBlueprintConfirm>
+  <ReportBlueprintDesc>Veuillez expliquer pourquoi vous signalez le plan « {0} ».</ReportBlueprintDesc>
+  <ReportReason>Motif</ReportReason>
+  <ReportReasonTooShort>Le motif doit comporter au moins {0} caractères.</ReportReasonTooShort>
+  <SubmittingReport>Envoi du signalement...</SubmittingReport>
+  <ReportSubmitted>Signalement envoyé avec succès ! Merci pour votre retour.</ReportSubmitted>
+  <ReportSubmitFailed>Échec de l'envoi du signalement. Veuillez réessayer plus tard.</ReportSubmitFailed>
+  <AlreadyReported>Vous avez déjà signalé ce plan.</AlreadyReported>
+
+  <!-- Admin Features -->
+  <AdminUserManagement>Gestion des utilisateurs (administration)</AdminUserManagement>
+  <ConfirmBanUser>Voulez-vous vraiment interdire à l'utilisateur {0} d'accéder au serveur ? Tous ses plans seront désactivés.</ConfirmBanUser>
+  <ConfirmUnbanUser>Voulez-vous vraiment rétablir l'accès au serveur pour l'utilisateur {0} ? Tous ses plans seront réactivés.</ConfirmUnbanUser>
+  <AdminActionReason>Motif (facultatif)</AdminActionReason>
+  <AdminActionCheck>Vérifier le statut</AdminActionCheck>
+  <AdminActionBan>Interdire l'accès</AdminActionBan>
+  <AdminActionUnban>Rétablir l'accès</AdminActionUnban>
+
+  <UB_UserBannedMessage>L'accès à la bibliothèque distante vous a été interdit.</UB_UserBannedMessage>
+
+  <!-- User Agreement -->
+  <UB_UploadConfirm>Voulez-vous vraiment téléverser les {0} plans sélectionnés ?\n\n[Consignes de téléversement]\n1. Veuillez respecter strictement le contrat d'utilisation. Tout contenu offensant sera rejeté ou pourra entraîner une interdiction d'accès.\n2. Recommandations :\n   - Taille : 50x50 au maximum, recommandé.\n   - Mods : 5 au maximum, recommandé.\n   - Évitez d'exporter toute la base ; exportez plutôt des zones précises.\n3. Remarque : les plans ayant le même Building ID seront automatiquement mis à jour et remplacés. Vous devrez redémarrer le jeu pour voir les changements.\n\n[Légende des couleurs des badges]\n🟢 Vert : vanilla (sans mod)\n🔵 Bleu : moins de 5 mods (léger)\n🟡 Jaune : 5 à 30 mods (moyen)\n🔴 Rouge : plus de 30 mods (lourd)\n🟣 Violet : contient du terrain, des animaux, des personnages, des objets ou des recettes d'établi ; la taille des données peut être importante.\n\nVeuillez confirmer que vos plans respectent ces normes.</UB_UploadConfirm>
+  <UB_UserAgreement_Title>Contrat d'utilisation</UB_UserAgreement_Title>
+  <UB_UserAgreement_Version>Version : {0}</UB_UserAgreement_Version>
+  <UB_UserAgreement_Agree>J'accepte</UB_UserAgreement_Agree>
+  <UB_UserAgreement_Decline>Refuser</UB_UserAgreement_Decline>
+  <UB_UserAgreement_NotAccepted>Vous devez accepter le contrat d'utilisation pour utiliser cette fonctionnalité.</UB_UserAgreement_NotAccepted>
+  <UB_ReadAgreement>Lire le contrat</UB_ReadAgreement>
+  <UB_CheckingAgreement>Vérification du contrat d'utilisation...</UB_CheckingAgreement>
+
+  <!-- Network Settings -->
+  <UB_NetworkSettings>Paramètres réseau</UB_NetworkSettings>
+  <UB_UseVpsRelay>Privilégier le relais VPS</UB_UseVpsRelay>
+  <UB_UseVpsRelayDesc>Lorsque cette option est activée, le mod essaie d'abord le relais VPS pour accéder à la bibliothèque de plans distante. Si le relais est indisponible, il bascule automatiquement vers la source miroir ci-dessous.</UB_UseVpsRelayDesc>
+  <UB_VpsRelay_Name>Relais VPS</UB_VpsRelay_Name>
+  <UB_MirrorSource>Source miroir</UB_MirrorSource>
+  <UB_MirrorStatus_Testing>Test en cours...</UB_MirrorStatus_Testing>
+  <UB_MirrorMode_Auto>Automatique (le plus rapide)</UB_MirrorMode_Auto>
+  <UB_MirrorMode_GitHub>GitHub (officiel)</UB_MirrorMode_GitHub>
+  <UB_MirrorMode_GitHubPages>GitHub Pages</UB_MirrorMode_GitHubPages>
+  <UB_MirrorMode_Gitee>Gitee</UB_MirrorMode_Gitee>
+  <UB_MirrorMode_RawGitHack>raw.githack</UB_MirrorMode_RawGitHack>
+  <UB_MirrorMode_JsDelivr>jsDelivr (CDN mondial)</UB_MirrorMode_JsDelivr>
+  <UB_MirrorMode_JsDelivrFastly>jsDelivr (Fastly)</UB_MirrorMode_JsDelivrFastly>
+  <UB_MirrorMode_GhProxy>GhProxy (proxy)</UB_MirrorMode_GhProxy>
+  <UB_MirrorMode_GitMirror>GitMirror</UB_MirrorMode_GitMirror>
+  <UB_MirrorMode_KGitHub>KGitHub</UB_MirrorMode_KGitHub>
+  <UB_NetStatus_Selecting>Sélection du miroir ({0})...</UB_NetStatus_Selecting>
+  <UB_NetStatus_Checking>Vérification du réseau...</UB_NetStatus_Checking>
+  <UB_NetStatus_Testing>Test de {0}...</UB_NetStatus_Testing>
+  <UB_NetStatus_Connected>Connecté : {0}</UB_NetStatus_Connected>
+  <UB_NetStatus_MirrorFailed>Connexion à {0} impossible.</UB_NetStatus_MirrorFailed>
+  <UB_NetStatus_ConnectedLatency>Connecté : {0} ({1} ms)</UB_NetStatus_ConnectedLatency>
+  <UB_NetStatus_Fallback>Basculement : {0}</UB_NetStatus_Fallback>
+  <UB_NetStatus_Error>Erreur (utilisation de GitHub)</UB_NetStatus_Error>
+  <UB_NetStatus_NotInitialized>Non initialisé</UB_NetStatus_NotInitialized>
+  <UB_NetStatus_AllFailed>⚠️ Connexion au cloud impossible !</UB_NetStatus_AllFailed>
+  <UB_Network_AllMirrorsFailed>Échec de la connexion réseau : impossible de se connecter aux sources miroir cloud. Vérifiez votre connexion Internet.</UB_Network_AllMirrorsFailed>
+  <UB_MirrorStatus_Cooldown>Délai de récupération</UB_MirrorStatus_Cooldown>
+  <UB_MirrorStatus_CooldownWarning>Trop d'opérations ; veuillez patienter un instant.</UB_MirrorStatus_CooldownWarning>
+  <UB_MirrorStatus_WaitForCompletion>Test réseau en cours ; veuillez patienter...</UB_MirrorStatus_WaitForCompletion>
+
+  <!-- Featured Feature -->
+  <UB_RemoteLibrary_Sort_Featured>À la une uniquement</UB_RemoteLibrary_Sort_Featured>
+  <UB_FeaturedTooltip>Ce plan a été mis à la une pour son excellence en matière de praticité, d'esthétique et de compatibilité.\nRemarque : seuls les plans dotés d'un badge vert ou bleu peuvent être mis à la une.</UB_FeaturedTooltip>
+  <UB_FeaturedManagement>Gestion des plans à la une</UB_FeaturedManagement>
+  <UB_FeaturedStatus_Featured>Statut : à la une</UB_FeaturedStatus_Featured>
+  <UB_FeaturedStatus_Normal>Statut : normal</UB_FeaturedStatus_Normal>
+  <UB_Featured_SetFeatured>Mettre à la une</UB_Featured_SetFeatured>
+  <UB_Featured_RemoveFeatured>Retirer de la une</UB_Featured_RemoveFeatured>
+  <UB_Featured_Processing>Traitement...</UB_Featured_Processing>
+  <UB_Featured_AddSuccess>Plan ajouté à la une avec succès.</UB_Featured_AddSuccess>
+  <UB_Featured_RemoveSuccess>Plan retiré de la une avec succès.</UB_Featured_RemoveSuccess>
+  <UB_Featured_OperationFailed>Échec de l'opération.</UB_Featured_OperationFailed>
+
+  <!-- Architectural Medal related -->
+  <UB_MedalManagement>Gestion des médailles d'architecture</UB_MedalManagement>
+  <UB_MedalStatus_Awarded>Statut : attribuée</UB_MedalStatus_Awarded>
+  <UB_MedalStatus_Normal>Statut : normale</UB_MedalStatus_Normal>
+  <UB_Medal_Description>Cette médaille récompense les créations architecturales remarquables.</UB_Medal_Description>
+  <UB_Medal_SetMedal>Attribuer la médaille</UB_Medal_SetMedal>
+  <UB_Medal_RemoveMedal>Retirer la médaille</UB_Medal_RemoveMedal>
+  <UB_Medal_Processing>Traitement...</UB_Medal_Processing>
+  <UB_Medal_AddSuccess>Médaille d'architecture attribuée avec succès.</UB_Medal_AddSuccess>
+  <UB_Medal_RemoveSuccess>Médaille d'architecture retirée avec succès.</UB_Medal_RemoveSuccess>
+  <UB_Medal_OperationFailed>Échec de l'opération.</UB_Medal_OperationFailed>
+  <UB_RemoteLibrary_Sort_Medal>Médaille d'architecture</UB_RemoteLibrary_Sort_Medal>
+
+  <!-- Mod Report -->
+  <ModReport>Rapport des mods</ModReport>
+  <SelectAreaForReport>Veuillez sélectionner une zone pour le rapport.</SelectAreaForReport>
+  <UB_ModReport_Title>Rapport des mods - Total : {0} mods, {1} objets</UB_ModReport_Title>
+  <UB_ModReport_ShowAll>Tout afficher</UB_ModReport_ShowAll>
+  <UB_ModReport_Show>Afficher</UB_ModReport_Show>
+  <UB_ModReport_Reselect>Resélectionner</UB_ModReport_Reselect>
+    <UB_ModReport_Highlighted>{0} cibles mises en évidence et sélectionnées.</UB_ModReport_Highlighted>
+    <UB_ModReport_Replace>Remplacer</UB_ModReport_Replace>
+    <UB_ReplaceDef_Title>Remplacer {0}</UB_ReplaceDef_Title>
+    <UB_ReplaceDef_Search>Rechercher...</UB_ReplaceDef_Search>
+    <UB_ReplaceDef_SimilarScore>Similarité : {0} %</UB_ReplaceDef_SimilarScore>
+    <UB_ReplaceDef_NoResults>Aucun objet correspondant trouvé.</UB_ReplaceDef_NoResults>
+    <UB_ReplaceDef_ConfirmTitle>Confirmer le remplacement</UB_ReplaceDef_ConfirmTitle>
+      <UB_ReplaceDef_ConfirmMessage>Voulez-vous vraiment remplacer {0} {1} sélectionnés par {2} ?\nRemarque : le remplacement des murs tentera de préserver les éléments attachés.</UB_ReplaceDef_ConfirmMessage>
+        <UB_ModReport_ConfirmDelete>Voulez-vous vraiment supprimer définitivement les {0} {1} sélectionnés ?\nCette action est irréversible !</UB_ModReport_ConfirmDelete>
+            <UB_ReplaceConfig_Title>Configuration du remplacement</UB_ReplaceConfig_Title>
+            <UB_DefaultRotation>Par défaut (conserver l'originale)</UB_DefaultRotation>
+            <UB_AdvancedOptions>Options avancées</UB_AdvancedOptions>
+            <UB_Stuff>Matériau</UB_Stuff>
+            <UB_Rotation>Rotation</UB_Rotation>
+              <AllMods>Tous les mods</AllMods>
+              <SelectMod>Sélectionner un mod</SelectMod>
+            
+              <!-- Stylization Config -->
+              <UB_StylizationConfig>Configuration de la stylisation</UB_StylizationConfig>
+              <UB_StylizationConfig_Title>Éditeur de schémas de stylisation</UB_StylizationConfig_Title>
+                <UB_ModPool>Liste de mods</UB_ModPool>
+                <UB_SelectModsToPool>Cliquez pour sélectionner des mods...</UB_SelectModsToPool>
+                <UB_ModsSelected>{0} mods sélectionnés</UB_ModsSelected>
+                <UB_ConfiguringMod>Mod principal :</UB_ConfiguringMod>
+                <UB_StyleName>Nom du schéma :</UB_StyleName>
+                <UB_SearchInMod>Rechercher dans le mod actuel...</UB_SearchInMod>
+                <UB_SearchTarget>Rechercher un bâtiment ou un terrain...</UB_SearchTarget>
+                <UB_SearchSource>Rechercher dans les mods facultatifs...</UB_SearchSource>
+                <UB_ClickToMap>Cliquer pour associer</UB_ClickToMap>
+                <UB_SelectWhatItReplaces>Sélectionner les éléments à remplacer...</UB_SelectWhatItReplaces>
+                <UB_ExportXML>Exporter le XML</UB_ExportXML>
+                <UB_ImportXML>Importer le XML</UB_ImportXML>
+                <UB_ConfirmImportStyle>Voulez-vous vraiment importer la configuration de stylisation depuis le presse-papiers ? Les modifications non enregistrées seront perdues.</UB_ConfirmImportStyle>
+                <UB_WhatDoesThisReplace>Faire remplacer les éléments suivants par {0} :</UB_WhatDoesThisReplace>
+                <UB_AllOtherMods>Tous les autres mods facultatifs</UB_AllOtherMods>
+                <UB_ClearAllMappingsForThis>Effacer toutes les associations de cet élément</UB_ClearAllMappingsForThis>
+                <UB_ExportedToClipboard>Configuration copiée dans le presse-papiers.</UB_ExportedToClipboard>
+                <UB_StylizedPlacement_Title>Placement stylisé</UB_StylizedPlacement_Title>
+                <UB_StylizationPriority_Title>Priorité de stylisation (maximum : 5)</UB_StylizationPriority_Title>
+                <UB_NoStylizationSelected>Aucun schéma sélectionné</UB_NoStylizationSelected>
+                <UB_PrioritySlot>Priorité {0} :</UB_PrioritySlot>
+                <UB_ClearSlot>Vider l'emplacement</UB_ClearSlot>
+                <UB_SelectAModToStart>Sélectionnez d'abord des mods dans la liste</UB_SelectAModToStart>
+                <UB_NoMatchingItems>Aucun élément correspondant</UB_NoMatchingItems>
+                <UB_ClickToSelectTarget>Cliquez pour sélectionner la cible</UB_ClickToSelectTarget>
+                <UB_TargetNotFound>Cible introuvable</UB_TargetNotFound>
+                <UB_ClearMapping>Effacer l'association</UB_ClearMapping>
+                <UB_PleaseSelectTargetModsFirst>Sélectionnez d'abord les mods cibles</UB_PleaseSelectTargetModsFirst>
+                <UB_ClearAllMods>Désélectionner tous les mods</UB_ClearAllMods>
+                <UB_Tab_Buildings>Bâtiments</UB_Tab_Buildings>
+                <UB_Tab_Terrains>Terrains</UB_Tab_Terrains>
+                <UB_StylizationName>Nom du schéma :</UB_StylizationName>
+                <UB_SelectTargetMods>Sélectionner les mods cibles</UB_SelectTargetMods>
+                <UB_TargetMod>Mod cible :</UB_TargetMod>
+                <UB_MultipleModsSelected>{0} mods sélectionnés</UB_MultipleModsSelected>
+                <UB_Stylization_HeaderHint>Sélectionnez un bâtiment du mod et indiquez quels bâtiments vanilla il remplace</UB_Stylization_HeaderHint>
+                <UB_NotMapped>Non associé</UB_NotMapped>
+                <UB_SelectSourceFor>Sélectionner les sources de remplacement pour {0}</UB_SelectSourceFor>
+                <UB_ClearAllMappingsForThisItem>Effacer toutes les associations de cet élément</UB_ClearAllMappingsForThisItem>
+                <UB_NeedAtLeastTwoMods>Il faut au moins deux mods dans la liste pour établir des associations.</UB_NeedAtLeastTwoMods>
+                <UB_AutoMap>Association automatique (70 % et plus)</UB_AutoMap>
+                <UB_AutoMapConfirm>Voulez-vous vraiment lancer l'association automatique intelligente ? Le système recherchera la meilleure correspondance pour chaque bâtiment de la liste. Toutes les associations existantes seront réattribuées.</UB_AutoMapConfirm>
+                <UB_AutoMap_Success>Association automatique terminée ! {0} associations uniques établies avec succès.</UB_AutoMap_Success>
+                <UB_BoundToCurrent>Associé au mod actuel</UB_BoundToCurrent>
+                <UB_BoundToOther>Associé à : {0}</UB_BoundToOther>
+                <UB_Unbind>Dissocier</UB_Unbind>
+                <UB_NewScheme>Nouveau schéma</UB_NewScheme>
+                <UB_CreateCopy>Créer une copie et modifier</UB_CreateCopy>
+                <UB_Priority_Level1>La plus basse (emplacement 1)</UB_Priority_Level1>
+                <UB_Priority_Level2>Basse (emplacement 2)</UB_Priority_Level2>
+                <UB_Priority_Level3>Moyenne (emplacement 3)</UB_Priority_Level3>
+                <UB_Priority_Level4>Haute (emplacement 4)</UB_Priority_Level4>
+                <UB_Priority_Level5>La plus haute (emplacement 5)</UB_Priority_Level5>
+                <UB_None>Aucun</UB_None>
+                <UB_Header_TargetDef>DÉFINITION CIBLE</UB_Header_TargetDef>
+                <UB_Header_Match>CORRESPONDANCE</UB_Header_Match>
+                <UB_Header_SourceDef>DÉFINITION SOURCE (REMPLACEMENT)</UB_Header_SourceDef>
+                <WholeMapExport>Exportation de la carte entière</WholeMapExport>
+                <WholeMapExportTooltip>L'exportation inclut toujours toute la carte. Vous devez tout de même sélectionner manuellement une zone de capture d'écran, qui ne sert qu'à l'image d'aperçu.</WholeMapExportTooltip>
+                <WholeMapExportAreaName>Exportation de la carte entière</WholeMapExportAreaName>
+                <UseMapCenterPlacement>Placer au centre de la carte</UseMapCenterPlacement>
+                <UseMapCenterPlacementTooltip>Lorsque cette option est activée, le placement commence directement au centre de la carte actuelle et ignore la sélection manuelle d'une case.</UseMapCenterPlacementTooltip>
+                <UseMapCenterPlacementLockedTooltip>Ce plan a été exporté comme carte entière et doit être placé au centre de la carte.</UseMapCenterPlacementLockedTooltip>
+                <WholeMapExportWarning>Ce plan a été exporté comme carte entière et sera placé directement au centre de la carte.</WholeMapExportWarning>
+                 <MapTooSmallForCenteredPlacement>La carte actuelle est trop petite pour un placement centré. Une carte d'au moins {0}x{1} est requise ; la carte actuelle fait {2}x{3}.</MapTooSmallForCenteredPlacement>
+                 <ExportNoticeTitle>Informations sur l'exportation</ExportNoticeTitle>
+                 <ExportNoticeIntro>Veuillez prendre connaissance des informations suivantes avant l'exportation :</ExportNoticeIntro>
+                 <ExportNoticeUnfinishedConstruction>Les plans de construction et les châssis inachevés ne peuvent pas être exportés. La zone d'exportation en contient au moins un ; si vous continuez, ils ne seront pas correctement sauvegardés.</ExportNoticeUnfinishedConstruction>
+                 <ExportNoticeWholeMapPause>L'exportation de la carte entière peut interrompre le jeu pendant 5 à 10 minutes. C'est normal.</ExportNoticeWholeMapPause>
+                 <ExportNoticeQuestion>Continuer l'exportation ?</ExportNoticeQuestion>
+                 <ContinueExport>Continuer l'exportation</ContinueExport>
+                 <ExportScreenshotFailed>Échec de la capture d'écran. Exportation annulée.</ExportScreenshotFailed>
+                 <LargeMapPlacementPauseNotice>Cette carte dépasse 100Ã—100. Le placement d'un plan peut interrompre le jeu pendant 5 à 10 minutes. C'est normal.</LargeMapPlacementPauseNotice>
+  <DetailedPlacementProfiling>Journal détaillé des performances de placement</DetailedPlacementProfiling>
+  <DetailedPlacementProfilingDesc>Enregistrer les méthodes Spawn, les composants, les types d'objets et les lots pour diagnostiquer les placements lents. Cela ajoute un surcoût de mesure ; désactivez cette option pour obtenir une mesure de référence.</DetailedPlacementProfilingDesc>
+  <NewMapPlacement>Générer la carte cible</NewMapPlacement>
+  <NewMapPlacementTooltip>Détruire la carte actuelle et générer une carte cible aux dimensions indiquées dans le plan.</NewMapPlacementTooltip>
+  <NewMapPlacementConfirm>Créer ici une carte cible de {0}Ã—{1} et y importer le plan de carte entière ? La carte actuelle et les pions qui s'y trouvent seront remplacés. L'état de la carte non inclus dans le plan sera réinitialisé.\n\nContinuer ?</NewMapPlacementConfirm>
+  <NewMapPlacementWorking>Génération d'une nouvelle carte à partir du planâ€¦</NewMapPlacementWorking>
+  <NewMapPlacementComplete>Placement de la nouvelle carte terminé.</NewMapPlacementComplete>
+  <NewMapPlacementUnavailable>Impossible de placer sur une nouvelle carte : {0}</NewMapPlacementUnavailable>
+  <NewMapPlacementBusy>Une tâche de génération de carte est déjà en cours.</NewMapPlacementBusy>
+  <NewMapPlacementHomeOnly>Prend actuellement en charge uniquement les colonies de surface du joueur.</NewMapPlacementHomeOnly>
+  <NewMapPlacementWholeMapOnly>Ce mode nécessite un plan marqué comme exportation de carte entière.</NewMapPlacementWholeMapOnly>
+  <NewMapPlacementAllOnly>Définissez le filtre de placement sur Tout.</NewMapPlacementAllOnly>
+  <NewMapPlacementPocketMaps>Cette carte possède des cartes annexes et ne peut pas être remplacée.</NewMapPlacementPocketMaps>
+  <NewMapPlacementSizeMismatch>Le contenu du plan dépasse les dimensions enregistrées de la carte cible.</NewMapPlacementSizeMismatch>
+  <NewMapPlacementInvalidSize>Le plan ne contient pas de dimensions de carte valides.</NewMapPlacementInvalidSize>
+  <UB_LocalTags_Tab>Étiquettes</UB_LocalTags_Tab>
+  <UB_LocalTags_Title>Explorer vos plans locaux</UB_LocalTags_Title>
+  <UB_LocalTags_Hint>Sélectionnez des étiquettes pour afficher les plans qui correspondent à toutes.</UB_LocalTags_Hint>
+  <UB_LocalTags_Compatible>Entièrement compatible</UB_LocalTags_Compatible>
+  <UB_LocalTags_CompatibleHint>Tous les packages de mods requis sont chargés dans la partie actuelle. Ce statut est calculé localement.</UB_LocalTags_CompatibleHint>
+  <UB_LocalTags_Selected>Sélectionnées : {0}</UB_LocalTags_Selected>
+  <UB_LocalTags_Clear>Effacer</UB_LocalTags_Clear>
+  <UB_LocalTags_Results>{0} / {1} éléments</UB_LocalTags_Results>
+  <UB_LocalTags_Empty>Aucun plan ne correspond à ces étiquettes.\nEffacez votre sélection pour afficher tous les plans locaux.</UB_LocalTags_Empty>
+  <UB_LocalTags_Missing>Mods manquants</UB_LocalTags_Missing>
+  <UB_LocalTags_CountHint>Avec les filtres actuels, cette étiquette affichera {0} éléments. Un groupe compte comme un seul élément.</UB_LocalTags_CountHint>
+  <UB_LocalTags_GroupHint>{0} plans correspondants / {1} dans ce groupe. Cliquez pour afficher les membres correspondants.</UB_LocalTags_GroupHint>
+  <UB_LocalTags_FavoriteAdd>Ajouter aux favoris : {0}</UB_LocalTags_FavoriteAdd>
+  <UB_LocalTags_FavoriteRemove>Retirer des favoris : {0}</UB_LocalTags_FavoriteRemove>
+  <UB_LocalTag_Nursery>Nurserie</UB_LocalTag_Nursery>
+  <UB_LocalTag_GeneRoom>Salle de génétique</UB_LocalTag_GeneRoom>
+  <UB_LocalTag_DeathrestRoom>Salle de stase mortuaire</UB_LocalTag_DeathrestRoom>
+  <UB_LocalTag_MechanoidRoom>Salle des méchanoïdes</UB_LocalTag_MechanoidRoom>
+  <UB_LocalTag_Beauty>Esthétique</UB_LocalTag_Beauty>
+  <UB_LocalTag_Practical>Pratique</UB_LocalTag_Practical>
+  <UB_LocalTag_Phased>Par étapes</UB_LocalTag_Phased>
+  <UB_LocalTag_AnomalyRitual>Rituel d'Anomalie</UB_LocalTag_AnomalyRitual>
+  <UB_LocalTag_ContainmentRoom>Salle de confinement</UB_LocalTag_ContainmentRoom>
+  <UB_LocalTag_Hygiene>Hygiène</UB_LocalTag_Hygiene>
+  <UB_LocalTag_Spaceship>Vaisseau spatial</UB_LocalTag_Spaceship>
+  <UB_LocalTag_RoomModule>Module de pièce</UB_LocalTag_RoomModule>
+  <UB_LocalTag_StarterBuilding>Bâtiment de départ</UB_LocalTag_StarterBuilding>
+  <UB_LocalTag_Kitchen>Cuisine</UB_LocalTag_Kitchen>
+  <UB_LocalTag_ColdStorage>Chambre froide</UB_LocalTag_ColdStorage>
+  <UB_LocalTag_CombatPosition>Position de combat</UB_LocalTag_CombatPosition>
+  <UB_LocalTags_CustomHint>Catégorie/étiquette personnalisée : {0}</UB_LocalTags_CustomHint>
+
+  <UB_ExportTags_Required>Étiquettes* :</UB_ExportTags_Required>
+  <UB_ExportTags_Select>Sélectionner des étiquettes</UB_ExportTags_Select>
+  <UB_ExportTags_Placeholder>&lt;Sélectionnez des étiquettes&gt;</UB_ExportTags_Placeholder>
+  <UB_ExportTags_Empty>Sélectionnez au moins une étiquette.</UB_ExportTags_Empty>
+  <UB_ExportTags_Title>Sélectionner des étiquettes ({0}/{1} sélectionnées)</UB_ExportTags_Title>
+  <UB_ExportTags_Hint>Sélectionnez de 1 à {0} étiquettes. Les catégories existantes sont également des étiquettes. Les favoris et la compatibilité sont calculés localement.</UB_ExportTags_Hint>
+  <UB_ExportTags_Custom>Étiquette personnalisée :</UB_ExportTags_Custom>
+  <UB_ExportTags_Add>Ajouter</UB_ExportTags_Add>
+  <UB_ExportTags_CustomHint>Saisissez une étiquette personnalisée et cliquez sur Ajouter. Les étiquettes sont enregistrées indépendamment des brouillons, même si vous réinitialisez ou annulez l'exportation. Utilisez le bouton de suppression d'une étiquette pour la retirer.</UB_ExportTags_CustomHint>
+  <UB_ExportTags_UnofficialHint>{0} * : étiquette personnalisée non officielle. Son texte d'origine reste dans votre bibliothèque locale d'étiquettes jusqu'à sa suppression.</UB_ExportTags_UnofficialHint>
+  <UB_ExportTags_DeleteHint>Supprimer « {0} » de la bibliothèque d'étiquettes personnalisées et la désélectionner. Les plans existants ne sont pas affectés.</UB_ExportTags_DeleteHint>
+  <UB_ExportGroups_Recent>Groupes récents</UB_ExportGroups_Recent>
+  <UB_ExportGroups_RecentHint>Conserve les trois noms de groupes distincts exportés le plus récemment, du plus récent au plus ancien. Cliquez pour en réutiliser un. La réinitialisation du contenu conserve cet historique.</UB_ExportGroups_RecentHint>
+  <UB_LocalTag_Transport>Transport</UB_LocalTag_Transport>
+  <UB_ExportTags_Duplicate>L'étiquette personnalisée « {0} » existe déjà. Elle n'a pas été ajoutée.</UB_ExportTags_Duplicate>
+  <UB_ExportTags_Limit>Sélectionnez jusqu'à {0} étiquettes. Désélectionnez-en avant de continuer.</UB_ExportTags_Limit>
+  <UB_StructureFallback_StyleSkipped>Le mur ou la porte « {0} » récupéré ne peut pas être stylisé en « {1} » : le type ou les dimensions diffèrent. Le remplacement vanilla a été conservé.</UB_StructureFallback_StyleSkipped>
+
+  <!-- 导出内容精细筛选 -->
+  <UB_ExportContent_Enable>Filtrer le contenu exporté après la sélection</UB_ExportContent_Enable>
+  <UB_ExportContent_EnableHint>Après avoir sélectionné le plan ou la zone de capture d'écran, choisissez les éléments à enregistrer. Aucun fichier ne sera créé avant votre confirmation.</UB_ExportContent_EnableHint>
+  <UB_ExportContent_Title>Filtrer le contenu exporté</UB_ExportContent_Title>
+  <UB_ExportContent_Hint>Les mods décochés bloquent leurs éléments, même s'ils sont sélectionnés dans Contenu. Faites glisser sur les cases pour en sélectionner ou désélectionner plusieurs.</UB_ExportContent_Hint>
+  <UB_ExportContent_WholeMapHint>Les mods décochés prévalent sur les sélections de contenu. Faites glisser sur les cases pour en sélectionner ou désélectionner plusieurs. Le badge de carte entière est conservé.</UB_ExportContent_WholeMapHint>
+  <UB_ExportContent_SelectAll>Sélectionner la page</UB_ExportContent_SelectAll>
+  <UB_ExportContent_SelectNone>Effacer la page</UB_ExportContent_SelectNone>
+  <UB_ExportContent_SourceMod>Mod source</UB_ExportContent_SourceMod>
+  <UB_ExportContent_Confirm>Confirmer l'exportation</UB_ExportContent_Confirm>
+  <UB_ExportContent_Empty>Aucun élément ne peut être exporté. Conservez-en au moins un.</UB_ExportContent_Empty>
+  <UB_ExportContent_Buildings>Bâtiments et meubles</UB_ExportContent_Buildings>
+  <UB_ExportContent_ArtificialTerrain>Sols artificiels et fondations</UB_ExportContent_ArtificialTerrain>
+  <UB_ExportContent_NaturalTerrain>Terrain naturel</UB_ExportContent_NaturalTerrain>
+  <UB_ExportContent_NaturalThings>Formations naturelles (rochers et minerais)</UB_ExportContent_NaturalThings>
+  <UB_ExportContent_Plants>Plantes</UB_ExportContent_Plants>
+  <UB_ExportContent_Items>Objets au sol</UB_ExportContent_Items>
+  <UB_ExportContent_Filth>Saleté</UB_ExportContent_Filth>
+  <UB_ExportContent_Characters>Personnages (faction du joueur)</UB_ExportContent_Characters>
+  <UB_ExportContent_Animals>Animaux (faction du joueur, méchanoïdes compris)</UB_ExportContent_Animals>
+  <UB_ExportContent_Roofs>Toits et zones de toit</UB_ExportContent_Roofs>
+  <UB_ExportContent_Configuration>Ordres de travail, filtres de stockage et zones de stockage</UB_ExportContent_Configuration>
+  <UB_ExportContent_Research>Recherches (projets terminés)</UB_ExportContent_Research>
+  <UB_ExportContent_ContentTab>Contenu actuel</UB_ExportContent_ContentTab>
+  <UB_ExportContent_ModTab>Mods</UB_ExportContent_ModTab>
+  <UB_ExportContent_SelectedCount>À exporter</UB_ExportContent_SelectedCount>
+  <UB_ExportContent_TotalCount>Total de la zone</UB_ExportContent_TotalCount>
+  <UB_ExportContent_ModCount>Dépendances tierces : {0}</UB_ExportContent_ModCount>
+  <UB_ExportContent_NoMods>Aucun élément exporté n'a de mod source.</UB_ExportContent_NoMods>
+  <UB_ExportContent_StarLegend>* L'exportation de ces éléments ajoute l'étiquette « Exportation complète ».</UB_ExportContent_StarLegend>
+  <UB_ExportContent_FullExportTip>La sélection et l'exportation effective de ces éléments ajoutent l'étiquette « Exportation complète » et un badge violet. Les éléments vides ou entièrement exclus ne l'activent pas. Les cartes entières conservent leur badge rose.</UB_ExportContent_FullExportTip>
+  <UB_ExportContent_CountTip>Les compteurs donnent un aperçu de l'exportation. Les objets sont comptés par quantité de pile ; le terrain, par enregistrement de couche. Les toits et les zones de toit comptent leurs propres enregistrements de cases et peuvent se chevaucher. Les animaux ayant le même defName sont regroupés et comptés. Les sous-éléments sont triés par superficie décroissante.</UB_ExportContent_CountTip>
+  <UB_ExportContent_SelectionTip>Les cases parentes reflètent les éléments disponibles dans cet onglet : coche = tout, barre jaune = certains, croix = aucun. Cliquez sur une coche ou une barre pour tout effacer, ou sur une croix pour tout sélectionner. Le glisser-déposer est pris en charge. La sélection du contenu ne peut pas activer un mod désactivé dans l'onglet Mods.</UB_ExportContent_SelectionTip>
+  <UB_ExportContent_ModGateTip>Décocher ce mod exclut ses éléments ; les sélectionner individuellement ou tout sélectionner dans Contenu ne peut pas annuler cette exclusion. La case parente sélectionne ou désélectionne ensemble les éléments de ce mod. Leurs catégories doivent également être activées dans Contenu. Les matériaux et autres dépendances référencés par les éléments conservés restent requis.</UB_ExportContent_ModGateTip>
+  <UB_ExportContent_Stacks> ({0} piles)</UB_ExportContent_Stacks>
+  <UB_ExportContent_BillsOf>{0} : ordres de travail</UB_ExportContent_BillsOf>
+  <UB_ExportContent_StorageOf>{0} : filtre de stockage</UB_ExportContent_StorageOf>
+  <UB_ExportContent_BillsTip>Contrôle tous les ordres de travail existants pour ce type d'établi. Le nombre indiqué correspond au nombre d'ordres.</UB_ExportContent_BillsTip>
+  <UB_ExportContent_PawnUnavailable>Activez Character Editor pour exporter des personnages et des animaux.</UB_ExportContent_PawnUnavailable>
+  <UB_ExportContent_SettingsUnavailable>Activez Save Storage Settings pour exporter les ordres de travail, les filtres de stockage et les zones de stockage.</UB_ExportContent_SettingsUnavailable>
+  <UB_ExportContent_CategoryExcluded>Cette catégorie est décochée dans l'onglet Contenu.</UB_ExportContent_CategoryExcluded>
+  <UB_ExportContent_ModExcluded>Cet élément est désactivé dans l'onglet Mods et ne sera pas exporté, même s'il est sélectionné dans Contenu.</UB_ExportContent_ModExcluded>
+  <UB_ExportContent_ItemExcluded>Cet élément est exclu.</UB_ExportContent_ItemExcluded>
+  <UB_ExportContent_BadgeWholeMap>Aperçu : carte entière (rose)</UB_ExportContent_BadgeWholeMap>
+  <UB_ExportContent_BadgeFull>Aperçu : exportation complète (violet)</UB_ExportContent_BadgeFull>
+  <UB_ExportContent_BadgeVanilla>Aperçu : vanilla (vert)</UB_ExportContent_BadgeVanilla>
+  <UB_ExportContent_BadgeFewMods>Aperçu : peu de mods (bleu)</UB_ExportContent_BadgeFewMods>
+  <UB_ExportContent_BadgeManyMods>Aperçu : plusieurs mods (jaune)</UB_ExportContent_BadgeManyMods>
+  <UB_ExportContent_BadgeHeavyMods>Aperçu : beaucoup de mods (rouge)</UB_ExportContent_BadgeHeavyMods>
+
+  <!-- 风格化双栏编辑器 -->
+  <UB_Style_ConfigureTab>Configurer les associations</UB_Style_ConfigureTab>
+  <UB_Style_ExistingTab>Remplacements existants ({0})</UB_Style_ExistingTab>
+  <UB_Style_BuiltIn>Intégré</UB_Style_BuiltIn>
+  <UB_Style_User>Utilisateur</UB_Style_User>
+  <UB_Style_ReadOnly>Intégré · Lecture seule</UB_Style_ReadOnly>
+  <UB_Style_ReadOnlyHint>Créez une copie pour modifier ce schéma intégré. Vous pouvez afficher et exporter ses associations.</UB_Style_ReadOnlyHint>
+  <UB_Style_Unsaved>Modifications non enregistrées</UB_Style_Unsaved>
+  <UB_Style_UnsavedHint>Les modifications restent dans ce brouillon jusqu'à l'enregistrement du XML.</UB_Style_UnsavedHint>
+  <UB_Style_Saved>Enregistré</UB_Style_Saved>
+  <UB_Style_NewDraft>Nouveau schéma · Non enregistré</UB_Style_NewDraft>
+  <UB_Style_SaveHint>Enregistrer le XML écrit le schéma utilisateur. Exporter le XML copie le schéma actuel dans le presse-papiers.</UB_Style_SaveHint>
+  <UB_Style_SourceMod>Mod à remplacer</UB_Style_SourceMod>
+  <UB_Style_TargetMod>Mod de remplacement</UB_Style_TargetMod>
+  <UB_Style_ConfiguredCount>Originaux · Associés {0} / {1}</UB_Style_ConfiguredCount>
+  <UB_Style_SelectedSource>{0} → Remplacer par</UB_Style_SelectedSource>
+  <UB_Style_ChooseSource>Sélectionnez un bâtiment ou un terrain d'origine à gauche.</UB_Style_ChooseSource>
+  <UB_Style_SearchSource>Rechercher par nom, pinyin ou initiales…</UB_Style_SearchSource>
+  <UB_Style_SearchTarget>Rechercher par nom, pinyin ou initiales…</UB_Style_SearchTarget>
+  <UB_Style_SearchMappings>Rechercher par nom, pinyin, Def ou mod…</UB_Style_SearchMappings>
+  <UB_Style_NoSources>Aucun bâtiment ni terrain correspondant.</UB_Style_NoSources>
+  <UB_Style_NoCandidates>Aucun candidat correspondant dans ce mod.</UB_Style_NoCandidates>
+  <UB_Style_NoMappings>Aucun remplacement ne correspond à la vue actuelle.</UB_Style_NoMappings>
+  <UB_Style_MappingCount>Tous les remplacements · {0}</UB_Style_MappingCount>
+  <UB_Style_OnlyUnmapped>Afficher uniquement les éléments non associés</UB_Style_OnlyUnmapped>
+  <UB_Style_CurrentMapping>Associé</UB_Style_CurrentMapping>
+  <UB_Style_Material>Matériau : {0}</UB_Style_Material>
+  <UB_Style_MissingDef>Définition non chargée</UB_Style_MissingDef>
+  <UB_Style_View>Afficher</UB_Style_View>
+  <UB_Style_Remove>Supprimer</UB_Style_Remove>
+  <UB_Style_MoreActions>Autres actions…</UB_Style_MoreActions>
+  <UB_Style_CopySuffix> (Copie)</UB_Style_CopySuffix>
+  <UB_Style_AutoFill>Associer automatiquement les éléments non associés (70 % et plus)</UB_Style_AutoFill>
+  <UB_Style_AutoFillConfirm>Rechercher dans « {1} » des candidats ayant au moins 70 % de similarité et la même empreinte au sol pour les bâtiments et terrains non associés de « {0} » ? Les associations existantes seront conservées.</UB_Style_AutoFillConfirm>
+  <UB_Style_CopyXml>Copier le XML</UB_Style_CopyXml>
+  <UB_Style_OpenConfigFolder>Ouvrir le dossier de configuration</UB_Style_OpenConfigFolder>
+  <UB_Style_OpenFolderFailed>Impossible d'ouvrir le dossier de configuration. Consultez le journal pour plus de détails.</UB_Style_OpenFolderFailed>
+  <UB_Style_OpenEditor>Modifier la stylisation</UB_Style_OpenEditor>
+  <UB_Style_MappedFrom>Associé depuis : {0}</UB_Style_MappedFrom>
+  <UB_Style_SaveXml>Enregistrer le XML</UB_Style_SaveXml>
+  <UB_Style_NameRequired>Saisissez un nom de schéma.</UB_Style_NameRequired>
+  <UB_Style_SaveFailed>Impossible d'enregistrer ou de supprimer le schéma. Consultez le journal.</UB_Style_SaveFailed>
+  <UB_Style_ImportFailed>Le XML du presse-papiers n'est pas un schéma de stylisation valide.</UB_Style_ImportFailed>
+  <UB_Style_UnsavedPrompt>Le schéma « {0} » comporte des modifications non enregistrées. Voulez-vous les enregistrer ou les abandonner avant de continuer ?</UB_Style_UnsavedPrompt>
+  <UB_Style_SaveContinue>Enregistrer et continuer</UB_Style_SaveContinue>
+  <UB_Style_DiscardContinue>Abandonner et continuer</UB_Style_DiscardContinue>
+  <UB_Style_IgnoreMatchingLimits>Ignorer les limites de correspondance</UB_Style_IgnoreMatchingLimits>
+  <UB_Style_IgnoreMatchingLimitsTip>Ignorer les limites de taille et de couleur du sol pour la sélection manuelle. Seuls les bâtiments artificiels et terrains constructibles par les joueurs, disposant d'un plan et d'un châssis de construction, peuvent être sélectionnés. L'association automatique exige toujours des tailles et couleurs de sol correspondantes. Les sols et terrains apparaissent en dernier ; chaque groupe est trié par similarité.</UB_Style_IgnoreMatchingLimitsTip>
+  <UB_Style_MatchScore>Correspondance {0} %</UB_Style_MatchScore>
+  <UB_Style_TagDoor>Porte</UB_Style_TagDoor>
+  <UB_Style_TagWall>Mur</UB_Style_TagWall>
+  <UB_Style_TagFloor>Sol</UB_Style_TagFloor>
+  <UB_Style_TagBed>Lit</UB_Style_TagBed>
+  <UB_Style_TagSeat>Siège</UB_Style_TagSeat>
+  <UB_Style_TagTable>Table à manger</UB_Style_TagTable>
+  <UB_Style_TagBedside>Meuble de chevet</UB_Style_TagBedside>
+  <UB_Style_TagCooler>Climatiseur réfrigérant</UB_Style_TagCooler>
+  <UB_Style_TagHeater>Chauffage</UB_Style_TagHeater>
+  <UB_Style_TagPlantPot>Pot à plantes</UB_Style_TagPlantPot>
+  <UB_Style_TagWorkTable>Établi</UB_Style_TagWorkTable>
+  <UB_Style_TagPower>Générateur</UB_Style_TagPower>
+  <UB_Style_TagStorage>Stockage</UB_Style_TagStorage>
+  <UB_Style_TagFootprint>{0}*{1}</UB_Style_TagFootprint>
+  <UB_Style_TagTurret>Tourelle</UB_Style_TagTurret>
+  <UB_Style_TagAttachment>Élément attaché</UB_Style_TagAttachment>
+  <UB_Style_TagLamp>Lampe</UB_Style_TagLamp>
+  <UB_Style_TagWire>Câble électrique</UB_Style_TagWire>
+  <UB_Style_TagOther>Autre</UB_Style_TagOther>
+  <UB_Style_AllTags>Toutes les étiquettes</UB_Style_AllTags>
+  <UB_Style_PaletteColors>{0} couleurs</UB_Style_PaletteColors>
+  <UB_Style_PaletteMapped>Couleurs associées {0}/{1}</UB_Style_PaletteMapped>
+  <UB_Style_PaletteMixedTargets>Plusieurs cibles</UB_Style_PaletteMixedTargets>
+  <UB_Style_PaletteMappingTip>Cette entrée regroupe toutes les couleurs de ce tapis. La sélection d'une autre palette conserve les couleurs correspondantes ; la sélection manuelle d'un sol ordinaire associe toutes les couleurs à ce sol. L'association automatique ne relie que les palettes compatibles.</UB_Style_PaletteMappingTip>
+  <UB_Style_PaletteFoldedTip>{0} variantes de sol regroupées.</UB_Style_PaletteFoldedTip>
+  <UB_Style_PaletteFirstNamesTip>Premiers noms ({0}) :</UB_Style_PaletteFirstNamesTip>
+  <UB_Style_SelectShown>Sélectionner les éléments affichés</UB_Style_SelectShown>
+  <UB_Style_SelectedCount>Sélectionnés : {0}</UB_Style_SelectedCount>
+  <UB_Style_ClearSelection>Effacer la sélection</UB_Style_ClearSelection>
+  <UB_Style_RemoveSelected>Supprimer la sélection ({0})</UB_Style_RemoveSelected>
+  <!-- Stylization selection and local mod previews -->
+  <UB_StyleSelect_Title>Sélectionner la stylisation</UB_StyleSelect_Title>
+  <UB_StyleSelect_Slot>Priorité {0}</UB_StyleSelect_Slot>
+  <UB_StyleSelect_ApplyToSlot>Appliquer à la priorité {0}</UB_StyleSelect_ApplyToSlot>
+  <UB_StyleSelect_ListTitle>Schémas de stylisation</UB_StyleSelect_ListTitle>
+  <UB_StyleSelect_BuiltIn>Intégré</UB_StyleSelect_BuiltIn>
+  <UB_StyleSelect_User>Personnalisé</UB_StyleSelect_User>
+  <UB_StyleSelect_None>Aucun</UB_StyleSelect_None>
+  <UB_StyleSelect_NoneHint>Laisser cet emplacement vide sans appliquer de remplacement.</UB_StyleSelect_NoneHint>
+  <UB_StyleSelect_CurrentSlot>Emplacement actuel : {0}</UB_StyleSelect_CurrentSlot>
+  <UB_StyleSelect_MappingCounts>{0} bâtiments / {1} terrains</UB_StyleSelect_MappingCounts>
+  <UB_StyleSelect_TargetCounts>{0} bâtiments / {1} terrains / {2} matériaux</UB_StyleSelect_TargetCounts>
+  <UB_StyleSelect_Available>Disponible</UB_StyleSelect_Available>
+  <UB_StyleSelect_Partial>Partiellement disponible</UB_StyleSelect_Partial>
+  <UB_StyleSelect_Unavailable>Indisponible</UB_StyleSelect_Unavailable>
+  <UB_StyleSelect_Empty>Aucune correspondance configurée</UB_StyleSelect_Empty>
+  <UB_StyleSelect_Author>Auteur : {0}</UB_StyleSelect_Author>
+  <UB_StyleSelect_TargetMod>Mod cible</UB_StyleSelect_TargetMod>
+  <UB_StyleSelect_PackageId>ID du package</UB_StyleSelect_PackageId>
+  <UB_StyleSelect_CopyPackage>Copier l’ID du package</UB_StyleSelect_CopyPackage>
+  <UB_StyleSelect_CopyName>Copier le nom</UB_StyleSelect_CopyName>
+  <UB_StyleSelect_ModEnabled>Activé</UB_StyleSelect_ModEnabled>
+  <UB_StyleSelect_ModInstalled>Installé, non activé</UB_StyleSelect_ModInstalled>
+  <UB_StyleSelect_ModRestart>Installé · Redémarrage requis</UB_StyleSelect_ModRestart>
+  <UB_StyleSelect_ModMissing>Non installé / Introuvable</UB_StyleSelect_ModMissing>
+  <UB_StyleSelect_UnknownTarget>Mod cible inconnu</UB_StyleSelect_UnknownTarget>
+  <UB_StyleSelect_NoPreview>Aucun aperçu disponible</UB_StyleSelect_NoPreview>
+  <UB_StyleSelect_NoTargets>Aucune information sur les mods cibles.</UB_StyleSelect_NoTargets>
+  <UB_StyleSelect_NoStyles>Aucun schéma de stylisation disponible.</UB_StyleSelect_NoStyles>
+  <UB_StyleSelect_UsableMappings>{0} / {1} correspondances disponibles</UB_StyleSelect_UsableMappings>
+  <UB_StyleSelect_TargetsCount>Mods cibles ({0})</UB_StyleSelect_TargetsCount>
+  <UB_StyleSelect_TargetAvailability>Bâtiments {0}/{1} · Terrains {2}/{3} · Matériaux {4}/{5}</UB_StyleSelect_TargetAvailability>
+  <UB_StyleSelect_AvailabilityHint>Disponibles / Total, selon les sources, cibles et matériaux spécifiés actuellement chargés.</UB_StyleSelect_AvailabilityHint>
+  <UB_StyleSelect_ModInfoTab>Informations sur le mod</UB_StyleSelect_ModInfoTab>
+  <UB_StyleSelect_MappingsTab>Remplacements existants ({0})</UB_StyleSelect_MappingsTab>
+  <UB_StyleSelect_SearchMappings>Rechercher par nom, pinyin, Def ou mod…</UB_StyleSelect_SearchMappings>
+  <UB_StyleSelect_NoMatchingMappings>Aucun remplacement correspondant.</UB_StyleSelect_NoMatchingMappings>
+  <UB_TryRepairMissingItems>Essayer de réparer les éléments manquants</UB_TryRepairMissingItems>
+  <UB_TryRepairMissingItems_Tip>Tenter de restaurer les bâtiments et sols manquants, puis d’appliquer les styles sélectionnés. Cela ne concerne que ce placement et ne modifie pas le plan d’origine.</UB_TryRepairMissingItems_Tip>
+
+  <!-- Local unread badges, area filters and mod management layout -->
+  <UB_LocalTags_New>Nouveau</UB_LocalTags_New>
+  <UB_LocalTags_NewHint>Nouveau plan. Ouvrez ses détails locaux pour effacer ce badge. Un groupe reste nouveau tant que chaque nouveau membre n’a pas été consulté.</UB_LocalTags_NewHint>
+  <UB_LocalTags_MyAdded>Mes ajouts</UB_LocalTags_MyAdded>
+  <UB_LocalTags_MyAddedHint>Plans affichables dans votre dossier UB local, notamment ceux importés, téléchargés ou ajoutés manuellement.</UB_LocalTags_MyAddedHint>
+  <UB_LocalTags_FavoriteHint>Les favoris individuels apparaissent séparément et sont accessibles depuis Placement rapide. Un groupe contenant des favoris reste replié. Ces favoris sont indépendants.</UB_LocalTags_FavoriteHint>
+  <UB_LocalTags_Small>Petit</UB_LocalTags_Small>
+  <UB_LocalTags_Medium>Moyen</UB_LocalTags_Medium>
+  <UB_LocalTags_Large>Grand</UB_LocalTags_Large>
+  <UB_LocalTags_Huge>Très grand</UB_LocalTags_Huge>
+  <UB_LocalTags_Size13Hint>Les deux dimensions sont de 13 cases. Correspond aussi à la taille moyenne en superficie.</UB_LocalTags_Size13Hint>
+  <UB_LocalTags_AreaHint>La zone A correspond à la largeur × hauteur enregistrée ; {0}. Les cases réellement occupées ne sont pas comptabilisées.</UB_LocalTags_AreaHint>
+  <UB_ModManagement_AddOnlyHint>Cette fenêtre permet uniquement d’ajouter des abonnements et d’activer des mods. Les abonnements et les mods déjà activés sont conservés. Réinitialiser la sélection efface uniquement les choix en attente.</UB_ModManagement_AddOnlyHint>
+  <UB_ModManagement_Summary>Disponibles {0}/{1}  ·  Activés {2}/{1}  ·  À abonner {3}  ·  À activer {4}</UB_ModManagement_Summary>
+  <UB_ModManagement_Status>État / Action</UB_ModManagement_Status>
+  <UB_ModManagement_SelectSubscribeHint>Sélectionnez plusieurs abonnements à la fois. Effacer la sélection annule uniquement les ajouts en attente ; les abonnements existants sont conservés.</UB_ModManagement_SelectSubscribeHint>
+  <UB_ModManagement_SelectEnableHint>Sélectionnez plusieurs mods disponibles à activer. Effacer la sélection annule uniquement les ajouts en attente ; les mods déjà activés sont conservés.</UB_ModManagement_SelectEnableHint>
+  <UB_ModManagement_Local>Local</UB_ModManagement_Local>
+  <UB_ModManagement_Enabled>Activé</UB_ModManagement_Enabled>
+  <UB_ModManagement_Disabled>Non activé</UB_ModManagement_Disabled>
+  <UB_ModManagement_PendingEnable>À activer</UB_ModManagement_PendingEnable>
+  <UB_ModManagement_PendingSubscribe>À abonner</UB_ModManagement_PendingSubscribe>
+  <UB_ModManagement_Unavailable>Indisponible</UB_ModManagement_Unavailable>
+  <UB_ModManagement_IgnoreVersionDifferences>Ignorer les différences de version</UB_ModManagement_IgnoreVersionDifferences>
+  <UB_ModManagement_VersionMismatch>Non mis à jour pour {0}</UB_ModManagement_VersionMismatch>
+  <UB_ModManagement_VersionMismatchHint>Ce mod n’a pas été mis à jour pour {0}.</UB_ModManagement_VersionMismatchHint>
+  <UB_ModManagement_IgnoreVersionDifferencesHint>Pour l’activer quand même, activez « Ignorer les différences de version ».</UB_ModManagement_IgnoreVersionDifferencesHint>
+  <UB_ModManagement_ResetSelection>Réinitialiser la sélection</UB_ModManagement_ResetSelection>
+  <UB_ModManagement_ConfirmAdd>Confirmer les ajouts</UB_ModManagement_ConfirmAdd>
+</LanguageData>
