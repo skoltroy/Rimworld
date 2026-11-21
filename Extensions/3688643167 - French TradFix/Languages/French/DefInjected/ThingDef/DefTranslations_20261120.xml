@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <vt_foldingchair.label>Chaise pliante de l'Abri</vt_foldingchair.label>
+  <vt_foldingchair.description>Une simple place pour s'asseoir. Peu confortable, mais mieux que le sol.</vt_foldingchair.description>
+  <vt_workchair.label>Chaise de travail de l'Abri</vt_workchair.label>
+  <vt_workchair.description>Une chaise moderne et bien conçue, avec un excellent soutien du dos et un rembourrage généreux, offrant un grand confort. Chaque superviseur en a besoin.</vt_workchair.description>
+  <vt_Table1x2c.label>Table de l'Abri (1x2)</vt_Table1x2c.label>
+  <vt_Table2x2c.label>Table de l'Abri (2x2)</vt_Table2x2c.label>
+  <vt_Table2x4c.label>Table de l'Abri (2x4)</vt_Table2x4c.label>
+  <vt_Table3x3c.label>Table de l'Abri (3x3)</vt_Table3x3c.label>
+  <VT_ToolsChest.label>Coffre à outils</VT_ToolsChest.label>
+  <VT_ToolsChest.description>Augmente la vitesse de travail lorsqu'il est placé près d'un établi. Un établi ne peut utiliser qu'un seul coffre à outils.</VT_ToolsChest.description>
+  <VT_DiagnosticCart.label>Chariot de diagnostic</VT_DiagnosticCart.label>
+  <VT_DiagnosticCart.description>Augmente la vitesse de travail lorsqu'il est placé près d'un établi. Un établi ne peut utiliser qu'un seul chariot de diagnostic.</VT_DiagnosticCart.description>
+  <VT_HospitalScreen.label>Paravent d'hôpital</VT_HospitalScreen.label>
+  <VT_HospitalScreen.description>Un paravent haut et infranchissable. Doit être placé près d'un lit. Augmente légèrement la vitesse d'acquisition de l'immunité.</VT_HospitalScreen.description>
+  <VT_IVStand.label>Potence de perfusion</VT_IVStand.label>
+  <VT_IVStand.description>Une perfusion de solution saline améliore nettement les chances du patient de vaincre l'infection. Doit être placée près du lit.</VT_IVStand.description>
+  <VT_MedicalCart.label>Chariot médical</VT_MedicalCart.label>
+  <VT_MedicalCart.description>Un chariot équipé d'outils médicaux de base, qui augmente les chances de réussite des opérations et des soins. Doit être placé près du lit.</VT_MedicalCart.description>
+  <VTTurret_GunMiniTurret.label>Tourelle de plafond</VTTurret_GunMiniTurret.label>
+  <VTTurret_GunMiniTurret.description>Une arme automatique perfectionnée conçue pour être montée sur une tourelle.</VTTurret_GunMiniTurret.description>
+</LanguageData>

@@ -7,6 +7,15 @@ description: Translate, complete, audit, and export RimWorld mod localization fi
 
 Use this skill when the user requests French translations or corrections for RimWorld mods.
 
+## TradFix naming and packaging
+
+- A translation-only package is a **French TradFix**, not a ModFix. For a Workshop mod with numeric ID `<ID>`, name its folder `<ID> - French TradFix` and set `About\About.xml`'s `<name>` to the source mod's exact display name from its `About.xml`, followed by ` - French TradFix` (for example, `EdB Prepare Carefully - French TradFix`). Preserve its package ID and dependencies unless a separate change is explicitly required.
+- Keep the game and backup package folders identical: `D:\Games\RimWorld\Mods\<ID> - French TradFix` and `D:\Downloads\RimWorld\Mods\Extensions\<ID> - French TradFix`.
+- For non-numeric standalone translations, use a descriptive folder and matching About name ending in ` - French TradFix` (the BTD package is `BTD Gravship Descriptions - French TradFix`).
+- A package that contains only a gameplay, compatibility, or loading correction is not a TradFix. Keep it as a separately named ModFix; do not mislabel it as a translation.
+- When renaming an existing TradFix, rename both game and backup folders, update the About `<name>`, and update documentation references. Never change `packageId` merely to match the folder or display name.
+- Before claiming a translation loads, resolve every French resource path against the active `LoadFolders.xml` entry for the user's RimWorld version. A root-level `Languages\French` tree requires `/` (or an equivalent root path) in the selected version's folder list. Check conditional/version-specific paths separately; do not infer loading from the file's presence.
+
 Helper scripts live in `scripts\` next to this file:
 
 - `scripts\Extract-DefTranslatables.ps1` : lists every translatable Def string of a mod that has no English tree (`-Root <mod>`, `-OutFile <tsv>`).
@@ -18,7 +27,7 @@ Helper scripts live in `scripts\` next to this file:
 
 - If the user names numeric Workshop IDs, use those IDs and verify each folder exists under `D:\Games\RimWorld\Mods`.
 - If the user says a mod was **added** ("j'ai ajouté N mods") and gives no ID, find the new folders by `LastWriteTime` in the game folder, filter out IDs already in `Extensions\` or `Extensions\ReadMe.md`, and show the candidates with their names (`About\About.xml`). Confirm the list when more than N candidates match. The discovery report lists dozens of untracked IDs, so do not treat it as the answer on its own.
-- Discovery is a comparison between the game Mods folder and IDs already tracked in the project README, `Extensions\ReadMe.md`, and numeric extension folders.
+- Discovery is a comparison between the game Mods folder and IDs already tracked in the project README, `Extensions\ReadMe.md`, and package folders named `<ID> - French TradFix`. Do not require numeric backup folders; those are legacy and should not be recreated.
 - Ask whether the requested work is **complete** or a **supplement** when the user has not already specified it:
   - Complete: audit coverage and review every loaded source user-facing entry. Add or correct translations where needed, while preserving valid French; it does not mean blindly replacing every value.
   - Supplement: preserve correct French and add missing entries; review exact English/French duplicates as candidates, not as proof of errors.
@@ -59,7 +68,7 @@ Helper scripts live in `scripts\` next to this file:
 - With an English tree, run `Validate-Fr.ps1 -ModPath <mod>`. Without one, rely on the build check (key sequence, empty values, XML parse) and report that token and key coverage was checked against the extraction only.
 - Check placeholder parity on the extraction: every `{...}`, `[...]` and `\n` in the English value must appear in the French one, or the difference must be explained in the report.
 - Expected and accepted differences (for example a sentence that drops a pronoun token) are reported, not forced.
-- Export only `Languages\French` resources with `tools\Update-RimWorldModTranslations.ps1 -Action Export -ModId <one ID>`. Run it once per ID: the script rejects comma-separated lists. The copy keeps the path relative to the mod root, so files land in `Extensions\<ID>\Languages\French\...`, and each copy is verified by SHA-256. Verify the export yourself by comparing hashes with the same relative path.
+- Export only `Languages\French` resources with `tools\Update-RimWorldModTranslations.ps1 -Action Export -ModId <one ID>`. Run it once per ID: the script rejects comma-separated lists. The current script writes a legacy staging copy to `Extensions\<ID>\Languages\French\...` and verifies it by SHA-256. Do not leave this numeric staging folder as the backup package: copy only the exported French resources, preserving relative paths, into both `<ID> - French TradFix` trees (game and `Extensions`), compare hashes, and remove the staging folder only if it was created by this export and contains no pre-existing files.
 - Never copy the whole mod or delete unrelated files.
 - Update `Extensions\ReadMe.md`: add rows at the top of the first table (newest first) with the date, declared mod version and RimWorld versions from `About.xml` (do not invent versions), and a concise summary with validation results and limitations. Keep the existing file name; Git tracks it as `Extensions/README.md`.
 
@@ -67,5 +76,5 @@ Helper scripts live in `scripts\` next to this file:
 
 - Discovery and export use `tools\Update-RimWorldModTranslations.ps1`. Always pass `-ProjectPath 'D:\Downloads\RimWorld\Mods'` explicitly; without it the default `Split-Path $PSScriptRoot` is empty when the script is launched from a shell in this environment and the script stops.
 - The script prepares plans and exports; it does not translate.
-- Keep the backup and the game copy identical for each fix: `D:\Games\RimWorld\Mods\<ID>` is the live copy and `D:\Downloads\RimWorld\Mods\Extensions\<ID>` the backup.
+- Keep each TradFix backup and game copy identical: `D:\Games\RimWorld\Mods\<ID> - French TradFix` is the live package and `D:\Downloads\RimWorld\Mods\Extensions\<ID> - French TradFix` is its backup. Source Workshop mods remain in `D:\Games\RimWorld\Mods\<ID>`.
 - Never run `git commit` or `git push`. The user manages commits and pushes; leave the changes in the working tree and say which paths were touched.

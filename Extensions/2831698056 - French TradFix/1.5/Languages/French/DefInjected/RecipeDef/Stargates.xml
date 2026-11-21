@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StargateMod_MakeAdvancedStargate.label>fabriquer une porte des étoiles avancée</StargateMod_MakeAdvancedStargate.label>
+  <StargateMod_MakeAdvancedStargate.description>Un appareil permettant de transporter des personnes ou des ressources entre les planètes. Ce modèle de porte des étoiles semble conçu pour fonctionner sur une seule planète. Elle est presque identique à une porte normale et possède un DHD intégré. Écartez-vous avant la fin de la composition...</StargateMod_MakeAdvancedStargate.description>
+  <StargateMod_MakeAdvancedStargate.jobString>Fabrication d'une porte des étoiles avancée.</StargateMod_MakeAdvancedStargate.jobString>
+  <StargateMod_MakeIrisInstallKit.label>fabriquer un kit d'installation d'iris</StargateMod_MakeIrisInstallKit.label>
+  <StargateMod_MakeIrisInstallKit.description>Fabriquer un kit d'installation d'iris.</StargateMod_MakeIrisInstallKit.description>
+  <StargateMod_MakeIrisInstallKit.jobString>Fabrication d'un kit d'installation d'iris.</StargateMod_MakeIrisInstallKit.jobString>
+  <StargateMod_MakeOrlinStargate.label>fabriquer une porte des étoiles de fortune</StargateMod_MakeOrlinStargate.label>
+  <StargateMod_MakeOrlinStargate.description>Un appareil permettant de transporter des personnes ou des ressources entre les planètes. Ce modèle de porte des étoiles semble conçu pour fonctionner sur une seule planète. Celle-ci a été fabriquée avec des ressources faciles à trouver, mais elle est très instable et peu fiable, et nécessite une source d'énergie externe. Elle est trop fragile et trop petite pour être équipée d'un iris. Son DHD est intégré. Écartez-vous avant la fin de la composition...</StargateMod_MakeOrlinStargate.description>
+  <StargateMod_MakeOrlinStargate.jobString>Fabrication d'une porte des étoiles de fortune.</StargateMod_MakeOrlinStargate.jobString>
+</LanguageData>

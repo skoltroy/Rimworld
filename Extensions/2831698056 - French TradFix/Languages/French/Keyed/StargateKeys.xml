@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!--Mod name-->
+    <StargatesMod>Stargates!</StargatesMod>
+
+    <!-- misc -->
+	<SGM.Incoming>Entrant</SGM.Incoming>
+	<SGM.Outgoing>Sortant</SGM.Outgoing>
+    
+	<SGM.IrisClosed>FERMÉE</SGM.IrisClosed>
+	<SGM.IrisOpen>OUVERTE</SGM.IrisOpen>
+    
+	<SGM.Present>Présent</SGM.Present>
+	<SGM.Missing>Manquant</SGM.Missing>
+	<SGM.NotNeeded>(inutile)</SGM.NotNeeded>
+    
+    <SGM.StargateIdle>Au repos</SGM.StargateIdle>
+	<SGM.Unknown>Inconnu</SGM.Unknown>
+	<SGM.UnknownAddress>Adresse inconnue</SGM.UnknownAddress>
+	
+	<!--Notification message text-->
+	<SGM.GateDialFailed_IsInUse>Impossible d'activer la porte des étoiles : la porte cible est déjà active.</SGM.GateDialFailed_IsInUse>
+	<SGM.GateDialFailed_NotFound>Impossible d'activer la porte des étoiles : la porte cible est introuvable.</SGM.GateDialFailed_NotFound>
+	<SGM.NoGateInCaravan>Une porte des étoiles doit se trouver dans l'inventaire de la caravane.</SGM.NoGateInCaravan>
+	<SGM.BlockedByLandmark>Les sites de porte des étoiles ne peuvent pas être créés sur des lieux remarquables.</SGM.BlockedByLandmark>
+    
+    <SGM.Notif.CannotWake>Impossible de réactiver la porte : une autre porte est déjà active dans la zone locale.</SGM.Notif.CannotWake>
+    <SGM.Notif.GateHibernating>La porte construite est en hibernation : une autre porte est déjà active dans la zone locale.</SGM.Notif.GateHibernating>
+
+	<!--InspectString text-->
+	<SGM.GateAddress>Adresse de la porte des étoiles : {0}</SGM.GateAddress>
+	<SGM.ConnectedToGate>Connectée à la porte des étoiles : {0} ({1})</SGM.ConnectedToGate>
+	<SGM.IrisStatus>État de l'iris : [{0}]</SGM.IrisStatus>
+	<SGM.TimeUntilGateLock>Temps avant verrouillage : {0}</SGM.TimeUntilGateLock>
+    <SGM.StargateStatus>Porte des étoiles : {0} {1}</SGM.StargateStatus>
+    <SGM.DhdStatus>DHD : {0} {1}</SGM.DhdStatus>
+    <SGM.GateHibernating>Conflit d'adresses : la porte est en mode hibernation.</SGM.GateHibernating>
+	<SGM.IncomingWormhole>Trou de ver entrant ({0})</SGM.IncomingWormhole>
+    <SGM.RespawnGateString>Veuillez faire réapparaître cette porte des étoiles (ainsi que son DHD) en mode développeur : une mise à jour l'a rendue inutilisable.</SGM.RespawnGateString>
+	
+	<!--Gizmo labels and descriptions-->
+	<SGM.WakeHibernation>Sortir de l'hibernation</SGM.WakeHibernation>
+	<SGM.WakeHibernationDesc>Activer cette porte dans la zone locale. Une seule porte peut être active à la fois. \nLa zone locale comprend cette carte et toutes les sous-cartes qui lui sont associées (cartes de poche).</SGM.WakeHibernationDesc>
+    
+    <SGM.OpenCloseIris>Ouvrir/Fermer l'iris</SGM.OpenCloseIris>
+    <SGM.OpenCloseIrisDesc>Ouvrir ou fermer l'iris de cette porte des étoiles.</SGM.OpenCloseIrisDesc>
+    
+    <SGM.CloseStargate>Fermer la porte des étoiles</SGM.CloseStargate>
+    <SGM.CloseStargateDesc>Fermer la connexion active du trou de ver.</SGM.CloseStargateDesc>
+    
+    <SGM.CreateSGSite>Créer un nouveau site de porte des étoiles</SGM.CreateSGSite>
+    <SGM.CreateSGSiteDesc>Créer un nouveau site de porte des étoiles à cet emplacement.</SGM.CreateSGSiteDesc>
+    
+    <SGM.RenameGateSite>Renommer le site de la porte des étoiles</SGM.RenameGateSite>
+    <SGM.RenameGateSiteDesc>Donner à ce site de porte des étoiles un nom plus facile à reconnaître.</SGM.RenameGateSiteDesc>
+    
+    <SGM.TransmitGDO>Ouvrir l'iris à distance</SGM.TransmitGDO>
+    <SGM.TransmitGDODesc>Transmettre un code d'identification par la porte afin d'ouvrir l'iris de l'autre côté.</SGM.TransmitGDODesc>
+    
+    <SGM.SelectConnectedGate>Voir la porte connectée</SGM.SelectConnectedGate>
+    <SGM.SelectConnectedGateDesc>Aller à la porte située à l'autre extrémité de la connexion du trou de ver.</SGM.SelectConnectedGateDesc>
+    
+    <SGM.SelectGateConflict>Voir la porte en conflit</SGM.SelectGateConflict>
+    <SGM.SelectGateConflictDesc>Aller à la porte qui empêche celle-ci de s'activer.</SGM.SelectGateConflictDesc>
+	
+	<SGM.CommandCancelLoadStargateDesc>Annuler le chargement de cette porte des étoiles. Les personnes et objets pas encore chargés resteront sur place.</SGM.CommandCancelLoadStargateDesc>
+	
+	<!--Gizmo disabled messages-->
+	<SGM.GateIsNotActive>La porte des étoiles n'est pas active.</SGM.GateIsNotActive>
+	<SGM.CannotGDO>L'iris est déjà ouvert.</SGM.CannotGDO>
+	<SGM.CannotCloseIncoming>Impossible de fermer un trou de ver entrant.</SGM.CannotCloseIncoming>
+	
+	<!--FloatMenu labels-->
+	<SGM.EnterStargateAction>Entrer dans la porte des étoiles</SGM.EnterStargateAction>
+	<SGM.BringThingToGateAction>Apporter un objet ou un pion à la porte des étoiles</SGM.BringThingToGateAction>
+	<SGM.CarryHeldPawnToStargateAction>Amener le pion porté à la porte des étoiles</SGM.CarryHeldPawnToStargateAction>
+	<SGM.DialGate>Composer {0} ({1})</SGM.DialGate>
+	<SGM.DecodeSGSymbols>Déchiffrer les symboles</SGM.DecodeSGSymbols>
+	<SGM.CannotDecodeSGSymbols>Impossible de déchiffrer : le déchiffrement des glyphes n'a pas été étudié.</SGM.CannotDecodeSGSymbols>
+    
+	<SGM.CannotDial>Impossible de composer : {0}</SGM.CannotDial>
+    <SGM.Reason.GateIsActive>la porte des étoiles est déjà active</SGM.Reason.GateIsActive>
+    <SGM.Reason.NoDestinations>aucune destination disponible</SGM.Reason.NoDestinations>
+    <SGM.Reason.InvalidAddress>Erreur : adresse non enregistrée. Veuillez réinstaller la porte des étoiles.</SGM.Reason.InvalidAddress>
+    <SGM.Reason.Incoming>trou de ver entrant</SGM.Reason.Incoming>
+    <SGM.Reason.AlreadyDialling>composition déjà en cours</SGM.Reason.AlreadyDialling>
+    <SGM.Reason.NoPower>pas d'électricité</SGM.Reason.NoPower>
+    <SGM.Reason.Hibernating>la porte est en hibernation</SGM.Reason.Hibernating>
+	<SGM.Reason.NotConnected>aucune connexion à une porte des étoiles</SGM.Reason.NotConnected>
+
+    <!--Misc-->
+    <SGM.GeneratingStargateSite>Génération d'un site de porte des étoiles</SGM.GeneratingStargateSite>
+    
+    
+	<!-- == Settings keys == -->
+	<!--Settings Categories-->
+	<SGM.SettingsCat.Options>Options</SGM.SettingsCat.Options>
+    <SGM.SettingsCat.Debug>Débogage</SGM.SettingsCat.Debug>
+	
+	<!--Settings labels and tooltips-->
+	<SGM.ShortenDialSeq.Label>Raccourcir la séquence de composition</SGM.ShortenDialSeq.Label>
+    <SGM.ShortenDialSeq.TT>Réduire le temps nécessaire à la porte pour composer une adresse.</SGM.ShortenDialSeq.TT>
+	
+    <SGM.DebugMode.Label>Mode débogage</SGM.DebugMode.Label>
+    <SGM.DebugMode.TT>Activer le mode débogage pour faciliter le dépannage.</SGM.DebugMode.TT>
+</LanguageData>

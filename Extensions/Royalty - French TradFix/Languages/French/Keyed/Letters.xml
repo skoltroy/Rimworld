@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LetterRoyalTitleExpectation>Le niveau de {PAWN_possessive} attentes ne sera jamais inférieur à {1}.</LetterRoyalTitleExpectation>
+  <LetterTitleInheritance_AsReplacement>C'est {PAWN_possessive} titre de {TITLE} qui a été transmis à {HEIR_nameFull}, conformément aux lois de succession de {FACTION_name}. Il remplacera {HEIR_possessive} titre de {REPLACEDTITLE} une fois la cérémonie d'investiture achevée.</LetterTitleInheritance_AsReplacement>
+  <LetterTitleInheritance_NoEffectHigherTitle>C'est {PAWN_possessive} titre de {TITLE} qui aurait dû revenir à {HEIR_nameFull}, conformément aux lois de succession de {FACTION_name}, mais {HEIR_pronoun} détenait déjà un titre supérieur, celui de {HIGHERTITLE}.</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_WasInherited>C'est {PAWN_possessive} titre de {TITLE} qui sera transmis à {HEIR_nameFull} une fois la cérémonie d'investiture achevée, conformément aux lois de succession de {FACTION_name}.</LetterTitleInheritance_WasInherited>
+</LanguageData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StargateMod_UnfinishedAdvancedStargate.label>porte des étoiles avancée inachevée</StargateMod_UnfinishedAdvancedStargate.label>
+  <StargateMod_UnfinishedAdvancedStargate.description>Une porte des étoiles avancée inachevée.</StargateMod_UnfinishedAdvancedStargate.description>
+  <StargateMod_UnfinishedIrisInstallKit.label>kit d'installation d'iris inachevé</StargateMod_UnfinishedIrisInstallKit.label>
+  <StargateMod_UnfinishedIrisInstallKit.description>Un kit d'installation d'iris inachevé.</StargateMod_UnfinishedIrisInstallKit.description>
+  <StargateMod_UnfinishedOrlinStargate.label>porte des étoiles de fortune inachevée</StargateMod_UnfinishedOrlinStargate.label>
+  <StargateMod_UnfinishedOrlinStargate.description>Une porte des étoiles de fortune inachevée.</StargateMod_UnfinishedOrlinStargate.description>
+  <StargateMod_DialHomeDevice.label>dispositif de commande de porte des étoiles</StargateMod_DialHomeDevice.label>
+  <StargateMod_DialHomeDevice.description>Un ancien appareil relié à une porte des étoiles, qui sert de source d'énergie et d'interface. Il permet de sélectionner une adresse pour que la porte établisse une connexion.</StargateMod_DialHomeDevice.description>
+  <StargateMod_Stargate.label>porte des étoiles</StargateMod_Stargate.label>
+  <StargateMod_Stargate.description>Un ancien appareil perfectionné permettant de voyager presque instantanément par un trou de ver jusqu'à une autre porte des étoiles. La porte est alimentée et contrôlée par un DHD, qui permet de saisir une adresse. Elle tente ensuite de se connecter à la porte correspondant à cette adresse.\n\nÀ l'ouverture de la porte, un vortex instable apparaît et vaporise tout ce qui se trouve devant elle. Une fois le vortex dissipé, la porte peut être franchie sans danger.\n\nLe trou de ver ne permet le voyage que dans un seul sens, de la porte émettrice à la porte réceptrice. Tout ce qui pénètre dans un trou de ver entrant est détruit sans possibilité de réintégration : il est donc indispensable de fermer puis de recomposer la porte pour effectuer le trajet retour.</StargateMod_Stargate.description>
+  <StargateMod_OrlinStargate.label>porte des étoiles de fortune</StargateMod_OrlinStargate.label>
+  <StargateMod_OrlinStargate.description>Une version de fortune de la porte des étoiles, de conception rudimentaire et instable. Elle ne peut servir qu'une fois avant de tomber en panne de façon catastrophique et d'exploser. Elle nécessite une source d'énergie externe.\nSa petite taille ne permet pas de l'équiper d'un iris.</StargateMod_OrlinStargate.description>
+  <StargateMod_AdvancedStargate.label>porte des étoiles avancée</StargateMod_AdvancedStargate.label>
+  <StargateMod_AdvancedStargate.description>Une version avancée de la porte des étoiles, conçue après une étude approfondie du modèle original. Elle en reproduit les fonctions tout en utilisant des matériaux plus courants.\n\nUne interface intégrée sur le côté permet de composer une adresse sans DHD externe.</StargateMod_AdvancedStargate.description>
+  <StargateMod_GlyphScrap.label>dalle de glyphes de porte des étoiles</StargateMod_GlyphScrap.label>
+  <StargateMod_GlyphScrap.description>Une mystérieuse pierre fissurée, gravée de symboles de porte des étoiles.</StargateMod_GlyphScrap.description>
+  <StargateMod_IrisInstallKit.label>kit d'installation d'iris</StargateMod_IrisInstallKit.label>
+  <StargateMod_IrisInstallKit.description>Un kit contenant tous les matériaux préassemblés nécessaires à l'installation d'un iris sur une porte des étoiles. Une fois installé, l'iris peut être fermé pour empêcher toute sortie et protéger la base contre les incursions ennemies.\n\nTout ce qui tente de sortir par une porte dont l'iris est fermé ne peut pas se réintégrer et est détruit. Vérifiez que l'iris est ouvert avant de tenter le voyage de retour.</StargateMod_IrisInstallKit.description>
+</LanguageData>

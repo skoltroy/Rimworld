@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>GrimWorld 40,000 - Core Imperialis - French TradFix</name>
+  <author>Skoltroy</author>
+  <packageId>Skoltroy.FrenchTradFix.3018671708</packageId>
+  <modVersion>1.0</modVersion>
+  <url>https://rimworld.skoltroy.com</url>
+  <description>Couche française indépendante pour le mod « GrimWorld 40,000 - Core Imperialis » (Workshop 3018671708). Les chemins et conditions de chargement des ressources françaises sont conservés. Après toute mise à jour du mod source, réviser ce TradFix. Auteur : Skoltroy. Site : rimworld.skoltroy.com.</description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Grimworld.Core</packageId>
+      <displayName>GrimWorld 40,000 - Core Imperialis</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3018671708</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Grimworld.Core</li>
+  </loadAfter>
+</ModMetaData>

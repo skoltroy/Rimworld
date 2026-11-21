@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BTD_DroidDistressCall.questNameRules.rulesStrings.0>questName-&gt;Appel de détresse de [droid_nameDef]</BTD_DroidDistressCall.questNameRules.rulesStrings.0>
+  <BTD_DroidDistressCall.questNameRules.rulesStrings.1>questName-&gt;Signal d'un cargo écrasé</BTD_DroidDistressCall.questNameRules.rulesStrings.1>
+  <BTD_DroidDistressCall.questNameRules.rulesStrings.2>questName-&gt;Mission de sauvetage d'un droïde</BTD_DroidDistressCall.questNameRules.rulesStrings.2>
+  <BTD_DroidDistressCall.questDescriptionRules.rulesStrings.0>questDescription-&gt;Vous avez reçu un appel de détresse d'un [droid_label] nommé [droid_nameDef]. Le droïde signale que le cargo à bord duquel il voyageait s'est écrasé à proximité. Les autres droïdes transportés comme cargaison sont devenus incontrôlables et hostiles.\n\n[droid_nameDef] affirme que si vous parvenez à vaincre les droïdes rebelles, vous pourrez récupérer la cargaison du vaisseau et le droïde rejoindra votre colonie.\n\nSi vous laissez passer cette occasion, vous n'entendrez peut-être plus jamais parler de [droid_nameDef].</BTD_DroidDistressCall.questDescriptionRules.rulesStrings.0>
+</LanguageData>

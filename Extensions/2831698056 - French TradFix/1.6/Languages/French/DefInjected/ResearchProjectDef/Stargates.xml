@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StargateMod_GlyphDeciphering.label>déchiffrement des glyphes</StargateMod_GlyphDeciphering.label>
+  <StargateMod_GlyphDeciphering.description>Les glyphes gravés sur les portes des étoiles comme ceux inscrits sur de mystérieux morceaux de papier ont un sens. Les déchiffrer et découvrir où ils mènent pourrait ouvrir une nouvelle voie de déplacement.</StargateMod_GlyphDeciphering.description>
+  <StargateMod_StargateMakingResearch.label>création d'une porte des étoiles de fortune</StargateMod_StargateMakingResearch.label>
+  <StargateMod_StargateMakingResearch.description>Les matériaux utilisés pour construire les anciennes portes des étoiles ne sont pas disponibles sur cette planète, mais nous pourrions en fabriquer une version de fortune.</StargateMod_StargateMakingResearch.description>
+  <StargateMod_AdvancedStargateMakingResearch.label>création d'une porte des étoiles avancée</StargateMod_AdvancedStargateMakingResearch.label>
+  <StargateMod_AdvancedStargateMakingResearch.description>En étudiant davantage la conception de la porte des étoiles d'origine, nous pourrions en créer une réplique bien meilleure avec les matériaux disponibles sur cette planète.</StargateMod_AdvancedStargateMakingResearch.description>
+  <StargateMod_StargateIrisAlloyResearch.label>alliages de plastacier</StargateMod_StargateIrisAlloyResearch.label>
+  <StargateMod_StargateIrisAlloyResearch.description>Un matériau extrêmement résistant peut être créé en combinant du plastacier, de l'uranium et de l'acier. Bien que trop instable à l'échelle atomique pour servir de matériau de construction, son faible frottement pourrait permettre de fabriquer un iris pour une porte des étoiles.</StargateMod_StargateIrisAlloyResearch.description>
+  <StargateMod_StargateIrisResearch.label>iris</StargateMod_StargateIrisResearch.label>
+  <StargateMod_StargateIrisResearch.description>Les expérimentations montrent qu'une barrière placée à quelques microns de l'horizon des événements d'une porte des étoiles empêcherait presque tout de se réintégrer. Avec l'alliage à faible frottement découvert, nous pourrions fabriquer un iris pour couvrir la porte et empêcher les intrus d'envahir notre base par son intermédiaire. Fabriquez le kit d'installation à un établi de fabrication.</StargateMod_StargateIrisResearch.description>
+</LanguageData>

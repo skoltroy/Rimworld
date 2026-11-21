@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Ushankas Glittertech Expansion - French TradFix</name>
+  <author>Skoltroy</author>
+  <packageId>Skoltroy.FrenchTradFix.3522676478</packageId>
+  <modVersion>1.0</modVersion>
+  <url>https://rimworld.skoltroy.com</url>
+  <description>Couche française indépendante pour le mod « Ushankas Glittertech Expansion » (Workshop 3522676478). Les chemins et conditions de chargement des ressources françaises sont conservés. Après toute mise à jour du mod source, réviser ce TradFix. Auteur : Skoltroy. Site : rimworld.skoltroy.com.</description>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Ushanka.GlittertechExpansion</packageId>
+      <displayName>Ushankas Glittertech Expansion</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3522676478</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ushanka.GlittertechExpansion</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeHeirPreviousHeirWarning>Cela contrariera {HOLDER_possessive} héritier actuel, {HEIR_nameFull}.</MakeHeirPreviousHeirWarning>
+</LanguageData>

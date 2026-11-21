@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StargateMod_EnterStargate.reportString>entre dans TargetA.</StargateMod_EnterStargate.reportString>
+  <StargateMod_DialStargate.reportString>utilise TargetA.</StargateMod_DialStargate.reportString>
+  <StargateMod_BringToStargate.reportString>amène TargetA à TargetB.</StargateMod_BringToStargate.reportString>
+  <StargateMod_InstallIris.reportString>installe l'iris sur TargetB.</StargateMod_InstallIris.reportString>
+  <StargateMod_DecodeGlyphs.reportString>déchiffre les glyphes de la porte des étoiles.</StargateMod_DecodeGlyphs.reportString>
+</LanguageData>

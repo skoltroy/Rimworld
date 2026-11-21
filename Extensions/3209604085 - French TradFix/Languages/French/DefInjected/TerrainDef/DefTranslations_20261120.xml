@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SU_ArmoredFloorA.description>Ce revêtement en acier est à la fois résistant et facile à nettoyer. La plupart des déchets passent à travers sa surface perforée !</SU_ArmoredFloorA.description>
+  <SU_ArmoredFloorB.description>Ce revêtement en acier est à la fois résistant et facile à nettoyer. La plupart des déchets passent à travers sa surface perforée !</SU_ArmoredFloorB.description>
+  <SU_ArmoredGratingA.label>Grille blindée A</SU_ArmoredGratingA.label>
+  <SU_ArmoredGratingA.description>Cette grille en acier blindé est conçue pour être résistante et facile à nettoyer. La plupart des déchets passent à travers sa surface perforée, qui augmente aussi la vitesse de déplacement.</SU_ArmoredGratingA.description>
+  <SU_ArmoredGratingB.label>Grille blindée B</SU_ArmoredGratingB.label>
+  <SU_ArmoredGratingB.description>Cette grille en acier blindé est conçue pour être résistante et facile à nettoyer. La plupart des déchets passent à travers sa surface perforée, qui augmente aussi la vitesse de déplacement.</SU_ArmoredGratingB.description>
+  <SU_ArmoredFloorSterile.label>Sol stérile blindé</SU_ArmoredFloorSterile.label>
+  <SU_ArmoredFloorSterile.description>Ce sol blindé de haute technologie convient aux environnements stériles. Son design sobre est également agréable à regarder.</SU_ArmoredFloorSterile.description>
+</LanguageData>

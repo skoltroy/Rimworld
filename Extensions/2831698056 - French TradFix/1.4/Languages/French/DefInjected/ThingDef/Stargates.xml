@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StargateMod_UnfinishedAdvancedStargate.label>porte des étoiles avancée inachevée</StargateMod_UnfinishedAdvancedStargate.label>
+  <StargateMod_UnfinishedAdvancedStargate.description>Une porte des étoiles avancée inachevée.</StargateMod_UnfinishedAdvancedStargate.description>
+  <StargateMod_UnfinishedIrisInstallKit.label>kit d'installation d'iris inachevé</StargateMod_UnfinishedIrisInstallKit.label>
+  <StargateMod_UnfinishedIrisInstallKit.description>Un kit d'installation d'iris inachevé.</StargateMod_UnfinishedIrisInstallKit.description>
+  <StargateMod_UnfinishedOrlinStargate.label>porte des étoiles de fortune inachevée</StargateMod_UnfinishedOrlinStargate.label>
+  <StargateMod_UnfinishedOrlinStargate.description>Une porte des étoiles de fortune inachevée.</StargateMod_UnfinishedOrlinStargate.description>
+  <StargateMod_DialHomeDevice.label>dispositif de commande de porte des étoiles</StargateMod_DialHomeDevice.label>
+  <StargateMod_DialHomeDevice.description>Un ancien appareil servant à commander une porte des étoiles.</StargateMod_DialHomeDevice.description>
+  <StargateMod_Stargate.label>porte des étoiles</StargateMod_Stargate.label>
+  <StargateMod_Stargate.description>Un ancien appareil permettant de transporter des personnes ou des ressources entre les planètes. Ce modèle de porte des étoiles semble conçu pour fonctionner sur une seule planète.</StargateMod_Stargate.description>
+  <StargateMod_OrlinStargate.label>porte des étoiles de fortune</StargateMod_OrlinStargate.label>
+  <StargateMod_OrlinStargate.description>Un appareil permettant de transporter des personnes ou des ressources entre les planètes. Ce modèle de porte des étoiles semble conçu pour fonctionner sur une seule planète. Celle-ci a été fabriquée avec des ressources faciles à trouver, mais elle est très instable et peu fiable, et nécessite une source d'énergie externe. Elle est trop fragile et trop petite pour être équipée d'un iris. Son DHD est intégré. Écartez-vous avant la fin de la composition...</StargateMod_OrlinStargate.description>
+  <StargateMod_AdvancedStargate.label>porte des étoiles avancée</StargateMod_AdvancedStargate.label>
+  <StargateMod_AdvancedStargate.description>Un appareil permettant de transporter des personnes ou des ressources entre les planètes. Ce modèle de porte des étoiles semble conçu pour fonctionner sur une seule planète. Elle est presque identique à une porte normale et possède un DHD intégré. Écartez-vous avant la fin de la composition...</StargateMod_AdvancedStargate.description>
+  <StargateMod_GlyphScrap.label>dalle de glyphes de porte des étoiles</StargateMod_GlyphScrap.label>
+  <StargateMod_GlyphScrap.description>Une mystérieuse pierre fissurée, gravée de symboles de porte des étoiles.</StargateMod_GlyphScrap.description>
+  <StargateMod_IrisInstallKit.label>kit d'installation d'iris</StargateMod_IrisInstallKit.label>
+  <StargateMod_IrisInstallKit.description>Un kit contenant tous les matériaux préassemblés nécessaires à l'installation d'un iris sur une porte des étoiles.</StargateMod_IrisInstallKit.description>
+</LanguageData>

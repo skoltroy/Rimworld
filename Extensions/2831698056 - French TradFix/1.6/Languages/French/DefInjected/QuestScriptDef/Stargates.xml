@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StargateMod_StargateSiteScript.questNameRules.rulesStrings.0>questName-&gt;[site] de la porte des étoiles [ancient]</StargateMod_StargateSiteScript.questNameRules.rulesStrings.0>
+  <StargateMod_StargateSiteScript.questNameRules.rulesStrings.1>ancient-&gt;Ancienne</StargateMod_StargateSiteScript.questNameRules.rulesStrings.1>
+  <StargateMod_StargateSiteScript.questNameRules.rulesStrings.2>ancient-&gt;Vétuste</StargateMod_StargateSiteScript.questNameRules.rulesStrings.2>
+  <StargateMod_StargateSiteScript.questNameRules.rulesStrings.3>ancient-&gt;Abandonnée</StargateMod_StargateSiteScript.questNameRules.rulesStrings.3>
+  <StargateMod_StargateSiteScript.questNameRules.rulesStrings.4>ancient-&gt;Oubliée</StargateMod_StargateSiteScript.questNameRules.rulesStrings.4>
+  <StargateMod_StargateSiteScript.questNameRules.rulesStrings.5>site-&gt;site</StargateMod_StargateSiteScript.questNameRules.rulesStrings.5>
+  <StargateMod_StargateSiteScript.questNameRules.rulesStrings.6>site-&gt;complexe</StargateMod_StargateSiteScript.questNameRules.rulesStrings.6>
+  <StargateMod_StargateSiteScript.questNameRules.rulesStrings.7>site-&gt;abri</StargateMod_StargateSiteScript.questNameRules.rulesStrings.7>
+  <StargateMod_StargateSiteScript.questNameRules.rulesStrings.8>site-&gt;domaine</StargateMod_StargateSiteScript.questNameRules.rulesStrings.8>
+  <StargateMod_StargateSiteScript.questNameRules.rulesStrings.9>site-&gt;temple</StargateMod_StargateSiteScript.questNameRules.rulesStrings.9>
+  <StargateMod_StargateSiteScript.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)-&gt;Nous avons découvert un site abritant une porte des étoiles. Il peut contenir un trésor gardé par d'anciens ennemis, ou ne rien contenir du tout. Dans tous les cas, la porte des étoiles nous sera extrêmement utile si nous parvenons à la récupérer.</StargateMod_StargateSiteScript.questDescriptionRules.rulesStrings.0>
+</LanguageData>

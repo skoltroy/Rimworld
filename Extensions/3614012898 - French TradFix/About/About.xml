@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[BTD] Ship Pack: KotOR Ships VGE - French TradFix</name>
+  <author>Skoltroy</author>
+  <packageId>Skoltroy.FrenchTradFix.3614012898</packageId>
+  <modVersion>1.0</modVersion>
+  <url>https://rimworld.skoltroy.com</url>
+  <description>Couche française indépendante pour le mod « [BTD] Ship Pack: KotOR Ships VGE » (Workshop 3614012898). Les chemins et conditions de chargement des ressources françaises sont conservés. Après toute mise à jour du mod source, réviser ce TradFix. Auteur : Skoltroy. Site : rimworld.skoltroy.com.</description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>btd.gbp.shippack.kotor.vge</packageId>
+      <displayName>[BTD] Ship Pack: KotOR Ships VGE</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3614012898</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>btd.gbp.shippack.kotor.vge</li>
+  </loadAfter>
+</ModMetaData>

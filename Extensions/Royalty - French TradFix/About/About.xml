@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Royalty - French TradFix</name>
+  <author>Skoltroy</author>
+  <packageId>Skoltroy.FrenchTradFix.Royalty</packageId>
+  <modVersion>1.0</modVersion>
+  <description>Corrige cinq chaînes Keyed françaises du DLC Royalty en rétablissant les placeholders attendus. Ressources françaises uniquement ; les fichiers du jeu et du DLC ne sont pas modifiés.</description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Royalty</packageId>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld.Royalty</li>
+  </loadAfter>
+</ModMetaData>

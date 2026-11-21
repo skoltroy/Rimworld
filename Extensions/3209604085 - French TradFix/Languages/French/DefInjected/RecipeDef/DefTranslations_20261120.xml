@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_SU_AP.label>Fabriquer des cartouches AP</Make_SU_AP.label>
+  <Make_SU_AP.description>Fabrique des cartouches AP.</Make_SU_AP.description>
+  <Make_SU_AP.jobString>Fabrication de cartouches AP.</Make_SU_AP.jobString>
+  <Make_SU_HE.label>Fabriquer des cartouches HE</Make_SU_HE.label>
+  <Make_SU_HE.description>Fabrique des cartouches HE.</Make_SU_HE.description>
+  <Make_SU_HE.jobString>Fabrication de cartouches HE.</Make_SU_HE.jobString>
+</LanguageData>

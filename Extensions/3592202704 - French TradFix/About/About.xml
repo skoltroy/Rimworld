@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Fallout Arktos - French Translation - French TradFix</name>
+  <author>Skoltroy</author>
+  <packageId>Skoltroy.FrenchTradFix.3592202704</packageId>
+  <modVersion>1.0</modVersion>
+  <url>https://rimworld.skoltroy.com</url>
+  <description>Couche française indépendante pour le mod « Fallout Arktos - French Translation » (Workshop 3592202704). Les chemins et conditions de chargement des ressources françaises sont conservés. Après toute mise à jour du mod source, réviser ce TradFix. Auteur : Skoltroy. Site : rimworld.skoltroy.com.</description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>local.fallout.arktos.french</packageId>
+      <displayName>Fallout Arktos - French Translation</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3592202704</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>local.fallout.arktos.french</li>
+  </loadAfter>
+</ModMetaData>

@@ -16,10 +16,18 @@ Use this skill when the user reports a RimWorld error, a translation warning, a 
 
 ## Trace the failure
 
+- For every reported “did not load any content” or missing translation, check all French resources against the selected version's `LoadFolders.xml` paths, including root `Languages\French` files (which require `/` or an equivalent root path). Also inspect version-specific and conditional paths before declaring the audit complete.
 - Anchor the analysis in the first relevant error, affected package/Def/key, and complete exception chain. Do not treat a later generic Harmony or loading-progress frame as the cause without supporting evidence.
 - Search the installed mod and its English/French resources for the exact key or Def name. Inspect `LoadFolders.xml` and version-specific folders to confirm that the resource is active for the user’s RimWorld version.
 - Compare source and translation keys and preserve placeholders, markup, and tokens. A valid XML file with matching keys does not by itself prove a translation warning is unrelated; use the translation report to identify the actual entries.
 - Separate confirmed findings from hypotheses. If a snippet does not identify the mod, say so and request the missing report/log instead of guessing.
+
+## TradFix and ModFix naming
+
+- Translation packages use the `French TradFix` convention: Workshop ID folders are `<ID> - French TradFix`; their About `<name>` is the source mod's exact display name plus ` - French TradFix`. The non-ID BTD translation package is `BTD Gravship Descriptions - French TradFix`.
+- Keep live and backup folder names identical. Live packages are under `D:\Games\RimWorld\Mods`; backup packages are under `D:\Downloads\RimWorld\Mods\Extensions`.
+- Do not call a gameplay/config/compatibility patch a TradFix unless it actually contains translation resources. Keep such corrections in a distinct ModFix package (for example `ModFix - Refugee Weapon Budget Fix`).
+- When fixing metadata or load paths, preserve the existing `packageId` unless the log proves it is wrong; sync both copies and verify hashes.
 
 ## Patterns confirmed in past sessions
 

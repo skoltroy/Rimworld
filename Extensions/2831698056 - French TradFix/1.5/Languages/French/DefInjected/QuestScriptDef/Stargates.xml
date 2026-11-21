@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StargatesMod_StargateSiteScript.questNameRules.rulesStrings.0>questName-&gt;[site] de la porte des étoiles [ancient]</StargatesMod_StargateSiteScript.questNameRules.rulesStrings.0>
+  <StargatesMod_StargateSiteScript.questNameRules.rulesStrings.1>ancient-&gt;Ancienne</StargatesMod_StargateSiteScript.questNameRules.rulesStrings.1>
+  <StargatesMod_StargateSiteScript.questNameRules.rulesStrings.2>ancient-&gt;Vétuste</StargatesMod_StargateSiteScript.questNameRules.rulesStrings.2>
+  <StargatesMod_StargateSiteScript.questNameRules.rulesStrings.3>ancient-&gt;Abandonnée</StargatesMod_StargateSiteScript.questNameRules.rulesStrings.3>
+  <StargatesMod_StargateSiteScript.questNameRules.rulesStrings.4>ancient-&gt;Oubliée</StargatesMod_StargateSiteScript.questNameRules.rulesStrings.4>
+  <StargatesMod_StargateSiteScript.questNameRules.rulesStrings.5>site-&gt;site</StargatesMod_StargateSiteScript.questNameRules.rulesStrings.5>
+  <StargatesMod_StargateSiteScript.questNameRules.rulesStrings.6>site-&gt;complexe</StargatesMod_StargateSiteScript.questNameRules.rulesStrings.6>
+  <StargatesMod_StargateSiteScript.questNameRules.rulesStrings.7>site-&gt;abri</StargatesMod_StargateSiteScript.questNameRules.rulesStrings.7>
+  <StargatesMod_StargateSiteScript.questNameRules.rulesStrings.8>site-&gt;domaine</StargatesMod_StargateSiteScript.questNameRules.rulesStrings.8>
+  <StargatesMod_StargateSiteScript.questNameRules.rulesStrings.9>site-&gt;temple</StargatesMod_StargateSiteScript.questNameRules.rulesStrings.9>
+  <StargatesMod_StargateSiteScript.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)-&gt;Nous avons découvert un site abritant une porte des étoiles. Il peut contenir un trésor gardé par d'anciens ennemis, ou ne rien contenir du tout. Dans tous les cas, la porte des étoiles nous sera extrêmement utile si nous parvenons à la récupérer.</StargatesMod_StargateSiteScript.questDescriptionRules.rulesStrings.0>
+  <StargatesMod_StargateSiteScript.root.nodes.8.node.nodes.0.label>Quête expirée : [resolvedQuestName]</StargatesMod_StargateSiteScript.root.nodes.8.node.nodes.0.label>
+  <StargatesMod_StargateSiteScript.root.nodes.8.node.nodes.0.text>Des communications interceptées indiquent que le site a été pillé, y compris la porte des étoiles. La quête [resolvedQuestName] a expiré.</StargatesMod_StargateSiteScript.root.nodes.8.node.nodes.0.text>
+</LanguageData>

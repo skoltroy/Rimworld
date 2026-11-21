@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ElectromagneticSniperGun.label>Fusil électromagnétique de précision</ElectromagneticSniperGun.label>
+  <ElectromagneticSniperGun.description>Fusil électromagnétique militaire multifonction de 2077</ElectromagneticSniperGun.description>
+  <ElectromagneticSniperGun.tools.0.label>crosse</ElectromagneticSniperGun.tools.0.label>
+  <ElectromagneticSniperGun.tools.1.label>canon</ElectromagneticSniperGun.tools.1.label>
+  <Bullet_Electromagnetic_sniper.label>Projectile du fusil électromagnétique</Bullet_Electromagnetic_sniper.label>
+</LanguageData>
