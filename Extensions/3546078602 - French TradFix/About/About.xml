@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Trader Ships Retexture - French TradFix</name>
+  <author>MrKociak</author>
+  <packageId>MrKociak.TraderShipsRetexture</packageId>
+  <supportedVersions>
+	  <li>1.6</li>
+  </supportedVersions>
+  <description>A mod that retextures trader ships to look like shuttles.</description>
+<loadAfter>
+<li>automatic.traderships</li>
+</loadAfter>
+<modDependencies>
+<li>
+	<packageId>automatic.traderships</packageId>
+	<displayName>Trader ships</displayName>
+	<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2046222331</steamWorkshopUrl>
+</li>
+</modDependencies>
+</ModMetaData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ZSP_EliteRiotArmor.label>armure anti-émeute d’élite</ZSP_EliteRiotArmor.label>
+  <ZSP_EliteRiotArmor.description>Ce type d’armure était déjà rare sur sa planète d’origine et venait tout juste d’être produit en masse quelques années avant la guerre nucléaire. Ce modèle est la version la plus avancée de l’original, et sa protection le démontre. Il s’agit de l’armure corporelle.\n\nAujourd’hui, il serait difficile de trouver un équipement plus fiable sur lequel miser sa vie.</ZSP_EliteRiotArmor.description>
+  <ZSP_EliteRiotJacket.label>veste anti-émeute d’élite</ZSP_EliteRiotJacket.label>
+  <ZSP_EliteRiotJacket.description>Ce type d’armure était déjà rare sur sa planète d’origine et venait tout juste d’être produit en masse quelques années avant la guerre nucléaire. Ce modèle est la version la plus avancée de l’original. Il s’agit de la veste.\n\nAujourd’hui, il serait difficile de trouver un équipement plus fiable sur lequel miser sa vie.</ZSP_EliteRiotJacket.description>
+  <ZSP_EliteRiotHelmet.label>casque anti-émeute d’élite</ZSP_EliteRiotHelmet.label>
+  <ZSP_EliteRiotHelmet.description>Ce type d’armure était déjà rare sur sa planète d’origine et venait tout juste d’être produit en masse quelques années avant la guerre nucléaire. Ce modèle est la version la plus avancée de l’original. Il s’agit du casque.\n\nAujourd’hui, il serait difficile de trouver un équipement plus fiable sur lequel miser sa vie.</ZSP_EliteRiotHelmet.description>
+  <ZSP_StuffableEliteRiotJacket.description>Ce type d’armure était déjà rare sur sa planète d’origine et venait tout juste d’être produit en masse quelques années avant la guerre nucléaire. Ce modèle est la version la plus avancée de l’original. Il s’agit de la veste.\n\nAujourd’hui, il serait difficile de trouver un équipement plus fiable sur lequel miser sa vie.</ZSP_StuffableEliteRiotJacket.description>
+  <ZSP_StuffableEliteRiotJacket.label>veste anti-émeute d’élite</ZSP_StuffableEliteRiotJacket.label>
+  <ZSP_StuffableEliteRiotArmor.description>Ce type d’armure était déjà rare sur sa planète d’origine et venait tout juste d’être produit en masse quelques années avant la guerre nucléaire. Ce modèle est la version la plus avancée de l’original. Il s’agit de l’armure corporelle.\n\nAujourd’hui, il serait difficile de trouver un équipement plus fiable sur lequel miser sa vie.</ZSP_StuffableEliteRiotArmor.description>
+  <ZSP_StuffableEliteRiotArmor.label>armure anti-émeute d’élite</ZSP_StuffableEliteRiotArmor.label>
+  <ZSP_StuffableEliteRiotHelmet.description>Ce type d’armure était déjà rare sur sa planète d’origine et venait tout juste d’être produit en masse quelques années avant la guerre nucléaire. Ce modèle est la version la plus avancée de l’original. Il s’agit du casque.\n\nAujourd’hui, il serait difficile de trouver un équipement plus fiable sur lequel miser sa vie.</ZSP_StuffableEliteRiotHelmet.description>
+  <ZSP_StuffableEliteRiotHelmet.label>casque anti-émeute d’élite</ZSP_StuffableEliteRiotHelmet.label>
+</LanguageData>

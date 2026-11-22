@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>G.E.C.K. - Garden of Eden Creation Kit - French TradFix</name>
+    <author>Milky04</author>
+    <packageId>Milky04.GECK</packageId>
+    <description>Adds the G.E.C.K. (Garden of Eden Creation Kit) suitcase. A sealed pre-war container found as loot. Quality determines the contents. Right-click to open. Single use.
+    </description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+</ModMetaData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Fallout New Vegas - Elite Riot Gear - French TradFix</name>
+  <author>ISOREX, 2ScoopsPlz, Zaljerem</author>
+  <supportedVersions>
+    <li>1.4</li>
+    <li>1.5</li>
+	<li>1.6</li>
+	<li>1.7</li>
+  </supportedVersions>
+  <packageId>2scp.falloutnewvegaseliteriotgear</packageId>
+  <description>
+This mod adds the Elite Riot Gear armor set from Fallout: New Vegas to the game in a near vanilla-like artstyle.
+  </description>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+  </loadAfter>
+</ModMetaData>

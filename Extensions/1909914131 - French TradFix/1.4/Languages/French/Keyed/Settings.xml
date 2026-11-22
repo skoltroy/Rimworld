@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+	<SoS.Settings.ShowVersionUI>SOS2EXP {0}</SoS.Settings.ShowVersionUI>
+	<SoS.Settings.RenderPlanet>Rendu dynamique de la planète</SoS.Settings.RenderPlanet>
+	<SoS.Settings.RenderPlanet.Desc>Si cette case est cochée, les cartes orbitales montreront un cycle jour/nuit sur la planète. Désactivez cette option si le jeu s'exécute lentement dans l'espace. Par défaut : désactivé</SoS.Settings.RenderPlanet.Desc>
+	
+	<SoS.Settings.UI>Paramètres de l'interface :</SoS.Settings.UI>
+	<SoS.Settings.UseSplashScreen>Écran de démarrage SoS</SoS.Settings.UseSplashScreen>
+	<SoS.Settings.UseSplashScreen.Desc>Si cette case est cochée, RimWorld utilisera le nouvel écran de démarrage de SoS2. Redémarrez le jeu après avoir modifié ce paramètre. Par défaut : activé</SoS.Settings.UseSplashScreen.Desc>
+	<SoS.Settings.PersistShipUI>Interface utilisateur persistante du navire</SoS.Settings.PersistShipUI>
+	<SoS.Settings.PersistShipUI.Desc>Si cette case est cochée, la puissance et la chaleur de votre vaisseau seront affichées même hors combat. Par défaut : désactivé</SoS.Settings.PersistShipUI.Desc>
+	<SoS.Settings.OffsetUIx>Compensation X de l'interface utilisateur du navire</SoS.Settings.OffsetUIx>
+	<SoS.Settings.OffsetUIx.Desc>L’interface utilisateur est décalée horizontalement par rapport au centre de votre écran.</SoS.Settings.OffsetUIx.Desc>
+	<SoS.Settings.OffsetUIy>Expédier le décalage Y de l'interface utilisateur</SoS.Settings.OffsetUIy>
+	<SoS.Settings.OffsetUIy.Desc>L'interface utilisateur est décalée verticalement par rapport au dessous de la barre de pion.</SoS.Settings.OffsetUIy.Desc>
+	
+	<SoS.Settings.Misc>Paramètres divers :</SoS.Settings.Misc>
+	<SoS.Settings.EasyMode>Mode d'embarquement facile</SoS.Settings.EasyMode>
+	<SoS.Settings.EasyMode.Desc>Si cette case est cochée, cela empêchera les pions des joueurs de mourir pour pointer la défense et permettra aux pods de joueurs et aux navettes d'atterrir à l'extérieur des navires ennemis au combat. Par défaut : désactivé</SoS.Settings.EasyMode.Desc>
+	<SoS.Settings.ArchoRemove>Supprimer les animaux archo</SoS.Settings.ArchoRemove>
+	<SoS.Settings.ArchoRemove.Desc>Supprime les animaux archo s'ils apparaissent dans le jeu avant la construction du bâtiment requis. Par défaut : activé</SoS.Settings.ArchoRemove.Desc>
+	<SoS.Settings.Debug>Mode débogage</SoS.Settings.Debug>
+	<SoS.Settings.Debug.Desc>Dessinera la zone du navire et listera tous les navires/épaves sur la carte à l'écran en survolant la souris pour plus de détails et ajoutera plus d'informations au journal. Par défaut : désactivé</SoS.Settings.Debug.Desc>
+	
+	<!--SoS.Settings.UseVacuumPathfinding>Use vacuum pathfinding</SoS.Settings.UseVacuumPathfinding>
+	<SoS.Settings.UseVacuumPathfinding.Desc>If checked, pawns without EVA gear will attempt to avoid vacuum areas. This can break compatibility with other mods which alter pathfinding. Restart the game after changing this setting.</SoS.Settings.UseVacuumPathfinding.Desc-->
+	
+	<SoS.Settings.Gameplay>Paramètres de jeu :</SoS.Settings.Gameplay>
+	<SoS.Settings.DifficultySoS>Facteur de difficulté de combat du navire (Min : {0} Max : {1} Par défaut : {2} Actuel : {3})</SoS.Settings.DifficultySoS>
+	<SoS.Settings.DifficultySoS.Desc>Affecte la taille et la force des navires ennemis.</SoS.Settings.DifficultySoS.Desc>
+	<SoS.Settings.FrequencySoS>Fréquence de combat des navires (Min : {0} Max : {1} Par défaut : {2} Actuel : {3})</SoS.Settings.FrequencySoS>
+	<SoS.Settings.FrequencySoS.Desc>Des valeurs plus élevées signifient moins de temps de recharge entre les batailles de navires.</SoS.Settings.FrequencySoS.Desc>
+	<SoS.Settings.NavyShipChance>Chance de la marine (Min : {0} Max : {1} Par défaut : {2} Actuel : {3})</SoS.Settings.NavyShipChance>
+	<SoS.Settings.NavyShipChance.Desc>Quelle est la probabilité que des marines apparaissent lors de rencontres aléatoires.</SoS.Settings.NavyShipChance.Desc>
+	<SoS.Settings.FleetChance>Chance de flotte aléatoire (Min : {0} Max : {1} Par défaut : {2} Actuel : {3})</SoS.Settings.FleetChance>
+	<SoS.Settings.FleetChance.Desc>Chance pour que des navires et des commerçants ennemis inconnus et aléatoires deviennent des flottes. Sera ignoré à un score de combat très bas ou élevé.</SoS.Settings.FleetChance.Desc>
+	
+	<SoS.Settings.Travel>Paramètres de voyage :</SoS.Settings.Travel>
+	<SoS.Settings.MinTravelTime>Temps de trajet minimum (Min : {0} Max : {1} Par défaut : {2} Actuel : {3})</SoS.Settings.MinTravelTime>
+	<SoS.Settings.MinTravelTime.Desc>Nombre minimum d'années qui s'écoulent lors d'un voyage vers un nouveau monde.</SoS.Settings.MinTravelTime.Desc>
+	<SoS.Settings.MaxTravelTime>Temps de trajet maximum (Min : {0} Max : {1} Par défaut : {2} Actuel : {3})</SoS.Settings.MaxTravelTime>
+	<SoS.Settings.MaxTravelTime.Desc>Nombre maximum d'années qui s'écoulent lors d'un voyage vers un nouveau monde.</SoS.Settings.MaxTravelTime.Desc>
+	
+	<SoS.Settings.Danger>Paramètres dangereux (modification à vos propres risques) :</SoS.Settings.Danger>
+	<SoS.Settings.EnemyMapSize>Remplacement de la taille de la carte de la flotte ennemie (Min : {0} Max : {1} Par défaut : {2} Actuel : {3})</SoS.Settings.EnemyMapSize>
+	<SoS.Settings.EnemyMapSize.Desc>Permettra aux flottes d'apparaître sur des cartes plus grandes avec des navires plus nombreux et plus gros au-dessus de CR 2000.</SoS.Settings.EnemyMapSize.Desc>
+</LanguageData>

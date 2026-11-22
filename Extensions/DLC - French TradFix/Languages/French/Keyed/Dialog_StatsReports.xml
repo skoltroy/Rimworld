@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <StatsReport_Genes>Gènes pertinents</StatsReport_Genes>
+  <StatsReport_InSunlight>au soleil</StatsReport_InSunlight>
+  <StatsReport_Clothed>habillé</StatsReport_Clothed>
+  <StatsReport_Unclothed>déshabillé</StatsReport_Unclothed>
+  <StatsReport_InSpace>dans l'espace</StatsReport_InSpace>
+  <StatsReport_NotInSpace>à la surface</StatsReport_NotInSpace>
+  <StatsReport_AgeRateMultiplier>Facteur de vieillissement</StatsReport_AgeRateMultiplier>
+  <StatsReport_AgeRateMultiplier_Desc>Facteur indiquant la vitesse à laquelle cette personne vieillit biologiquement en fonction de son âge actuel.</StatsReport_AgeRateMultiplier_Desc>
+  <StatsReport_RechargerWeightClass>Classe de poids requise</StatsReport_RechargerWeightClass>
+  <StatsReport_RechargerWeightClass_Desc>Classe de poids du méchanoïde pouvant utiliser ce rechargeur. Les méchanoïdes suivants sont compatibles</StatsReport_RechargerWeightClass_Desc>
+  <StatsReport_RechargerNeeded>Rechargeur nécessaire</StatsReport_RechargerNeeded>
+  <StatsReport_RechargerNeeded_Desc>Type de rechargeur que ce méchanoïde peut utiliser pour récupérer de l'énergie. Cela dépend de sa classe de poids.</StatsReport_RechargerNeeded_Desc>
+  <StatsReport_DeathrestEffectiveness>Efficacité de l'hibernation mortuaire</StatsReport_DeathrestEffectiveness>
+  <StatsReport_DeathrestEffectiveness_Desc>Facteur d'efficacité de ce bâtiment pour l'hibernation mortuaire. Plus il est élevé, moins l'utilisateur doit y rester longtemps.</StatsReport_DeathrestEffectiveness_Desc>
+  <StatsReport_DeathrestConnectionLimit>Limite de connexions mortuaires</StatsReport_DeathrestConnectionLimit>
+  <StatsReport_DeathrestConnectionLimit_Desc>Nombre de ces bâtiments pouvant être reliés à une personne en hibernation mortuaire. Cette limite dépend également de sa capacité d'hibernation mortuaire.</StatsReport_DeathrestConnectionLimit_Desc>
+  <StatsReport_GrowthTier>Niveau de croissance</StatsReport_GrowthTier>
+  <StatsReport_GrowthTierDesc>Les enfants franchissent des niveaux de croissance au fil du temps. Plus leur besoin d'apprentissage est élevé, plus leur progression est rapide. Lorsqu'un moment de croissance survient (à 7, 10 et 13 ans), le niveau de croissance de l'enfant détermine le nombre d'options de traits et de passions proposées. Le niveau de croissance est réinitialisé après chaque moment de croissance.</StatsReport_GrowthTierDesc>
+  <StatsReport_DevelopmentStage>Étape de vie</StatsReport_DevelopmentStage>
+  <StatsReport_DevelopmentStageDesc_Baby>Un bébé. Les bébés ne peuvent pas se déplacer seuls. Leur vie se résume à satisfaire leurs besoins élémentaires : manger, dormir et jouer. Leurs rires améliorent l'humeur des adultes à proximité, tandis que leurs pleurs les agacent.\n\nÀ 3 ans, les bébés humains deviennent des enfants.</StatsReport_DevelopmentStageDesc_Baby>
+  <StatsReport_DevelopmentStageDesc_ChildPart1>Un enfant. En général, les enfants sont plus lents et moins compétents que les adultes. Ils ont toutefois un optimisme naturel. Lorsque leur humeur est bonne, cet optimisme peut améliorer celle des colons adultes.\n\nLes enfants peuvent effectuer différents types de travail selon leur âge</StatsReport_DevelopmentStageDesc_ChildPart1>
+  <StatsReport_DevelopmentStageDesc_ChildPart2>En grandissant, les enfants acquièrent des passions et des traits supplémentaires.\n\nIls ont des besoins d'apprentissage spécifiques et ont besoin de vêtements adaptés à leur taille.\n\nLes enfants de moins de 8 ans ne ramperont pas s'ils sont blessés.\n\nÀ 13 ans, les enfants humains deviennent adultes.</StatsReport_DevelopmentStageDesc_ChildPart2>
+  <StatsReport_DevelopmentStageDesc_Adult>Un adulte. Les humains atteignent leur pleine maturité à 18 ans.</StatsReport_DevelopmentStageDesc_Adult>
+  <StatsReport_Pollution>Facteur de pollution</StatsReport_Pollution>
+  <StatsReport_FertilityAgeFactor>Facteur d'âge</StatsReport_FertilityAgeFactor>
+  <StatsReport_HasGene>Possède le gène {0_label}</StatsReport_HasGene>
+  <StatsReport_NonBaselinerDescription>Personne de xénotype {0}.\n\nÀ propos des {0} :</StatsReport_NonBaselinerDescription>
+  <Stat_Thing_Apparel_ValidLifestage>Étape de vie</Stat_Thing_Apparel_ValidLifestage>
+  <Stat_Thing_Apparel_ValidLifestage_Desc>Certains vêtements exigent que leur porteur soit dans une tranche d'âge précise.</Stat_Thing_Apparel_ValidLifestage_Desc>
+  <StatsReport_Connected>{0} relié</StatsReport_Connected>
+  <Effects>Effets</Effects>
+  <StatsReport_MissingGeneRomanceChance>Facteur de probabilité d'avoir une relation amoureuse avec une personne ne possédant pas ce gène.</StatsReport_MissingGeneRomanceChance>
+  <ImmuneTo>Immunisé contre</ImmuneTo>
+  <SocialFightChanceFactor>Facteur de risque de bagarre sociale</SocialFightChanceFactor>
+  <AggroMentalBreakSelectionChanceFactor>Risque de crise mentale violente</AggroMentalBreakSelectionChanceFactor>
+  <PrisonBreakIntervalFactor>Facteur d'intervalle entre les évasions de prison</PrisonBreakIntervalFactor>
+  <WillNeverPrisonBreak>Ne s'échappera jamais de prison.</WillNeverPrisonBreak>
+  <AlwaysAggroMentalBreak>Les crises mentales sont toujours violentes.</AlwaysAggroMentalBreak>
+  <NeverAggroMentalBreak>Les crises mentales ne sont jamais violentes.</NeverAggroMentalBreak>
+  <AddictionChanceFactor>Facteur de risque de dépendance à {0_label}</AddictionChanceFactor>
+  <OverdoseChanceFactor>Facteur de risque de surdose de {0_label}</OverdoseChanceFactor>
+  <ToleranceBuildupFactor>Facteur d'accumulation de tolérance à {0_label}</ToleranceBuildupFactor>
+  <AddictionImmune>Immunisé contre la dépendance à {0_label}.</AddictionImmune>
+  <FoodPoisoningImmune>Immunisé contre l'intoxication alimentaire.</FoodPoisoningImmune>
+  <WillNeverSocialFight>Ne se battra jamais lors de bagarres sociales.</WillNeverSocialFight>
+  <AgeFactors>Facteurs de vieillissement</AgeFactors>
+  <UnaffectedByDarkness>La vitesse de travail n'est pas affectée par l'obscurité.</UnaffectedByDarkness>
+  <PassionModAdd>Ajoute un niveau de passion à {0_label}.</PassionModAdd>
+  <PassionModDrop>Supprime toute passion pour {0_label}.</PassionModDrop>
+  <GivesAbility>Accorde une capacité</GivesAbility>
+  <GivesAbilities>Accorde des capacités</GivesAbilities>
+  <ResourceLossPerDay>{RESOURCE} : {OFFSET} par jour.</ResourceLossPerDay>
+  <Removes>Supprime</Removes>
+  <DevelopmentStage_Baby>Bébé</DevelopmentStage_Baby>
+  <DevelopmentStage_Child>Enfant</DevelopmentStage_Child>
+  <DevelopmentStage_Adult>Adulte</DevelopmentStage_Adult>
+  <StatsReport_GrowthVatSpeedFactor>Vitesse de croissance en cuve</StatsReport_GrowthVatSpeedFactor>
+  <GeneToleranceBuildupImmune>Les porteurs ne peuvent pas développer de tolérance à {0_label}.</GeneToleranceBuildupImmune>
+  <GeneToleranceBuildupFactor>Les porteurs développent une tolérance à {0_label} {1} fois plus rapidement.</GeneToleranceBuildupFactor>
+  <GeneOverdoseImmune>Les porteurs ne peuvent pas faire de surdose de {0_label}.</GeneOverdoseImmune>
+  <GeneOverdoseFactor>Les porteurs ont {1} fois plus de chances de faire une surdose de {0_label}.</GeneOverdoseFactor>
+  <StatsReport_Slave>Multiplicateur pour les esclaves (motivation faible)</StatsReport_Slave>
+  <StatsReport_Terror>Modificateur de terreur</StatsReport_Terror>
+  <StatsReport_LeaderOffset>Bonus du chef de faction</StatsReport_LeaderOffset>
+  <StatsReport_OccupiedCorpseCasket>Contient un cadavre</StatsReport_OccupiedCorpseCasket>
+  <StatsReport_InstalledRelicConvertPowerFactor>Bonus de puissance de conversion sur la carte</StatsReport_InstalledRelicConvertPowerFactor>
+  <StatsReport_RelicAtRitualMoodBonus>Bonus d'humeur pour les rituels dans la pièce</StatsReport_RelicAtRitualMoodBonus>
+  <Stat_Thing_RelicOf_Name>Relique de</Stat_Thing_RelicOf_Name>
+  <Stat_Thing_RelicOf_Desc>Idéologie à laquelle cette relique appartient.</Stat_Thing_RelicOf_Desc>
+  <Stat_Thing_RelicStatus>État de la relique</Stat_Thing_RelicStatus>
+  <Stat_Thing_RelicStatus_Desc>Objet très recherché, d'une grande importance religieuse ou idéologique.</Stat_Thing_RelicStatus_Desc>
+  <Stat_Thing_RelatedToIdeos_Name>Lié à</Stat_Thing_RelatedToIdeos_Name>
+  <Stat_Thing_RelatedToIdeos_Desc>Idéoligions auxquelles cet objet appartient.</Stat_Thing_RelatedToIdeos_Desc>
+  <StatsReports_HasRelic>Porte une relique</StatsReports_HasRelic>
+  <StatsReport_BlindPsychicSensitivityOffset>Bonus lié à la cécité</StatsReport_BlindPsychicSensitivityOffset>
+  <StatsReport_SightPsychicSensitivityOffset>Bonus lié à la vue</StatsReport_SightPsychicSensitivityOffset>
+  <Stat_Thing_StyleDominanceCategory>Style dominant</Stat_Thing_StyleDominanceCategory>
+  <Stat_Thing_StyleDominanceCategoryDesc>Style représenté par cet objet. Ce style peut être associé à certaines idéoligions. Selon leurs croyances idéoligieuses, les personnes réagissent différemment à certains styles.</Stat_Thing_StyleDominanceCategoryDesc>
+  <Stat_Thing_IdeosSatisfied>Satisfait les idéoligions</Stat_Thing_IdeosSatisfied>
+  <Style>Style</Style>
+  <Stat_Pawn_DarknessCombatShooting_Name>Précision de tir dans l'obscurité</Stat_Pawn_DarknessCombatShooting_Name>
+  <Stat_Pawn_DarknessCombatShooting_Desc>Modificateur de la probabilité de toucher une cible en fonction de son niveau d'éclairage.</Stat_Pawn_DarknessCombatShooting_Desc>
+  <Stat_Pawn_DarknessMeleeDodgeChance_Name>Chance d'esquive au corps à corps dans l'obscurité</Stat_Pawn_DarknessMeleeDodgeChance_Name>
+  <Stat_Pawn_DarknessMeleeDodgeChance_Desc>Modificateur de la chance d'esquive au corps à corps en fonction du niveau d'éclairage local.</Stat_Pawn_DarknessMeleeDodgeChance_Desc>
+  <Stat_Pawn_DarknessMeleeHitChance_Name>Chance de toucher au corps à corps dans l'obscurité</Stat_Pawn_DarknessMeleeHitChance_Name>
+  <Stat_Pawn_DarknessMeleeHitChance_Desc>Modificateur de la chance de toucher au corps à corps en fonction du niveau d'éclairage de la cible.</Stat_Pawn_DarknessMeleeHitChance_Desc>
+  <Stat_PawnDarkness_FollowingOffset>Les modificateurs suivants peuvent s'appliquer</Stat_PawnDarkness_FollowingOffset>
+  <StatsReport_BiosculptingSpeedFactor>Vitesse de biosculptage</StatsReport_BiosculptingSpeedFactor>
+</LanguageData>

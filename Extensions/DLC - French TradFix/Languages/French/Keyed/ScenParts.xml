@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ScenPart_StartingMech>Commencer avec un mécanoïde</ScenPart_StartingMech>
+  <Mechanoid>Mécanoïde</Mechanoid>
+  <RandomMech>mécanoïde aléatoire</RandomMech>
+  <StartOverseenChance>Chance d'encadrement</StartOverseenChance>
+</LanguageData>

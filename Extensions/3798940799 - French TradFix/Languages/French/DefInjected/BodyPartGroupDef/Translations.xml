@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FalloutMech_Mark1CivilManipulatorArms.label>manipulateur bras</FalloutMech_Mark1CivilManipulatorArms.label>
+  <FalloutMech_Mark1CivilManipulatorArms.labelShort>bras</FalloutMech_Mark1CivilManipulatorArms.labelShort>
+  <FalloutMech_Mark1DualGunInterface.label>double arme interface</FalloutMech_Mark1DualGunInterface.label>
+  <FalloutMech_Mark1DualGunInterface.labelShort>arme interface</FalloutMech_Mark1DualGunInterface.labelShort>
+  <FalloutMech_Mark1SawInterface.label>scie interface</FalloutMech_Mark1SawInterface.label>
+  <FalloutMech_Mark1SawInterface.labelShort>scie interface</FalloutMech_Mark1SawInterface.labelShort>
+  <FalloutMech_Mark1PincerInterface.label>pince interface</FalloutMech_Mark1PincerInterface.label>
+  <FalloutMech_Mark1PincerInterface.labelShort>pince interface</FalloutMech_Mark1PincerInterface.labelShort>
+  <FalloutMech_Mark1ManipulatorLeft.label>gauche manipulateur</FalloutMech_Mark1ManipulatorLeft.label>
+  <FalloutMech_Mark1ManipulatorLeft.labelShort>manipulateur</FalloutMech_Mark1ManipulatorLeft.labelShort>
+  <FalloutMech_Mark1ManipulatorRight.label>droite manipulateur</FalloutMech_Mark1ManipulatorRight.label>
+  <FalloutMech_Mark1ManipulatorRight.labelShort>manipulateur</FalloutMech_Mark1ManipulatorRight.labelShort>
+  <FalloutMech_NexGenManipulatorArms.label>manipulateur bras</FalloutMech_NexGenManipulatorArms.label>
+  <FalloutMech_NexGenManipulatorArms.labelShort>bras</FalloutMech_NexGenManipulatorArms.labelShort>
+  <FalloutMech_GutsyGunInterface.label>10mm arme interface</FalloutMech_GutsyGunInterface.label>
+  <FalloutMech_GutsyGunInterface.labelShort>arme interface</FalloutMech_GutsyGunInterface.labelShort>
+  <FalloutMech_GutsyFlamerInterface.label>lance-flammes interface</FalloutMech_GutsyFlamerInterface.label>
+  <FalloutMech_GutsyFlamerInterface.labelShort>flamer interface</FalloutMech_GutsyFlamerInterface.labelShort>
+  <FalloutMech_GutsyPincerInterface.label>militaire pince interface</FalloutMech_GutsyPincerInterface.label>
+  <FalloutMech_GutsyPincerInterface.labelShort>pince interface</FalloutMech_GutsyPincerInterface.labelShort>
+</LanguageData>

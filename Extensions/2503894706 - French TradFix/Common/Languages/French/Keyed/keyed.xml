@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+ <ms.label>mine de {0}</ms.label>
+ <ms.description><![CDATA[Creuser dans la croûte planétaire et extraire {0}.
+
+Rendement : {1:n0} {2}]]></ms.description>
+ <ms.jobString>Extraction de {0}</ms.jobString>
+ <ms>Conduit d'extraction</ms>
+ <ms.global>Global</ms.global>
+ <ms.gameneeded>Les paramètres par matériau sont disponibles pendant une partie en cours.</ms.gameneeded>
+ <ms.work>Travail</ms.work>
+ <ms.yield>Rendement</ms.yield>
+ <ms.material>Matériau</ms.material>
+ <ms.density>Tailles des amas de ressources</ms.density>
+ <ms.minework>Travail d'extraction par unité de ressource</ms.minework>
+ <ms.commonality>Rareté des ressources</ms.commonality>
+ <ms.density.tip><![CDATA[Contrôle la taille des gisements de ressources. Influe sur les <i>rendements</i>.
+
+Aucun effet sur les morceaux de pierre.
+
+REMARQUE : les rendements sont plafonnés pour produire au moins <i>une</i> unité d'un matériau. Si le rendement est réduit davantage, la valeur du rendement ne change pas : à la place, la quantité de travail augmente pour compenser.]]></ms.density.tip>
+ <ms.minework.tip><![CDATA[Contrôle la quantité de travail nécessaire pour extraire chaque ressource.
+Le travail d'extraction comporte deux éléments : Creuser <i>jusqu'aux</i> ressources, puis Creuser <i>dans</i> les ressources.
+
+Cette option modifie l'élément Creuser <i>dans</i> ou <i>« obtenir la matière »</i>.]]></ms.minework.tip>
+ <ms.commonality.tip><![CDATA[Contrôle la quantité de travail nécessaire pour « trouver » chaque ressource.
+Le travail d'extraction comporte deux éléments : Creuser <i>jusqu'aux</i> ressources, puis Creuser <i>dans</i> les ressources.
+
+Cette option modifie l'élément Creuser <i>jusqu'aux</i> ou <i>« trouver la matière »</i>.
+
+Aucun effet sur les morceaux de pierre.]]></ms.commonality.tip>
+ <ms.work.tip><![CDATA[Modifie directement le travail nécessaire pour extraire un matériau.]]></ms.work.tip>
+ <ms.yield.tip><![CDATA[Modifie directement le rendement d'extraction d'un matériau.
+
+REMARQUE : les rendements sont plafonnés pour produire au moins <i>une</i> unité d'un matériau. Si le rendement est réduit davantage, la valeur du rendement ne change pas : à la place, la quantité de travail augmente pour compenser.]]></ms.yield.tip>
+ <ms.reload>Vous devez sauvegarder puis recharger pour que les modifications prennent effet</ms.reload>
+ <ms.unfinished>Travail d'extraction de {0} non terminé</ms.unfinished>
+</LanguageData>

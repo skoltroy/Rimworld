@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+    <name>RimFallout : Mr. Handy - French TradFix</name>
+    <author>第九大奇迹泯灭了</author>
+    <packageId>pressanybutton.MrHandy</packageId>
+    <supportedVersions>
+        <li>1.6</li>
+        <li>1.7</li>
+    </supportedVersions>
+    <modDependencies>
+        <li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl></li>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>Biotech</displayName>
+            <downloadUrl>https://store.steampowered.com/app/1826140/</downloadUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+    </loadAfter>
+    <description>添加了《辐射》系列中的多种巧手先生，在解锁标准机械科技以后便能研究。
+        巧手先生：一种将多条机械臂、悬浮机体与家政服务结合起来的多用途机器人。本模组同时参考了早期作品的六臂造型与后续作品熟悉的三眼轮廓。 围绕这一家族，本模组引入了帮手小姐、护工先生、农工先生，以及军用型号狂风先生。原作中的家政、医疗与军用分工，在这里被重新编排成适合殖民地生活的岗位。 型号分支、研究顺序、核心需求和武器配置均服务于本模组的玩法设计。
+        最大特色：让机械族具备社交能力！
+        帮手小姐将医疗、育儿与社交事务集中在一台机体上。除了搬运、灭火和清洁，她还能参与患者护理、照料儿童、管理囚犯、再替殖民地接待一支来访商队。
+        如果有任何冲突或bug，请告知我，感谢！
+
+        This mod adds several Mister Handy models and variants inspired by the Fallout series. Their research becomes available after unlocking Standard Mechtech.
+        Mister Handy is a multipurpose robot combining multiple mechanical arms, a hovering chassis, and domestic service programming. This mod draws inspiration from both the classic six-armed design of the early games and the iconic three-eyed design of later entries. Miss Nanny, Mister Orderly, Mister Farmhand, and the military Mister Gutsy bring household assistance, agriculture, medicine, and combat support to your colony. Research progression, subcore requirements, and weapon configurations have been adapted to RimWorld’s gameplay.
+        Key feature: a mechanoid that can handle social duties!
+        Miss Nanny combines medical care, childcare, and social duties in a single chassis. Alongside hauling, firefighting, and cleaning, she can tend patients, care for children, manage prisoners, and trade with visiting merchants on your orders. From looking after your colonists to representing the colony in trade, she is always ready to lend a hand.
+        If you encounter any mod conflicts or bugs, please report them and include an error log and steps to reproduce the issue where possible. Thank you for your support!
+    </description>
+</ModMetaData>

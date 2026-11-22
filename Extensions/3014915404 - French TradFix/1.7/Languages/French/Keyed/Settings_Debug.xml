@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <VF_DevMode>DevMode</VF_DevMode>
+  <VF_DevMode_Logging>Exploitation forestière</VF_DevMode_Logging>
+  <VF_DevMode_Troubleshooting>Dépannage</VF_DevMode_Troubleshooting>
+  <VF_DevMode_Drawers>Aide visuelle</VF_DevMode_Drawers>
+  <VF_DevMode_Pathing>Voie</VF_DevMode_Pathing>
+  <VF_DevMode_ShowRecentNews>Afficher les dernières nouvelles</VF_DevMode_ShowRecentNews>
+  <VF_DevMode_OpenQuickTestSettings>Menu de test rapide</VF_DevMode_OpenQuickTestSettings>
+  <VF_DevMode_GraphEditor>Éditeur de graphiques</VF_DevMode_GraphEditor>
+  
+  <VF_DevMode_ResetAll>Réinitialiser tous les paramètres</VF_DevMode_ResetAll>
+  <VF_DevMode_ResetVehicle>Réinitialiser {0}</VF_DevMode_ResetVehicle>
+  <VF_DevMode_ResetAllVehicles>Réinitialiser tous les véhicules</VF_DevMode_ResetAllVehicles>
+  <VF_DevMode_ResetPage>Réinitialiser la page</VF_DevMode_ResetPage>
+  <VF_DevMode_ResetAllConfirmation>Voulez-vous vraiment réinitialiser tous les paramètres aux valeurs originales ? Si vous étiez bloqué hors des paramètres Mod à partir d'une exception, vous devrez redémarrer après la réinitialisation.</VF_DevMode_ResetAllConfirmation>
+  
+  <VF_DevMode_DebugLogging>L'information de débogage.</VF_DevMode_DebugLogging>
+  <VF_DevMode_DebugLoggingTooltip>Activer l'enregistrement des messages pour afficher des valeurs spécifiques et des informations utiles pour le débogage des véhicules. Utilisez seulement si vous faites un véhicule supplémentaire.</VF_DevMode_DebugLoggingTooltip>
+  <VF_DevMode_LogThreadActivity>Activité du fil de journal</VF_DevMode_LogThreadActivity>
+  <VF_DevMode_LogThreadActivityTooltip>Enregistrez les actions async en cours sur le fil dédié de la carte actuelle en vue.</VF_DevMode_LogThreadActivityTooltip>
+  
+  <VF_DevMode_DebugDraftAnyVehicle>Projet de véhicule</VF_DevMode_DebugDraftAnyVehicle>
+  <VF_DevMode_DebugDraftAnyVehicleTooltip>Être capable de tirer et de déplacer n'importe quel véhicule, indépendamment des passagers. Utile pour les bateaux vides en eau profonde ou si vous voulez accélérer les essais.</VF_DevMode_DebugDraftAnyVehicleTooltip>
+  <VF_DevMode_DebugInstantSendOff>Lancement aérien instantané</VF_DevMode_DebugInstantSendOff>
+  <VF_DevMode_DebugInstantSendOffTooltip>Envoyez immédiatement des véhicules aériens sur la carte, sauter des animations et tout autre misc. Attendez.</VF_DevMode_DebugInstantSendOffTooltip>
+  <VF_DevMode_DebugShootAnyTurret>Tirez n'importe quelle tourelle</VF_DevMode_DebugShootAnyTurret>
+  <VF_DevMode_DebugShootAnyTurretTooltip>Être capable de tirer n'importe quelle tourelle, peu importe si la tourelle est en cours d'exploitation.</VF_DevMode_DebugShootAnyTurretTooltip>
+  <VF_DevMode_DebugSpawnVehiclesGodMode>Bâtiments de véhicules en friche (mode dieu)</VF_DevMode_DebugSpawnVehiclesGodMode>
+  <VF_DevMode_DebugSpawnVehiclesGodModeTooltip>Les plans de véhicules placés en mode dieu engendreront la variante du bâtiment plutôt que de générer un véhiculePawn pour la fraye.</VF_DevMode_DebugSpawnVehiclesGodModeTooltip>
+  
+  <VF_DevMode_DebugDrawUpgradeNodeGrid>Dessiner la grille de mise à jour</VF_DevMode_DebugDrawUpgradeNodeGrid>
+  <VF_DevMode_DebugDrawUpgradeNodeGridTooltip>Dessiner la grille de mise à niveau pour placer sur l'axe (x,y).</VF_DevMode_DebugDrawUpgradeNodeGridTooltip>
+  <VF_DevMode_DebugDrawHitbox>Dessiner la boîte à puce</VF_DevMode_DebugDrawHitbox>
+  <VF_DevMode_DebugDrawHitboxTooltip>Dessiner la boîte de réception du véhicule en mettant en évidence les cellules cartographiques qu'il occupe.</VF_DevMode_DebugDrawHitboxTooltip>
+  <VF_DevMode_DebugDrawVehicleTracks>Dessiner les rails du véhicule</VF_DevMode_DebugDrawVehicleTracks>
+  <VF_DevMode_DebugDrawVehicleTracksTooltip>Dessiner les cellules occupées par les "VehicleTracks" du véhicule qui marquent les cellules qui finiront par être endommagées par action de déplacement.</VF_DevMode_DebugDrawVehicleTracksTooltip>
+  <VF_DevMode_DebugDrawBumpers>Dessiner les pare-chocs</VF_DevMode_DebugDrawBumpers>
+  <VF_DevMode_DebugDrawBumpersTooltip>Dessiner les cellules immédiatement en avant du véhicule qui indiqueront quand le véhicule "bump" dans quelque chose et stoppe la trajectoire.</VF_DevMode_DebugDrawBumpersTooltip>
+  <VF_DevMode_DebugDrawLordMeetingPoint>Dessinez Lord Meeting Point</VF_DevMode_DebugDrawLordMeetingPoint>
+  <VF_DevMode_DebugDrawLordMeetingPointTooltip>Souligne la cellule où le point de rencontre de la caravane de véhicules de forme a été fixé.</VF_DevMode_DebugDrawLordMeetingPointTooltip>
+  <VF_DevMode_DebugDrawFleePoints>Dessiner les points de fuite</VF_DevMode_DebugDrawFleePoints>
+  <VF_DevMode_DebugDrawFleePointsTooltip>Dessiner les tentatives des personnages pour fuir les collisions de véhicules entrants.</VF_DevMode_DebugDrawFleePointsTooltip>
+  <VF_DevMode_DebugDrawGrid>Dessiner la grille de débogage</VF_DevMode_DebugDrawGrid>
+  <VF_DevMode_DebugDrawGridTooltip>Dessine les valeurs de la grille de débogage pour le type sélectionné.</VF_DevMode_DebugDrawGridTooltip>
+  
+  <VF_DevMode_DebugPathfinderDebugging>Voie locale</VF_DevMode_DebugPathfinderDebugging>
+  <VF_DevMode_DebugPathfinderDebuggingTooltip>Ouvrir le menu pour déboger les diverses sorties de la recherche de chemin (à partir de cellules et de régions)</VF_DevMode_DebugPathfinderDebuggingTooltip>
+  <VF_DevMode_DebugWorldPathfinderDebugging>Le chemin du monde</VF_DevMode_DebugWorldPathfinderDebugging>
+  <VF_DevMode_DebugWorldPathfinderDebuggingTooltip>Ouvrez le menu pour déboguer WorldPathGrid pour n'importe quel véhiculeDef.</VF_DevMode_DebugWorldPathfinderDebuggingTooltip>
+  <VF_DevMode_DebugDrawVehiclePathingCosts>Dessiner les coûts du sentier</VF_DevMode_DebugDrawVehiclePathingCosts>
+  <VF_DevMode_DebugDrawVehiclePathingCostsTooltip>Coûts de tirage par cellule/tile calculés à partir du pathfinder. Affiche le coût du chemin accumulé.</VF_DevMode_DebugDrawVehiclePathingCostsTooltip>
+  <VF_DevMode_DebugDrawPathfinderSearch>Dessiner la recherche Pathfinder</VF_DevMode_DebugDrawPathfinderSearch>
+  <VF_DevMode_DebugDrawPathfinderSearchTooltip>Dessine la recherche Pathfinder comme elle s'ouvre et ferme les nœuds à la recherche d'un chemin. Affichera également la recherche de morceaux si la recherche hiérarchique est activée. Pathfinder est volontairement ralenti afin de montrer clairement le processus, car la recherche async est trop rapide dans la plupart des cas à voir.</VF_DevMode_DebugDrawPathfinderSearchTooltip>
+</LanguageData>
+

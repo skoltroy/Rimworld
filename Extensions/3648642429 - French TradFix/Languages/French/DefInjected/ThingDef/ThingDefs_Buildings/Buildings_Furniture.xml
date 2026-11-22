@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MThings_5x5ShuttleDock.label>Plateforme de navettes 5x5</MThings_5x5ShuttleDock.label>
+  <MThings_7x7ShuttleDock.label>Plateforme de navettes 7x7</MThings_7x7ShuttleDock.label>
+  <MThings_9x9ShuttleDock.label>Plateforme de navettes 9x9</MThings_9x9ShuttleDock.label>
+  <MThings_11x11ShuttleDock.label>Plateforme de navettes 11x11</MThings_11x11ShuttleDock.label>
+  <MThings_5x5ShuttleDock.description>Plateforme de navettes compacte pour les petits appareils.</MThings_5x5ShuttleDock.description>
+  <MThings_7x7ShuttleDock.description>Plateforme de navettes standard pour les appareils moyens.</MThings_7x7ShuttleDock.description>
+  <MThings_9x9ShuttleDock.description>Grande plateforme de navettes pour les navettes lourdes.</MThings_9x9ShuttleDock.description>
+  <MThings_11x11ShuttleDock.description>Plateforme de navettes extra-large pour les plus gros appareils.</MThings_11x11ShuttleDock.description>
+</LanguageData>

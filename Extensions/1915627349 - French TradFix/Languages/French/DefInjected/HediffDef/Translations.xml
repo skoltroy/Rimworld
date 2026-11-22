@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Melted.label>fondu</Melted.label>
+  <Melted.labelNoun>a brûlure au plasma</Melted.labelNoun>
+  <Melted.description>A brûlure au plasma.</Melted.description>
+  <AcidMelted.label>fondu</AcidMelted.label>
+  <AcidMelted.labelNoun>an brûlure chimique</AcidMelted.labelNoun>
+  <AcidMelted.description>An brûlure chimique.</AcidMelted.description>
+</LanguageData>

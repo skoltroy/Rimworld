@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RitualTargetLightBallIsNotPowered>La boule lumineuse n'est pas alimentée.</RitualTargetLightBallIsNotPowered>
+  <RitualTargetNoPoweredSpeakers>Aucun haut-parleur alimenté.</RitualTargetNoPoweredSpeakers>
+  <RitualTargetCampfireNoFuel>Le feu de camp n'a plus de combustible.</RitualTargetCampfireNoFuel>
+  <RitualTargetCampfireMustBeUnroofed>Le feu de camp doit être à ciel ouvert.</RitualTargetCampfireMustBeUnroofed>
+  <RitualTargetNoDrum>Aucun tambour à proximité.</RitualTargetNoDrum>
+  <RitualTargetNeedUnroofedCells>Il faut au moins {0} cases à ciel ouvert à proximité.</RitualTargetNeedUnroofedCells>
+  <RitualTargetCampfirePartyInfo>un feu de camp allumé</RitualTargetCampfirePartyInfo>
+  <RitualTargetUnconnectedGaruanlenTreeInfo>un arbre gauranlen non relié</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <RitualTargetConnectedGauranlenTree>Déjà relié à {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
+  <RitualTargetConnectionTornGauranlenTree>La connexion de {TREE_definite} a été rompue récemment. Elle pourra être rétablie dans {1}.</RitualTargetConnectionTornGauranlenTree>
+  <RitualTargetWoodInfo>Il vous faut {0} bois par participant ({1} au total).</RitualTargetWoodInfo>
+  <RitualTargetWoodInfoAppend>Un participant ne peut pas atteindre assez de bois.</RitualTargetWoodInfoAppend>
+  <RitualTargetWoodInfoAppendMultiple>{0} participants ne peuvent pas atteindre assez de bois.</RitualTargetWoodInfoAppendMultiple>
+  <RitualTargetWoodInfoWarning>{PAWN_labelShort} ne peut pas atteindre assez de bois.</RitualTargetWoodInfoWarning>
+  <RitualTargetUnreachable>{0} doit pouvoir atteindre la cible du rituel.</RitualTargetUnreachable>
+  <Accuse>Accuser</Accuse>
+  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} ne croit pas à la scarification idéologique et n'appréciera pas d'être scarifié.</RitualScarificationWarnNonScarificationIdeo>
+  <RitualScarificationWarnWimp>{PAWN_labelShort} est une mauviette et n'appréciera pas d'être scarifié.</RitualScarificationWarnWimp>
+  <RitualBlindingWarnWimp>{PAWN_labelShort} est une mauviette et n'appréciera pas d'être aveuglé.</RitualBlindingWarnWimp>
+  <RitualScarificationTriggerExtraDesc>La scarification est attendue par {IDEOMEMBERPLURAL} tant qu'il y a moins de {0} {IDEOMEMBERPLURAL} scarifiés.</RitualScarificationTriggerExtraDesc>
+  <RitualBlindingTriggerExtraDesc>Chaque colon de {IDEOMEMBER} actuel ou nouvellement arrivé doit être aveuglé.</RitualBlindingTriggerExtraDesc>
+  <RitualOutcomeExtraDesc_DancePartyWorkFocus>Tous les participants au rituel ont obtenu un bonus de concentration sur le travail pendant une journée ({PERCENTAGE} de vitesse de travail globale) !</RitualOutcomeExtraDesc_DancePartyWorkFocus>
+  <RitualOutcomeExtraDesc_BlindingPsylink>Grâce à un rituel d'aveuglement réussi, {PAWN_labelShort} a gagné un niveau de psylien !</RitualOutcomeExtraDesc_BlindingPsylink>
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Grâce à son nouveau niveau de psylien, {PAWN_pronoun} a obtenu un pouvoir psy {0}.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <RitualOutcomeExtraDesc_ConsumableInspiration>Grâce à un rituel {RITUAL} réussi, {PAWN_labelShort} a reçu une inspiration : {INSPIRATION} !</RitualOutcomeExtraDesc_ConsumableInspiration>
+  <RitualOutcomeExtraDesc_SkylanternWanderers>Vos lanternes célestes ont attiré des voyageurs amicaux. Ils viendront vous rendre visite et vous offrir un cadeau.</RitualOutcomeExtraDesc_SkylanternWanderers>
+  <RitualOutcomeExtraDesc_Execution>Tous les esclaves participants ont été bouleversés par la mort dont ils ont été témoins. Leur soumission a atteint son niveau maximal.</RitualOutcomeExtraDesc_Execution>
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>La qualité du rituel vous a rapporté {2} points de développement (de {0} à {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>Impossible d'attribuer des points de développement au-delà de {0}.</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>La mauvaise qualité du rituel n'a rapporté aucun point de développement.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
+  <RitualAttachedReward>Récompense supplémentaire</RitualAttachedReward>
+  <RitualAttachedRewardChoose>Choisir</RitualAttachedRewardChoose>
+  <RitualAttachedRewardCantUseWithRitual>Impossible d'utiliser {0} avec {1}.</RitualAttachedRewardCantUseWithRitual>
+  <RitualAttachedRewardRequiredMemeAny>Nécessite n'importe lequel de ces mèmes</RitualAttachedRewardRequiredMemeAny>
+  <RitualAttachedRewardRequiredFaction>Nécessite la faction {0}</RitualAttachedRewardRequiredFaction>
+  <RitualAttachedOutcomes_Positive>positif</RitualAttachedOutcomes_Positive>
+  <RitualAttachedOutcomes_Negative>négatif</RitualAttachedOutcomes_Negative>
+  <RitualAttachedOutcomesInfo>Si le résultat de {0} est {1}</RitualAttachedOutcomesInfo>
+  <RitualAttachedApplliesForOutcome>À la suite de tout résultat {0}</RitualAttachedApplliesForOutcome>
+  <RitualAttachedApplliesForOutcomes>À la suite de tout résultat {0}</RitualAttachedApplliesForOutcomes>
+  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>L'agitation causée par {0} a attiré des animaux curieux !\n\nIls semblent habitués au contact humain et rejoignent la colonie.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
+  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>{0} a fait pousser une gousse gauranlen à proximité.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
+  <RitualAttachedOutcomeCantApply>Impossible d'appliquer la récompense</RitualAttachedOutcomeCantApply>
+  <RitualAttachedOutcomeCantApply_NoValidSpot>Aucun emplacement valide</RitualAttachedOutcomeCantApply_NoValidSpot>
+  <RitualAttachedOutcomeCantApply_ExtremeBiome>Biome extrême</RitualAttachedOutcomeCantApply_ExtremeBiome>
+  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>Un complexe ancien à explorer est déjà connu.</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
+  <RitualAttachedOutcomeCantApply_NotAvailableRightNow>Indisponible pour le moment.</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
+  <IdeoBuildingVariationOf>Ce bâtiment est une variante de</IdeoBuildingVariationOf>
+  <IdeoBuildingMinimumExpectations>Attentes minimales</IdeoBuildingMinimumExpectations>
+  <Optional>facultatif</Optional>
+  <Expectations>attentes</Expectations>
+  <RitualRepeatPenaltyTip>Répéter un rituel dans les {0} jours réduit sa qualité. {1} jours se sont écoulés depuis le dernier rituel ; la qualité actuelle est donc réduite de {2}. Cette pénalité sera nulle dans {3} jours.</RitualRepeatPenaltyTip>
+  <RitualOutcomeCompTip_RitualTargetDefsPart1>Pour obtenir la meilleure qualité, commencez le rituel {0} à {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
+  <RitualOutcomeCompTip_RitualTargetDefsPart2>Actuellement, le rituel {0} est commencé à {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
+  <RitualDevelopmentPoints>Points de développement</RitualDevelopmentPoints>
+  <RitualDevelopmentPointsTip>Terminer ce rituel rapporte de {0} à {1} points de développement selon sa qualité.</RitualDevelopmentPointsTip>
+  <RitualOutcomeBlockedNoPower>{0} doit être alimenté.</RitualOutcomeBlockedNoPower>
+  <ForSlaveUse>Pour les esclaves</ForSlaveUse>
+  <SellingAsSlave>Si vous vendez quelqu'un à une faction autre que la sienne, cette personne devient esclave.</SellingAsSlave>
+  <SellingAsRansom>Si vous vendez quelqu'un à sa propre faction, il est libéré contre rançon et ne devient pas esclave.</SellingAsRansom>
+  <MemeGoodwillImpact_Player>Nous sommes {0}</MemeGoodwillImpact_Player>
+  <MemeGoodwillImpact_Other>Ils sont {0}</MemeGoodwillImpact_Other>
+  <TextMote_SuppressionIncreased>Soumission de l'esclave : {0}</TextMote_SuppressionIncreased>
+  <RoleRequirementsLabel>Conditions requises</RoleRequirementsLabel>
+  <RoleEffectsLabel>Effets passifs</RoleEffectsLabel>
+  <RoleRequirementLabelSameIdeo>Doit être {0}</RoleRequirementLabelSameIdeo>
+  <RoleRequirementLabelSupremeGender>Doit être {0}</RoleRequirementLabelSupremeGender>
+  <RoleRequirementCannotBe>Ne peut pas être un enfant</RoleRequirementCannotBe>
+  <RoleGrantedAbilitiesLabel>Capacités</RoleGrantedAbilitiesLabel>
+  <RoleRequiredApparelLabel>Vêtements requis</RoleRequiredApparelLabel>
+  <RoleRitualsLabel>Rôle dans les rituels</RoleRitualsLabel>
+  <RoleBelieverCountDesc>Ce rôle devient actif lorsque votre faction compte {1} {0}. Il devient inactif lorsqu'elle n'en compte plus que {3} {2}.</RoleBelieverCountDesc>
+  <RoleExpectationOffset>Augmente les attentes de {0} niveaux.</RoleExpectationOffset>
+  <RoleRaisedExpectation>Les attentes de {0} sont plus élevées.</RoleRaisedExpectation>
+  <RoleRaisedExpectationGracePeriod>Les attentes de {0} augmenteront dans {1}.</RoleRaisedExpectationGracePeriod>
+  <IdeoLeaderDifferentIdeoThoughtLabel>Dirigé par {0}</IdeoLeaderDifferentIdeoThoughtLabel>
+  <AbilityDisabled_IncapableOfWorkTag>{PAWN_nameDef} ne peut pas effectuer le travail {1}.</AbilityDisabled_IncapableOfWorkTag>
+  <AbilityDisabledNoAltarOrRitualsSpot>Aucun autel ni lieu de rituel accessible.</AbilityDisabledNoAltarOrRitualsSpot>
+  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>Aucun autel, idéogramme ni lieu de rituel accessible.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
+  <AbilityDisabledNoRitualSpot>Aucun lieu de rituel accessible.</AbilityDisabledNoRitualSpot>
+  <TextMote_WillReduced>Volonté\n{0} à {1}</TextMote_WillReduced>
+  <ConfirmationCharityJoiner>Accepter cette offre de rejoindre la colonie est un acte de charité. Si vous refusez, les personnes suivantes seront mécontentes en raison de leurs convictions favorables à la charité :\n{0}\n\nVoulez-vous vraiment refuser cette offre ?</ConfirmationCharityJoiner>
+  <BelieversIn>Croyants en {0} ({1})</BelieversIn>
+  <AddPrecept>Ajouter : {0}</AddPrecept>
+  <Precept>précepte</Precept>
+  <IdeoBuilding>bâtiment</IdeoBuilding>
+  <IdeoRelic>relique</IdeoRelic>
+  <GiveItemsTo>Donner {0} à {1_nameDef}</GiveItemsTo>
+  <CannotGiveItemsTo>Impossible de donner {0} à {1_nameDef}</CannotGiveItemsTo>
+  <NoItemFound>Aucun objet trouvé</NoItemFound>
+  <OutfitSlave>Esclave</OutfitSlave>
+  <RelicInfoFound>Informations sur la relique trouvées</RelicInfoFound>
+  <InactiveRoleRequiresMoreBelievers>inactif, nécessite au moins {0} {1}s (actuellement {2})</InactiveRoleRequiresMoreBelievers>
+  <Certainty>Certitude</Certainty>
+  <EmancipateNonCololonistWithFactionTooltip>L'esclave quittera la carte à pied et retournera dans sa faction d'origine, {0}.</EmancipateNonCololonistWithFactionTooltip>
+  <EmancipateNonCololonistWithoutFactionTooltip>L'esclave quittera la carte à pied.</EmancipateNonCololonistWithoutFactionTooltip>
+  <EmancipateCololonistTooltip>L'esclave redeviendra colon.</EmancipateCololonistTooltip>
+  <WorshippedTerminalFactionBecameHostileTimed>Vous êtes resté trop longtemps au village. Les habitants de {FACTION_name} attaquent !</WorshippedTerminalFactionBecameHostileTimed>
+  <WorshippedTerminalRaidIncoming>Les villageois reviennent des environs pour protéger le terminal vénéré !</WorshippedTerminalRaidIncoming>
+  <RelicHuntFoundRelicSite>La relique se trouve dans une structure ancienne protégée par un système de sécurité composé de plusieurs unités.\n\nVous pouvez vaincre les forces de sécurité une unité à la fois, ou prendre la relique et tenter de fuir avant qu'elles ne vous rattrapent.</RelicHuntFoundRelicSite>
+  <RelicHuntFoundRelicSitePeaceful>La relique se trouve dans une ancienne structure à proximité.</RelicHuntFoundRelicSitePeaceful>
+  <Relic>relique</Relic>
+  <RitualSeat>Siège de rituel</RitualSeat>
+  <RitualPredictedOutcomeDescNumActiveLoudspeakers>Haut-parleurs actifs</RitualPredictedOutcomeDescNumActiveLoudspeakers>
+  <RitualPredictedOutcomeDescNumDrums>Tambours</RitualPredictedOutcomeDescNumDrums>
+  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>L'utilisation du lieu de rituel réduit de {0} le bonus d'humeur de tous les participants.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
+  <ExpectedConvictionChance>Chance de conviction</ExpectedConvictionChance>
+  <MustBePlacedIndoors>Doit être placé à l'intérieur.</MustBePlacedIndoors>
+  <ConnectedPawn>Relié à</ConnectedPawn>
+  <ConnectedPawnDesc>La personne à laquelle cet {TREE_label} est relié. Si cette personne meurt, cet {TREE_label} ne pourra pas être relié à quelqu'un d'autre pendant {DURATION}.</ConnectedPawnDesc>
+  <ConnectionTorn>Connexion rompue. Peut être rétablie dans {0}.</ConnectionTorn>
+  <ConnectedPawnAway>{PAWN_nameDef} est trop loin</ConnectedPawnAway>
+  <TreeBlockedByNearbyBuildingsDesc>Planter {PLANT_definite} près de bâtiments artificiels réduira progressivement la force de sa connexion. Celle-ci détermine le nombre maximal de dryades que {PLANT_definite} peut soutenir à la fois.\n\nVoulez-vous vraiment le planter ici ?</TreeBlockedByNearbyBuildingsDesc>
+  <GauranlenModeChangeDescFull>Changer la caste des dryades de {TREE_definite} demande du temps et de l'énergie.\n\nAprès que la personne reliée aura interagi avec l'arbre, toutes les dryades passeront {DURATION} jours dans des cocons pendant leur métamorphose vers la caste choisie.\n\nLes cocons existants annuleront leur transformation pour que leurs occupants puissent adopter la caste actuelle.</GauranlenModeChangeDescFull>
+  <ChangeModeDesc>Changer le type de dryades engendrées par {TREE_definite}.</ChangeModeDesc>
+  <ConnectionStrengthFall>Perte de force de connexion</ConnectionStrengthFall>
+  <ConnectionStrength>Force de connexion</ConnectionStrength>
+  <ConnectionStrengthDisplay>Force : {0}</ConnectionStrengthDisplay>
+  <ConnectionStrengthDesc>Détermine le nombre de dryades que cet arbre peut soutenir.</ConnectionStrengthDesc>
+  <MaximumDryads>Nombre max. de dryades</MaximumDryads>
+  <MaximumDryadsDesc>Nombre maximal de dryades que cet arbre peut soutenir.</MaximumDryadsDesc>
+  <MaxDryadsBasedOnConnectionStrength>Nombre max. de dryades selon la force de connexion</MaxDryadsBasedOnConnectionStrength>
+  <PruningConnectionStrength>Gain de force de connexion grâce à l'élagage</PruningConnectionStrength>
+  <PruningHoursToMaintain>Heures d'entretien par jour</PruningHoursToMaintain>
+  <DesiredConnectionStrength>Force souhaitée</DesiredConnectionStrength>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} élaguera {TREE_definite} assez souvent pour maintenir la force de connexion au-dessus de ce niveau.\n\nUne force supérieure permet de soutenir plus de dryades, mais diminue plus vite et nécessite donc un élagage plus fréquent.\n\nVous pouvez cliquer sur la barre pour régler la force de connexion souhaitée.\n\nPerte de force de connexion par jour : {FALL}\n\nLa force de connexion dépend des bâtiments voisins.</DesiredConnectionStrengthDesc>
+  <WaitingForConnectorToChangeCaste>En attente de {CONNECTEDPAWN_nameDef} pour changer la caste des dryades.</WaitingForConnectorToChangeCaste>
+  <GauranlenTreeMode>Caste des dryades</GauranlenTreeMode>
+  <NoCaste>Aucune caste</NoCaste>
+  <GauranlenTreeModeDesc>Détermine la caste de dryades actuellement produite.</GauranlenTreeModeDesc>
+  <SpawningDryadIn>Apparition de {DRYAD_label} dans {TIME}</SpawningDryadIn>
+  <ChangingDryadIntoType>Transformation de {DRYAD_labelShort} en {TYPE_label}.</ChangingDryadIntoType>
+  <HoursEveryDay>{0} heures par jour</HoursEveryDay>
+  <HoursEveryOtherDay>{0} heures tous les deux jours</HoursEveryOtherDay>
+  <DryadProducesResourcesDesc>Les {DRYAD_labelPlural} produisent {RESOURCES} tous les {DURATION}.</DryadProducesResourcesDesc>
+  <DryadCannotChangeMaster>{ANIMAL_nameDef} est relié à {MASTER_nameDef} par {ANIMAL_possessive} arbre gauranlen. Le maître de {ANIMAL_possessive} ne peut pas être changé.</DryadCannotChangeMaster>
+  <ConnectionStrengthTooWeakForGaumakerPod>Force de connexion trop faible pour créer une gousse gauranlen.</ConnectionStrengthTooWeakForGaumakerPod>
+  <Unconnected>Non relié</Unconnected>
+  <DryadPlural>Dryades</DryadPlural>
+  <ConnectionStrengthAffectedBy>Force de connexion influencée par</ConnectionStrengthAffectedBy>
+  <CurrentlyAffectedBy>Actuellement influencée par</CurrentlyAffectedBy>
+  <NotEnoughConnectionStrengthForSingleDryad>Une force de connexion de {0} est nécessaire pour soutenir une dryade.</NotEnoughConnectionStrengthForSingleDryad>
+  <CannotAssignAllowedAreaToDryad>Impossible d'attribuer une zone autorisée</CannotAssignAllowedAreaToDryad>
+  <TargetNightOutdoors>Cible à l'extérieur, de nuit</TargetNightOutdoors>
+  <TargetDarkIndoors>Cible à l'intérieur, dans l'obscurité</TargetDarkIndoors>
+  <TargetDayOutdoors>Cible à l'extérieur, de jour</TargetDayOutdoors>
+  <TargetLitIndoors>Cible à l'intérieur, dans un lieu éclairé</TargetLitIndoors>
+  <RechargeableCharging>En charge</RechargeableCharging>
+  <RechargeableReady>Prêt</RechargeableReady>
+  <RoleRequirementSkill>Compétence</RoleRequirementSkill>
+  <RoleRequirementSkillAny>L'une des compétences</RoleRequirementSkillAny>
+  <RoleEffectWontUseRangedWeapons>N'utilisera pas d'armes à distance</RoleEffectWontUseRangedWeapons>
+  <RoleEffectWontUseMeleeWeapons>N'utilisera pas d'armes de mêlée</RoleEffectWontUseMeleeWeapons>
+  <RoleEffectProductionQualityOffset>Qualité de {0} pour l'artisanat ou la construction</RoleEffectProductionQualityOffset>
+  <RoleEffectHuntingRevengeChance>Risque de représailles lors de la chasse : {0}</RoleEffectHuntingRevengeChance>
+  <RoleEffectGiveThoughtOnTended>Accorde une pensée</RoleEffectGiveThoughtOnTended>
+  <AssignColonists>Affecter des colons à votre idéoligion</AssignColonists>
+  <RemoveNewIdeoligion>Supprimer la nouvelle idéoligion</RemoveNewIdeoligion>
+  <MakeIdeoligionPrimary>Faire de cette idéoligion votre idéoligion principale</MakeIdeoligionPrimary>
+  <GameOverArchotechInvokedIntro>Vous avez invoqué le noyau de l'archonexus. Le monde est baigné d'une lumière aveuglante et le temps semble ralentir...\n\n</GameOverArchotechInvokedIntro>
+  <GameOverArchotechInvokedEnding>Le dieu-machine vous a remarqué. Personne ne peut prédire la suite. Il pourrait vous détruire, communiquer directement avec vous ou transporter votre conscience vers un autre plan de réalité.\n\nVous sentez une vaste structure inhumaine, à la complexité fractale infinie, s'insinuer dans votre esprit. Le temps et l'échelle commencent à se dissoudre. C'est terrifiant. C'est magnifique...</GameOverArchotechInvokedEnding>
+  <GameOverColonistsTranscended>Ces colons ont transcendé :\n\n{0}</GameOverColonistsTranscended>
+  <Reward_ArchonexusMapPart>Fragment de carte de l'archonexus</Reward_ArchonexusMapPart>
+  <Reward_ArchonexusMapPartLabel>Fragment de carte de l'archonexus {0}/{1}</Reward_ArchonexusMapPartLabel>
+  <RelicsLower>reliques</RelicsLower>
+  <RelicLower>relique</RelicLower>
+  <LinkedTo>Relié à</LinkedTo>
+  <SupplySatellite>Satellite de ravitaillement</SupplySatellite>
+  <CannotExtractSkull>Le colon ne veut pas extraire le crâne du cadavre (précepte « empaler le crâne » absent)</CannotExtractSkull>
+  <TipPreviewRitualAmbienceSound>Écouter un aperçu de l'ambiance sonore du rituel</TipPreviewRitualAmbienceSound>
+  <ChooseStuffForRelic>Choisir</ChooseStuffForRelic>
+  <RelicStuff>Fabriqué en</RelicStuff>
+  <BiosculpterPodCycleLabel>Cycle</BiosculpterPodCycleLabel>
+  <BiosculpterPodCycleLabelLoading>chargement des ingrédients</BiosculpterPodCycleLabelLoading>
+  <BiosculpterPodCycleWillBiotune>(et biaccordage)</BiosculpterPodCycleWillBiotune>
+  <BiosculpterPodCycleCommand>Lancer un cycle de {0}</BiosculpterPodCycleCommand>
+  <BiosculpterPodCycleDuration>Durée</BiosculpterPodCycleDuration>
+  <BiosculpterPodCycleDurationTranshumanists>Durée (transhumanistes)</BiosculpterPodCycleDurationTranshumanists>
+  <BiosculpterPodCycleSelection>Prêt à choisir un cycle</BiosculpterPodCycleSelection>
+  <BiosculpterPodCycleStandby>En attente du cycle {CYCLE} pour {PAWN_labelShort}</BiosculpterPodCycleStandby>
+  <BiosculpterPodCycleSelectionNoPower>Nourriture chargée, sans électricité</BiosculpterPodCycleSelectionNoPower>
+  <BiosculpterCycleTimeRemaining>Se termine dans</BiosculpterCycleTimeRemaining>
+  <BiosculpterCycleAccelerated>accéléré pour les transhumanistes</BiosculpterCycleAccelerated>
+  <BiosculpterCycleNoPowerInterrupt>En pause : absence d'électricité (interruption dans {TIME})</BiosculpterCycleNoPowerInterrupt>
+  <BiosculpterBiotunedTo>Biaccordé à</BiosculpterBiotunedTo>
+  <BiosculpterInteruptCycle>Interrompre le cycle</BiosculpterInteruptCycle>
+  <BiosculpterInteruptCycleDesc>Interrompre le cycle en cours. L'occupant sera éjecté sans bénéficier des effets du cycle et souffrira temporairement du mal des biosculpteurs.</BiosculpterInteruptCycleDesc>
+  <BiosculpterEnteringMessage>{PAWN_labelShort} va entrer dans le biosculpteur et commencer un cycle de {CYCLE}.</BiosculpterEnteringMessage>
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} va récupérer {INGREDIENTS}, puis commencer un cycle de {CYCLE}.</BiosculpterLoadingStartedMessage>
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} va récupérer {INGREDIENTS}, installer {DOWNED_labelShort} dans le biosculpteur, puis commencer un cycle de {CYCLE}.</BiosculpterCarryStartedMessage>
+  <NumNutrition>{0} de nutrition</NumNutrition>
+  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} a été éjecté d'un biosculpteur faute d'électricité.</BiosculpterNoPowerEjectedMessage>
+  <BiosculpterHealCompletedMessage>{PAWN_labelShort} a terminé un cycle de guérison.</BiosculpterHealCompletedMessage>
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} a terminé un cycle de guérison et {PAWN_possessive} {HEDIFF_label} a été soigné.</BiosculpterHealCompletedWithCureMessage>
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} a terminé {PAWN_possessive} cycle d'inversion de l'âge.</BiosculpterAgeReversalCompletedMessage>
+  <AgeReversalExpectationDeadline>{PAWN_pronoun} attend la prochaine inversion de l'âge dans {DEADLINE} jours.</AgeReversalExpectationDeadline>
+  <BiosculpterPleasureCompletedMessage>Le cycle de plaisir de {PAWN_labelShort} est terminé.</BiosculpterPleasureCompletedMessage>
+  <BiosculpterCleanlinessSpeedFactor>Facteur de vitesse de nettoyage</BiosculpterCleanlinessSpeedFactor>
+  <BiosculpterBiotunedSpeedFactor>Facteur de vitesse lié au biaccordage</BiosculpterBiotunedSpeedFactor>
+  <HealingCycleWillHeal>Ces problèmes de santé seront guéris</HealingCycleWillHeal>
+  <HealingCycleOneWillHeal>L'un de ces problèmes de santé sera guéri</HealingCycleOneWillHeal>
+  <MissingRequiredResearch>Recherche requise manquante</MissingRequiredResearch>
+  <BiosculpterRequiresIngredients>Nécessite</BiosculpterRequiresIngredients>
+  <OnCompletionOfCycle>À la fin du cycle {CYCLE}, les effets suivants se produiront</OnCompletionOfCycle>
+  <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} n'a aucun problème de santé pouvant être soigné par un cycle {CYCLE}.\n\nVoulez-vous continuer ?</BiosculpterNoCoditionsToHeal>
+  <Basic>de base</Basic>
+  <ChangeStyleDesc>Modifier le style de construction. Cette option est purement visuelle et n'a aucun effet sur le jeu.</ChangeStyleDesc>
+  <ChangeStyleDisabledNoCategories>Aucun style disponible.</ChangeStyleDisabledNoCategories>
+  <SpacedroneSelfDestructsIn>Autodestruction du drone spatial dans {0}</SpacedroneSelfDestructsIn>
+  <CannotDeathrest>mort-repos impossible</CannotDeathrest>
+  <StartDeathrest>Commencer le mort-repos</StartDeathrest>
+  <ConfirmExitDeathrestUnderMinDays>Terminer le mort-repos en toute sécurité prend {MINDURATION}, mais {PAWN_nameDef} ne fait le mort-repos que depuis {CURDURATION}.\n\nRéveiller {PAWN_nameDef} maintenant interromprait {PAWN_possessive} mort-repos, déséquilibrant {PAWN_possessive} métabolisme et rendant {PAWN_objective} malade pendant plusieurs jours.\n\nVoulez-vous vraiment réveiller {PAWN_objective} ?</ConfirmExitDeathrestUnderMinDays>
+  <Deathresting>en mort-repos</Deathresting>
+  <CanWakeSafely>peut désormais être réveillé en toute sécurité.</CanWakeSafely>
+  <DisabledByGene>désactivé par un gène</DisabledByGene>
+  <WakeDisabledCriticalCondition>{PAWN_nameDef} est dans un état critique.</WakeDisabledCriticalCondition>
+  <DrainRate>Taux de drain</DrainRate>
+  <RegenerationRate>Taux de régénération</RegenerationRate>
+  <NextDeathrestNeed>{PAWN_nameDef} devrait entrer en mort-repos dans {DURATION} pour éviter l'épuisement.</NextDeathrestNeed>
+  <PawnShouldDeathrestNow>{PAWN_nameDef} devrait bientôt entrer en mort-repos pour éviter l'épuisement.</PawnShouldDeathrestNow>
+  <AutoTakeHemogenDesc>Détermine si {PAWN_nameDef} ingérera automatiquement des pochettes d'hémogène lorsque {PAWN_possessive} réserve d'hémogène sera inférieure à {MIN}.\n\nL'ingestion automatique est actuellement {ONOFF}.</AutoTakeHemogenDesc>
+  <ConsumeHemogenBelow>Consommer l'hémogène sous</ConsumeHemogenBelow>
+  <NeverConsumeHemogen>Ne jamais consommer d'hémogène.</NeverConsumeHemogen>
+  <WillKill>Tuera</WillKill>
+  <WillCauseSeriousBloodloss>Provoquera une hémorragie grave</WillCauseSeriousBloodloss>
+  <TooSmall>trop petit</TooSmall>
+  <BoundTo>Lié à</BoundTo>
+  <WillBindOnFirstUse>Se liera définitivement lors de la première utilisation.</WillBindOnFirstUse>
+  <TimeActiveThisDeathrest>Temps actif pendant ce mort-repos</TimeActiveThisDeathrest>
+  <MinimumNeededToApply>Minimum de {0} requis pour appliquer</MinimumNeededToApply>
+  <CannotAssignBedCannotDeathrest>Mort-repos impossible</CannotAssignBedCannotDeathrest>
+  <CannotAssignAlreadyBound>Déjà lié à {0_nameDef}</CannotAssignAlreadyBound>
+  <CannotAssignBedCannotBindToMoreBuildings>Impossible de se lier à davantage de {BUILDING_labelPlural}</CannotAssignBedCannotBindToMoreBuildings>
+  <Aptitude>aptitude</Aptitude>
+  <Aptitudes>aptitudes</Aptitudes>
+  <AptitudePlural>aptitudes</AptitudePlural>
+  <AptitudesDesc>L'aptitude permet à une personne d'effectuer une tâche à un niveau supérieur ou inférieur à celui de sa compétence acquise.\n\nPar exemple, une aptitude de +1 pour une compétence signifie qu'une personne de niveau 5 dans cette compétence effectuera la tâche comme si elle était de niveau 6.\n\nLa valeur totale ne peut pas dépasser le niveau 20 ni descendre sous le niveau 1.</AptitudesDesc>
+  <Total>total</Total>
+  <FatherTip>Père</FatherTip>
+  <MotherTip>Mère génétique</MotherTip>
+  <RitualTargetChildBirth>un lit inoccupé</RitualTargetChildBirth>
+  <NoAppropriateBedChildBirth>Aucun lit adapté pour accoucher.</NoAppropriateBedChildBirth>
+  <NoDoctorChildBirth>Aucun médecin à proximité.</NoDoctorChildBirth>
+  <CantUseThisBed>Impossible d'utiliser ce lit.</CantUseThisBed>
+  <NotInLabor>Pas en travail.</NotInLabor>
+  <Labor>travail</Labor>
+  <LaborDilation>dilatation</LaborDilation>
+  <PregnancyApproach_Normal>normal</PregnancyApproach_Normal>
+  <PregnancyApproach_AvoidPregnancy>éviter la grossesse</PregnancyApproach_AvoidPregnancy>
+  <PregnancyApproach_TryForBaby>tenter d'avoir un bébé</PregnancyApproach_TryForBaby>
+  <PregnancyChance>risque de grossesse</PregnancyChance>
+  <PregnancyApproach>Approche de la grossesse</PregnancyApproach>
+  <ClickToChangePregnancyApproach>Cliquez pour modifier l'approche de la grossesse.</ClickToChangePregnancyApproach>
+  <PregnancyNotPossible>Grossesse impossible</PregnancyNotPossible>
+  <BirthRitualHealthyBabyChance>La chance d'une naissance saine à ce niveau de qualité était de {0_percentage}.</BirthRitualHealthyBabyChance>
+  <GivingBirth>Accouchement.</GivingBirth>
+  <Genes>gènes</Genes>
+  <GenesDesc>Les gènes associés à ce xénotype.</GenesDesc>
+  <Suppressed>suppression</Suppressed>
+  <Active>actif</Active>
+  <SuppressedDesc>Ce trait a été supprimé par un trait génétique imposé ou un gène conflictuel. Il ne sera actif que lorsque tous les conflits auront été supprimés.</SuppressedDesc>
+  <Trait>trait</Trait>
+  <Gene>gène</Gene>
+  <AddedByGene>Ajouté par un gène</AddedByGene>
+  <EjectAll>Éjecter tout</EjectAll>
+  <EjectAllDesc>Laisser tomber toutes les pochettes géniques contenues au sol.</EjectAllDesc>
+  <GenepacksStored>Pochettes géniques stockées</GenepacksStored>
+  <GenepackAutoLoad>Chargement automatique</GenepackAutoLoad>
+  <GenepackAutoLoadDesc>Si cette option est active, les transporteurs stockeront automatiquement cette pochette génique dans une banque de gènes.</GenepackAutoLoadDesc>
+  <ForcedTraits>Traits imposés</ForcedTraits>
+  <SuppressedTraits>Traits supprimés</SuppressedTraits>
+  <ForcedTraitsDesc>Ces traits seront ajoutés. Tous les traits conflictuels seront supprimés.</ForcedTraitsDesc>
+  <Complexity>Complexité</Complexity>
+  <ComplexityDesc>Quantité de complexité ajoutée au processus d'assemblage génétique.</ComplexityDesc>
+  <MaxComplexityDesc>La complexité maximale peut être augmentée en construisant des processeurs génétiques près de l'assembleur génétique.</MaxComplexityDesc>
+  <ComplexityTotal>Complexité totale</ComplexityTotal>
+  <ComplexityTotalDesc>Complexité totale de tous les gènes utilisés.</ComplexityTotalDesc>
+  <Metabolism>efficacité métabolique</Metabolism>
+  <MetabolismDesc>Efficacité métabolique totale de ces gènes une fois assemblés. Une grande efficacité signifie qu'une personne a moins besoin de nourriture ; une faible efficacité signifie qu'elle doit manger davantage.</MetabolismDesc>
+  <MetabolismTotal>Efficacité métabolique</MetabolismTotal>
+  <MetabolismTotalDesc>Efficacité métabolique totale de tous les gènes du génome. Une grande efficacité signifie qu'une personne a moins besoin de nourriture ; une faible efficacité signifie qu'elle doit manger davantage.</MetabolismTotalDesc>
+  <NumberOfGenes>Nombre de gènes</NumberOfGenes>
+  <GenePriceFactors>Facteurs du prix des gènes</GenePriceFactors>
+  <AnyLower>tout</AnyLower>
+  <ArchitesTotal>Total d'archites</ArchitesTotal>
+  <ArchitesRequired>Capsules d'archites</ArchitesRequired>
+  <ArchitesRequiredDesc>Les archites sont des mécanites archotech — des dispositifs microscopiques capables d'agir directement sur les cellules et les molécules, créés par des archotechs hyper-intelligentes. Elles accomplissent des exploits inexplicables, et certains gènes ne fonctionnent que grâce aux machineries surnaturelles des archotechs. Les humains ne peuvent pas créer d'archites — ils les trouvent seulement lorsqu'une archotech en produit pour une raison qui lui est propre.</ArchitesRequiredDesc>
+  <CancelXenogerm>Annuler le xénogerme</CancelXenogerm>
+  <CancelXenogermDesc>Arrêter tout travail sur le xénogerme actuel.</CancelXenogermDesc>
+  <AllowAllGenepacks>Autoriser toutes les pochettes géniques</AllowAllGenepacks>
+  <AllowAllGenepacksDesc>Détermine si les colons peuvent stocker automatiquement une pochette génique dans ce conteneur. Désactivez cette option si vous voulez préciser quelles pochettes géniques doivent être entreposées ici.</AllowAllGenepacksDesc>
+  <ContainedGenepacksDesc>Pochettes géniques actuellement à l'intérieur de ce conteneur.</ContainedGenepacksDesc>
+  <GenepacksToLoadDesc>Pochettes géniques désignées pour être chargées dans ce conteneur.</GenepacksToLoadDesc>
+  <GenepacksIgnoredDesc>Pochettes géniques non stockées qui ne sont pas désignées pour être chargées dans ce conteneur.</GenepacksIgnoredDesc>
+  <GenepacksToLoad>Pochettes géniques à charger</GenepacksToLoad>
+  <GenepacksToIgnore>Pochettes géniques à ignorer</GenepacksToIgnore>
+  <EjectGenepackDesc>Éjecter cette pochette génique du conteneur.</EjectGenepackDesc>
+  <ConfirmRemoveGenepack>Voulez-vous vraiment éjecter {0} ? Elle sera immédiatement éjectée au sol à proximité.</ConfirmRemoveGenepack>
+  <NoGenepacksAvailable>Aucune pochette génique disponible dans les banques de gènes à proximité.</NoGenepacksAvailable>
+  <AddToLoadingListDesc>Autoriser le chargement de cette pochette génique dans ce conteneur.</AddToLoadingListDesc>
+  <RemoveFromLoadingListDesc>Retirer cette pochette génique de la liste de chargement.</RemoveFromLoadingListDesc>
+  <Recombine>Recombiner</Recombine>
+  <RecombineDesc>Créer un nouveau xénogerme implantable à partir des données des pochettes géniques de votre bibliothèque génétique.</RecombineDesc>
+  <ContainedGenesDesc>Gènes</ContainedGenesDesc>
+  <ImplantXenogerm>Ordonner l'implantation</ImplantXenogerm>
+  <ImplantXenogermDesc>Implantez ceci à une personne pour remplacer partiellement son code génétique.\n\nIl s'agit d'une opération chirurgicale qui nécessite un médecin, un lit médical et {MEDICINEAMOUNT} de médicaments.</ImplantXenogermDesc>
+  <ImplantXenogermWarningDesc>L'implantation d'un xénogerme plongera {PAWN_nameDef} dans le coma le temps que le xénogerme s'intègre. Cette durée est en moyenne de {COMADURATION}. Elle dépend des compétences médicales du médecin et de la qualité des installations médicales.</ImplantXenogermWarningDesc>
+  <ImplantXenogermWarningOverwriteXenogenes>De plus, l'implantation d'un xénogerme écrasera les xénogènes existants. Le xénotype actuel de {PAWN_nameDef} est « {XENOTYPE} ». {PAWN_pronoun} possède les xénogènes suivants :\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningNewMetabolism>Après l'implantation, {PAWN_nameDef} aura une efficacité métabolique de {MET} et un multiplicateur de consommation alimentaire de {CONSUMPTION}.</ImplantXenogermWarningNewMetabolism>
+  <WouldYouLikeToContinue>Voulez-vous continuer ?</WouldYouLikeToContinue>
+  <CancelImplanting>Annuler l'implantation</CancelImplanting>
+  <CancelImplantingDesc>Annuler l'implantation de ce xénogerme chez {PAWN_nameDef}.</CancelImplantingDesc>
+  <Xenotype>Xénotype</Xenotype>
+  <Unique>unique</Unique>
+  <UniqueXenotypeDesc>Une variante humaine unique dont les xénogènes ne correspondent à aucun xénotype connu.</UniqueXenotypeDesc>
+  <FactorForMetabolism>Facteur pour le métabolisme génétique</FactorForMetabolism>
+  <Progress>Progression</Progress>
+  <InSunlight>À la lumière du soleil</InSunlight>
+  <ThingIsSkyExposed>{0_labelShort} est exposé au ciel.</ThingIsSkyExposed>
+  <InsertPerson>Insérer une personne</InsertPerson>
+  <InsertPersonGeneExtractorDesc>Insérez une personne dans l'extracteur génétique. Son matériel génétique sera extrait afin de créer une pochette génique contenant une sélection aléatoire de ses gènes.\n\nL'extraction génétique est douloureuse et laissera le sujet faible et somnolent pendant plusieurs jours. Le procédé est mortel pour les personnes dont les gènes sont en cours de régénération.</InsertPersonGeneExtractorDesc>
+  <ConfirmExtractXenogermWillKill>Attention : les gènes de {PAWN_nameDef} sont en cours de régénération. Extraire {PAWN_possessive} gènes avant qu'ils aient repoussé tuera {PAWN_objective}.\n\nVoulez-vous vraiment continuer ?</ConfirmExtractXenogermWillKill>
+  <GeneExtractionComplete>Extraction génétique terminée pour {PAWN_nameDef}. Extrait</GeneExtractionComplete>
+  <InsertXenogerm>Insérer un xénogerme</InsertXenogerm>
+  <InsertXenogermDesc>Insérer un xénogerme à appliquer pendant la croissance.</InsertXenogermDesc>
+  <WaitingForPawn>En attente de {PAWN_nameDef}.</WaitingForPawn>
+  <ExtractingXenogermFrom>Extraction des gènes de {PAWN_nameDef}.</ExtractingXenogermFrom>
+  <ExtractionPausedNoPower>Extraction interrompue : aucune énergie (reprend dans {TIME})</ExtractionPausedNoPower>
+  <LastIngestedDurationAgo>Dernière ingestion de {CHEMICAL_label} il y a {DURATION}.</LastIngestedDurationAgo>
+  <NamedXenogerm>xénogerme {NAME}</NamedXenogerm>
+  <InsertedThing>{0} inséré</InsertedThing>
+  <AssemblyPaused>Assemblage interrompu</AssemblyPaused>
+  <GenebankUnpowered>Banque de gènes requise non alimentée</GenebankUnpowered>
+  <Deathless>immortel</Deathless>
+  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} doit ingérer régulièrement du {0} pour survivre. Après {DEFICIENCYDURATION} sans {0}, {PAWN_pronoun} souffrira d'une carence en {0}. Après {COMADURATION}, {PAWN_pronoun} tombera dans le coma. Après {DEATHDURATION}, {PAWN_pronoun} mourra.</GeneDefChemicalNeedDurationDesc>
+  <ChemicalDependency>dépendance au {CHEMICAL_label}</ChemicalDependency>
+  <Xenogerm>Xénogerme</Xenogerm>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} restera en mort-repos tant {PAWN_pronoun} aura des blessures mortelles.</PawnWillKeepDeathrestingLethalInjuries>
+  <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef} restera dans le coma de régénération tant {PAWN_pronoun} aura des blessures mortelles.</PawnWillKeepRegeneratingLethalInjuries>
+  <DeathrestPaused>Mort-repos arrêté</DeathrestPaused>
+  <LethalInjuries>Blessures mortelles</LethalInjuries>
+  <Deathrest>mort-repos</Deathrest>
+  <Capacity>capacité</Capacity>
+  <MissingGeneRomanceChance>Chance de romance sans {GENE}</MissingGeneRomanceChance>
+  <NotInGeneBank>Absent de la banque de gènes</NotInGeneBank>
+  <ChildBirthAlwaysHealthy_Desc>Rassemblez-vous pour aider une mère à accoucher. Un médecin peut faciliter la naissance.</ChildBirthAlwaysHealthy_Desc>
+  <UntilBabyIsBorn>jusqu'à la naissance du bébé</UntilBabyIsBorn>
+  <LearningDesireTooltip>Les enfants veulent apprendre différentes activités à différents moments.</LearningDesireTooltip>
+  <DevelopmentHealthGizmoTooltip>La santé développementale est la moyenne du besoin d'apprentissage d'un enfant depuis son dernier anniversaire.\n\nLes enfants ayant une santé développementale plus élevée auront davantage d'options lors des moments de croissance et développeront plus de passions pour les compétences.</DevelopmentHealthGizmoTooltip>
+  <MustNotBePlacedCloseToAnother>Ne doit pas être placé près d'un autre {0_label}</MustNotBePlacedCloseToAnother>
+  <PollutingTerrainProgress>Pollution suivante du terrain dans</PollutingTerrainProgress>
+  <PoisonedTerrain>{0} empoisonné</PoisonedTerrain>
+  <AssignMechToControlGroup>Affecter au groupe de contrôle {0}</AssignMechToControlGroup>
+  <CurrentMechEnergyFallPerDay>Perte par jour</CurrentMechEnergyFallPerDay>
+  <CannotAssignMechToControlGroup>Impossible d'affecter au groupe de contrôle {0}</CannotAssignMechToControlGroup>
+  <AssignMechAlreadyAssigned>Déjà affecté</AssignMechAlreadyAssigned>
+  <LactatingAddedNutritionPerDay>Consomme {0} nutrition supplémentaire par jour pour produire du lait (vitesse de production du lait à {1_percentage} en raison du niveau actuel de nourriture).</LactatingAddedNutritionPerDay>
+  <LactatingStoppedBecauseFull>La lactation est interrompue : taux de remplissage du lait à 100 %</LactatingStoppedBecauseFull>
+  <LactatingStoppedBecauseHungry>La lactation est interrompue à cause de la famine.</LactatingStoppedBecauseHungry>
+  <CurrentGestationCycle>Cycle de gestation actuel</CurrentGestationCycle>
+  <RemainingGestationCycles>Cycles de gestation restants</RemainingGestationCycles>
+  <GestationCycles>Cycles de gestation</GestationCycles>
+  <GestatingMech>Gestation de {0}</GestatingMech>
+  <GestatedMech>{0} en gestation terminée</GestatedMech>
+  <GestatingMechRequiresMechanitor>{PAWN_nameDef} doit continuer la gestation</GestatingMechRequiresMechanitor>
+  <GestatedMechRequiresMechanitor>{PAWN_nameDef} doit terminer l'opération</GestatedMechRequiresMechanitor>
+  <GestationComplete>Gestation terminée</GestationComplete>
+  <ResurrectingMech>Résurrection de {0}</ResurrectingMech>
+  <ResurrectedMech>{0} ressuscité</ResurrectedMech>
+  <MechCarrierRelease>Libérer {0}</MechCarrierRelease>
+  <MechCarrierDesc>Libérer une nuée allant jusqu'à {0} {1}. Chaque {2} coûte {3} {4} à construire. Si le porteur est détruit, tous les {1} liés mourront. Les {1} ne peuvent pas être rechargés et mourront une fois leur source d'énergie épuisée.</MechCarrierDesc>
+  <MechCarrierNotEnoughResources>Ressources insuffisantes</MechCarrierNotEnoughResources>
+  <MechCarrierAutofillResources>Remplissage automatique</MechCarrierAutofillResources>
+  <MechCarrierClickToSetAutofillAmount>Cliquez pour définir la quantité souhaitée pour le remplissage automatique.</MechCarrierClickToSetAutofillAmount>
+  <MechCarrierAutofillDesc>Cette quantité détermine le maximum de ressources que vos colons placeront automatiquement dans ce {0}. Les ressources peuvent servir à créer {1}.</MechCarrierAutofillDesc>
+  <MechPowerCell>Cellule d'énergie</MechPowerCell>
+  <MechPowerCellTip>Les oursins de guerre disposent d'une source d'énergie à usage unique. Lorsque la cellule d'énergie est épuisée, le mécanoïde meurt.</MechPowerCellTip>
+  <BossgroupAvailableIn>disponible dans {0}.</BossgroupAvailableIn>
+  <RequiresMechanitor>nécessite un mécaniteur</RequiresMechanitor>
+  <AbilityDisabledNoHemogenGene>{0_labelShort} n'est pas hémogénique.</AbilityDisabledNoHemogenGene>
+  <AbilityDisabledNoHemogen>{0_labelShort} ne dispose pas d'assez d'hémogène.</AbilityDisabledNoHemogen>
+  <AbilityStartRitualDisabledChild>les enfants ne peuvent pas faire ceci.</AbilityStartRitualDisabledChild>
+  <AbilityStartRitualNoMembersOfIdeo>nécessite un {0}.</AbilityStartRitualNoMembersOfIdeo>
+  <AbilityHemogenCost>Coût en hémogène</AbilityHemogenCost>
+  <AbilityHemogenGain>Gain de base en hémogène</AbilityHemogenGain>
+  <AbilityMechSmokepopCharged>Fumigène chargé</AbilityMechSmokepopCharged>
+  <AbilityMechSmokepopRecharging>Fumigène rechargé dans {0}</AbilityMechSmokepopRecharging>
+  <AbilityMechFirefoampopCharged>Bombe de mousse chargée</AbilityMechFirefoampopCharged>
+  <AbilityMechFirefoampopRecharging>Bombe de mousse rechargée dans {0}</AbilityMechFirefoampopRecharging>
+  <PollutedTerrain>{0} pollué</PollutedTerrain>
+  <Biostarvation>Biostarvation</Biostarvation>
+  <BiostarvationExplanation>Une ou plusieurs cuves de croissance souffrent de biostarvation due à un manque de nourriture ou d'énergie.\n\nSi la biostarvation atteint 100 %, les personnes contenues mourront.</BiostarvationExplanation>
+  <InsertPersonGrowthVatDesc>Insérez une personne dans la cuve de croissance. Elle vieillira vingt fois plus vite que la normale.</InsertPersonGrowthVatDesc>
+  <InsertEmbryoGrowthVatDesc>Implantez un embryon dans la cuve de croissance. Après une gestation de {0}, la cuve produira un bébé entièrement formé, idéalement en bonne santé.</InsertEmbryoGrowthVatDesc>
+  <ImplantEmbryo>Insérer l'embryon</ImplantEmbryo>
+  <CannotInsertEmbryo>Insertion de l'embryon impossible</CannotInsertEmbryo>
+  <EmbryoAlreadyInside>Contient déjà un embryon.</EmbryoAlreadyInside>
+  <ImplantNoEmbryos>Aucun embryon</ImplantNoEmbryos>
+  <EmbryoTimeUntilBirth>Temps avant la naissance</EmbryoTimeUntilBirth>
+  <EmbryoBirthQuality>Qualité de la naissance</EmbryoBirthQuality>
+  <EmbryoSelected>Embryon sélectionné</EmbryoSelected>
+  <PersonSelected>Personne sélectionnée</PersonSelected>
+  <NoPawnsCanEnterGrowthVat>Aucune personne acceptable, âgée et non en biostarvation. Pour entrer dans la cuve de croissance, la personne doit avoir moins de {0} ans et ne pas être actuellement en biostarvation.</NoPawnsCanEnterGrowthVat>
+  <AgingSpeed>Vitesse de vieillissement</AgingSpeed>
+  <WasteLevel>Déchets</WasteLevel>
+  <DissolutionRateIndoors>à l'intérieur</DissolutionRateIndoors>
+  <DissolutionRain>sous la pluie</DissolutionRain>
+  <DissolvesEvery>Un paquet de déchets se dissout tous les {0}</DissolvesEvery>
+  <DissolutionFrozen>Gelé (ne se dissout pas).</DissolutionFrozen>
+  <CellsPerDay>{0} cellules/jour</CellsPerDay>
+  <WrongDevelopmentalStageForClothing>{0} ne peut pas porter de vêtements pour {1}</WrongDevelopmentalStageForClothing>
+  <SubcoreScannerStart>Démarrer le scanner</SubcoreScannerStart>
+  <SubcoreScannerProduces>Produit</SubcoreScannerProduces>
+  <SubcoreScannerStartDesc>Une fois que le {0} est rempli des ingrédients requis, {1}, sélectionnez un colon et faites un clic droit sur le {0} ou sur une personne abattue pour démarrer le scanner.</SubcoreScannerStartDesc>
+  <SubcoreScannerCompletesIn>Terminé dans</SubcoreScannerCompletesIn>
+  <SubcoreScannerWaitingForOccupant>En attente d'un occupant</SubcoreScannerWaitingForOccupant>
+  <SubcoreScannerWaitingForIngredients>En attente des ingrédients</SubcoreScannerWaitingForIngredients>
+  <SubcoreScannerWaitingForIngredientsDesc>Les ingrédients suivants doivent être chargés au préalable</SubcoreScannerWaitingForIngredientsDesc>
+  <SubcoreScannerPawnHasSickness>Souffre de {0}</SubcoreScannerPawnHasSickness>
+  <SubcoreScannerBabyNotAllowed>Les bébés ne sont pas autorisés</SubcoreScannerBabyNotAllowed>
+  <InsertPersonSubcoreScannerDesc>Insérer une personne dans le {0}.</InsertPersonSubcoreScannerDesc>
+  <DurationHours>Durée (heures)</DurationHours>
+  <Adult>adulte</Adult>
+  <Adults>adultes</Adults>
+  <Child>enfant</Child>
+  <Children>enfants</Children>
+  <Baby>bébé</Baby>
+  <Babies>bébés</Babies>
+  <FeralChild>enfant sauvage</FeralChild>
+  <WearableBy>Portable par</WearableBy>
+  <Reward_ReimplantXenogerm_Label>Implantation de xénogerme</Reward_ReimplantXenogerm_Label>
+  <Reward_ReimplantXenogerm_Desc>Un membre du groupe réimplantera son xénogerme chez un colon de votre choix, transformant ainsi votre colon en l'un des siens. Votre colon restera membre de votre faction et sous votre contrôle.</Reward_ReimplantXenogerm_Desc>
+  <MechResurrectionCharges>Charges de résurrection mécanique</MechResurrectionCharges>
+  <MechStunPulseWarning>Impulsion étourdissante du mécanoïde à sa mort</MechStunPulseWarning>
+  <IsLowEnergySelfShutdown>{PAWN_nameDef} s'est mis en veille autonome par manque d'énergie.</IsLowEnergySelfShutdown>
+  <ShowPollutionOverlayToggleButton>Activer/désactiver la surcouche de pollution. Elle indique les zones de terrain polluées.\n\nL'exposition à un terrain pollué provoque une intoxication toxique pouvant entraîner la mort. La plupart des plantes ne peuvent pas vivre sur un terrain pollué.</ShowPollutionOverlayToggleButton>
+  <TilePollutionNone>Aucune</TilePollutionNone>
+  <TilePollutionLight>Légère</TilePollutionLight>
+  <TilePollutionModerate>Modérée</TilePollutionModerate>
+  <TilePollutionExtreme>Extrême</TilePollutionExtreme>
+  <TilePollution>Pollution</TilePollution>
+  <TilePollutionNearby>Pollution proche</TilePollutionNearby>
+  <NearbyPollutionTip>Somme des niveaux de pollution de toutes les cases situées dans un rayon de {0} cases. Plus on s'éloigne de cette case, moins la contribution diminue :\n\n{1}\n\nPlus la pollution proche est élevée, plus le risque d'apparition de smog acide est grand.</NearbyPollutionTip>
+  <NoxiousHazeInterval>Cette case connaîtra un smog acide tous les {0} jours en moyenne.</NoxiousHazeInterval>
+  <NoxiousHazeNeverOccurring>Cette case ne connaîtra jamais de smog acide.</NoxiousHazeNeverOccurring>
+  <NearbyPollutionTilesAway>cases plus loin</NearbyPollutionTilesAway>
+  <PollutionLower>pollution</PollutionLower>
+  <CannotAbsorbPollution>Absorption de la pollution impossible : bâtiments trop proches</CannotAbsorbPollution>
+  <CanAbsorbPollution>Peut absorber la pollution des terrains proches</CanAbsorbPollution>
+  <AbsorbingPollutionNext>Absorption de la pollution : prochaine dans {0}</AbsorbingPollutionNext>
+  <TerrainPollutionTip>Niveau de pollution du terrain sur cette case.\n\nL'exposition à un terrain pollué provoque une intoxication toxique pouvant entraîner la mort. La plupart des cultures ne peuvent pas pousser sur un terrain pollué.</TerrainPollutionTip>
+  <StudyRequirementTip>Nécessite l'étude de</StudyRequirementTip>
+  <TriggerRadius>Rayon de déclenchement</TriggerRadius>
+  <DormantCompOpening>Ouverture</DormantCompOpening>
+  <SurgeryDisableReasonOvumExtracted>ovocytes extraits récemment</SurgeryDisableReasonOvumExtracted>
+  <Fertilize>Fertiliser</Fertilize>
+  <FertilizeThing>Fertiliser {0_label}</FertilizeThing>
+  <FertilizeCannotFloatOption>Fertilisation impossible</FertilizeCannotFloatOption>
+  <FertilizeGizmoDescription>Choisissez un homme pour fertiliser cet ovocyte et créer un embryon. L'embryon pourra ensuite être implanté chez une mère pour débuter une grossesse, ou dans une cuve de croissance. Les parents biologiques de l'enfant seront la femme ayant fourni l'ovocyte et l'homme l'ayant fertilisé.</FertilizeGizmoDescription>
+  <FertilizeCancel>Annuler la fertilisation par {0}</FertilizeCancel>
+  <CannotSterile>stérile</CannotSterile>
+  <CannotPregnant>enceinte</CannotPregnant>
+  <CannotMustBeAge>doit avoir {0}</CannotMustBeAge>
+  <CannotImplantingOtherEmbryo>implantation d'un autre embryon en cours</CannotImplantingOtherEmbryo>
+  <DisabledOption>{0} ({1})</DisabledOption>
+  <FertilizeDisabledNoMales>Aucun homme ne peut fertiliser cet ovocyte.</FertilizeDisabledNoMales>
+  <ImplantLabel>Implanter l'embryon</ImplantLabel>
+  <ImplantDescription>Implanter cet embryon chez une mère porteuse pour commencer une grossesse.</ImplantDescription>
+  <InsertGrowthVatLabel>Insérer dans une cuve de croissance</InsertGrowthVatLabel>
+  <ImplantCannotFloatOption>Implantation impossible</ImplantCannotFloatOption>
+  <ImplantDisabledNoWomen>Aucune femme ne peut être mère porteuse.</ImplantDisabledNoWomen>
+  <ImplantDisabledNoVats>Aucune cuve de croissance disponible.</ImplantDisabledNoVats>
+  <ImplantSurgeryLabel>Implanter {0}</ImplantSurgeryLabel>
+  <ImplantSurgeryConfirm>La chance de réussite de l'implantation de {0} chez {1} est de {2}.\n\nCette chance dépend de la fertilité de la mère porteuse. Elle sera plus faible si la mère est trop vieille ou trop jeune.</ImplantSurgeryConfirm>
+  <ImplantEmbryoCancelVat>Éjecter {0} de la cuve de croissance maintenant détruirait l'embryon avant la formation d'un bébé.\n\nVoulez-vous continuer ?</ImplantEmbryoCancelVat>
+  <ImplantFailedMessage>L'implantation de {0} chez {1} a échoué.</ImplantFailedMessage>
+  <ImplantEmbryoCancel>Annuler l'insertion de l'embryon</ImplantEmbryoCancel>
+  <EmbryoEjectedFromGrowthVat>{0} a été éjecté d'une cuve de croissance puis détruit.</EmbryoEjectedFromGrowthVat>
+  <EmbryoEjectedFromGrowthVatBiostarvation>{0} a été détruit dans une cuve de croissance à cause de la biostarvation.</EmbryoEjectedFromGrowthVatBiostarvation>
+  <IvfPregnancyLetterText>{0} est devenue enceinte avec succès grâce à l'implantation de l'embryon !</IvfPregnancyLetterText>
+  <IvfPregnancyLetterParents>Le bébé aura la constitution génétique de {0} et {1}.</IvfPregnancyLetterParents>
+  <RemoteMechShieldTip>Bouclier à distance projeté par un mécaniteur. Il tentera d'arrêter les projectiles ou les éclats, mais ne protège pas contre les attaques de mêlée ou la chaleur. Il empêche son porteur de tirer et se désactive instantanément s'il est touché par une impulsion EMP.</RemoteMechShieldTip>
+  <MyChildIsHappy>mon enfant est heureux</MyChildIsHappy>
+  <MyChildIsSad>mon enfant est triste</MyChildIsSad>
+  <GeneticChemicalDependency_Label>Dépendance génétique au {CHEMICAL_label}</GeneticChemicalDependency_Label>
+  <GeneticChemicalDependency_Desc>J'ai besoin de {CHEMICAL_label} à cause de ma déficience génétique. Cela fait si longtemps que je n'en ai pas eu.</GeneticChemicalDependency_Desc>
+  <CustomizeIdeoligion>Personnaliser l'idéoligion</CustomizeIdeoligion>
+  <ChooseYourIdeoligion>Choisir votre idéoligion</ChooseYourIdeoligion>
+  <RandomStructureTip>Une structure aléatoire sera utilisée pour votre idéoligion.</RandomStructureTip>
+  <RandomStyleTip>Un style aléatoire sera utilisé pour votre idéoligion.</RandomStyleTip>
+  <PlayClassic>Système idéologique inactif</PlayClassic>
+  <CreateCustomFluid>Créer une idéoligion\nfluide</CreateCustomFluid>
+  <CreateCustomFixed>Créer une idéoligion\nfixe</CreateCustomFixed>
+  <CustomIdeoligions>Idéoligions personnalisées</CustomIdeoligions>
+  <LoadSaved>Charger une idéoligion sauvegardée</LoadSaved>
+  <Structure>Structure</Structure>
+  <ChooseYourIdeoligionDesc>À quelles croyances vos colons de départ doivent-ils adhérer ? Ces croyances influencent le jeu et les graphismes. Vous pourrez convertir d'autres personnes à vos croyances ou adopter les leurs.</ChooseYourIdeoligionDesc>
+  <CreateCustom>Créer une idéoligion personnalisée</CreateCustom>
+  <DeleteCustom>Supprimer l'idéoligion personnalisée</DeleteCustom>
+  <CreateNew>Créer une nouvelle idéoligion</CreateNew>
+  <CreateFluid>Créer une idéoligion fluide</CreateFluid>
+  <LoadExisting>Charger une idéoligion existante</LoadExisting>
+  <CreateCustomIdeoligion>Créer une idéoligion personnalisée</CreateCustomIdeoligion>
+  <CustomIdeoligionSectionHeader>Idéoligion personnalisée</CustomIdeoligionSectionHeader>
+  <FactionIdeoligionSectionHeader>Idéoligions de faction</FactionIdeoligionSectionHeader>
+  <LoadExistingIdeoligion>Charger une idéoligion sauvegardée</LoadExistingIdeoligion>
+  <SelectAnIdeo>Sélectionnez une idéoligion pour votre faction à gauche, ou</SelectAnIdeo>
+  <Ideo>Idéoligion</Ideo>
+  <RandomizeAll>Tout aléatoriser</RandomizeAll>
+  <Appearance>Apparence</Appearance>
+  <DoneButton>Terminé</DoneButton>
+  <BeliefInIdeo>Croyance en</BeliefInIdeo>
+  <Reward_RelicInfo>Informations sur {0}</Reward_RelicInfo>
+  <Reward_RelicInfoLabel>Infos sur {0}</Reward_RelicInfoLabel>
+  <RelicOf>Relique de {IDEO_name}</RelicOf>
+  <Altar>autel</Altar>
+  <Base>base</Base>
+  <MinExpectation>attente minimale</MinExpectation>
+  <PreceptThoughtMoodRange>De {0} à {1}</PreceptThoughtMoodRange>
+  <ComesFromIdeo>Provient de l'idéoligion</ComesFromIdeo>
+  <CurrentTotalAnimalBodySizePerColonist>Taille corporelle totale actuelle des animaux par colon</CurrentTotalAnimalBodySizePerColonist>
+  <AnimalsBodySizePerColonist>taille corporelle totale par colon</AnimalsBodySizePerColonist>
+  <VeneratedAnimalsBodySizePerColonist>taille corporelle totale des animaux proches par colon</VeneratedAnimalsBodySizePerColonist>
+  <MinAnimalBodySizePerColonist>Au moins {0} de taille corporelle par colon est exigée.</MinAnimalBodySizePerColonist>
+  <Disables>Désactive</Disables>
+  <RequiresOnePrecept>Requiert l'un des préceptes</RequiresOnePrecept>
+  <RequiredPrecepts>Préceptes requis</RequiredPrecepts>
+  <RequiredRituals>Rituels requis</RequiredRituals>
+  <PreventsPrecepts>Empêche les préceptes</PreventsPrecepts>
+  <Styles>Styles</Styles>
+  <ChanceToHavePrecept>Probabilité d'avoir le précepte</ChanceToHavePrecept>
+  <FavoriteColorTooltip>Couleur préférée de {PAWN_labelShort} : {COLOR}\nSi plus de {PERCENTAGE} des vêtements de {PAWN_possessive} sont de cette couleur{ORIDEO}, {PAWN_objective} sera légèrement plus heureux.\n\nVous pouvez modifier la couleur des vêtements à la station de stylisme à l'aide de teinture tinctoriale.</FavoriteColorTooltip>
+  <OrIdeoColor>, ou la couleur de l'idéoligion de {PAWN_possessive},</OrIdeoColor>
+  <SetIdeoColor>Définir la couleur de l'idéoligion</SetIdeoColor>
+  <SetFavoriteColor>Utiliser la couleur préférée</SetFavoriteColor>
+  <FavoriteColorPickerTip>Couleur préférée de {PAWN_nameDef}. Si plus de 60 % des vêtements de {PAWN_possessive} sont de cette couleur, ou de celle de {PAWN_possessive} idéoligion, {PAWN_objective} sera légèrement plus heureux.</FavoriteColorPickerTip>
+  <IdeoColorPickerTip>Couleur de l'idéoligion de {PAWN_nameDef}. Si plus de 60 % des vêtements de {PAWN_possessive} sont de cette couleur, ou de {PAWN_possessive} couleur préférée, {PAWN_objective} sera légèrement plus heureux.</IdeoColorPickerTip>
+  <ConfigureIdeoligion>Configurer l'idéoligion de votre faction</ConfigureIdeoligion>
+  <NotEnoughDye>Pas assez de teinture.</NotEnoughDye>
+  <ApparelLockedCannotRecolor>{PAWN_nameDef} refuse de recolorer {PAWN_possessive} {APPAREL_labelShort}.</ApparelLockedCannotRecolor>
+  <NotEnoughDyeWillRecolorApparel>Le colon recolorera ses vêtements lorsque de la teinture sera disponible.</NotEnoughDyeWillRecolorApparel>
+  <NotEnoughDyeWillRecolorHair>Le colon recolorera ses cheveux lorsque de la teinture sera disponible.</NotEnoughDyeWillRecolorHair>
+  <IdeoCertaintyTooltip>La certitude de {PAWN_labelShort} en {IDEO} est de {PERCENTAGE}</IdeoCertaintyTooltip>
+  <DisabledByPrecept>Désactivé par le précepte {0}</DisabledByPrecept>
+  <Everyone>Tout le monde</Everyone>
+  <Narrative>Récit</Narrative>
+  <NarrativeLower>récit</NarrativeLower>
+  <PreceptName>Nom du précepte</PreceptName>
+  <PreceptNameLower>nom du précepte</PreceptNameLower>
+  <Changing>Modification de {0}</Changing>
+  <StructuresLower>structures</StructuresLower>
+  <MemesLower>mèmes</MemesLower>
+  <Reward_DevelopmentPointsLabel>Points de développement</Reward_DevelopmentPointsLabel>
+  <Reward_DevelopmentPoints>Vos points de développement pour {0} augmenteront de {1}.\n\nVous disposez actuellement de {2} points de développement. Une fois que vous en aurez {3}, vous pourrez réformer l'idéoligion.\n\nGagnez des points de développement supplémentaires en accomplissant d'autres quêtes et rituels.</Reward_DevelopmentPoints>
+  <CurrentDevelopmentPoints>Points actuels</CurrentDevelopmentPoints>
+  <ReformDevelopmentPoints>Points nécessaires à la réforme</ReformDevelopmentPoints>
+  <QuestLower>quête</QuestLower>
+  <MealKindVegetarian>Végétarien</MealKindVegetarian>
+  <MealKindMeat>Contient de la viande</MealKindMeat>
+  <MealKindAny>Nourriture acceptable par tout le monde</MealKindAny>
+  <WearingDesiredApparelMulti>ces vêtements</WearingDesiredApparelMulti>
+  <UnableToLoadIdeoTitle>Impossible de charger l'idéoligion</UnableToLoadIdeoTitle>
+  <UnableToLoadIdeoDescription>Impossible de charger l'idéoligion sélectionnée en raison des exigences des factions qui y adhéreront. Exigences non respectées :</UnableToLoadIdeoDescription>
+  <UnableToLoadIdeoMemeNotAllowed>Le mème {MEME} est interdit aux factions de type {FACTIONTYPE}.</UnableToLoadIdeoMemeNotAllowed>
+  <UnableToLoadIdeoMemeRequired>Le mème {MEME} est obligatoire pour les factions de type {FACTIONTYPE}.</UnableToLoadIdeoMemeRequired>
+  <UnableToLoadIdeoPreceptNotAllowed>Le précepte {PRECEPT} est interdit aux factions autres que celle du joueur.</UnableToLoadIdeoPreceptNotAllowed>
+  <RitualTargetGraveInfo>Tombe contenant le cadavre de {PAWN_labelShort}</RitualTargetGraveInfo>
+  <RitualTargetEmptyGraveInfo>Tombe vide pour pleurer la disparition de {PAWN_labelShort}</RitualTargetEmptyGraveInfo>
+  <RitualTargetGraveInfoAbstract>Tombe contenant le cadavre d'un {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
+  <RitualTargetGraveInfoAbstractNoIdeo>Tombe contenant un cadavre</RitualTargetGraveInfoAbstractNoIdeo>
+  <RitualTargetEmptyGraveInfoAbstract>Tombe vide pour pleurer la disparition d'un {IDEO_memberNameIndef}</RitualTargetEmptyGraveInfoAbstract>
+  <RitualTargetGraveInfoMustBeBuried>Le corps de {PAWN_labelShort} doit d'abord être enterré.</RitualTargetGraveInfoMustBeBuried>
+  <RitualTargetGatherSpotInfo>N'importe quel lieu de rassemblement, comme une table</RitualTargetGatherSpotInfo>
+  <RitualTargetGatherAltarOrRitualSpotInfo>Autel ou lieu de rituel.</RitualTargetGatherAltarOrRitualSpotInfo>
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Autel, idéogramme ou lieu de rituel.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
+  <SelfShutdown>Auto-recharge dormante</SelfShutdown>
+  <CarryToRecharger>Porter au chargeur</CarryToRecharger>
+  <MustBeCarriedToRecharger>Doit être porté au chargeur.</MustBeCarriedToRecharger>
+  <Danger>Danger</Danger>
+  <DamageType>Dégâts de {0}</DamageType>
+  <ContainedThings>Contient {0_labelPlural}</ContainedThings>
+  <DurationUntilNextAtomization>Temps avant la prochaine atomisation</DurationUntilNextAtomization>
+  <WithLower>avec</WithLower>
+  <TilesLower>cases</TilesLower>
+  <CaravanMech>1 mécanoïde</CaravanMech>
+  <CaravanMechsCount>{0} mécanoïdes</CaravanMechsCount>
+  <BossWithApparel>{BOSS} avec {APPAREL}</BossWithApparel>
+  <ComesFromGene>Résultat du gène</ComesFromGene>
+  <ReportRemovingMechlink>retrait de {0}.</ReportRemovingMechlink>
+  <ReportTakingLessonFrom>de {TEACHER_labelShort}</ReportTakingLessonFrom>
+  <PollutionClear>Pollution nulle</PollutionClear>
+  <Overseer>Superviseur</Overseer>
+  <OverseerNone>Aucun (hors de contrôle)</OverseerNone>
+  <MayGoFeral>Peut devenir sauvage à tout moment</MayGoFeral>
+  <Bandwidth>Bande passante</Bandwidth>
+  <BandwidthLower>bande passante</BandwidthLower>
+  <BandwidthGizmoTip>Un mécaniteur ne peut superviser un mécanoïde que si la bande passante disponible est suffisante. Chaque mécanoïde consomme une quantité différente de bande passante.\n\nObtenez davantage de bande passante en construisant des nœuds de bande et en accordant le mécaniteur à ceux-ci, ou en équipant le mécaniteur de vêtements spécifiques.</BandwidthGizmoTip>
+  <ControlGroup>Groupe de contrôle</ControlGroup>
+  <CurrentMechWorkMode>Mode actuel</CurrentMechWorkMode>
+  <AssignedMechs>Mécanoïdes affectés</AssignedMechs>
+  <BandNodeTunedTo>Accordé avec</BandNodeTunedTo>
+  <BandNodeTuneTo>Accorder à</BandNodeTuneTo>
+  <BandNodeTuningTo>Accordage avec</BandNodeTuningTo>
+  <BandNodeRetuneTo>Réaccorder</BandNodeRetuneTo>
+  <BandNodeTuningDesc>Accordez ce nœud de bande à un mécaniteur. L’accordage prendra {0}.</BandNodeTuningDesc>
+  <BandNodeRetuningDesc>Réaccordez ce nœud de bande à un autre mécaniteur. Le réaccordage prendra {0}.</BandNodeRetuningDesc>
+  <DropThingBandwidthApparel>Retirer {0} modifiera la bande passante de {1_labelShort}, de {2} à {3}. Cela signifie que les mécanoïdes suivants ne seront plus sous contrôle</DropThingBandwidthApparel>
+  <NoMechs>aucun mécanoïde</NoMechs>
+  <Group>Groupe</Group>
+  <Groups>Groupes</Groups>
+  <LoadingMechGestator>Chargement des ressources de gestation mécanoïde</LoadingMechGestator>
+  <GestatingInspect>Temps restant dans ce cycle</GestatingInspect>
+  <InitMechGestationCycle>Initialisation du cycle de gestation mécanoïde</InitMechGestationCycle>
+  <InitMechBirth>Initialisation de la naissance mécanoïde</InitMechBirth>
+  <MechEnergy>Énergie des mécanoïdes</MechEnergy>
+  <Energy>Énergie</Energy>
+  <EnergyLower>énergie</EnergyLower>
+  <BandwidthUsage>Utilisation de la bande passante</BandwidthUsage>
+  <MechGestationBandwidthUsed>Bande passante de gestation mécanoïde</MechGestationBandwidthUsed>
+  <CannotSummon>Impossible d’invoquer la menace {0}</CannotSummon>
+  <ReadyToSummonThreat>Menace {0} prête à être invoquée</ReadyToSummonThreat>
+  <Summon>Invoquer la menace {0}</Summon>
+  <MechsDisabled>Mécanoïdes désactivés</MechsDisabled>
+  <NoReachableBossgroupCaller>Aucun {0} accessible</NoReachableBossgroupCaller>
+  <NoReservableBossgroupCaller>Aucun {0} réservable</NoReservableBossgroupCaller>
+  <NoPoweredBossgroupCaller>Aucun {0} alimenté</NoPoweredBossgroupCaller>
+  <AlreadyUsed>déjà utilisé</AlreadyUsed>
+  <Gestating>Gestation</Gestating>
+  <Escorting>Escorte {TARGET_labelShort}.</Escorting>
+  <Worker>Ouvrier</Worker>
+  <WaitingFor>Attente de</WaitingFor>
+  <Uncontrolled>Sans contrôle</Uncontrolled>
+  <BossgroupIncoming>{0} en approche</BossgroupIncoming>
+  <Hemogen>Hémogène</Hemogen>
+  <HemogenDesc>L’hémogène est une source d’énergie biologique issue de composés présents dans le sang humain. Les humains baseliners le produisent naturellement et le consomment au fil du temps pour maintenir leur équilibre interne. Certains xénotypes humains l’utilisent comme carburant pour des capacités spécifiques, tandis que d’autres doivent en consommer pour survivre.</HemogenDesc>
+  <DeathrestCapacity>Capacité de repos mortel</DeathrestCapacity>
+  <DeathrestCapacityDesc>Cela détermine combien de bâtiments de repos mortel une personne peut relier pendant son repos mortel. Chaque bâtiment confère un avantage spécifique, il vaut donc mieux pouvoir en relier davantage.\n\nLa capacité de repos mortel peut être augmentée avec des sérums de capacité de repos mortel. Ces sérums peuvent être achetés auprès des marchands.</DeathrestCapacityDesc>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} est relié(e) à {CURRENT} / {MAX} (maximum) bâtiments de repos mortel.</PawnIsConnectedToBuildings>
+  <Wake>se réveiller</Wake>
+  <WakeDesc>Sortir du repos mortel.\n\n{PAWN_nameDef} est en repos mortel depuis {DURATION}.</WakeDesc>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} doit rester en repos mortel pendant au moins {TOTAL}. Réveiller {PAWN_objective} tôt rendra {PAWN_objective} malade, et {PAWN_pronoun} ne bénéficiera d’aucun bâtiment de repos mortel.</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Safe>{PAWN_nameDef} peut maintenant se réveiller en toute sécurité.</WakeExtraDesc_Safe>
+  <CannotWakeNotEnoughHemogen>Réveil impossible. Il faut au moins {0} d’hémogène.</CannotWakeNotEnoughHemogen>
+  <AutoWake>Réveil automatique</AutoWake>
+  <AutoWakeDesc>Lorsqu’il est activé, {PAWN_nameDef} se réveillera automatiquement une fois {PAWN_possessive} repos mortel terminé.\n\nLorsqu’il est désactivé, {PAWN_pronoun} restera en repos mortel jusqu’à ce que vous réveilliez {PAWN_objective} manuellement.</AutoWakeDesc>
+  <IsDeathresting>{PAWN_nameDef} est en repos mortel.</IsDeathresting>
+</LanguageData>

@@ -1,0 +1,38 @@
+<ModMetaData>
+  <name>Arsenal - Counter-Strike Weapon Pack - French TradFix</name>
+  <author>ZIOM</author>
+  <packageId>ziom.arsenalcounterstrike</packageId>
+  <modVersion>0.1.0</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>ziom.arsenalcore</packageId>
+      <displayName>Arsenal - Core</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3807049445</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>ziom.arsenalcore</li>
+    <li>CETeam.CombatExtended</li>
+    <li>IssacZhuang.MuzzleFlash</li>
+  </loadAfter>
+  <description>A game-themed pack of the Arsenal series, inspired by the buy menu of Counter-Strike: pistols, SMGs, rifles, snipers, shotguns and machine guns, plus the full knife lineup and the grenade set. 34 firearms, 22 knives, the Zeus x27 stun gun, 5 grenades and the C4.
+
+Contents:
+- 10 pistols, 7 submachine guns, 7 rifles, 4 sniper rifles, 4 shotguns and 2 machine guns.
+- 22 knives, from the default T and CT knives to the Karambit, Butterfly Knife, Bowie, Kukri and more, each with its own damage and feel.
+- The Zeus x27, a short-range single-shot stun gun that stuns the target without hurting it.
+- Grenades and explosives: HE grenade, flashbang, smoke grenade, Molotov cocktail, incendiary grenade and the timed C4.
+- Odyssey: a unique version of each firearm.
+
+Requires Arsenal - Core (use the latest version).
+
+Combat Extended (CE): supported. With CE the weapons use their real calibres and fire modes, grenades and the C4 are crafted from CE's explosive and fuel items, and the Zeus uses the taser cartridge provided by Arsenal - Core.
+
+Languages: English, Traditional Chinese, Simplified Chinese and Russian.
+
+Weapon and company names are used for identification only and are not affiliated with any real manufacturer or with the game's developer.</description>
+</ModMetaData>

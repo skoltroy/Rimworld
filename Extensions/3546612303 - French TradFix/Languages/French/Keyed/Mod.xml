@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ComplementaryOdyssey.Settings.Title>Complementary Odyssey</ComplementaryOdyssey.Settings.Title>
+  <ComplementaryOdyssey.Settings.VacRoofPatches>Activer les correctifs des toits de barrières à vide. (Peut être désactivé en cas d'incompatibilité avec un autre mod de toit, mais les toits de barrières à vide se comporteront alors comme des toits normaux. Redémarrage nécessaire.)</ComplementaryOdyssey.Settings.VacRoofPatches>
+  <ComplementaryOdyssey.Settings.VacRoofPoweredAfterLanding>Tous les toits de barrières à vide seront forcés à être alimentés pendant {0} après l'atterrissage du grav-vaisseau. (Nécessaire pour éviter de perdre l'oxygène après l'atterrissage.)</ComplementaryOdyssey.Settings.VacRoofPoweredAfterLanding>
+  <ComplementaryOdyssey.Settings.VacflowerChance>Chance de faire apparaître 1 à 3 Vacfleurs sur un astéroïde : {0}.</ComplementaryOdyssey.Settings.VacflowerChance>
+  <ComplementaryOdyssey.Settings.VacResistAOEPatches>Activer les correctifs de zone d'effet de résistance au vide. (Peut être désactivé en cas d'incompatibilité liée à la mesure du vide par case, mais cela empêchera les Vacfleurs de faire pousser des plantes autour d'elles dans le vide. Redémarrage nécessaire.)</ComplementaryOdyssey.Settings.VacResistAOEPatches>
+  <ComplementaryOdyssey.Settings.VacResistAOEVacOverride>Zone d'effet des Vacfleurs réduisant la valeur du vide à {0}. (Vanilla conservera la valeur normale du vide sans remplacement.)</ComplementaryOdyssey.Settings.VacResistAOEVacOverride>
+  <ComplementaryOdyssey.Settings.VacResistAOEGrowthRateFactorTemperature>La zone d'effet des Vacfleurs maintient les plantes assez au chaud tout en augmentant le facteur de température de croissance à {0}. (Dans Vanilla, les plantes en orbite tombent à 0 % de vitesse de croissance.)</ComplementaryOdyssey.Settings.VacResistAOEGrowthRateFactorTemperature>
+  <ComplementaryOdyssey.Settings.GravFieldExtenderOffsetMult>Définir le multiplicateur de {0} installé dans {1} à {2} [+{3} {4}]. (100 % correspond à Vanilla +{5} {4}.)</ComplementaryOdyssey.Settings.GravFieldExtenderOffsetMult>
+  <ComplementaryOdyssey.Settings.GravFieldExtenderMaxAmount>Quantité maximale de {0} installé dans {1}. (Infini lorsque réglé sur 0)</ComplementaryOdyssey.Settings.GravFieldExtenderMaxAmount>
+</LanguageData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ComplementaryOdyssey.VacBarrierProjector.Gizmo.Offset.Label>Déplacer la zone de projection</ComplementaryOdyssey.VacBarrierProjector.Gizmo.Offset.Label>
+  <ComplementaryOdyssey.VacBarrierProjector.Gizmo.Offset.Desc>Déplacera la zone de projection.</ComplementaryOdyssey.VacBarrierProjector.Gizmo.Offset.Desc>
+  <ComplementaryOdyssey.VacBarrierProjector.Gizmo.Size.Label>Modifier la taille de la zone de projection</ComplementaryOdyssey.VacBarrierProjector.Gizmo.Size.Label>
+  <ComplementaryOdyssey.VacBarrierProjector.Gizmo.Size.Desc>Modifiera la taille de la zone de projection.</ComplementaryOdyssey.VacBarrierProjector.Gizmo.Size.Desc>
+  <ComplementaryOdyssey.VacBarrierProjector.InspectString.BarrierTiles>Zone de projection {0}/{1}</ComplementaryOdyssey.VacBarrierProjector.InspectString.BarrierTiles>
+</LanguageData>

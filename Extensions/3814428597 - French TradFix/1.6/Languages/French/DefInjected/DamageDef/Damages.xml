@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SCWC_Breach.label>impact de brèche</SCWC_Breach.label>
+  <SCWC_Breach.deathMessage>{0} s'est fait écraser par un impact de brèche.</SCWC_Breach.deathMessage>
+</LanguageData>

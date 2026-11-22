@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<loadFolders>   
+  <v1.3>
+    <li>/</li>        
+  </v1.3>
+    <v1.4>
+    <li>/</li>
+    <li IfModActive="musicexpanded.framework">Compat/MEF</li>    
+  </v1.4>
+<v1.5>
+    <li>/</li>
+    <li IfModActive="musicexpanded.framework">Compat/MEF</li>
+    <li IfModActive="zal.mef">Compat/MEF</li>    
+  </v1.5>
+<v1.6>
+    <li>/</li>
+    <li IfModActive="musicexpanded.framework">Compat/MEF</li>
+    <li IfModActive="zal.mef">Compat/MEF</li>    
+  </v1.6>
+  <v1.7>
+    <li>/</li>
+    <li IfModActive="musicexpanded.framework">Compat/MEF</li>
+    <li IfModActive="zal.mef">Compat/MEF</li>    
+  </v1.7>
+</loadFolders>

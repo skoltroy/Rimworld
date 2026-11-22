@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <hssn_PhotonicFocusing.label>focalisation photonique</hssn_PhotonicFocusing.label>
+  <hssn_PhotonicFocusing.description>Fabriquez des armes à feu avancées tirant des faisceaux laser puissants.</hssn_PhotonicFocusing.description>
+  <hssn_PhotonicFocusing.generalRules.rulesStrings.0>subject-&gt;subject-&gt;armes laser</hssn_PhotonicFocusing.generalRules.rulesStrings.0>
+  <hssn_PhotonicFocusing.generalRules.rulesStrings.1>subject_story-&gt;subject_story-&gt;a trouvé comment utiliser des faisceaux lumineux concentrés comme arme</hssn_PhotonicFocusing.generalRules.rulesStrings.1>
+  <hssn_PhotonicFocusing.generalRules.rulesStrings.2>subject_story-&gt;subject_story-&gt;a créé des armes laser avancées, la prochaine grande avancée technologique</hssn_PhotonicFocusing.generalRules.rulesStrings.2>
+  <hssn_PhotonicFocusing.generalRules.rulesStrings.3>subject_gerund-&gt;subject_gerund-&gt;fabrication d’armes laser avancées</hssn_PhotonicFocusing.generalRules.rulesStrings.3>
+  <hssn_MagneticHousingChamber.label>chambre magnétique de confinement</hssn_MagneticHousingChamber.label>
+  <hssn_MagneticHousingChamber.description>Fabriquez de puissantes armes à plasma.</hssn_MagneticHousingChamber.description>
+  <hssn_MagneticHousingChamber.generalRules.rulesStrings.0>subject-&gt;subject-&gt;armes à plasma</hssn_MagneticHousingChamber.generalRules.rulesStrings.0>
+  <hssn_MagneticHousingChamber.generalRules.rulesStrings.1>subject_story-&gt;subject_story-&gt;a développé une technologie permettant de surchauffer le plasma</hssn_MagneticHousingChamber.generalRules.rulesStrings.1>
+  <hssn_MagneticHousingChamber.generalRules.rulesStrings.2>subject_story-&gt;subject_story-&gt;a conçu une chambre magnétique pour produire du plasma surchauffé</hssn_MagneticHousingChamber.generalRules.rulesStrings.2>
+  <hssn_MagneticHousingChamber.generalRules.rulesStrings.3>subject_gerund-&gt;subject_gerund-&gt;fabrication d’armes tirant du plasma surchauffé</hssn_MagneticHousingChamber.generalRules.rulesStrings.3>
+  <hssn_EnergyTurrets.label>tourelles énergétiques</hssn_EnergyTurrets.label>
+  <hssn_EnergyTurrets.description>Fabriquez des systèmes de défense automatisés utilisant des armes à énergie.</hssn_EnergyTurrets.description>
+  <hssn_EnergyTurrets.generalRules.rulesStrings.0>subject-&gt;subject-&gt;tourelles énergétiques</hssn_EnergyTurrets.generalRules.rulesStrings.0>
+  <hssn_EnergyTurrets.generalRules.rulesStrings.1>subject_story-&gt;subject_story-&gt;a développé des défenses énergétiques automatisées</hssn_EnergyTurrets.generalRules.rulesStrings.1>
+  <hssn_MultibarrelEnergyWeapons.label>armes énergétiques à multiples canons</hssn_MultibarrelEnergyWeapons.label>
+  <hssn_MultibarrelEnergyWeapons.description>Fabriquez des armes énergétiques à multiples canons.</hssn_MultibarrelEnergyWeapons.description>
+  <hssn_MultibarrelEnergyWeapons.generalRules.rulesStrings.0>subject-&gt;subject-&gt;armes énergétiques à multiples canons</hssn_MultibarrelEnergyWeapons.generalRules.rulesStrings.0>
+  <hssn_NuclearWeaponry.label>armement nucléaire</hssn_NuclearWeaponry.label>
+  <hssn_NuclearWeaponry.description>Fabriquez des armes nucléaires.</hssn_NuclearWeaponry.description>
+  <hssn_NuclearWeaponry.generalRules.rulesStrings.0>subject-&gt;subject-&gt;armes nucléaires</hssn_NuclearWeaponry.generalRules.rulesStrings.0>
+  <hssn_NuclearWeaponry.generalRules.rulesStrings.1>subject_story-&gt;subject_story-&gt;a exploité la puissance de l’atome</hssn_NuclearWeaponry.generalRules.rulesStrings.1>
+  <hssn_NuclearWeaponry.generalRules.rulesStrings.2>subject_gerund-&gt;subject_gerund-&gt;mise au point d’un armement atomique</hssn_NuclearWeaponry.generalRules.rulesStrings.2>
+  <hssn_Flamethrowers.label>lance-flammes</hssn_Flamethrowers.label>
+  <hssn_Flamethrowers.description>Fabriquez des lance-flammes mortels.</hssn_Flamethrowers.description>
+  <hssn_Flamethrowers.generalRules.rulesStrings.0>subject-&gt;subject-&gt;lance-flammes</hssn_Flamethrowers.generalRules.rulesStrings.0>
+  <hssn_PulseWeapons.label>armes à impulsions</hssn_PulseWeapons.label>
+  <hssn_PulseWeapons.description>Fabriquez des armes à impulsions très avancées.</hssn_PulseWeapons.description>
+  <hssn_PulseWeapons.generalRules.rulesStrings.0>subject-&gt;subject-&gt;armes à impulsions</hssn_PulseWeapons.generalRules.rulesStrings.0>
+  <hssn_PulseWeapons.generalRules.rulesStrings.1>subject_story-&gt;subject_story-&gt;a trouvé comment utiliser les impulsions électromagnétiques comme arme létale</hssn_PulseWeapons.generalRules.rulesStrings.1>
+  <hssn_GaussWeapons.label>armes gauss</hssn_GaussWeapons.label>
+  <hssn_GaussWeapons.description>Fabriquez des armes gauss avancées.</hssn_GaussWeapons.description>
+  <hssn_GaussWeapons.generalRules.rulesStrings.0>subject-&gt;subject-&gt;armes gauss</hssn_GaussWeapons.generalRules.rulesStrings.0>
+  <hssn_GrenadeLaunchers.label>lance‑grenades</hssn_GrenadeLaunchers.label>
+  <hssn_GrenadeLaunchers.description>Fabriquez des lance‑grenades.</hssn_GrenadeLaunchers.description>
+  <hssn_GrenadeLaunchers.generalRules.rulesStrings.0>subject-&gt;subject-&gt;lance‑grenades</hssn_GrenadeLaunchers.generalRules.rulesStrings.0>
+  <hssn_RocketLaunchers.label>lance‑roquettes</hssn_RocketLaunchers.label>
+  <hssn_RocketLaunchers.description>Fabriquez des lance‑roquettes.</hssn_RocketLaunchers.description>
+  <hssn_RocketLaunchers.generalRules.rulesStrings.0>subject-&gt;subject-&gt;lance‑roquettes</hssn_RocketLaunchers.generalRules.rulesStrings.0>
+  <hssn_MissileLaunchers.label>lance‑missiles</hssn_MissileLaunchers.label>
+  <hssn_MissileLaunchers.description>Fabriquez des lance‑missiles.</hssn_MissileLaunchers.description>
+  <hssn_MissileLaunchers.generalRules.rulesStrings.0>subject-&gt;subject-&gt;lance‑missiles</hssn_MissileLaunchers.generalRules.rulesStrings.0>
+</LanguageData>

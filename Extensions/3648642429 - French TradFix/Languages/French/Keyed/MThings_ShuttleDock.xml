@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <MThings_ShuttleDock_ConnectLabel>Se connecter à une plateforme proche</MThings_ShuttleDock_ConnectLabel>
+  <MThings_ShuttleDock_DisconnectLabel>Se déconnecter de la plateforme</MThings_ShuttleDock_DisconnectLabel>
+  <MThings_ShuttleDock_SetOpenColorLabel>Définir la couleur lorsque la plateforme est OUVERTE</MThings_ShuttleDock_SetOpenColorLabel>
+  <MThings_ShuttleDock_SetClosedColorLabel>Définir la couleur lorsque la plateforme est FERMÉE</MThings_ShuttleDock_SetClosedColorLabel>
+  <MThings_ShuttleDock_OpenRoofLabel>Ouvrir la plateforme</MThings_ShuttleDock_OpenRoofLabel>
+  <MThings_ShuttleDock_CloseRoofLabel>Fermer la plateforme</MThings_ShuttleDock_CloseRoofLabel>
+  <MThings_ShuttleDock_OpenRoofDesc>Remettre le toit renforcé au-dessus de la plateforme.</MThings_ShuttleDock_OpenRoofDesc>
+  <MThings_ShuttleDock_CloseRoofDesc>Retirer le toit renforcé afin que les navettes puissent atterrir.</MThings_ShuttleDock_CloseRoofDesc>
+  <MThings_ShuttleDock_ConnectDesc>Connecter cette lampe murale à la plateforme de navettes la plus proche à portée.</MThings_ShuttleDock_ConnectDesc>
+  <MThings_ShuttleDock_ReconnectDesc>Reconnecter cette lampe murale à une plateforme de navettes proche.</MThings_ShuttleDock_ReconnectDesc>
+  <MThings_ShuttleDock_DisconnectDesc>Déconnecter cette lampe de sa plateforme de navettes.</MThings_ShuttleDock_DisconnectDesc>
+  <MThings_ShuttleDock_SetOpenColorDesc>Choisir la couleur d'éclairage utilisée lorsque le toit de la plateforme est ouvert.</MThings_ShuttleDock_SetOpenColorDesc>
+  <MThings_ShuttleDock_SetClosedColorDesc>Choisir la couleur d'éclairage utilisée lorsque le toit de la plateforme est fermé.</MThings_ShuttleDock_SetClosedColorDesc>
+  <MThings_ShuttleDock_UseShipRoofLabel>Utiliser le toit de vaisseau</MThings_ShuttleDock_UseShipRoofLabel>
+  <MThings_ShuttleDock_UseShipRoofDesc>Lorsque la plateforme est fermée, construire le toit de vaisseau de Save Our Ship 2 au lieu du toit renforcé de plateforme. Si la plateforme est actuellement fermée, cette option remplacera immédiatement le toit.</MThings_ShuttleDock_UseShipRoofDesc>
+  <MThings_ShuttleDock_InvalidLamp>Lampe invalide.</MThings_ShuttleDock_InvalidLamp>
+  <MThings_ShuttleDock_LampAlreadyLinked>Cette lampe ne peut être connectée qu'à une seule plateforme de navettes à la fois.</MThings_ShuttleDock_LampAlreadyLinked>
+  <MThings_ShuttleDock_NoAvailableDock>Aucune plateforme de navettes disponible trouvée à proximité.</MThings_ShuttleDock_NoAvailableDock>
+  <MThings_ShuttleDock_Connected>Connecté à {0}.</MThings_ShuttleDock_Connected>
+  <MThings_ShuttleDock_Disconnected>Déconnecté de la plateforme de navettes.</MThings_ShuttleDock_Disconnected>
+  <MThings_ShuttleDock_NoGlower>La lampe n'a aucun émetteur lumineux.</MThings_ShuttleDock_NoGlower>
+  <MThings_ShuttleDock_ShowTexture_Label>Afficher la texture de la plateforme de navettes</MThings_ShuttleDock_ShowTexture_Label>
+  <MThings_ShuttleDock_ShowTexture_Desc>Afficher le graphisme de la plateforme de navettes sur la carte. Désactiver cette option masque uniquement le graphisme ; la plateforme reste utilisable et sélectionnable.</MThings_ShuttleDock_ShowTexture_Desc>
+  <MThings_ShuttleDock_BlockInfestations_Label>Bloquer les infestations sous le toit renforcé de la plateforme</MThings_ShuttleDock_BlockInfestations_Label>
+  <MThings_ShuttleDock_BlockInfestations_Desc>Lorsqu'elle est activée, cette option empêche les infestations de choisir les cases couvertes par MThings_ReinforcedRoof.</MThings_ShuttleDock_BlockInfestations_Desc>
+</LanguageData>

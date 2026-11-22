@@ -1,23 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
+  <packageId>FIP.WestTek</packageId>
   <name>FIP - WestTek - French TradFix</name>
-  <author>Skoltroy</author>
-  <packageId>Skoltroy.FrenchTradFix.3592202407</packageId>
-  <modVersion>1.0</modVersion>
-  <url>https://rimworld.skoltroy.com</url>
-  <description>Couche française indépendante pour le mod « FIP - WestTek » (Workshop 3592202407). Les chemins et conditions de chargement des ressources françaises sont conservés. Après toute mise à jour du mod source, réviser ce TradFix. Auteur : Skoltroy. Site : rimworld.skoltroy.com.</description>
+  <author>Feil</author>
+  <description>Rethemes Biotech's genetics and xenotype systems through West Tek's FEV research legacy — covering gene defs, xenotypes, hediffs, and research projects to reflect radiation sickness, mutagenic exposure, and Fallout-flavored biological alteration. Optional patches cover ghouls, wendigos, and Odyssey FEV loot.</description>
   <supportedVersions>
     <li>1.6</li>
     <li>1.7</li>
   </supportedVersions>
   <modDependencies>
     <li>
-      <packageId>FIP.WestTek</packageId>
-      <displayName>FIP - WestTek</displayName>
-      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3592202407</steamWorkshopUrl>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
     </li>
   </modDependencies>
   <loadAfter>
-    <li>FIP.WestTek</li>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Rick.FCP.Ghouls</li>
+    <li>FIP.HHTools</li>
+    <li>FIP.Greenway</li>
+    <li>OskarPotocki.VFE.Deserters</li>
+    <li>OskarPotocki.VFE.Medieval2</li>
+    <li>VanillaExpanded.VCookE</li>
+    <li>VanillaExpanded.VGeneticsE</li>
+    <li>VanillaExpanded.HelixienGas</li>
+    <li>VanillaExpanded.Recycling</li>
+    <li>VanillaExpanded.Temperature</li>
+    <li>VanillaExpanded.VBooksE</li>
+    <li>VanillaExpanded.VFEArt</li>
+    <li>VanillaExpanded.VFECore</li>
+    <li>VanillaExpanded.VFEFactory</li>
+    <li>VanillaExpanded.VFEFarming</li>
+    <li>VanillaExpanded.VFEPower</li>
+    <li>VanillaExpanded.VFEProduction</li>
+    <li>VanillaExpanded.VFESecurity</li>
+    <li>VanillaExpanded.VFESpacer</li>
+    <li>VanillaExpanded.VPlantsESucculents</li>
+    <li>VanillaExpanded.VPsycastsE</li>
+    <li>vanillaracesexpanded.sanguophage</li>
   </loadAfter>
 </ModMetaData>

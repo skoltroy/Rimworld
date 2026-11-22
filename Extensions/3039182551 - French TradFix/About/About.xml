@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Fallout Commonwealth armory - French TradFix</name>
+	<author>TheRealCaptRex</author>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>Sov.Fallout</packageId>
+	<description>This mod adds the coastal marine armor from fallout and three weapons from the commonwealth.</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld.Odyssey</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+	</loadAfter>
+</ModMetaData>

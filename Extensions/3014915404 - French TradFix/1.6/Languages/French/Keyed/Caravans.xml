@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <VF_Caravan_MoveSpeed>Quantité de tuiles parcourues en 1 jour.</VF_Caravan_MoveSpeed>
+  
+  <VF_Caravan_Dismounted>Démonté</VF_Caravan_Dismounted>
+  <VF_Caravan_Cargo>Cargo</VF_Caravan_Cargo>
+  <VF_Sailing>Voile</VF_Sailing>
+  <VF_ShowVehicleProperties>Afficher les propriétés</VF_ShowVehicleProperties>
+  
+  <VF_DockToCaravan>Éléments à prendre</VF_DockToCaravan>
+  <VF_ImpassableBiome>Biome impraticable pour ce véhicule.</VF_ImpassableBiome>
+  <VF_CaravanDisabled>Caravane handicapée.</VF_CaravanDisabled>
+  <VF_CaravanCantMove>Impossible de bouger.</VF_CaravanCantMove>
+  <VF_CantMergeAerialVehicle>Impossible de fusionner des véhicules aériens.</VF_CantMergeAerialVehicle>
+  
+  <VF_RecoverVehicles>Récupérer les véhicules</VF_RecoverVehicles>
+  <VF_CommandDisembark>Véhicules de réserve</VF_CommandDisembark>
+  <VF_CommandDisembarkDesc>Laissez tous les véhicules derrière et allez à pied. Les véhicules resteront sur la carte mondiale pendant 20 à 30 jours.</VF_CommandDisembarkDesc>
+  <VF_ToggleRepairVehicle>Véhicules de réparation</VF_ToggleRepairVehicle>
+  <VF_ToggleRepairVehicleDesc>Repose et répare sur les véhicules à l'intérieur de la caravane</VF_ToggleRepairVehicleDesc>
+  
+  <VF_CommandDisembarkImpassableBiome>Impossible de débarquer, case est impraticable pour les colons.</VF_CommandDisembarkImpassableBiome>
+  <VF_CommandAttackDockDisable>Impossible d'attaquer {0} pendant l'accostage.</VF_CommandAttackDockDisable>
+  <VF_CommandTradeDockDisable>Impossible d'échanger avec {0}. Doit d'abord accoster le bateau</VF_CommandTradeDockDisable>
+  
+  <VF_CaravanMustHaveEnoughSpaceOnShip>Pas assez d'espace sur les navires pour abriter tous les personnages.</VF_CaravanMustHaveEnoughSpaceOnShip>
+  <VF_CaravanMustHaveEnoughPawnsToOperate>Pas assez de personnages sélectionnés pour mettre la voile. Besoin {0}</VF_CaravanMustHaveEnoughPawnsToOperate>
+  
+  <VF_CaravanMustHaveAtLeastOneVehicle>Doit avoir au moins 1 véhicule sélectionné pour choisir un itinéraire.</VF_CaravanMustHaveAtLeastOneVehicle>
+  <VF_CommandFormVehicleCaravan>Formulaire Caravane pour véhicules</VF_CommandFormVehicleCaravan>
+  <VF_CommandFormVehicleCaravanDesc>Forme caravane avec véhicules inclus.</VF_CommandFormVehicleCaravanDesc>
+  
+  <VF_CommandReformVehicleCaravan>Caravane de la réforme des véhicules</VF_CommandReformVehicleCaravan>
+  <VF_CommandReformVehicleCaravanDesc>Remorque reform avec véhicules sélectionnés.</VF_CommandReformVehicleCaravanDesc>
+  
+  <VF_RoutePlannerToggleVehicleDefs>Véhicules</VF_RoutePlannerToggleVehicleDefs>
+  <VF_RoutePlannerToggleVehicles>Véhicules</VF_RoutePlannerToggleVehicles>
+</LanguageData>
+

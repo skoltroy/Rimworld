@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <VF_Upgrade>Mise à jour</VF_Upgrade>
+  <VF_DisabledFromOtherNode>Inaccessible, désactivé d'autres mises à jour.</VF_DisabledFromOtherNode>
+  <VF_MissingPrerequisiteUpgrade>Prérequis manquants.</VF_MissingPrerequisiteUpgrade>
+  <VF_RemoveUpgrade>Supprimer</VF_RemoveUpgrade>
+</LanguageData>
+

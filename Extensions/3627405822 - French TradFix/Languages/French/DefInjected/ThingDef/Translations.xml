@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Gun_SeviceRifle.label>fusil de service</Gun_SeviceRifle.label>
+  <Gun_SeviceRifle.description>Variante moins coûteuse du fusil d’assaut, utilisant des pièces de bois. Il offre une bonne portée, une puissance correcte et une précision convenable, au prix d’une cadence plus lente et d’un chargeur plus petit.</Gun_SeviceRifle.description>
+  <Gun_SeviceRifle.tools.0.label>crosse</Gun_SeviceRifle.tools.0.label>
+  <Gun_SeviceRifle.tools.1.label>canon</Gun_SeviceRifle.tools.1.label>
+  <Gun_AntiMaterialRifle.label>fusil antimatériel</Gun_AntiMaterialRifle.label>
+  <Gun_AntiMaterialRifle.description>Une version agrandie du fusil de précision, dotée d’un canon plus lourd et plus long, offrant une plus grande puissance, portée et précision. Toutefois, sa taille et son poids limitent son efficacité au combat rapproché.</Gun_AntiMaterialRifle.description>
+  <Gun_AntiMaterialRifle.tools.0.label>crosse</Gun_AntiMaterialRifle.tools.0.label>
+  <Gun_AntiMaterialRifle.tools.1.label>canon</Gun_AntiMaterialRifle.tools.1.label>
+  <Bullet_AntiMaterialRifle.label>balle de fusil antimatériel</Bullet_AntiMaterialRifle.label>
+  <Gun_HeavyRevolver.label>revolver de chasse</Gun_HeavyRevolver.label>
+  <Gun_HeavyRevolver.description>Un lourd revolver double action conçu pour la chasse au gros gibier, bien plus puissant que les revolvers ordinaires. Toutefois, son poids et ses dimensions le rendent moins rapide à viser et à tirer.</Gun_HeavyRevolver.description>
+  <Gun_HeavyRevolver.tools.0.label>poignée</Gun_HeavyRevolver.tools.0.label>
+  <Gun_HeavyRevolver.tools.1.label>canon</Gun_HeavyRevolver.tools.1.label>
+  <Bullet_HeavyRevolver.label>balle de revolver lourd</Bullet_HeavyRevolver.label>
+  <Apparel_PatrolArmor.label>armure de patrouille</Apparel_PatrolArmor.label>
+  <Apparel_PatrolArmor.description>Armure de patrouille réglementaire. Elle offre une meilleure protection contre les projectiles et les traumatismes contondants, avec des renforts supplémentaires aux cuisses et aux épaules.</Apparel_PatrolArmor.description>
+  <Apparel_PatrolHat.label>chapeau de campagne</Apparel_PatrolHat.label>
+  <Apparel_PatrolHat.description>Un chapeau de campagne, généralement porté par les instructeurs. Il offre une excellente protection contre les intempéries et arbore un insigne doré réservé aux personnes de haut rang.</Apparel_PatrolHat.description>
+  <Apparel_RangerHelmet.label>casque de ranger</Apparel_RangerHelmet.label>
+  <Apparel_RangerHelmet.description>Casque de ranger renforcé par des plaques de kevlar. Équipé d’optique basse lumière, de filtres à air, d’une lampe intégrée et d’un télémètre. Inclut un masque blindé compatible avec la lampe IR, offrant une excellente protection et une meilleure vision en faible luminosité.</Apparel_RangerHelmet.description>
+  <Apparel_RangerVest.label>gilet de ranger</Apparel_RangerVest.label>
+  <Apparel_RangerVest.description>Gilet blindé souple doté de plaques rigides anti‑impact. Il comprend une protection de gorge portant des marquages tactiques et l’identification personnelle. Il assure une protection supérieure du torse tout en conservant une bonne mobilité.</Apparel_RangerVest.description>
+  <Apparel_RangerDuster.label>long manteau lourd</Apparel_RangerDuster.label>
+  <Apparel_RangerDuster.description>Long manteau lourd. Renforcé d’acier cousu dans le tissu, légèrement plus lourd mais offrant une meilleure protection globale.</Apparel_RangerDuster.description>
+  <Apparel_ConscriptFatigues.label>treillis de conscrit</Apparel_ConscriptFatigues.label>
+  <Apparel_ConscriptFatigues.description>Treillis réglementaire pour les conscrits. Peu coûteux, facile à entretenir, produire et durable.</Apparel_ConscriptFatigues.description>
+  <Apparel_ConscriptVest.label>gilet de conscrit</Apparel_ConscriptVest.label>
+  <Apparel_ConscriptVest.description>Gilet de conscrit. Protection réglementaire du torse ; plaques et épaulières cousues sous des tissus ou du cuir. Fiable, mais encombrant.</Apparel_ConscriptVest.description>
+  <Apparel_FaceWrap.label>cache-visage</Apparel_FaceWrap.label>
+  <Apparel_FaceWrap.description>Un cache‑visage. Protège contre la poussière, le sable et les intempéries.</Apparel_FaceWrap.description>
+  <Apparel_Bandoleer.label>bandoulière</Apparel_Bandoleer.label>
+  <Apparel_Bandoleer.description>Une bandoulière destinée à transporter des munitions supplémentaires.</Apparel_Bandoleer.description>
+  <Apparel_Mantle.label>mantelet</Apparel_Mantle.label>
+  <Apparel_Mantle.description>Mantelet d’épaule porté sur un seul côté. Généralement réservé aux officiers distingués.</Apparel_Mantle.description>
+  <Apparel_CombatGoggles.label>lunettes de combat</Apparel_CombatGoggles.label>
+  <Apparel_CombatGoggles.description>Une paire de lunettes offrant une certaine protection des yeux.</Apparel_CombatGoggles.description>
+  <Apparel_PrestigeBeret.label>béret de prestige</Apparel_PrestigeBeret.label>
+  <Apparel_PrestigeBeret.description>Un chapeau souple, rond et à calotte plate, avec un insigne doré réservé aux personnes de haut rang.</Apparel_PrestigeBeret.description>
+</LanguageData>

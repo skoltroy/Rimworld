@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <VVERaid_SettingsCategory>Résultats de la VVE</VVERaid_SettingsCategory>
+  <VVERaid_UI_SettingsIntro>Vous pouvez modifier chaque paramètre que VVE Raid lit à partir de ses fichiers XML (vehicules, paramètres de raid de faction, extensions de stratégie de raid).\nLes fichiers XML originaux ne sont jamais modifiés; ils sont utilisés par défaut. Les changements sont partagés par tous les sauvegardes et prennent effet à partir de la prochaine incursion.</VVERaid_UI_SettingsIntro>
+  <VVERaid_UI_SettingsSummary>Entrées personnalisées: véhicules / réglages de factions / stratégies de raid {0} {1} {2}</VVERaid_UI_SettingsSummary>
+  <VVERaid_UI_OpenEditor>Éditeur de paramètres ouverts</VVERaid_UI_OpenEditor>
+  <VVERaid_UI_ResetAll>Résetter toutes les paramètres en mode par défaut (XML)</VVERaid_UI_ResetAll>
+  <VVERaid_UI_ResetAllConfirm>Récupérez tous les paramètres de VVE Raid aux paramètres XML par défaut.\n\nLes entrées que vous avez créées vous-même seront supprimées. (Les véhicules personnalisés sont gardés cachés et désactivés de sorte que les sauvegardes contenant des véhicules capturés sont toujours chargées.)</VVERaid_UI_ResetAllConfirm>
+  <VVERaid_UI_DetailHeader>Paramètres détaillés</VVERaid_UI_DetailHeader>
+  <VVERaid_UI_PresetsHeader>Préparations</VVERaid_UI_PresetsHeader>
+  <VVERaid_UI_Preset>Préparation</VVERaid_UI_Preset>
+  <VVERaid_UI_PresetBuiltInTag>[Built-in]</VVERaid_UI_PresetBuiltInTag>
+  <VVERaid_UI_PresetUserTag>[User]</VVERaid_UI_PresetUserTag>
+  <VVERaid_UI_PresetDefault>Par défaut (XML)</VVERaid_UI_PresetDefault>
+  <VVERaid_UI_PresetDefaultDesc>Utilise uniquement les paramètres des fichiers XML, sans aucune modification.</VVERaid_UI_PresetDefaultDesc>
+  <VVERaid_UI_PresetUserDesc>Préparation sauvegardée par vous. {0} {1} {2}</VVERaid_UI_PresetUserDesc>
+  <VVERaid_UI_PresetRelatedMods>Mods connexes:</VVERaid_UI_PresetRelatedMods>
+  <VVERaid_UI_PresetModActive>{0} (actif)</VVERaid_UI_PresetModActive>
+  <VVERaid_UI_PresetModInactive>{0} (non actif)</VVERaid_UI_PresetModInactive>
+  <VVERaid_UI_PresetNoRelatedActive>Aucun des mods connexes n'est actif, donc ce prédéfini n'a presque aucun effet.</VVERaid_UI_PresetNoRelatedActive>
+  <VVERaid_UI_PresetStatusApplied>Paramètres de courante: {0}</VVERaid_UI_PresetStatusApplied>
+  <VVERaid_UI_PresetStatusModified>Parmi les paramètres actuels: {0} (changé par la suite)</VVERaid_UI_PresetStatusModified>
+  <VVERaid_UI_PresetStatusUnknown>Paramètres courants: personnalisés</VVERaid_UI_PresetStatusUnknown>
+  <VVERaid_UI_PresetApply>Appliquer</VVERaid_UI_PresetApply>
+  <VVERaid_UI_PresetApplyConfirm>Remplacez les paramètres actuels par le préconçu "{0}"?\n\nEnregistrer les paramètres actuels en tant que préconçu si vous voulez les conserver.</VVERaid_UI_PresetApplyConfirm>
+  <VVERaid_UI_PresetApplied>Préparation appliquée: {0}</VVERaid_UI_PresetApplied>
+  <VVERaid_UI_PresetSaveNew>Enregistrer le courant comme nouveau</VVERaid_UI_PresetSaveNew>
+  <VVERaid_UI_NewPresetName>Mon prédétermination</VVERaid_UI_NewPresetName>
+  <VVERaid_UI_PresetSaved>Préparation enregistrée: {0}</VVERaid_UI_PresetSaved>
+  <VVERaid_UI_PresetCopy>- Je le sais.</VVERaid_UI_PresetCopy>
+  <VVERaid_UI_PresetCopySuffix>(copie)</VVERaid_UI_PresetCopySuffix>
+  <VVERaid_UI_PresetOverwrite>Surcrire avec courant</VVERaid_UI_PresetOverwrite>
+  <VVERaid_UI_PresetOverwriteConfirm>Surcrire le prédéfini "{0}" avec les paramètres actuels?</VVERaid_UI_PresetOverwriteConfirm>
+  <VVERaid_UI_PresetRename>Rénommé</VVERaid_UI_PresetRename>
+  <VVERaid_UI_PresetDelete>Supprimer</VVERaid_UI_PresetDelete>
+  <VVERaid_UI_PresetDeleteConfirm>Supprimer le prédéfini "{0}"? (les paramètres actuels ne sont pas modifiés.)</VVERaid_UI_PresetDeleteConfirm>
+  <VVERaid_UI_PresetNameTitle>Nom prédéfini</VVERaid_UI_PresetNameTitle>
+  <VVERaid_UI_PresetNameEmpty>Entrez un nom.</VVERaid_UI_PresetNameEmpty>
+  <VVERaid_UI_PresetNameTaken>Un prédéterminé avec ce nom existe déjà.</VVERaid_UI_PresetNameTaken>
+  <VVERaid_UI_TabVehicles>Les véhicules</VVERaid_UI_TabVehicles>
+  <VVERaid_UI_TabFactions>Réglages de factions</VVERaid_UI_TabFactions>
+  <VVERaid_UI_TabStrategies>Stratégies de raids</VVERaid_UI_TabStrategies>
+  <VVERaid_UI_Search>Rechercher...</VVERaid_UI_Search>
+  <VVERaid_UI_AddVehicle>+ Ajout de véhicule</VVERaid_UI_AddVehicle>
+  <VVERaid_UI_AddFactionSettings>+ Ajouter les paramètres de factions</VVERaid_UI_AddFactionSettings>
+  <VVERaid_UI_AddStrategy>+ Ajouter à une stratégie de raid</VVERaid_UI_AddStrategy>
+  <VVERaid_UI_PickVehicle>Sélectionnez un véhicule (tous les mods installés)</VVERaid_UI_PickVehicle>
+  <VVERaid_UI_PickFaction>Sélectionnez une faction (tous les mods installés)</VVERaid_UI_PickFaction>
+  <VVERaid_UI_PickStrategy>Sélectionnez une stratégie de raid</VVERaid_UI_PickStrategy>
+  <VVERaid_UI_SelectEntry>Sélectionnez une entrée dans la liste à gauche pour la modifier.</VVERaid_UI_SelectEntry>
+  <VVERaid_UI_SaveClose>Réservez et fermez</VVERaid_UI_SaveClose>
+  <VVERaid_UI_DiscardClose>Jetez les modifications</VVERaid_UI_DiscardClose>
+  <VVERaid_UI_FooterNote>Fermer cette fenêtre permet de conserver les modifications.</VVERaid_UI_FooterNote>
+  <VVERaid_UI_StatusCustom>[Custom]</VVERaid_UI_StatusCustom>
+  <VVERaid_UI_StatusModified>[Modified]</VVERaid_UI_StatusModified>
+  <VVERaid_UI_StatusDisabled>[Disabled]</VVERaid_UI_StatusDisabled>
+  <VVERaid_UI_Enabled>Actifié</VVERaid_UI_Enabled>
+  <VVERaid_UI_DisableAll>Désactiver tout</VVERaid_UI_DisableAll>
+  <VVERaid_UI_EnableAll>Activer tout</VVERaid_UI_EnableAll>
+  <VVERaid_UI_DisableAllTip>Désactiver chaque entrée de cet onglet (utile pour tester une seule entrée: désactiver toutes, puis activer uniquement celle que vous voulez vérifier).</VVERaid_UI_DisableAllTip>
+  <VVERaid_UI_EnableAllTip>Activer chaque entrée de cet onglet.</VVERaid_UI_EnableAllTip>
+  <VVERaid_UI_ResetToDefault>Réset à l' par défaut</VVERaid_UI_ResetToDefault>
+  <VVERaid_UI_Duplicate>Dépôt de la Commission</VVERaid_UI_Duplicate>
+  <VVERaid_UI_Delete>Supprimer</VVERaid_UI_Delete>
+  <VVERaid_UI_DeleteConfirm>Supprimer cette entrée ?</VVERaid_UI_DeleteConfirm>
+  <VVERaid_UI_Remove>Enlevez</VVERaid_UI_Remove>
+  <VVERaid_UI_AddItem>+ Ajouter</VVERaid_UI_AddItem>
+  <VVERaid_UI_None>Je ne suis pas là.</VVERaid_UI_None>
+  <VVERaid_UI_AddCustomValue>Ajouter "{0}" comme une nouvelle valeur</VVERaid_UI_AddCustomValue>
+  <VVERaid_UI_Missing>{0} (non chargé)</VVERaid_UI_Missing>
+  <VVERaid_UI_MoveUp>Montez vers le haut.</VVERaid_UI_MoveUp>
+  <VVERaid_UI_MoveDown>Descends vers le bas.</VVERaid_UI_MoveDown>
+  <VVERaid_UI_VehicleSource>Voiture: {0} / Ajoutée par: {1}</VVERaid_UI_VehicleSource>
+  <VVERaid_UI_VehicleMissingWarn>Le mod qui ajoute ce véhicule n'est pas chargé.</VVERaid_UI_VehicleMissingWarn>
+  <VVERaid_UI_CombatPower>Coût de la razzia (points)</VVERaid_UI_CombatPower>
+  <VVERaid_UI_CombatPowerTip>Plus il est élevé, moins d'infanterie rejoint le raid.</VVERaid_UI_CombatPowerTip>
+  <VVERaid_UI_Tags>Les étiquettes</VVERaid_UI_Tags>
+  <VVERaid_UI_TagsTip>Les balises décident de l'IA utilisée par le véhicule et des paramètres de factions qui peuvent le sélectionner.\n"auto", "mortel", "bateaux", "spg" etc. attribuent des IA dédiées; d'autres véhicules utilisent l'IA de réservoir standard. Les balises de niveau (tier1 etc.) sont utilisées par les paramètres de reproduction par défaut.</VVERaid_UI_TagsTip>
+  <VVERaid_UI_NoTagsWarn>Ce véhicule n'a pas de balises, donc aucune configuration de faction ne peut le sélectionner.</VVERaid_UI_NoTagsWarn>
+  <VVERaid_UI_ForcedUpgrades>Amélioration forcée</VVERaid_UI_ForcedUpgrades>
+  <VVERaid_UI_ForcedUpgradesTip>Les nœuds de mise à niveau (clés) qui sont toujours déverrouillés lorsque ce véhicule se dégage.</VVERaid_UI_ForcedUpgradesTip>
+  <VVERaid_UI_AmmoSection>Munitions et articles chargés</VVERaid_UI_AmmoSection>
+  <VVERaid_UI_AmmoNote>Chaque ensemble charge un élément choisi au hasard parmi ses candidats, dans la quantité donnée.</VVERaid_UI_AmmoNote>
+  <VVERaid_UI_AmmoDefault>Sans combats prolongés</VVERaid_UI_AmmoDefault>
+  <VVERaid_UI_AmmoCE>Avec une lutte prolongée</VVERaid_UI_AmmoCE>
+  <VVERaid_UI_AmmoVVESW>Avec des armes secondaires CE + VVE (ajoutées en haut de la liste CE)</VVERaid_UI_AmmoVVESW>
+  <VVERaid_UI_AmmoSetN>Réglage {0}</VVERaid_UI_AmmoSetN>
+  <VVERaid_UI_AmmoOptions>Candidats (un est choisi)</VVERaid_UI_AmmoOptions>
+  <VVERaid_UI_AmmoOptionsTip>L'un de ces éléments est choisi au hasard chaque fois que le véhicule se dégage.</VVERaid_UI_AmmoOptionsTip>
+  <VVERaid_UI_AmmoCount>Montant</VVERaid_UI_AmmoCount>
+  <VVERaid_UI_AddAmmoSet>+ Ajouter le jeu</VVERaid_UI_AddAmmoSet>
+  <VVERaid_UI_FactionSettingsNote>Les véhicules sont ajoutés à un raid lorsque la faction, la stratégie de raid et le mode d'arrivée correspondent tous à ce paramètre.</VVERaid_UI_FactionSettingsNote>
+  <VVERaid_UI_RelationMode>Applique à</VVERaid_UI_RelationMode>
+  <VVERaid_UI_RelationModeTip>Que ce soit pour des raids hostiles, des renforts amicaux ou les deux.</VVERaid_UI_RelationModeTip>
+  <VVERaid_UI_Relation_All>Raids et renforts hostiles</VVERaid_UI_Relation_All>
+  <VVERaid_UI_Relation_HostileOnly>Seuls les raids hostiles</VVERaid_UI_Relation_HostileOnly>
+  <VVERaid_UI_Relation_ReinforcementOnly>Seuls renforts</VVERaid_UI_Relation_ReinforcementOnly>
+  <VVERaid_UI_Factions>Factions</VVERaid_UI_Factions>
+  <VVERaid_UI_FactionsTip>Les factions qui utilisent ce cadre.</VVERaid_UI_FactionsTip>
+  <VVERaid_UI_NoFactionsWarn>Aucune faction n'est sélectionnée, donc ce paramètre n'est jamais utilisé.</VVERaid_UI_NoFactionsWarn>
+  <VVERaid_UI_RaidStrategies>Stratégies de raids</VVERaid_UI_RaidStrategies>
+  <VVERaid_UI_RaidStrategiesTip>Stratégies de raids (attaque immédiate, siège, etc.) dans lesquelles des véhicules peuvent apparaître.</VVERaid_UI_RaidStrategiesTip>
+  <VVERaid_UI_NoStrategiesWarn>Aucune stratégie de raid n'est sélectionnée, donc ce réglage n'est jamais utilisé.</VVERaid_UI_NoStrategiesWarn>
+  <VVERaid_UI_ArrivalModes>Mode d'arrivée</VVERaid_UI_ArrivalModes>
+  <VVERaid_UI_ArrivalModesTip>Comment le raid entre sur la carte (marcher depuis le bord, déposer des capsules, etc.).</VVERaid_UI_ArrivalModesTip>
+  <VVERaid_UI_NoArrivalWarn>Aucun mode d'arrivée n'est sélectionné, donc ce paramètre n'est jamais utilisé.</VVERaid_UI_NoArrivalWarn>
+  <VVERaid_UI_BudgetCurve>Curve budgétaire du véhicule</VVERaid_UI_BudgetCurve>
+  <VVERaid_UI_CurveNote>Part des points de raids totaux consacrés aux véhicules, selon les points de raids. 0 = aucun véhicule, 1 = tous les points vont aux véhicules (pas d'infanterie sauf les équipages).</VVERaid_UI_CurveNote>
+  <VVERaid_UI_EmptyCurveWarn>La courbe n'a pas de points, donc aucun véhicule n'apparaîtra.</VVERaid_UI_EmptyCurveWarn>
+  <VVERaid_UI_CurveX>Points de raids</VVERaid_UI_CurveX>
+  <VVERaid_UI_CurveY>Partie du véhicule (0-1)</VVERaid_UI_CurveY>
+  <VVERaid_UI_AddPoint>+ Ajouter un point</VVERaid_UI_AddPoint>
+  <VVERaid_UI_TagWeights>Poids de sélection du véhicule</VVERaid_UI_TagWeights>
+  <VVERaid_UI_TagWeightsNote>Chaque fois qu'un véhicule est acheté, l'une de ces entrées est choisie par poids, puis un véhicule aléatoire qui a toutes ses étiquettes est choisi.</VVERaid_UI_TagWeightsNote>
+  <VVERaid_UI_TagWeightN>Entrée {0} (partie {1} / {2} véhicules correspondants)</VVERaid_UI_TagWeightN>
+  <VVERaid_UI_TagsAnd>Les étiquettes (toutes requises)</VVERaid_UI_TagsAnd>
+  <VVERaid_UI_NoMatchWarn>Aucun véhicule activé n'a toutes ces étiquettes.</VVERaid_UI_NoMatchWarn>
+  <VVERaid_UI_Weight>Poids</VVERaid_UI_Weight>
+  <VVERaid_UI_MinRaidPoints>Point de raids minimaux</VVERaid_UI_MinRaidPoints>
+  <VVERaid_UI_MinRaidPointsTip>Cette entrée ne peut être choisie que si la razzia a au moins autant de points.</VVERaid_UI_MinRaidPointsTip>
+  <VVERaid_UI_AddTagWeight>+ Ajouter l'entrée</VVERaid_UI_AddTagWeight>
+  <VVERaid_UI_GraphicRules>Règles relatives à la peinture et au camouflage</VVERaid_UI_GraphicRules>
+  <VVERaid_UI_GraphicRulesNote>Les règles sont vérifiées de haut en bas; la première règle dont les balises correspondent toutes au véhicule est utilisée.</VVERaid_UI_GraphicRulesNote>
+  <VVERaid_UI_RuleN>Règlement {0}</VVERaid_UI_RuleN>
+  <VVERaid_UI_RuleTagsTip>Laissez vide pour correspondre à chaque véhicule.</VVERaid_UI_RuleTagsTip>
+  <VVERaid_UI_Patterns>Des modèles</VVERaid_UI_Patterns>
+  <VVERaid_UI_PatternsTip>L'un de ces modèles est choisi au hasard.</VVERaid_UI_PatternsTip>
+  <VVERaid_UI_UnifyTheme>Les mêmes couleurs dans un seul raid</VVERaid_UI_UnifyTheme>
+  <VVERaid_UI_UnifyThemeTip>Si cela est possible, tous les véhicules de la même incursion utilisent le même ensemble de couleurs.</VVERaid_UI_UnifyThemeTip>
+  <VVERaid_UI_ColorSetN>Ensemble de couleurs {0}</VVERaid_UI_ColorSetN>
+  <VVERaid_UI_NoColorSetsNote>Aucun ensemble de couleurs: la couleur de la faction est utilisée.</VVERaid_UI_NoColorSetsNote>
+  <VVERaid_UI_ColorOne>Couleur 1</VVERaid_UI_ColorOne>
+  <VVERaid_UI_ColorTwo>Couleur 2</VVERaid_UI_ColorTwo>
+  <VVERaid_UI_ColorThree>Couleur 3</VVERaid_UI_ColorThree>
+  <VVERaid_UI_UseFactionColor>Utilisez la couleur de la faction</VVERaid_UI_UseFactionColor>
+  <VVERaid_UI_Brightness>Lumière {0}</VVERaid_UI_Brightness>
+  <VVERaid_UI_AddColorSet>+ Ajouter un ensemble de couleurs</VVERaid_UI_AddColorSet>
+  <VVERaid_UI_AddRule>+ Ajouter une règle</VVERaid_UI_AddRule>
+  <VVERaid_UI_StrategyNote>Lorsque cette stratégie de raid est utilisée par une faction autorisée, ces paramètres prennent la priorité sur les paramètres de raid de faction.</VVERaid_UI_StrategyNote>
+  <VVERaid_UI_StrategyArriveModes>Les modes d'arrivée de cette stratégie: {0}</VVERaid_UI_StrategyArriveModes>
+  <VVERaid_UI_AnyArrivalMode>tout autre</VVERaid_UI_AnyArrivalMode>
+  <VVERaid_UI_StrategyMissingWarn>Cette stratégie de raid n'est pas chargée.</VVERaid_UI_StrategyMissingWarn>
+  <VVERaid_UI_AllFactions>Toutes les factions</VVERaid_UI_AllFactions>
+  <VVERaid_UI_AllFactionsTip>Si désactivé, seules les factions sélectionnées utilisent ces paramètres.</VVERaid_UI_AllFactionsTip>
+  <VVERaid_UI_StrategyFactionWarn>Remarque: les factions qui ne sont pas énumérées ici ne peuvent plus utiliser cette stratégie de raid du tout.</VVERaid_UI_StrategyFactionWarn>
+  <VVERaid_UI_TagHint_car>L'IA de transport: décharge l'infanterie près des ennemis et les récupère en se retirant</VVERaid_UI_TagHint_car>
+  <VVERaid_UI_TagHint_mortar>L'IA de mortier: ne tire pas pendant la première heure après son arrivée</VVERaid_UI_TagHint_mortar>
+  <VVERaid_UI_TagHint_boat>Artificiel artificiel: débarque de l'infanterie sur la côte</VVERaid_UI_TagHint_boat>
+  <VVERaid_UI_TagHint_spg>Les armes à propulsion autonome: s'arrêtent périodiquement pour rechercher des cibles</VVERaid_UI_TagHint_spg>
+  <VVERaid_UI_TagHint_deploy>Utilisé avec mortier: déploiements avant tir</VVERaid_UI_TagHint_deploy>
+  <VVERaid_UI_TagHint_helicopter>Hélicoptère: atterrissage avec l'infanterie dans des raids de type débarquement</VVERaid_UI_TagHint_helicopter>
+  <VVERaid_UI_TagHint_droppod>Capsule de débarquement: des terres avec une infanterie dans des raids de type débarquement</VVERaid_UI_TagHint_droppod>
+  <VVERaid_UI_TagHint_aerial>Les épaves aériennes (cadre aérienne)</VVERaid_UI_TagHint_aerial>
+  <VVERaid_UI_TagHint_aerialheli>L'IA de l'hélicoptère aérien</VVERaid_UI_TagHint_aerialheli>
+  <VVERaid_UI_TagHint_aerialplane>IA de l'avion aérien</VVERaid_UI_TagHint_aerialplane>
+  <VVERaid_UI_TagHint_marine>Les épis de l'eau (ensemble sans étiquette "terre")</VVERaid_UI_TagHint_marine>
+  <VVERaid_UI_TagHint_land>Véhicule terrestre</VVERaid_UI_TagHint_land>
+</LanguageData>

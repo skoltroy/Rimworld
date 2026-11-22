@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Complementary Odyssey - French TradFix</name>
+	<authors>
+		<li>MrHydralisk</li>
+	</authors>
+	<packageId>MrHydralisk.ComplementaryOdyssey</packageId>
+	<url>https://github.com/MrHydralisk/Complementary-Odyssey</url>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">Things/Building/CO_VacDoor/CO_VacDoor_MenuIcon_south</modIconPath>
+	<description>Adding new content to Odyssey DLC. Includes compact combination of vac barrier with autodoor, twin thrusters, roll out solar arrays, terrain scanner, vac barrier for roof, extendable bridge, roof retractor, vacflower, vacdew, vacsop, artifitial soil, compressed hay, archean rich soil and upgradable Grav Engine.</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Odyssey</packageId>
+			<displayName>Odyssey</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/3022790</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+</ModMetaData>

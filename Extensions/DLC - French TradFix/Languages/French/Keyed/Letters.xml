@@ -1,0 +1,176 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LetterLabelConvertIdeoAttempt_Success>Conversion</LetterLabelConvertIdeoAttempt_Success>
+  <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef} a réussi à détourner {RECIPIENT_nameDef} de {OLDIDEO_name} et à le convertir à {IDEO_name}.</LetterConvertIdeoAttempt_Success>
+  <LetterLabelGrandSlaveRebellion>Grande rébellion d'esclaves</LetterLabelGrandSlaveRebellion>
+  <LetterGrandSlaveRebellion>Une grande rébellion d'esclaves a éclaté ! Tous vos esclaves se soulèvent contre vous. Ils chercheront des armes et tenteront d'éliminer vos colons.\n\nEsclaves impliqués :\n\n{0}</LetterGrandSlaveRebellion>
+  <LetterLabelLocalSlaveRebellion>Rébellion locale d'esclaves</LetterLabelLocalSlaveRebellion>
+  <LetterLocalSlaveRebellion>Une rébellion locale d'esclaves a éclaté ! {0_nameDef} et quelques esclaves des environs se soulèvent contre vous. Ils chercheront des armes et tenteront d'éliminer vos colons.\n\nEsclaves impliqués :\n\n{1}</LetterLocalSlaveRebellion>
+  <LetterLabelSingleSlaveRebellion>Rébellion d'esclave</LetterLabelSingleSlaveRebellion>
+  <LetterSingleSlaveRebellion>{0_nameDef} se rebelle ! {0_pronoun} va chercher des armes et tenter d'éliminer vos colons.</LetterSingleSlaveRebellion>
+  <LetterLabelGrandSlaveEscape>Évasion massive d'esclaves</LetterLabelGrandSlaveEscape>
+  <LetterGrandSlaveEscape>Une évasion massive d'esclaves a commencé ! Tous vos esclaves tentent de s'enfuir.\n\nEsclaves impliqués :\n\n{0}</LetterGrandSlaveEscape>
+  <LetterLabelLocalSlaveEscape>Évasion locale d'esclaves</LetterLabelLocalSlaveEscape>
+  <LetterLocalSlaveEscape>Une évasion locale d'esclaves a commencé ! {0_nameDef} et quelques esclaves des environs tentent de s'enfuir.\n\nEsclaves impliqués :\n\n{1}</LetterLocalSlaveEscape>
+  <LetterLabelSingleSlaveEscape>Évasion d'esclave</LetterLabelSingleSlaveEscape>
+  <LetterSingleSlaveEscape>{0_nameDef} tente de s'évader !</LetterSingleSlaveEscape>
+  <SlaveRebellionSuppressionExplanation>Les esclaves sont plus susceptibles de se rebeller lorsque leur niveau de soumission est bas.</SlaveRebellionSuppressionExplanation>
+  <LetterLabelRoleActive>Rôle de {0} activé</LetterLabelRoleActive>
+  <LetterLabelRoleActiveDesc>Le nombre de {0} dans votre colonie a atteint {1}. Vous pouvez maintenant attribuer le rôle de {ROLE_labelDef} à un de vos colons.\n\nPour attribuer un rôle, utilisez l'onglet Social de la personne, ou sélectionnez un lieu de rituel ou un autel et cliquez sur « Commencer le changement de rôle ».</LetterLabelRoleActiveDesc>
+  <LetterLabelRoleInactive>Rôle de {0} désactivé</LetterLabelRoleInactive>
+  <LetterLabelRoleInactiveDesc>Le nombre de {0} dans votre colonie est tombé à {1}. Le rôle de {ROLE_labelDef} n'est plus actif. Il sera de nouveau disponible lorsque le nombre de {0} atteindra {2}.</LetterLabelRoleInactiveDesc>
+  <LetterLabelRoleLost>Le rôle {ROLE_labelIndef} de {PAWN_labelShort} a été perdu</LetterLabelRoleLost>
+  <LetterRoleLostDesc>{PAWN_labelShort} n'occupe plus le rôle de {ROLE_labelIndef}. Raison :</LetterRoleLostDesc>
+  <LetterRoleLostReasonUnassignedDesc>{PAWN_pronoun} n'a plus de rôle attribué.</LetterRoleLostReasonUnassignedDesc>
+  <LetterRoleLostReasonLowBelieversDesc>Le rôle a été désactivé en raison du nombre insuffisant de {0}.</LetterRoleLostReasonLowBelieversDesc>
+  <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} a perdu {PAWN_possessive} poste de {ROLE_labelDef}, car {PAWN_pronoun} a abandonné {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
+  <LetterObligationRoleInactive>{0} ignoré</LetterObligationRoleInactive>
+  <LetterObligationRoleInactiveDateDesc>Le {0} est la date du {1}, mais comme le rôle de {ROLE_labelDef} est inactif, les {2} ne célébreront pas le {1}.</LetterObligationRoleInactiveDateDesc>
+  <LetterSpeechConvertedListeners>Le discours de {PAWN_pronoun} a converti les personnes suivantes à {IDEO}</LetterSpeechConvertedListeners>
+  <LetterTitleObligationsActivated>{0} rituels activés</LetterTitleObligationsActivated>
+  <LetterTitleObligationsDeactivated>{0} rituels désactivés</LetterTitleObligationsDeactivated>
+  <LetterTitleObligationsDeactivatedTooFewBelievers>Il y a maintenant moins de {1} {IDEO_memberNamePlural} dans votre faction. Par conséquent, les {IDEO_memberNamePlural} n'exigeront pas la célébration des rituels de {IDEO} tant qu'ils ne seront pas au moins {1} dans votre faction.</LetterTitleObligationsDeactivatedTooFewBelievers>
+  <LetterTitleObligationsActivatedEnoughBelievers>Comme votre faction compte maintenant {1} {IDEO_memberNamePlural}, ils exigeront la célébration des rituels de {IDEO}.</LetterTitleObligationsActivatedEnoughBelievers>
+  <LetterTitleObligationsActivatedIdeoBecameMajor>Comme {IDEO} est maintenant l'idéoligion principale de votre faction, les {IDEO_memberNamePlural} exigeront la célébration des rituels de {IDEO}.</LetterTitleObligationsActivatedIdeoBecameMajor>
+  <LetterBondRemoved>Lien(s) rompu(s)</LetterBondRemoved>
+  <LetterBondRemovedDesc>{PAWN_nameDef} s'est converti à {IDEO}. Comme {IDEO} désapprouve les liens avec les animaux, {PAWN_pronoun} a renoncé à {PAWN_possessive} liens avec les animaux suivants :\n\n{BONDS}</LetterBondRemovedDesc>
+  <LetterLabelEnslavementSuccess>Réduction en esclavage</LetterLabelEnslavementSuccess>
+  <LetterEnslavementSuccess>{0_nameDef} a réduit {1_nameDef} en esclavage.</LetterEnslavementSuccess>
+  <LetterLabelNewPrimaryIdeo>Idéoligion principale modifiée</LetterLabelNewPrimaryIdeo>
+  <LetterNewPrimaryIdeo>L'idéoligion principale de votre faction est passée de {OLDIDEO_name} à {NEWIDEO_name}.\n\nCela s'est produit parce que {NEWIDEO_name} est désormais plus répandue que toute autre idéoligion parmi vos {FACTION_pawnsPlural}.\n\nVotre idéoligion principale influe sur vos relations avec les autres factions, selon la proximité de vos croyances.</LetterNewPrimaryIdeo>
+  <JoinerCharityInfo>Il s'agit d'un événement caritatif. Si vous renvoyez {0}, les adeptes de croyances charitables seront mécontents.</JoinerCharityInfo>
+  <AfflictedJoinerChartityInfo>Il s'agit d'un événement caritatif. Si {0} meurt sans avoir été soigné (après {1}), les adeptes de croyances charitables seront mécontents. Si {0} est soigné ou recruté, ils seront heureux.</AfflictedJoinerChartityInfo>
+  <PawnsHaveCharitableBeliefs>Les adeptes suivants ont des croyances charitables</PawnsHaveCharitableBeliefs>
+  <LetterIdeoChangeConverted>{PAWN_pronoun} a décidé que {PAWN_possessive} croyance en {OLDIDEO_name} n'avait plus aucun sens.\n\n{PAWN_pronoun} croit maintenant en {NEWIDEO_name}.</LetterIdeoChangeConverted>
+  <LetterIdeoChangeNotConverted>La certitude de {PAWN_nameDef} en {PAWN_possessive} croyance en {OLDIDEO_name} est tombée à {NEWCERTAINTY}.</LetterIdeoChangeNotConverted>
+  <LetterIdeoChangedWanderOwnRoom>Pour accepter {PAWN_possessive} croyances, {PAWN_nameDef} se cache maintenant dans {PAWN_possessive} chambre.</LetterIdeoChangedWanderOwnRoom>
+  <LetterIdeoChangedSadWander>{PAWN_nameDef} erre maintenant en état de choc, aux prises avec {PAWN_possessive} croyances.</LetterIdeoChangedSadWander>
+  <LetterIdeoChangedDivorce>Divorce</LetterIdeoChangedDivorce>
+  <LetterIdeoChangedDivorcedPawns>Les nouvelles croyances de {PAWN_nameDef} ne lui permettent plus d'avoir {PAWN_possessive} nombre actuel de conjoints.\n\n{PAWN_nameDef} a décidé de divorcer des personnes suivantes :\n{1}</LetterIdeoChangedDivorcedPawns>
+  <LetterLabelSurpriseReinforcements>Renforts inattendus !</LetterLabelSurpriseReinforcements>
+  <LetterSurpriseReinforcements>Des renforts de {1} sont arrivés ! Ils viennent aider {0} contre {1}.</LetterSurpriseReinforcements>
+  <LetterWantLookChange>Changement d'apparence souhaité</LetterWantLookChange>
+  <LetterWantLookChangeDesc>{PAWN_nameDef} souhaite modifier son apparence, qui ne correspond plus à {PAWN_possessive} croyances. {PAWN_pronoun} tient à cette modification.\n\n{PAWN_pronoun} utilisera automatiquement une station de stylisme disponible pour choisir une apparence. Pour personnaliser {PAWN_possessive} apparence, sélectionnez {PAWN_objective} et faites un clic droit sur la station de stylisme.</LetterWantLookChangeDesc>
+  <LetterLabelSpacedroneIncoming>Droïde spatial en approche</LetterLabelSpacedroneIncoming>
+  <LetterTextSpacedroneIncoming>Un droïde spatial atterrit à proximité.</LetterTextSpacedroneIncoming>
+  <LetterTextRaidSpacedrone>Un raid de {0} est arrivé pour détruire le {1} qui a dû atterrir à proximité.</LetterTextRaidSpacedrone>
+  <LetterTextSpacedroneHacked>Vous avez terminé le piratage du {0} et en avez appris davantage sur l'ancienne relique {1}.</LetterTextSpacedroneHacked>
+  <LetterLabelRelicDestroyed>Relique détruite</LetterLabelRelicDestroyed>
+  <LetterTextRelicDestroyed>{0} a été détruite !\n\nLes personnes suivantes subiront une baisse d'humeur :\n{1}</LetterTextRelicDestroyed>
+  <LetterLabelRelicLost>Relique perdue</LetterLabelRelicLost>
+  <LetterTextRelicLost>{0} a été perdue !\n\nLes personnes suivantes subiront une baisse d'humeur :\n{1}</LetterTextRelicLost>
+  <LetterOnlySlaveCaravanColonistsLeft>Tous les membres non esclaves de {0} sont morts. Les esclaves survivants sont partis. La caravane s'est dispersée.</LetterOnlySlaveCaravanColonistsLeft>
+  <LetterLabelLastHackerLost>Dernier pirate disparu</LetterLabelLastHackerLost>
+  <LetterTextLastHackerLost>Le dernier pirate capable de percer les secrets du complexe ancien a été perdu. Appelez des renforts capables de pirater, ou abandonnez la quête.</LetterTextLastHackerLost>
+  <LetterLabelRelicFound>Relique découverte</LetterLabelRelicFound>
+  <LetterTextRelicFoundLocation>Vous avez enfin découvert l'emplacement de la relique {0} !</LetterTextRelicFoundLocation>
+  <LetterTextRelicFoundSecurityThreats>La relique se trouve dans une structure ancienne, protégée par un système de sécurité composé de plusieurs unités indépendantes. Vous pouvez neutraliser les forces de sécurité une unité à la fois avant de prendre la relique, ou tenter de vous en emparer et de fuir avant qu'elles ne vous blessent.\n\nAprès {0}, tous les systèmes de sécurité seront alertés.</LetterTextRelicFoundSecurityThreats>
+  <LetterLabelRelicsCollected>Reliques récupérées</LetterLabelRelicsCollected>
+  <LetterTextRelicsCollected>Toutes les reliques appartenant à {0} ont été récupérées. Les personnes suivantes seront ravies</LetterTextRelicsCollected>
+  <LetterTextRelicsCollectedClassic>Vous avez récupéré toutes les reliques connues de ce monde. Les personnes suivantes seront ravies</LetterTextRelicsCollectedClassic>
+  <LetterLabelPawnConnected>Lien avec {TREE_label}</LetterLabelPawnConnected>
+  <LetterTextPawnConnected>{CONNECTOR_nameDef} s'est lié à {TREE_definite}.\n\n{TREE_definite} produira de petits animaux appelés dryades, qui grandiront dans des gousses à sa base. Ces dryades peuvent se spécialiser en différentes castes. Vous pouvez choisir la caste que l'arbre produira.\n\nPlus le lien entre l'arbre et l'humain est fort, plus {TREE_definite} peut entretenir de dryades. {CONNECTOR_nameDef} peut renforcer ce lien en élaguant {TREE_definite}. Pour maintenir un lien plus fort, il faut élaguer plus souvent.</LetterTextPawnConnected>
+  <LetterLabelConnectedTreeDestroyed>{TREE_label} connecté détruit</LetterLabelConnectedTreeDestroyed>
+  <LetterTextConnectedTreeDestroyed>Un {TREE_label} lié à {CONNECTEDPAWN_nameDef} a été détruit, tuant la reine des dryades qui y vivait.\n\nSans reine, l'esprit collectif des dryades s'est effondré. Toutes les dryades de cet arbre sont mortes.</LetterTextConnectedTreeDestroyed>
+  <LetterLabelArchonexusWealthReached>Quête « {0} » disponible</LetterLabelArchonexusWealthReached>
+  <LetterTextArchonexusWealthReached>Vous avez atteint le niveau de richesse requis pour la quête « {0} ». Vous pouvez maintenant l'accepter.</LetterTextArchonexusWealthReached>
+  <LetterLabelArchonexusStructureResearched>{0_labelShort} étudié</LetterLabelArchonexusStructureResearched>
+  <LetterTextArchonexusStructureResearched>Vous avez terminé l'étude de {0_labelShort}.\n\nVous ne pouvez pas prétendre le comprendre entièrement, mais vous avez décelé des motifs dans son comportement et dans la manière dont il semble exprimer des informations.\n\nGrâce à ces connaissances, vous pourrez interpréter la prochaine partie de la carte de l'archonexus.</LetterTextArchonexusStructureResearched>
+  <LetterLabelArchotechStructuresAbandoned>Structures archotech abandonnées</LetterLabelArchotechStructuresAbandoned>
+  <LetterTextArchotechStructuresAbandoned>Vous avez abandonné les structures archotech de {0_definite}.\n\nDes observateurs éloignés affirment avoir vu une grande lueur émaner de cet endroit peu après votre départ.</LetterTextArchotechStructuresAbandoned>
+  <LetterLabelReformIdeo>Réformer l'idéoligion</LetterLabelReformIdeo>
+  <LetterTextReformIdeo>Vous avez assez de points de développement pour réformer {0} !\n\nLa réforme vous permet d'effectuer l'une des modifications suivantes :\n\n- Ajouter un mème\n- Retirer un mème\n- Modifier la structure\n- Modifier le style\n\nVous pouvez aussi modifier sans limite les préceptes, les divinités, le texte narratif et d'autres symboles.\n\nPour réformer l'idéoligion, ouvrez-la dans l'onglet des idéoligions.</LetterTextReformIdeo>
+  <LetterLabelMechsFeral>Mécanoïdes devenus sauvages</LetterLabelMechsFeral>
+  <LetterMechsFeral>Des mécanoïdes qui erraient sans superviseur se sont connectés aux anciens signaux de contrôle mécanoïdes planétaires. Ils ont rejoint {0}, sont devenus hostiles et semblent vouloir se frayer un chemin hors de la carte.\n\nLes mécanoïdes sauvages ne peuvent pas être ressuscités dans un gestateur après leur mort.\n\nCes mécanoïdes sont concernés :\n\n{1}</LetterMechsFeral>
+  <LetterLabelMechlinkInstalled>Méchalien installé</LetterLabelMechlinkInstalled>
+  <LetterMechlinkInstalled>{PAWN_labelShort} a installé un méchalien ! {PAWN_pronoun} est désormais un mécaniteur et peut créer et contrôler des mécanoïdes.\n\nÉtudiez la technologie mécanoïde de base pour commencer.\n\n(*SectionTitle)Création de mécanoïdes :(/SectionTitle) Votre mécaniteur peut créer des mécanoïdes dans un bâtiment de production appelé gestateur mécanoïde.\n\n(*SectionTitle)À propos de la bande passante :(/SectionTitle) Un mécaniteur peut contrôler autant de mécanoïdes que le permet sa bande passante totale. Sélectionnez {PAWN_labelShort} et consultez l’indicateur « Bande passante » de {PAWN_possessive} pour voir combien de bande passante {PAWN_pronoun} utilise actuellement et combien il en reste à {PAWN_pronoun}. La bande passante peut être augmentée avec certains vêtements et en construisant des nœuds de bande.\n\n(*SectionTitle)À propos des groupes de contrôle :(/SectionTitle) Les mécaniteurs contrôlent les mécanoïdes par groupes. Chaque groupe de contrôle peut être réglé sur l’un de ces modes :\n\n- Travail\n- Escorte\n- Recharge\n- Auto-recharge dormante\n\nPour en savoir plus sur chaque mode, sélectionnez l’icône de mode de travail sur l’un des groupes de contrôle de {PAWN_labelShort} et survolez les différents ordres de travail. Le nombre maximal de groupes de contrôle peut être augmenté avec certains vêtements et implants.\n\n(*SectionTitle)À propos de l’appel de menaces :(/SectionTitle) Les mécaniteurs peuvent envoyer un signal aux anciens mécanoïdes dirigeant pour qu’ils attaquent et ainsi obtenir des objets rares. Vous devez le faire pour améliorer votre mécaniteur au-delà de certaines limites, mais méfiez-vous du danger.</LetterMechlinkInstalled>
+  <MentalStateReason_Gene>Cela est arrivé à cause de</MentalStateReason_Gene>
+  <LetterLabelBossgroupSummoned>{0} invoqué</LetterLabelBossgroupSummoned>
+  <LetterBossgroupSummoned>Attiré par vos signaux mécanoïdes, un mécanoïde ultra-lourd provenant de {0} arrivera bientôt. Préparez-vous.</LetterBossgroupSummoned>
+  <LetterLabelBossgroupArrived>{0} arrivé</LetterLabelBossgroupArrived>
+  <LetterBossgroupArrived>Un mécanoïde ultra-lourd provenant de {0} est venu vous exterminer, accompagné d’escortes.\n\n{1}\n\nLe groupe d’assaut est composé des {3} suivants :\n\n{4}\n\nIls prendront un certain temps avant d’attaquer.</LetterBossgroupArrived>
+  <LetterLabelCommsConsoleSpawned>Invoquer {LEADER_label} disponible</LetterLabelCommsConsoleSpawned>
+  <LetterCommsConsoleSpawned>Un mécaniteur peut utiliser le {PARENT_label} pour invoquer un mécanoïde {LEADER_label} dangereux et hostile. Préparez-vous, les mécanoïdes {LEADER_label} sont extrêmement puissants.\n\nSi vous vainquez le {LEADER_label}, il laissera tomber les objets suivants :\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+  <LetterLabelBossgroupCallerUnlocked>Invoquer {LEADER_label} possible</LetterLabelBossgroupCallerUnlocked>
+  <LetterBossgroupCallerUnlocked>Vous pouvez maintenant construire un {PARENT_label} qu’un mécaniteur pourra utiliser pour invoquer un {LEADER_label}. Si vous vainquez le {LEADER_label}, il laissera tomber les objets suivants :\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+  <LetterLabelMechanitorCasketOpened>Méchatelier de {PAWN_nameDef} disponible</LetterLabelMechanitorCasketOpened>
+  <LetterMechanitorCasketOpened>Vous avez trouvé le corps d’un ancien mécaniteur !\n\nRetirez {PAWN_possessive} méchalien en sélectionnant un colon puis en faisant un clic droit sur le cadavre.</LetterMechanitorCasketOpened>
+  <LetterLabelMechanitorCasketFound>Sarcophage de mécaniteur trouvé</LetterLabelMechanitorCasketFound>
+  <LetterMechanitorCasketFound>Vous avez découvert le sarcophage d’hypersommeil d’un mécaniteur !\n\nOuvrez-le pour le trouver à l’intérieur.</LetterMechanitorCasketFound>
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>Votre caravane a été perdue. Les personnes, animaux et mécanoïdes suivants ont été perdus avec elle</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>Les personnes, animaux et mécanoïdes suivants ont été abandonnés</LetterPawnsLostIncMechsBecauseMapClosed_Home>
+  <LetterLabelBecameChild>{0_nameDef} est devenu(e) enfant</LetterLabelBecameChild>
+  <LetterLabelBecameAdult>{0_nameDef} est devenu(e) adulte</LetterLabelBecameAdult>
+  <LetterBecameChild>Le bébé {0_nameDef} a grandi et est devenu un enfant ! {0_pronoun} est maintenant assez âgé(e) pour effectuer les travaux suivants :</LetterBecameChild>
+  <LetterBecameChildChanges>Les enfants peuvent effectuer différents types de travaux. En grandissant, ils peuvent accomplir davantage de types de travaux.\n\nIls pratiquent aussi diverses activités récréatives propres aux enfants.\n\nLes enfants doivent porter des vêtements spécialement adaptés à leur taille.</LetterBecameChildChanges>
+  <LetterChildLegalStatus>Selon la tradition, {0_nameDef}, {0_parentage}, est {0_legalStatus}, mais des exceptions sont possibles....  {0_nameDef} doit-il rester {0_legalStatus} ?</LetterChildLegalStatus>
+  <LetterChildFollowIdeo>{0_labelShort} a décidé de devenir adepte de l’idéoligion {1_name}.</LetterChildFollowIdeo>
+  <CannotChangeChildStatusReason>Le statut d’esclavage de {0_nameDef} a déjà changé depuis {0_possessive} anniversaire.</CannotChangeChildStatusReason>
+  <Enslave>asservir</Enslave>
+  <Emancipate>émanciper</Emancipate>
+  <RemainX>demeurer {0}</RemainX>
+  <LetterLabelAdopted>{BABY_nameDef} adopté</LetterLabelAdopted>
+  <LetterTextAdopted>{BABY_nameDef}, un bébé, a été adopté par votre colonie. Vous pouvez affecter des colons au type de travail « garde d’enfants » pour prendre soin de {BABY_objective}.</LetterTextAdopted>
+  <LetterLabelThirdTrimester>Préparation de bébé pour {0_nameDef}</LetterLabelThirdTrimester>
+  <LetterTextThirdTrimester>{0_nameDef} doit accoucher dans moins de 6 jours. Vous pouvez préparer l’arrivée du bébé :\n\n- Construire une salle d’accouchement avec un sol propre et un bon lit.\n- Préparer un médecin compétent.\n- Dans l’onglet Travail, affectez au moins une personne à la garde d’enfants.\n- Préparez une source de nourriture pour le bébé. {0_nameDef} peut allaiter le bébé, ou vous pouvez le nourrir avec des aliments pour bébé, du lait ou de la gelée d’insectes.\n- Construire un berceau. Les berceaux de haute qualité rendent les bébés heureux.\n\nVous pouvez préparer des aliments pour bébé sur une cuisinière ou un feu de camp.</LetterTextThirdTrimester>
+  <LetterVatBirth>naissance en cuve de {0}</LetterVatBirth>
+  <LetterVatHealthyBaby>L’embryon de {0_nameDef} et {1_nameDef} a terminé sa gestation dans une cuve de gestation et est devenu un bébé en bonne santé !</LetterVatHealthyBaby>
+  <LetterVatHealthyBabyNoParents>Un embryon a terminé sa gestation dans une cuve de gestation et est devenu un bébé en bonne santé !</LetterVatHealthyBabyNoParents>
+  <LetterVatInfantIllness>L’embryon de {0_nameDef} et {1_nameDef} a terminé sa gestation dans une cuve de gestation et est devenu un bébé. Malheureusement, le bébé est malade.</LetterVatInfantIllness>
+  <LetterVatInfantIllnessNoParents>Un embryon a terminé sa gestation dans une cuve de gestation et est devenu un bébé. Malheureusement, le bébé est malade.</LetterVatInfantIllnessNoParents>
+  <LetterVatStillborn>Le bébé formé dans une cuve de gestation à partir des embryons de {0_nameDef} et {1_nameDef} est mort-né.</LetterVatStillborn>
+  <LetterVatSillbornNoParents>Le bébé formé dans une cuve de gestation est mort-né.</LetterVatSillbornNoParents>
+  <LetterColonistPregnancyLaborLabel>Accouchement de {0_labelShort} !</LetterColonistPregnancyLaborLabel>
+  <LetterColonistPregnancyLabor>{0_labelShort} est sur le point d’accoucher ! Les contractions dureront quelques heures avant la naissance du bébé. Le travail peut passer par plusieurs phases de difficulté et de danger variables.\n\nPour améliorer les chances du bébé, rassemblez un médecin et d’autres personnes pour aider à l’accouchement. Sélectionnez {0_labelShort} et appuyez sur « Se préparer pour l’accouchement » afin de lancer la procédure.</LetterColonistPregnancyLabor>
+  <LetterPartColonistDiedAfterChildbirth>{0_labelShort} est décédé(e) des complications suivant l’accouchement.</LetterPartColonistDiedAfterChildbirth>
+  <LetterPartSurrogacy>Le bébé a été conçu par fécondation in vitro et possède la constitution génétique de {0_labelShort} et {1_labelShort}.</LetterPartSurrogacy>
+  <InbredBabyBorn>Le bébé présente des signes d’anomalies génétiques dues à la consanguinité.</InbredBabyBorn>
+  <BabyAlreadyNamed>{0_nameDef} a déjà été nommé.</BabyAlreadyNamed>
+  <NameBaby>nommer le bébé</NameBaby>
+  <Immediately>immédiatement</Immediately>
+  <Within>dans</Within>
+  <LetterPartTempBabyName>Le bébé a reçu le nom temporaire {0_nameFull}.</LetterPartTempBabyName>
+  <LetterPartLiveBirthNameDeadline>Vous pouvez le modifier jusqu’à {0} après la naissance.</LetterPartLiveBirthNameDeadline>
+  <LetterPartStillbirthNameDeadline>Voulez-vous donner un autre nom au bébé ?</LetterPartStillbirthNameDeadline>
+  <LetterPartNameBabyAdopt>Le bébé a reçu le nom temporaire {0_nameFull}. Vous pouvez le modifier tant qu’il a moins de {1}.</LetterPartNameBabyAdopt>
+  <BirthdayGrowthMoment>Moment de croissance pour {PAWNNAME}</BirthdayGrowthMoment>
+  <BirthdayBiologicalGrowthMoment>{0_nameFull} a atteint l’âge biologique de {1} ans et a vécu un moment de croissance !</BirthdayBiologicalGrowthMoment>
+  <BirthdayBiologicalAgeWorkTypes>{0_nameDef} est maintenant assez âgé(e) pour effectuer les travaux suivants</BirthdayBiologicalAgeWorkTypes>
+  <BirthdayPickPassion>Choisissez 1 compétence pour que la passion de {0_nameDef} pour {0_possessive} augmente</BirthdayPickPassion>
+  <BirthdayPickPassions>Choisissez {1} compétences pour que la passion de {0_nameDef} pour {0_possessive} augmente</BirthdayPickPassions>
+  <BirthdayPickTrait>Choisissez un trait que {0_nameDef} gagnera</BirthdayPickTrait>
+  <BirthdayGrowthTier>À ce moment de croissance, {0_nameDef} se trouvait au palier de croissance {1}. Les enfants aux paliers supérieurs disposent de davantage d’options de traits et de passions, ainsi que de plus de passions au total. Satisfaire le besoin d’apprentissage aide l’enfant à gagner des paliers plus rapidement. Les paliers de croissance sont remis à zéro après chaque moment de croissance.</BirthdayGrowthTier>
+  <BirthdayChooseHowPawnWillGrow>Ouvrez cette lettre pour choisir comment {0_nameDef} grandira.</BirthdayChooseHowPawnWillGrow>
+  <BirthdayPassionArchive>La passion de {0} a augmenté.</BirthdayPassionArchive>
+  <BirthdayTraitArchive>Le trait {0} a été acquis.</BirthdayTraitArchive>
+  <BirthdayNoTraitChoice>Aucun trait</BirthdayNoTraitChoice>
+  <BirthdayNoTraitChoiceTooltip>{0} ne gagne aucun trait.</BirthdayNoTraitChoiceTooltip>
+  <BirthdayMakeChoices>Faire des choix pour fermer</BirthdayMakeChoices>
+  <BirthdayNickname>{0} a reçu le surnom {1}.</BirthdayNickname>
+  <SelectATrait>Sélectionnez un trait.</SelectATrait>
+  <SelectPassionSingular>Sélectionnez une passion.</SelectPassionSingular>
+  <SelectPassionsPlural>Sélectionnez {0} passions.</SelectPassionsPlural>
+  <Later>Plus tard</Later>
+  <LetterLabelMechlinkAvailable>Méchatelier disponible</LetterLabelMechlinkAvailable>
+  <LetterMechlinkAvailable>Une occasion d’acquérir l’unique implant méchalien est devenue disponible grâce à la quête « {0} ».\n\nInstaller un méchalien fera d’un colon un mécaniteur. Les mécaniteurs peuvent créer, contrôler et manipuler des mécanoïdes pour les travaux et les combats.</LetterMechlinkAvailable>
+  <LetterLabelXenogermOrderedImplanted>Implantation du xénogerme ordonnée</LetterLabelXenogermOrderedImplanted>
+  <LetterXenogermOrderedImplanted>Vous avez ordonné l’implantation d’un xénogerme dans {PAWN_nameDef}. Cette procédure nécessite un lit médical et {MEDICINENEEDED} unité(s) de médicaments.{BEDINFO}{MEDICINEINFO}\n\nVous pouvez annuler cette procédure en allant dans la santé de {PAWN_nameDef} -&gt; onglet Opérations.</LetterXenogermOrderedImplanted>
+  <XenogermOrderedImplantedBedNeeded>\n\nVous ne disposez d’aucun lit médical disponible pour {PAWN_nameDef}. Pensez à désigner un lit comme lit médical.</XenogermOrderedImplantedBedNeeded>
+  <XenogermOrderedImplantedMedicineNeeded>\n\nVous ne disposez pas d’assez de médicaments pour implanter le xénogerme. L’implantation ne pourra pas commencer avant que vous obteniez {MEDICINENEEDED} unité(s) de médicaments.</XenogermOrderedImplantedMedicineNeeded>
+  <LetterLabelInvoluntaryDeathrest>Repos mortel involontaire</LetterLabelInvoluntaryDeathrest>
+  <LetterLabelRegenerationComa>Coma de régénération</LetterLabelRegenerationComa>
+  <LetterTextInvoluntaryDeathrestOrComa>Le gène d’immortalité de {PAWN_nameDef} a empêché {PAWN_objective} de mourir. {HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
+  <LetterTextDeathrest>À la place, {PAWN_pronoun} est tombé(e) dans un repos mortel.</LetterTextDeathrest>
+  <LetterTextRegenerationComa>À la place, {PAWN_pronoun} est tombé(e) dans un coma de régénération.</LetterTextRegenerationComa>
+  <DeathrestLostSkill>À cause du choc neural provoqué par un repos mortel traumatique, {PAWN_nameDef} a perdu {XPLOSS} XP dans la compétence {SKILL} de {PAWN_possessive}.</DeathrestLostSkill>
+  <DeathrestLethalDamage>Dégâts mortels subis.</DeathrestLethalDamage>
+  <LetterLabelSanguophageWaitingToReimplant>Implantation du xénogerme</LetterLabelSanguophageWaitingToReimplant>
+  <LetterTextSanguophageWaitingToReimplant>Pour vous remercier d’avoir permis à {PAWN_objective} et à {PAWN_possessive} compagnons sanguophages de se réunir ici, {PAWN_nameDef} accepte de partager une copie de {PAWN_possessive} xénogerme avec l’un de vos colons. Cela fera de votre colon un sanguophage.\n\nPour accepter, sélectionnez un colon et faites un clic droit sur {PAWN_nameDef}.\n\nSi aucun colon ne réclame la récompense dans les {DURATION}, les sanguophages partiront.</LetterTextSanguophageWaitingToReimplant>
+  <LetterLabelGenesImplanted>Gènes réimplantés</LetterLabelGenesImplanted>
+  <LetterTextGenesImplanted>{CASTER_nameDef} a implanté une copie de {CASTER_possessive} xénogerme dans {TARGET_nameDef}, transmettant tous les xénogènes à {TARGET_objective}.\n\n{TARGET_nameDef} restera en coma de xénogermination pendant {COMADURATION} le temps que {TARGET_possessive} corps s’adapte aux changements.\n\n{CASTER_nameDef} souffrira d’un choc de perte génétique pendant {SHOCKDURATION}. Les gènes de {CASTER_possessive} devront également repousser. Ce processus prend du temps. Si {CASTER_nameDef} implante de nouveau {CASTER_possessive} xénogerme avant que les gènes de {CASTER_possessive} aient repoussé, {CASTER_pronoun} mourra.</LetterTextGenesImplanted>
+  <RefugeePodCrashBaby>Un bébé nommé {PAWN_nameDef}, originaire de la faction {PAWN_factionName}, s’écrase à proximité dans une capsule de transport.\n\nVous pouvez choisir d’adopter {PAWN_objective} avec la commande « adopter » ou ignorer {PAWN_objective}.</RefugeePodCrashBaby>
+  <RefugeePodCrashBabyHasParent>Le corps du parent décédé de {PAWN_nameDef} se trouve également dans la capsule de transport.</RefugeePodCrashBabyHasParent>
+  <LetterPsychicBondCreated>Cherchant instinctivement un partenaire, {BONDPAWN_nameDef} a formé une relation romantique psychiquement liée avec {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} bénéficiera psychologiquement de cette connexion avec {BONDPAWN_nameDef}, mais s’ils sont séparés sur des cases du monde différentes, tous deux souffriront de stress psychique. Si l’un meurt, l’autre sombrera dans la folie.</LetterPsychicBondCreated>
+  <LetterPsychicBondCreatedLovinLabel>Lien psychique</LetterPsychicBondCreatedLovinLabel>
+  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef} a formé une relation romantique psychiquement liée avec {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} bénéficiera psychologiquement de cette connexion avec {BONDPAWN_nameDef}, mais s’ils sont séparés sur des cases du monde différentes, tous deux souffriront de stress psychique. Si l’un meurt, l’autre sombrera dans la folie.</LetterPsychicBondCreatedLovinText>
+</LanguageData>

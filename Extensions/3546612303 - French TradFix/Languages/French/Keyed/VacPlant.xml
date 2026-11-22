@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ComplementaryOdyssey.VacPlant.Gizmo.isAutoHarvest.Label>Récolte automatique</ComplementaryOdyssey.VacPlant.Gizmo.isAutoHarvest.Label>
+  <ComplementaryOdyssey.VacPlant.Gizmo.isAutoHarvest.Desc>Designera automatiquement {0} pour la récolte de {1}, une fois arrivé à maturité.</ComplementaryOdyssey.VacPlant.Gizmo.isAutoHarvest.Desc>
+</LanguageData>

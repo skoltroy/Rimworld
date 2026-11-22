@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+	<VF_ReloadVehicleTurret>Recharger</VF_ReloadVehicleTurret>
+	
+	<VF_AutoTargeting>Cible automatique : {0}</VF_AutoTargeting>
+	<VF_AutoTargetingDisabled>AutoTargeting n'est pas autorisé pour cette tourelle.</VF_AutoTargetingDisabled>
+	
+	<VF_VehicleTurrets_NoAmmoToReload>Pas de munitions utilisables.</VF_VehicleTurrets_NoAmmoToReload>
+	
+	<VF_SetReloadLevel>Définir le niveau de rechargement automatique à {0}</VF_SetReloadLevel>
+	<VF_SetReloadLevelTooltip>Configurer le niveau Ammo</VF_SetReloadLevelTooltip>
+</LanguageData>

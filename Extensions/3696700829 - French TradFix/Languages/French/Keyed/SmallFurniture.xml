@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <SmallFurniture>Petits meubles</SmallFurniture>
+  <SettingsDesc>Choisissez les bâtiments inclus dans le mod. Pour que les modifications prennent effet, il est nécessaire de redémarrer.\n\n</SettingsDesc>
+  <ResetSettingsButton>Réset tout à l' par défaut</ResetSettingsButton>
+  <InBaseGameLabel>Déjà dans le jeu de base</InBaseGameLabel>
+  <NotImplementedLabel>Ne pas mis en œuvre</NotImplementedLabel>
+  <OriginalSizeLabel>Est la taille originale</OriginalSizeLabel>
+  <VanillaVehiclesExpandedLabel>Les véhicules à vanille sont élargis</VanillaVehiclesExpandedLabel>
+  <SmallSettingsDesc>Ajouter une petite variante</SmallSettingsDesc>
+  <EnableAllSmallButton>Activer tous les petits</EnableAllSmallButton>
+  <DisableAllSmallButton>Désactiver tous les petits</DisableAllSmallButton>
+  <EnableSmallTableLabel>Activer la table petite</EnableSmallTableLabel>
+  <EnableSmallDresserLabel>Activer la petite commode</EnableSmallDresserLabel>
+  <EnableSmallSleepingSpotLabel>Activer un petit endroit pour dormir</EnableSmallSleepingSpotLabel>
+  <EnableSmallMultiAnalyzerLabel>Activer un petit analyseur multi-analyseur</EnableSmallMultiAnalyzerLabel>
+  <EnableSmallToolCabinetLabel>Activer un petit armoire d' outils</EnableSmallToolCabinetLabel>
+  <EnableSmallSculptingTableLabel>Activer un petit banc d'art</EnableSmallSculptingTableLabel>
+  <EnableSmallButcherTableLabel>Activer une petite table de boucher</EnableSmallButcherTableLabel>
+  <EnableSmallTailoringBenchesLabel>Activer les petits bancs de taille</EnableSmallTailoringBenchesLabel>
+  <EnableSmallSmithiesLabel>Activer les petites éruptions</EnableSmallSmithiesLabel>
+  <EnableSmallMachiningTableLabel>Activer une petite table d'usinage</EnableSmallMachiningTableLabel>
+  <EnableSmallStovesLabel>Activer les petits fours</EnableSmallStovesLabel>
+  <EnableSmallStonecutterTableLabel>Activer la table de petit tailleurs de pierres</EnableSmallStonecutterTableLabel>
+  <EnableSmallBreweryLabel>Activer une petite brasserie</EnableSmallBreweryLabel>
+  <EnableSmallDrugLabLabel>Faire fonctionner un petit laboratoire de médicaments</EnableSmallDrugLabLabel>
+  <EnableSmallElectricSmelterLabel>Activer une petite fonte électrique</EnableSmallElectricSmelterLabel>
+  <EnableSmallBiofuelRefineryLabel>Permettre une petite raffinerie de biocarburants</EnableSmallBiofuelRefineryLabel>
+  <EnableSmallFabricationBenchLabel>Activer une petite banque de fabrication</EnableSmallFabricationBenchLabel>
+  <EnableSmallSimpleResearchBenchLabel>Permet de créer un petit banc de recherche simple</EnableSmallSimpleResearchBenchLabel>
+  <EnableSmallHiTechResearchBenchLabel>Activer un petit banc de recherche de haute technologie</EnableSmallHiTechResearchBenchLabel>
+  <EnableSmallElectricCrematoriumLabel>Activer un petit crématoire électrique</EnableSmallElectricCrematoriumLabel>
+  <EnableSmallNutrientPasteDispenserLabel>Activer un distributeur de pâte nutritionnelle</EnableSmallNutrientPasteDispenserLabel>
+  <EnableSmallStylingStationLabel>Activer une petite station de styling</EnableSmallStylingStationLabel>
+  <EnableSmallGarageBenchLabel>Activer un petit banc de garage</EnableSmallGarageBenchLabel>
+  <EnableSmallGarageCabinetLabel>Activer un petit armoire de garage</EnableSmallGarageCabinetLabel>
+  <SmallVariantWorkbenchEfficiencyLabel>Économie de travail de petite taille</SmallVariantWorkbenchEfficiencyLabel>
+  <SmallVariantWorkbenchEfficiencyTooltip>...</SmallVariantWorkbenchEfficiencyTooltip>
+  <SmallVariantFacilityEfficiencyLabel>Efficience des installations de petite taille</SmallVariantFacilityEfficiencyLabel>
+  <SmallVariantFacilityEfficiencyTooltip>...</SmallVariantFacilityEfficiencyTooltip>
+  <SmallVariantSimpleResearchBenchSpeedLabel>Petite vitesse de recherche simple</SmallVariantSimpleResearchBenchSpeedLabel>
+  <SmallVariantSimpleResearchBenchSpeedTooltip>...</SmallVariantSimpleResearchBenchSpeedTooltip>
+  <SmallVariantHiTechResearchBenchSpeedLabel>Petite vitesse de recherche de haute technologie</SmallVariantHiTechResearchBenchSpeedLabel>
+  <SmallVariantHiTechResearchBenchSpeedTooltip>...</SmallVariantHiTechResearchBenchSpeedTooltip>
+  <SmallVariantNutrientCostLabel>Coût des nutriments par dispense</SmallVariantNutrientCostLabel>
+  <SmallVariantNutrientCostTooltip>...</SmallVariantNutrientCostTooltip>
+  <ResetSmallVariantWorkbenchEfficiencyButton>Réinitialiser l'efficacité du bureau de travail</ResetSmallVariantWorkbenchEfficiencyButton>
+  <ResetSmallVariantFacilityEfficiencyButton>Efficience de la réinitialisation</ResetSmallVariantFacilityEfficiencyButton>
+  <ResetSmallVariantResearchSpeedButton>Retour à la vitesse de recherche</ResetSmallVariantResearchSpeedButton>
+  <ResetSmallVariantNutrientCostButton>Retour sur le coût des nutriments</ResetSmallVariantNutrientCostButton>
+  <MediumSettingsDesc>Ajouter une variante moyenne</MediumSettingsDesc>
+  <EnableAllMediumButton>Activer tous les supports</EnableAllMediumButton>
+  <DisableAllMediumButton>Désactiver tout support</DisableAllMediumButton>
+  <EnableMediumSculptingTableLabel>Activer le banc d'art moyen</EnableMediumSculptingTableLabel>
+  <EnableMediumButcherTableLabel>Activer la table de boucher moyenne</EnableMediumButcherTableLabel>
+  <EnableMediumTailoringBenchesLabel>Activer les bancs de taille moyenne</EnableMediumTailoringBenchesLabel>
+  <EnableMediumSmithiesLabel>Activer les interfaces moyennes</EnableMediumSmithiesLabel>
+  <EnableMediumMachiningTableLabel>Activer la table d'usinage moyenne</EnableMediumMachiningTableLabel>
+  <EnableMediumStovesLabel>Activer les poêles moyennes</EnableMediumStovesLabel>
+  <EnableMediumStonecutterTableLabel>Activer la table de tailleur de pierre moyenne</EnableMediumStonecutterTableLabel>
+  <EnableMediumBreweryLabel>Activer la brasserie moyenne</EnableMediumBreweryLabel>
+  <EnableMediumDrugLabLabel>Activation du laboratoire médical</EnableMediumDrugLabLabel>
+  <EnableMediumElectricSmelterLabel>Activer une fonte électrique moyenne</EnableMediumElectricSmelterLabel>
+  <EnableMediumBiofuelRefineryLabel>Permettre une raffinerie moyenne de biocarburants</EnableMediumBiofuelRefineryLabel>
+  <EnableMediumFabricationBenchLabel>Activer le banc de fabrication moyen</EnableMediumFabricationBenchLabel>
+  <EnableMediumSimpleResearchBenchLabel>Permettez un banc de recherche moyen et simple</EnableMediumSimpleResearchBenchLabel>
+  <EnableMediumHiTechResearchBenchLabel>Permettre un banc de recherche de haute technologie moyen</EnableMediumHiTechResearchBenchLabel>
+  <EnableMediumElectricCrematoriumLabel>Activer un crématoire électrique moyen</EnableMediumElectricCrematoriumLabel>
+  <EnableMediumNutrientPasteDispenserLabel>Activer le distributeur de pâte à nutriments moyen</EnableMediumNutrientPasteDispenserLabel>
+  <EnableMediumStylingStationLabel>Activer la station de styling moyenne</EnableMediumStylingStationLabel>
+  <EnableMediumGarageBenchLabel>Accédez à un banc de garage moyen</EnableMediumGarageBenchLabel>
+  <EnableMediumGarageCabinetLabel>Activer le placard de garage moyen</EnableMediumGarageCabinetLabel>
+  <MediumVariantWorkbenchEfficiencyLabel>Efficience moyenne des bancs de travail</MediumVariantWorkbenchEfficiencyLabel>
+  <MediumVariantWorkbenchEfficiencyTooltip>...</MediumVariantWorkbenchEfficiencyTooltip>
+  <NoMediumVariantFacilitiesLabel>Aucune installation de variante moyenne</NoMediumVariantFacilitiesLabel>
+  <MediumVariantSimpleResearchBenchSpeedLabel>Vitesse moyenne de recherche simple</MediumVariantSimpleResearchBenchSpeedLabel>
+  <MediumVariantSimpleResearchBenchSpeedTooltip>...</MediumVariantSimpleResearchBenchSpeedTooltip>
+  <MediumVariantHiTechResearchBenchSpeedLabel>Vitesse moyenne de recherche de haute technologie</MediumVariantHiTechResearchBenchSpeedLabel>
+  <MediumVariantHiTechResearchBenchSpeedTooltip>...</MediumVariantHiTechResearchBenchSpeedTooltip>
+  <MediumVariantNutrientCostLabel>Coût des nutriments par dispense</MediumVariantNutrientCostLabel>
+  <MediumVariantNutrientCostTooltip>...</MediumVariantNutrientCostTooltip>
+  <ResetMediumVariantWorkbenchEfficiencyButton>Réinitialiser l'efficacité du bureau de travail</ResetMediumVariantWorkbenchEfficiencyButton>
+  <NoResetMediumVariantFacilityEfficiencyButton>Aucune facilité à réinitialiser</NoResetMediumVariantFacilityEfficiencyButton>
+  <ResetMediumVariantResearchSpeedButton>Retour à la vitesse de recherche</ResetMediumVariantResearchSpeedButton>
+  <ResetMediumVariantNutrientCostButton>Retour sur le coût des nutriments</ResetMediumVariantNutrientCostButton>
+  <ResizeSettings>Rétravailler les paramètres</ResizeSettings>
+  <ResizeSettingsDesc>Si vous voulez réduire la taille d'un bâtiment existant, regardez les paramètres ci-dessous. La possibilité d'une redimensionnement désactivera certaines variantes plus petites, car elles sont effectivement des duplicates.Note: Si vous utilisez des mods haut de gamme, cette texture ne sera pas augmentée à moins qu'elle ne fournisse un patch haut de gamme pour ce mod.\n\n</ResizeSettingsDesc>
+  <SmallResizeDesc>Rétravailler à petite taille</SmallResizeDesc>
+  <ResizeAllSmallButton>Rétravailler tout petit</ResizeAllSmallButton>
+  <ResizeNoneSmallButton>Ne redimensionnez pas</ResizeNoneSmallButton>
+  <ResizeSmallDresserLabel>Rétravail en petit vestiaire</ResizeSmallDresserLabel>
+  <ResizeSmallMultiAnalyzerLabel>Rédimensionner à un petit analyseur multi-analyseur</ResizeSmallMultiAnalyzerLabel>
+  <ResizeSmallToolCabinetLabel>Rédimensionner à un petit armoire d'outils</ResizeSmallToolCabinetLabel>
+  <ResizeSmallMortarLabel>Rétravail à moulin à mortier</ResizeSmallMortarLabel>
+  <ResizeSmallSculptingTableLabel>Rédimensionner à un petit banc d'art</ResizeSmallSculptingTableLabel>
+  <ResizeSmallButcherTableLabel>Ressortez à la petite table du boucher</ResizeSmallButcherTableLabel>
+  <ResizeSmallTailoringBenchesLabel>Rétravail à de petits bancs de tailleur</ResizeSmallTailoringBenchesLabel>
+  <ResizeSmallSmithiesLabel>Rédimensionner à de petites petites taille</ResizeSmallSmithiesLabel>
+  <ResizeSmallMachiningTableLabel>Rédimensionner à une petite table d'usinage</ResizeSmallMachiningTableLabel>
+  <ResizeSmallStovesLabel>Rétravailler à de petits fours</ResizeSmallStovesLabel>
+  <ResizeSmallStonecutterTableLabel>Ressortez la taille à la table du petit tailleurs de pierres</ResizeSmallStonecutterTableLabel>
+  <ResizeSmallBreweryLabel>Ressortez la taille à une petite brasserie</ResizeSmallBreweryLabel>
+  <ResizeSmallDrugLabLabel>Rédimensionner à un petit laboratoire de médicaments</ResizeSmallDrugLabLabel>
+  <ResizeSmallElectricSmelterLabel>Rédimensionner à une petite fonte électrique</ResizeSmallElectricSmelterLabel>
+  <ResizeSmallBiofuelRefineryLabel>Retour à la petite raffinerie de biocarburants</ResizeSmallBiofuelRefineryLabel>
+  <ResizeSmallFabricationBenchLabel>Rédimensionner à un petit banc de fabrication</ResizeSmallFabricationBenchLabel>
+  <ResizeSmallSimpleResearchBenchLabel>Rédimensionner à un petit banc de recherche simple</ResizeSmallSimpleResearchBenchLabel>
+  <ResizeSmallHiTechResearchBenchLabel>Rédimensionner à un petit banc de recherche de haute technologie</ResizeSmallHiTechResearchBenchLabel>
+  <ResizeSmallElectricCrematoriumLabel>Ressortez à un petit crématoire électrique</ResizeSmallElectricCrematoriumLabel>
+  <ResizeSmallNutrientPasteDispenserLabel>Ressage à un distributeur de pâte nutritionnelle</ResizeSmallNutrientPasteDispenserLabel>
+  <ResizeSmallStylingStationLabel>Rédimensionner à une petite station de styling</ResizeSmallStylingStationLabel>
+  <ResizeSmallGarageBenchLabel>Rétravailler à un petit banc de garage</ResizeSmallGarageBenchLabel>
+  <ResizeSmallGarageCabinetLabel>Rédimensionner à un petit armoire de garage</ResizeSmallGarageCabinetLabel>
+  <SmallResizeWorkbenchEfficiencyLabel>Économie de travail de petite taille</SmallResizeWorkbenchEfficiencyLabel>
+  <SmallResizeWorkbenchEfficiencyTooltip>...</SmallResizeWorkbenchEfficiencyTooltip>
+  <SmallResizeFacilityEfficiencyLabel>Efficience des installations de petite taille</SmallResizeFacilityEfficiencyLabel>
+  <SmallResizeFacilityEfficiencyTooltip>...</SmallResizeFacilityEfficiencyTooltip>
+  <SmallResizeSimpleResearchBenchSpeedLabel>Petite vitesse de recherche simple</SmallResizeSimpleResearchBenchSpeedLabel>
+  <SmallResizeSimpleResearchBenchSpeedTooltip>...</SmallResizeSimpleResearchBenchSpeedTooltip>
+  <SmallResizeHiTechResearchBenchSpeedLabel>Petite vitesse de recherche de haute technologie</SmallResizeHiTechResearchBenchSpeedLabel>
+  <SmallResizeHiTechResearchBenchSpeedTooltip>...</SmallResizeHiTechResearchBenchSpeedTooltip>
+  <SmallResizeNutrientCostLabel>Coût des nutriments par dispense</SmallResizeNutrientCostLabel>
+  <SmallResizeNutrientCostTooltip>...</SmallResizeNutrientCostTooltip>
+  <ResetSmallResizeWorkbenchEfficiencyButton>Réinitialiser l'efficacité du bureau de travail</ResetSmallResizeWorkbenchEfficiencyButton>
+  <ResetSmallResizeFacilityEfficiencyButton>Efficience de la réinitialisation</ResetSmallResizeFacilityEfficiencyButton>
+  <ResetSmallResizeResearchSpeedButton>Retour à la vitesse de recherche</ResetSmallResizeResearchSpeedButton>
+  <ResetSmallResizeNutrientCostButton>Retour sur le coût des nutriments</ResetSmallResizeNutrientCostButton>
+  <MediumResizeDesc>Rédimensionner à moyen</MediumResizeDesc>
+  <ResizeAllMediumButton>Rétravailler tout le support</ResizeAllMediumButton>
+  <ResizeNoneMediumButton>Ne pas redimensionner</ResizeNoneMediumButton>
+  <ResizeMediumSculptingTableLabel>Rédimensionner à un banc d'art moyen</ResizeMediumSculptingTableLabel>
+  <ResizeMediumButcherTableLabel>Rédimensionner à la table de boucher moyenne</ResizeMediumButcherTableLabel>
+  <ResizeMediumTailoringBenchesLabel>Rédimensionner à des bancs de taille moyenne</ResizeMediumTailoringBenchesLabel>
+  <ResizeMediumSmithiesLabel>Rédimensionner à des taille moyenne</ResizeMediumSmithiesLabel>
+  <ResizeMediumMachiningTableLabel>Rédimensionner à la table d'usinage moyenne</ResizeMediumMachiningTableLabel>
+  <ResizeMediumStovesLabel>Rétravail à la cuisinière moyenne</ResizeMediumStovesLabel>
+  <ResizeMediumStonecutterTableLabel>Rédimensionner à la table de taille moyenne</ResizeMediumStonecutterTableLabel>
+  <ResizeMediumBreweryLabel>Rédimensionner à la brasserie moyenne</ResizeMediumBreweryLabel>
+  <ResizeMediumDrugLabLabel>Rédimensionner à la moyenne de laboratoire de médicaments</ResizeMediumDrugLabLabel>
+  <ResizeMediumElectricSmelterLabel>Rédimensionner à la fonte électrique moyenne</ResizeMediumElectricSmelterLabel>
+  <ResizeMediumBiofuelRefineryLabel>Rédimensionner à la raffinerie moyenne de biocarburants</ResizeMediumBiofuelRefineryLabel>
+  <ResizeMediumFabricationBenchLabel>Rédimensionner à un banc de fabrication moyen</ResizeMediumFabricationBenchLabel>
+  <ResizeMediumSimpleResearchBenchLabel>Rédimensionner à un banc de recherche simple moyen</ResizeMediumSimpleResearchBenchLabel>
+  <ResizeMediumHiTechResearchBenchLabel>Rédimensionner à la banque de recherche de haute technologie moyenne</ResizeMediumHiTechResearchBenchLabel>
+  <ResizeMediumElectricCrematoriumLabel>Rédimensionner à un crématoire électrique moyen</ResizeMediumElectricCrematoriumLabel>
+  <ResizeMediumNutrientPasteDispenserLabel>Ressage à la pâte à nutriments moyenne</ResizeMediumNutrientPasteDispenserLabel>
+  <ResizeMediumStylingStationLabel>Rédimensionner à la station de styling moyenne</ResizeMediumStylingStationLabel>
+  <ResizeMediumGarageBenchLabel>Rédimensionner à un banc de garage moyen</ResizeMediumGarageBenchLabel>
+  <ResizeMediumGarageCabinetLabel>Rédimensionner à l'armoire de garage moyenne</ResizeMediumGarageCabinetLabel>
+  <MediumResizeWorkbenchEfficiencyLabel>Efficience moyenne des bancs de travail</MediumResizeWorkbenchEfficiencyLabel>
+  <MediumResizeWorkbenchEfficiencyTooltip>...</MediumResizeWorkbenchEfficiencyTooltip>
+  <NoMediumResizeFacilitiesLabel>Aucune installation de taille moyenne</NoMediumResizeFacilitiesLabel>
+  <MediumResizeSimpleResearchBenchSpeedLabel>Vitesse moyenne de recherche simple</MediumResizeSimpleResearchBenchSpeedLabel>
+  <MediumResizeSimpleResearchBenchSpeedTooltip>...</MediumResizeSimpleResearchBenchSpeedTooltip>
+  <MediumResizeHiTechResearchBenchSpeedLabel>Vitesse moyenne de recherche de haute technologie</MediumResizeHiTechResearchBenchSpeedLabel>
+  <MediumResizeHiTechResearchBenchSpeedTooltip>...</MediumResizeHiTechResearchBenchSpeedTooltip>
+  <MediumResizeNutrientCostLabel>Coût des nutriments par dispense</MediumResizeNutrientCostLabel>
+  <MediumResizeNutrientCostTooltip>...</MediumResizeNutrientCostTooltip>
+  <ResetMediumResizeWorkbenchEfficiencyButton>Réinitialiser l'efficacité du bureau de travail</ResetMediumResizeWorkbenchEfficiencyButton>
+  <NoResetMediumResizeFacilityEfficiencyButton>Aucune facilité à réinitialiser</NoResetMediumResizeFacilityEfficiencyButton>
+  <ResetMediumResizeResearchSpeedButton>Retour à la vitesse de recherche</ResetMediumResizeResearchSpeedButton>
+  <ResetMediumResizeNutrientCostButton>Retour sur le coût des nutriments</ResetMediumResizeNutrientCostButton>
+  <EnableSmallFurnitureTooltip>Activer une petite variante de ce mobilier en plus de l'original.</EnableSmallFurnitureTooltip>
+  <EnableMediumFurnitureTooltip>Activer une variante moyenne de ce mobilier en plus de l'original.</EnableMediumFurnitureTooltip>
+  <ResizeSmallFurnitureTooltip>Ressortez le mobilier original en petit sans ajouter une variante.</ResizeSmallFurnitureTooltip>
+  <ResizeMediumFurnitureTooltip>Ressagez le mobilier original à moyen sans ajouter une variante.</ResizeMediumFurnitureTooltip>
+  <MiscSettings>Paramètres de défaut</MiscSettings>
+  <EnableHydroponicsBasinsLabel>Activer des bassins hydroponiques supplémentaires</EnableHydroponicsBasinsLabel>
+  <EnableHydroponicsBasinsTooltip>...</EnableHydroponicsBasinsTooltip>
+  <SyncWithOldVersionsLabel>Synchroniser avec les anciennes versions</SyncWithOldVersionsLabel>
+  <SyncWithOldVersionsButton>Synchronisez</SyncWithOldVersionsButton>
+  <SyncWithOldVersionsTooltip>Si vous avez déjà utilisé des mod de la série de petits meubles, ce paramètre changera les paramètres pour qu'ils soient les mêmes qu'avant de passer à ce mod.</SyncWithOldVersionsTooltip>
+</LanguageData>

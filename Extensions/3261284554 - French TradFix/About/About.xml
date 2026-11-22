@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Fallout Traits Continued - French TradFix</name>
+	<packageId>Atlas.FalloutTraits</packageId>
+	<author>Atlas</author>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+		<li>1.7</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>monkey5206.carrycapacityfixed</li>
+		<li>CETeam.CombatExtended</li>
+		<li>Dubwise.Rimatomics</li>
+		<li>syrchalis.traitvalue</li>
+	</loadAfter>
+	<description>
+Adds 71 new perks to Rimworld based on the theme from fallout games. Updated to 1.6. I fixed the traits XML, but the rest of the work on the traits and patching XML goes to FuglyPump.
+
+Latest Update:
+Corrected Language folder location to root of mod. Thanks for reporting it Zeroy, sorry it took so long!
+
+Previous Updates:
+- Added 1.6 Support.
+- Fixed an oversight where the LoadFolders.xml and ccf folders were mistakenly removed. Now they are back in there and the traits are working like they were with the first Carrying Capacity Fixed (Continued) update. MeleeDodgeChance is still the same as the last update.
+- Updated stats using MeleeDodgeChance to integers similiar to the Nimble trait. This should hopefully make those traits more impactful.
+- No longer *Requires* Carrying Capacity Fixed (Continued), but some traits will not affect caravan weight, only carrying items on the map they are currently loaded in.
+
+	</description>
+</ModMetaData>

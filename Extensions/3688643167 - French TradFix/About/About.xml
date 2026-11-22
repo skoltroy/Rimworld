@@ -1,14 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Vault-Tec - Retexture - French TradFix</name>
-  <author>Skoltroy</author>
-  <packageId>Skoltroy.FrenchTradFix.3688643167</packageId>
-  <modVersion>1.0</modVersion>
-  <url>https://rimworld.skoltroy.com</url>
-  <description>Couche française indépendante pour le mod « Vault-Tec - Retexture » (Workshop 3688643167). Traduit les 20 champs visibles en jeu des Defs 1.6, y compris les ressources de mobilier et de soins. Auteur : Skoltroy. Site : rimworld.skoltroy.com.</description>
-  <supportedVersions><li>1.6</li></supportedVersions>
-  <modDependencies>
-    <li><packageId>FM.Vaultfurniture</packageId><displayName>Vault-Tec - Retexture</displayName><steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3688643167</steamWorkshopUrl></li>
-  </modDependencies>
-  <loadAfter><li>FM.Vaultfurniture</li></loadAfter>
+	<name>Vault-Tec - Retexture - French TradFix</name>
+	<author>Farxmai2</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>FM.Vaultfurniture</packageId>
+	<steamAppId>3688643167</steamAppId>
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=3688643167</url>
+	<description>A few minor fixes and a bunch of new textures for an old but beloved mod. All textures are made by me, and are free to use for anyone who wants to use them, but I ask that you credit me if you do. I also ask that you don't use them for commercial purposes, but other than that, go nuts.</description>
+	<modDependencies>
+		<li>
+			<packageId>Twink.Vaultfurniture</packageId>
+			<displayName>Vault-Tec - Handy things for your vault!</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1888778429</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Twink.Vaultfurniture</li>
+		<li>adaptive.storage.framework</li>
+	</loadAfter>
+
 </ModMetaData>

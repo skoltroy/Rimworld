@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<BG_GravshipSettings>Configuration du grav-vaisseau</BG_GravshipSettings>
+
+<BG_ModDefaults>Rétablir les valeurs du mod</BG_ModDefaults>
+<BG_LudeonDefaults>Rétablir les valeurs de Ludeon</BG_LudeonDefaults>
+
+<BG_GravEngine_Support>Support de sous-structure du moteur</BG_GravEngine_Support>
+<BG_GravEngine_MaxDistance>Rayon de sous-structure du moteur</BG_GravEngine_MaxDistance>
+
+<BG_GravFieldExtender_Support>Support des prolongateurs de champ gravitationnel</BG_GravFieldExtender_Support>
+<BG_GravFieldExtender_Max>Nombre maximal de prolongateurs de champ gravitationnel</BG_GravFieldExtender_Max>
+<BG_GravFieldExtender_MaxDistance>Rayon des prolongateurs de champ gravitationnel</BG_GravFieldExtender_MaxDistance>
+<BG_GravFieldExtender_MaxDistanceFromEngine>Distance maximale des prolongateurs depuis le moteur</BG_GravFieldExtender_MaxDistanceFromEngine>
+
+<BG_ChemFuelTankSize>Capacité du réservoir de chemfuel</BG_ChemFuelTankSize>
+<BG_LargeChemFuelTankSize>Capacité du grand réservoir de chemfuel</BG_LargeChemFuelTankSize>
+
+<BG_SmallThrusterRange>Portée efficace des petits propulseurs</BG_SmallThrusterRange>
+<BG_LargeThrusterRange>Portée efficace des grands propulseurs</BG_LargeThrusterRange>
+<BG_MaxThrustersSmall>Nombre maximal de petits propulseurs</BG_MaxThrustersSmall>
+<BG_MaxThrustersLarge>Nombre maximal de grands propulseurs</BG_MaxThrustersLarge>
+
+<BG_GravCorePowerCellPower>Puissance de la cellule électrique du noyau gravitationnel</BG_GravCorePowerCellPower>
+
+<BG_GravShieldMaxGenerators>Nombre maximal de générateurs du bouclier gravitationnel</BG_GravShieldMaxGenerators>
+<BG_GravShieldRadius>Rayon du bouclier gravitationnel</BG_GravShieldRadius>
+<BG_GravShieldHealth>Vitalité du bouclier gravitationnel</BG_GravShieldHealth>
+
+<BG_ApplySettingsNow>Appliquer les paramètres maintenant !</BG_ApplySettingsNow>
+
+</LanguageData>

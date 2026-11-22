@@ -1,23 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
+  <packageId>FIP.Hubris</packageId>
   <name>FIP - Hubris - French TradFix</name>
-  <author>Skoltroy</author>
-  <packageId>Skoltroy.FrenchTradFix.3698412697</packageId>
-  <modVersion>1.0</modVersion>
-  <url>https://rimworld.skoltroy.com</url>
-  <description>Couche française indépendante pour le mod « FIP - Hubris » (Workshop 3698412697). Les chemins et conditions de chargement des ressources françaises sont conservés. Après toute mise à jour du mod source, réviser ce TradFix. Auteur : Skoltroy. Site : rimworld.skoltroy.com.</description>
+  <author>BavarianBarbarian21</author>
+  <description>Reimagines psycasts and related occult systems as cryptid mysticism for a Fallout playthrough. Royalty and supported psycast expansions are optional integrations.</description>
   <supportedVersions>
     <li>1.6</li>
     <li>1.7</li>
   </supportedVersions>
-  <modDependencies>
-    <li>
-      <packageId>FIP.Hubris</packageId>
-      <displayName>FIP - Hubris</displayName>
-      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3698412697</steamWorkshopUrl>
-    </li>
-  </modDependencies>
   <loadAfter>
-    <li>FIP.Hubris</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>VanillaExpanded.VPsycastsE</li>
+    <li>VanillaExpanded.VPE.Hemosage</li>
+    <li>VanillaExpanded.VPE.Puppeteer</li>
   </loadAfter>
 </ModMetaData>

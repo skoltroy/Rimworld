@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FalloutMech_Mark1Robotics.label>Mr. Handy Mark 1 ingénierie</FalloutMech_Mark1Robotics.label>
+  <FalloutMech_Mark1Robotics.description>Adapt the rugged General Atomics Mark 1 châssis to RimWorld mechanitor control systems. This unlocks the civilian Mr. Handy-Mark 1, a costly but versatile construction, maintenance and cargo mécanoïde.</FalloutMech_Mark1Robotics.description>
+  <FalloutMech_Mark1Military.label>Mark 1 militaire conversion</FalloutMech_Mark1Military.label>
+  <FalloutMech_Mark1Military.description>Reinforce the Mark 1 châssis and integrate a double machine-pistolet system, a circular scie and a lourd pince. This unlocks the militaire Mr. Handy-Mark 1.</FalloutMech_Mark1Military.description>
+  <FalloutMech_NexGenRobotics.label>de nouvelle génération Mr. Handy ingénierie</FalloutMech_NexGenRobotics.label>
+  <FalloutMech_NexGenRobotics.description>Adapt the compact tri-optic Mister Handy châssis to high-tier mechanitor systems. This unlocks the standard de nouvelle génération Mr. Handy, a costly but intégrée household, workshop and cleaning assistant.</FalloutMech_NexGenRobotics.description>
+  <FalloutMech_NexGenLaborStandardization.label>Mr. Farmhand</FalloutMech_NexGenLaborStandardization.label>
+  <FalloutMech_NexGenLaborStandardization.description>Standardize the de nouvelle génération Mister Handy plateforme for a low-cost agricole travail model built around a regular subcore. This unlocks Mr. Farmhand, a crop and plant-cutting assistant with reduced high-end capability.</FalloutMech_NexGenLaborStandardization.description>
+  <FalloutMech_MisterOrderly.label>Mister Orderly</FalloutMech_MisterOrderly.label>
+  <FalloutMech_MisterOrderly.description>Develop a high-subcore médical and laboratoire derivative of the de nouvelle génération Mister Handy plateforme. This unlocks Mister Orderly, a clinical assistant capable of doctoring, recherche, hauling, firefighting and cleaning. It can conduct technological recherche at recherche benches. It also performs crafting work, including medicine production and stonecutting.</FalloutMech_MisterOrderly.description>
+  <FalloutMech_MissNanny.label>Miss Nanny</FalloutMech_MissNanny.label>
+  <FalloutMech_MissNanny.description>Refine the de nouvelle génération Mister Handy plateforme into a personality-enabled childcare, médical and social-care assistant. This unlocks Miss Nanny, a high-subcore domestique mécanoïde capable of doctoring, wardening, childcare, hauling, firefighting and cleaning.</FalloutMech_MissNanny.description>
+  <FalloutMech_MisterGutsy.label>Mr. Gutsy</FalloutMech_MisterGutsy.label>
+  <FalloutMech_MisterGutsy.description>Adapt the de nouvelle génération Mister Handy châssis for dedicated militaire service with léger armor, a 10mm mitraillette, an bras-mounted lance-flammes and a reinforced pince. This unlocks Mr. Gutsy.</FalloutMech_MisterGutsy.description>
+  <FalloutMech_GutsyLieutenant.label>Lieutenant Mr. Gutsy</FalloutMech_GutsyLieutenant.label>
+  <FalloutMech_GutsyLieutenant.description>Reinforce the compact Mr. Gutsy châssis and adapt an automatique AER-pattern laser fusil for sustained precision fire. This unlocks Lieutenant Mr. Gutsy.</FalloutMech_GutsyLieutenant.description>
+  <FalloutMech_GutsyColonel.label>Colonel Mr. Gutsy</FalloutMech_GutsyColonel.label>
+  <FalloutMech_GutsyColonel.description>Integrate a high subcore, avancé militaire armor and a command-grade focalisé laser fusil into the Mr. Gutsy plateforme. This unlocks Colonel Mr. Gutsy.</FalloutMech_GutsyColonel.description>
+</LanguageData>

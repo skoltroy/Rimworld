@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NeedSlaveBeds>Besoin de lits pour esclaves</NeedSlaveBeds>
+  <NeedSlaveBedsDesc>Vous avez plus d'esclaves que de lits d'esclave. Quelqu'un manquera d'un endroit où dormir.\n\nFaites davantage de lits, ou transformez un lit de colon ou de prisonnier en lit d'esclave.\n\nSi vous n'avez aucune ressource, les zones de sommeil sont gratuites et peuvent être placées immédiatement.</NeedSlaveBedsDesc>
+  <SlavesUnsuppressedLabel>Esclave insuffisamment soumis</SlavesUnsuppressedLabel>
+  <SlavesUnsuppressedDesc>Le niveau de soumission de {0_nameDef} est dangereusement bas. Il y a de fortes chances que {0_pronoun} se rebelle.\n\nAssurez-vous qu'un colon soit affecté au travail de gardien. Les gardiens soumettront périodiquement les esclaves pour empêcher toute rébellion.</SlavesUnsuppressedDesc>
+  <SlaveUnattendedLabel>Esclave sans surveillance</SlaveUnattendedLabel>
+  <SlaveUnattendedMultipleLabel>Esclaves sans surveillance</SlaveUnattendedMultipleLabel>
+  <SlavesUnattendedDesc>Des esclaves sont seuls sur une carte sans colons valides à proximité.\n\nLes esclaves laissés ainsi sans surveillance risquent très fortement de se rebeller dans les jours ou les heures à venir.</SlavesUnattendedDesc>
+  <RitualOpportunity>Occasion de rituel : {0}</RitualOpportunity>
+  <RitualOpportunityFor>Occasion de rituel : {0} pour {1}</RitualOpportunityFor>
+  <RitualExpiresIn>Expire dans {0}, le {1}.</RitualExpiresIn>
+  <RitualSingleTargetDesc>Pour commencer le rituel, sélectionnez un {FOCUS} puis cliquez sur la commande « Commencer {RITUAL_label} ».</RitualSingleTargetDesc>
+  <RitualMultiTargetDesc>Pour commencer le rituel, sélectionnez l'un des objets suivants puis cliquez sur la commande « Commencer {RITUAL_label} ».</RitualMultiTargetDesc>
+  <RitualTargetsExplanation>Pour commencer le rituel, sélectionnez un objet de focalisation puis cliquez sur la commande « Commencer {RITUAL_label} ». Les objets de focalisation valides sont les suivants :\n{1}</RitualTargetsExplanation>
+  <RitualJumpToTargets>Cliquer pour aller aux objectifs</RitualJumpToTargets>
+  <RitualUnfilledRoles>Pour effectuer {0}, vous devez remplir ces rôles</RitualUnfilledRoles>
+  <IdeoBuildingMissing>{0} souhaité</IdeoBuildingMissing>
+  <IdeoBuildingMissingDesc>{IDEO_name} exige que vous ayez un {0} dans votre colonie avec un niveau d'attentes de {2} ou plus.\n\n{0} est une variante de {BASEBUILDING_label}.{BUILDINGINFO}\n\nCette exigence n'est active que si {IDEO_name} est l'idéoligion principale de votre faction ou si votre faction compte au moins {MINBELIEVERS} croyants.{4}\n\nSi l'exigence n'est pas satisfaite, ces croyants deviendront mécontents :\n{3}</IdeoBuildingMissingDesc>
+  <IdeoBuildingArchitectTabDesc> Vous pouvez le trouver en ouvrant l'onglet « {TABNAME} » du menu Architecte.</IdeoBuildingArchitectTabDesc>
+  <IdeoBuildingCanBeCraftedAt> Il peut être créé à :\n{0}.</IdeoBuildingCanBeCraftedAt>
+  <IdeoBuildingRoomRequirementsDesc>Pour dignifier {0}, les exigences suivantes concernant la pièce doivent être satisfaites</IdeoBuildingRoomRequirementsDesc>
+  <IdeoBuildingExpectations>les attentes sont</IdeoBuildingExpectations>
+  <IdeoBuildingDisrespected>{0} non respecté</IdeoBuildingDisrespected>
+  <IdeoBuildingDisrespectedDesc>{0} exige que {1} se trouve dans une pièce digne. Les exigences suivantes concernant la pièce doivent être satisfaites :\n{2}\n\nSi les exigences concernant la pièce de {1} ne sont pas satisfaites, ces croyants deviendront mécontents :\n{3}</IdeoBuildingDisrespectedDesc>
+  <QuestPartRaidsDelay>Raids dans {0}</QuestPartRaidsDelay>
+  <QuestPartRaidsDelayDesc>Les raids commenceront dans {0}.\n\nLes assaillants cibleront le droïde spatial et tenteront de le détruire. Protégez-le afin que vos colons puissent pirater son ordinateur et récupérer les données.</QuestPartRaidsDelayDesc>
+  <IdeoRoleEmpty>Rôle {0} non pourvu</IdeoRoleEmpty>
+  <IdeoRolesEmpty>Rôles {0} non pourvus</IdeoRolesEmpty>
+  <IdeoRolesEmptyDesc>Ces rôles ne sont pas pourvus :\n{0}\n\nVous pouvez affecter quelqu'un à un rôle dans son onglet Social. Vous pouvez aussi sélectionner un lieu de rituel ou un autel et cliquer sur « Modifier le rôle ».\n\nSi ces rôles restent vacants, les personnes suivantes deviendront mécontentes</IdeoRolesEmptyDesc>
+  <AncientAltarThreatsWaking>Menaces de sécurité activées dans {0}</AncientAltarThreatsWaking>
+  <AncientAltarThreatsWakingDesc>Les menaces de sécurité s'activeront dans {0}. Elles attaqueront quiconque pourrait menacer la relique.</AncientAltarThreatsWakingDesc>
+  <AlertRitualComing>Occasion de rituel imminente</AlertRitualComing>
+  <AlertRitualComingDesc>Une occasion de rituel approche pour les rituels suivants</AlertRitualComingDesc>
+  <AlertRitualComingExtra>Les occasions expirent après {0} jours et se reproduisent le même jour chaque année.</AlertRitualComingExtra>
+  <AlertRitualComingEntry>{0} le {1}, {2} avant l'apparition de l'occasion</AlertRitualComingEntry>
+  <AlertAgeReversalDemandNear>Inversion d'âge exigée</AlertAgeReversalDemandNear>
+  <AlertAgeReversalDemandDesc>À cause de leurs croyances, certains de vos colons exigent des traitements réguliers d'inversion d'âge dans une capsule biosculpteuse. S'ils ne reçoivent pas ces traitements, ils seront mécontents.\n\nLes personnes suivantes exigent un traitement d'inversion d'âge</AlertAgeReversalDemandDesc>
+  <AlertAgeReversalDemandDesc_Recruit>{PAWN} a récemment rejoint {FACTION} et souhaite commencer les traitements d'inversion d'âge dans {DURATION}.</AlertAgeReversalDemandDesc_Recruit>
+  <AlertAgeReversalDemandDesc_Next>{PAWN} souhaite son prochain traitement dans {DURATION}.</AlertAgeReversalDemandDesc_Next>
+  <AlertAgeReversalDemandDesc_Initial>{PAWN} souhaite son premier traitement dans {DURATION}.</AlertAgeReversalDemandDesc_Initial>
+  <AlertAgeReversalDemandDesc_Overdue>Le traitement de {PAWN} est en retard de {DURATION}.</AlertAgeReversalDemandDesc_Overdue>
+  <AlertRoyalTitleNoVeneratedAnimalMeat>La croyance de {PAWN_nameDef} en {IDEO_name} empêche {PAWN_objective} de manger la viande de {ANIMALS}.</AlertRoyalTitleNoVeneratedAnimalMeat>
+  <AlertGauranlenTreeWithoutDryadTypeLabel>Caste de dryade non définie</AlertGauranlenTreeWithoutDryadTypeLabel>
+  <AlertGauranlenTreeWithoutDryadTypeDesc>Une ou plusieurs arbres Gauranlen n'ont pas de caste de dryade définie.\n\nSélectionnez l'arbre et cliquez sur le bouton « {0} » pour définir la caste produite.</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Connecteur non affecté à l'élagage</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Vous avez des arbres Gauranlen à tailler, mais leurs connecteurs ne sont pas affectés à l'élagage.\n\nVous devriez affecter le travail d'élagage aux personnes suivantes</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertFuelNodeIgniting>Le nœud énergétique explose dans {0}</AlertFuelNodeIgniting>
+  <AlertFuelNodeIgnitingDesc>Un nœud énergétique s'est enflammé ! Il fondra et explosera très bientôt.\n\nÉloignez-vous et préparez-vous à combattre ou fuir les incendies.</AlertFuelNodeIgnitingDesc>
+  <AlertInfestationArriving>Insectes en approche dans {0}</AlertInfestationArriving>
+  <AlertInfestationArrivingDesc>Des insectes géants ont détecté votre activité et creusent depuis les profondeurs pour attaquer. Les infestations sont sur le point de commencer.</AlertInfestationArrivingDesc>
+  <AlertHostilesWakingUp>{0_pawnsPlural} se réveillent dans {1}</AlertHostilesWakingUp>
+  <AlertHostilesWakingUpDesc>Un ou plusieurs {0_pawnsPlural} se réveillent.\n\nIls attaqueront s'ils vous trouvent.</AlertHostilesWakingUpDesc>
+  <AlertCasketOpening>Ouverture des caissons d'hypersommeil dans {0}</AlertCasketOpening>
+  <AlertCasketOpeningDesc>Des caissons d'hypersommeil contenant des menaces inconnues vont bientôt s'ouvrir.</AlertCasketOpeningDesc>
+  <AlertSlaveRebellionLikely>Rébellion des esclaves probable</AlertSlaveRebellionLikely>
+  <AlertSlaveRebellionLikelyRebelliousCount>Il y a {REBELLIOUSCOUNT} esclaves susceptibles d'initier une rébellion.</AlertSlaveRebellionLikelyRebelliousCount>
+  <AlertSlaveRebellionLikelyMostRebellious>Une rébellion des esclaves devrait se produire environ une fois toutes les {COMBINEDTIME}. Notez que le risque de rébellion de chaque esclave est indépendant : si l'un d'eux se rebelle, il peut entraîner les autres.\n\n{REBEL_labelShort} est l'esclave le plus rebelle et devrait initier une rébellion environ une fois toutes les {INDIVIDUALTIME}. Les facteurs suivants influencent la fréquence de ses rébellions :</AlertSlaveRebellionLikelyMostRebellious>
+  <AlertMechLacksOverseer>Méchanoïdes sans superviseur</AlertMechLacksOverseer>
+  <AlertMechLacksOverseerDesc>Un ou plusieurs de vos méchanoïdes ne sont pas contrôlés. Reliez-les à un mécaniteur disposant d'une bande passante suffisante.\n\nS'ils restent sans contrôle plus d'un jour, ils risquent de devenir sauvages. Ils rejoindront alors {0} et vous seront hostiles. Si un méchanoïde devient sauvage, il entraînera avec lui les autres méchanoïdes à proximité.\n\nLes méchanoïdes sauvages ne peuvent pas être ressuscités dans un gestateur après leur mort.</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerUncontrolled>Les méchanoïdes suivants ne sont pas contrôlés</AlertMechLacksOverseerUncontrolled>
+  <AlertMechLacksOverseerMayGoFeral>Les méchanoïdes suivants ne sont pas contrôlés et risquent de devenir sauvages à tout moment</AlertMechLacksOverseerMayGoFeral>
+  <AlertWarqueenHasLowResources>{0} manque de ressources</AlertWarqueenHasLowResources>
+  <AlertWarqueenHasLowResourcesDesc>Une ou plusieurs unités {0} manquent de ressources. Elles ne pourront plus produire de méchas sur commande si elles en viennent à manquer.</AlertWarqueenHasLowResourcesDesc>
+  <AlertLowDeathrestPawn>{PAWN} doit faire une hibernation mortuaire</AlertLowDeathrestPawn>
+  <AlertLowDeathrestPawns>{NUMCULPRITS} colons doivent faire une hibernation mortuaire</AlertLowDeathrestPawns>
+  <AlertLowDeathrestDesc>Un colon n'a pas fait d'hibernation mortuaire depuis longtemps. S'il attend trop, il souffrira d'épuisement mortuaire.\n\nPour lancer une hibernation mortuaire, sélectionnez le colon puis faites un clic droit sur son lit ou son sarcophage mortuaire.\n\nCes personnes doivent faire une hibernation mortuaire :\n{CULPRITS}</AlertLowDeathrestDesc>
+  <AlertLowHemogen>Hémogène faible</AlertLowHemogen>
+  <AlertLowHemogenDesc>Un colon a peu d'hémogène. À zéro, il développera une douloureuse soif d'hémogène.\n\nDonnez-lui des packs d'hémogène pour éviter cela. Vous pouvez en obtenir en utilisant l'opération médicale « Extraire un pack d'hémogène » sur un humain sans hémogène.\n\nLes colons suivants manquent d'hémogène</AlertLowHemogenDesc>
+  <AlertRechargerFull>Rechargeur plein</AlertRechargerFull>
+  <AlertRechargerFullDesc>Un ou plusieurs rechargeurs de méchas contiennent leur nombre maximal de déchets toxiques. Les méchas ne peuvent pas utiliser ces rechargeurs avant que les déchets aient été emportés.\n\nSélectionnez un colon et faites un clic droit sur un rechargeur pour le vider.</AlertRechargerFullDesc>
+  <AlertNeedMechChargers>Rechargeurs de méchas nécessaires</AlertNeedMechChargers>
+  <AlertNeedMechChargersDesc>Vous ne possédez pas de rechargeur pour chacun de vos méchanoïdes. Si un mécha tombe à court d'énergie, il entrera dans un état dormant d'auto-recharge et se rechargera très lentement.\n\nConstruisez davantage des rechargeurs suivants :\n{0}\n\nRemarque : seuls les méchanoïdes légers peuvent utiliser les rechargeurs standards. Les méchanoïdes moyens ou plus lourds nécessitent de grands rechargeurs.</AlertNeedMechChargersDesc>
+  <AlertNeedMechChargerBasicMechtech>Faites des recherches en mécatech de base ou plus avancées pour construire des rechargeurs.</AlertNeedMechChargerBasicMechtech>
+  <AlertReimplantationAvailable>Réimplantation possible</AlertReimplantationAvailable>
+  <AlertReimplantationAvailableDesc>{0_nameDef} attend de réimplanter {0_possessive} xénogène chez l'un de vos colons.</AlertReimplantationAvailableDesc>
+  <AlertLowBabyFood>Nourriture pour bébés faible</AlertLowBabyFood>
+  <AlertLowBabyFoodDesc>Vous manquez dangereusement de nourriture pour bébés.\n\n    Bébés ayant besoin de nourriture : {0}\n    Jours de nourriture pour bébés en réserve : {1}\n\nAchetez, trouvez ou préparez de la nourriture adaptée aux bébés, notamment {2}.</AlertLowBabyFoodDesc>
+  <AlertNoBabyFeeder>Aucun nourrisseur pour bébés</AlertNoBabyFeeder>
+  <AlertNoBabyFeederDesc>Aucun {FACTION_pawnsPlural} n'est chargé de nourrir ces bébés, ou tous sont à terre.\n\nAffectez l'un de vos {FACTION_pawnsPlural} aux soins des enfants, ou affectez un {FACTION_pawnSingular} allaitant pour nourrir ces bébés en priorité urgente dans l'onglet alimentation. Assurez-vous qu'au moins l'un d'eux ne soit pas à terre.</AlertNoBabyFeederDesc>
+  <AlertAbandonedBaby>Bébé abandonné</AlertAbandonedBaby>
+  <AlertAbandonedBabyDesc>Des bébés abandonnés se trouvent à proximité sans adulte pour s'occuper d'eux. Si vous ne les adoptez pas, ils risquent de mourir de faim.\n\nPour adopter un bébé, sélectionnez-le puis choisissez « {0} ».</AlertAbandonedBabyDesc>
+  <AlertNoBabyFoodCaravan>Aucune nourriture pour bébés dans la caravane</AlertNoBabyFoodCaravan>
+  <AlertNoBabyFoodCaravanDesc>Les bébés de cette caravane n'ont pas de nourriture pour bébés et aucun {FACTION_pawnsPlural} allaitant n'est affecté à leur alimentation.</AlertNoBabyFoodCaravanDesc>
+  <AlertToxicBuildup>Accumulation toxique</AlertToxicBuildup>
+  <AlertToxicBuildupDesc>Ces colons souffrent d'une grave accumulation toxique :\n\n{0}\n\nÉloignez-les des sources toxiques.\n\nL'accumulation toxique peut être causée par de nombreux facteurs, notamment les retombées toxiques, le gaz toxique et les terrains pollués.</AlertToxicBuildupDesc>
+  <AlertNeedBabyCribs>Berceaux pour bébés nécessaires</AlertNeedBabyCribs>
+  <AlertNeedBabyCribsDesc>Vous avez plus de bébés que de berceaux.\n\nFabriquez d'autres berceaux ou, si vos ressources sont limitées, placez gratuitement des zones de sommeil pour bébés.</AlertNeedBabyCribsDesc>
+  <AlertNeedSlaveCribs>Berceaux pour bébés esclaves nécessaires</AlertNeedSlaveCribs>
+  <AlertNeedSlaveCribsDesc>Vous avez plus de bébés esclaves que de berceaux réservés aux esclaves.\n\nFabriquez d'autres berceaux ou convertissez un berceau de colon en berceau d'esclave.\n\nSi vous manquez de ressources, les zones de sommeil pour bébés sont gratuites et peuvent être placées immédiatement.</AlertNeedSlaveCribsDesc>
+  <AlertPollutedTerrain>Terrain pollué</AlertPollutedTerrain>
+  <AlertPollutedTerrainDesc>Une personne ou un animal souffre d'accumulation toxique et se trouve sur un terrain pollué. Toute personne qui y reste verra son accumulation toxique augmenter jusqu'à en mourir.\n\nPersonnes ou animaux concernés :\n\n{0}\n\nÉloignez-les du terrain pollué ou protégez-les de ses effets. Certains vêtements, implants et modifications génétiques peuvent protéger contre l'accumulation toxique. Le terrain pollué ne peut pas être recouvert d'un sol, mais il peut être nettoyé à la main ou par d'autres moyens.</AlertPollutedTerrainDesc>
+  <AlertMechMissingBodyPart>Méchanoïde auquel il manque une pièce</AlertMechMissingBodyPart>
+  <AlertMechsMissingBodyPart>Méchanoïdes auxquels il manque des pièces</AlertMechsMissingBodyPart>
+  <AlertMechMissingBodyPartDesc>Une ou plusieurs pièces manquent à l'un de vos méchanoïdes. Un mécaniteur peut réparer les pièces perdues.\n\nMéchanoïdes auxquels il manque des pièces :</AlertMechMissingBodyPartDesc>
+  <AlertMechNeedsRepair>Méchanoïde à réparer</AlertMechNeedsRepair>
+  <AlertMechNeedsRepairDescPrefix>Ces méchanoïdes sont endommagés et doivent être réparés</AlertMechNeedsRepairDescPrefix>
+  <AlertMechNeedsRepairDesc>Demandez à un mécaniteur de les réparer, ou sélectionnez un mécha et activez la réparation automatique. Réparer un méchanoïde consomme de l'énergie. Si son niveau d'énergie est trop bas pour qu'il se déplace, quelqu'un doit le porter jusqu'à un rechargeur.</AlertMechNeedsRepairDesc>
+  <AlertToxifierGeneratorStopped>{0} à l'arrêt</AlertToxifierGeneratorStopped>
+  <AlertToxifierGeneratorStoppedDesc>Votre {0} ne produit pas d'électricité, car aucun terrain fertile à convertir ne se trouve à proximité.\n\nNettoyez les terrains pollués avec des pompes antipollution ou en définissant une zone de dépollution.</AlertToxifierGeneratorStoppedDesc>
+  <AlertPsychicBondedPawnsSeparated>Distance entre partenaires psychiques</AlertPsychicBondedPawnsSeparated>
+  <AlertPsychicBondedPawnsSeparatedDesc>Des colons liés psychiquement ont été séparés et subissent les effets négatifs de cette distance. Pour éviter cela, les partenaires doivent se trouver sur la même case du monde, dans la même caravane ou dans le même véhicule. Ils ne doivent pas non plus être en cryptosommeil ou dans un état de suspension similaire.\n\nPersonnes concernées :</AlertPsychicBondedPawnsSeparatedDesc>
+  <AlertGenebankUnpowered>Banque de gènes sans électricité</AlertGenebankUnpowered>
+  <AlertGenebankUnpoweredDesc>Une banque de gènes n'est pas alimentée ; les packs de gènes qu'elle contient se détériorent lentement. Rétablissez son alimentation pour éviter leur détérioration.\n\nUne fois alimentée, la banque inversera lentement la détérioration des packs de gènes qu'elle contient.</AlertGenebankUnpoweredDesc>
+  <AlertBossgroupIncoming>{0} en approche</AlertBossgroupIncoming>
+  <AlertBossgroupIncomingDesc>Invoqué par votre mécaniteur, un {0} hostile approche avec son escorte de combat. Préparez-vous : le combat sera difficile. Les méchanoïdes hostiles arriveront dans quelques heures ou quelques jours.</AlertBossgroupIncomingDesc>
+  <AlertDeathrestComplete>Hibernation mortuaire terminée</AlertDeathrestComplete>
+  <AlertDeathrestCompleteDesc>Les personnes suivantes ont terminé leur hibernation mortuaire et peuvent se réveiller sans danger</AlertDeathrestCompleteDesc>
+</LanguageData>

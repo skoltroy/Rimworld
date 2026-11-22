@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MisterHandy_Mark1.label>gester Mr.Handy-Mark 1</MisterHandy_Mark1.label>
+  <MisterHandy_Mark1.description>gester a Mr.Handy-Mark 1 mécanoïde.</MisterHandy_Mark1.description>
+  <MisterHandy_Mark1Military.label>gester militaire Mr.Handy-Mark 1</MisterHandy_Mark1Military.label>
+  <MisterHandy_Mark1Military.description>gester a militaire Mr.Handy-Mark 1 mécanoïde.</MisterHandy_Mark1Military.description>
+  <MisterHandy_NexGen.label>gester Mr. Handy</MisterHandy_NexGen.label>
+  <MisterHandy_NexGen.description>gester a de nouvelle génération Mr. Handy mécanoïde.</MisterHandy_NexGen.description>
+  <MisterFarmhand.label>gester Mr. Farmhand</MisterFarmhand.label>
+  <MisterFarmhand.description>gester a Mr. Farmhand agricole mécanoïde.</MisterFarmhand.description>
+  <MisterOrderly.label>gester Mister Orderly</MisterOrderly.label>
+  <MisterOrderly.description>gester a Mister Orderly médical and recherche mécanoïde.</MisterOrderly.description>
+  <MissNanny.label>gester Miss Nanny</MissNanny.label>
+  <MissNanny.description>gester a Miss Nanny childcare and social-care mécanoïde.</MissNanny.description>
+  <MisterGutsy.label>gester Mr. Gutsy</MisterGutsy.label>
+  <MisterGutsy.description>gester a Mr. Gutsy combat mécanoïde.</MisterGutsy.description>
+  <MisterGutsyLieutenant.label>gester Lieutenant Mr. Gutsy</MisterGutsyLieutenant.label>
+  <MisterGutsyLieutenant.description>gester a lieutenant Mr. Gutsy combat mécanoïde.</MisterGutsyLieutenant.description>
+  <MisterGutsyColonel.label>gester Colonel Mr. Gutsy</MisterGutsyColonel.label>
+  <MisterGutsyColonel.description>gester a colonel Mr. Gutsy elite combat mécanoïde.</MisterGutsyColonel.description>
+  <FalloutMech_ResurrectMisterHandy.label>ressusciter Mr. Handy</FalloutMech_ResurrectMisterHandy.label>
+  <FalloutMech_ResurrectMisterHandy.description>ressusciter a allié mécanoïde belonging to the Mister Handy family. So long as the mécanoïde's corps is not completely destroyed, it can be resurrected.</FalloutMech_ResurrectMisterHandy.description>
+</LanguageData>

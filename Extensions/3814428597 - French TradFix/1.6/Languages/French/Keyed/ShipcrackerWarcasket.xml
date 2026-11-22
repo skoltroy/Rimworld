@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SCWC_SettingsCategory>Warcasket brise-coque</SCWC_SettingsCategory>
+  <SCWC_SettingsUnavailable>Ces paramètres sont indisponibles. Un autre mod a modifié les définitions du warcasket brise-coque, l'ensemble conserve donc ses valeurs d'origine.</SCWC_SettingsUnavailable>
+  <SCWC_SectionJump>Saut de brèche</SCWC_SectionJump>
+  <SCWC_SectionBurn>Poussée de brèche</SCWC_SectionBurn>
+  <SCWC_SectionLanding>Atterrissage</SCWC_SectionLanding>
+  <SCWC_FuelPerJump>Carburant par saut ({0})</SCWC_FuelPerJump>
+  <SCWC_FuelPerJumpDesc>La quantité de carburant que brûle chaque saut de brèche. À 0, les sauts ne consomment pas de carburant. Par défaut : {0}.</SCWC_FuelPerJumpDesc>
+  <SCWC_TankCapacity>Capacité du réservoir ({0})</SCWC_TankCapacity>
+  <SCWC_TankCapacityDesc>La quantité de carburant que contient le réservoir de l'armure quand il est plein. Un réservoir qui en contient déjà davantage perd l'excédent. Par défaut : {0}.</SCWC_TankCapacityDesc>
+  <SCWC_JumpRange>Portée (cases)</SCWC_JumpRange>
+  <SCWC_JumpRangeDesc>La distance maximale que le pilote peut parcourir en un saut de brèche. Les pièces de warcasket aériennes y ajoutent leur propre portée de saut. Par défaut : {0}.</SCWC_JumpRangeDesc>
+  <SCWC_Cooldown>Temps de recharge (heures)</SCWC_Cooldown>
+  <SCWC_CooldownDesc>Le temps que le pilote doit attendre après un saut avant de pouvoir sauter de nouveau. Par défaut : {0}.</SCWC_CooldownDesc>
+  <SCWC_JumpSummary>Un réservoir plein contient {0} unités de {1}, de quoi faire {2} sauts consommant {3} unités de {1} chacun.</SCWC_JumpSummary>
+  <SCWC_JumpSummaryFree>Les sauts ne consomment pas de carburant.</SCWC_JumpSummaryFree>
+  <SCWC_BlastRadius>Rayon de l'explosion (cases)</SCWC_BlastRadius>
+  <SCWC_BlastRadiusDesc>Le rayon de l'explosion quand le pilote atterrit. À 0, les atterrissages ne provoquent aucune explosion. Par défaut : {0}.</SCWC_BlastRadiusDesc>
+  <SCWC_RoofRadius>Rayon d'ouverture du toit (cases)</SCWC_RoofRadius>
+  <SCWC_RoofRadiusDesc>Au décollage et à l'atterrissage, le pilote arrache le toit dans ce rayon autour de lui. En dessous de 1, seul le toit au-dessus de sa propre case s'ouvre. À 0, les toits restent intacts. Un saut à l'intérieur d'une même pièce ne perce jamais le toit, et un plafond rocheux épais résiste toujours. Par défaut : {0}.</SCWC_RoofRadiusDesc>
+  <SCWC_CreatureDamage>Dégâts aux créatures</SCWC_CreatureDamage>
+  <SCWC_CreatureDamageDesc>Lors de l'atterrissage, l'explosion inflige ces dégâts à chaque personne, animal ou mécanoïde pris dans son rayon. Le pilote n'est jamais blessé. Par défaut : {0}.</SCWC_CreatureDamageDesc>
+  <SCWC_ArmorPenetration>Pénétration d'armure (%)</SCWC_ArmorPenetration>
+  <SCWC_ArmorPenetrationDesc>La pénétration d'armure des dégâts que l'explosion inflige aux créatures lors de l'atterrissage. Par défaut : {0}.</SCWC_ArmorPenetrationDesc>
+  <SCWC_ArmorPenetrationMPa>Pénétration d'armure (MPa)</SCWC_ArmorPenetrationMPa>
+  <SCWC_ArmorPenetrationMPaDesc>La pénétration d'armure des dégâts que l'explosion inflige aux créatures lors de l'atterrissage, en mégapascals, l'unité dans laquelle Combat Extended évalue l'armure contondante. À titre de comparaison, l'explosion d'une grenade à fragmentation pénètre environ 17, et un gilet pare-balles est à 12. Par défaut : {0}.</SCWC_ArmorPenetrationMPaDesc>
+  <SCWC_WallDamage>Dégâts aux murs</SCWC_WallDamage>
+  <SCWC_WallDamageDesc>Lors de l'atterrissage, l'explosion inflige ces dégâts aux murs et aux autres structures qui bloquent le passage. À titre de comparaison, un mur en acier a {1} points de vie et un mur en plastacier {2}. Par défaut : {0}.</SCWC_WallDamageDesc>
+  <SCWC_StructureDamage>Dégâts aux autres structures</SCWC_StructureDamage>
+  <SCWC_StructureDamageDesc>Lors de l'atterrissage, l'explosion inflige ces dégâts aux portes, aux tourelles, aux meubles et aux autres structures qui ne bloquent pas le passage. Par défaut : {0}.</SCWC_StructureDamageDesc>
+  <SCWC_ShouldersBonus>Bonus des épaulières (%)</SCWC_ShouldersBonus>
+  <SCWC_ShouldersBonusDesc>Les dégâts supplémentaires qu'un atterrissage inflige aux murs et aux autres structures quand le pilote porte les épaulières de warcasket brise-coque. Les créatures ne subissent aucun dégât supplémentaire. Par défaut : {0}.</SCWC_ShouldersBonusDesc>
+  <SCWC_LandingSummary>Sans les épaulières : {0} de dégâts par mur, {1} par autre structure, sur {2} cases.\nAvec les épaulières : {3} de dégâts par mur, {4} par autre structure.</SCWC_LandingSummary>
+  <SCWC_LandingSummaryOff>Aucune explosion à l'atterrissage.</SCWC_LandingSummaryOff>
+  <SCWC_VacuumBurn>Portée illimitée dans le vide</SCWC_VacuumBurn>
+  <SCWC_VacuumBurnDesc>Si cette option est activée, le saut devient une poussée de brèche dans le vide : sa portée est illimitée, mais la cible doit être en ligne de vue. Si elle est désactivée, les sauts dans le vide suivent les mêmes règles que sous gravité. Par défaut : activée.</SCWC_VacuumBurnDesc>
+  <SCWC_RequiresOdysseySuffix> (nécessite Odyssey)</SCWC_RequiresOdysseySuffix>
+  <SCWC_LandingBlast>Explosion à l'atterrissage</SCWC_LandingBlast>
+  <SCWC_LandingBlastDesc>Active ou désactive l'explosion à l'atterrissage.\n\nSi elle est désactivée, les sauts de brèche atterrissent sans l'explosion qui abat les murs et blesse quiconque se trouve à proximité. Pratique pour se déplacer par bonds dans votre propre base. Les toits sur le trajet sont tout de même arrachés.</SCWC_LandingBlastDesc>
+  <SCWC_Off>Désactivé</SCWC_Off>
+  <SCWC_DefaultSuffix> (par défaut)</SCWC_DefaultSuffix>
+</LanguageData>

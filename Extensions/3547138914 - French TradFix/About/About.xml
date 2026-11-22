@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>hssn.FALLOUTWeapons</packageId>
+  <modVersion IgnoreIfNoMatchingField="True">1.4.0</modVersion>
+  <name>[hssn] FALLOUT - Weapons - French TradFix</name>
+  <author>Henriksson</author>
+  <description>This mod is the first of a series of mods aiming to bring the Fallout game series into Rimworld. The content of the mod is mainly focused on the classic Fallout games but brings in content from the entire series. The mod features over 100 weapons from Fallout. It includes everything from pistols, energy weapons, flamers, grenades, miniguns and melee weapons. Full list of items available in patch notes. The mod also features custom effects and sounds for several weapons.</description>
+  <supportedVersions>
+	<li>1.5</li>
+	<li>1.6</li>
+	<li>1.7</li>
+  </supportedVersions>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+	<li>CETeam.CombatExtended</li>
+  </loadAfter>
+</ModMetaData>

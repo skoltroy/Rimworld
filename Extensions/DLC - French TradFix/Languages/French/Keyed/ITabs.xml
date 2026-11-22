@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OverridesSomePrecepts>Remplace certains préceptes liés à</OverridesSomePrecepts>
+  <AgreeableMemes>Compatible avec les mèmes</AgreeableMemes>
+  <DisagreeableMemes>Incompatible avec les mèmes</DisagreeableMemes>
+  <TabSlave>Esclave</TabSlave>
+  <SlaveReleaseRelationGainsDesc>Amélioration des relations avec la faction obtenue en libérant un esclave. Elle dépend de son état physique et mental.</SlaveReleaseRelationGainsDesc>
+  <SlaveReleasePotentialRelationGains>Amélioration des relations lors de la libération</SlaveReleasePotentialRelationGains>
+  <SlaveRebellionMTBDays>Intervalle entre les rébellions d'esclaves</SlaveRebellionMTBDays>
+  <SlaveRebellionMTBDaysDescription>Nombre moyen de jours entre les tentatives de rébellion d'esclaves. Seul le temps d'éveil est pris en compte. Cela dépend de la soumission, de l'humeur, de la santé, de la proximité d'armes, du nombre d'esclaves sur la carte et de la présence de colons sur celle-ci.</SlaveRebellionMTBDaysDescription>
+  <Suppression>Soumission</Suppression>
+  <SuppressionDesc>La soumission est l'effet psychologique de la peur et du contrôle exercés sur un esclave. Plus elle est faible, plus les esclaves risquent de se rebeller.</SuppressionDesc>
+  <SuppressionFallRate>Baisse de la soumission</SuppressionFallRate>
+  <SuppressionFallRateDesc>La soumission diminue au fil du temps selon son niveau actuel :\n\n- Soumission supérieure à {1} : {0} par jour\n- Soumission entre {4} et {3} : {2} par jour\n- Soumission inférieure à {6} : {5} par jour\n\nLes vêtements et la terreur peuvent également modifier cette baisse. Calcul de la baisse de soumission de cet esclave :</SuppressionFallRateDesc>
+  <CannotEmancipate>Émancipation impossible</CannotEmancipate>
+  <CannotImprison>Emprisonnement impossible</CannotImprison>
+  <CurrentSuppression>Soumission actuelle</CurrentSuppression>
+  <Terror>Terreur</Terror>
+  <TerrorDescription>La terreur permet de maintenir les esclaves soumis. Elle augmente lorsqu'un esclave passe du temps près d'éléments terrifiants, comme des sculptures de terreur. Un esclave ne peut être affecté que par trois sources de terreur à la fois.\n\nLorsque la terreur est élevée, la soumission diminue moins vite, comme suit :</TerrorDescription>
+  <TerrorCurrentThoughts>Observations terrifiantes récentes</TerrorCurrentThoughts>
+  <SuppressionBaseInterval>Intervalle de base</SuppressionBaseInterval>
+  <SuppressionMovingCapacityFactor>Capacité de déplacement</SuppressionMovingCapacityFactor>
+  <SuppressionFactor>Soumission</SuppressionFactor>
+  <SuppressionMoodFactor>Humeur</SuppressionMoodFactor>
+  <SuppressionSlaveCountFactor>Nombre d'esclaves</SuppressionSlaveCountFactor>
+  <SuppressionEscapeFactor>Itinéraire de fuite</SuppressionEscapeFactor>
+  <SuppressionWeaponProximityFactor>Proximité d'armes</SuppressionWeaponProximityFactor>
+  <SuppressionFinalInterval>Intervalle final</SuppressionFinalInterval>
+  <SuppressionUnattendedByColonists>Sans surveillance</SuppressionUnattendedByColonists>
+  <SuppressionRebellionAnySlave>On s'attend à ce qu'au moins un des {0} esclaves présents sur cette carte se rebelle en moyenne tous les {1}.</SuppressionRebellionAnySlave>
+  <WillLevel>Volonté</WillLevel>
+  <WillLevelDesc>Détermination du prisonnier à ne pas se soumettre. Lorsqu'elle atteint zéro, il peut être réduit en esclavage.</WillLevelDesc>
+  <WillFromPawnKind>Volonté de base de {0}</WillFromPawnKind>
+  <IdeoConversionTarget>Idéoligion cible</IdeoConversionTarget>
+  <IdeoConversionTargetDesc>Idéoligion vers laquelle vos gardiens tenteront de convertir ce prisonnier.</IdeoConversionTargetDesc>
+  <CertaintyChangePerDay>Variation quotidienne due à l'humeur</CertaintyChangePerDay>
+  <MoodChangeRate>Taux de variation selon l'humeur</MoodChangeRate>
+  <CertaintyInIdeo>Degré de certitude de {PAWN_nameDef} en {IDEO_name}</CertaintyInIdeo>
+  <RoleDesc>Statut spécial détenu par cette personne au sein de son idéoligion. Si vous modifiez ou retirez ce rôle, elle sera mécontente.</RoleDesc>
+  <RoleAssignmentTip>La modification des rôles nécessite un rituel de changement de rôle. Sélectionnez un lieu de rituel ou un autel, puis cliquez sur « Commencer le changement de rôle ».</RoleAssignmentTip>
+  <ConversionWeakerDueToTraitAgreements>Les tentatives de conversion seront moins efficaces en raison de la compatibilité des traits et des mèmes.</ConversionWeakerDueToTraitAgreements>
+  <ConversionStrongerDueToTraitAgreements>Les tentatives de conversion seront plus efficaces en raison des conflits entre traits et mèmes.</ConversionStrongerDueToTraitAgreements>
+  <Cut>Couper</Cut>
+  <CutBothEyes>Crever les deux yeux</CutBothEyes>
+  <RecipeRequiresMechanitor>La recette {0} nécessite un mécaniteur pour être réalisée. Aucun de vos colons n'est un mécaniteur ; personne ne fera donc cette tâche.</RecipeRequiresMechanitor>
+  <GenepackPlural>packs de gènes</GenepackPlural>
+  <TraitsDevelopLaterBaby>Les traits se développent plus tard pendant l'enfance</TraitsDevelopLaterBaby>
+  <SkillsDevelopLaterBaby>Les compétences se développent plus tard pendant l'enfance</SkillsDevelopLaterBaby>
+  <TabGenes>Gènes</TabGenes>
+  <ViewGenes>Voir les gènes</ViewGenes>
+  <ViewGenesDesc>Cliquer pour voir les gènes de {PAWN_nameDef}.</ViewGenesDesc>
+  <TabFeeding>Alimentation</TabFeeding>
+  <AutofeedSectionHeader>Paramètres d'alimentation automatique</AutofeedSectionHeader>
+  <AutofeedModeNever>jamais</AutofeedModeNever>
+  <AutofeedModeChildcare>soins des enfants</AutofeedModeChildcare>
+  <AutofeedModeUrgent>Urgent</AutofeedModeUrgent>
+  <AutofeedNone>Personne ne peut nourrir ce bébé.</AutofeedNone>
+  <AutofeedModeTooltipNever>{FEEDER_nameDef} ne nourrira pas automatiquement {BABY_nameDef}.</AutofeedModeTooltipNever>
+  <AutofeedModeTooltipChildcare>{FEEDER_nameDef} nourrira {BABY_nameDef} dans le cadre du travail de garde d’enfants.</AutofeedModeTooltipChildcare>
+  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} nourrira {BABY_nameDef} jour et nuit, même si {FEEDER_nameDef} n’est pas affecté(e) à la garde d’enfants ou en est incapable.</AutofeedModeTooltipUrgent>
+  <BabyFoodConsumables>Aliments consommables</BabyFoodConsumables>
+  <IdeoExposureSectionHeader>exposition à l’idéoligion</IdeoExposureSectionHeader>
+  <IdeoExposureNoExposure>{BABY_labelShort} n’a encore été exposé(e) à aucune idéoligion.</IdeoExposureNoExposure>
+  <IdeoExposureNoExposureDetail>{BABY_pronoun} peut être exposé(e) aux idéoligions en interagissant avec leurs adeptes. Ces interactions incluent l’allaitement, le transport, les jeux, et bien plus encore. À l’âge de {CHILDAGE}, {BABY_labelShort} rejoindra une des idéoligions auxquelles {BABY_pronoun} aura été exposé(e).</IdeoExposureNoExposureDetail>
+  <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort} a {PERCENT} de chances de rejoindre l’idéoligion {IDEO_name}.</IdeoExposurePointsTooltipJoinLikelihood>
+  <IdeoExposurePointsTooltipJoinDescription>À mesure que {BABY_labelShort} interagit avec les adeptes d’une idéoligion, {BABY_pronoun} a plus de chances de la rejoindre. {BABY_labelShort} rejoindra une des idéoligions auxquelles {BABY_pronoun} aura été exposé(e) à l’âge de {CHILDAGE}.</IdeoExposurePointsTooltipJoinDescription>
+  <IdeoExposurePointsTooltipExposureDescription>L’exposition à une idéoligion se mesure en points d’exposition. Les interactions comme l’allaitement, le transport ou les jeux permettent à {BABY_labelShort} de gagner des points d’exposition pour les idéoligions suivies par ceux et celles avec qui {BABY_pronoun} interagit.</IdeoExposurePointsTooltipExposureDescription>
+  <IdeoExposurePointsTooltipIdeoExposure>points d’exposition à {IDEO_name}</IdeoExposurePointsTooltipIdeoExposure>
+  <IdeoExposurePointsTooltipTotalExposure>Points d’exposition totaux</IdeoExposurePointsTooltipTotalExposure>
+  <TryRomanceButtonLabel>Séduction</TryRomanceButtonLabel>
+  <TryRomanceNoOptsMessage>Personne que {0_labelShort} puisse séduire.</TryRomanceNoOptsMessage>
+  <CantRomanceTargetUnreachable>hors de portée</CantRomanceTargetUnreachable>
+  <CantRomanceTargetSleeping>endormi</CantRomanceTargetSleeping>
+  <CantRomanceTargetDowned>incapable</CantRomanceTargetDowned>
+  <CantRomanceTargetDrafted>mobilisé</CantRomanceTargetDrafted>
+  <CantRomanceTargetMentalState>effondrement mental</CantRomanceTargetMentalState>
+  <CantRomanceTargetIncest>inceste</CantRomanceTargetIncest>
+  <CantRomanceTargetOpinion>faible opinion</CantRomanceTargetOpinion>
+  <CantRomanceTargetSexuality>orientation incompatible</CantRomanceTargetSexuality>
+  <CantRomanceTargetPrisoner>prisonnier</CantRomanceTargetPrisoner>
+  <CantRomanceTargetYoung>trop jeune</CantRomanceTargetYoung>
+  <CantRomanceTargetZeroChance>aucune chance</CantRomanceTargetZeroChance>
+  <CantRomanceInitiateMessagePrisoner>{0_labelShort} ne peut pas tenter une séduction parce que {0_pronoun} est prisonnier.</CantRomanceInitiateMessagePrisoner>
+  <CantRomanceInitiateMessageSlave>{0_labelShort} ne peut pas tenter une séduction parce que {0_pronoun} est esclave.</CantRomanceInitiateMessageSlave>
+  <CantRomanceInitiateMessageAsexual>{0_labelShort} ne peut pas tenter une séduction parce que {0_pronoun} possède le trait asexuel.</CantRomanceInitiateMessageAsexual>
+  <CantRomanceInitiateMessageDowned>{0_labelShort} ne peut pas tenter une séduction parce que {0_pronoun} est incapable.</CantRomanceInitiateMessageDowned>
+  <CantRomanceInitiateMessageDrafted>{0_labelShort} ne peut pas tenter une séduction parce que {0_pronoun} est mobilisé.</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageMentalState>{0_labelShort} ne peut pas tenter une séduction parce que {0_pronoun} est dans un état mental instable.</CantRomanceInitiateMessageMentalState>
+  <CantRomanceInitiateMessageTalk>{0_labelShort} ne peut pas tenter une séduction parce que {0_pronoun} est incapable de parler.</CantRomanceInitiateMessageTalk>
+  <CantRomanceInitiateMessageCooldown>{0_labelShort} a tenté une séduction récemment et doit attendre {1} avant de retenter sa chance.</CantRomanceInitiateMessageCooldown>
+  <TryRomanceFailedMessage>La tentative de séduction de {0_labelShort} envers {1_labelShort} a échoué.</TryRomanceFailedMessage>
+  <RomanceExistingRelationshipWarning>Si {INITIATOR_nameDef} tente de séduire {TARGET_nameDef}, cela pourrait semer le ressentiment parmi les partenaires existants, provoquer des ruptures et déclencher des altercations.</RomanceExistingRelationshipWarning>
+  <RomanceChance>Chances de séduction</RomanceChance>
+  <RomanceChanceExistingRelation>déjà {RELATION} de {PAWN_nameDef}</RomanceChanceExistingRelation>
+  <RomanceChanceCant>Séduction impossible</RomanceChanceCant>
+  <RomanceChanceAgeFactor>Âge relatif</RomanceChanceAgeFactor>
+  <RomanceChanceBeautyFactor>Beauté</RomanceChanceBeautyFactor>
+  <RomanceChanceOpinionFactor>Opinion</RomanceChanceOpinionFactor>
+  <RomanceChancePartnerFactor>Opinion du partenaire</RomanceChancePartnerFactor>
+  <RomanceFailedUnexpected>{0_labelShort} n’a pas réussi à séduire {1_labelShort}</RomanceFailedUnexpected>
+  <RomanceWarningMonogamous>{0_nameDef} est déjà en couple.</RomanceWarningMonogamous>
+  <RomanceWarningPolygamous>{0_nameDef} a déjà {1} partenaires.</RomanceWarningPolygamous>
+  <FactorForGenes>Gènes</FactorForGenes>
+  <PrisonBreakingDisabledDueToGene>La tentative d’évasion est désactivée par le gène {GENE_label}.</PrisonBreakingDisabledDueToGene>
+</LanguageData>

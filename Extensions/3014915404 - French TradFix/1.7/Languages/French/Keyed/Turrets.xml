@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <VF_ReloadVehicleTurret>Recharger</VF_ReloadVehicleTurret>
+  
+  <VF_ToggleAutoTargeting>Basculer le ciblage automatique</VF_ToggleAutoTargeting>
+  <VF_ToggleAutoTargetingDesc>Cela détermine si la tourelle ciblera automatiquement les ennemis. Si activé, tout ennemi dans la portée sera engagé.
+
+ Le ciblage automatique est actuellement {0}.</VF_ToggleAutoTargetingDesc>
+  <VF_AutoTargetingDisabled>AutoTargeting n'est pas autorisé pour cette tourelle.</VF_AutoTargetingDisabled>
+  
+  <VF_VehicleTurrets_NoAmmoToReload>Pas de munitions utilisables.</VF_VehicleTurrets_NoAmmoToReload>
+  
+  <VF_SetReloadLevel>Définir le niveau de rechargement automatique pour {0}.</VF_SetReloadLevel>
+  <VF_SetReloadLevelTooltip>Configurer le niveau Ammo</VF_SetReloadLevelTooltip>
+</LanguageData>
+

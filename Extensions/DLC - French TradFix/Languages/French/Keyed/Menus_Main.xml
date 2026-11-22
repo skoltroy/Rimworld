@@ -1,0 +1,19 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <ChooseNextColonySite>Choisir le prochain site de colonie</ChooseNextColonySite>
+  <Difficulty_BabiesAreHealthy_Label>Bébés toujours en bonne santé</Difficulty_BabiesAreHealthy_Label>
+  <Difficulty_BabiesAreHealthy_Info>Les bébés humains naissent toujours en bonne santé. Les mères ne peuvent pas mourir en accouchant ni faire de fausse couche.</Difficulty_BabiesAreHealthy_Info>
+  <Difficulty_NoBabiesOrChildren_Label>Désactiver les enfants</Difficulty_NoBabiesOrChildren_Label>
+  <Difficulty_NoBabiesOrChildren_Info>Les humains ne peuvent pas tomber enceinte. Les bébés et enfants humains n’apparaîtront jamais, sauf si vous les choisissez comme colons de départ.</Difficulty_NoBabiesOrChildren_Info>
+  <Difficulty_ChildAgingRate_Label>Vitesse de vieillissement des enfants</Difficulty_ChildAgingRate_Label>
+  <Difficulty_ChildAgingRate_Info>Modifiez la vitesse à laquelle les bébés et les enfants vieillissent. Entre 11 et 20 ans, la vitesse de vieillissement de l’enfant passe progressivement à celle des adultes.</Difficulty_ChildAgingRate_Info>
+  <Difficulty_AdultAgingRate_Label>Vitesse de vieillissement des adultes</Difficulty_AdultAgingRate_Label>
+  <Difficulty_AdultAgingRate_Info>Modifiez la vitesse à laquelle les adultes vieillissent.</Difficulty_AdultAgingRate_Info>
+  <Difficulty_WastepackInfestationChanceFactor_Label>Infestations de cocons de paquets de déchets</Difficulty_WastepackInfestationChanceFactor_Label>
+  <Difficulty_WastepackInfestationChanceFactor_Info>Modifiez les chances qu’un paquet de déchets dissous déclenche l’arrivée de cocons d’insectes.</Difficulty_WastepackInfestationChanceFactor_Info>
+  <Difficulty_ChildRaidersAllowed_Label>Raiders enfants</Difficulty_ChildRaidersAllowed_Label>
+  <Difficulty_ChildRaidersAllowed_Info>Les raids hostiles peuvent parfois inclure des enfants.</Difficulty_ChildRaidersAllowed_Info>
+  <BabiesAreHealthyDisableReason>Désactivé car un autre réglage empêche les naissances humaines.</BabiesAreHealthyDisableReason>
+  <DifficultyChildrenSection>Enfants</DifficultyChildrenSection>
+  <PlanetPollution>Pollution</PlanetPollution>
+</LanguageData>

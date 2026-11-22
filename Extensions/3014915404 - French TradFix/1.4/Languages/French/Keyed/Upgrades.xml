@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+	<!-- DO NOT TRANSLATE THIS FILE YET, THESE KEYS ARE UNUSED -->
+	<!-- Upgrades -->
+	<VF_Upgrade>Mise à jour</VF_Upgrade>
+	<VF_DisabledFromOtherNode>Impossible de mettre à niveau. Le nœud est maintenant inaccessible depuis le déverrouillage précédent.</VF_DisabledFromOtherNode>
+	<VF_MissingPrerequisiteUpgrade>Noeud prérequis manquant.</VF_MissingPrerequisiteUpgrade>
+	<VF_MaxArmor>Armure</VF_MaxArmor>
+	<VF_MaxArmorTooltip>TODO</VF_MaxArmorTooltip>
+	<VF_MaxSpeed>Vitesse</VF_MaxSpeed>
+	<VF_MaxSpeedTooltip>TODO</VF_MaxSpeedTooltip>
+	<VF_CargoCapacity>Capacité de chargement</VF_CargoCapacity>
+	<VF_CargoCapacityTooltip>TODO</VF_CargoCapacityTooltip>
+	
+	
+	<!-- aerial vehicle -->
+	<VF_VehicleFuelCost>Coût du carburant : {0}</VF_VehicleFuelCost>
+	<!-- comp properties -->
+	<VF_VehicleFuelCapacity>Capacité de carburant</VF_VehicleFuelCapacity>
+</LanguageData>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>VVE Raid - French TradFix</name>
+  <author>tlupatac</author>
+  <packageId>tlupatac.VVERaid</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>Outlander, Pirate, and Empire will launch an attack using VVE and VVE Tier 3 vehicles.</description>
+
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>SmashPhil.VehicleFramework</packageId>
+      <displayName>Vehicle Framework</displayName>
+      <downloadUrl>https://github.com/SmashPhil/Vehicles/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  
+  <loadAfter>
+      <li>brrainz.harmony</li>
+      <li>SmashPhil.VehicleFramework</li>
+      <li>oskarpotocki.vanillavehiclesexpanded</li>
+  </loadAfter>
+
+</ModMetaData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PlasmaWeapons_PlasmaCutter.label>coupe-plasma</PlasmaWeapons_PlasmaCutter.label>
+  <PlasmaWeapons_PlasmaCutter.description>Un outil généralement utilisé sur les chantiers pour découper. Il utilise un faisceau de plasma focalisé pour faire fondre la roche ou le métal. Il peut aussi être utilisé comme une arme.</PlasmaWeapons_PlasmaCutter.description>
+  <PlasmaWeapons_PlasmaCutter.tools.0.label>poignée</PlasmaWeapons_PlasmaCutter.tools.0.label>
+  <PlasmaWeapons_PlasmaCutter.tools.1.label>faisceau</PlasmaWeapons_PlasmaCutter.tools.1.label>
+  <PlasmaWeapons_PlasmaRifleBullet.label>tir de plasma</PlasmaWeapons_PlasmaRifleBullet.label>
+  <PlasmaWeapons_PlasmaPistolBullet.label>projectile de pistolet à plasma</PlasmaWeapons_PlasmaPistolBullet.label>
+  <PlasmaWeapons_PlasmaCaster.label>projecteur à plasma</PlasmaWeapons_PlasmaCaster.label>
+  <PlasmaWeapons_PlasmaCaster.description>Le projecteur à plasma est un lanceur énergétique industriel imposant qui tire des projectiles de plasma surchauffé dans un canon supraconducteur, terminé par des pinces électromagnétiques aidant à stabiliser le projectile.</PlasmaWeapons_PlasmaCaster.description>
+  <PlasmaWeapons_PlasmaCaster.tools.0.label>canon</PlasmaWeapons_PlasmaCaster.tools.0.label>
+  <PlasmaWeapons_PlasmaCaster.tools.1.label>pince</PlasmaWeapons_PlasmaCaster.tools.1.label>
+  <PlasmaWeapons_PlasmaCasterBullet.label>projectile de projecteur à plasma</PlasmaWeapons_PlasmaCasterBullet.label>
+</LanguageData>

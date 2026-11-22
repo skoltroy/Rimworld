@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TrooperGear.label>équipement de troupe</TrooperGear.label>
+  <TrooperGear.description>Fabriquez des équipements et armures de combat bon marché et fiables.</TrooperGear.description>
+  <PatrolGear.label>équipement de patrouille</PatrolGear.label>
+  <PatrolGear.description>Fabriquez une tenue blindée offrant une meilleure protection, bien que plus lourde.</PatrolGear.description>
+  <RangerGear.label>équipement de ranger</RangerGear.label>
+  <RangerGear.description>Fabriquez une armure spécialisée dans les combats longue portée qui améliore la mobilité.</RangerGear.description>
+</LanguageData>

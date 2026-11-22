@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TSMV_FamiliesHeader>Familles de navettes</TSMV_FamiliesHeader>
+  <TSMV_FamiliesHint>Chaque nouveau cargo marchand choisit au hasard une famille activée, puis une coque parmi celle-ci. Les familles dont le mod n'est pas actif sont ignorées.</TSMV_FamiliesHint>
+  <TSMV_Active>active</TSMV_Active>
+  <TSMV_NotActive>mod non actif</TSMV_NotActive>
+  <TSMV_HullCount>{0} coques</TSMV_HullCount>
+  <TSMV_HullCountOne>1 coque</TSMV_HullCountOne>
+  <TSMV_Random>aléatoire</TSMV_Random>
+  <TSMV_Footer>Les modifications s'appliquent aux navires qui arrivent après ce changement. Si aucune option activée n'est disponible, les modèles originaux sont utilisés.</TSMV_Footer>
+  <TSMV_Reset>Réinitialiser</TSMV_Reset>
+</LanguageData>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <name>Trader Ships - More Variety - French TradFix</name>
+  <packageId>astryl.TraderShipsMoreVariety</packageId>
+  <author>astryl</author>
+  <description>Trader Ships' landing traders arrive in shuttles from the base game, Odyssey and other mods: CeleTech, Trystan Traveller, Orca, Themis, Vanilla Factions Expanded, Ultratec, Trailblazer, Odyssey Shuttle Variants, Misstall's, Milira and the Pelican. Each family appears only when its source is active and can be switched off in the settings. Ships no textures of its own.</description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modVersion>1.1.0</modVersion>
+  <modDependencies>
+    <li>
+      <packageId>automatic.traderships</packageId>
+      <displayName>Trader ships</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2046222331</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>automatic.traderships</li>
+    <li>LongRange.CeleTech.ShuttleExtension</li>
+    <li>TOT.CeleTech.MKIII</li>
+    <li>Trouperton.TrystanTravellersShuttleSchematics</li>
+    <li>smallmine.HeavyShuttle</li>
+    <li>rimeffect.themistraders.redux</li>
+    <li>OskarPotocki.VFE.Empire</li>
+    <li>OskarPotocki.VFE.Deserters</li>
+    <li>barbedwire.UltratecPassengerShuttle</li>
+    <li>CN.TrailblazerShuttle</li>
+    <li>luke.odysseyshuttlevariants</li>
+    <li>misstalls.VRShuttle</li>
+    <li>Ancot.MiliraRace</li>
+    <li>HD2.pelican</li>
+  </loadAfter>
+</ModMetaData>

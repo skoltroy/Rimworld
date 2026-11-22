@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <MapEditTools.DesignatorBuildRoof>Construire un toit</MapEditTools.DesignatorBuildRoof>
+  <MapEditTools.DesignatorBuildRoofDesc>Construit instantanément n'importe quel toit.</MapEditTools.DesignatorBuildRoofDesc>
+  <MapEditTools.DesignatorRemoveRoof>Retirer le toit</MapEditTools.DesignatorRemoveRoof>
+  <MapEditTools.DesignatorRemoveRoofDesc>Retire instantanément n'importe quel toit.</MapEditTools.DesignatorRemoveRoofDesc>
+  <MapEditTools.DesignatorSetTerrain>Définir le terrain</MapEditTools.DesignatorSetTerrain>
+  <MapEditTools.DesignatorSetTerrainDesc>Définit le terrain.</MapEditTools.DesignatorSetTerrainDesc>
+  <MapEditTools.DesignatorAddFog>Ajouter du brouillard</MapEditTools.DesignatorAddFog>
+  <MapEditTools.DesignatorAddFogDesc>Ajoute du brouillard sur la carte.</MapEditTools.DesignatorAddFogDesc>
+  <MapEditTools.DesignatorRemoveFog>Retirer le brouillard</MapEditTools.DesignatorRemoveFog>
+  <MapEditTools.DesignatorRemoveFogDesc>Retire le brouillard de la carte.</MapEditTools.DesignatorRemoveFogDesc>
+  <MapEditTools.DesignatorPlaceStone>Placer de la pierre</MapEditTools.DesignatorPlaceStone>
+  <MapEditTools.DesignatorPlaceStoneDesc>Place de la pierre ou des minerais.</MapEditTools.DesignatorPlaceStoneDesc>
+</LanguageData>
