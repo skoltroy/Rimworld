@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <SmokeleafJoint.label>joint de chanvre</SmokeleafJoint.label>
-  <SmokeleafJoint.description>Des feuilles de chanvre préparées en petits rouleaux à fumer. La drogue améliore l'humeur, mais augmente aussi l'appétit, réduit la concentration et ralentit les mouvements. L'usage du chanvre peut créer une dépendance.\n\nLes joints peuvent être fabriqués à un poste d'artisanat sans équipement particulier, et ils sont une tradition de nombreuses cultures peu industrieuses.</SmokeleafJoint.description>
-  <Plant_Smokeleaf.label>plant de chanvre</Plant_Smokeleaf.label>
-  <Plant_Smokeleaf.description>Une culture feuillue cultivée pour les effets psychologiques des substances contenues dans ses feuilles. Les feuilles de chanvre peuvent être transformées en joints au poste d'artisanat. Le chanvre détend son utilisateur, mais réduit la motivation et peut créer une dépendance.</Plant_Smokeleaf.description>
-  <SmokeleafLeaves.label>feuilles de chanvre</SmokeleafLeaves.label>
-  <SmokeleafLeaves.description>Feuilles brutes et coupées d'un plant de chanvre. Peuvent être roulées en joints à fumer au poste d'artisanat.</SmokeleafLeaves.description>
-</LanguageData>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <DNX_TacticalSimulationRitual.beginRitualOverride>Commencer la simulation tactique</DNX_TacticalSimulationRitual.beginRitualOverride>
-  <DNX_TacticalSimulationRitual.descOverride>Un rituel de planification défensive. Les participants se réunissent autour d’une table de simulation tactique pour examiner les axes de menace, les secteurs de tir et les plans de déplacement.</DNX_TacticalSimulationRitual.descOverride>
-  <DNX_TacticalSimulationRitual.shortDescOverride>simulation tactique</DNX_TacticalSimulationRitual.shortDescOverride>
-  <DNX_TacticalSimulationRitual.ritualExpectedDesc>Chaque année, le {DATE}, {MEMBERS} peuvent organiser une célébration spéciale.</DNX_TacticalSimulationRitual.ritualExpectedDesc>
-</LanguageData>

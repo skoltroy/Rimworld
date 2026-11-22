@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <ComplementaryOdyssey.TerrainScanner.Gizmo.Reset.Label>Réinitialiser</ComplementaryOdyssey.TerrainScanner.Gizmo.Reset.Label>
-  <ComplementaryOdyssey.TerrainScanner.Gizmo.Reset.Desc>Réinitialisera la progression du scan et repartira de 0 %.</ComplementaryOdyssey.TerrainScanner.Gizmo.Reset.Desc>
-  <ComplementaryOdyssey.TerrainScanner.CanUse.ScannedFully>La région a été entièrement scannée.</ComplementaryOdyssey.TerrainScanner.CanUse.ScannedFully>
-  <ComplementaryOdyssey.TerrainScanner.Message.FoundOre>Un filon de {0} a été localisé par {1}.</ComplementaryOdyssey.TerrainScanner.Message.FoundOre>
-  <ComplementaryOdyssey.TerrainScanner.InspectString.Progress>Progression jusqu'au scan complet de la région : {0}</ComplementaryOdyssey.TerrainScanner.InspectString.Progress>
-</LanguageData>

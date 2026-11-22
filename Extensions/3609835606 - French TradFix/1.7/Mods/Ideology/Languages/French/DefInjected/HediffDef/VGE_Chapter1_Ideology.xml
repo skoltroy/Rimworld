@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <VGE_EngineeringCommand.label>commandement d'ingénierie</VGE_EngineeringCommand.label>
-  <VGE_EngineeringCommand.description>L'entretien et la construction du Hellion de cette personne sont plus rapides grâce à sa capacité Commandement d'ingénierie.</VGE_EngineeringCommand.description>
-  <VGE_EngineeringCommandBuff.label>commandement d'ingénierie</VGE_EngineeringCommandBuff.label>
-  <VGE_EngineeringCommandBuff.description>L'entretien et la construction du Hellion de cette personne sont plus rapides grâce à la présence d'une personne utilisant la capacité Commandement d'ingénierie.</VGE_EngineeringCommandBuff.description>
-</LanguageData>

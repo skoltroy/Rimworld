@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <Ammo_ARS_276Enfield_FMJ.description>Cartouche de fusil de 7 mm à rebord, mise au point pour les essais du Pattern 1913 Enfield. Sa trajectoire est un peu plus tendue que celle de la .303 British ; le début de la Première Guerre mondiale a mis fin à son adoption.</Ammo_ARS_276Enfield_FMJ.description>
-  <Ammo_ARS_276Enfield_FMJ.label>.276 Enfield (FMJ)</Ammo_ARS_276Enfield_FMJ.label>
-  <Bullet_ARS_276Enfield_FMJ.label>balle .276 Enfield (FMJ)</Bullet_ARS_276Enfield_FMJ.label>
-  <Ammo_ARS_455WebleyAuto_FMJ.description>Cartouche de pistolet automatique semi-rebordée, conçue pour le pistolet semi-automatique Webley and Scott. De taille proche de la cartouche du revolver .455 Webley, mais non interchangeable avec elle.</Ammo_ARS_455WebleyAuto_FMJ.description>
-  <Ammo_ARS_455WebleyAuto_FMJ.label>.455 Webley semi-automatique (FMJ)</Ammo_ARS_455WebleyAuto_FMJ.label>
-  <Bullet_ARS_455WebleyAuto_FMJ.label>balle .455 Webley semi-automatique (FMJ)</Bullet_ARS_455WebleyAuto_FMJ.label>
-</LanguageData>

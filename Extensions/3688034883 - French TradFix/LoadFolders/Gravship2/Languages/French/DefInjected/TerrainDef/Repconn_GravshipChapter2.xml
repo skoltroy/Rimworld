@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <VGE_GravshipSubarmor.label>sous-armure Hellion</VGE_GravshipSubarmor.label>
-  <VGE_GravshipSubarmor.description>Une couche structurelle renforcée, avec un plancher par-dessus, qui forme le pont d'un Hellion. Construite en alliages denses durcis par la gravité, cette sous-armure est totalement indestructible et protège l'appareil contre les impacts d'artillerie et les dégâts d'atterrissage forcé. Seuls les objets posés sur cette sous-structure peuvent être soulevés par le champ de lévitation du moteur du Hellion. Ce plancher doit être construit à portée d'un moteur Hellion.</VGE_GravshipSubarmor.description>
-  <VGE_EnemySubstructure.description>Une structure légère en treillis, avec un plancher par-dessus, qui forme le pont d'un Hellion ennemi. Ne peut être revendiquée ni utilisée par quiconque, hormis l'équipage ennemi. Peut être démontée pour récupérer quelques ressources.</VGE_EnemySubstructure.description>
-  <VGE_EnemyDamagedSubstructure.description>Une structure légère en treillis endommagée, avec un plancher par-dessus, qui forme le pont d'un Hellion ennemi. Ne peut être revendiquée ni utilisée par quiconque, hormis l'équipage ennemi. Peut être démontée pour récupérer quelques ressources.</VGE_EnemyDamagedSubstructure.description>
-  <VGE_EnemySubarmor.label>sous-armure de Hellion ennemi</VGE_EnemySubarmor.label>
-  <VGE_EnemySubarmor.description>Une couche structurelle renforcée, avec un plancher par-dessus, qui forme le pont d'un Hellion ennemi. Construite en alliages denses durcis par la gravité, cette sous-armure est totalement indestructible et protège l'appareil contre les impacts d'artillerie. Ne peut être revendiquée ni utilisée par quiconque, hormis l'équipage ennemi. Peut être démontée pour récupérer quelques ressources.</VGE_EnemySubarmor.description>
-</LanguageData>

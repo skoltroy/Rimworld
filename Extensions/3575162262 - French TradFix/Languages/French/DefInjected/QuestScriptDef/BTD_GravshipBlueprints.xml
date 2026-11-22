@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <BTD_DownedGravship.questNameRules.rulesStrings.0>questName-&gt;Vaisseau gravitationnel écrasé</BTD_DownedGravship.questNameRules.rulesStrings.0>
-  <BTD_DownedGravship.questDescriptionRules.rulesStrings.0>questDescription-&gt;Un vaisseau gravitationnel endommagé s'est écrasé à proximité. Des forces hostiles gardent l'épave. Pirater le moteur gravitationnel endommagé et récupérer tout ce que vous pouvez avant l'expiration du site dans 30 jours. Quête de (BTD) Gravship Blueprints</BTD_DownedGravship.questDescriptionRules.rulesStrings.0>
-  <BTD_SalvageGravship.questNameRules.rulesStrings.0>questName-&gt;Récupération d'un vaisseau gravitationnel</BTD_SalvageGravship.questNameRules.rulesStrings.0>
-  <BTD_SalvageGravship.questDescriptionRules.rulesStrings.0>questDescription-&gt;Un vaisseau gravitationnel abandonné a été repéré à proximité. Il semble intact, mais doit être initialisé. Rendez-vous sur le site et initialisez le moteur gravitationnel lorsque vous serez prêt — attention, le processus attirera des forces hostiles.</BTD_SalvageGravship.questDescriptionRules.rulesStrings.0>
-</LanguageData>

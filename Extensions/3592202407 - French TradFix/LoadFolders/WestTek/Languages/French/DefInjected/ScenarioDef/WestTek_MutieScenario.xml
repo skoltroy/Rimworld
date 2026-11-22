@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <Sanguophage.description>Les vieux récits appelaient les créatures comme vous des Wendigos : des choses affamées qui ont survécu aux humains qu'elles étaient autrefois. Quelle qu'en soit l'origine, vous portez désormais cette malédiction. Traqué, à moitié sauvage et jamais vraiment rassasié, vous avez fui dans les friches avant que les mauvaises personnes ne puissent vous coincer.
-Remarque : les Wendigos possèdent des forces uniques et des faiblesses brutales, ce qui fait de ce scénario un défi difficile.</Sanguophage.description>
-  <Sanguophage.label>Le Wendigo</Sanguophage.label>
-  <Sanguophage.scenario.summary>Un Wendigo traqué, un compagnon humain et une faim qui ne dort jamais.</Sanguophage.scenario.summary>
-  <Sanguophage.scenario.parts.GameStartDialog.text>Les vieilles légendes étaient censées n'être que superstition, jusqu'à ce que vous deveniez l'un d'eux. Vous êtes maintenant un Wendigo : difficile à tuer, plus difficile encore à faire confiance, et toujours affamé.
-Lorsque les chasseurs se sont rapprochés, vous avez fui à bord du premier appareil défaillant qui acceptait de décoller. Il n'est pas resté longtemps en l'air. Vous vous réveillez maintenant dans l'épave avec un seul compagnon, un nœud glacé de faim au ventre, et les friches qui décident quel genre de monstre vous serez.</Sanguophage.scenario.parts.GameStartDialog.text>
-</LanguageData>

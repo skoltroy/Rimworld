@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <PlasmaWeapons_PlasmaRifle.label>fusil à plasma</PlasmaWeapons_PlasmaRifle.label>
-  <PlasmaWeapons_PlasmaRifle.description>Un fusil d'assaut à impulsions de plasma. La technologie de surchauffe charge chaque tir de plasma instable au moment où il quitte le canon. Le plasma surchauffé augmente fortement les dégâts, tandis que la chaleur ardente provoque de graves brûlures.</PlasmaWeapons_PlasmaRifle.description>
-  <PlasmaWeapons_PlasmaRifle.tools.0.label>crosse</PlasmaWeapons_PlasmaRifle.tools.0.label>
-  <PlasmaWeapons_PlasmaRifle.tools.1.label>canon</PlasmaWeapons_PlasmaRifle.tools.1.label>
-</LanguageData>

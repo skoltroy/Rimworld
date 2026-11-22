@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-
-	<NCCN.ConfirmReplace.Text>Un menu pouvant être remplacé a été détecté.\n\nVoulez-vous le remplacer ?\n\n<![CDATA[<color=#929591>[Source] {0}</color>]]></NCCN.ConfirmReplace.Text>
-
-	<NCCN.ConfirmReplace.Accept.Label>Oui</NCCN.ConfirmReplace.Accept.Label>
-	<NCCN.ConfirmReplace.Reject.Label>Non</NCCN.ConfirmReplace.Reject.Label>
-
-</LanguageData>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <DNX_FireControlConsole.label>Console de contrôle de tir globale</DNX_FireControlConsole.label>
-  <DNX_FireControlConsole.description>Une console de commandement servant à coordonner le réseau de défense. Lorsqu’elle est utilisée par un colon assigné, elle améliore la précision des tourelles Defensive Network Expanded.</DNX_FireControlConsole.description>
-  <DNX_MultispectralFireControlRecognition.label>Nœud de reconnaissance de contrôle de tir multispectral</DNX_MultispectralFireControlRecognition.label>
-  <DNX_MultispectralFireControlRecognition.description>Un nœud de reconnaissance du réseau de défense qui fusionne les données multispectrales des cibles. Lorsqu’elles sont alimentées, les tourelles DNX prises en charge ignorent les interférences de la fumée lors du calcul de leurs solutions de tir.</DNX_MultispectralFireControlRecognition.description>
-</LanguageData>

@@ -10,7 +10,7 @@ Ce projet regroupe les mods locaux et les extensions de traduction/correction po
 Le workflow de traduction est préparé par [Update-RimWorldModTranslations.ps1](tools/Update-RimWorldModTranslations.ps1). Il prend en charge les deux modes suivants :
 
 - **ID fournis** : traiter un ou plusieurs ID numériques indiqués dans le chat.
-- **Découverte** : comparer les dossiers numériques du dossier du jeu aux ID connus dans ce README, le catalogue `Extensions/ReadMe.md` et les dossiers `Extensions\<ID>`. La racine `Mods` de ce projet contient actuellement des mods nommés, pas des dossiers numériques; elle n’est donc pas prise pour un inventaire d’ID.
+- **Découverte** : comparer les dossiers numériques du dossier du jeu aux ID connus dans ce README, le catalogue `Extensions/ReadMe.md` et les archives `Extensions\<ID> - French TradFix.zip`. La racine `Mods` de ce projet contient actuellement des mods nommés, pas des dossiers numériques; elle n’est donc pas prise pour un inventaire d’ID.
 
 Le rapport distingue une traduction **complète** (audit de couverture et revue de toutes les entrées sources) d’un **complément** (ajout des clés manquantes et revue des valeurs exactement identiques à l’anglais). Les deux modes préservent les traductions françaises correctes : « complète » ne signifie pas réécrire aveuglément toutes les chaînes. Une égalité anglais/français est un indice, pas une preuve d’erreur.
 
@@ -34,7 +34,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\Update-RimWorldM
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\Update-RimWorldModTranslations.ps1 -Action Export -ModId 1234567890
 ```
 
-Les rapports JSON sont écrits sous `tools/reports` et ignorés par Git. L’export copie uniquement les fichiers sous `Languages\French` vers `Extensions\<ID>`, conserve les chemins relatifs et vérifie chaque copie par SHA256. Il n’efface aucun fichier.
+Les rapports JSON sont écrits sous `tools/reports` et ignorés par Git. L’export copie uniquement les fichiers sous `Languages\French` vers `tools\exports\<ID>`, conserve les chemins relatifs et vérifie chaque copie par SHA256. Il ne crée pas de dossier décompressé dans `Extensions`. Les sauvegardes de packages dans `Extensions` sont des archives ZIP nommées d’après le dossier du package (`<ID> - French TradFix.zip` ou `<nom> - French TradFix.zip`) ; leur contenu est le package lui-même, sans dossier enveloppe. Pour les mettre à jour, travailler dans un dossier temporaire hors de `Extensions`, puis remplacer l’archive seulement après validation.
 
 Le script automatise la sélection, l’inventaire et l’export; l’agent de traduction réalise le travail linguistique. Les ressources anglaises sont comparées aux traductions françaises par chemin relatif. Les mods sans ressources `Languages\English` sont signalés pour examen des Defs chargées; l’absence de source anglaise ne prouve ni l’absence de texte utilisateur ni l’exhaustivité du français. Le bilan doit distinguer les clés manquantes, les valeurs identiques à examiner et les cas qui ne peuvent pas être vérifiés de façon fiable.
 

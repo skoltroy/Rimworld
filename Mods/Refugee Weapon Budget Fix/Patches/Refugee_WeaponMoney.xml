@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Patch>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="Refugee"]/weaponMoney</xpath>
-		<value><weaponMoney>65~200</weaponMoney></value>
-	</Operation>
-</Patch>

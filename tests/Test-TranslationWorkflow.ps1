@@ -34,7 +34,7 @@ try {
 |---|---:|---|---|
 | 15/11/2026 | 111 | `111` | Tracked in extension README |
 '@
-    New-Item -ItemType Directory -Path (Join-Path $extensionsRoot '222') -Force | Out-Null
+    New-TestFile -Path (Join-Path $extensionsRoot '222 - French TradFix.zip') -Content 'archive placeholder'
 
     New-TestFile -Path (Join-Path $sourceRoot '123\Languages\English\Keyed\Strings.xml') -Content @'
 <LanguageData><Keep>Original</Keep><Missing>Needs translation</Missing></LanguageData>
@@ -44,6 +44,9 @@ try {
 '@
     New-TestFile -Path (Join-Path $sourceRoot '456\Languages\English\Keyed\Strings.xml') -Content @'
 <LanguageData><Only>New mod</Only></LanguageData>
+'@
+    New-TestFile -Path (Join-Path $sourceRoot '222\Languages\English\Keyed\Strings.xml') -Content @'
+<LanguageData><Only>Already archived</Only></LanguageData>
 '@
     New-TestFile -Path (Join-Path $sourceRoot '111\About\About.xml') -Content '<ModMetaData><name>Tracked in extension README</name></ModMetaData>'
     New-TestFile -Path (Join-Path $sourceRoot '789\About\About.xml') -Content '<ModMetaData><name>Resource-free</name></ModMetaData>'
@@ -60,6 +63,7 @@ try {
     Assert-True ($discoveredIds -contains '789') 'discovery should include an untracked mod without English resources for manual review'
     Assert-True ($discoveredIds -notcontains '123') 'discovery should exclude IDs listed in the root README'
     Assert-True ($discoveredIds -notcontains '111') 'discovery should exclude IDs listed in the extension README ID column'
+    Assert-True ($discoveredIds -notcontains '222') 'discovery should exclude IDs tracked by an Extensions ZIP archive'
 
     & $scriptPath -SelectionMode Explicit -ModId '123' -TranslationMode Supplement -SourceModsPath $sourceRoot -ProjectPath $projectRoot
     $supplementReportPath = Get-ChildItem -LiteralPath (Join-Path $projectRoot 'tools\reports') -Filter 'translation-plan-*.json' |
@@ -69,8 +73,9 @@ try {
     Assert-True ($supplementReport.Mods[0].KeysToTranslate -eq 2) 'supplement mode should flag the missing key and the identical-text candidate for review'
 
     [void](& $scriptPath -Action Export -ModId '123' -SourceModsPath $sourceRoot -ProjectPath $projectRoot 2>&1)
-    $exported = Join-Path $extensionsRoot '123\Languages\French\Keyed\Strings.xml'
-    Assert-True (Test-Path -LiteralPath $exported -PathType Leaf) 'export should copy the French resource under Extensions/<id>'
+    $exported = Join-Path $projectRoot 'tools\exports\123\Languages\French\Keyed\Strings.xml'
+    Assert-True (Test-Path -LiteralPath $exported -PathType Leaf) 'export should stage the French resource outside Extensions'
+    Assert-True (-not (Test-Path -LiteralPath (Join-Path $extensionsRoot '123'))) 'export should not create an unpacked directory in Extensions'
     $exportedXml = [xml](Get-Content -LiteralPath $exported -Raw)
     Assert-True ($exportedXml.LanguageData.Keep -eq 'Original') 'export should preserve translation content'
 

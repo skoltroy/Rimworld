@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <StargateMod_StargateEnterMode.textEnemy>Un groupe de {0} venant de {1} traverse votre porte des étoiles !</StargateMod_StargateEnterMode.textEnemy>
-  <StargateMod_StargateEnterMode.textFriendly>Un groupe de {0} alliés venant de {1} traverse votre porte des étoiles !</StargateMod_StargateEnterMode.textFriendly>
-  <StargateMod_StargateEnterMode.textWillArrive>{0_pawnsPluralDef} vont traverser votre porte des étoiles.</StargateMod_StargateEnterMode.textWillArrive>
-</LanguageData>

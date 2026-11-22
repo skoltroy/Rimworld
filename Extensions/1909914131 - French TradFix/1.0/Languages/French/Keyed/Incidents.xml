@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<LanguageData>
-
-  <!-- Journey-related -->
-  <JourneyOffer>Une IA sympathique de votre passé nommée Charlon Whitestone vous a envoyé un message !\n\nIl révèle qu'il a un vaisseau spatial caché sur cette planète et vous envoie ses coordonnées mondiales.\n\nSi vous parvenez à atteindre le vaisseau, Charlon vous mettra en orbite. À partir de là, vous pourrez peut-être découvrir un moyen d'améliorer le moteur du navire et de voyager vers les étoiles.</JourneyOffer>
-  <EscapeShipFoundLabel>Navire trouvé</EscapeShipFoundLabel>
-  <EscapeShipFound>Vous avez atteint les coordonnées envoyées par Charlon Whitestone et découvert le vaisseau spatial caché.\n\nLe vaisseau est prêt à être lancé, mais ses moteurs à combustible chimique ne peuvent que vous mettre en orbite. Pour aller plus loin, il vous faudra d'une manière ou d'une autre acquérir un disque Johnson-Tanaka. Peut-être que des indices peuvent être trouvés parmi les débris orbitaux...</EscapeShipFound>
-
-</LanguageData>

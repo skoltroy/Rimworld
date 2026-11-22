@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <AtmosphericHeater.description>Un réacteur domestique Poseidon alimenté par une archotechnologie obscure récupérée. Il brûle de la bioferrite pour agiter les gaz atmosphériques, élevant la température extérieure tout en inondant la zone de chaleur résiduelle.</AtmosphericHeater.description>
-  <AtmosphericHeater.label>réacteur domestique Poseidon</AtmosphericHeater.label>
-  <BioferriteGenerator.description>Un générateur expérimental qui fonctionne en comprimant et en enflammant la bioferrite, puis en récupérant l'énergie de la chaleur produite. Le combustible reste de la bioferrite, mais le châssis et l'agencement des commandes rappellent un prototype Poseidon austère.</BioferriteGenerator.description>
-  <BioferriteShaper.description>Un établi de façonnage spécialisé qui utilise la chaleur et une stimulation électromagnétique pour amener temporairement la bioferrite dans un état malléable. Le matériau reste de la bioferrite, mais le matériel environnant s'intègre parfaitement dans un atelier industriel de style Fallout.</BioferriteShaper.description>
-  <SerumCentrifuge.description>Un laboratoire de sérums Med-Tek qui utilise une archotechnologie récupérée pour produire des sérums injectables à usage unique. Propre, coûteux et moralement discutable, exactement comme il se doit dans l'avant-guerre.</SerumCentrifuge.description>
-  <SerumCentrifuge.label>laboratoire de sérums Med-Tek</SerumCentrifuge.label>
-</LanguageData>

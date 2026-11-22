@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <VGE_GravshipResearch.label>recherche sur le Hellion</VGE_GravshipResearch.label>
-  <VGE_GravshipResearch.description>Expertise dans la recherche de nouvelles technologies pour le Hellion.</VGE_GravshipResearch.description>
-  <VGE_GravshipMaintaining.label>entretien du Hellion</VGE_GravshipMaintaining.label>
-  <VGE_GravshipMaintaining.description>Expertise dans l'entretien des structures du Hellion.</VGE_GravshipMaintaining.description>
-  <VGE_GravshipTargeting.label>combat du Hellion</VGE_GravshipTargeting.label>
-  <VGE_GravshipTargeting.description>Expertise dans l'utilisation de la console de ciblage à bord d'un Hellion.</VGE_GravshipTargeting.description>
-</LanguageData>

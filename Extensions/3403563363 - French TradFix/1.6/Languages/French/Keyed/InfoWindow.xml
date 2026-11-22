@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-
-	<NCCM.BuildingMenuOptionInfoView.Title>Matériaux</NCCM.BuildingMenuOptionInfoView.Title>
-
-	<NCCM.BuildingMenuOptionInfoView.CostCount>Coût : {0}</NCCM.BuildingMenuOptionInfoView.CostCount>
-	<NCCM.BuildingMenuOptionInfoView.CurrentCount>En stock : {0}</NCCM.BuildingMenuOptionInfoView.CurrentCount>
-
-</LanguageData>

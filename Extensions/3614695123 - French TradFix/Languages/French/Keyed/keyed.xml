@@ -1,9 +1,0 @@
-<Keyed>
-  <VF_Uncategorized>Non catégorisé</VF_Uncategorized>
-  <VF_CollapseAllCategories>Tout réduire</VF_CollapseAllCategories>
-  <VF_ExpandAllCategories>Tout développer</VF_ExpandAllCategories>
-  <VF_DropAllInCategory>Déposer tout dans {0}</VF_DropAllInCategory>
-  <VF_Cargo>Cargaison</VF_Cargo>
-  <VF_DropSpecificThing>Déposer une quantité précise</VF_DropSpecificThing>
-  <VF_DropSpecificCountLabel>Combien de {0} déposer ?</VF_DropSpecificCountLabel>
-</Keyed>

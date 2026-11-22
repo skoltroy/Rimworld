@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <Ammo_RON_40x46mmFlash.label>grenade 40x46mm (flash-bang)</Ammo_RON_40x46mmFlash.label>
-  <Ammo_RON_40x46mmFlash.description>Une munition 40x46mm à faible létalité qui éclate en un flash aveuglant et une détonation assourdissante.</Ammo_RON_40x46mmFlash.description>
-  <Ammo_RON_40x46mmCS.label>grenade 40x46mm (gaz CS)</Ammo_RON_40x46mmCS.label>
-  <Ammo_RON_40x46mmCS.description>Une munition 40x46mm à faible létalité remplie de gaz lacrymogène CS. Elle laisse un nuage de fumée à l&apos;endroit où elle tombe.</Ammo_RON_40x46mmCS.description>
-  <Bullet_RON_40x46mmFlash.label>grenade 40x46mm (flash-bang)</Bullet_RON_40x46mmFlash.label>
-  <Bullet_RON_40x46mmCS.label>grenade 40x46mm (gaz CS)</Bullet_RON_40x46mmCS.label>
-</LanguageData>

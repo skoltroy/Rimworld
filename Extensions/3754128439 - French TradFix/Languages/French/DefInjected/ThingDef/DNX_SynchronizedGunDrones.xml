@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <DNX_Apparel_SynchronizedGunDroneHarness.label>Sac de drone d’attaque d’escorte</DNX_Apparel_SynchronizedGunDroneHarness.label>
-  <DNX_Apparel_SynchronizedGunDroneHarness.description>Un système de drones d’attaque coopératifs transportable par une escouade. Une fois déployé, il suit son opérateur en vol et coordonne ses attaques en fonction de ses déplacements, de sa ligne de vue et de ses ordres tactiques. Son armement ne suffit pas à lui seul à décider de l’issue d’une bataille, mais un second angle de tir, une suppression soutenue et une reconnaissance immédiate suffisent à faire hésiter tout ennemi retranché derrière un abri.</DNX_Apparel_SynchronizedGunDroneHarness.description>
-  <DNX_SynchronizedGunDrone.label>Drone d’attaque d’escorte</DNX_SynchronizedGunDrone.label>
-  <DNX_SynchronizedGunDrone.description>Un drone d’attaque coopératif compact transporté par un fantassin. Il peut rester en formation aux côtés de son porteur ou être envoyé vers une position désignée, ajoutant un second angle de tir et assurant une reconnaissance immédiate.</DNX_SynchronizedGunDrone.description>
-  <DNX_Gun_SynchronizedDroneLMG.label>Mitrailleuse légère de drone d’escorte</DNX_Gun_SynchronizedDroneLMG.label>
-  <DNX_Gun_SynchronizedDroneLMG.description>Une mitrailleuse légère très compacte transportée par un drone d’attaque d’escorte.</DNX_Gun_SynchronizedDroneLMG.description>
-</LanguageData>

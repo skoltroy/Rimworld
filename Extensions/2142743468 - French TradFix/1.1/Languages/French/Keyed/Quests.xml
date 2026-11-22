@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-  <DebugAction_GenerateQuest>Générer une quête...</DebugAction_GenerateQuest>
-  <DebugAction_GenerateQuests10>Générer une quête x10...</DebugAction_GenerateQuests10>
-  <DebugAction_GenerateQuests30>Générer une quête x30...</DebugAction_GenerateQuests30>
-  <DebugAction_TestQuestPart>Tester QuestPart...</DebugAction_TestQuestPart>
-  <DebugAction_QuestExample>Journaliser les données sauvegardées de la quête générée</DebugAction_QuestExample>
-</LanguageData>

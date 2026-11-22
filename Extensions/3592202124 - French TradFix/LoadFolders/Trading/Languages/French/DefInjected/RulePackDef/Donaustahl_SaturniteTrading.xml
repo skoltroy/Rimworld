@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <VTE_SettlementMechanoidShipsSalvaged.rulePack.rulesStrings.0>root-&gt;[SETTLEMENT_label] a récupéré un convoi militaire d'avant-guerre et vend son surplus de polymère.</VTE_SettlementMechanoidShipsSalvaged.rulePack.rulesStrings.0>
-  <VTE_SettlementMechanoidShipsSalvaged.rulePack.rulesStrings.1>root-&gt;[SETTLEMENT_label] a récupéré une importante réserve de polymère de qualité militaire et compte la vendre.</VTE_SettlementMechanoidShipsSalvaged.rulePack.rulesStrings.1>
-  <VTE_SettlementMechanoidShipsSalvaged.rulePack.rulesStrings.2>root-&gt;[SETTLEMENT_label] vend du polymère inutilisé et des pièces de machines.</VTE_SettlementMechanoidShipsSalvaged.rulePack.rulesStrings.2>
-  <VTE_SettlementPowerArmorUpgrade.rulePack.rulesStrings.0>root-&gt;[SETTLEMENT_label] renforce ses défenses avec des armures assistées et achète du polymère en gros.</VTE_SettlementPowerArmorUpgrade.rulePack.rulesStrings.0>
-  <VTE_SettlementPowerArmorUpgrade.rulePack.rulesStrings.1>root-&gt;[SETTLEMENT_label] a besoin de polymère pour remettre en état ses armures assistées.</VTE_SettlementPowerArmorUpgrade.rulePack.rulesStrings.1>
-  <VTE_SettlementPowerArmorUpgrade.rulePack.rulesStrings.2>root-&gt;[SETTLEMENT_label] améliore ses défenses et achète du polymère, de l'acier et des pièces de machines.</VTE_SettlementPowerArmorUpgrade.rulePack.rulesStrings.2>
-</LanguageData>

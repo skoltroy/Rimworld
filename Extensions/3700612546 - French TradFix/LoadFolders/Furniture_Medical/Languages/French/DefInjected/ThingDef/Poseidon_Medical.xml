@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <Facility_IVDrip.description>Un support de perfusion intraveineuse Med-Tek, destiné à réhydrater rapidement un patient et à favoriser la récupération de l'immunité et des pertes de sang lorsqu'il est placé directement à côté d'un lit d'hôpital ou d'une table d'opération. Ne fonctionne que pour les lits d'hôpital ou les tables d'opération ; les lits ordinaires n'en tirent aucun bénéfice. Fixer plus d'un support au même lit n'a aucun effet.</Facility_IVDrip.description>
-  <Facility_IVDrip.label>support de perfusion Med-Tek</Facility_IVDrip.label>
-  <Facility_VitalsCentre.description>Un grand centre Med-Tek pour surveiller les signes vitaux de plusieurs patients à la fois, améliorant la qualité des soins, le succès des opérations et le gain d'immunité lorsqu'il est relié à des lits d'hôpital ou à des salles d'opération.</Facility_VitalsCentre.description>
-  <Facility_VitalsCentre.label>centre de constantes Med-Tek</Facility_VitalsCentre.label>
-</LanguageData>

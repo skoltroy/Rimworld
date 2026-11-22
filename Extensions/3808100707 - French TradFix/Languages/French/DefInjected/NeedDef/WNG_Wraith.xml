@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <Chemical_WNG_Roshna.label>roshna</Chemical_WNG_Roshna.label>
-  <Chemical_WNG_Roshna.description>La physiologie de cette personne a été modifiée pour exiger du roshna régulier. Les doses continues maintiennent sa stabilité ; le sevrage devient progressivement mortel, et la dépendance ne se résout pas naturellement.</Chemical_WNG_Roshna.description>
-  <Chemical_WNG_Kassa.label>kassa</Chemical_WNG_Kassa.label>
-  <Chemical_WNG_Kassa.description>Cette personne a développé une forte dépendance chimique au kassa et doit en consommer régulièrement pour éviter le sevrage.</Chemical_WNG_Kassa.description>
-  <Chemical_WNG_WraithEnzyme.label>enzyme wraith</Chemical_WNG_WraithEnzyme.label>
-  <Chemical_WNG_WraithEnzyme.description>En raison de la dépendance à l'enzyme wraith, cette personne a besoin de doses répétées pour éviter un sevrage physiologique sévère.</Chemical_WNG_WraithEnzyme.description>
-</LanguageData>

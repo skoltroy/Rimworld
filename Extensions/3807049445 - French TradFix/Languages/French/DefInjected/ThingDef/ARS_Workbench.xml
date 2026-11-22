@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <ARS_UniversalBench.label>établi universel d&apos;armes</ARS_UniversalBench.label>
-  <ARS_UniversalBench.description>Un grand établi entièrement équipé, capable de fabriquer les armes de tous les packs Arsenal à la fois. Chaque pack possède aussi son propre établi, moins cher ; celui-ci vous évite de les construire tous. Il ne consomme aucune énergie : le stade de recherche atteint détermine ce qu&apos;il peut fabriquer.</ARS_UniversalBench.description>
-  <ARS_ArmsBench.label>établi d&apos;armes</ARS_ArmsBench.label>
-  <ARS_ArmsBench.description>Un établi robuste équipé des gabarits, presses et jauges nécessaires à la fabrication d&apos;armes à feu selon le modèle d&apos;un fabricant. Toutes les armes de la série Arsenal y sont fabriquées.</ARS_ArmsBench.description>
-  <ARS_GunsmithBench.label>établi d&apos;armurier</ARS_GunsmithBench.label>
-  <ARS_GunsmithBench.description>Un établi en bois et en fer pour fabriquer des armes à feu à la main, une à la fois. Ne fonctionne qu&apos;à la force des bras : pas d&apos;énergie, pas de carburant.</ARS_GunsmithBench.description>
-</LanguageData>

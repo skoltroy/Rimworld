@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <PlasmaWeapons_PlasmaPistol.label>pistolet à plasma</PlasmaWeapons_PlasmaPistol.label>
-  <PlasmaWeapons_PlasmaPistol.description>Un pistolet à plasma robuste. Il surchauffe des projectiles de plasma puis les propulse hors du canon. Il manque de précision et de portée, mais tire rapidement.</PlasmaWeapons_PlasmaPistol.description>
-  <PlasmaWeapons_PlasmaPistol.tools.0.label>poignée</PlasmaWeapons_PlasmaPistol.tools.0.label>
-  <PlasmaWeapons_PlasmaPistol.tools.1.label>canon</PlasmaWeapons_PlasmaPistol.tools.1.label>
-</LanguageData>

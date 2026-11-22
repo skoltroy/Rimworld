@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <VGE_EmergencyLaunch.label>lancement d'urgence</VGE_EmergencyLaunch.label>
-  <VGE_EmergencyLaunch.description>Utilisez la console de pilotage pour déclencher un lancement d'urgence immédiat ; vous atterrirez dans un lieu aléatoire à proximité, avec un incident garanti. Toute personne se trouvant hors du Hellion sera laissée derrière.</VGE_EmergencyLaunch.description>
-  <VGE_AnalyzeTheStars.label>analyser les étoiles</VGE_AnalyzeTheStars.label>
-  <VGE_AnalyzeTheStars.description>Utilisez un télescope pour analyser les étoiles et détecter un nouvel emplacement orbital à proximité.</VGE_AnalyzeTheStars.description>
-  <VGE_EngineeringCommand.label>commandement d'ingénierie</VGE_EngineeringCommand.label>
-  <VGE_EngineeringCommand.description>Donnez des instructions sur l'entretien et la construction du Hellion, améliorant les capacités de construction et d'entretien des personnes à proximité. L'effet reste attaché au lanceur pendant 24 heures.</VGE_EngineeringCommand.description>
-</LanguageData>

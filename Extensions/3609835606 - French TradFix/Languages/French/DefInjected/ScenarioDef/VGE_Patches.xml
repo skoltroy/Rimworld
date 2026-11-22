@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <TheGravship.label>Le gravjumper</TheGravship.label>
-  <TheGravship.description>Votre gravjumper est amarré au relais orbital. Alors que l'équipage commence à récupérer l'équipement, vous comprenez qu'il ne s'agit pas d'une technologie humaine ancienne, mais d'une balise mécanoïde. Le relais s'active dans un crépitement et transmet une alerte de guerre à une ruche mécanoïde lointaine. Les mécanoïdes vous traquent désormais et finiront par vous retrouver où que vous alliez.\n\nRemarque : ce scénario est difficile et déconseillé aux nouveaux joueurs.</TheGravship.description>
-  <TheGravship.scenario.parts.1.text>Vous avez fait une erreur, et la ruche mécanoïde veut maintenant vous tuer. Ses terrifiantes machines de mort arriveront bientôt. Récupérez les précieux panneaux de gravlite, puis utilisez votre gravjumper pour fuir vers un lieu sûr sur la planète.\n\nPour lancer le gravjumper, sélectionnez le cockpit du pilote, puis la commande de décollage.\n\nSur la carte du monde, sélectionnez « Voir la planète » pour choisir un lieu d'atterrissage.\n\nDésormais, où que vous alliez, les mécanoïdes finiront par vous retrouver. Pour les arrêter, vous devrez localiser et détruire la ruche elle-même.</TheGravship.scenario.parts.1.text>
-</LanguageData>

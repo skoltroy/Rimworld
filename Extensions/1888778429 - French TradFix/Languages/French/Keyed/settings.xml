@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<LanguageData>
-	<NutrientPasteTiers>Niveaux de p�te nutritive</NutrientPasteTiers>
-	<DisableIngredientCheck>Viande mystérieuse</DisableIngredientCheck>
-	<DisableIngredientTooltip>D�sactiver la v�rification des ingr�dients lors de la distribution de p�te nutritive, afin d'�viter les malus d'humeur dus � la viande d'insecte et � la viande humaine</DisableIngredientTooltip>
-	<NutrientPasteTiersCategoryLabel>Niveaux de p�te nutritive</NutrientPasteTiersCategoryLabel>
-</LanguageData>

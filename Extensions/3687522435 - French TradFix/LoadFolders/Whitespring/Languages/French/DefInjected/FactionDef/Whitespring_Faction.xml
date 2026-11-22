@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <Empire.description>Une enclave militante de survivants qui prétend représenter la division scientifique des Appalaches. Elle poursuit des recherches sur les cryptides et accumule renseignements et technologies pour l'Enclave Whitespring.</Empire.description>
-  <Empire.label>Enclave Whitespring</Empire.label>
-  <Empire.leaderTitle>président</Empire.leaderTitle>
-  <Empire.pawnSingular>agent de Whitespring</Empire.pawnSingular>
-  <Empire.pawnsPlural>agents de Whitespring</Empire.pawnsPlural>
-  <Empire.royalFavorLabel>renseignements</Empire.royalFavorLabel>
-</LanguageData>

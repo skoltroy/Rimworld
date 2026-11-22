@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <VGE_GravjumperLaunch.label>lancement du gravjumper</VGE_GravjumperLaunch.label>
-  <VGE_GravjumperLaunch.description>Voyagez vers une destination lointaine à bord de votre gravjumper. La compétence du pilote est le facteur le plus important pour réussir le lancement, et le copilote apporte aussi une aide précieuse. L'équipage supplémentaire peut aider, mais beaucoup moins que pour un Hellion standard. À la fin du voyage, vous pourrez choisir de conserver l'ancienne carte ou de l'abandonner.</VGE_GravjumperLaunch.description>
-  <VGE_GravhulkLaunch.label>lancement du gravhulk</VGE_GravhulkLaunch.label>
-  <VGE_GravhulkLaunch.description>Voyagez vers une destination lointaine à bord de votre Hellion. Chaque membre d'équipage contribue fortement à la réussite du lancement ; un équipage complet est donc très précieux. En revanche, les petits propulseurs n'apportent aucun avantage au lancement. Vous collecterez également des données gravimétriques pendant le voyage afin de faire progresser la recherche. À la fin, vous pourrez choisir de conserver l'ancienne carte ou de l'abandonner.</VGE_GravhulkLaunch.description>
-</LanguageData>

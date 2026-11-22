@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <ARS_RON_GrenadeFlash.label>flash-bang</ARS_RON_GrenadeFlash.label>
-  <ARS_RON_GrenadeFlash.description>Une munition de grenade à faible létalité qui éclate en un flash aveuglant et une détonation assourdissante.</ARS_RON_GrenadeFlash.description>
-  <ARS_RON_GrenadeFlash.labelShort>Flash</ARS_RON_GrenadeFlash.labelShort>
-  <ARS_RON_GrenadeCS.label>gaz CS</ARS_RON_GrenadeCS.label>
-  <ARS_RON_GrenadeCS.description>Une munition de grenade à faible létalité remplie de gaz lacrymogène CS.</ARS_RON_GrenadeCS.description>
-  <ARS_RON_GrenadeCS.labelShort>CS</ARS_RON_GrenadeCS.labelShort>
-</LanguageData>

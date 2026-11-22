@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <VGE_Astropede.label>astropède mécanique</VGE_Astropede.label>
-  <VGE_Astropede.corePart.parts.0.parts.1.customLabel>capteur visuel gauche</VGE_Astropede.corePart.parts.0.parts.1.customLabel>
-  <VGE_Astropede.corePart.parts.0.parts.2.customLabel>capteur visuel droit</VGE_Astropede.corePart.parts.0.parts.2.customLabel>
-  <VGE_Astropede.corePart.parts.0.parts.3.customLabel>capteur auditif gauche</VGE_Astropede.corePart.parts.0.parts.3.customLabel>
-  <VGE_Astropede.corePart.parts.0.parts.4.customLabel>capteur auditif droit</VGE_Astropede.corePart.parts.0.parts.4.customLabel>
-  <VGE_Astropede.corePart.parts.2.customLabel>queue mécanique</VGE_Astropede.corePart.parts.2.customLabel>
-</LanguageData>

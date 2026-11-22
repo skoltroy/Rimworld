@@ -34,6 +34,23 @@ function Get-NumberedDirectories {
     )
 }
 
+function Get-NumberedArchives {
+    param([string]$Path)
+
+    if (-not (Test-Path -LiteralPath $Path -PathType Container)) {
+        return @()
+    }
+
+    return @(
+        Get-ChildItem -LiteralPath $Path -File -Filter '*.zip' |
+            ForEach-Object {
+                if ($_.BaseName -match '^(\d+)(?: - French TradFix)?$') {
+                    $Matches[1]
+                }
+            }
+    )
+}
+
 function Get-TrackedIdsFromReadme {
     param([string]$Path)
 
@@ -91,7 +108,8 @@ function Get-TrackedModIds {
     foreach ($directory in @(
         (Get-NumberedDirectories -Path $Root),
         (Get-NumberedDirectories -Path (Join-Path $Root 'Mods')),
-        (Get-NumberedDirectories -Path $Extensions)
+        (Get-NumberedDirectories -Path $Extensions),
+        (Get-NumberedArchives -Path $Extensions)
     )) {
         foreach ($id in $directory) {
             [void]$ids.Add($id)
@@ -406,7 +424,7 @@ function Export-FrenchResources {
     param(
         [string[]]$Ids,
         [string]$SourceRoot,
-        [string]$ExtensionsRoot,
+        [string]$ExportRoot,
         [string]$Root
     )
 
@@ -438,7 +456,7 @@ function Export-FrenchResources {
 
         foreach ($file in $frenchFiles) {
             $relativePath = $file.FullName.Substring($modPath.Length + 1)
-            $destination = Join-Path (Join-Path $ExtensionsRoot $id) $relativePath
+            $destination = Join-Path (Join-Path $ExportRoot $id) $relativePath
             $destinationDirectory = Split-Path -Parent $destination
             if (-not (Test-Path -LiteralPath $destinationDirectory -PathType Container)) {
                 New-Item -ItemType Directory -Path $destinationDirectory -Force | Out-Null
@@ -460,7 +478,7 @@ function Export-FrenchResources {
         }
     }
 
-    Write-Output ("Export terminé : {0} fichier(s) français vérifié(s)." -f $copied.Count)
+    Write-Output ("Export terminé : {0} fichier(s) français vérifié(s) sous '{1}'." -f $copied.Count, $ExportRoot)
     return $copied.ToArray()
 }
 
@@ -472,13 +490,14 @@ if (-not (Test-Path -LiteralPath $ProjectPath -PathType Container)) {
 }
 
 $extensionsPath = Join-Path $ProjectPath 'Extensions'
+$exportPath = Join-Path $ProjectPath 'tools\exports'
 $idsToProcess = @()
 if ($Action -eq 'Export') {
     if ($ModId.Count -eq 0) {
         throw 'Pour exporter, indiquez explicitement -ModId avec un ou plusieurs ID.'
     }
     $idsToProcess = Resolve-ModIds -Mode 'Explicit' -RequestedIds $ModId -SourceRoot $SourceModsPath -Root $ProjectPath -Extensions $extensionsPath
-    [void](Export-FrenchResources -Ids $idsToProcess -SourceRoot $SourceModsPath -ExtensionsRoot $extensionsPath -Root $ProjectPath)
+    [void](Export-FrenchResources -Ids $idsToProcess -SourceRoot $SourceModsPath -ExportRoot $exportPath -Root $ProjectPath)
     return
 }
 
