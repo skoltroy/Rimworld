@@ -19,6 +19,7 @@ $count = static fn(string $type) => count(array_filter($mods, fn($m) => in_array
 $zipCount = count(array_unique(array_merge([], ...array_map(fn($m) => array_column($m['zips'], 'name'), $mods))));
 $stats = [
     'Entrées'      => count($mods),
+    'Mods perso'   => $count('Mod'),
     'Traductions'  => $count('Traduction'),
     'Correctifs'   => $count('Correctif'),
     'Archives ZIP' => $zipCount,
@@ -94,6 +95,7 @@ $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
           <span>Type</span>
           <select id="f-type">
             <option value="">Tous</option>
+            <option>Mod</option>
             <option>Traduction</option>
             <option>Correctif</option>
             <option>Audit</option>

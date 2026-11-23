@@ -1,5 +1,6 @@
-#*.code-workspace
-.translation-work/reports/
+*.code-workspace
+tools/translation-work/
 tools/reports/
 tools/exports/
+tools/work/
 Web/cache/

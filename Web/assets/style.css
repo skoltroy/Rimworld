@@ -125,7 +125,7 @@ code {
 .notes p { margin: 0; }
 
 .stats {
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: grid; grid-template-columns: repeat(5, 1fr);
   margin: 0; padding: 0; list-style: none;
   border-top: 1px solid var(--border-soft);
 }
@@ -185,6 +185,7 @@ td.package { font-size: 12px; }
   display: inline-block; margin: 0 3px 3px 0; padding: 1px 7px;
   font-size: 11px; font-weight: bold; color: #fff; border-radius: 3px; white-space: nowrap;
 }
+.tag-Mod { background: #2f5f8a; }
 .tag-Traduction { background: var(--tag-tr); }
 .tag-Correctif { background: var(--tag-fix); }
 .tag-Audit { background: var(--tag-audit); }
@@ -300,8 +301,8 @@ mark { background: rgba(230,195,92,.45); color: #fff; border-radius: 2px; paddin
   #top_section { padding-top: 28px; }
   .logo-rim { font-size: 38px; }
   .stats { grid-template-columns: repeat(2, 1fr); }
-  .stats li:nth-child(2) { border-right: 0; }
-  .stats li:nth-child(-n+2) { border-bottom: 1px solid var(--border-soft); }
+  .stats li:nth-child(even) { border-right: 0; }
+  .stats li:nth-child(-n+4) { border-bottom: 1px solid var(--border-soft); }
   .table_grid thead { display: none; }
   .table_grid, .table_grid tbody, .table_grid tr, .table_grid td { display: block; width: 100%; }
   .table_grid tr { border-bottom: 2px solid #000; }

@@ -4,6 +4,9 @@ Catalogue des extensions de traduction et de correction des mods RimWorld.
 
 | Date | ID | Package / archive | Nom du ZIP | Mod (`<name>`) | Version déclarée / versions de RimWorld | Travail effectué |
 | --- | ---: | --- | --- | --- | --- | --- |
+| 23/11/2026 | Local | `Skoltroy - Electromagnetic sniper gun` | `Skoltroy - Electromagnetic sniper gun.zip` | Skoltroy - Electromagnetic sniper gun - French TradFix | Mod 1.0 ; RW 1.4, 1.5, 1.6 | 5 champs DefInjected traduits dans 1 ressource French; package ZIP vérifié. |
+| 23/11/2026 | Local | `Skoltroy - MissileTurret` | `Skoltroy - MissileTurret.zip` | Skoltroy - Missiles Turrets | Source non déclarée ; RW 1.3, 1.4, 1.6 | Archive du mod source; aucune ressource French de TradFix incluse. |
+| 23/11/2026 | Local | `Skoltroy - PowerGen` | `Skoltroy - PowerGen.zip` | Skoltroy - Power Generators | Source non déclarée ; RW 1.6 | Archive du mod source; aucune ressource French de TradFix incluse. |
 | 23/11/2026 | 1195427067 | `1195427067 - French TradFix` | `1195427067 - French TradFix.zip` | Architect Icons - French TradFix | TradFix 1.0 ; RW 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7 | Package de traduction française; 0 fichier(s) French trouvé(s). |
 | 23/11/2026 | 1279012058 | `1279012058 - French TradFix` | `1279012058 - French TradFix.zip` | Pick Up And Haul - French TradFix | Mod 1.0 ; RW 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6 | Package de traduction française; 3 fichier(s) French trouvé(s). |
 | 23/11/2026 | 1434137894 | `1434137894 - French TradFix` | `1434137894 - French TradFix.zip` | RandomPlus - French TradFix | Mod 1.0 ; RW 1.6, 1.5, 1.4, 1.3, 1.2 | Package de traduction française; 1 fichier(s) French trouvé(s). |

@@ -170,9 +170,13 @@ function rw_versions(string $s): array
     return $out;
 }
 
-function rw_types(string $package, string $work): array
+function rw_types(string $package, string $work, string $id = ''): array
 {
     $types = [];
+    // Mods personnalisés : package/archive préfixé « Skoltroy - »
+    if (preg_match('/^`?skoltroy\b/i', trim($package))) {
+        $types[] = 'Mod';
+    }
     if (stripos($package, 'TradFix') !== false || preg_match('/tradu/iu', $work)) {
         $types[] = 'Traduction';
     }
@@ -279,7 +283,7 @@ function rw_parse_readme(string $md): array
             'rw'          => rw_versions(md_text($get('version'))),
             'work'        => md_text($work),
             'workHtml'    => md_inline($work),
-            'types'       => rw_types($get('package') . ' ' . $get('zip'), md_text($work)),
+            'types'       => rw_types($get('package') . ' ' . $get('zip'), md_text($work), $get('id')),
         ];
     }
 
