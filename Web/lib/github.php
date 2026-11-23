@@ -170,23 +170,20 @@ function rw_versions(string $s): array
     return $out;
 }
 
-function rw_types(string $package, string $work, string $id = ''): array
+/** Types déduits uniquement des mots-clés du nom du package / de l'archive : TradFix, ModFix, Mod (mot seul). */
+function rw_types(string $names): array
 {
     $types = [];
-    // Mods personnalisés : package/archive préfixé « Skoltroy - »
-    if (preg_match('/^`?skoltroy\b/i', trim($package))) {
-        $types[] = 'Mod';
-    }
-    if (stripos($package, 'TradFix') !== false || preg_match('/tradu/iu', $work)) {
+    if (preg_match('/(?<![A-Za-z])TradFix(?![A-Za-z])/i', $names)) {
         $types[] = 'Traduction';
     }
-    if (stripos($package, 'ModFix') !== false || preg_match('/\bcorrecti|corrigé|\bfix\b/iu', $work)) {
+    if (preg_match('/(?<![A-Za-z])ModFix(?![A-Za-z])/i', $names)) {
         $types[] = 'Correctif';
     }
-    if (preg_match('/\baudit/iu', $work)) {
-        $types[] = 'Audit';
+    if (preg_match('/(?<![A-Za-z])Mod(?![A-Za-z])/', $names)) { // mot « Mod » seul : ni « ModFix », ni « Model »
+        $types[] = 'Mod';
     }
-    return $types ?: ['Autre'];
+    return $types;
 }
 
 /** Analyse le ReadMe : ['title', 'intro', 'footer', 'columns', 'mods']. */
@@ -283,7 +280,7 @@ function rw_parse_readme(string $md): array
             'rw'          => rw_versions(md_text($get('version'))),
             'work'        => md_text($work),
             'workHtml'    => md_inline($work),
-            'types'       => rw_types($get('package') . ' ' . $get('zip'), md_text($work), $get('id')),
+            'types'       => rw_types(md_text($get('package')) . ' ' . md_text($get('zip'))),
         ];
     }
 

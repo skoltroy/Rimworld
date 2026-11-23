@@ -50,8 +50,6 @@ $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
     </h1>
     <nav class="top_menu">
       <a class="active" href="./">Catalogue</a>
-      <a href="https://github.com/skoltroy/Rimworld" target="_blank" rel="noopener">GitHub</a>
-      <a href="<?= $e($readmeUrl) ?>" target="_blank" rel="noopener">ReadMe</a>
       <a href="?format=json">JSON</a>
     </nav>
   </header>
@@ -98,7 +96,6 @@ $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
             <option>Mod</option>
             <option>Traduction</option>
             <option>Correctif</option>
-            <option>Audit</option>
           </select>
         </label>
         <label>
