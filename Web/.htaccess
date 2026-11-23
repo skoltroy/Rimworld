@@ -2,10 +2,6 @@ DirectoryIndex index.php
 AddDefaultCharset UTF-8
 Options -Indexes
 
-<FilesMatch "\.md$">
-  AddType "text/markdown; charset=utf-8" .md
-</FilesMatch>
-
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType image/jpeg "access plus 1 month"
@@ -13,13 +9,7 @@ Options -Indexes
   ExpiresByType application/javascript "access plus 1 week"
 </IfModule>
 
-# Archives des mods
-<IfModule mod_headers.c>
-  <FilesMatch "\.zip$">
-    Header set Content-Disposition "attachment"
-  </FilesMatch>
-</IfModule>
-# Le script de génération ne s'exécute qu'en ligne de commande
+# Cache du ReadMe GitHub et bibliothèque PHP : pas d'accès direct
 <IfModule mod_alias.c>
-  RedirectMatch 403 ^/tools/
+  RedirectMatch 403 ^/(cache|lib)/
 </IfModule>

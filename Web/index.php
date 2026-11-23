@@ -1,30 +1,32 @@
 <?php
 declare(strict_types=1);
-require __DIR__ . '/lib/readme.php';
+require __DIR__ . '/lib/github.php';
+date_default_timezone_set('Europe/Paris');
 
-// Le catalogue est lu dans le ReadMe.md placé à côté de cette page.
-$readme = __DIR__ . '/ReadMe.md';
-if (!is_file($readme) && is_file(__DIR__ . '/../Extensions/ReadMe.md')) {
-    $readme = __DIR__ . '/../Extensions/ReadMe.md'; // repli en local (dépôt complet)
-}
-$data = rw_parse_readme($readme);
+// Le catalogue est lu à chaque visite (cache court) dans Extensions/ReadMe.md sur GitHub.
+$readme = gh_readme(isset($_GET['refresh']));
+$data = rw_parse_readme($readme['markdown']);
+$mods = $data['mods'];
 
 if (($_GET['format'] ?? '') === 'json') {
     header('Content-Type: application/json; charset=utf-8');
     header('Access-Control-Allow-Origin: *');
-    echo json_encode($data['mods'], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+    echo json_encode($mods, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
     exit;
 }
 
-$mods = $data['mods'];
 $count = static fn(string $type) => count(array_filter($mods, fn($m) => in_array($type, $m['types'], true)));
+$zipCount = count(array_unique(array_merge([], ...array_map(fn($m) => array_column($m['zips'], 'name'), $mods))));
 $stats = [
-    'Entrées'     => count($mods),
-    'Traductions' => $count('Traduction'),
-    'Correctifs'  => $count('Correctif'),
-    'Audits'      => $count('Audit'),
+    'Entrées'      => count($mods),
+    'Traductions'  => $count('Traduction'),
+    'Correctifs'   => $count('Correctif'),
+    'Archives ZIP' => $zipCount,
 ];
-$updated = $data['updated'] ? date('d/m/Y H:i', $data['updated']) : '—';
+$fetched = $readme['fetched'] ? date('d/m/Y H:i', $readme['fetched']) : '—';
+$readmeUrl = gh_blob_url($readme['path']);
+$cols = $data['columns'];
+$col = static fn(int $i, string $def) => $cols[$i] ?? $def;
 $e = static fn(string $s) => htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
 $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
 ?>
@@ -48,14 +50,17 @@ $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
     <nav class="top_menu">
       <a class="active" href="./">Catalogue</a>
       <a href="https://github.com/skoltroy/Rimworld" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://github.com/skoltroy/Rimworld/archive/refs/heads/main.zip">Télécharger (.zip)</a>
+      <a href="<?= $e($readmeUrl) ?>" target="_blank" rel="noopener">ReadMe</a>
       <a href="?format=json">JSON</a>
     </nav>
   </header>
 
   <div class="navigate_section">
     <span><a href="./">rimworld.skoltroy.com</a> » <strong>Catalogue des mods</strong></span>
-    <span class="updated">Catalogue mis à jour le <?= $e($updated) ?></span>
+    <span class="updated">
+      <?php if ($readme['stale']): ?><span class="stale">GitHub injoignable, copie en cache</span> · <?php endif; ?>
+      Lu depuis <a href="<?= $e($readmeUrl) ?>" target="_blank" rel="noopener"><?= $e($readme['path']) ?></a> le <?= $e($fetched) ?>
+    </span>
   </div>
 
   <main id="content_section">
@@ -65,9 +70,9 @@ $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
       <div class="windowbg intro">
         <?= $data['intro'] ?>
         <p class="howto">
-          <strong>Installation :</strong> téléchargez le dossier <code>… - French TradFix</code> correspondant depuis
-          <a href="https://github.com/skoltroy/Rimworld/tree/main/Extensions" target="_blank" rel="noopener">GitHub</a>,
-          copiez-le dans <code>RimWorld/Mods</code> puis chargez-le <em>après</em> le mod d’origine.
+          <strong>Installation :</strong> cliquez sur le bouton de téléchargement de l’archive voulue, décompressez-la dans
+          un dossier du même nom sous <code>RimWorld/Mods</code> (l’archive contient directement le package),
+          puis chargez-le <em>après</em> le mod d’origine.
         </p>
       </div>
       <ul class="stats">
@@ -83,7 +88,7 @@ $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
       <div class="toolbar windowbg2">
         <label class="search">
           <span>Rechercher</span>
-          <input type="search" id="q" placeholder="Nom, ID Workshop, dossier, travail effectué…" autocomplete="off">
+          <input type="search" id="q" placeholder="Nom, ID, package, archive, travail effectué…" autocomplete="off">
         </label>
         <label>
           <span>Type</span>
@@ -99,11 +104,11 @@ $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
           <select id="f-rw"><option value="">Toutes</option></select>
         </label>
         <label>
-          <span>Source</span>
-          <select id="f-src">
+          <span>Archive</span>
+          <select id="f-zip">
             <option value="">Toutes</option>
-            <option value="steam">Steam Workshop</option>
-            <option value="local">Local</option>
+            <option value="yes">Téléchargeable</option>
+            <option value="no">Sans archive</option>
           </select>
         </label>
         <label>
@@ -119,13 +124,12 @@ $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
         <table id="mods" class="table_grid">
           <thead>
             <tr>
-              <th data-key="name" class="sortable">Mod</th>
-              <th data-key="type" class="sortable">Type</th>
-              <th data-key="id" class="sortable">ID Workshop</th>
-              <th data-key="rw" class="sortable">RimWorld</th>
-              <th data-key="version" class="sortable col-version">Version</th>
-              <th data-key="date" class="sortable" data-default="desc">Date</th>
-              <th data-key="work" class="col-work">Travail effectué</th>
+              <th data-key="date" class="sortable" data-default="desc"><?= $e($col(0, 'Date')) ?></th>
+              <th data-key="id" class="sortable"><?= $e($col(1, 'ID')) ?></th>
+              <th data-key="name" class="sortable col-name">Mod</th>
+              <th data-key="package" class="sortable col-package"><?= $e($col(2, 'Package / archive')) ?></th>
+              <th data-key="rw" class="sortable col-version"><?= $e($col(5, 'Version déclarée / versions de RimWorld')) ?></th>
+              <th class="col-work"><?= $e($col(6, 'Travail effectué')) ?></th>
               <th class="col-dl">Télécharger</th>
             </tr>
           </thead>
@@ -140,7 +144,7 @@ $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
       </div>
     </section>
 
-    <?php if ($data['footer']): ?>
+    <?php if (trim($data['footer']) !== ''): ?>
       <section class="roundframe notes windowbg"><?= $data['footer'] ?></section>
     <?php endif; ?>
   </main>
@@ -151,6 +155,7 @@ $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
   </footer>
 </div>
 
+<div id="tip" class="tip" role="tooltip" hidden></div>
 <script>window.RW_MODS = <?= json_encode($mods, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>;</script>
 <script src="<?= $e($v('assets/app.js')) ?>"></script>
 </body>

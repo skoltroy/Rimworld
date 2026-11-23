@@ -1,4 +1,4 @@
-/* Datatable du catalogue : recherche, filtres, tri, pagination (sans dépendance). */
+/* Datatable du catalogue : recherche, filtres, tri, pagination, infobulle DETAILS (sans dépendance). */
 (function () {
   'use strict';
 
@@ -7,6 +7,7 @@
   var $ = function (id) { return document.getElementById(id); };
   var tbody = document.querySelector('#mods tbody');
   var headers = Array.prototype.slice.call(document.querySelectorAll('#mods th.sortable'));
+  var COLS = document.querySelectorAll('#mods thead th').length;
 
   var fold = function (s) {
     return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -16,18 +17,19 @@
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
   };
-  var fmtSize = function (b) {
-    return b < 1024 * 1024 ? Math.max(1, Math.round(b / 1024)) + ' Ko' : (b / 1048576).toFixed(1).replace('.', ',') + ' Mo';
-  };
   var cmpVer = function (a, b) {
     var x = a.split('.').map(Number), y = b.split('.').map(Number);
     return (x[0] - y[0]) || (x[1] - y[1]);
   };
+  var terms = function () {
+    return fold(state.q).split(/\s+/).filter(Boolean);
+  };
 
   // Index de recherche et valeurs de tri
-  mods.forEach(function (m) {
-    m._search = fold([m.name, m.folder, m.ids.join(' '), m.version, m.work, m.types.join(' '),
-      m.date, m.local ? 'local' : 'steam workshop'].join(' '));
+  mods.forEach(function (m, i) {
+    m.i = i;
+    m._work = fold(m.work);
+    m._search = fold([m.date, m.ids.join(' '), m.name, m.package, m.zipText, m.version, m.work, m.types.join(' ')].join(' '));
     m._rwMax = m.rw.length ? m.rw[m.rw.length - 1] : '';
   });
 
@@ -40,20 +42,20 @@
     $('f-rw').appendChild(o);
   });
 
-  var state = { q: '', type: '', rw: '', src: '', len: 10, page: 1, sort: 'date', dir: 'desc' };
+  var DEFAULT = { q: '', type: '', rw: '', zip: '', page: 1, sort: 'date', dir: 'desc' };
+  var state = Object.assign({ len: 10 }, DEFAULT);
 
   var sorters = {
-    name: function (m) { return fold(m.name); },
-    type: function (m) { return m.types.join(' '); },
+    date: function (m) { return m.dateIso || null; },
     id: function (m) { return m.ids.length ? Number(m.ids[0]) : null; },
-    rw: function (m) { return m._rwMax || null; },
-    version: function (m) { return fold(m.version); },
-    date: function (m) { return m.dateIso || null; }
+    name: function (m) { return fold(m.name) || null; },
+    package: function (m) { return fold(m.package) || null; },
+    rw: function (m) { return m._rwMax || null; }
   };
 
   function compare(a, b) {
     var key = sorters[state.sort], va = key(a), vb = key(b);
-    // Les valeurs vides (« Non documentée », « Local ») restent toujours en fin de liste.
+    // Les valeurs vides (« Non documentée », sans ID…) restent toujours en fin de liste, dans l'ordre du ReadMe.
     if (va === null && vb === null) return a.n - b.n;
     if (va === null) return 1;
     if (vb === null) return -1;
@@ -61,71 +63,77 @@
     if (state.sort === 'rw') r = cmpVer(va, vb);
     else if (typeof va === 'number') r = va - vb;
     else r = va < vb ? -1 : va > vb ? 1 : 0;
-    if (r === 0) r = fold(a.name).localeCompare(fold(b.name));
+    if (r === 0) return a.n - b.n;
     return state.dir === 'asc' ? r : -r;
   }
 
   function filtered() {
-    var terms = fold(state.q).split(/\s+/).filter(Boolean);
+    var t = terms();
     return mods.filter(function (m) {
       if (state.type && m.types.indexOf(state.type) < 0) return false;
       if (state.rw && m.rw.indexOf(state.rw) < 0) return false;
-      if (state.src === 'local' && !m.local) return false;
-      if (state.src === 'steam' && m.local) return false;
-      for (var i = 0; i < terms.length; i++) if (m._search.indexOf(terms[i]) < 0) return false;
+      if (state.zip === 'yes' && !m.zips.length) return false;
+      if (state.zip === 'no' && m.zips.length) return false;
+      for (var i = 0; i < t.length; i++) if (m._search.indexOf(t[i]) < 0) return false;
       return true;
     }).sort(compare);
   }
 
   function rowHtml(m) {
-    var links = '';
-    m.ids.slice(0, 1).forEach(function (id) {
-      links += '<a href="' + STEAM + id + '" target="_blank" rel="noopener">Steam</a>';
-    });
-    if (m.github) links += '<a href="' + esc(m.github) + '" target="_blank" rel="noopener">GitHub</a>';
-
     var ids = m.ids.length
       ? m.ids.map(function (id) {
           return '<a href="' + STEAM + id + '" target="_blank" rel="noopener" title="Page Steam Workshop">' + id + '</a>';
         }).join('')
-      : '<span class="local">Local</span>';
+      : '<span class="nd">' + (m.idHtml || '—') + '</span>';
 
     var rw = m.rw.map(function (v) {
       return '<span' + (v === state.rw ? ' class="hl"' : '') + '>' + v + '</span>';
     }).join('');
 
+    // Le bouton est signalé quand la recherche porte sur le texte masqué dans l'infobulle
+    var hit = terms().some(function (x) { return x.length > 1 && m._work.indexOf(x) >= 0; });
+    var details = m.work
+      ? '<button type="button" class="btn-details' + (hit ? ' hit' : '') + '" data-i="' + m.i + '"' +
+        ' aria-describedby="tip" aria-expanded="false">DETAILS</button>'
+      : '<span class="nd">—</span>';
+
+    var dl = m.zips.length
+      ? m.zips.map(function (z) {
+          return '<a class="button btn-dl" href="' + esc(z.url) + '" download="' + esc(z.name) + '"' +
+            ' title="Télécharger ' + esc(z.name) + ' depuis GitHub">' +
+            '<span aria-hidden="true">⬇</span><span class="zip-name">Télécharger' +
+            (m.zips.length > 1 ? ' ' + esc(z.name.split(' - ')[0]) : '') + '</span></a>';
+        }).join('')
+      : '<span class="nd">' + (m.zipText && m.zipText !== '—' ? esc(m.zipText) : 'Aucune archive') + '</span>';
+
     return '<tr>' +
-      '<td class="name"><span class="mod-name">' + m.nameHtml + '</span>' +
-        '<span class="mod-folder">' + m.folderHtml + '</span>' +
-        (links ? '<span class="mod-links">' + links + '</span>' : '') + '</td>' +
-      '<td data-label="Type">' + m.types.map(function (t) {
-        return '<span class="tag tag-' + t + '">' + t + '</span>';
-      }).join('') + '</td>' +
-      '<td class="ids" data-label="ID Workshop">' + ids + '</td>' +
-      '<td data-label="RimWorld"><div class="rw">' + (rw || '<span>?</span>') + '</div></td>' +
-      '<td class="version" data-label="Version">' + m.versionHtml + '</td>' +
       '<td class="date" data-label="Date">' + (m.date || '<span class="nd">Non documentée</span>') + '</td>' +
-      '<td class="work" data-label="Travail effectué"><div class="work-text">' + m.workHtml + '</div></td>' +
-      '<td class="dl">' + (m.zip
-        ? '<a class="button btn-dl" href="' + esc(m.zip.url) + '" download title="Télécharger ' + esc(m.folder) + '.zip">' +
-          '<span aria-hidden="true">⬇</span> Zip <small>' + fmtSize(m.zip.size) + '</small></a>'
-        : '<span class="nd">—</span>') + '</td>' +
+      '<td class="ids" data-label="ID">' + ids + '</td>' +
+      '<td class="name" data-label="Mod"><span class="mod-name">' + m.nameHtml + '</span>' +
+        m.types.map(function (x) { return '<span class="tag tag-' + x + '">' + x + '</span>'; }).join('') + '</td>' +
+      '<td class="package" data-label="Package / archive">' + m.packageHtml + '</td>' +
+      '<td data-label="Version / RimWorld"><div class="version">' + m.versionHtml + '</div>' +
+        (rw ? '<div class="rw">' + rw + '</div>' : '') + '</td>' +
+      '<td class="work" data-label="Travail effectué">' + details + '</td>' +
+      '<td class="dl" data-label="Télécharger">' + dl + '</td>' +
       '</tr>';
   }
 
   function highlight(root) {
-    var terms = fold(state.q).split(/\s+/).filter(function (t) { return t.length > 1; });
-    if (!terms.length) return;
-    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+    var t = terms().filter(function (x) { return x.length > 1; });
+    if (!t.length) return;
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) { return n.parentNode.closest('button') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT; }
+    });
     var nodes = [];
     while (walker.nextNode()) nodes.push(walker.currentNode);
     nodes.forEach(function (node) {
       var text = node.nodeValue, f = fold(text), ranges = [];
       // fold() conserve la longueur pour les lettres accentuées précomposées
       if (f.length !== text.length) return;
-      terms.forEach(function (t) {
-        var i = f.indexOf(t);
-        while (i >= 0) { ranges.push([i, i + t.length]); i = f.indexOf(t, i + t.length); }
+      t.forEach(function (x) {
+        var i = f.indexOf(x);
+        while (i >= 0) { ranges.push([i, i + x.length]); i = f.indexOf(x, i + x.length); }
       });
       if (!ranges.length) return;
       ranges.sort(function (a, b) { return a[0] - b[0]; });
@@ -143,20 +151,85 @@
     });
   }
 
-  function clampLongTexts() {
-    Array.prototype.forEach.call(tbody.querySelectorAll('.work-text'), function (el) {
-      if (el.textContent.length < 260 || state.q) return;
-      el.classList.add('clamp');
-      var b = document.createElement('button');
-      b.type = 'button'; b.className = 'more'; b.textContent = 'Afficher plus';
-      b.addEventListener('click', function () {
-        var c = el.classList.toggle('clamp');
-        b.textContent = c ? 'Afficher plus' : 'Réduire';
-      });
-      el.parentNode.appendChild(b);
-    });
+  /* ---------- Infobulle « Travail effectué » ---------- */
+  var tip = $('tip'), tipBtn = null, pinned = false, hideTimer;
+
+  function placeTip() {
+    if (!tipBtn) return;
+    var r = tipBtn.getBoundingClientRect(), gap = 10, vw = document.documentElement.clientWidth;
+    tip.style.maxWidth = Math.min(480, vw - 32) + 'px';
+    var w = tip.offsetWidth, h = tip.offsetHeight;
+    var left = Math.min(Math.max(16, r.left + r.width / 2 - w / 2), vw - w - 16);
+    var below = r.bottom + gap + h <= window.innerHeight || r.top - gap - h < 0;
+    var top = below ? r.bottom + gap : r.top - gap - h;
+    tip.classList.toggle('above', !below);
+    tip.style.left = left + window.scrollX + 'px';
+    tip.style.top = top + window.scrollY + 'px';
+    tip.style.setProperty('--arrow', (r.left + r.width / 2 - left) + 'px');
   }
 
+  function showTip(btn, pin) {
+    clearTimeout(hideTimer);
+    if (tipBtn && tipBtn !== btn) tipBtn.setAttribute('aria-expanded', 'false');
+    var m = mods[btn.dataset.i];
+    tipBtn = btn;
+    pinned = !!pin;
+    tip.innerHTML = '<div class="tip-head"><span class="tip-title">' + m.nameHtml + '</span>' +
+      (pinned ? '<button type="button" class="tip-close" aria-label="Fermer">×</button>' : '') + '</div>' +
+      '<div class="tip-label">Travail effectué</div><div class="tip-body">' + m.workHtml + '</div>';
+    highlight(tip.querySelector('.tip-body'));
+    tip.hidden = false;
+    tip.classList.toggle('pinned', pinned);
+    btn.setAttribute('aria-expanded', 'true');
+    placeTip();
+  }
+
+  function hideTip(now) {
+    clearTimeout(hideTimer);
+    var go = function () {
+      tip.hidden = true;
+      if (tipBtn) tipBtn.setAttribute('aria-expanded', 'false');
+      tipBtn = null; pinned = false;
+    };
+    if (now) go(); else hideTimer = setTimeout(go, 160);
+  }
+
+  tbody.addEventListener('mouseover', function (e) {
+    var b = e.target.closest('.btn-details');
+    if (b && !pinned) showTip(b, false);
+  });
+  tbody.addEventListener('mouseout', function (e) {
+    var b = e.target.closest('.btn-details');
+    if (b && !pinned && !b.contains(e.relatedTarget)) hideTip();
+  });
+  tbody.addEventListener('focusin', function (e) {
+    var b = e.target.closest('.btn-details');
+    if (b && !pinned) showTip(b, false);
+  });
+  tbody.addEventListener('focusout', function (e) {
+    var b = e.target.closest('.btn-details');
+    if (b && !pinned && !tip.contains(e.relatedTarget)) hideTip();
+  });
+  tbody.addEventListener('click', function (e) {
+    var b = e.target.closest('.btn-details');
+    if (!b) return;
+    if (pinned && tipBtn === b) hideTip(true); else showTip(b, true);
+  });
+  tip.addEventListener('mouseenter', function () { clearTimeout(hideTimer); });
+  tip.addEventListener('mouseleave', function () { if (!pinned) hideTip(); });
+  tip.addEventListener('click', function (e) {
+    if (e.target.closest('.tip-close')) { var b = tipBtn; hideTip(true); if (b) b.focus(); }
+  });
+  document.addEventListener('click', function (e) {
+    if (pinned && !tip.contains(e.target) && !e.target.closest('.btn-details')) hideTip(true);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !tip.hidden) { var b = tipBtn; hideTip(true); if (b) b.focus(); }
+  });
+  window.addEventListener('resize', placeTip);
+  document.querySelector('.table-wrap').addEventListener('scroll', function () { if (!tip.hidden) placeTip(); });
+
+  /* ---------- Rendu ---------- */
   function pageButton(label, page, opts) {
     opts = opts || {};
     return '<button type="button" data-page="' + page + '"' +
@@ -182,6 +255,7 @@
   }
 
   function render() {
+    hideTip(true);
     var rows = filtered();
     var len = state.len || rows.length || 1;
     var pages = Math.max(1, Math.ceil(rows.length / len));
@@ -191,10 +265,10 @@
 
     tbody.innerHTML = slice.length
       ? slice.map(rowHtml).join('')
-      : '<tr class="empty"><td colspan="8">Aucun mod ne correspond à ces critères.</td></tr>';
+      : '<tr class="empty"><td colspan="' + COLS + '">' +
+        (mods.length ? 'Aucun mod ne correspond à ces critères.' : 'Le catalogue GitHub est momentanément indisponible.') + '</td></tr>';
 
     highlight(tbody);
-    clampLongTexts();
 
     $('info').textContent = rows.length
       ? 'Affichage de ' + (start + 1) + ' à ' + (start + slice.length) + ' sur ' + rows.length +
@@ -216,11 +290,14 @@
   // État dans l'URL (#q=...&type=...) pour partager une recherche
   function saveHash() {
     var p = [];
-    ['q', 'type', 'rw', 'src'].forEach(function (k) { if (state[k]) p.push(k + '=' + encodeURIComponent(state[k])); });
-    if (state.sort !== 'date' || state.dir !== 'desc') p.push('sort=' + state.sort + '.' + state.dir);
+    ['q', 'type', 'rw', 'zip'].forEach(function (k) { if (state[k]) p.push(k + '=' + encodeURIComponent(state[k])); });
+    if (state.sort !== DEFAULT.sort || state.dir !== DEFAULT.dir) p.push('sort=' + state.sort + '.' + state.dir);
     if (state.page > 1) p.push('page=' + state.page);
-    var h = p.length ? '#' + p.join('&') : ' ';
-    if (location.hash !== h.trim()) history.replaceState(null, '', h === ' ' ? location.pathname + location.search : h);
+    var h = p.length ? '#' + p.join('&') : '';
+    if (location.hash !== h) history.replaceState(null, '', h || location.pathname + location.search);
+  }
+  function syncInputs() {
+    $('q').value = state.q; $('f-type').value = state.type; $('f-rw').value = state.rw; $('f-zip').value = state.zip;
   }
   function loadHash() {
     location.hash.replace(/^#/, '').split('&').forEach(function (kv) {
@@ -228,9 +305,9 @@
       var k = kv.slice(0, i), v = decodeURIComponent(kv.slice(i + 1));
       if (k === 'sort') { var s = v.split('.'); if (sorters[s[0]]) { state.sort = s[0]; state.dir = s[1] === 'asc' ? 'asc' : 'desc'; } }
       else if (k === 'page') state.page = parseInt(v, 10) || 1;
-      else if (k in state) state[k] = v;
+      else if (k in DEFAULT) state[k] = v;
     });
-    $('q').value = state.q; $('f-type').value = state.type; $('f-rw').value = state.rw; $('f-src').value = state.src;
+    syncInputs();
   }
 
   // Événements
@@ -239,13 +316,13 @@
     clearTimeout(timer);
     timer = setTimeout(function () { state.q = $('q').value.trim(); state.page = 1; render(); }, 150);
   });
-  [['f-type', 'type'], ['f-rw', 'rw'], ['f-src', 'src']].forEach(function (p) {
+  [['f-type', 'type'], ['f-rw', 'rw'], ['f-zip', 'zip']].forEach(function (p) {
     $(p[0]).addEventListener('change', function () { state[p[1]] = this.value; state.page = 1; render(); });
   });
   $('f-len').addEventListener('change', function () { state.len = parseInt(this.value, 10); state.page = 1; render(); });
   $('reset').addEventListener('click', function () {
-    state = { q: '', type: '', rw: '', src: '', len: state.len, page: 1, sort: 'date', dir: 'desc' };
-    $('q').value = ''; $('f-type').value = ''; $('f-rw').value = ''; $('f-src').value = '';
+    state = Object.assign({ len: state.len }, DEFAULT);
+    syncInputs();
     render();
   });
   headers.forEach(function (th) {
@@ -264,7 +341,7 @@
     if (!b || b.disabled) return;
     state.page = parseInt(b.dataset.page, 10);
     render();
-    document.getElementById('mods').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    $('mods').scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 
   loadHash();

@@ -1,345 +1,293 @@
 <?php
 /**
- * Lecture dynamique du dossier Extensions du dépôt GitHub skoltroy/Rimworld.
+ * Catalogue lu dynamiquement dans Extensions/ReadMe.md du dépôt GitHub skoltroy/Rimworld.
  *
- * - 2 appels à l'API GitHub (branche + arbre récursif), mis en cache CACHE_TTL secondes ;
- * - les About.xml sont lus sur raw.githubusercontent.com (hors quota API), en cache par SHA de dossier ;
- * - les zips sont construits à la demande et mis en cache par SHA de dossier.
- *
- * Jeton optionnel (quota API plus élevé) : variable d'environnement GITHUB_TOKEN
- * ou fichier lib/config.local.php retournant ['token' => '...'].
+ * - le ReadMe est lu sur raw.githubusercontent.com (hors quota API) et mis en cache CACHE_TTL secondes ;
+ * - si GitHub ne répond pas, la dernière copie en cache est réutilisée ;
+ * - les liens « Télécharger » pointent directement vers les archives ZIP du dépôt (colonne « Nom du ZIP »).
  */
 
 const GH_OWNER  = 'skoltroy';
 const GH_REPO   = 'Rimworld';
 const GH_BRANCH = 'main';
 const GH_DIR    = 'Extensions';
-const CACHE_TTL = 600;
-const STEAM_URL = 'https://steamcommunity.com/sharedfiles/filedetails/?id=';
+const GH_README = ['README.md', 'ReadMe.md']; // nom suivi par Git : README.md
+const CACHE_TTL = 300;
 
-function gh_cache_dir(string $sub = ''): string
+function gh_raw_url(string $path): string
 {
-    $dir = dirname(__DIR__) . '/cache' . ($sub !== '' ? '/' . $sub : '');
-    if (!is_dir($dir)) {
-        @mkdir($dir, 0775, true);
-    }
-    return $dir;
+    $enc = implode('/', array_map('rawurlencode', explode('/', $path)));
+    return 'https://raw.githubusercontent.com/' . GH_OWNER . '/' . GH_REPO . '/' . GH_BRANCH . '/' . $enc;
 }
 
-function gh_token(): ?string
+function gh_blob_url(string $path): string
 {
-    static $token = false;
-    if ($token === false) {
-        $token = getenv('GITHUB_TOKEN') ?: null;
-        $local = __DIR__ . '/config.local.php';
-        if (!$token && is_file($local)) {
-            $cfg = include $local;
-            $token = is_array($cfg) && !empty($cfg['token']) ? $cfg['token'] : null;
-        }
-    }
-    return $token;
+    $enc = implode('/', array_map('rawurlencode', explode('/', $path)));
+    return 'https://github.com/' . GH_OWNER . '/' . GH_REPO . '/blob/' . GH_BRANCH . '/' . $enc;
 }
 
-function gh_curl(string $url, bool $api)
+/** GET simple ; retourne null si le statut n'est pas 200. */
+function gh_get(string $url): ?string
 {
     $ch = curl_init($url);
-    $headers = ['User-Agent: rimworld-skoltroy-site'];
-    if ($api) {
-        $headers[] = 'Accept: application/vnd.github+json';
-        if ($t = gh_token()) {
-            $headers[] = 'Authorization: Bearer ' . $t;
-        }
-    }
     curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_FOLLOWLOCATION => true,
-        CURLOPT_CONNECTTIMEOUT => 10,
-        CURLOPT_TIMEOUT        => 60,
-        CURLOPT_HTTPHEADER     => $headers,
+        CURLOPT_CONNECTTIMEOUT => 8,
+        CURLOPT_TIMEOUT        => 20,
+        CURLOPT_HTTPHEADER     => ['User-Agent: rimworld-catalogue'],
         CURLOPT_ENCODING       => '',
     ]);
-    return $ch;
-}
-
-/** GET simple ; lève une exception si le statut n'est pas 200. */
-function gh_get(string $url, bool $api = true): string
-{
-    $ch = gh_curl($url, $api);
     $body = curl_exec($ch);
     $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    $err = curl_error($ch);
     curl_close($ch);
-    if ($body === false || $code !== 200) {
-        throw new RuntimeException("GitHub : HTTP $code $err ($url)");
+    return ($body !== false && $code === 200) ? (string)$body : null;
+}
+
+/** Retourne ['markdown', 'path', 'fetched', 'stale'] (cache fichier, repli sur la dernière copie). */
+function gh_readme(bool $refresh = false): array
+{
+    $dir = dirname(__DIR__) . '/cache';
+    if (!is_dir($dir)) {
+        @mkdir($dir, 0775, true);
     }
-    return $body;
-}
-
-/** GET parallèles ; retourne [clé => contenu|null]. */
-function gh_get_many(array $urls, int $concurrency = 16): array
-{
-    $out = [];
-    foreach (array_chunk($urls, $concurrency, true) as $chunk) {
-        $mh = curl_multi_init();
-        $handles = [];
-        foreach ($chunk as $key => $url) {
-            $handles[$key] = gh_curl($url, false);
-            curl_multi_add_handle($mh, $handles[$key]);
-        }
-        do {
-            $status = curl_multi_exec($mh, $running);
-            if ($running) {
-                curl_multi_select($mh, 1.0);
-            }
-        } while ($running && $status === CURLM_OK);
-        foreach ($handles as $key => $ch) {
-            $ok = curl_getinfo($ch, CURLINFO_HTTP_CODE) === 200;
-            $out[$key] = $ok ? curl_multi_getcontent($ch) : null;
-            curl_multi_remove_handle($mh, $ch);
-            curl_close($ch);
-        }
-        curl_multi_close($mh);
-    }
-    return $out;
-}
-
-function gh_raw_url(string $commit, string $path): string
-{
-    $enc = implode('/', array_map('rawurlencode', explode('/', $path)));
-    return 'https://raw.githubusercontent.com/' . GH_OWNER . '/' . GH_REPO . '/' . $commit . '/' . $enc;
-}
-
-/**
- * Snapshot du dossier Extensions : ['commit', 'date', 'fetched', 'folders' => [nom => ['sha', 'files' => [chemin relatif => taille]]]].
- * En cas d'échec de GitHub, le dernier cache est réutilisé.
- */
-function gh_snapshot(bool $refresh = false): array
-{
-    $file = gh_cache_dir() . '/snapshot.json';
+    $file = $dir . '/readme.json';
     $cached = is_file($file) ? json_decode((string)file_get_contents($file), true) : null;
     if (!$refresh && $cached && time() - ($cached['fetched'] ?? 0) < CACHE_TTL) {
         return $cached;
     }
-    try {
-        $base = 'https://api.github.com/repos/' . GH_OWNER . '/' . GH_REPO;
-        $branch = json_decode(gh_get($base . '/branches/' . GH_BRANCH), true);
-        $commit = $branch['commit']['sha'];
-        if ($cached && ($cached['commit'] ?? '') === $commit) {
-            $cached['fetched'] = time();
-            file_put_contents($file, json_encode($cached), LOCK_EX);
-            return $cached;
+    foreach (GH_README as $name) {
+        $path = GH_DIR . '/' . $name;
+        $md = gh_get(gh_raw_url($path));
+        if ($md !== null) {
+            $data = ['markdown' => $md, 'path' => $path, 'fetched' => time(), 'stale' => false];
+            @file_put_contents($file, json_encode($data, JSON_UNESCAPED_UNICODE), LOCK_EX);
+            return $data;
         }
-        $tree = json_decode(gh_get($base . '/git/trees/' . $commit . '?recursive=1'), true);
+    }
+    if ($cached) {
+        $cached['stale'] = true;
+        return $cached;
+    }
+    return ['markdown' => '', 'path' => GH_DIR . '/' . GH_README[0], 'fetched' => 0, 'stale' => true];
+}
 
-        $folders = [];
-        $prefix = GH_DIR . '/';
-        foreach ($tree['tree'] as $e) {
-            if (!str_starts_with($e['path'], $prefix)) {
-                continue;
+/* ---------- Markdown ---------- */
+
+function md_inline(string $s): string
+{
+    $s = htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
+    $s = preg_replace('#&lt;br\s*/?&gt;#i', '<br>', $s);
+    $s = preg_replace('/`([^`]+)`/', '<code>$1</code>', $s);
+    $s = preg_replace('/\*\*(.+?)\*\*/', '<strong>$1</strong>', $s);
+    $s = preg_replace_callback('/\[([^\]]+)\]\(([^)\s]+)\)/', static function ($m) {
+        $url = html_entity_decode($m[2], ENT_QUOTES, 'UTF-8');
+        if (!preg_match('#^https?://#i', $url)) {
+            // lien relatif au dossier Extensions du dépôt
+            $url = gh_blob_url(GH_DIR . '/' . ltrim($url, './'));
+        }
+        return '<a href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') . '" target="_blank" rel="noopener">' . $m[1] . '</a>';
+    }, $s);
+    return $s;
+}
+
+function md_text(string $s): string
+{
+    $s = preg_replace('#<br\s*/?>#i', "\n", $s);
+    $s = str_replace(['`', '**'], '', $s);
+    return trim(preg_replace('/\[([^\]]+)\]\([^)]*\)/', '$1', $s));
+}
+
+/** Rendu simple : titres, listes, paragraphes. */
+function md_blocks(array $lines): string
+{
+    $html = '';
+    $para = [];
+    $list = [];
+    $flush = static function () use (&$html, &$para, &$list) {
+        if ($para) {
+            $html .= '<p>' . md_inline(implode(' ', $para)) . "</p>\n";
+            $para = [];
+        }
+        if ($list) {
+            $html .= '<ul>' . implode('', array_map(fn($li) => '<li>' . md_inline($li) . '</li>', $list)) . "</ul>\n";
+            $list = [];
+        }
+    };
+    foreach ($lines as $line) {
+        $t = trim($line);
+        if ($t === '') {
+            $flush();
+        } elseif (preg_match('/^(#{2,6})\s+(.*)$/', $t, $m)) {
+            $flush();
+            $lvl = min(6, strlen($m[1]) + 1);
+            $html .= "<h$lvl>" . md_inline($m[2]) . "</h$lvl>\n";
+        } elseif (preg_match('/^[-*]\s+(.*)$/', $t, $m)) {
+            if ($para) {
+                $flush();
             }
-            $rel = substr($e['path'], strlen($prefix));
-            $parts = explode('/', $rel, 2);
-            if (count($parts) === 1) {
-                if ($e['type'] === 'tree') {
-                    $folders[$rel]['sha'] = $e['sha'];
-                    $folders[$rel]['files'] ??= [];
+            $list[] = $m[1];
+        } else {
+            if ($list) {
+                $flush();
+            }
+            $para[] = $t;
+        }
+    }
+    $flush();
+    return $html;
+}
+
+function md_cells(string $line): array
+{
+    $line = trim($line);
+    $line = preg_replace('/^\||\|$/', '', $line);
+    $cells = preg_split('/(?<!\\\\)\|/', $line);
+    return array_map(fn($c) => trim(str_replace('\|', '|', $c)), $cells);
+}
+
+/* ---------- Catalogue ---------- */
+
+/** « RW 1.4–1.7 », « (RW 1.0, 1.1, 1.6) » → liste triée de versions. */
+function rw_versions(string $s): array
+{
+    $out = [];
+    if (preg_match_all('/RW\s+([0-9.,\s–\-]+)/u', $s, $mm)) {
+        foreach ($mm[1] as $chunk) {
+            foreach (preg_split('/\s*,\s*/', trim($chunk, " ,")) as $part) {
+                if (preg_match('/^(\d+)\.(\d+)\s*[–-]\s*(\d+)\.(\d+)$/u', $part, $r) && $r[1] === $r[3]) {
+                    for ($i = (int)$r[2]; $i <= (int)$r[4]; $i++) {
+                        $out[] = $r[1] . '.' . $i;
+                    }
+                } elseif (preg_match('/^\d+\.\d+$/', $part)) {
+                    $out[] = $part;
                 }
+            }
+        }
+    }
+    $out = array_values(array_unique($out));
+    usort($out, 'version_compare');
+    return $out;
+}
+
+function rw_types(string $package, string $work): array
+{
+    $types = [];
+    if (stripos($package, 'TradFix') !== false || preg_match('/tradu/iu', $work)) {
+        $types[] = 'Traduction';
+    }
+    if (stripos($package, 'ModFix') !== false || preg_match('/\bcorrecti|corrigé|\bfix\b/iu', $work)) {
+        $types[] = 'Correctif';
+    }
+    if (preg_match('/\baudit/iu', $work)) {
+        $types[] = 'Audit';
+    }
+    return $types ?: ['Autre'];
+}
+
+/** Analyse le ReadMe : ['title', 'intro', 'footer', 'columns', 'mods']. */
+function rw_parse_readme(string $md): array
+{
+    // Séparateurs explicites : \R sans /u couperait sur l'octet 0x85 des caractères UTF-8 (ex. « 具 »)
+    $lines = preg_split('/\r\n|\n|\r/', preg_replace('/^\xEF\xBB\xBF/', '', $md));
+    $title = 'Extensions de mods RimWorld';
+    $before = $after = $rows = [];
+    $columns = [];
+    $state = 'before';
+    foreach ($lines as $line) {
+        $t = trim($line);
+        if ($state === 'before' && preg_match('/^#\s+(.*)$/', $t, $m)) {
+            $title = $m[1];
+            continue;
+        }
+        $isRow = str_starts_with($t, '|');
+        if ($state === 'before' && $isRow) {
+            $columns = md_cells($t);
+            $state = 'sep';
+            continue;
+        }
+        if ($state === 'sep') {
+            $state = 'table';
+            if (preg_match('/^\|?\s*:?-{3,}/', $t)) {
                 continue;
             }
-            if ($e['type'] === 'blob') {
-                $folders[$parts[0]]['files'][$parts[1]] = (int)($e['size'] ?? 0);
+        }
+        if ($state === 'table') {
+            if ($isRow) {
+                $rows[] = md_cells($t);
+                continue;
+            }
+            $state = 'after';
+        }
+        if ($state === 'before') {
+            $before[] = $line;
+        } else {
+            $after[] = $line;
+        }
+    }
+
+    // Repérage des colonnes par leur intitulé (robuste à un réordonnancement du ReadMe)
+    $find = static function (string $re, int $default) use ($columns): int {
+        foreach ($columns as $i => $c) {
+            if (preg_match($re, md_text($c))) {
+                return $i;
             }
         }
-        $folders = array_filter($folders, fn($f) => !empty($f['sha']) && !empty($f['files']));
-        ksort($folders, SORT_NATURAL | SORT_FLAG_CASE);
+        return $default;
+    };
+    $col = [
+        'date'    => $find('/^date/iu', 0),
+        'id'      => $find('/^id\b/iu', 1),
+        'package' => $find('/package|archive/iu', 2),
+        'zip'     => $find('/zip/iu', 3),
+        'name'    => $find('/^mod\b|name/iu', 4),
+        'version' => $find('/version/iu', 5),
+        'work'    => $find('/travail/iu', 6),
+    ];
 
-        $snap = [
-            'commit'  => $commit,
-            'date'    => $branch['commit']['commit']['committer']['date'] ?? null,
-            'fetched' => time(),
-            'folders' => $folders,
-        ];
-        file_put_contents($file, json_encode($snap), LOCK_EX);
-        return $snap;
-    } catch (Throwable $e) {
-        if ($cached) {
-            $cached['stale'] = $e->getMessage();
-            return $cached;
-        }
-        throw $e;
-    }
-}
-
-/** Analyse un About.xml RimWorld. */
-function gh_parse_about(?string $xml): array
-{
-    $about = ['name' => '', 'author' => '', 'packageId' => '', 'modVersion' => '', 'description' => '', 'rw' => [], 'deps' => []];
-    if (!$xml) {
-        return $about;
-    }
-    $prev = libxml_use_internal_errors(true);
-    $x = simplexml_load_string(preg_replace('/^\xEF\xBB\xBF/', '', $xml), 'SimpleXMLElement', LIBXML_NONET | LIBXML_NOCDATA);
-    libxml_use_internal_errors($prev);
-    if (!$x) {
-        return $about;
-    }
-    foreach (['name', 'author', 'packageId', 'modVersion', 'description'] as $k) {
-        $about[$k] = trim((string)($x->$k ?? ''));
-    }
-    foreach ($x->supportedVersions->li ?? [] as $li) {
-        $about['rw'][] = trim((string)$li);
-    }
-    $about['rw'] = array_values(array_unique(array_filter($about['rw'])));
-    usort($about['rw'], 'version_compare');
-    foreach ($x->modDependencies->li ?? [] as $li) {
-        $about['deps'][] = [
-            'name' => trim((string)$li->displayName),
-            'url'  => trim((string)$li->steamWorkshopUrl),
-        ];
-    }
-    return $about;
-}
-
-/** Retourne les métadonnées About.xml de chaque dossier (cache par SHA de dossier). */
-function gh_abouts(array $snap): array
-{
-    $dir = gh_cache_dir('about');
-    $result = $missing = [];
-    foreach ($snap['folders'] as $name => $f) {
-        $file = $dir . '/' . $f['sha'] . '.json';
-        if (is_file($file)) {
-            $result[$name] = json_decode((string)file_get_contents($file), true);
-            continue;
-        }
-        $aboutPath = null;
-        foreach (array_keys($f['files']) as $p) {
-            if (strcasecmp($p, 'About/About.xml') === 0) {
-                $aboutPath = $p;
-                break;
-            }
-        }
-        if ($aboutPath === null) {
-            $result[$name] = gh_parse_about(null);
-            file_put_contents($file, json_encode($result[$name]));
-            continue;
-        }
-        $missing[$name] = gh_raw_url($snap['commit'], GH_DIR . '/' . $name . '/' . $aboutPath);
-    }
-    foreach (gh_get_many($missing) as $name => $xml) {
-        $result[$name] = gh_parse_about($xml);
-        if ($xml !== null) {
-            file_put_contents($dir . '/' . $snap['folders'][$name]['sha'] . '.json', json_encode($result[$name]));
-        }
-    }
-    return $result;
-}
-
-/** Liste des mods prête pour l'affichage. */
-function gh_mods(array $snap): array
-{
-    $abouts = gh_abouts($snap);
     $mods = [];
-    foreach ($snap['folders'] as $folder => $f) {
-        $a = $abouts[$folder] ?? gh_parse_about(null);
-        $files = $f['files'];
+    foreach ($rows as $n => $cells) {
+        $get = static fn(string $k) => $cells[$col[$k]] ?? '';
+        $date = $get('date');
+        $dateIso = preg_match('#^(\d{2})/(\d{2})/(\d{4})$#', $date, $d) ? "$d[3]-$d[2]-$d[1]" : null;
 
-        $ids = [];
-        if (preg_match('/^(\d{6,})\b/', $folder, $m)) {
-            $ids[] = $m[1];
-        }
-        foreach ($a['deps'] as $d) {
-            if (preg_match('/[?&]id=(\d+)/', $d['url'], $m)) {
-                $ids[] = $m[1];
+        preg_match_all('/\b\d{6,}\b/', $get('id'), $idm);
+        $zips = [];
+        preg_match_all('/`([^`]+\.zip)`/i', $get('zip'), $zm);
+        foreach ($zm[1] as $z) {
+            $z = trim($z);
+            if ($z !== '' && !str_contains($z, '*') && !str_contains($z, '/')) {
+                $zips[] = ['name' => $z, 'url' => gh_raw_url(GH_DIR . '/' . $z)];
             }
         }
-        $ids = array_values(array_unique($ids));
 
-        $count = fn(string $re) => count(array_filter(array_keys($files), fn($p) => preg_match($re, $p)));
-        $content = [
-            'Keyed'       => $count('#(^|/)Languages/French[^/]*/Keyed/.+\.xml$#i'),
-            'DefInjected' => $count('#(^|/)Languages/French[^/]*/DefInjected/.+\.xml$#i'),
-            'Patches'     => $count('#(^|/)Patches/.+\.xml$#i'),
-            'Defs'        => $count('#(^|/)Defs/.+\.xml$#i'),
-            'DLL'         => $count('#(^|/)Assemblies/.+\.dll$#i'),
-        ];
-        $content = array_filter($content);
-
-        $types = [];
-        if (stripos($folder, 'TradFix') !== false || $count('#(^|/)Languages/French#i')) {
-            $types[] = 'Traduction';
-        }
-        if (stripos($folder, 'ModFix') !== false || isset($content['Patches']) || isset($content['DLL']) || isset($content['Defs'])) {
-            $types[] = 'Correctif';
-        }
-        if (!$types) {
-            $types[] = 'Autre';
-        }
-
-        $target = $a['deps'][0]['name'] ?? '';
-        $name = $a['name'] !== '' ? $a['name'] : $folder;
-
+        $work = $get('work');
         $mods[] = [
-            'folder'      => $folder,
-            'name'        => $name,
-            'target'      => $target,
-            'author'      => $a['author'],
-            'packageId'   => $a['packageId'],
-            'version'     => $a['modVersion'],
-            'rw'          => $a['rw'],
-            'description' => $a['description'],
-            'ids'         => $ids,
-            'types'       => $types,
-            'content'     => $content,
-            'files'       => count($files),
-            'size'        => array_sum($files),
-            'github'      => 'https://github.com/' . GH_OWNER . '/' . GH_REPO . '/tree/' . GH_BRANCH . '/'
-                             . GH_DIR . '/' . rawurlencode($folder),
-            'download'    => 'download.php?mod=' . rawurlencode($folder),
+            'n'           => $n,
+            'date'        => $dateIso ? $date : '',
+            'dateIso'     => $dateIso,
+            'ids'         => array_values(array_unique($idm[0])),
+            'idHtml'      => md_inline($get('id')),
+            'name'        => md_text($get('name')),
+            'nameHtml'    => md_inline($get('name')),
+            'package'     => md_text($get('package')),
+            'packageHtml' => md_inline($get('package')),
+            'zipText'     => md_text($get('zip')),
+            'zips'        => $zips,
+            'version'     => md_text($get('version')),
+            'versionHtml' => md_inline($get('version')),
+            'rw'          => rw_versions(md_text($get('version'))),
+            'work'        => md_text($work),
+            'workHtml'    => md_inline($work),
+            'types'       => rw_types($get('package') . ' ' . $get('zip'), md_text($work)),
         ];
     }
-    return $mods;
-}
 
-/** Construit (ou reprend du cache) le zip d'un dossier ; retourne le chemin du fichier. */
-function gh_build_zip(array $snap, string $folder): string
-{
-    $f = $snap['folders'][$folder];
-    $dir = gh_cache_dir('zips');
-    $zipPath = $dir . '/' . $f['sha'] . '.zip';
-    if (is_file($zipPath)) {
-        touch($zipPath);
-        return $zipPath;
-    }
-
-    $urls = [];
-    foreach (array_keys($f['files']) as $rel) {
-        $urls[$rel] = gh_raw_url($snap['commit'], GH_DIR . '/' . $folder . '/' . $rel);
-    }
-    $contents = gh_get_many($urls);
-    foreach ($contents as $rel => $data) {
-        if ($data === null) {
-            throw new RuntimeException("Fichier indisponible sur GitHub : $rel");
-        }
-    }
-
-    $tmp = $zipPath . '.' . getmypid() . '.tmp';
-    $zip = new ZipArchive();
-    if ($zip->open($tmp, ZipArchive::CREATE | ZipArchive::OVERWRITE) !== true) {
-        throw new RuntimeException('Création du zip impossible.');
-    }
-    $zip->addEmptyDir($folder);
-    ksort($contents, SORT_NATURAL);
-    foreach ($contents as $rel => $data) {
-        $zip->addFromString($folder . '/' . $rel, $data);
-    }
-    $zip->close();
-    rename($tmp, $zipPath);
-
-    // Purge des zips non utilisés depuis 7 jours
-    foreach (glob($dir . '/*.zip') as $old) {
-        if (filemtime($old) < time() - 7 * 86400) {
-            @unlink($old);
-        }
-    }
-    return $zipPath;
+    return [
+        'title'   => $title,
+        'intro'   => md_blocks($before),
+        'footer'  => md_blocks($after),
+        'columns' => array_map('md_text', $columns),
+        'mods'    => $mods,
+    ];
 }
