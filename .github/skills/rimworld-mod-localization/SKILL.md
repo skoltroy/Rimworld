@@ -7,10 +7,12 @@ description: Translate, complete, audit, and export RimWorld mod localization fi
 
 Use this skill when the user requests French translations or corrections for RimWorld mods.
 
+- Workspace mapping: **Rimworld/Mods** is `D:\Games\RimWorld\Mods`; **Skoltroy/Extensions** is the repository root (`.`), with backup archives in `Extensions\`.
+
 ## TradFix naming and packaging
 
 - A translation-only package is a **French TradFix**, not a ModFix. For a Workshop mod with numeric ID `<ID>`, name its folder `<ID> - French TradFix` and set `About\About.xml`'s `<name>` to the source mod's exact display name from its `About.xml`, followed by ` - French TradFix` (for example, `EdB Prepare Carefully - French TradFix`). Preserve its package ID and dependencies unless a separate change is explicitly required.
-- Keep the live package unpacked at `D:\Games\RimWorld\Mods\<ID> - French TradFix`. For new or updated backups, write `<ID> - French TradFix.zip` to `D:\Downloads\RimWorld\Mods\Extensions`, containing the package contents directly (no wrapper directory). Non-ID backup packages use the same rule: `<package folder name>.zip`.
+- Keep the live package unpacked at `D:\Games\RimWorld\Mods\<ID> - French TradFix`. For new or updated backups, write `<ID> - French TradFix.zip` to **Skoltroy/Extensions** under `Extensions\`, containing the package contents directly (no wrapper directory). Non-ID backup packages use the same rule: `<package folder name>.zip`.
 - For non-numeric standalone translations, use a descriptive folder and matching About name ending in ` - French TradFix` (the BTD package is `BTD Gravship Descriptions - French TradFix`).
 - A package that contains only a gameplay, compatibility, or loading correction is not a TradFix. Keep it as a separately named ModFix; do not mislabel it as a translation.
 - When renaming an existing TradFix, rename the game folder and matching backup ZIP, update the About `<name>`, and update documentation references. Never change `packageId` merely to match the folder or display name.
@@ -70,14 +72,14 @@ Helper scripts live in `scripts\` next to this file:
 - With an English tree, run `Validate-Fr.ps1 -ModPath <mod>`. Without one, rely on the build check (key sequence, empty values, XML parse) and report that token and key coverage was checked against the extraction only.
 - Check placeholder parity on the extraction: every `{...}`, `[...]` and `\n` in the English value must appear in the French one, or the difference must be explained in the report.
 - Expected and accepted differences (for example a sentence that drops a pronoun token) are reported, not forced.
-- After the source mod's French tree is complete and validated, export only `Languages\French` resources with `tools\Update-RimWorldModTranslations.ps1 -Action Export -ModId <one ID> -ProjectPath 'D:\Downloads\RimWorld\Mods'`. Run it once per ID: the script rejects comma-separated lists. It stages files under `tools\exports\<ID>\...` (outside `Extensions`) and verifies each copy by SHA-256.
+- After the source mod's French tree is complete and validated, export only `Languages\French` resources with `tools\Update-RimWorldModTranslations.ps1 -Action Export -ModId <one ID> -ProjectPath '.'`. Run it once per ID: the script rejects comma-separated lists. It stages files under `tools\exports\<ID>\...` (outside `Extensions`) and verifies each copy by SHA-256.
 - Build/update the live `<ID> - French TradFix` package from its package metadata (`About`, applicable `LoadFolders`) and the validated export. Create its backup ZIP from an isolated staging copy outside `Extensions`, with package-root paths and no wrapper directory. Reopen the ZIP, validate XML and SHA-256 against the live package, then replace the prior archive. Do not create a new extracted backup folder in `Extensions`; preserve existing legacy folders. Keep TSV batches, extraction reports, and helper scripts out of the live package and ZIP.
 - Never copy the whole mod or delete unrelated files.
 - Update `Extensions\ReadMe.md`: add rows at the top of the first table (newest first) with the date, declared mod version and RimWorld versions from `About.xml` (do not invent versions), and a concise summary with validation results and limitations. Keep the existing file name; Git tracks it as `Extensions/README.md`.
 
 ## Project workflow
 
-- Discovery and export use `tools\Update-RimWorldModTranslations.ps1`. Always pass `-ProjectPath 'D:\Downloads\RimWorld\Mods'` explicitly; without it the default `Split-Path $PSScriptRoot` is empty when the script is launched from a shell in this environment and the script stops.
+- Discovery and export use `tools\Update-RimWorldModTranslations.ps1`. For a shell outside the repository, pass `-ProjectPath '.'` from the repository root (or an absolute project path) explicitly. `-ProjectPath` selects the backup workspace; it is the repository root, whose `Extensions` subfolder contains ZIP backups.
 - The script prepares plans and exports; it does not translate.
-- Keep each TradFix backup ZIP synchronized with its live package: `D:\Games\RimWorld\Mods\<ID> - French TradFix` is the unpacked live package and `D:\Downloads\RimWorld\Mods\Extensions\<ID> - French TradFix.zip` is the backup archive. Source Workshop mods remain in `D:\Games\RimWorld\Mods\<ID>`.
+- Keep each TradFix backup ZIP synchronized with its live package: `D:\Games\RimWorld\Mods\<ID> - French TradFix` is the unpacked live package and `Skoltroy/Extensions\Extensions\<ID> - French TradFix.zip` is the backup archive. Source Workshop mods remain in `D:\Games\RimWorld\Mods\<ID>`.
 - Never run `git commit` or `git push`. The user manages commits and pushes; leave the changes in the working tree and say which paths were touched.

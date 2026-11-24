@@ -7,6 +7,8 @@ description: Diagnose RimWorld mod and French-language errors from user-provided
 
 Use this skill when the user reports a RimWorld error, a translation warning, a broken mod, or provides a game log.
 
+- Workspace mapping: **Rimworld/Mods** is `D:\Games\RimWorld\Mods`; **Skoltroy/Extensions** is the repository root (`.`), with backup archives in `Extensions\`.
+
 ## Evidence first
 
 - Ask for the complete relevant error and surrounding log lines if the supplied snippet is only a stack trace or summary.
@@ -25,7 +27,7 @@ Use this skill when the user reports a RimWorld error, a translation warning, a 
 ## TradFix and ModFix naming
 
 - Translation packages use the `French TradFix` convention: Workshop ID folders are `<ID> - French TradFix`; their About `<name>` is the source mod's exact display name plus ` - French TradFix`. The non-ID BTD translation package is `BTD Gravship Descriptions - French TradFix`.
-- Keep live package folder names and backup ZIP basenames aligned. Live packages are under `D:\Games\RimWorld\Mods`; `D:\Downloads\RimWorld\Mods\Extensions` contains only `<package folder name>.zip` backups whose entries are package-root relative paths. Extract backups only to a temporary location outside `Extensions`; do not leave unpacked package folders there.
+- Keep live package folder names and backup ZIP basenames aligned. Live packages are under `D:\Games\RimWorld\Mods` in **Rimworld/Mods**; **Skoltroy/Extensions** contains only `<package folder name>.zip` backups under `Extensions\`, whose entries are package-root relative paths. Extract backups only to a temporary location outside `Extensions`; do not leave unpacked package folders there.
 - Do not call a gameplay/config/compatibility patch a TradFix unless it actually contains translation resources. Keep such corrections in a distinct ModFix package (for example `ModFix - Refugee Weapon Budget Fix`).
 - When fixing metadata or load paths, preserve the existing `packageId` unless the log proves it is wrong; sync the live folder and its backup ZIP, then verify the archive contents against the live package.
 

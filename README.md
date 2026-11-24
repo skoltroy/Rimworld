@@ -2,6 +2,7 @@
 
 Ce projet regroupe les mods locaux et les extensions de traduction/correction pour les mods RimWorld.
 
+- Dans le workspace VS Code, **Rimworld/Mods** pointe vers `D:\Games\RimWorld\Mods` et **Skoltroy/Extensions** pointe vers la racine de ce dépôt; les archives sont dans `Extensions\`.
 - [Catalogue des extensions et des mods suivis](Extensions/ReadMe.md)
 - Les ID numériques désignent les dossiers Workshop dans `D:\Games\RimWorld\Mods`.
 
@@ -22,16 +23,16 @@ Depuis la racine du projet, dans PowerShell :
 
 ```powershell
 # Poser les questions dans le terminal, puis préparer un rapport
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\Update-RimWorldModTranslations.ps1 -SelectionMode Ask -TranslationMode Ask
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\Update-RimWorldModTranslations.ps1 -SelectionMode Ask -TranslationMode Ask -ProjectPath '.'
 
 # Découvrir les nouveaux ID non suivis et analyser les traductions complémentaires
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\Update-RimWorldModTranslations.ps1 -SelectionMode Discover -TranslationMode Supplement
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\Update-RimWorldModTranslations.ps1 -SelectionMode Discover -TranslationMode Supplement -ProjectPath '.'
 
 # Préparer l’analyse complète d’ID précis
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\Update-RimWorldModTranslations.ps1 -SelectionMode Explicit -ModId 1234567890,2345678901 -TranslationMode Complete
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\Update-RimWorldModTranslations.ps1 -SelectionMode Explicit -ModId 1234567890,2345678901 -TranslationMode Complete -ProjectPath '.'
 
 # Après traduction et validation, exporter uniquement les ressources French
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\Update-RimWorldModTranslations.ps1 -Action Export -ModId 1234567890
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\Update-RimWorldModTranslations.ps1 -Action Export -ModId 1234567890 -ProjectPath '.'
 ```
 
 Les rapports JSON sont écrits sous `tools/reports` et ignorés par Git. L’export copie uniquement les fichiers sous `Languages\French` vers `tools\exports\<ID>`, conserve les chemins relatifs et vérifie chaque copie par SHA256. Il ne crée pas de dossier décompressé dans `Extensions`. Les sauvegardes de packages dans `Extensions` sont des archives ZIP nommées d’après le dossier du package (`<ID> - French TradFix.zip` ou `<nom> - French TradFix.zip`) ; leur contenu est le package lui-même, sans dossier enveloppe. Pour les mettre à jour, travailler dans un dossier temporaire hors de `Extensions`, puis remplacer l’archive seulement après validation.

@@ -1,10 +1,12 @@
 {
 	"folders": [
 		{
-			"path": "../../../Games/RimWorld/Mods"
+			"name": "Skoltroy/Extensions",
+			"path": "."
 		},
 		{
-			"path": "."
+			"name": "Rimworld/Mods",
+			"path": "D:/Games/RimWorld/Mods"
 		}
 	],
 	"settings": {}
