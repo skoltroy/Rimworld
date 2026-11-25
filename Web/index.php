@@ -2,6 +2,7 @@
 declare(strict_types=1);
 require __DIR__ . '/lib/github.php';
 date_default_timezone_set('Europe/Paris');
+$sourceUrl = 'https://github.com/' . GH_OWNER . '/' . GH_REPO;
 
 // Le catalogue est lu à chaque visite (cache court) dans Extensions/ReadMe.md sur GitHub.
 $readme = gh_readme(isset($_GET['refresh']));
@@ -149,7 +150,7 @@ $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
   </main>
 
   <footer id="footer_section">
-    <p>Sources : <a href="https://github.com/skoltroy/Rimworld" target="_blank" rel="noopener">github.com/skoltroy/Rimworld</a>
+    <p>Sources : <a href="<?= htmlspecialchars($sourceUrl, ENT_QUOTES, 'UTF-8') ?>" target="_blank" rel="noopener">github.com/<?= GH_OWNER ?>/<?= GH_REPO ?></a>
       · RimWorld est une marque de Ludeon Studios. Site non officiel.</p>
   </footer>
 </div>

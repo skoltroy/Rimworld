@@ -1,6 +1,6 @@
 <?php
 /**
- * Catalogue lu dynamiquement dans Extensions/ReadMe.md du dépôt GitHub skoltroy/Rimworld.
+ * Catalogue lu dynamiquement dans Extensions/ReadMe.md du dépôt GitHub skoltroy/SKOLTROY.rimworld.
  *
  * - le ReadMe est lu sur raw.githubusercontent.com (hors quota API) et mis en cache CACHE_TTL secondes ;
  * - si GitHub ne répond pas, la dernière copie en cache est réutilisée ;
