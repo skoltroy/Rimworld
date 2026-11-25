@@ -2,6 +2,8 @@
 
 Ce projet regroupe les mods locaux et les extensions de traduction/correction pour les mods RimWorld.
 
+Site web : https://rimworld.skoltroy.com/
+
 - Dans le workspace VS Code, **Rimworld/Mods** pointe vers `D:\Games\RimWorld\Mods` et **Skoltroy/Extensions** pointe vers la racine de ce dépôt; les archives sont dans `Extensions\`.
 - [Catalogue des extensions et des mods suivis](Extensions/ReadMe.md)
 - Les ID numériques désignent les dossiers Workshop dans `D:\Games\RimWorld\Mods`.
