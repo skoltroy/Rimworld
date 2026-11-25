@@ -10,7 +10,7 @@
 const GH_OWNER  = 'skoltroy';
 const GH_REPO   = 'SKOLTROY.rimworld';
 const GH_BRANCH = 'main';
-const GH_DIR    = 'Extensions';
+const GH_DIR    = 'extensions';
 const GH_README = ['README.md', 'ReadMe.md']; // nom suivi par Git : README.md
 const CACHE_TTL = 300;
 
