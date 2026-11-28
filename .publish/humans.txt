@@ -1,0 +1,8 @@
+/* ÉQUIPE */
+Développement : Skoltroy
+Contact : skoltroy@gmail.com
+
+/* SITE */
+Langue : français
+Technologies : PHP, HTML, CSS, JavaScript
+Dernière mise à jour : 2026/11/26

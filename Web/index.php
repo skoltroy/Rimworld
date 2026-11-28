@@ -40,6 +40,7 @@ $v = static fn(string $f) => $f . '?v=' . (@filemtime(__DIR__ . '/' . $f) ?: 1);
 <title>RimWorld – Mods, traductions FR et correctifs | Skoltroy</title>
 <meta name="description" content="Dépôt de mods RimWorld : traductions françaises (French TradFix) et correctifs de mods pour éviter les erreurs en jeu.">
 <link rel="icon" href="<?= $e($v('assets/favicon.svg')) ?>" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="<?= $e($v('assets/style.css')) ?>">
 </head>
 <body>

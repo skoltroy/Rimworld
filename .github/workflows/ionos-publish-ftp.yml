@@ -1,0 +1,98 @@
+name: Publish to IONOS (SFTP)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ionos-sftp-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Upload configured build
+    runs-on: ubuntu-latest
+    environment: ionos-production
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate deployment paths
+        id: paths
+        shell: bash
+        env:
+          REMOTE_DIR: ${{ vars.IONOS_SFTP_REMOTE_DIR }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          import sys
+          from pathlib import Path
+
+          repository = Path.cwd().resolve()
+          try:
+              source_path = (repository / ".publish").resolve(strict=True)
+          except FileNotFoundError:
+              sys.exit("::error::.publish directory does not exist in this checkout")
+          if not source_path.is_dir():
+              sys.exit("::error::.publish is not a directory")
+          try:
+              source_path.relative_to(repository)
+          except ValueError:
+              sys.exit("::error::.publish resolves outside the repository")
+
+          remote = os.environ.get("REMOTE_DIR", "")
+          if (
+              not remote
+              or remote == "/"
+              or not re.fullmatch(r"/?[A-Za-z0-9._/-]+", remote)
+              or any(part in {"", ".", ".."} for part in remote.strip("/").split("/"))
+          ):
+              sys.exit("::error::Set IONOS_SFTP_REMOTE_DIR to a non-root IONOS directory without '..'")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"source_dir={source_path}\n")
+              output.write(f"remote_dir={remote.rstrip('/')}\n")
+          PY
+
+      - name: Upload over SFTP
+        shell: bash
+        env:
+          SOURCE_DIR: ${{ steps.paths.outputs.source_dir }}
+          REMOTE_DIR: ${{ steps.paths.outputs.remote_dir }}
+          IONOS_SFTP_HOST: ${{ secrets.IONOS_SFTP_HOST }}
+          IONOS_SFTP_USERNAME: ${{ secrets.IONOS_SFTP_USERNAME }}
+          IONOS_SFTP_PRIVATE_KEY: ${{ secrets.IONOS_SFTP_PRIVATE_KEY }}
+          IONOS_SFTP_KNOWN_HOSTS: ${{ secrets.IONOS_SFTP_KNOWN_HOSTS }}
+          IONOS_SFTP_PORT: ${{ vars.IONOS_SFTP_PORT || '22' }}
+        run: |
+          set -euo pipefail
+
+          [[ "$IONOS_SFTP_HOST" =~ ^[A-Za-z0-9.-]+$ ]] || { echo "::error::Set a valid IONOS_SFTP_HOST secret"; exit 1; }
+          [[ "$IONOS_SFTP_USERNAME" =~ ^[A-Za-z0-9._-]+$ ]] || { echo "::error::Set a valid IONOS_SFTP_USERNAME secret"; exit 1; }
+          [[ -n "$IONOS_SFTP_PRIVATE_KEY" ]] || { echo "::error::Set the IONOS_SFTP_PRIVATE_KEY secret"; exit 1; }
+          [[ -n "$IONOS_SFTP_KNOWN_HOSTS" ]] || { echo "::error::Set the IONOS_SFTP_KNOWN_HOSTS secret"; exit 1; }
+          [[ "$IONOS_SFTP_PORT" =~ ^[0-9]+$ ]] && (( IONOS_SFTP_PORT > 0 && IONOS_SFTP_PORT < 65536 )) || { echo "::error::IONOS_SFTP_PORT must be between 1 and 65535"; exit 1; }
+
+          key_file="$RUNNER_TEMP/ionos_sftp_key"
+          known_hosts_file="$RUNNER_TEMP/ionos_sftp_known_hosts"
+          umask 077
+          printf '%s\n' "$IONOS_SFTP_PRIVATE_KEY" > "$key_file"
+          printf '%s\n' "$IONOS_SFTP_KNOWN_HOSTS" > "$known_hosts_file"
+          ssh-keygen -y -P '' -f "$key_file" >/dev/null || { echo "::error::The deploy key must be a valid, unencrypted private key"; exit 1; }
+
+          known_host="$IONOS_SFTP_HOST"
+          if [[ "$IONOS_SFTP_PORT" != "22" ]]; then
+            known_host="[$IONOS_SFTP_HOST]:$IONOS_SFTP_PORT"
+          fi
+          ssh-keygen -F "$known_host" -f "$known_hosts_file" >/dev/null || { echo "::error::The known-hosts secret does not contain the configured IONOS host and port"; exit 1; }
+
+          target="${IONOS_SFTP_USERNAME}@${IONOS_SFTP_HOST}:${REMOTE_DIR}/"
+          scp -r -P "$IONOS_SFTP_PORT" \
+            -i "$key_file" \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            -o "UserKnownHostsFile=$known_hosts_file" \
+            -- "$SOURCE_DIR/." "$target"

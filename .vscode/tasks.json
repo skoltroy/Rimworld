@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "process",
+      "command": "php",
+      "args": [
+        ".tools/build-publish.php"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": { "PUBLISH_SANS_VERSION": "1" }
+      },
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "publish",
+      "type": "process",
+      "command": "php",
+      "args": [
+        ".tools/build-publish.php"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

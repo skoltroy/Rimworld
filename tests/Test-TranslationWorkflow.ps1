@@ -1,5 +1,5 @@
 $ErrorActionPreference = 'Stop'
-$scriptPath = Join-Path (Split-Path -Parent $PSScriptRoot) 'tools\Update-RimWorldModTranslations.ps1'
+$scriptPath = Join-Path (Split-Path -Parent $PSScriptRoot) '.tools\Update-RimWorldModTranslations.ps1'
 $testRoot = Join-Path ([System.IO.Path]::GetTempPath()) ("rimworld-translation-workflow-test-" + [guid]::NewGuid().ToString('N'))
 $sourceRoot = Join-Path $testRoot 'GameMods'
 $projectRoot = Join-Path $testRoot 'Project'
@@ -54,7 +54,7 @@ try {
     New-TestFile -Path (Join-Path $sourceRoot '789\About\About.xml') -Content '<ModMetaData><name>Resource-free</name></ModMetaData>'
 
     & $scriptPath -SelectionMode Discover -SourceModsPath $sourceRoot -ProjectPath $projectRoot
-    $discoverReportPath = Get-ChildItem -LiteralPath (Join-Path $projectRoot 'tools\reports') -Filter 'translation-plan-*.json' |
+    $discoverReportPath = Get-ChildItem -LiteralPath (Join-Path $projectRoot '.tools\reports') -Filter 'translation-plan-*.json' |
         Sort-Object Name |
         Select-Object -Last 1 -ExpandProperty FullName
     $discoverReport = Get-Content -LiteralPath $discoverReportPath -Raw | ConvertFrom-Json
@@ -66,14 +66,14 @@ try {
     Assert-True ($discoveredIds -notcontains '222') 'discovery should exclude IDs tracked by an Extensions ZIP archive'
 
     & $scriptPath -SelectionMode Explicit -ModId '123' -TranslationMode Supplement -SourceModsPath $sourceRoot -ProjectPath $projectRoot
-    $supplementReportPath = Get-ChildItem -LiteralPath (Join-Path $projectRoot 'tools\reports') -Filter 'translation-plan-*.json' |
+    $supplementReportPath = Get-ChildItem -LiteralPath (Join-Path $projectRoot '.tools\reports') -Filter 'translation-plan-*.json' |
         Sort-Object Name |
         Select-Object -Last 1 -ExpandProperty FullName
     $supplementReport = Get-Content -LiteralPath $supplementReportPath -Raw | ConvertFrom-Json
     Assert-True ($supplementReport.Mods[0].KeysToTranslate -eq 2) 'supplement mode should flag the missing key and the identical-text candidate for review'
 
     [void](& $scriptPath -Action Export -ModId '123' -SourceModsPath $sourceRoot -ProjectPath $projectRoot 2>&1)
-    $exported = Join-Path $projectRoot 'tools\exports\123\Languages\French\Keyed\Strings.xml'
+    $exported = Join-Path $projectRoot '.tools\exports\123\Languages\French\Keyed\Strings.xml'
     Assert-True (Test-Path -LiteralPath $exported -PathType Leaf) 'export should stage the French resource outside Extensions'
     Assert-True (-not (Test-Path -LiteralPath (Join-Path $extensionsRoot '123'))) 'export should not create an unpacked directory in Extensions'
     $exportedXml = [xml](Get-Content -LiteralPath $exported -Raw)

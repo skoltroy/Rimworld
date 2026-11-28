@@ -404,7 +404,7 @@ function Write-PlanReport {
         [string]$Root
     )
 
-    $reportDirectory = Join-Path $Root 'tools\reports'
+    $reportDirectory = Join-Path $Root '.tools\reports'
     if (-not (Test-Path -LiteralPath $reportDirectory -PathType Container)) {
         New-Item -ItemType Directory -Path $reportDirectory -Force | Out-Null
     }
@@ -490,7 +490,7 @@ if (-not (Test-Path -LiteralPath $ProjectPath -PathType Container)) {
 }
 
 $extensionsPath = Join-Path $ProjectPath 'Extensions'
-$exportPath = Join-Path $ProjectPath 'tools\exports'
+$exportPath = Join-Path $ProjectPath '.tools\exports'
 $idsToProcess = @()
 if ($Action -eq 'Export') {
     if ($ModId.Count -eq 0) {

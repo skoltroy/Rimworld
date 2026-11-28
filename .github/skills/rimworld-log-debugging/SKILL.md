@@ -12,6 +12,7 @@ Use this skill when the user reports a RimWorld error, a translation warning, a 
 ## Evidence first
 
 - Ask for the complete relevant error and surrounding log lines if the supplied snippet is only a stack trace or summary.
+- Default game log location on this machine: `C:\Users\conta\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios`.
 - For translation warnings, request the generated translation report when available. A line such as “Translation data for language French has N errors” establishes that the loaded French data has errors; it does not identify which mod or entries caused them.
 - Establish the RimWorld version, mod version, active mod list/load order, language, and whether the problem occurs on a new or existing save when those facts affect the diagnosis.
 - Distinguish XML parse errors, missing keys, duplicate keys, invalid DefInjected identifiers, unresolved Def references, and runtime exceptions.
