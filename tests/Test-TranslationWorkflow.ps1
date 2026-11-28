@@ -3,7 +3,7 @@ $scriptPath = Join-Path (Split-Path -Parent $PSScriptRoot) '.tools\Update-RimWor
 $testRoot = Join-Path ([System.IO.Path]::GetTempPath()) ("rimworld-translation-workflow-test-" + [guid]::NewGuid().ToString('N'))
 $sourceRoot = Join-Path $testRoot 'GameMods'
 $projectRoot = Join-Path $testRoot 'Project'
-$extensionsRoot = Join-Path $projectRoot 'Extensions'
+$extensionsRoot = Join-Path $projectRoot 'extensions'
 
 function Assert-True {
     param([bool]$Condition, [string]$Message)
@@ -63,7 +63,7 @@ try {
     Assert-True ($discoveredIds -contains '789') 'discovery should include an untracked mod without English resources for manual review'
     Assert-True ($discoveredIds -notcontains '123') 'discovery should exclude IDs listed in the root README'
     Assert-True ($discoveredIds -notcontains '111') 'discovery should exclude IDs listed in the extension README ID column'
-    Assert-True ($discoveredIds -notcontains '222') 'discovery should exclude IDs tracked by an Extensions ZIP archive'
+    Assert-True ($discoveredIds -notcontains '222') 'discovery should exclude IDs tracked by an extensions ZIP archive'
 
     & $scriptPath -SelectionMode Explicit -ModId '123' -TranslationMode Supplement -SourceModsPath $sourceRoot -ProjectPath $projectRoot
     $supplementReportPath = Get-ChildItem -LiteralPath (Join-Path $projectRoot '.tools\reports') -Filter 'translation-plan-*.json' |
@@ -74,8 +74,8 @@ try {
 
     [void](& $scriptPath -Action Export -ModId '123' -SourceModsPath $sourceRoot -ProjectPath $projectRoot 2>&1)
     $exported = Join-Path $projectRoot '.tools\exports\123\Languages\French\Keyed\Strings.xml'
-    Assert-True (Test-Path -LiteralPath $exported -PathType Leaf) 'export should stage the French resource outside Extensions'
-    Assert-True (-not (Test-Path -LiteralPath (Join-Path $extensionsRoot '123'))) 'export should not create an unpacked directory in Extensions'
+    Assert-True (Test-Path -LiteralPath $exported -PathType Leaf) 'export should stage the French resource outside extensions'
+    Assert-True (-not (Test-Path -LiteralPath (Join-Path $extensionsRoot '123'))) 'export should not create an unpacked directory in extensions'
     $exportedXml = [xml](Get-Content -LiteralPath $exported -Raw)
     Assert-True ($exportedXml.LanguageData.Keep -eq 'Original') 'export should preserve translation content'
 

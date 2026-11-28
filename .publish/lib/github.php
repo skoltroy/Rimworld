@@ -1,6 +1,6 @@
 <?php
 /**
- * Catalogue lu dynamiquement dans Extensions/ReadMe.md du dépôt GitHub skoltroy/SKOLTROY.rimworld.
+ * Catalogue lu dynamiquement dans extensions/ReadMe.md du dépôt GitHub skoltroy/SKOLTROY.rimworld.
  *
  * - le ReadMe est lu sur raw.githubusercontent.com (hors quota API) et mis en cache CACHE_TTL secondes ;
  * - si GitHub ne répond pas, la dernière copie en cache est réutilisée ;
@@ -83,7 +83,7 @@ function md_inline(string $s): string
     $s = preg_replace_callback('/\[([^\]]+)\]\(([^)\s]+)\)/', static function ($m) {
         $url = html_entity_decode($m[2], ENT_QUOTES, 'UTF-8');
         if (!preg_match('#^https?://#i', $url)) {
-            // lien relatif au dossier Extensions du dépôt
+            // lien relatif au dossier extensions du dépôt
             $url = gh_blob_url(GH_DIR . '/' . ltrim($url, './'));
         }
         return '<a href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') . '" target="_blank" rel="noopener">' . $m[1] . '</a>';

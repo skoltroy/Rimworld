@@ -4,7 +4,7 @@ require __DIR__ . '/lib/github.php';
 date_default_timezone_set('Europe/Paris');
 $sourceUrl = 'https://github.com/' . GH_OWNER . '/' . GH_REPO;
 
-// Le catalogue est lu à chaque visite (cache court) dans Extensions/ReadMe.md sur GitHub.
+// Le catalogue est lu à chaque visite (cache court) dans extensions/ReadMe.md sur GitHub.
 $readme = gh_readme(isset($_GET['refresh']));
 $data = rw_parse_readme($readme['markdown']);
 $mods = $data['mods'];

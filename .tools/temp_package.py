@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw, ImageFont
 MODS = Path("D:/Games/RimWorld/Mods")
 WORK = Path("G:/GIT/ionos-web/skoltroy/rimworld")
 EXPORT = WORK / ".tools/exports"
-BACKUPS = WORK / "Extensions"
+BACKUPS = WORK / "extensions"
 TEMP = Path("G:/temp/rimworld-packages")
 TEMP.mkdir(parents=True, exist_ok=True)
 

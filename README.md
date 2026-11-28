@@ -4,8 +4,8 @@ Ce projet regroupe les mods locaux et les extensions de traduction/correction po
 
 Site web : https://rimworld.skoltroy.com/
 
-- Dans le workspace VS Code, **Rimworld/Mods** pointe vers `D:\Games\RimWorld\Mods` et **Skoltroy/Extensions** pointe vers la racine de ce dépôt; les archives sont dans `Extensions\`.
-- [Catalogue des extensions et des mods suivis](Extensions/ReadMe.md)
+- Dans le workspace VS Code, **Rimworld/Mods** pointe vers `D:\Games\RimWorld\Mods` et **Skoltroy/extensions** pointe vers la racine de ce dépôt; les archives sont dans `extensions\`.
+- [Catalogue des extensions et des mods suivis](extensions/ReadMe.md)
 - Les ID numériques désignent les dossiers Workshop dans `D:\Games\RimWorld\Mods`.
 
 ## Workflow de traduction
@@ -13,7 +13,7 @@ Site web : https://rimworld.skoltroy.com/
 Le workflow de traduction est préparé par [Update-RimWorldModTranslations.ps1](.tools/Update-RimWorldModTranslations.ps1). Il prend en charge les deux modes suivants :
 
 - **ID fournis** : traiter un ou plusieurs ID numériques indiqués dans le chat.
-- **Découverte** : comparer les dossiers numériques du dossier du jeu aux ID connus dans ce README, le catalogue `Extensions/ReadMe.md` et les archives `Extensions\<ID> - French TradFix.zip`. La racine `Mods` de ce projet contient actuellement des mods nommés, pas des dossiers numériques; elle n’est donc pas prise pour un inventaire d’ID.
+- **Découverte** : comparer les dossiers numériques du dossier du jeu aux ID connus dans ce README, le catalogue `extensions/ReadMe.md` et les archives `extensions\<ID> - French TradFix.zip`. La racine `Mods` de ce projet contient actuellement des mods nommés, pas des dossiers numériques; elle n’est donc pas prise pour un inventaire d’ID.
 
 Le rapport distingue une traduction **complète** (audit de couverture et revue de toutes les entrées sources) d’un **complément** (ajout des clés manquantes et revue des valeurs exactement identiques à l’anglais). Les deux modes préservent les traductions françaises correctes : « complète » ne signifie pas réécrire aveuglément toutes les chaînes. Une égalité anglais/français est un indice, pas une preuve d’erreur.
 
@@ -37,7 +37,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\.tools\Update-RimWorld
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\.tools\Update-RimWorldModTranslations.ps1 -Action Export -ModId 1234567890 -ProjectPath '.'
 ```
 
-Les rapports JSON sont écrits sous `.tools/reports` et ignorés par Git. L’export copie uniquement les fichiers sous `Languages\French` vers `.tools\exports\<ID>`, conserve les chemins relatifs et vérifie chaque copie par SHA256. Il ne crée pas de dossier décompressé dans `Extensions`. Les sauvegardes de packages dans `Extensions` sont des archives ZIP nommées d’après le dossier du package (`<ID> - French TradFix.zip` ou `<nom> - French TradFix.zip`) ; leur contenu est le package lui-même, sans dossier enveloppe. Pour les mettre à jour, travailler dans un dossier temporaire hors de `Extensions`, puis remplacer l’archive seulement après validation.
+Les rapports JSON sont écrits sous `.tools/reports` et ignorés par Git. L’export copie uniquement les fichiers sous `Languages\French` vers `.tools\exports\<ID>`, conserve les chemins relatifs et vérifie chaque copie par SHA256. Il ne crée pas de dossier décompressé dans `extensions`. Les sauvegardes de packages dans `extensions` sont des archives ZIP nommées d’après le dossier du package (`<ID> - French TradFix.zip` ou `<nom> - French TradFix.zip`) ; leur contenu est le package lui-même, sans dossier enveloppe. Pour les mettre à jour, travailler dans un dossier temporaire hors de `extensions`, puis remplacer l’archive seulement après validation.
 
 Tous les mods et packages gérés par Skoltroy doivent utiliser `<url>https://rimworld.skoltroy.com</url>` dans `About\About.xml`. Lorsqu’un lien source ou Workshop est remplacé, conserver cette référence dans la description; ne jamais modifier les métadonnées du mod source Workshop.
 

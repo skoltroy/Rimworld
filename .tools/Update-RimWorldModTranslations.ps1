@@ -489,7 +489,7 @@ if (-not (Test-Path -LiteralPath $ProjectPath -PathType Container)) {
     throw "Dossier projet introuvable : '$ProjectPath'."
 }
 
-$extensionsPath = Join-Path $ProjectPath 'Extensions'
+$extensionsPath = Join-Path $ProjectPath 'extensions'
 $exportPath = Join-Path $ProjectPath '.tools\exports'
 $idsToProcess = @()
 if ($Action -eq 'Export') {
