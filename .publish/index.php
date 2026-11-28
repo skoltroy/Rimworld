@@ -145,7 +145,7 @@ $tab = static fn(string $id) => $activeTab === $id;
           <label>
             <span>Lignes</span>
             <select id="g-len">
-              <option>10</option><option selected>25</option><option>50</option><option>100</option><option value="0">Tout</option>
+              <option selected>10</option><option>25</option><option>50</option><option>100</option><option value="0">Tout</option>
             </select>
           </label>
           <button type="button" id="g-reset" class="button">Réinitialiser</button>
