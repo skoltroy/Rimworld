@@ -5,7 +5,7 @@ Ce projet regroupe les mods locaux et les extensions de traduction/correction po
 Site web : https://rimworld.skoltroy.com/
 
 - Dans le workspace VS Code, **Rimworld/Mods** pointe vers `D:\Games\RimWorld\Mods` et **Skoltroy/extensions** pointe vers la racine de ce dépôt; les archives sont dans `extensions\`.
-- [Catalogue des extensions et des mods suivis](extensions/ReadMe.md)
+- [Catalogue des extensions et des mods suivis](extensions/README.md)
 - Les ID numériques désignent les dossiers Workshop dans `D:\Games\RimWorld\Mods`.
 
 ## Workflow de traduction
@@ -13,7 +13,7 @@ Site web : https://rimworld.skoltroy.com/
 Le workflow de traduction est préparé par [Update-RimWorldModTranslations.ps1](.tools/Update-RimWorldModTranslations.ps1). Il prend en charge les deux modes suivants :
 
 - **ID fournis** : traiter un ou plusieurs ID numériques indiqués dans le chat.
-- **Découverte** : comparer les dossiers numériques du dossier du jeu aux ID connus dans ce README, le catalogue `extensions/ReadMe.md` et les archives `extensions\<ID> - French TradFix.zip`. La racine `Mods` de ce projet contient actuellement des mods nommés, pas des dossiers numériques; elle n’est donc pas prise pour un inventaire d’ID.
+- **Découverte** : comparer les dossiers numériques du dossier du jeu aux ID connus dans ce README, le catalogue `extensions/README.md` et les archives `extensions\<ID> - French TradFix.zip`. La racine `Mods` de ce projet contient actuellement des mods nommés, pas des dossiers numériques; elle n’est donc pas prise pour un inventaire d’ID.
 
 Le rapport distingue une traduction **complète** (audit de couverture et revue de toutes les entrées sources) d’un **complément** (ajout des clés manquantes et revue des valeurs exactement identiques à l’anglais). Les deux modes préservent les traductions françaises correctes : « complète » ne signifie pas réécrire aveuglément toutes les chaînes. Une égalité anglais/français est un indice, pas une preuve d’erreur.
 
@@ -72,13 +72,34 @@ Exécuter les tests PowerShell du sélecteur, du rapport de lacunes et de l’ex
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tests\Test-TranslationWorkflow.ps1
 ```
 
+## Site web (rimworld.skoltroy.com)
+
+La page `web/index.php` présente deux onglets :
+
+- **Mods du jeu** : le contenu officiel (jeu de base et DLC, dossier `RimWorld\Data`) et les mods Workshop installés (`RimWorld\Mods`), avec lien Steam. Chaque mod indique s’il dispose d’une extension Skoltroy (bouton de téléchargement et lien vers sa fiche) ou s’il a été examiné sans rien à traduire.
+- **Mes extensions** : les entrées de [extensions/README.md](extensions/README.md) avec téléchargement direct du ZIP depuis GitHub et lien vers le mod d’origine (Steam, et « dans le jeu » s’il est installé).
+
+Recherche, filtres, tri et pagination sont disponibles dans les deux onglets ; l’état est conservé dans l’URL (`?tab=…#q=…`) pour partager une recherche. Exports : `?format=json` (extensions) et `?format=json&tab=game` (mods du jeu).
+
+En production, le catalogue est lu sur GitHub (cache de 5 minutes, `?refresh` pour forcer) et l’inventaire du jeu provient de `game-mods.json`, généré à la construction. En local (dépôt Git présent), le site lit directement `extensions/README.md` et les dossiers du jeu : toute modification du README est visible immédiatement.
+
+### Lancer le site en local
+
+Tâche VS Code **serve** (Terminal › Exécuter la tâche), ou :
+
+```powershell
+php -S localhost:8080 -t web
+```
+
+Puis ouvrir <http://localhost:8080/>. Le chemin du jeu se change avec la variable d’environnement `RIMWORLD_MODS_PATH` (dossier `Mods`, le dossier `Data` voisin est lu pour le contenu officiel).
+
 ## Construction de la version publiée
 
 ```powershell
 php .tools/build-publish.php
 ```
 
-Tâches VS Code : **build** et **publish** (`.vscode/tasks.json`).
+Tâches VS Code : **build**, **publish** et **serve** (`.vscode/tasks.json`). La construction régénère aussi `.publish/game-mods.json` (contenu officiel + mods Workshop installés) : la relancer après l’ajout ou le retrait de mods dans le jeu.
 
 Dépendances : PHP 8.1 ou plus récent (CLI), extension `gd` et `curl`. Le script les contrôle et s'arrête en signalant ce qui manque. Rien n'est à installer sur IONOS.
 Bibliothèque commune : `.tools/publish-lib.php` (minification, optimisation des images, copie).

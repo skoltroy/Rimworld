@@ -1,6 +1,7 @@
 <?php
 /**
- * Catalogue lu dynamiquement dans extensions/ReadMe.md du dépôt GitHub skoltroy/SKOLTROY.rimworld.
+ * Catalogue lu dynamiquement dans extensions/README.md du dépôt GitHub skoltroy/SKOLTROY.rimworld,
+ * relié à l'inventaire du jeu installé (contenu officiel de RimWorld/Data et mods Workshop de RimWorld/Mods).
  *
  * - le ReadMe est lu sur raw.githubusercontent.com (hors quota API) et mis en cache CACHE_TTL secondes ;
  * - si GitHub ne répond pas, la dernière copie en cache est réutilisée ;
@@ -13,6 +14,225 @@ const GH_BRANCH = 'main';
 const GH_DIR    = 'extensions';
 const GH_README = ['README.md', 'ReadMe.md']; // nom suivi par Git : README.md
 const CACHE_TTL = 300;
+const RW_GAME_MODS_PATH = 'D:\\Games\\RimWorld\\Mods';
+const RW_GAME_DATA_PATH = 'D:\\Games\\RimWorld\\Data';
+
+/** Contenu officiel Ludeon (dossiers de RimWorld/Data) : nom affiché et identifiant d'application Steam. */
+const RW_OFFICIAL = [
+    'Core'     => ['name' => 'RimWorld (jeu de base)', 'appId' => '294100'],
+    'Royalty'  => ['name' => 'RimWorld – Royalty', 'appId' => '1149640'],
+    'Ideology' => ['name' => 'RimWorld – Ideology', 'appId' => '1392840'],
+    'Biotech'  => ['name' => 'RimWorld – Biotech', 'appId' => '1826140'],
+    'Anomaly'  => ['name' => 'RimWorld – Anomaly', 'appId' => '2380740'],
+    'Odyssey'  => ['name' => 'RimWorld – Odyssey', 'appId' => '3022790'],
+];
+
+function rw_official_entry(string $key): array
+{
+    if (!isset(RW_OFFICIAL[$key])) {
+        throw new InvalidArgumentException("Contenu officiel inconnu : $key");
+    }
+    return [
+        'id'   => $key,
+        'name' => RW_OFFICIAL[$key]['name'],
+        'url'  => 'https://store.steampowered.com/app/' . RW_OFFICIAL[$key]['appId'] . '/',
+        'kind' => 'official',
+    ];
+}
+
+/** Contenu officiel installé (jeu de base + DLC), dans l'ordre de sortie. */
+function rw_scan_official(string $dataRoot): array
+{
+    $out = [];
+    foreach (array_keys(RW_OFFICIAL) as $key) {
+        if (is_dir($dataRoot . DIRECTORY_SEPARATOR . $key)) {
+            $out[] = rw_official_entry($key);
+        }
+    }
+    return $out;
+}
+
+function rw_steam_url(string $id): string
+{
+    if (!preg_match('/^\d+$/D', $id)) {
+        throw new InvalidArgumentException('Un identifiant Steam Workshop doit être numérique.');
+    }
+
+    return 'https://steamcommunity.com/sharedfiles/filedetails/?id=' . rawurlencode($id);
+}
+
+/** Inventorie les dossiers Workshop numériques ; les packages locaux/extensions sont exclus. */
+function rw_scan_game_mods(string $modsRoot): array
+{
+    if (!is_dir($modsRoot)) {
+        throw new RuntimeException("Dossier des mods RimWorld introuvable : $modsRoot");
+    }
+
+    $mods = [];
+    foreach (new DirectoryIterator($modsRoot) as $directory) {
+        $folder = $directory->getFilename();
+        if ($directory->isDot() || !$directory->isDir() || !preg_match('/^\d+$/D', $folder)) {
+            continue;
+        }
+
+        $id = $folder;
+        $publishedIdPath = $directory->getPathname() . DIRECTORY_SEPARATOR . 'About' . DIRECTORY_SEPARATOR . 'PublishedFileId.txt';
+        if (is_file($publishedIdPath)) {
+            $publishedId = trim((string) file_get_contents($publishedIdPath));
+            if ($publishedId !== '' && preg_match('/^\d+$/D', $publishedId)) {
+                $id = $publishedId;
+            } elseif ($publishedId !== '') {
+                error_log("PublishedFileId invalide dans $publishedIdPath");
+            }
+        }
+
+        $name = $folder;
+        $aboutPath = $directory->getPathname() . DIRECTORY_SEPARATOR . 'About' . DIRECTORY_SEPARATOR . 'About.xml';
+        if (is_file($aboutPath)) {
+            $document = new DOMDocument();
+            $document->resolveExternals = false;
+            $document->substituteEntities = false;
+            $previousLibxmlState = libxml_use_internal_errors(true);
+            $loaded = $document->load($aboutPath, LIBXML_NONET);
+            $parseErrors = libxml_get_errors();
+            libxml_clear_errors();
+            libxml_use_internal_errors($previousLibxmlState);
+
+            if ($loaded) {
+                $nameNode = $document->getElementsByTagName('name')->item(0);
+                if ($nameNode && trim($nameNode->textContent) !== '') {
+                    $name = trim($nameNode->textContent);
+                }
+            } else {
+                $detail = $parseErrors ? trim($parseErrors[0]->message) : 'XML illisible';
+                error_log("About.xml invalide dans $aboutPath : $detail");
+            }
+        }
+
+        $mods[] = [
+            'id' => $id,
+            'name' => $name,
+            'url' => rw_steam_url($id),
+            'kind' => 'workshop',
+        ];
+    }
+
+    usort($mods, static fn(array $a, array $b): int => strnatcasecmp($a['name'], $b['name']) ?: strcmp($a['id'], $b['id']));
+    return $mods;
+}
+
+/**
+ * Contenu officiel puis mods Workshop : inventaire local en développement,
+ * inventaire embarqué (game-mods.json) en production.
+ */
+function rw_game_mods(): array
+{
+    $configuredRoot = getenv('RIMWORLD_MODS_PATH');
+    $modsRoot = $configuredRoot !== false && $configuredRoot !== '' ? $configuredRoot : RW_GAME_MODS_PATH;
+    if (is_dir($modsRoot)) {
+        return array_merge(rw_scan_official(dirname($modsRoot) . DIRECTORY_SEPARATOR . 'Data'), rw_scan_game_mods($modsRoot));
+    }
+
+    $manifestPath = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'game-mods.json';
+    if (!is_file($manifestPath)) {
+        throw new RuntimeException('Inventaire des mods indisponible : reconstruisez la publication depuis le dossier RimWorld/Mods.');
+    }
+
+    $json = file_get_contents($manifestPath);
+    if ($json === false) {
+        throw new RuntimeException("Impossible de lire l'inventaire : $manifestPath");
+    }
+
+    $manifest = json_decode($json, true);
+    if (json_last_error() !== JSON_ERROR_NONE || !is_array($manifest)) {
+        throw new RuntimeException("Inventaire JSON invalide : $manifestPath (" . json_last_error_msg() . ')');
+    }
+
+    $official = $workshop = [];
+    foreach ($manifest as $entry) {
+        $kind = is_array($entry) ? ($entry['kind'] ?? 'workshop') : null;
+        if ($kind === 'official' && is_string($entry['id'] ?? null) && isset(RW_OFFICIAL[$entry['id']])) {
+            $official[] = rw_official_entry($entry['id']);
+            continue;
+        }
+        if (
+            $kind !== 'workshop'
+            || !isset($entry['id'], $entry['name'])
+            || !is_string($entry['id'])
+            || !preg_match('/^\d+$/D', $entry['id'])
+            || !is_string($entry['name'])
+        ) {
+            throw new RuntimeException("Entrée invalide dans l'inventaire : $manifestPath");
+        }
+        $workshop[] = [
+            'id' => $entry['id'],
+            'name' => $entry['name'],
+            'url' => rw_steam_url($entry['id']),
+            'kind' => 'workshop',
+        ];
+    }
+
+    return array_merge($official, $workshop);
+}
+
+/**
+ * Relie les mods du jeu et les extensions dans les deux sens.
+ *
+ * - chaque extension reçoit `origin` (workshop, official, skoltroy, local) et `targets` (mods d'origine) ;
+ * - chaque mod du jeu reçoit `ext` (extensions téléchargeables) et `examined` (examiné sans package publié),
+ *   sous forme d'index dans la liste des extensions.
+ */
+function rw_link_catalog(array &$gameMods, array &$mods): void
+{
+    $byId = [];
+    foreach ($gameMods as $i => &$game) {
+        $game['ext'] = [];
+        $game['examined'] = [];
+        $byId[$game['id']] = $i;
+    }
+    unset($game);
+
+    $dlc = array_values(array_diff(array_keys(RW_OFFICIAL), ['Core']));
+    foreach ($mods as $i => &$mod) {
+        $targets = [];
+        if ($mod['ids']) {
+            $mod['origin'] = 'workshop';
+            $targets = $mod['ids'];
+        } elseif (preg_match('/^(' . implode('|', array_keys(RW_OFFICIAL)) . ')\b/i', $mod['package'] . ' ' . $mod['name'], $m)) {
+            $mod['origin'] = 'official';
+            $targets = [ucfirst(strtolower($m[1]))];
+        } elseif (preg_match('/^DLC\b/i', $mod['package'] ?: $mod['name'])) {
+            $mod['origin'] = 'official';
+            $targets = $dlc;
+        } elseif (preg_match('/Skoltroy/i', $mod['package'] . ' ' . $mod['name'] . ' ' . $mod['zipText'])) {
+            $mod['origin'] = 'skoltroy';
+        } else {
+            $mod['origin'] = 'local';
+        }
+
+        $mod['targets'] = [];
+        foreach ($targets as $id) {
+            $installed = isset($byId[$id]);
+            if ($installed) {
+                $game = $gameMods[$byId[$id]];
+            } elseif (isset(RW_OFFICIAL[$id])) {
+                $game = rw_official_entry($id);
+            } else {
+                $game = ['id' => $id, 'name' => '', 'url' => rw_steam_url($id), 'kind' => 'workshop'];
+            }
+            $mod['targets'][] = $game + ['installed' => $installed];
+            if ($installed) {
+                $gameMods[$byId[$id]][$mod['zips'] ? 'ext' : 'examined'][] = $i;
+            }
+        }
+        // Champs internes inutiles côté client
+        foreach ($mod['targets'] as &$t) {
+            unset($t['ext'], $t['examined']);
+        }
+        unset($t);
+    }
+    unset($mod);
+}
 
 function gh_raw_url(string $path): string
 {
@@ -38,14 +258,43 @@ function gh_get(string $url): ?string
         CURLOPT_HTTPHEADER     => ['User-Agent: rimworld-catalogue'],
         CURLOPT_ENCODING       => '',
     ]);
+    // Développement Windows : PHP souvent sans certificats racines (curl.cainfo vide) → bundle de Git for Windows
+    $ca = getenv('CURL_CA_BUNDLE') ?: '';
+    if ($ca === '' && PHP_OS_FAMILY === 'Windows' && !ini_get('curl.cainfo')) {
+        $ca = 'C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt';
+    }
+    if ($ca !== '' && is_file($ca)) {
+        curl_setopt($ch, CURLOPT_CAINFO, $ca);
+    }
     $body = curl_exec($ch);
     $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    if ($body === false || $code !== 200) {
+        error_log("GitHub : échec de lecture de $url (HTTP $code" . ($body === false ? ', ' . curl_error($ch) : '') . ')');
+    }
     curl_close($ch);
     return ($body !== false && $code === 200) ? (string)$body : null;
 }
 
-/** Retourne ['markdown', 'path', 'fetched', 'stale'] (cache fichier, repli sur la dernière copie). */
+/**
+ * Retourne ['markdown', 'path', 'fetched', 'stale', 'local'] ; `stale` = GitHub injoignable au dernier essai.
+ *
+ * GitHub est interrogé au plus une fois par CACHE_TTL (succès ou échec), avec repli sur la dernière copie.
+ * En développement (dépôt Git présent), le contenu affiché est celui du README local extensions/README.md,
+ * mais l'accès à GitHub est tout de même vérifié pour l'indicateur d'état.
+ */
 function gh_readme(bool $refresh = false): array
+{
+    $data = gh_readme_remote($refresh);
+    foreach (GH_README as $name) {
+        $local = dirname(__DIR__, 2) . '/' . GH_DIR . '/' . $name;
+        if (is_file($local) && is_dir(dirname(__DIR__, 2) . '/.git')) {
+            return ['markdown' => (string)file_get_contents($local), 'path' => GH_DIR . '/' . $name, 'local' => true] + $data;
+        }
+    }
+    return $data;
+}
+
+function gh_readme_remote(bool $refresh): array
 {
     $dir = dirname(__DIR__) . '/cache';
     if (!is_dir($dir)) {
@@ -53,23 +302,25 @@ function gh_readme(bool $refresh = false): array
     }
     $file = $dir . '/readme.json';
     $cached = is_file($file) ? json_decode((string)file_get_contents($file), true) : null;
-    if (!$refresh && $cached && time() - ($cached['fetched'] ?? 0) < CACHE_TTL) {
-        return $cached;
+    $cached = is_array($cached) ? $cached : ['markdown' => '', 'path' => GH_DIR . '/' . GH_README[0], 'fetched' => 0, 'stale' => true];
+    $checked = $cached['checked'] ?? $cached['fetched'] ?? 0;
+    if (!$refresh && time() - $checked < CACHE_TTL) {
+        return $cached + ['local' => false];
     }
+    $data = null;
     foreach (GH_README as $name) {
         $path = GH_DIR . '/' . $name;
         $md = gh_get(gh_raw_url($path));
         if ($md !== null) {
             $data = ['markdown' => $md, 'path' => $path, 'fetched' => time(), 'stale' => false];
-            @file_put_contents($file, json_encode($data, JSON_UNESCAPED_UNICODE), LOCK_EX);
-            return $data;
+            break;
         }
     }
-    if ($cached) {
-        $cached['stale'] = true;
-        return $cached;
-    }
-    return ['markdown' => '', 'path' => GH_DIR . '/' . GH_README[0], 'fetched' => 0, 'stale' => true];
+    // En cas d'échec, on garde la dernière copie et on note l'essai pour ne pas réinterroger GitHub à chaque visite.
+    $data = ($data ?? array_merge($cached, ['stale' => true])) + ['checked' => time()];
+    $data['checked'] = time();
+    @file_put_contents($file, json_encode($data, JSON_UNESCAPED_UNICODE), LOCK_EX);
+    return $data + ['local' => false];
 }
 
 /* ---------- Markdown ---------- */
@@ -253,6 +504,11 @@ function rw_parse_readme(string $md): array
         $dateIso = preg_match('#^(\d{2})/(\d{2})/(\d{4})$#', $date, $d) ? "$d[3]-$d[2]-$d[1]" : null;
 
         preg_match_all('/\b\d{6,}\b/', $get('id'), $idm);
+        $ids = array_values(array_unique($idm[0]));
+        $steamLinks = array_map(
+            static fn(string $id): array => ['id' => $id, 'url' => rw_steam_url($id)],
+            $ids
+        );
         $zips = [];
         preg_match_all('/`([^`]+\.zip)`/i', $get('zip'), $zm);
         foreach ($zm[1] as $z) {
@@ -267,7 +523,8 @@ function rw_parse_readme(string $md): array
             'n'           => $n,
             'date'        => $dateIso ? $date : '',
             'dateIso'     => $dateIso,
-            'ids'         => array_values(array_unique($idm[0])),
+            'ids'         => $ids,
+            'steamLinks'  => $steamLinks,
             'idHtml'      => md_inline($get('id')),
             'name'        => md_text($get('name')),
             'nameHtml'    => md_inline($get('name')),

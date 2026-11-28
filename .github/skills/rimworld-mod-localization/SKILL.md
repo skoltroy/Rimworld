@@ -40,8 +40,8 @@ Helper scripts live in `scripts\` next to this file:
 ## Select mods and scope
 
 - If the user names numeric Workshop IDs, use those IDs and verify each folder exists under `D:\Games\RimWorld\Mods`.
-- If the user says a mod was **added** ("j'ai ajouté N mods") and gives no ID, find the new folders by `LastWriteTime` in the game folder, filter out IDs already in `extensions\` or `extensions\ReadMe.md`, and show the candidates with their names (`About\About.xml`). Confirm the list when more than N candidates match. The discovery report lists dozens of untracked IDs, so do not treat it as the answer on its own.
-- Discovery is a comparison between the game Mods folder and IDs already tracked in the project README, `extensions\ReadMe.md`, and backup ZIPs named `<ID> - French TradFix.zip`. Do not recreate unpacked backup folders.
+- If the user says a mod was **added** ("j'ai ajouté N mods") and gives no ID, find the new folders by `LastWriteTime` in the game folder, filter out IDs already in `extensions\` or `extensions\README.md`, and show the candidates with their names (`About\About.xml`). Confirm the list when more than N candidates match. The discovery report lists dozens of untracked IDs, so do not treat it as the answer on its own.
+- Discovery is a comparison between the game Mods folder and IDs already tracked in the project README, `extensions\README.md`, and backup ZIPs named `<ID> - French TradFix.zip`. Do not recreate unpacked backup folders.
 - Ask whether the requested work is **complete** or a **supplement** when the user has not already specified it:
   - Complete: audit coverage and review every loaded source user-facing entry. Add or correct translations where needed, while preserving valid French; it does not mean blindly replacing every value.
   - Supplement: preserve correct French and add missing entries; review exact English/French duplicates as candidates, not as proof of errors.
@@ -89,7 +89,7 @@ Helper scripts live in `scripts\` next to this file:
 - After the staged French resources are validated, export only `Languages\French` resources with `.tools\Update-RimWorldModTranslations.ps1 -Action Export -ModId <one ID> -SourceModsPath <staging-root> -ProjectPath '.'`. The staging root must contain `<ID>\Languages\French`; never point this export at the live upstream Mods directory. Run it once per ID: the script rejects comma-separated lists. It stages files under `.tools\exports\<ID>\...` (outside `extensions`) and verifies each copy by SHA-256.
 - Build/update the live `<ID> - French TradFix` package from its package metadata (`About`, applicable `LoadFolders`) and the validated export. Create its backup ZIP from an isolated staging copy outside `extensions`, with package-root paths and no wrapper directory. Reopen the ZIP, validate XML and SHA-256 against the live package, then replace the prior archive. Do not create a new extracted backup folder in `extensions`; preserve existing legacy folders. Keep TSV batches, extraction reports, and helper scripts out of the live package and ZIP.
 - Never copy the whole mod or delete unrelated files.
-- Update `extensions\ReadMe.md`: add rows at the top of the first table (newest first) with the date, declared mod version and RimWorld versions from `About.xml` (do not invent versions), and a concise summary with validation results and limitations. Keep the existing file name; Git tracks it as `extensions/README.md`.
+- Update `extensions\README.md`: add rows at the top of the first table (newest first) with the date, declared mod version and RimWorld versions from `About.xml` (do not invent versions), and a concise summary with validation results and limitations.
 
 ## Project workflow
 

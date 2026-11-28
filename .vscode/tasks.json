@@ -10,7 +10,9 @@
       ],
       "options": {
         "cwd": "${workspaceFolder}",
-        "env": { "PUBLISH_SANS_VERSION": "1" }
+        "env": {
+          "PUBLISH_SANS_VERSION": "1"
+        }
       },
       "problemMatcher": [],
       "group": "build"
@@ -26,6 +28,36 @@
         "cwd": "${workspaceFolder}"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "serve",
+      "detail": "Site en local sur http://localhost:8080/",
+      "type": "process",
+      "command": "php",
+      "args": [
+        "-S",
+        "localhost:8080",
+        "-t",
+        "web"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "php",
+        "pattern": {
+          "regexp": "^__never__$"
+        },
+        "background": {
+          "beginsPattern": "^.*PHP.*Development Server",
+          "endsPattern": "^.*started"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
     }
   ]
 }
